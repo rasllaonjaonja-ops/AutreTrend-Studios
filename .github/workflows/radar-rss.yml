@@ -2,6 +2,12 @@ name: AutreTrend RSS Radar
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "sources.json"
+      - ".github/workflows/radar-rss.yml"
   schedule:
     - cron: "17 */6 * * *"
 
