@@ -27,10 +27,10 @@ OFFICIAL_DOMAINS = {
     "science-saru.com", "bones.co.jp", "pierrot.jp", "pierrot.jp",
     "bandainamcoarts.co.jp", "bnarts.jp", "production-ig.co.jp",
     "netflix.com", "about.netflix.com", "media.netflix.com",
-    "crunchyroll.com", "disneyplus.com", "primevideo.com",
+    "disneyplus.com", "primevideo.com",
     "toho.co.jp", "tohoanimation.com", "kadokawa.co.jp",
     "hakusensha.co.jp", "square-enix.com", "magazine.jp",
-    "tv-tokyo.co.jp", "ntv.co.jp", "fuji tv.co.jp"
+    "tv-tokyo.co.jp", "ntv.co.jp"
 }
 NEWS_DOMAINS = {
     "animenewsnetwork.com", "crunchyroll.com", "myanimelist.net",
@@ -144,11 +144,11 @@ def main():
             "human_review_required": True,
             "publication_allowed": False,
             "draft_fr": (
-                "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\\n\\n"
-                "Sujet : " + str(trend.get("title", "")) + "\\n"
+                "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\n"
+                "Sujet : " + str(trend.get("title", "")) + "\n"
                 "État : " + ("Une page de première partie a été repérée, mais chaque détail doit être comparé à son texte." if evidence else "Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.") +
-                "\\n\\nSources médias : " + ", ".join(trend.get("sources", [])) +
-                "\\nPublication interdite avant validation humaine."
+                "\n\nSources médias : " + ", ".join(trend.get("sources", [])) +
+                "\nPublication interdite avant validation humaine."
             )
         })
 
@@ -161,13 +161,13 @@ def main():
         "policy": "Un lien officiel repéré n'est pas une validation automatique du fait. Vérifier séparément chaque date, format, studio, casting, nombre d'épisodes et territoire."
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     QUEUE.write_text(json.dumps({
         "generated_at": payload["checked_at"],
         "count": len(queue),
         "items": queue,
         "notice": "Briefs de travail uniquement. Aucun contenu n'est prêt à publier sans validation humaine."
-    }, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Vérification : {len(checks)} pages contrôlées; {payload['official_link_found']} avec lien officiel repéré; {len(errors)} erreur(s).")
     print(f"File éditoriale : {len(queue)} briefs non publiables générés.")
 
