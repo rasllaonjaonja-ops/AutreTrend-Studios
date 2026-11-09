@@ -87,6 +87,10 @@ def publisher_name(source_name):
         return "Anime News Network"
     if "shonen jump" in name:
         return "Shueisha / Shonen Jump+"
+    if "crunchyroll" in name:
+        return "Crunchyroll"
+    if "myanimelist" in name or "my anime list" in name:
+        return "MyAnimeList"
     return source_name.strip()
 
 def title_tokens(title):
@@ -196,7 +200,7 @@ payload = {
     "item_count": len(result),
     "items": result[:100],
     "trend_count": len(trends),
-    "trends": trends[:30],
+    "trends": trends,
     "errors": errors,
     "notice": "Scores heuristiques fondés sur les titres, la fraîcheur et les éditeurs distincts. Ils ne mesurent ni les vues ni la viralité. Une tendance multi-source reste à vérifier."
 }
