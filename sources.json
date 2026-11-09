@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "name": "Anime News Network – News",
+      "url": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
+      "category": "anime-manga",
+      "language": "en",
+      "enabled": true
+    }
+  ],
+  "note": "Sources initiales vérifiées; ajouter d'autres flux après validation technique."
+}
