@@ -14,8 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 RADAR = ROOT / "data" / "radar.json"
 OUT = ROOT / "data" / "verification.json"
 QUEUE = ROOT / "data" / "editorial_queue.json"
-MAX_ARTICLES = 45
-TIMEOUT = 12
+MAX_ARTICLES = 25
+TIMEOUT = 8
 
 # Liste volontairement conservatrice : les médias généralistes ne sont pas traités comme preuves officielles.
 OFFICIAL_DOMAINS = {
@@ -119,7 +119,7 @@ def main():
             errors.append({"url": url, "error": str(exc)[:180]})
             result["status"] = "page source inaccessible — vérification humaine requise"
         checks.append(result)
-        time.sleep(0.15)
+        time.sleep(0.1)
 
     # Les sujets sont reliés à leurs articles via leurs URLs. Aucune validation automatique du fond.
     by_url = {c["article_url"]: c for c in checks}
