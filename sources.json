@@ -6,6 +6,20 @@
       "category": "anime-manga",
       "language": "en",
       "enabled": true
+    },
+    {
+      "name": "Anime News Network – All Articles",
+      "url": "https://www.animenewsnetwork.com/all/rss.xml",
+      "category": "anime-manga",
+      "language": "en",
+      "enabled": true
+    },
+    {
+      "name": "Shonen Jump+ – Atom",
+      "url": "https://shonenjumpplus.com/atom",
+      "category": "manga-official",
+      "language": "ja",
+      "enabled": true
     }
   ],
   "note": "Sources initiales vérifiées; ajouter d'autres flux après validation technique."
