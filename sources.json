@@ -20,6 +20,20 @@
       "category": "manga-official",
       "language": "ja",
       "enabled": true
+    },
+    {
+      "name": "Crunchyroll News – RSS",
+      "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
+      "category": "anime-manga",
+      "language": "en",
+      "enabled": true
+    },
+    {
+      "name": "MyAnimeList News – RSS",
+      "url": "https://myanimelist.net/rss/news.xml",
+      "category": "anime-manga",
+      "language": "en",
+      "enabled": true
     }
   ],
   "note": "Sources initiales vérifiées; ajouter d'autres flux après validation technique."
