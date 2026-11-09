@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Collecte RSS/Atom sans dépendance externe pour AutreTrend Studios."""
+"""Collecte RSS/Atom et classement éditorial indicatif pour AutreTrend Studios."""
 import json
-import os
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))["sources"]
@@ -17,8 +18,34 @@ KEYWORDS = {
     "season": 4, "trailer": 5, "teaser": 5, "announcement": 5,
     "announced": 5, "premiere": 5, "release": 4, "volume": 3,
     "chapter": 3, "one piece": 4, "naruto": 4, "jujutsu": 4,
-    "demon slayer": 4, "chainsaw man": 4, "my hero academia": 4
+    "demon slayer": 4, "chainsaw man": 4, "my hero academia": 4,
+    "spy family": 4, "dragon ball": 4, "studio": 2, "movie": 3,
+    "film": 3, "episode": 2, "netflix": 2, "crunchyroll": 2
 }
+STOPWORDS = {
+    "the", "and", "for", "with", "from", "this", "that", "new", "more",
+    "anime", "manga", "gets", "get", "its", "are", "was", "has", "have",
+    "des", "les", "une", "dans", "pour", "avec", "sur", "qui", "est",
+    "the", "of", "to", "on", "in", "a", "an"
+}
+
+class TextOnly(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+    def handle_data(self, data):
+        value = data.strip()
+        if value:
+            self.parts.append(value)
+
+def clean_text(value):
+    parser = TextOnly()
+    try:
+        parser.feed(value or "")
+        value = " ".join(parser.parts)
+    except Exception:
+        value = re.sub(r"<[^>]+>", " ", value or "")
+    return re.sub(r"\s+", " ", value).strip()
 
 def local_name(tag):
     return tag.rsplit("}", 1)[-1].lower()
@@ -33,29 +60,105 @@ def parse_date(value):
     if not value:
         return ""
     try:
-        return parsedate_to_datetime(value).astimezone(timezone.utc).isoformat()
+        parsed = parsedate_to_datetime(value)
     except Exception:
         try:
-            return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc).isoformat()
+            parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
         except Exception:
             return ""
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc).isoformat()
+
+def parse_timestamp(value):
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+    except Exception:
+        return 0
 
 def score(title, summary):
     text = (title + " " + summary).lower()
-    points = sum(weight for word, weight in KEYWORDS.items() if word in text)
-    return min(points, 100)
+    return min(sum(weight for word, weight in KEYWORDS.items() if word in text), 100)
+
+def publisher_name(source_name):
+    # Deux flux d'un même éditeur ne valent qu'une seule source indépendante.
+    name = source_name.lower()
+    if "anime news network" in name:
+        return "Anime News Network"
+    if "shonen jump" in name:
+        return "Shueisha / Shonen Jump+"
+    return source_name.strip()
+
+def title_tokens(title):
+    words = re.findall(r"[a-z0-9]{3,}", title.lower())
+    return {w for w in words if w not in STOPWORDS}
+
+def similarity(a, b):
+    ta, tb = title_tokens(a), title_tokens(b)
+    if not ta or not tb:
+        return 0.0
+    return len(ta & tb) / len(ta | tb)
+
+def build_trends(items, now):
+    candidates = [x for x in items if x["score"] >= 4 and title_tokens(x["title"])]
+    parent = list(range(len(candidates)))
+    def root(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+    for i in range(len(candidates)):
+        for j in range(i + 1, len(candidates)):
+            # Seuil volontairement élevé pour éviter de fusionner deux événements proches.
+            if similarity(candidates[i]["title"], candidates[j]["title"]) >= 0.52:
+                ri, rj = root(i), root(j)
+                if ri != rj:
+                    parent[rj] = ri
+    groups = {}
+    for i, item in enumerate(candidates):
+        groups.setdefault(root(i), []).append(item)
+
+    trends = []
+    for group in groups.values():
+        publishers = sorted({publisher_name(x["source"]) for x in group})
+        newest = max((parse_timestamp(x["published_at"]) for x in group), default=0)
+        age_hours = max(0, (now.timestamp() - newest) / 3600) if newest else 999
+        freshness = max(0, 30 - min(age_hours, 72) * (30 / 72))
+        relevance = max((x["score"] for x in group), default=0)
+        coverage = min(len(publishers), 4)
+        # Score heuristique, pas une mesure d'audience ni de viralité.
+        heat = round(min(100, relevance * 0.9 + freshness + max(0, coverage - 1) * 12))
+        if len(publishers) >= 2:
+            status = "multi-source à confirmer"
+        else:
+            status = "signal à surveiller"
+        ordered = sorted(group, key=lambda x: (x["published_at"], x["score"]), reverse=True)
+        trends.append({
+            "id": ordered[0]["id"],
+            "title": ordered[0]["title"],
+            "score": heat,
+            "article_count": len(group),
+            "source_count": len(publishers),
+            "sources": publishers,
+            "published_at": ordered[0]["published_at"],
+            "status": status,
+            "articles": [{"title": x["title"], "url": x["url"], "source": x["source"]} for x in ordered[:8]]
+        })
+    return sorted(trends, key=lambda x: (x["score"], x["source_count"], x["published_at"]), reverse=True)
 
 items, errors = [], []
-for source in SOURCES:
-    if not source.get("enabled", True):
-        continue
+enabled_sources = [s for s in SOURCES if s.get("enabled", True)]
+for source in enabled_sources:
     try:
-        request = urllib.request.Request(source["url"], headers={"User-Agent": "AutreTrendStudios/0.1 (RSS reader)"})
+        request = urllib.request.Request(
+            source["url"],
+            headers={"User-Agent": "AutreTrendStudios/0.2 (+RSS editorial reader)"}
+        )
         with urllib.request.urlopen(request, timeout=20) as response:
             root = ET.fromstring(response.read())
         entries = [node for node in root.iter() if local_name(node.tag) in ("item", "entry")]
         for entry in entries[:40]:
-            title = child_text(entry, {"title"})
+            title = clean_text(child_text(entry, {"title"}))
             link = child_text(entry, {"link"})
             if not link:
                 for node in list(entry):
@@ -63,30 +166,40 @@ for source in SOURCES:
                         link = node.attrib.get("href", "")
                         if link:
                             break
-            summary = child_text(entry, {"description", "summary", "encoded", "content"})
+            summary = clean_text(child_text(entry, {"description", "summary", "encoded", "content"}))
             date = child_text(entry, {"pubdate", "published", "updated", "date"})
             if title and link.startswith(("https://", "http://")):
                 items.append({
-                    "id": link, "title": re.sub(r"\\s+", " ", title).strip(),
-                    "url": link, "summary": re.sub(r"<[^>]+>", " ", summary)[:500],
-                    "published_at": parse_date(date), "source": source["name"],
+                    "id": link, "title": title, "url": link,
+                    "summary": summary[:500], "published_at": parse_date(date),
+                    "source": source["name"],
+                    "publisher": publisher_name(source["name"]),
                     "category": source.get("category", "anime-manga"),
                     "language": source.get("language", "und"),
-                    "score": score(title, summary), "verification": "à vérifier"
+                    "score": score(title, summary),
+                    "verification": "à vérifier"
                 })
     except Exception as exc:
         errors.append({"source": source.get("name", "unknown"), "error": str(exc)[:240]})
 
 unique = {}
 for item in items:
-    unique.setdefault(item["url"], item)
+    existing = unique.get(item["url"])
+    if existing is None or item["score"] > existing["score"]:
+        unique[item["url"]] = item
 result = sorted(unique.values(), key=lambda x: (x["score"], x["published_at"]), reverse=True)
+now = datetime.now(timezone.utc)
+trends = build_trends(result, now)
 payload = {
-    "updated_at": datetime.now(timezone.utc).isoformat(),
-    "source_count": sum(1 for s in SOURCES if s.get("enabled", True)),
-    "item_count": len(result), "items": result[:100], "errors": errors,
-    "notice": "Classement indicatif par mots-clés, pas une mesure de viralité. Chaque information doit être vérifiée."
+    "updated_at": now.isoformat(),
+    "source_count": len(enabled_sources),
+    "item_count": len(result),
+    "items": result[:100],
+    "trend_count": len(trends),
+    "trends": trends[:30],
+    "errors": errors,
+    "notice": "Scores heuristiques fondés sur les titres, la fraîcheur et les éditeurs distincts. Ils ne mesurent ni les vues ni la viralité. Une tendance multi-source reste à vérifier."
 }
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(f"Radar: {len(result)} éléments; {len(errors)} erreur(s) de flux.")
+print(f"Radar: {len(result)} articles; {len(trends)} groupes de sujets; {len(errors)} erreur(s) de flux.")
