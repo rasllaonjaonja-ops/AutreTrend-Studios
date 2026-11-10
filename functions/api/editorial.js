@@ -2,6 +2,37 @@ const MODEL = "@cf/zai-org/glm-4.7-flash";
 const PLATFORMS = ["facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest"];
 const MIN_SUMMARY_WORDS = 45;
 
+const FRENCH_MARKERS = new Set([
+  "le", "la", "les", "des", "une", "un", "pour", "avec", "dans", "est",
+  "sont", "cette", "ces", "sur", "par", "du", "de", "et", "mais", "apres",
+  "selon", "annonce", "annoncee", "nouveau", "nouvelle", "episode", "saison",
+  "au", "aux", "ce", "cet", "sa", "son", "ses", "notre", "leurs"
+]);
+const ENGLISH_MARKERS = new Set([
+  "the", "and", "for", "with", "from", "this", "that", "gets", "get", "has",
+  "have", "new", "announced", "reveals", "will", "its", "their", "about",
+  "after", "series"
+]);
+
+function detectTextLanguage(value) {
+  const text = String(value || "");
+  if (/[ぁ-んァ-ン一-龯々ー]/u.test(text)) return "ja";
+  const plain = text.normalize("NFKD").toLowerCase().replace(/\\p{M}/gu, "");
+  const words = new Set(plain.match(/[a-z]{2,}/g) || []);
+  if (!words.size) return "und";
+  let french = 0;
+  let english = 0;
+  for (const word of words) {
+    if (FRENCH_MARKERS.has(word)) french++;
+    if (ENGLISH_MARKERS.has(word)) english++;
+  }
+  const hasFrenchAccent = /[àâçéèêëîïôùûüÿœ]/i.test(text);
+  if (hasFrenchAccent && french >= english) return "fr";
+  if (french >= 2 && french > english) return "fr";
+  if (english >= 2 && english > french) return "en";
+  return "und";
+}
+
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
@@ -148,23 +179,29 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   }
   if (!parsed.trend_synthesis || !Array.isArray(parsed.trend_synthesis.key_facts)
       || parsed.trend_synthesis.key_facts.length < 1
-      || !parsed.trend_synthesis.key_facts.every(x => typeof x === "string" && wordCount(x) >= 5)
+      || !parsed.trend_synthesis.key_facts.every(x => typeof x === "string" && wordCount(x) >= 5 && detectTextLanguage(x) === "fr")
       || !Array.isArray(parsed.trend_synthesis.reported_but_unconfirmed)
-      || !parsed.trend_synthesis.reported_but_unconfirmed.every(x => typeof x === "string" && wordCount(x) >= 4)
+      || !parsed.trend_synthesis.reported_but_unconfirmed.every(x => typeof x === "string" && wordCount(x) >= 4 && detectTextLanguage(x) === "fr")
       || typeof parsed.trend_synthesis.coverage_summary !== "string"
       || wordCount(parsed.trend_synthesis.coverage_summary) < 8
+      || detectTextLanguage(parsed.trend_synthesis.coverage_summary) !== "fr"
       || typeof parsed.trend_synthesis.editorial_context !== "string"
-      || wordCount(parsed.trend_synthesis.editorial_context) < 8) {
-    throw new Error("Synthèse croisée des tendances absente ou trop faible");
+      || wordCount(parsed.trend_synthesis.editorial_context) < 8
+      || detectTextLanguage(parsed.trend_synthesis.editorial_context) !== "fr") {
+    throw new Error("Synthèse croisée des tendances absente, trop faible ou non française");
   }
   const briefErrors = [];
   if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4) briefErrors.push("title_fr doit contenir au moins 4 mots");
+  else if (detectTextLanguage(parsed.title_fr) !== "fr") briefErrors.push("title_fr doit être en français");
   if (typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < MIN_SUMMARY_WORDS) briefErrors.push(`summary_fr doit contenir au moins ${MIN_SUMMARY_WORDS} mots`);
+  else if (detectTextLanguage(parsed.summary_fr) !== "fr") briefErrors.push("summary_fr doit être en français");
   if (typeof parsed.editorial_angle !== "string" || wordCount(parsed.editorial_angle) < 8) briefErrors.push("editorial_angle doit contenir au moins 8 mots");
+  else if (detectTextLanguage(parsed.editorial_angle) !== "fr") briefErrors.push("editorial_angle doit être en français");
   if (typeof parsed.discussion_question !== "string" || wordCount(parsed.discussion_question) < 6
       || !parsed.discussion_question.trim().endsWith("?")) briefErrors.push("discussion_question doit contenir au moins 6 mots et finir par ?");
+  else if (detectTextLanguage(parsed.discussion_question) !== "fr") briefErrors.push("discussion_question doit être en français");
   if (!Array.isArray(parsed.claims_to_verify)
-      || !parsed.claims_to_verify.every(x => typeof x === "string" && wordCount(x) >= 4)) {
+      || !parsed.claims_to_verify.every(x => typeof x === "string" && wordCount(x) >= 4 && detectTextLanguage(x) === "fr")) {
     briefErrors.push("claims_to_verify doit être un tableau de chaînes françaises de 4 mots minimum");
   }
   if (briefErrors.length) throw new Error("Brief éditorial incomplet : " + briefErrors.join("; "));
@@ -173,12 +210,19 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     if (wordCount(parsed.posts[platform]) < minimumWords[platform]) {
       throw new Error("Contenu trop court pour " + platform + " (" + wordCount(parsed.posts[platform]) + "/" + minimumWords[platform] + " mots)");
     }
+    if (detectTextLanguage(parsed.posts[platform]) !== "fr") {
+      throw new Error("Contenu " + platform + " non français");
+    }
   }
   for (const platform of ["youtube", "pinterest"]) {
     const minimumDescriptionWords = platform === "youtube" ? 50 : 35;
     if (wordCount(parsed.posts[platform].description) < minimumDescriptionWords
         || parsed.posts[platform].title.trim().length < 45) {
       throw new Error("Titre ou description trop court pour " + platform);
+    }
+    if (detectTextLanguage(parsed.posts[platform].title) !== "fr"
+        || detectTextLanguage(parsed.posts[platform].description) !== "fr") {
+      throw new Error("Titre ou description " + platform + " non français");
     }
   }
   // Ajustement mécanique sans ajout de faits : X est ramené à la limite du réseau
