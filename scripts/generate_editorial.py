@@ -53,6 +53,7 @@ def main():
             "trend_id": item.get("trend_id", ""),
             "title": item.get("title", ""),
             "source_excerpt": item.get("source_excerpt", "")[:1200],
+            "source_url": item.get("source_excerpt_url", ""),
             "sources": item.get("media", [])[:8],
             "source_countries": item.get("source_countries", []),
             "market_countries": item.get("market_countries", []),
@@ -77,6 +78,10 @@ def main():
         print(f"IA éditoriale indisponible : {str(exc)[:200]}. Brouillons de secours conservés.")
         return 0
 
+    if not isinstance(result, dict) or not isinstance(result.get("items"), list):
+        print("IA éditoriale : réponse inattendue; brouillons de secours conservés.")
+        return 0
+
     generated = {
         item.get("trend_id"): item
         for item in result.get("items", [])
@@ -98,8 +103,27 @@ def main():
         item["editorial_angle"] = str(draft.get("editorial_angle", "")).strip()
         item["discussion_question"] = str(draft.get("discussion_question", "")).strip()
         item["claims_to_verify"] = draft.get("claims_to_verify", [])[:12]
+        posts = dict(draft["posts"])
+        source_url = str(item.get("source_excerpt_url", "")).strip()
+        if source_url.startswith("https://"):
+            publishers = ", ".join(item.get("media", [])[:3])
+            source_note = "\\nSource à consulter : " + publishers + "\\n" + source_url
+            for key in ("facebook", "instagram", "threads", "telegram"):
+                posts[key] = str(posts[key]).rstrip() + source_note
+            posts["youtube"] = {
+                **posts["youtube"],
+                "description": str(posts["youtube"]["description"]).rstrip() + source_note
+            }
+            posts["pinterest"] = {
+                **posts["pinterest"],
+                "description": str(posts["pinterest"]["description"]).rstrip() + source_note
+            }
+            posts["tiktok"] = str(posts["tiktok"]).rstrip() + "\\nSource à consulter : " + publishers
+            x_post = str(posts["x"]).rstrip()
+            x_with_link = x_post + " " + source_url
+            posts["x"] = x_with_link if len(x_with_link) <= 280 else x_post[:250].rstrip()
         item["social_posts"] = {
-            **draft["posts"],
+            **posts,
             "language_ready": True,
             "translation_required": False,
             "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
