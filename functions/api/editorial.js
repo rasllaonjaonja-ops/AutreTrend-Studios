@@ -71,8 +71,8 @@ function wordCount(value) {
 
 function tidyEditorialText(value, deduplicate = false) {
   const text = String(value || "")
-    .replace(/[ \\t]+([,;:.!?])/g, "$1")
-    .replace(/([!?])\\s+\\./g, "$1")
+    .replace(/[ \t]+([,;:.!?])/g, "$1")
+    .replace(/([!?])\s+\./g, "$1")
     .trim();
   if (!deduplicate) return text;
   const sentences = text.match(/[^.!?…]+(?:[.!?…]+|$)/g) || [text];
@@ -80,13 +80,13 @@ function tidyEditorialText(value, deduplicate = false) {
   const kept = [];
   for (const sentence of sentences) {
     const normalized = sentence.toLowerCase().normalize("NFKD")
-      .replace(/\\p{M}/gu, "")
-      .replace(/[^\\p{L}\\p{N}]+/gu, " ").trim();
+      .replace(/\p{M}/gu, "")
+      .replace(/[^\p{L}\p{N}]+/gu, " ").trim();
     if (!normalized || seen.has(normalized)) continue;
     seen.add(normalized);
     kept.push(sentence.trim());
   }
-  return kept.join(" ").replace(/[ \\t]+([,;:.!?])/g, "$1").trim();
+  return kept.join(" ").replace(/[ \t]+([,;:.!?])/g, "$1").trim();
 }
 
 function fitXPost(value) {
