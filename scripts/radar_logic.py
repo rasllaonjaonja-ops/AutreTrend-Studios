@@ -18,7 +18,7 @@ FRENCH_MARKERS = {
 ENGLISH_MARKERS = {
     "the", "and", "for", "with", "from", "this", "that", "gets", "get", "has",
     "have", "new", "announced", "reveals", "will", "its", "their", "about",
-    "after", "season", "movie", "film", "episode", "series",
+    "after", "series",
 }
 
 
