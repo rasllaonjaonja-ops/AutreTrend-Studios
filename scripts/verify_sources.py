@@ -110,7 +110,24 @@ def main():
     items = radar.get("items", [])
     checks = []
     errors = []
-    for item in items[:MAX_ARTICLES]:
+    # Échantillon de vérification équilibré : priorité aux articles récents,
+    # puis au score. Une page non contrôlée ne sera jamais présentée comme
+    # dépourvue de lien officiel.
+    def verification_rank(item):
+        age = age_hours_for_sampling(item.get("published_at"))
+        return (age is not None, age if age is not None else 10**9, -int(item.get("score", 0) or 0))
+    def age_hours_for_sampling(value):
+        try:
+            from datetime import datetime, timezone
+            dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            hours = (datetime.now(timezone.utc) - dt).total_seconds() / 3600
+            return hours if -24 <= hours <= 168 * 30 else None
+        except Exception:
+            return None
+    selected_items = sorted(items, key=verification_rank)[:MAX_ARTICLES]
+    for item in selected_items:
         url = item.get("url", "")
         host = (urlparse(url).hostname or "").lower().removeprefix("www.")
         result = {
@@ -208,12 +225,13 @@ def main():
         title = str(trend.get("title", "")).strip()
         low_title = title.lower()
         trend_articles = trend.get("articles", [])
-        evidence, summaries, article_urls = [], [], []
+        evidence, summaries, article_urls, checked_urls = [], [], [], []
         for article in trend_articles:
             url = article.get("url", "")
             article_urls.append(url)
             check = by_url.get(url)
             if check:
+                checked_urls.append(url)
                 evidence.extend(check["official_evidence"])
             original = radar_items.get(url, {})
             snippet = original.get("summary", "").strip()
@@ -232,6 +250,7 @@ def main():
         excluded_format = any(term in low_title for term in excluded_terms)
         has_official = bool(evidence)
         cross_checked = publisher_count >= 2
+        verification_coverage = len(set(checked_urls))
         reasons = []
         if excluded_format:
             reasons.append("format critique/recap écarté du flux prioritaire")
@@ -245,6 +264,8 @@ def main():
             reasons.append("source unique sans lien officiel repéré")
         if not summaries and score_value < 60:
             reasons.append("aucun résumé exploitable dans le flux RSS")
+        if verification_coverage == 0:
+            reasons.append("page source non contrôlée : aucun statut de lien officiel disponible")
         if reasons:
             rejected.append({"title": title, "reasons": reasons})
             continue
@@ -256,7 +277,13 @@ def main():
         # En cas de doute, le texte reste bloqué comme traduction à contrôler.
         summary_language = detect_text_language(summary)
         title_language = primary_item.get("title_language", trend.get("title_language", "und"))
-        posts = make_social_posts(title, summary, summary_language, sources, primary_url, has_official)
+        # Un brouillon n'est considéré prêt en français que si le titre ET
+        # l'extrait le sont. Traduire uniquement le résumé laisserait le titre anglais.
+        posts = make_social_posts(
+            title, summary,
+            "fr" if title_language == "fr" and summary_language == "fr" else "und",
+            sources, primary_url, has_official
+        )
         if has_official:
             editorial_status = "lien officiel repéré — détails à relire"
         elif cross_checked:
@@ -271,6 +298,11 @@ def main():
             "media": sources,
             "articles": trend_articles,
             "official_evidence": evidence,
+            "verification_coverage": {
+                "checked_articles": verification_coverage,
+                "total_articles": len(article_urls),
+                "status": "checked" if verification_coverage else "not_checked"
+            },
             "editorial_status": editorial_status,
             "human_review_required": True,
             "publication_allowed": False,
@@ -287,6 +319,7 @@ def main():
     payload = {
         "checked_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
         "checked_articles": len(checks),
+        "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
         "official_link_found": sum(bool(x["official_evidence"]) for x in checks),
         "errors": errors,
         "checks": checks,
