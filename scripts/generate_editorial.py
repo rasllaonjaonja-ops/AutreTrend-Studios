@@ -23,6 +23,35 @@ def word_count(value):
     return len(str(value or "").split())
 
 
+def fit_x_post(value, max_chars=260):
+    """Conserve un message X complet; ne coupe jamais un mot en plein milieu."""
+    text = " ".join(str(value or "").split())
+    last_punctuation = max(text.rfind("."), text.rfind("!"), text.rfind("?"), text.rfind("…"))
+    if last_punctuation >= 0:
+        complete = text[:last_punctuation + 1].strip()
+        if len(complete) <= max_chars and word_count(complete) >= 8:
+            return complete
+    if len(text) <= max_chars and text.endswith((".", "!", "?", "…")):
+        return text
+    prefix = text[:max_chars - 1]
+    boundary = prefix.rfind(" ")
+    if boundary < 1:
+        raise ValueError("Message X impossible à raccourcir proprement")
+    shortened = prefix[:boundary].rstrip() + "…"
+    if word_count(shortened) < 8:
+        raise ValueError("Message X trop court après ajustement")
+    return shortened
+
+
+def add_x_source_link(post, source_url, max_chars=260):
+    """Ajoute l'URL uniquement si elle tient sans tronquer le texte éditorial."""
+    text = fit_x_post(post, max_chars=max_chars)
+    url = str(source_url or "").strip()
+    if url.startswith("https://") and len(text) + 1 + len(url) <= max_chars:
+        return text + " " + url
+    return text
+
+
 def post_validation_errors(posts):
     """Retourne les contrôles précis qui empêchent l'acceptation des textes sociaux."""
     if not isinstance(posts, dict):
@@ -356,9 +385,7 @@ def main():
                 "description": str(posts["pinterest"]["description"]).rstrip() + source_note
             }
             posts["tiktok"] = str(posts["tiktok"]).rstrip() + "\nSource à consulter : " + publishers
-            x_post = str(posts["x"]).rstrip()
-            x_with_link = x_post + " " + source_url
-            posts["x"] = x_with_link if len(x_with_link) <= 280 else x_post[:250].rstrip()
+            posts["x"] = add_x_source_link(posts["x"], source_url, max_chars=260)
         item["social_posts"] = {
             **posts,
             "language_ready": True,
