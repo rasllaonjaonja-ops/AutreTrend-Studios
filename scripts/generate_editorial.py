@@ -45,19 +45,34 @@ def valid_posts(posts):
     return True
 
 
+def save_generation_status(queue, status, notice, model=""):
+    queue["ai_generated_count"] = 0
+    queue["ai_generation_status"] = status
+    queue["ai_model"] = model
+    queue["ai_notice"] = notice
+    QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+
+
 def main():
     endpoint = os.environ.get("AUTOTREND_AI_URL", "").strip()
     token = os.environ.get("AUTOTREND_AI_TOKEN", "").strip()
+    queue = json.loads(QUEUE.read_text(encoding="utf-8"))
+    items = queue.get("items", [])
     if not endpoint or not token:
-        print("IA éditoriale non configurée : les brouillons sûrs restent disponibles, traduction à relire.")
+        save_generation_status(
+            queue, "blocked_configuration",
+            "Rédaction IA non activée : configurer AUTOTREND_AI_URL et AUTOTREND_AI_TOKEN dans les secrets GitHub Actions. Les brouillons restent non publiables."
+        )
+        print("IA éditoriale bloquée : secrets GitHub Actions manquants.")
         return 0
 
     if not endpoint.startswith("https://"):
+        save_generation_status(
+            queue, "blocked_insecure_endpoint",
+            "Rédaction IA bloquée : l'endpoint doit utiliser HTTPS. Aucune publication n'est autorisée."
+        )
         print("IA éditoriale ignorée : l'endpoint doit utiliser HTTPS.")
         return 0
-
-    queue = json.loads(QUEUE.read_text(encoding="utf-8"))
-    items = queue.get("items", [])
     if not items:
         print("Aucun sujet éligible à rédiger.")
         return 0
@@ -90,10 +105,18 @@ def main():
         with urllib.request.urlopen(request, timeout=55) as response:
             result = json.loads(response.read().decode("utf-8"))
     except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+        save_generation_status(
+            queue, "unavailable",
+            "Service IA indisponible : " + str(exc)[:180] + ". Les brouillons restent non publiables."
+        )
         print(f"IA éditoriale indisponible : {str(exc)[:200]}. Brouillons de secours conservés.")
         return 0
 
     if not isinstance(result, dict) or not isinstance(result.get("items"), list):
+        save_generation_status(
+            queue, "invalid_response",
+            "Le service IA a renvoyé une réponse invalide. Les brouillons restent non publiables."
+        )
         print("IA éditoriale : réponse inattendue; brouillons de secours conservés.")
         return 0
 
@@ -179,8 +202,9 @@ def main():
         accepted += 1
 
     queue["ai_generated_count"] = accepted
+    queue["ai_generation_status"] = "generated" if accepted == len(items[:3]) else ("partial" if accepted else "rejected")
     queue["ai_model"] = result.get("model", "")
-    queue["ai_notice"] = "Rédaction assistée par IA, traduction et adaptations à relire. Validation humaine obligatoire; aucune publication automatique."
+    queue["ai_notice"] = "Rédaction assistée par IA, adaptations spécifiques à chaque réseau. Validation humaine obligatoire; aucune publication automatique."
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"IA éditoriale : {accepted}/{len(items[:3])} prépublication(s) françaises validées structurellement; contrôle humain toujours requis.")
     return 0
