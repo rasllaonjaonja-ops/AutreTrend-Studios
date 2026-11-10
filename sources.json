@@ -231,7 +231,7 @@
     },
     {
       "name": "Google News – Japan",
-      "url": "https://news.google.com/rss/search?q=アニメ+OR+漫画&hl=ja&gl=JP&ceid=JP:ja",
+      "url": "https://news.google.com/rss/search?q=%E3%82%A2%E3%83%8B%E3%83%A1+OR+%E6%BC%AB%E7%94%BB&hl=ja&gl=JP&ceid=JP:ja",
       "category": "anime-manga-market",
       "language": "ja",
       "country": "Google News",
