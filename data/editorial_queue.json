@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:43:50.311452+00:00",
+  "generated_at": "2026-11-10T12:45:06.230780+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 404,
+  "rejected_count": 403,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -666,5 +666,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "unavailable",
   "ai_model": "",
-  "ai_notice": "Service IA indisponible : HTTP 502 — {\"error\":\"Editorial generation failed\",\"detail\":\"Error: Synthèse croisée des tendances absente ou trop faible\"}. Les brouillons restent non publiables."
+  "ai_notice": "Service IA indisponible : HTTP 502 — {\"error\":\"Editorial generation failed\",\"detail\":\"Error: Contenu trop court pour facebook\"}. Les brouillons restent non publiables."
 }
