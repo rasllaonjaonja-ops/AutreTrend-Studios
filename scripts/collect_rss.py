@@ -87,10 +87,16 @@ def score(title, summary):
     text = (title + " " + summary).lower()
     return min(sum(weight for word, weight in KEYWORDS.items() if word in text), 100)
 
+def is_aggregator_source(source_name):
+    """Les agrégateurs ne comptent jamais comme éditeurs indépendants."""
+    name = str(source_name or "").lower()
+    return "google actualités" in name or "google actualites" in name or "google news" in name
+
+
 def publisher_name(source_name):
     # Deux flux d'un même éditeur ne valent qu'une seule source indépendante.
     name = source_name.lower()
-    if "google actualités" in name or "google news" in name:
+    if is_aggregator_source(name):
         return "Google News (agrégateur)"
     if "anime news network" in name:
         return "Anime News Network"
@@ -153,7 +159,14 @@ def build_trends(items, now):
 
     trends = []
     for group in groups.values():
-        editorial_group = [x for x in group if x.get("source_type") != "market_search"]
+        # Google News et Google Actualités sont des agrégateurs :
+        # leurs reprises ne constituent ni un éditeur indépendant ni un article éditorial supplémentaire.
+        editorial_group = [
+            x for x in group
+            if x.get("source_type") != "market_search"
+            and not is_aggregator_source(x.get("source", ""))
+        ]
+        aggregator_group = [x for x in group if is_aggregator_source(x.get("source", ""))]
         market_group = [x for x in group if x.get("source_type") == "market_search"]
         publishers = sorted({publisher_name(x["source"]) for x in editorial_group})
         primary_sources = sorted({
@@ -179,7 +192,10 @@ def build_trends(items, now):
         else:
             status = "signal à surveiller"
         priority = "priorité élevée" if heat >= 70 else ("à examiner" if heat >= 50 else "veille")
-        ordered = sorted(group, key=lambda x: (x["published_at"], x["score"]), reverse=True)
+        # Si des articles de médias directs existent, les copies Google News
+        # sont écartées de la liste de preuves et des rapports transmis à l'IA.
+        source_group = editorial_group or aggregator_group or market_group
+        ordered = sorted(source_group, key=lambda x: (x["published_at"], x["score"]), reverse=True)
         trends.append({
             "id": ordered[0]["id"],
             "title": ordered[0]["title"],
