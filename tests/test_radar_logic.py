@@ -1,7 +1,10 @@
 """Tests de non-régression pour la logique du Radar."""
 import unittest
 
-from scripts.verify_sources import Links, MAX_PREPUBLICATIONS, SOCIAL_NETWORKS, enrich_source_reports
+from scripts.verify_sources import (
+    Links, MAX_PREPUBLICATIONS, SOCIAL_NETWORKS, enrich_source_reports,
+    age_hours_for_sampling, verification_rank,
+)
 from scripts.radar_logic import (
     detect_text_language, event_parts, same_event, same_franchise,
     diversify_queue, evidence_level, coverage_score,
@@ -110,6 +113,18 @@ class RadarLogicTests(unittest.TestCase):
         self.assertEqual(reports[0]["published_at"], "2026-11-10T08:00:00+00:00")
         self.assertEqual(reports[1]["summary"], "")
         self.assertEqual(reports[1]["summary_status"], "missing")
+
+    def test_verification_sample_prioritizes_fresh_articles_and_defers_unknown_dates(self):
+        from datetime import datetime, timezone
+        now = datetime(2026, 11, 11, 12, 0, tzinfo=timezone.utc)
+        fresh = {"published_at": "2026-11-11T08:00:00+00:00", "score": 50}
+        older = {"published_at": "2026-11-08T08:00:00+00:00", "score": 99}
+        unknown = {"published_at": "", "score": 100}
+        stale = {"published_at": "2026-08-01T08:00:00+00:00", "score": 100}
+        ordered = sorted([unknown, stale, older, fresh], key=lambda item: verification_rank(item, now))
+        self.assertEqual(ordered, [fresh, older, unknown, stale])
+        self.assertEqual(age_hours_for_sampling(fresh["published_at"], now), 4)
+        self.assertIsNone(age_hours_for_sampling(stale["published_at"], now))
 
     def test_media_coverage_is_not_truth_confirmation(self):
         self.assertEqual(evidence_level(1), "single_publisher_signal")
