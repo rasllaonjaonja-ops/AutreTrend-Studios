@@ -5,6 +5,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
+from urllib.parse import urlsplit
 from pathlib import Path
 
 try:
@@ -84,6 +85,9 @@ def main():
         )
         print("IA éditoriale bloquée : secrets GitHub Actions manquants.")
         return 0
+
+    endpoint_host = urlsplit(endpoint).hostname or "hôte invalide"
+    print(f"Endpoint IA (hôte) : {endpoint_host}")
 
     if not endpoint.startswith("https://"):
         save_generation_status(
