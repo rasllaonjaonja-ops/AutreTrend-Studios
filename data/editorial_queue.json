@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T22:05:34.937635+00:00",
-  "count": 1,
+  "generated_at": "2026-11-10T22:07:33.172978+00:00",
+  "count": 0,
   "daily_goal": 3,
   "selected_networks": [
     "facebook",
@@ -12,10 +12,16 @@
     "telegram",
     "pinterest"
   ],
-  "network_variant_count": 8,
+  "network_variant_count": 0,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 409,
+  "rejected_count": 410,
   "rejected_sample": [
+    {
+      "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
+      "reasons": [
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
     {
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "reasons": [
@@ -72,16 +78,6 @@
       ]
     },
     {
-      "title": "Exclusive: Made in Abyss: Awakening Mystery Heads to HIDIVE in 2027, North American Premiere Set for December 5",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "Crunchyroll Streams Suikoden Anime",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -93,6 +89,16 @@
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Exclusive: Made in Abyss: Awakening Mystery Heads to HIDIVE in 2027, North American Premiere Set for December 5",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -150,7 +156,7 @@
       ]
     },
     {
-      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film - Anime News Network",
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -212,6 +218,7 @@
     {
       "title": "Kodama Tales Licenses Baki Hanma, A Mandala in Flames & More Manga for Summer 2027 Release - Anime Trending",
       "reasons": [
+        "aucun éditeur indépendant : agrégateur seul, sujet non admissible",
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
@@ -255,201 +262,11 @@
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
-    },
-    {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
   "diversity_policy": "Maximum 1 prépublication par franchise dans les trois sujets du jour, pour privilégier trois actualités réellement distinctes.",
   "diversity_excluded_count": 0,
-  "items": [
-    {
-      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-      "score_indicatif": 65,
-      "media_count": 3,
-      "media": [
-        "Anime News Network",
-        "Animotaku",
-        "Crunchyroll"
-      ],
-      "source_countries": [
-        "France",
-        "United States"
-      ],
-      "source_regions": [
-        "Europe",
-        "North America"
-      ],
-      "market_countries": [
-        "France",
-        "United States"
-      ],
-      "market_regions": [
-        "Europe",
-        "North America"
-      ],
-      "primary_sources": [],
-      "primary_source_count": 0,
-      "source_excerpt_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
-      "source_excerpt_checked": true,
-      "articles": [
-        {
-          "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "title_language": "fr",
-          "url": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-          "source": "Animotaku",
-          "source_type": "editorial_site",
-          "source_country": "France",
-          "market_country": null,
-          "feed_sources": [
-            "Animotaku"
-          ],
-          "summary": "",
-          "publisher": "Animotaku",
-          "published_at": "",
-          "language": "fr",
-          "summary_status": "missing",
-          "date_status": "unknown"
-        },
-        {
-          "title": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime - Crunchyroll",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ],
-          "summary": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll",
-          "publisher": "Google News (agrégateur)",
-          "published_at": "2026-11-10T05:30:00+00:00",
-          "language": "fr",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ],
-          "summary": "Hitsujibungaku performs \"life\" for February 11 film",
-          "publisher": "Anime News Network",
-          "published_at": "2026-11-10T00:49:27+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual - Crunchyroll",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcURLUmY5Y3pVdjVIX2tuNDZWeTJ0ME91dkkzeDFlT1BhdHgxTEp2cUQ5WXA5MUxRVzJON3N0aExQMlJYVElYMVA0N3pxTnpfSmhoQVAxSWYxeDZWLWZxb2JmZGttWHJ0SzgxNlRIWWYtTzI4LW1CZWhzZjJvX1JiemR3bjBKU3RfZTBndjhBMEVOQkI5LWc2eVJuSzZIM3NfWlQxN1lJS3RpRW9KQnFQRy13ZUJ1NUxpbERhYw?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – India",
-            "Google News – Philippines",
-            "Google News – United Kingdom",
-            "Google News – United States"
-          ],
-          "summary": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual Crunchyroll",
-          "publisher": "Google News (agrégateur)",
-          "published_at": "2026-11-10T00:17:00+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ],
-          "summary": "Shingo Natsume's feature film releases in Japan on February 11, 2027",
-          "publisher": "Crunchyroll",
-          "published_at": "2026-11-10T00:17:00+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        }
-      ],
-      "official_evidence": [],
-      "verification_coverage": {
-        "checked_articles": 1,
-        "total_articles": 5,
-        "status": "checked"
-      },
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "fr",
-      "summary_language": "fr",
-      "source_excerpt": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll",
-      "social_posts": {
-        "language_ready": true,
-        "translation_required": false,
-        "translation_note": "",
-        "facebook": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #film #ghost #end\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
-        "instagram": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #film #ghost #end\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
-        "tiktok": "ACCROCHE : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nSCRIPT À LIRE : ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #film #ghost #end",
-        "x": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel — ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll #Anime #Manga #film #ghost #end",
-        "threads": "On vient de repérer cette actualité : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "description": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5\n\n#Anime #Manga #film #ghost #end"
-        },
-        "telegram": "📰 Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
-        "pinterest": {
-          "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "description": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n#Anime #Manga #film #ghost #end\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\nExtrait RSS : ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Animotaku, Crunchyroll\nNe pas publier avant contrôle des faits et de la traduction."
-    }
-  ],
-  "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
-  "ai_generation_diagnostics": [
-    {
-      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-      "response_received": true,
-      "response_valid": true,
-      "draft_returned": false,
-      "accepted": false,
-      "validation_errors": [
-        "Error: Contenu trop court pour instagram (32/45 mots)"
-      ]
-    }
-  ],
-  "ai_validation_errors": [
-    {
-      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Contenu trop court pour instagram (32/45 mots)"
-    }
-  ],
-  "ai_generated_count": 0,
-  "ai_generation_status": "rejected",
-  "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour instagram (32/45 mots); Error: Contenu trop court pour instagram (32/45 mots)"
+  "items": [],
+  "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique."
 }
