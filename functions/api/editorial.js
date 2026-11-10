@@ -116,7 +116,10 @@ async function generateOne(item, env) {
   }
   const wordCount = value => String(value || "").trim().split(/\s+/).filter(Boolean).length;
   if (!parsed.trend_synthesis || !Array.isArray(parsed.trend_synthesis.key_facts)
+      || parsed.trend_synthesis.key_facts.length < 1
+      || !parsed.trend_synthesis.key_facts.every(x => typeof x === "string" && wordCount(x) >= 5)
       || !Array.isArray(parsed.trend_synthesis.reported_but_unconfirmed)
+      || !parsed.trend_synthesis.reported_but_unconfirmed.every(x => typeof x === "string")
       || typeof parsed.trend_synthesis.coverage_summary !== "string"
       || wordCount(parsed.trend_synthesis.coverage_summary) < 8
       || typeof parsed.trend_synthesis.editorial_context !== "string"
