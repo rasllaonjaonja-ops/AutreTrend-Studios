@@ -127,20 +127,31 @@ def build_trends(items, now):
         publishers = sorted({publisher_name(x["source"]) for x in group})
         newest = max((parse_timestamp(x["published_at"]) for x in group), default=0)
         age_hours = max(0, (now.timestamp() - newest) / 3600) if newest else 999
-        freshness = max(0, 30 - min(age_hours, 72) * (30 / 72))
+        freshness = max(0, 100 * (1 - min(age_hours, 72) / 72)) if newest else 0
         relevance = max((x["score"] for x in group), default=0)
-        coverage = min(len(publishers), 4)
-        # Score heuristique, pas une mesure d'audience ni de viralité.
-        heat = round(min(100, relevance * 0.9 + freshness + max(0, coverage - 1) * 12))
+        coverage = 100 if len(publishers) >= 3 else (70 if len(publishers) == 2 else 35)
+        volume = 100 if len(group) >= 4 else (70 if len(group) >= 2 else 35)
+        # Priorité éditoriale indicative : pertinence 35 %, fraîcheur 30 %,
+        # diversité des éditeurs 25 %, volume d'articles 10 %.
+        # Ce score ne mesure ni les vues, ni la viralité, ni la véracité.
+        heat = round(min(100, relevance * 0.35 + freshness * 0.30 + coverage * 0.25 + volume * 0.10))
         if len(publishers) >= 2:
             status = "multi-source à confirmer"
         else:
             status = "signal à surveiller"
+        priority = "priorité élevée" if heat >= 70 else ("à examiner" if heat >= 50 else "veille")
         ordered = sorted(group, key=lambda x: (x["published_at"], x["score"]), reverse=True)
         trends.append({
             "id": ordered[0]["id"],
             "title": ordered[0]["title"],
             "score": heat,
+            "priority": priority,
+            "score_breakdown": {
+                "relevance": round(relevance),
+                "freshness": round(freshness),
+                "independent_sources": len(publishers),
+                "article_volume": len(group)
+            },
             "article_count": len(group),
             "source_count": len(publishers),
             "sources": publishers,
@@ -202,7 +213,7 @@ payload = {
     "trend_count": len(trends),
     "trends": trends,
     "errors": errors,
-    "notice": "Scores heuristiques fondés sur les titres, la fraîcheur et les éditeurs distincts. Ils ne mesurent ni les vues ni la viralité. Une tendance multi-source reste à vérifier."
+    "notice": "Priorité éditoriale indicative : pertinence du sujet (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs indépendants (25 %) et volume d'articles (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier."
 }
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
