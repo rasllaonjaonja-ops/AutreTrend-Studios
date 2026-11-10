@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:45:50.282514+00:00",
+  "updated_at": "2026-11-10T05:02:23.538009+00:00",
   "source_count": 6,
   "sources": [
     "Anime News Network – News",
@@ -41,7 +41,7 @@
       "unique_items": 37
     }
   },
-  "item_count": 192,
+  "item_count": 193,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -1784,7 +1784,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
     },
@@ -2664,6 +2663,25 @@
       "canonical_url": "https://us.oricon-group.com/news/9459",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/interest/2026-11-09/vinland-saga-creator-makoto-yukimura-addresses-comments-on-ai-imagery/.243647",
+      "title": "Vinland Saga Creator Makoto Yukimura Addresses Comments on AI Imagery",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-09/vinland-saga-creator-makoto-yukimura-addresses-comments-on-ai-imagery/.243647",
+      "summary": "Yukimura: “AI steals art, and I'm in trouble if AI develops too much. The reason why we are in trouble is because AI does a good job to some extent. It's just a fact. It is not an affirmation.”",
+      "published_at": "2026-11-10T04:59:00+00:00",
+      "source": "Anime News Network – All Articles",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 0,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/interest/2026-11-09/vinland-saga-creator-makoto-yukimura-addresses-comments-on-ai-imagery/.243647",
+      "feed_sources": [
+        "Anime News Network – All Articles"
       ]
     },
     {
@@ -3727,7 +3745,7 @@
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 100,
+        "freshness": 99,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3883,7 +3901,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 26,
-        "freshness": 94,
+        "freshness": 93,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3914,7 +3932,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 32,
-        "freshness": 43,
+        "freshness": 42,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3955,7 +3973,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 95,
+        "freshness": 94,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4062,38 +4080,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
-      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
-      "title_language": "en",
-      "score": 47,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 15,
-        "freshness": 97,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-10T02:31:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://myanimelist.net/news/74922872?_location=rss",
       "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
       "title_language": "en",
@@ -4101,7 +4087,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 19,
-        "freshness": 94,
+        "freshness": 93,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4167,6 +4153,38 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
+      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
+      "title_language": "en",
+      "score": 46,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 96,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-10T02:31:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
       "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
       "title_language": "en",
@@ -4174,7 +4192,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 14,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4324,37 +4342,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
-      "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
-      "title_language": "en",
-      "score": 44,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 21,
-        "freshness": 80,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-09T14:16:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
       "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
       "title_language": "en",
@@ -4362,7 +4349,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 89,
+        "freshness": 88,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4382,6 +4369,37 @@
           "feed_sources": [
             "Anime News Network – All Articles",
             "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
+      "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
+      "title_language": "en",
+      "score": 43,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 21,
+        "freshness": 79,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-09T14:16:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -4457,7 +4475,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 88,
+        "freshness": 87,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4537,7 +4555,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 89,
+        "freshness": 88,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4568,7 +4586,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4600,7 +4618,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 84,
+        "freshness": 83,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4619,37 +4637,6 @@
           "source": "Anime News Network – All Articles",
           "feed_sources": [
             "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
-      "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 5,
-        "freshness": 85,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-09T17:58:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -4811,6 +4798,37 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
+      "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
+      "title_language": "en",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 5,
+        "freshness": 85,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-09T17:58:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/review/blue-box-season-2/episode-5/.243630",
       "title": "Blue Box Season 2 ‒ Episode 5",
       "title_language": "en",
@@ -4880,7 +4898,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 63,
+        "freshness": 62,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4973,7 +4991,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 79,
+        "freshness": 78,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5092,38 +5110,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
-      "title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11",
-      "title_language": "en",
-      "score": 38,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 16,
-        "freshness": 66,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T04:02:35+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
       "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
       "title_language": "en",
@@ -5225,7 +5211,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 73,
+        "freshness": 72,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5241,6 +5227,38 @@
           "title": "Heisei Haizan-hei ☆ Sumire-chan Manga Resumes on November 16",
           "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/heisei-haizan-hei-sumire-chan-manga-resumes-on-november-16/.243640",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
+      "title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11",
+      "title_language": "en",
+      "score": 37,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 16,
+        "freshness": 65,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T04:02:35+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – All Articles",
@@ -5289,7 +5307,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 63,
+        "freshness": 62,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5391,7 +5409,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 19,
-        "freshness": 6,
+        "freshness": 5,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -5450,7 +5468,6 @@
           "url": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
           "source": "Anime News Network – News",
           "feed_sources": [
-            "Anime News Network – All Articles",
             "Anime News Network – News"
           ]
         }
@@ -5560,37 +5577,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
-      "title": "Bride of the Barrier Master Anime Streams Videos for Leads Hana Ichise, Saku Ichinomiya",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 42,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-08T10:53:36+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Bride of the Barrier Master Anime Streams Videos for Leads Hana Ichise, Saku Ichinomiya",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
       "title": "'Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.' Second Season in Production",
       "title_language": "en",
@@ -5622,6 +5608,37 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
+      "title": "Bride of the Barrier Master Anime Streams Videos for Leads Hana Ichise, Saku Ichinomiya",
+      "title_language": "en",
+      "score": 27,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 41,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-08T10:53:36+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Bride of the Barrier Master Anime Streams Videos for Leads Hana Ichise, Saku Ichinomiya",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/rascal-does-not-dream-of-a-dear-friend-anime-film-clip-kaede",
       "title": "Rascal Does Not Dream of a Dear Friend Anime Film Shares New Clip Featuring Kaede",
       "title_language": "en",
@@ -5629,7 +5646,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 16,
+        "freshness": 15,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5834,37 +5851,6 @@
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74913365?_location=rss",
-      "title": "'Houkago no Idol ni wa Himitsu ga Aru' Reveals Additional Cast, Ending Theme",
-      "title_language": "en",
-      "score": 22,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 21,
-        "freshness": 7,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-07T09:30:53+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Houkago no Idol ni wa Himitsu ga Aru' Reveals Additional Cast, Ending Theme",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74913365?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
           ]
         }
       ]
@@ -6094,7 +6080,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 7,
+        "freshness": 6,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6118,6 +6104,37 @@
       ]
     },
     {
+      "id": "https://myanimelist.net/news/74913365?_location=rss",
+      "title": "'Houkago no Idol ni wa Himitsu ga Aru' Reveals Additional Cast, Ending Theme",
+      "title_language": "en",
+      "score": 21,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 21,
+        "freshness": 6,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-07T09:30:53+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'Houkago no Idol ni wa Himitsu ga Aru' Reveals Additional Cast, Ending Theme",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74913365?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://myanimelist.net/news/74912747?_location=rss",
       "title": "Mixed Media Project 'Harajuku Himegoto House' Announces TV Anime Adaptation",
       "title_language": "en",
@@ -6125,7 +6142,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 25,
-        "freshness": 1,
+        "freshness": 0,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6679,7 +6696,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 6,
+        "freshness": 5,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6695,37 +6712,6 @@
           "title": "Bless TV Anime's 1st Full Promo Video Announces January 8 Debut",
           "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-07/bless-tv-anime-1st-full-promo-video-announces-january-8-debut/.243605",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
-      "title": "Abema Selects Project PRISMation's 1st Open Call Finalists to Make 3 Pilot Anime",
-      "title_language": "en",
-      "score": 17,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 5,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-07T08:19:34+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Abema Selects Project PRISMation's 1st Open Call Finalists to Make 3 Pilot Anime",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – News"
@@ -6912,6 +6898,37 @@
           "title": "Makoto Furukawa Writes, Sings Ending for One-Punch Man Season 3's 2nd Part",
           "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-07/makoto-furukawa-writes-sings-ending-for-one-punch-man-season-3-2nd-part/.243608",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
+      "title": "Abema Selects Project PRISMation's 1st Open Call Finalists to Make 3 Pilot Anime",
+      "title_language": "en",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 5,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-07T08:19:34+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Abema Selects Project PRISMation's 1st Open Call Finalists to Make 3 Pilot Anime",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – News"
