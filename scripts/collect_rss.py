@@ -177,7 +177,10 @@ def build_trends(items, now):
         source_regions = sorted({x.get("source_region", "International") for x in editorial_group if x.get("source_region")})
         market_countries = sorted({x.get("market_country") for x in group if x.get("market_country")})
         market_regions = sorted({x.get("market_region") for x in group if x.get("market_region")})
-        newest = max((parse_timestamp(x["published_at"]) for x in group), default=0)
+        # La fraîcheur est calculée sur les éditeurs directs, pas sur l'heure
+        # à laquelle Google News a simplement repris leur article.
+        freshness_group = editorial_group or group
+        newest = max((parse_timestamp(x["published_at"]) for x in freshness_group), default=0)
         age_hours = max(0, (now.timestamp() - newest) / 3600) if newest else 999
         freshness = max(0, 100 * (1 - min(age_hours, 72) / 72)) if newest else 0
         relevance = max((x["score"] for x in group), default=0)
@@ -206,7 +209,7 @@ def build_trends(items, now):
                 "relevance": round(relevance),
                 "freshness": round(freshness),
                 "independent_sources": len(publishers),
-                "article_volume": len(group)
+                "article_volume": len(editorial_group)
             },
             "article_count": len(editorial_group),
             "market_signal_count": len(market_group),
