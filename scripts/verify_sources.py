@@ -225,7 +225,7 @@ def main():
         title = str(trend.get("title", "")).strip()
         low_title = title.lower()
         trend_articles = trend.get("articles", [])
-        evidence, summaries, article_urls, checked_urls = [], [], [], []
+        evidence, summary_candidates, article_urls, checked_urls = [], [], [], []
         for article in trend_articles:
             url = article.get("url", "")
             article_urls.append(url)
@@ -235,11 +235,18 @@ def main():
                 evidence.extend(check["official_evidence"])
             original = radar_items.get(url, {})
             snippet = original.get("summary", "").strip()
-            if snippet and snippet not in summaries:
-                summaries.append(snippet)
+            if snippet and all(existing[0] != snippet for existing in summary_candidates):
+                summary_candidates.append((
+                    snippet,
+                    detect_text_language(snippet),
+                    url,
+                    bool(check)
+                ))
         evidence = list({x["url"]: x for x in evidence}.values())
         sources = trend.get("sources", [])
         publisher_count = int(trend.get("source_count", 0) or 0)
+        primary_source_count = int(trend.get("primary_source_count", 0) or 0)
+        primary_sources = trend.get("primary_sources", [])
         score_value = int(trend.get("score", 0) or 0)
         known_ages = [
             age_hours(radar_items.get(u, {}).get("published_at"))
@@ -270,9 +277,19 @@ def main():
             rejected.append({"title": title, "reasons": reasons})
             continue
 
-        primary_url = article_urls[0] if article_urls else ""
+        # Choisir l'extrait le plus exploitable : français d'abord, puis page
+        # effectivement contrôlée, puis longueur utile. L'URL suit toujours
+        # exactement l'article dont provient l'extrait retenu.
+        summary_candidates.sort(
+            key=lambda row: (row[1] == "fr", row[3], min(len(row[0]), 420)),
+            reverse=True
+        )
+        summary, summary_language, primary_url, summary_page_checked = (
+            summary_candidates[0] if summary_candidates else ("", "und", "", False)
+        )
+        if not primary_url and article_urls:
+            primary_url = article_urls[0]
         primary_item = radar_items.get(primary_url, {})
-        summary = summaries[0] if summaries else ""
         # La langue du résumé est détectée indépendamment de celle du titre.
         # En cas de doute, le texte reste bloqué comme traduction à contrôler.
         summary_language = detect_text_language(summary)
@@ -286,6 +303,8 @@ def main():
         )
         if has_official:
             editorial_status = "lien officiel repéré — détails à relire"
+        elif primary_source_count > 0:
+            editorial_status = "flux de première partie présent — contenu à vérifier"
         elif cross_checked:
             editorial_status = "plusieurs médias — confirmation officielle requise"
         else:
@@ -296,6 +315,10 @@ def main():
             "score_indicatif": score_value,
             "media_count": publisher_count,
             "media": sources,
+            "primary_sources": primary_sources,
+            "primary_source_count": primary_source_count,
+            "source_excerpt_url": primary_url,
+            "source_excerpt_checked": summary_page_checked,
             "articles": trend_articles,
             "official_evidence": evidence,
             "verification_coverage": {
@@ -313,7 +336,12 @@ def main():
             "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : " + title + "\nExtrait RSS : " + (summary or "Aucun résumé fourni par la source.") + "\n\nÉtat : " + editorial_status + "\nSources médias : " + ", ".join(sources) + "\n" + (posts["translation_note"] + "\n" if posts["translation_note"] else "") + "Ne pas publier avant contrôle des faits et de la traduction."
         })
 
-    queue.sort(key=lambda x: (bool(x["official_evidence"]), x["media_count"], x["score_indicatif"]), reverse=True)
+    queue.sort(key=lambda x: (
+        bool(x["official_evidence"]),
+        x.get("primary_source_count", 0),
+        x["media_count"],
+        x["score_indicatif"]
+    ), reverse=True)
     queue = queue[:15]
 
     payload = {
