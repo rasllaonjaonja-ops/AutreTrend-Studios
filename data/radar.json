@@ -4329,5 +4329,13 @@
     }
   ],
   "errors": [],
-  "notice": "Priorité éditoriale indicative : pertinence du sujet (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs indépendants (25 %) et volume d'articles (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier."
+  "notice": "Priorité éditoriale indicative : pertinence du sujet (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs indépendants (25 %) et volume d'articles (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier.",
+  "sources": [
+    "Anime News Network – News",
+    "Anime News Network – All Articles",
+    "Shonen Jump+ – Atom",
+    "Crunchyroll News – RSS",
+    "MyAnimeList News – RSS",
+    "Japan Anime News – ORICON RSS"
+  ]
 }
