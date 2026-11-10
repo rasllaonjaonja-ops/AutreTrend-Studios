@@ -15,6 +15,11 @@ function validItem(item) {
     && typeof item.source_excerpt === "string" && item.source_excerpt.length <= 1200
     && Array.isArray(item.sources) && item.sources.length <= 8
     && item.sources.every(source => typeof source === "string" && source.length <= 200)
+    && (!item.source_reports || (Array.isArray(item.source_reports) && item.source_reports.length <= 10
+      && item.source_reports.every(report => report && typeof report.title === "string"
+        && report.title.length <= 300 && typeof report.summary === "string" && report.summary.length <= 900
+        && typeof report.publisher === "string" && report.publisher.length <= 200
+        && (!report.url || (typeof report.url === "string" && report.url.startsWith("https://") && report.url.length <= 1000)))))
     && (!item.source_url || (typeof item.source_url === "string" && item.source_url.startsWith("https://") && item.source_url.length <= 1000));
 }
 
@@ -44,6 +49,11 @@ async function generateOne(item, env) {
     "editorial_angle : 1 à 2 phrases expliquant l'intérêt réel du sujet pour les lecteurs.",
     "discussion_question : question spécifique, ouverte et naturelle, qui invite à une vraie discussion.",
     "claims_to_verify : liste des éléments concrets qui nécessitent encore une vérification; liste vide si aucun élément ne reste incertain.",
+    "Avant de rédiger, réalise une synthèse croisée des rapports source fournis. Compare leurs titres, résumés, dates et éditeurs; repère les reprises qui renvoient au même événement et ne les compte pas comme confirmations indépendantes.",
+    "trend_synthesis doit contenir key_facts (faits présents dans les sources, avec formulation prudente), reported_but_unconfirmed (détails rapportés mais non confirmés par une source primaire), coverage_summary (ce que la couverture médiatique permet réellement de conclure) et editorial_context (intérêt du sujet pour le public francophone).",
+    "Ne fusionne pas des annonces différentes sous prétexte qu'elles concernent la même franchise. Ne déduis pas une confirmation officielle du seul nombre de médias. Si les sources se contredisent ou se répètent, signale-le.",
+    "Le résumé final doit synthétiser les éléments communs et les précisions réellement utiles, pas juxtaposer les titres des articles. Les différences et les incertitudes doivent rester visibles.",
+    "Chaque fait important doit pouvoir être rattaché aux rapports transmis. N'invente aucune donnée absente des rapports.",
     "Chaque réseau reçoit une version réécrite pour son usage, avec une structure et un rythme différents. Ne copie-colle pas le même texte partout.",
     "Facebook : mini-article accessible de 70 à 120 mots, contexte, information et question communautaire.",
     "Instagram : légende vivante de 45 à 80 mots, phrases aérées et 3 à 6 hashtags pertinents.",
@@ -69,7 +79,18 @@ async function generateOne(item, env) {
     official_evidence: (item.official_evidence || []).map(e => ({
       domain: e.domain || "",
       evidence_type: e.evidence_type || ""
-    }))
+    })),
+    source_reports: (item.source_reports || []).map(report => ({
+      title: report.title,
+      summary: report.summary,
+      publisher: report.publisher,
+      source_type: report.source_type || "",
+      source_country: report.source_country || "",
+      market_country: report.market_country || "",
+      published_at: report.published_at || "",
+      url: report.url || ""
+    })),
+    coverage: item.coverage || {}
   };
 
   const result = await env.AI.run(MODEL, {
@@ -94,6 +115,14 @@ async function generateOne(item, env) {
     }
   }
   const wordCount = value => String(value || "").trim().split(/\s+/).filter(Boolean).length;
+  if (!parsed.trend_synthesis || !Array.isArray(parsed.trend_synthesis.key_facts)
+      || !Array.isArray(parsed.trend_synthesis.reported_but_unconfirmed)
+      || typeof parsed.trend_synthesis.coverage_summary !== "string"
+      || wordCount(parsed.trend_synthesis.coverage_summary) < 8
+      || typeof parsed.trend_synthesis.editorial_context !== "string"
+      || wordCount(parsed.trend_synthesis.editorial_context) < 8) {
+    throw new Error("Synthèse croisée des tendances absente ou trop faible");
+  }
   if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4
       || typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < 35
       || typeof parsed.editorial_angle !== "string" || wordCount(parsed.editorial_angle) < 8
@@ -118,6 +147,12 @@ async function generateOne(item, env) {
   if (parsed.posts.x.length > 280) throw new Error("Message X supérieur à 280 caractères");
   return {
     trend_id: item.trend_id,
+    trend_synthesis: {
+      key_facts: parsed.trend_synthesis.key_facts.slice(0, 8).map(x => String(x).slice(0, 400)),
+      reported_but_unconfirmed: parsed.trend_synthesis.reported_but_unconfirmed.slice(0, 8).map(x => String(x).slice(0, 400)),
+      coverage_summary: parsed.trend_synthesis.coverage_summary.trim(),
+      editorial_context: parsed.trend_synthesis.editorial_context.trim()
+    },
     title_fr: parsed.title_fr.trim(),
     summary_fr: parsed.summary_fr.trim(),
     editorial_angle: String(parsed.editorial_angle || "").trim(),
