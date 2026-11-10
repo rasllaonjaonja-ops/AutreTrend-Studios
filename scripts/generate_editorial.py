@@ -45,6 +45,25 @@ def valid_posts(posts):
     return True
 
 
+def valid_synthesis(synthesis):
+    if not isinstance(synthesis, dict):
+        return False
+    key_facts = synthesis.get("key_facts")
+    unconfirmed = synthesis.get("reported_but_unconfirmed")
+    coverage = synthesis.get("coverage_summary")
+    context = synthesis.get("editorial_context")
+    return (
+        isinstance(key_facts, list) and bool(key_facts)
+        and all(isinstance(x, str) and word_count(x) >= 5 and detect_text_language(x) == "fr" for x in key_facts)
+        and isinstance(unconfirmed, list)
+        and all(isinstance(x, str) and word_count(x) >= 4 and detect_text_language(x) == "fr" for x in unconfirmed)
+        and isinstance(coverage, str) and word_count(coverage) >= 8
+        and detect_text_language(coverage) == "fr"
+        and isinstance(context, str) and word_count(context) >= 8
+        and detect_text_language(context) == "fr"
+    )
+
+
 def save_generation_status(queue, status, notice, model=""):
     queue["ai_generated_count"] = 0
     queue["ai_generation_status"] = status
@@ -157,12 +176,18 @@ def main():
                 or detect_text_language(summary_fr) != "fr"
                 or word_count(summary_fr) < 35):
             continue
-        if (word_count(draft.get("editorial_angle", "")) < 8
-                or word_count(draft.get("discussion_question", "")) < 6
-                or not str(draft.get("discussion_question", "")).strip().endswith("?")):
+        editorial_angle = str(draft.get("editorial_angle", "")).strip()
+        discussion_question = str(draft.get("discussion_question", "")).strip()
+        if (word_count(editorial_angle) < 8
+                or detect_text_language(editorial_angle) != "fr"
+                or word_count(discussion_question) < 6
+                or detect_text_language(discussion_question) != "fr"
+                or not discussion_question.endswith("?")):
             continue
         claims = draft.get("claims_to_verify", [])
-        if not isinstance(claims, list) or not all(isinstance(x, str) for x in claims):
+        if (not isinstance(claims, list)
+                or not all(isinstance(x, str) and word_count(x) >= 4
+                           and detect_text_language(x) == "fr" for x in claims)):
             continue
         french_platforms = ("facebook", "instagram", "tiktok", "x", "threads", "telegram")
         if any(detect_text_language(draft["posts"][key]) != "fr" for key in french_platforms):
@@ -175,18 +200,7 @@ def main():
             continue
 
         synthesis = draft.get("trend_synthesis", {})
-        if (not isinstance(synthesis, dict)
-                or not isinstance(synthesis.get("key_facts"), list)
-                or not synthesis.get("key_facts")
-                or not all(isinstance(x, str) and word_count(x) >= 5 for x in synthesis["key_facts"])
-                or not isinstance(synthesis.get("reported_but_unconfirmed"), list)
-                or not all(isinstance(x, str) for x in synthesis["reported_but_unconfirmed"])
-                or not isinstance(synthesis.get("coverage_summary"), str)
-                or word_count(synthesis["coverage_summary"]) < 8
-                or detect_text_language(synthesis["coverage_summary"]) != "fr"
-                or not isinstance(synthesis.get("editorial_context"), str)
-                or word_count(synthesis["editorial_context"]) < 8
-                or detect_text_language(synthesis["editorial_context"]) != "fr"):
+        if not valid_synthesis(synthesis):
             continue
         item["trend_synthesis"] = {
             "key_facts": [str(x)[:400] for x in synthesis.get("key_facts", [])[:8]],
@@ -196,8 +210,8 @@ def main():
         }
         item["title_fr"] = title_fr
         item["summary_fr"] = summary_fr
-        item["editorial_angle"] = str(draft.get("editorial_angle", "")).strip()
-        item["discussion_question"] = str(draft.get("discussion_question", "")).strip()
+        item["editorial_angle"] = editorial_angle
+        item["discussion_question"] = discussion_question
         item["claims_to_verify"] = claims[:12]
         posts = dict(draft["posts"])
         source_url = str(item.get("source_excerpt_url", "")).strip()
