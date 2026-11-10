@@ -15,11 +15,11 @@ function validItem(item) {
     && typeof item.source_excerpt === "string" && item.source_excerpt.length <= 1200
     && Array.isArray(item.sources) && item.sources.length <= 8
     && item.sources.every(source => typeof source === "string" && source.length <= 200)
-    && (!item.source_reports || (Array.isArray(item.source_reports) && item.source_reports.length <= 10
+    && (!item.source_reports || (Array.isArray(item.source_reports) && item.source_reports.length <= 6
       && item.source_reports.every(report => report && typeof report.title === "string"
-        && report.title.length <= 300 && typeof report.summary === "string" && report.summary.length <= 900
+        && report.title.length <= 300 && typeof report.summary === "string" && report.summary.length <= 500
         && typeof report.publisher === "string" && report.publisher.length <= 200
-        && (!report.url || (typeof report.url === "string" && report.url.startsWith("https://") && report.url.length <= 1000)))))
+        && (!report.url || (typeof report.url === "string" && report.url.startsWith("https://") && report.url.length <= 500)))))
     && (!item.source_url || (typeof item.source_url === "string" && item.source_url.startsWith("https://") && item.source_url.length <= 1000));
 }
 
