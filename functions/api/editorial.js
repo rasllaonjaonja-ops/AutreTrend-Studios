@@ -190,6 +190,27 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
       || detectTextLanguage(parsed.trend_synthesis.editorial_context) !== "fr") {
     throw new Error("Synthèse croisée des tendances absente, trop faible ou non française");
   }
+  // Réparation factuelle du résumé : certains retours GLM sont trop courts malgré
+  // les consignes et les deux passes correctives. Compléter uniquement avec les
+  // faits déjà produits dans la synthèse croisée validée, sans ajouter d'information.
+  if (wordCount(parsed.summary_fr) < MIN_SUMMARY_WORDS && parsed.trend_synthesis
+      && Array.isArray(parsed.trend_synthesis.key_facts)) {
+    let repairedSummary = String(parsed.summary_fr || "").trim();
+    const factualSentences = [
+      ...parsed.trend_synthesis.key_facts,
+      parsed.trend_synthesis.coverage_summary,
+      parsed.trend_synthesis.editorial_context
+    ].filter(value => typeof value === "string"
+      && detectTextLanguage(value) === "fr"
+      && wordCount(value) >= 5);
+    for (const fact of factualSentences) {
+      if (wordCount(repairedSummary) >= MIN_SUMMARY_WORDS) break;
+      const candidate = (repairedSummary ? repairedSummary.replace(/[.!?…]*$/, ".") + " " : "") + fact.trim();
+      if (wordCount(candidate) <= 90) repairedSummary = candidate;
+    }
+    if (wordCount(repairedSummary) >= MIN_SUMMARY_WORDS) parsed.summary_fr = repairedSummary;
+  }
+
   const briefErrors = [];
   if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4) briefErrors.push("title_fr doit contenir au moins 4 mots");
   else if (detectTextLanguage(parsed.title_fr) !== "fr") briefErrors.push("title_fr doit être en français");
