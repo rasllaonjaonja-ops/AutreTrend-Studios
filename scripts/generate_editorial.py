@@ -25,22 +25,22 @@ def valid_posts(posts):
     if not isinstance(posts, dict) or not all(key in posts for key in PLATFORMS):
         return False
     minimum_words = {
-        "facebook": 45, "instagram": 30, "tiktok": 25,
-        "x": 8, "threads": 25, "telegram": 25,
+        "facebook": 70, "instagram": 45, "tiktok": 35,
+        "x": 8, "threads": 40, "telegram": 40,
     }
     for key in PLATFORMS:
         value = posts[key]
         if key in ("youtube", "pinterest"):
             if (not isinstance(value, dict)
                     or not isinstance(value.get("title"), str)
-                    or len(value["title"].strip()) < 12
+                    or len(value["title"].strip()) < 45
                     or not isinstance(value.get("description"), str)
-                    or word_count(value["description"]) < 25):
+                    or word_count(value["description"]) < (50 if key == "youtube" else 35)):
                 return False
         elif (not isinstance(value, str)
                 or word_count(value) < minimum_words[key]):
             return False
-        elif key == "x" and len(value) > 280:
+        elif key == "x" and len(value) > 260:
             return False
     return True
 
@@ -174,7 +174,7 @@ def main():
         # Une simple réponse du modèle ne suffit pas : on exige aussi une détection française.
         if (detect_text_language(title_fr) != "fr"
                 or detect_text_language(summary_fr) != "fr"
-                or word_count(summary_fr) < 35):
+                or word_count(summary_fr) < 60):
             continue
         editorial_angle = str(draft.get("editorial_angle", "")).strip()
         discussion_question = str(draft.get("discussion_question", "")).strip()
