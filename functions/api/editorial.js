@@ -17,7 +17,7 @@ const ENGLISH_MARKERS = new Set([
 function detectTextLanguage(value) {
   const text = String(value || "");
   if (/[ぁ-んァ-ン一-龯々ー]/u.test(text)) return "ja";
-  const plain = text.normalize("NFKD").toLowerCase().replace(/\\p{M}/gu, "");
+  const plain = text.normalize("NFKD").toLowerCase().replace(/\p{M}/gu, "");
   const words = new Set(plain.match(/[a-z]{2,}/g) || []);
   if (!words.size) return "und";
   let french = 0;
