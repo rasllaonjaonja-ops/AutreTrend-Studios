@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T05:02:33.831845+00:00",
+  "generated_at": "2026-11-10T07:24:54.904245+00:00",
   "count": 6,
-  "rejected_count": 107,
+  "rejected_count": 106,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -23,6 +23,12 @@
     },
     {
       "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -198,13 +204,6 @@
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
-    },
-    {
-      "title": "[第634話]ONE PIECE",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -212,7 +211,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
       "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
-      "score_indicatif": 62,
+      "score_indicatif": 61,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -269,7 +268,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-      "score_indicatif": 58,
+      "score_indicatif": 57,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -326,7 +325,7 @@
     {
       "trend_id": "https://myanimelist.net/news/74917181?_location=rss",
       "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-      "score_indicatif": 48,
+      "score_indicatif": 47,
       "media_count": 2,
       "media": [
         "MyAnimeList",
@@ -382,7 +381,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
       "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
-      "score_indicatif": 47,
+      "score_indicatif": 46,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -438,7 +437,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
       "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-      "score_indicatif": 47,
+      "score_indicatif": 46,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -494,7 +493,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
       "title": "My Hero Ultra Rumble Game Gets Mobile Version",
-      "score_indicatif": 46,
+      "score_indicatif": 45,
       "media_count": 2,
       "media": [
         "Anime News Network",
