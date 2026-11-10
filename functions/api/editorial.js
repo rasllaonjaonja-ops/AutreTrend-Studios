@@ -239,6 +239,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   const groundedAdditions = [
     ...parsed.trend_synthesis.key_facts,
     ...parsed.trend_synthesis.reported_but_unconfirmed.map(value => "À confirmer : " + value),
+    parsed.trend_synthesis.coverage_summary,
     parsed.editorial_angle
   ].filter(value => typeof value === "string"
     && detectTextLanguage(value) === "fr"
@@ -279,18 +280,29 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   }
   for (const platform of ["youtube", "pinterest"]) {
     const minimumDescriptionWords = platform === "youtube" ? 50 : 35;
-    if (correctivePass) {
+    const currentTitle = String(parsed.posts[platform].title || "").trim();
+    if (detectTextLanguage(currentTitle) !== "fr" || currentTitle.length < 45) {
+      const suffix = platform === "youtube"
+        ? " — Actualité anime et manga"
+        : " — À découvrir en manga et anime";
+      parsed.posts[platform].title = (parsed.title_fr.trim() + suffix).slice(0, 110).trim();
+    }
+    if (correctivePass && (
+      detectTextLanguage(parsed.posts[platform].description) !== "fr"
+      || wordCount(parsed.posts[platform].description) < minimumDescriptionWords
+    )) {
+      const frenchBase = detectTextLanguage(parsed.posts[platform].description) === "fr"
+        ? parsed.posts[platform].description
+        : parsed.summary_fr;
       parsed.posts[platform].description = appendGrounded(
-        parsed.posts[platform].description, minimumDescriptionWords, minimumDescriptionWords
+        frenchBase, minimumDescriptionWords, minimumDescriptionWords
       );
     }
-    if (wordCount(parsed.posts[platform].description) < minimumDescriptionWords
-        || parsed.posts[platform].title.trim().length < 45) {
-      throw new Error("Titre ou description trop court pour " + platform);
+    if (wordCount(parsed.posts[platform].description) < minimumDescriptionWords) {
+      throw new Error("Description trop courte pour " + platform);
     }
-    if (detectTextLanguage(parsed.posts[platform].title) !== "fr"
-        || detectTextLanguage(parsed.posts[platform].description) !== "fr") {
-      throw new Error("Titre ou description " + platform + " non français");
+    if (detectTextLanguage(parsed.posts[platform].description) !== "fr") {
+      throw new Error("Description " + platform + " non française");
     }
   }
   // Ajustement mécanique sans ajout de faits : X est ramené à la limite du réseau
