@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:58:06.618098+00:00",
+  "generated_at": "2026-11-10T22:03:58.679042+00:00",
   "count": 1,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 8,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 410,
+  "rejected_count": 409,
   "rejected_sample": [
     {
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
@@ -247,7 +247,7 @@
       ]
     },
     {
-      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré",
@@ -255,10 +255,9 @@
       ]
     },
     {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+      "title": "L’anime Yuru Camp Saison 4, en Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
@@ -436,18 +435,18 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook"
+        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
       ]
     }
   ],
   "ai_validation_errors": [
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Contenu trop court pour facebook"
+      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
     }
   ],
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook; Error: Contenu trop court pour facebook"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
 }
