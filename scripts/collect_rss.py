@@ -159,12 +159,16 @@ def build_trends(items, now):
             "sources": publishers,
             "published_at": ordered[0]["published_at"],
             "status": status,
-            "articles": [{"title": x["title"], "url": x["url"], "source": x["source"]} for x in ordered[:8]]
+            "articles": [{"title": x["title"], "url": x["url"], "source": x["source"], "feed_sources": x.get("feed_sources", [x["source"]])} for x in ordered[:8]]
         })
     return sorted(trends, key=lambda x: (x["score"], x["source_count"], x["published_at"]), reverse=True)
 
 items, errors = [], []
 enabled_sources = [s for s in SOURCES if s.get("enabled", True)]
+source_stats = {
+    s["name"]: {"entries_found": 0, "accepted_items": 0, "unique_items": 0}
+    for s in enabled_sources
+}
 for source in enabled_sources:
     try:
         request = urllib.request.Request(
@@ -174,6 +178,7 @@ for source in enabled_sources:
         with urllib.request.urlopen(request, timeout=20) as response:
             root = ET.fromstring(response.read())
         entries = [node for node in root.iter() if local_name(node.tag) in ("item", "entry")]
+        source_stats[source["name"]]["entries_found"] = min(len(entries), 40)
         for entry in entries[:40]:
             title = clean_text(child_text(entry, {"title"}))
             link = child_text(entry, {"link"})
@@ -196,6 +201,7 @@ for source in enabled_sources:
                     "score": score(title, summary),
                     "verification": "à vérifier"
                 })
+                source_stats[source["name"]]["accepted_items"] += 1
     except Exception as exc:
         errors.append({"source": source.get("name", "unknown"), "error": str(exc)[:240]})
 
@@ -242,12 +248,17 @@ for item in items:
             item["feed_sources"] = existing["feed_sources"]
             unique[canonical] = item
 result = sorted(unique.values(), key=lambda x: (x["score"], x["published_at"]), reverse=True)
+for article in result:
+    for feed_name in article.get("feed_sources", [article.get("source", "")]):
+        if feed_name in source_stats:
+            source_stats[feed_name]["unique_items"] += 1
 now = datetime.now(timezone.utc)
 trends = build_trends(result, now)
 payload = {
     "updated_at": now.isoformat(),
     "source_count": len(enabled_sources),
     "sources": [s["name"] for s in enabled_sources],
+    "source_stats": source_stats,
     "item_count": len(result),
     "items": result[:100],
     "trend_count": len(trends),
