@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 
-from radar_logic import evidence_level, same_event
+from radar_logic import coverage_score, evidence_level, same_event
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))["sources"]
@@ -147,11 +147,15 @@ def build_trends(items, now):
     trends = []
     for group in groups.values():
         publishers = sorted({publisher_name(x["source"]) for x in group})
+        primary_sources = sorted({
+            publisher_name(x["source"]) for x in group
+            if x.get("source_role") == "first_party"
+        })
         newest = max((parse_timestamp(x["published_at"]) for x in group), default=0)
         age_hours = max(0, (now.timestamp() - newest) / 3600) if newest else 999
         freshness = max(0, 100 * (1 - min(age_hours, 72) / 72)) if newest else 0
         relevance = max((x["score"] for x in group), default=0)
-        coverage = 100 if len(publishers) >= 3 else (70 if len(publishers) == 2 else 35)
+        coverage = coverage_score(len(publishers), len(primary_sources))
         volume = 100 if len(group) >= 4 else (70 if len(group) >= 2 else 35)
         # Priorité éditoriale indicative : pertinence 35 %, fraîcheur 30 %,
         # diversité des éditeurs 25 %, volume d'articles 10 %.
@@ -177,7 +181,9 @@ def build_trends(items, now):
             },
             "article_count": len(group),
             "source_count": len(publishers),
-            "evidence_level": evidence_level(len(publishers)),
+            "primary_source_count": len(primary_sources),
+            "primary_sources": primary_sources,
+            "evidence_level": evidence_level(len(publishers), len(primary_sources)),
             "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
             "sources": publishers,
             "published_at": ordered[0]["published_at"],
@@ -228,6 +234,7 @@ for source in enabled_sources:
                     "source": source["name"],
                     "publisher": publisher_name(source["name"]),
                     "category": source.get("category", "anime-manga"),
+                    "source_role": "first_party" if "official" in source.get("category", "") else "professional_media",
                     "language": source.get("language", "und"),
                     "score": score(title, summary),
                     "verification": "à vérifier"
@@ -304,7 +311,7 @@ payload = {
     "trend_count": len(trends),
     "trends": trends,
     "errors": errors,
-    "notice": "Priorité éditoriale indicative : pertinence du sujet (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs indépendants (25 %) et volume d'articles (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier."
+    "notice": "Priorité éditoriale indicative : pertinence du sujet (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs (25 %, bonus limité aux flux de première partie) et volume d'articles (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Un flux officiel constitue un signal de provenance, pas une validation automatique du contenu. Toute information reste à vérifier."
 }
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
