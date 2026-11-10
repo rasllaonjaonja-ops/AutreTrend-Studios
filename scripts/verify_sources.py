@@ -140,36 +140,132 @@ def main():
         checks.append(result)
         time.sleep(0.1)
 
-    # Les sujets sont reliés à leurs articles via leurs URLs. Aucune validation automatique du fond.
+    # Filtrage éditorial strict : priorité aux sujets frais, pertinents et recoupés.
     by_url = {c["article_url"]: c for c in checks}
+    radar_items = {x.get("url"): x for x in items if x.get("url")}
+    now = __import__("datetime").datetime.now(__import__("datetime").timezone.utc)
+    excluded_terms = (
+        "episode review", "review:", "recap", "spoiler review",
+        "weekly review", "manga review", "anime review"
+    )
+
+    def age_hours(value):
+        try:
+            from datetime import datetime, timezone
+            dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return max(0, (now - dt).total_seconds() / 3600)
+        except Exception:
+            return 9999
+
+    def hashtags(title):
+        words = re.findall(r"[A-Za-z0-9À-ÿ]+", title or "")
+        ignored = {"anime", "manga", "the", "and", "gets", "new", "for", "with"}
+        tags = []
+        for word in words:
+            clean = re.sub(r"[^A-Za-z0-9À-ÿ]", "", word)
+            if len(clean) >= 3 and clean.lower() not in ignored:
+                tag = "#" + clean[:28]
+                if tag.lower() not in [x.lower() for x in tags]:
+                    tags.append(tag)
+            if len(tags) >= 4:
+                break
+        return " ".join(["#Anime", "#Manga"] + tags[:3])
+
+    def make_social_posts(title, summary, language, sources, source_url, verified):
+        excerpt = re.sub(r"\s+", " ", summary or "").strip()[:420].rstrip()
+        french_ready = language == "fr" and bool(excerpt)
+        tags = hashtags(title)
+        core = excerpt if french_ready else "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]"
+        hook = title
+        source_line = "Sources à consulter : " + ", ".join(sources[:3])
+        source_line += " · lien officiel repéré, détails à comparer" if verified else " · recoupement officiel non établi"
+        url_line = source_url or ""
+        return {
+            "language_ready": french_ready,
+            "translation_required": not french_ready,
+            "translation_note": "" if french_ready else "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
+            "facebook": hook + "\n\n" + core + "\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n" + tags + "\n" + source_line + ("\n" + url_line if url_line else ""),
+            "instagram": hook + "\n\n" + core + "\n\nEnregistrez ce post et partagez votre avis !\n\n" + tags + ("\n" + url_line if url_line else ""),
+            "tiktok": "ACCROCHE : " + hook + "\n\nSCRIPT À LIRE : " + core + "\n\nQUESTION : Vous en pensez quoi ?\n" + tags,
+            "x": (hook + " — " + core + " " + tags)[:275],
+            "threads": "On vient de repérer cette actualité : " + hook + "\n\n" + core + "\n\nVous suivez cette série ?",
+            "youtube": {"title": hook[:95], "description": core + "\n\n" + source_line + ("\n" + url_line if url_line else "") + "\n\n" + tags},
+            "telegram": "📰 " + hook + "\n\n" + core + "\n\n" + source_line + ("\n" + url_line if url_line else ""),
+            "pinterest": {"title": hook[:100], "description": core + "\n" + tags + ("\n" + url_line if url_line else "")}
+        }
+
     queue = []
-    for trend in radar.get("trends", [])[:30]:
-        evidence = []
-        for article in trend.get("articles", []):
-            check = by_url.get(article.get("url"))
+    rejected = []
+    for trend in radar.get("trends", []):
+        title = str(trend.get("title", "")).strip()
+        low_title = title.lower()
+        trend_articles = trend.get("articles", [])
+        evidence, summaries, article_urls = [], [], []
+        for article in trend_articles:
+            url = article.get("url", "")
+            article_urls.append(url)
+            check = by_url.get(url)
             if check:
                 evidence.extend(check["official_evidence"])
-        unique = {x["url"]: x for x in evidence}
-        evidence = list(unique.values())
+            original = radar_items.get(url, {})
+            snippet = original.get("summary", "").strip()
+            if snippet and snippet not in summaries:
+                summaries.append(snippet)
+        evidence = list({x["url"]: x for x in evidence}.values())
+        sources = trend.get("sources", [])
+        publisher_count = int(trend.get("source_count", 0) or 0)
+        score_value = int(trend.get("score", 0) or 0)
+        latest_age = min((age_hours(radar_items.get(u, {}).get("published_at")) for u in article_urls), default=9999)
+        excluded_format = any(term in low_title for term in excluded_terms)
+        has_official = bool(evidence)
+        cross_checked = publisher_count >= 2
+        reasons = []
+        if excluded_format:
+            reasons.append("format critique/recap écarté du flux prioritaire")
+        if score_value < 45:
+            reasons.append("score éditorial inférieur à 45/100")
+        if latest_age > 168:
+            reasons.append("actualité trop ancienne (plus de 7 jours)")
+        if not cross_checked and not has_official and score_value < 65:
+            reasons.append("source unique sans lien officiel repéré")
+        if not summaries and score_value < 60:
+            reasons.append("aucun résumé exploitable dans le flux RSS")
+        if reasons:
+            rejected.append({"title": title, "reasons": reasons})
+            continue
+
+        primary_url = article_urls[0] if article_urls else ""
+        primary_item = radar_items.get(primary_url, {})
+        language = primary_item.get("title_language", trend.get("title_language", "en"))
+        summary = summaries[0] if summaries else ""
+        posts = make_social_posts(title, summary, language, sources, primary_url, has_official)
+        if has_official:
+            editorial_status = "lien officiel repéré — détails à relire"
+        elif cross_checked:
+            editorial_status = "plusieurs médias — confirmation officielle requise"
+        else:
+            editorial_status = "signal fort isolé — confirmation obligatoire"
         queue.append({
-            "trend_id": trend.get("id"),
-            "title": trend.get("title"),
-            "score_indicatif": trend.get("score"),
-            "media_count": trend.get("source_count", 0),
-            "media": trend.get("sources", []),
-            "articles": trend.get("articles", []),
+            "trend_id": trend.get("id),
+            "title": title,
+            "score_indicatif": score_value,
+            "media_count": publisher_count,
+            "media": sources,
+            "articles": trend_articles,
             "official_evidence": evidence,
-            "editorial_status": "preuve officielle à relire" if evidence else "en attente de source officielle",
+            "editorial_status": editorial_status,
             "human_review_required": True,
             "publication_allowed": False,
-            "draft_fr": (
-                "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\n"
-                "Sujet : " + str(trend.get("title", "")) + "\n"
-                "État : " + ("Une page de première partie a été repérée, mais chaque détail doit être comparé à son texte." if evidence else "Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.") +
-                "\n\nSources médias : " + ", ".join(trend.get("sources", [])) +
-                "\nPublication interdite avant validation humaine."
-            )
+            "title_language": language,
+            "source_excerpt": summary,
+            "social_posts": posts,
+            "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : " + title + "\nExtrait RSS : " + (summary or "Aucun résumé fourni par la source.") + "\n\nÉtat : " + editorial_status + "\nSources médias : " + ", ".join(sources) + "\n" + (posts["translation_note"] + "\n" if posts["translation_note"] else "") + "Ne pas publier avant contrôle des faits et de la traduction."
         })
+
+    queue.sort(key=lambda x: (bool(x["official_evidence"]), x["media_count"], x["score_indicatif"]), reverse=True)
+    queue = queue[:15]
 
     payload = {
         "checked_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
