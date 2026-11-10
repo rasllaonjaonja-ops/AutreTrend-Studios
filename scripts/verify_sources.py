@@ -110,6 +110,24 @@ def fetch_links(url):
         unique.setdefault(entry["url"], entry)
     return list(unique.values()), " ".join(parser.title_parts)[:300]
 
+def enrich_source_reports(trend_articles, radar_items):
+    """Associe chaque titre du groupe à son résumé RSS d'origine, sans inventer de contenu."""
+    reports = []
+    for article in trend_articles:
+        url = article.get("url", "")
+        original = radar_items.get(url, {})
+        reports.append({
+            **article,
+            "summary": str(original.get("summary", "")).strip()[:1200],
+            "publisher": original.get("publisher") or original.get("source") or article.get("source", ""),
+            "published_at": original.get("published_at", ""),
+            "language": original.get("language", article.get("title_language", "und")),
+            "summary_status": original.get("summary_status", "missing"),
+            "date_status": original.get("date_status", "unknown")
+        })
+    return reports
+
+
 def main():
     radar = json.loads(RADAR.read_text(encoding="utf-8"))
     items = radar.get("items", [])
@@ -231,7 +249,7 @@ def main():
         low_title = title.lower()
         trend_articles = trend.get("articles", [])
         evidence, summary_candidates, article_urls, checked_urls = [], [], [], []
-        source_reports = []
+        source_reports = enrich_source_reports(trend_articles, radar_items)
         for article in trend_articles:
             url = article.get("url", "")
             article_urls.append(url)
@@ -240,15 +258,6 @@ def main():
                 checked_urls.append(url)
                 evidence.extend(check["official_evidence"])
             original = radar_items.get(url, {})
-            source_reports.append({
-                **article,
-                "summary": str(original.get("summary", "")).strip()[:1200],
-                "publisher": original.get("publisher") or original.get("source") or article.get("source", ""),
-                "published_at": original.get("published_at", ""),
-                "language": original.get("language", article.get("title_language", "und")),
-                "summary_status": original.get("summary_status", "missing"),
-                "date_status": original.get("date_status", "unknown")
-            })
             snippet = original.get("summary", "").strip()
             if snippet and all(existing[0] != snippet for existing in summary_candidates):
                 summary_candidates.append((
