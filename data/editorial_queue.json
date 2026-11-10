@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:45:06.230780+00:00",
+  "generated_at": "2026-11-10T13:02:55.949549+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 403,
+  "rejected_count": 402,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -29,13 +29,7 @@
       ]
     },
     {
-      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film - Anime News Network",
-      "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
+      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -47,17 +41,14 @@
       ]
     },
     {
-      "title": "Phantom of the Idol Volume 9 Review",
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
+        "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "Devils' Crest Anime Confirms Half-Year Run",
+      "title": "Phantom of the Idol Volume 9 Review",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -84,6 +75,16 @@
       ]
     },
     {
+      "title": "Devils' Crest Anime Confirms Half-Year Run",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
       "title": "Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai (anime)",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -101,6 +102,13 @@
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -193,30 +201,10 @@
       ]
     },
     {
-      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -237,13 +225,6 @@
       ]
     },
     {
-      "title": "Idées cadeaux manga et anime : notre sélection Noël 2026 - FuransuJapon",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027 - Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -254,6 +235,26 @@
       "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "TOHO Eyes Historic 20 Billion Yen Milestone For Chiikawa Movie As It Continues Successful Box Office Run",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
@@ -487,7 +488,7 @@
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-      "score_indicatif": 69,
+      "score_indicatif": 68,
       "media_count": 3,
       "media": [
         "Anime News Network",
@@ -666,5 +667,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "unavailable",
   "ai_model": "",
-  "ai_notice": "Service IA indisponible : HTTP 502 — {\"error\":\"Editorial generation failed\",\"detail\":\"Error: Contenu trop court pour facebook\"}. Les brouillons restent non publiables."
+  "ai_notice": "Service IA indisponible : The read operation timed out. Les brouillons restent non publiables."
 }

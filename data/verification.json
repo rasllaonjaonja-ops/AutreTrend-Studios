@@ -1,9 +1,14 @@
 {
-  "checked_at": "2026-11-10T12:45:06.230780+00:00",
+  "checked_at": "2026-11-10T13:02:55.949549+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
-  "errors": [],
+  "errors": [
+    {
+      "url": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
+      "error": "The read operation timed out"
+    }
+  ],
   "checks": [
     {
       "title": "Plus-Sized Misadventures in Love! Anime Shares New Trailer, Adds to Cast",
@@ -63,8 +68,7 @@
       "publisher": "AnimeNation",
       "published_at": "2025-12-07T04:18:44+00:00",
       "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff – AnimeNation Anime News Blog"
+      "status": "page source inaccessible — vérification humaine requise"
     },
     {
       "title": "Three Powerful Back-to-School Anime",
@@ -90,6 +94,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
+    },
+    {
+      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
+      "article_url": "https://myanimelist.net/news/74924616?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-10T12:45:55+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume - MyAnimeList.net"
     },
     {
       "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
@@ -132,15 +145,6 @@
       "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2NJX3pOdW84SGVCSXlkMTdicHhrck5TN1JnQnRZaklnOGsydmpwT0tRaEhpYkRuYnk4RXJfOV9DV3Q3RmhkbDYwbEZzdEhFWWZDWkpqMERkNG5ZTG0xNDNpV0tUX21oTXY4MkJUaVFmSVA1UUd4bmp6bEl0R2JOWm9HOVNERjNlYXg2YXBQZ2pkbkVOalV2Mnd2SElNNG9URXdrMlUtSlRaR0F1LXpmUQ?oc=5",
       "publisher": "Google News (agrégateur)",
       "published_at": "2026-11-10T08:31:51+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film - Anime News Network",
-      "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdW92eWxwMWZFZUJybHhraERFTHJGNWRGU0FHLW44OVk4alRTMW1PcmdCaTNFNVRlaWhpMmpLdDY3VUtJczFzeWptbXV3WEZmdkM3dElsb09RZS01ekV6dmNENUM3LU5aN2F3Wl8zVmx1SWk1QWRHVFdSWE5UY0ZuRlY0WjRwWHpGY2ozZ0lsTzRNSUNnVFJjN1pZelluLU1QNFNDMjJrOEVqbU1uNmtoU0Z6cWh5bTByME13?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T06:48:44+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
