@@ -9,7 +9,10 @@ import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
 
-from radar_logic import detect_text_language
+try:
+    from radar_logic import detect_text_language
+except ModuleNotFoundError:  # Import également possible depuis les tests à la racine du dépôt.
+    from scripts.radar_logic import detect_text_language
 from urllib.parse import urlparse, urljoin
 
 ROOT = Path(__file__).resolve().parents[1]
