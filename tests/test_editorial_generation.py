@@ -1,6 +1,6 @@
 """Tests du contrat de génération éditoriale assistée."""
 import unittest
-from scripts.generate_editorial import valid_posts
+from scripts.generate_editorial import valid_posts, valid_synthesis
 from scripts.radar_logic import detect_text_language
 
 
@@ -37,6 +37,21 @@ class EditorialGenerationTests(unittest.TestCase):
         oversized = dict(self.posts)
         oversized["x"] = "Information manga " * 30
         self.assertFalse(valid_posts(oversized))
+
+    def test_requires_a_french_cross_source_synthesis(self):
+        synthesis = {
+            "key_facts": ["Le studio a annoncé une nouvelle saison dans son communiqué officiel."],
+            "reported_but_unconfirmed": ["La date exacte de diffusion reste à confirmer."],
+            "coverage_summary": "Plusieurs médias reprennent cette annonce, mais leur couverture ne constitue pas une confirmation indépendante supplémentaire.",
+            "editorial_context": "Cette information intéresse les lecteurs francophones qui suivent cette adaptation et souhaitent distinguer les faits des spéculations."
+        }
+        self.assertTrue(valid_synthesis(synthesis))
+        missing_facts = dict(synthesis)
+        missing_facts["key_facts"] = []
+        self.assertFalse(valid_synthesis(missing_facts))
+        english_summary = dict(synthesis)
+        english_summary["coverage_summary"] = "Several outlets are reporting the same announcement without independent confirmation."
+        self.assertFalse(valid_synthesis(english_summary))
 
     def test_french_headline_and_summary_detection(self):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
