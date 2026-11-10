@@ -210,6 +210,7 @@ trends = build_trends(result, now)
 payload = {
     "updated_at": now.isoformat(),
     "source_count": len(enabled_sources),
+    "sources": [s["name"] for s in enabled_sources],
     "item_count": len(result),
     "items": result[:100],
     "trend_count": len(trends),
