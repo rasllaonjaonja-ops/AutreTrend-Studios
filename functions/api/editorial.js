@@ -69,6 +69,26 @@ function wordCount(value) {
   return String(value || "").trim().split(/\s+/).filter(Boolean).length;
 }
 
+function tidyEditorialText(value, deduplicate = false) {
+  const text = String(value || "")
+    .replace(/[ \\t]+([,;:.!?])/g, "$1")
+    .replace(/([!?])\\s+\\./g, "$1")
+    .trim();
+  if (!deduplicate) return text;
+  const sentences = text.match(/[^.!?…]+(?:[.!?…]+|$)/g) || [text];
+  const seen = new Set();
+  const kept = [];
+  for (const sentence of sentences) {
+    const normalized = sentence.toLowerCase().normalize("NFKD")
+      .replace(/\\p{M}/gu, "")
+      .replace(/[^\\p{L}\\p{N}]+/gu, " ").trim();
+    if (!normalized || seen.has(normalized)) continue;
+    seen.add(normalized);
+    kept.push(sentence.trim());
+  }
+  return kept.join(" ").replace(/[ \\t]+([,;:.!?])/g, "$1").trim();
+}
+
 function fitXPost(value) {
   const text = String(value || "").replace(/\s+/g, " ").trim();
   const lastPunctuation = Math.max(
@@ -175,6 +195,22 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
       : result?.response ?? result?.result?.response ?? result;
   const parsed = extractJson(content);
   if (!parsed || typeof parsed !== "object" || !parsed.posts) throw new Error("Structure éditoriale absente");
+  parsed.title_fr = tidyEditorialText(parsed.title_fr);
+  parsed.summary_fr = tidyEditorialText(parsed.summary_fr, true);
+  parsed.editorial_angle = tidyEditorialText(parsed.editorial_angle);
+  parsed.discussion_question = tidyEditorialText(parsed.discussion_question);
+  if (Array.isArray(parsed.claims_to_verify)) {
+    parsed.claims_to_verify = parsed.claims_to_verify.map(value => tidyEditorialText(value, true));
+  }
+  for (const platform of PLATFORMS) {
+    const value = parsed.posts[platform];
+    if (typeof value === "string") {
+      parsed.posts[platform] = tidyEditorialText(value, true);
+    } else if (value && typeof value === "object") {
+      if (typeof value.title === "string") value.title = tidyEditorialText(value.title);
+      if (typeof value.description === "string") value.description = tidyEditorialText(value.description, true);
+    }
+  }
   for (const platform of PLATFORMS) {
     const value = parsed.posts[platform];
     if (platform === "youtube" || platform === "pinterest") {
