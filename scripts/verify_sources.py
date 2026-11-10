@@ -19,10 +19,10 @@ ROOT = Path(__file__).resolve().parents[1]
 RADAR = ROOT / "data" / "radar.json"
 OUT = ROOT / "data" / "verification.json"
 QUEUE = ROOT / "data" / "editorial_queue.json"
-MAX_ARTICLES = 25
+MAX_ARTICLES = 12
 MAX_PREPUBLICATIONS = 3
 SOCIAL_NETWORKS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
-TIMEOUT = 8
+TIMEOUT = 5
 
 # Liste volontairement conservatrice : les médias généralistes ne sont pas traités comme preuves officielles.
 OFFICIAL_DOMAINS = {
