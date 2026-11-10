@@ -1,7 +1,7 @@
 """Tests de non-régression pour la logique du Radar."""
 import unittest
 
-from scripts.verify_sources import Links, MAX_PREPUBLICATIONS, SOCIAL_NETWORKS
+from scripts.verify_sources import Links, MAX_PREPUBLICATIONS, SOCIAL_NETWORKS, enrich_source_reports
 from scripts.radar_logic import (
     detect_text_language, event_parts, same_event, same_franchise,
     diversify_queue, evidence_level, coverage_score,
@@ -88,6 +88,28 @@ class RadarLogicTests(unittest.TestCase):
         parser = Links()
         parser.feed('<a href="https://example.com/official">  Official   announcement\n details </a>')
         self.assertEqual(parser.links[0]["label"], "Official announcement details")
+
+    def test_editorial_reports_keep_original_rss_summaries_and_dates(self):
+        trend_articles = [
+            {"title": "Annonce anime", "url": "https://media.example/news", "source": "Media"},
+            {"title": "Annonce relayée", "url": "https://other.example/news", "source": "Other"},
+        ]
+        radar_items = {
+            "https://media.example/news": {
+                "summary": "Le studio annonce une nouvelle saison dans un communiqué.",
+                "publisher": "Media Publisher",
+                "published_at": "2026-11-10T08:00:00+00:00",
+                "language": "fr",
+                "summary_status": "available",
+                "date_status": "known",
+            }
+        }
+        reports = enrich_source_reports(trend_articles, radar_items)
+        self.assertEqual(reports[0]["summary"], "Le studio annonce une nouvelle saison dans un communiqué.")
+        self.assertEqual(reports[0]["publisher"], "Media Publisher")
+        self.assertEqual(reports[0]["published_at"], "2026-11-10T08:00:00+00:00")
+        self.assertEqual(reports[1]["summary"], "")
+        self.assertEqual(reports[1]["summary_status"], "missing")
 
     def test_media_coverage_is_not_truth_confirmation(self):
         self.assertEqual(evidence_level(1), "single_publisher_signal")
