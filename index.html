@@ -570,7 +570,7 @@ function renderRadar(){
   const isOricon=String(a.source||"").toLowerCase().includes("oricon");
   const verificationLabel=a.verification||"À vérifier";
   const languageBadge=a.title_language==="ja"?' <span class="language-flag">JAPONAIS · TRADUCTION À FAIRE</span>':"";
-  return '<article class="item radar-article"><div class="radar-article-top"><span class="radar-article-source '+(isOricon?"oricon":"")+'">'+esc(a.source||"Source inconnue")+'</span><span class="radar-verification">'+esc(verificationLabel)+'</span></div><b>'+esc(a.title)+'</b>'+languageBadge<small>'+esc(a.publisher||a.source||"Source inconnue")+' · '+esc(radarDate(a.published_at))+'</small><p class="muted">'+esc(a.summary||"Résumé non fourni par le flux.")+'</p>'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Lire la source ↗</a>':"")+'</article>';
+  return '<article class="item radar-article"><div class="radar-article-top"><span class="radar-article-source '+(isOricon?"oricon":"")+'">'+esc(a.source||"Source inconnue")+'</span><span class="radar-verification">'+esc(verificationLabel)+'</span></div><b>'+esc(a.title)+'</b>'+languageBadge+'<small>'+esc(a.publisher||a.source||"Source inconnue")+' · '+esc(radarDate(a.published_at))+'</small><p class="muted">'+esc(a.summary||"Résumé non fourni par le flux.")+'</p>'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">Lire la source ↗</a>':"")+'</article>';
  }).join("");
  const errors=Array.isArray(radar.errors)?radar.errors:[];
  $("#radar-result").className="radar-results";
