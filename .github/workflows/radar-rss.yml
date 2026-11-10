@@ -6,6 +6,7 @@ on:
     branches: [main, radar-intelligent-hardening]
     paths:
       - "scripts/**"
+      - "functions/api/editorial.js"
       - "sources.json"
       - ".github/workflows/radar-rss.yml"
   schedule:
