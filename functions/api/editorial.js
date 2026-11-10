@@ -33,7 +33,7 @@ function extractJson(value) {
   return JSON.parse(cleaned.slice(start, end + 1));
 }
 
-async function generateOne(item, env) {
+async function generateOne(item, env, correctivePass = false) {
   const system = [
     "Tu es journaliste-rédacteur francophone spécialisé manga, anime et culture pop, au sein d'un média indépendant.",
     "Écris comme une personne qui maîtrise son sujet : naturel, précis, fluide, chaleureux et crédible. Le texte doit pouvoir être lu à voix haute sans sonner comme un communiqué automatique.",
@@ -64,6 +64,7 @@ async function generateOne(item, env) {
     "Telegram : brève journalistique de 40 à 70 mots, directe et utile, sans formule artificielle.",
     "Pinterest : titre descriptif de 45 à 90 caractères et description de 35 à 60 mots.",
     "N'ajoute aucune source ou URL non fournie. Une relecture humaine reste obligatoire. Ne prétends jamais être un humain ni avoir vérifié une source que tu n'as pas consultée.",
+    "Respecte strictement les longueurs minimales : Facebook 90 mots, Instagram 55, TikTok 40, Threads 45 et Telegram 45 mots, hors sources et hashtags. Ne remplace jamais le corps par une phrase courte.",
     "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir trend_synthesis (key_facts, reported_but_unconfirmed, coverage_summary, editorial_context), title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
     "posts doit contenir facebook, instagram, tiktok, x, threads, youtube, telegram et pinterest. youtube et pinterest sont des objets avec title et description; les autres plateformes sont des chaînes."
   ].join("\n");
@@ -96,11 +97,11 @@ async function generateOne(item, env) {
   const result = await env.AI.run(MODEL, {
     messages: [
       { role: "system", content: system },
-      { role: "user", content: "Prépare une prépublication complète pour ce sujet. Données source :\n" + JSON.stringify(input) }
+      { role: "user", content: (correctivePass ? "CORRECTION : la réponse précédente était trop courte. Réécris tous les champs en respectant Facebook 90 mots, Instagram 55, TikTok 40, Threads 45 et Telegram 45 mots, hors sources et hashtags.\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\n" + JSON.stringify(input) }
     ],
     response_format: { type: "json_object" },
     chat_template_kwargs: { enable_thinking: false },
-    max_tokens: 3200,
+    max_tokens: 5000,
     temperature: 0.25
   });
 
@@ -210,7 +211,15 @@ export async function onRequestPost({ request, env }) {
   const output = [];
   for (const item of body.items) {
     try {
-      output.push(await generateOne(item, env));
+      try {
+        output.push(await generateOne(item, env));
+      } catch (error) {
+        if (/trop court/i.test(String(error))) {
+          output.push(await generateOne(item, env, true));
+        } else {
+          throw error;
+        }
+      }
     } catch (error) {
       return json({ error: "Editorial generation failed", detail: String(error).slice(0, 240) }, 502);
     }
