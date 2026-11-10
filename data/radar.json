@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:44:36.952456+00:00",
+  "updated_at": "2026-11-10T04:45:50.282514+00:00",
   "source_count": 6,
   "sources": [
     "Anime News Network – News",
@@ -4756,7 +4756,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 80,
+        "freshness": 79,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4966,37 +4966,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240234",
-      "title": "Fall K-Comics Guide",
-      "title_language": "en",
-      "score": 38,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 4,
-        "freshness": 80,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T14:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Fall K-Comics Guide",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240234",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/review/the-ramparts-of-ice-season-2/episode-20/.243613",
       "title": "The Ramparts of Ice Season 2 ‒ Episode 20",
       "title_language": "en",
@@ -5181,6 +5150,37 @@
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240234",
+      "title": "Fall K-Comics Guide",
+      "title_language": "en",
+      "score": 37,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 79,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T14:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fall K-Comics Guide",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240234",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
           ]
         }
       ]

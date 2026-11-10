@@ -1,6 +1,213 @@
 {
-  "generated_at": "2026-11-10T04:44:43.731693+00:00",
+  "generated_at": "2026-11-10T04:46:00.611602+00:00",
   "count": 6,
+  "rejected_count": 107,
+  "rejected_sample": [
+    {
+      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "reasons": [
+        "format critique/recap écarté du flux prioritaire"
+      ]
+    },
+    {
+      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "U.S. Navy Recruitment Video Reuses Blend S Anime's Opening",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Black Clover Season 2 ‒ Episode 176",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Fate Rewinder Anime Reveals Four New Character Visuals",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "MEGATERA・ZERO and VK Blanka Bring Fresh Beats to Dragon Ball Super: Beerus Anime",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "My Crush's Crush Anime Premieres in April 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Blue Box Season 2 ‒ Episode 5",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Suikoden: The Anime ‒ Episode 5",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Minami-ke: Korekara Season 5 Premieres April 2027, Returning After 14 Years",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "[第634話]ONE PIECE",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    }
+  ],
+  "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
   "items": [
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
@@ -342,5 +549,5 @@
       "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : My Hero Ultra Rumble Game Gets Mobile Version\nExtrait RSS : English, Japanese teasers streamed\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     }
   ],
-  "notice": "Briefs de travail uniquement. Aucun contenu n'est prêt à publier sans validation humaine."
+  "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
 }
