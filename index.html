@@ -529,7 +529,7 @@ function renderRadar(){
  const filter=$("#radar-filter")?.value||"all";
  const selectedSource=$("#radar-source")?.value||"all";
  const allItems=Array.isArray(radar.items)?radar.items:[];
- const sourceNames=[...new Set(allItems.map(a=>a.source).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"));
+ const sourceNames=(Array.isArray(radar.sources)&&radar.sources.length?radar.sources:[...new Set(allItems.map(a=>a.source).filter(Boolean))]).slice().sort((a,b)=>a.localeCompare(b,"fr"));
  const sourceSelect=$("#radar-source");
  if(sourceSelect){
   const previous=selectedSource;
