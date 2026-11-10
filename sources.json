@@ -47,12 +47,12 @@
       "enabled": true
     },
     {
-      "name": "Tokyo Otaku Mode",
-      "url": "https://otakumode.com/news/feed",
+      "name": "AnimeNation",
+      "url": "https://www.animenation.net/blog/feed/",
       "category": "anime-manga",
       "language": "en",
-      "country": "Japan",
-      "region": "East Asia",
+      "country": "United States",
+      "region": "North America",
       "enabled": true
     },
     {
@@ -65,11 +65,11 @@
       "enabled": true
     },
     {
-      "name": "UK Anime Network",
-      "url": "https://uk-anime.net/ukarss",
+      "name": "World of Geek – Manga",
+      "url": "https://worldofgeek.fr/mangas/feed/",
       "category": "anime-manga",
-      "language": "en",
-      "country": "United Kingdom",
+      "language": "fr",
+      "country": "France",
       "region": "Europe",
       "enabled": true
     },
@@ -128,8 +128,8 @@
       "enabled": true
     },
     {
-      "name": "Manga News",
-      "url": "https://www.manga-news.com/index.php/feed/news",
+      "name": "BDzoom – Manga",
+      "url": "https://www.bdzoom.com/mangas/feed/",
       "category": "manga-anime",
       "language": "fr",
       "country": "France",
