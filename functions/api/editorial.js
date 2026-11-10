@@ -95,7 +95,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "Évite les accroches creuses, le sensationnalisme, les répétitions, les emojis excessifs et les phrases passe-partout.",
     "Produis un vrai mini-article : accroche informative, faits essentiels, contexte uniquement s'il est fourni, puis ouverture pertinente. Ne transforme pas un simple titre en récit détaillé.",
     "title_fr : titre français clair, fidèle et attractif sans exagération.",
-    "summary_fr : vise 55 à 70 mots (minimum absolu 45), en 3 à 4 phrases naturelles. Présente les faits disponibles et leurs limites sans inventer de contexte.",
+    "summary_fr : 45 à 90 mots (cible 55 à 70, minimum absolu 45), en 3 à 4 phrases naturelles. Présente les faits disponibles et leurs limites sans inventer de contexte.",
     "editorial_angle : 1 à 2 phrases expliquant l'intérêt réel du sujet pour les lecteurs.",
     "discussion_question : question spécifique, ouverte et naturelle, qui invite à une vraie discussion.",
     "claims_to_verify : liste des éléments concrets qui nécessitent encore une vérification; liste vide si aucun élément ne reste incertain.",
