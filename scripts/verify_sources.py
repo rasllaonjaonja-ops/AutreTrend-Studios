@@ -248,7 +248,7 @@ def main():
         else:
             editorial_status = "signal fort isolé — confirmation obligatoire"
         queue.append({
-            "trend_id": trend.get("id),
+            "trend_id": trend.get("id"),
             "title": title,
             "score_indicatif": score_value,
             "media_count": publisher_count,
