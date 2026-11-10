@@ -280,8 +280,11 @@ def main():
     QUEUE.write_text(json.dumps({
         "generated_at": payload["checked_at"],
         "count": len(queue),
+        "rejected_count": len(rejected),
+        "rejected_sample": rejected[:30],
+        "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
         "items": queue,
-        "notice": "Briefs de travail uniquement. Aucun contenu n'est prêt à publier sans validation humaine."
+        "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Vérification : {len(checks)} pages contrôlées; {payload['official_link_found']} avec lien officiel repéré; {len(errors)} erreur(s).")
     print(f"File éditoriale : {len(queue)} briefs non publiables générés.")
