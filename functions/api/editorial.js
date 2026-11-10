@@ -215,17 +215,21 @@ export async function onRequestPost({ request, env }) {
   const errors = [];
   for (const item of body.items) {
     try {
-      try {
-        output.push(await generateOne(item, env));
-      } catch (error) {
-        if (/trop court|synthèse croisée|brief éditorial|structure éditoriale|format incomplet/i.test(String(error))) {
-          // Une seule correction ciblée : ne pas laisser un sujet défaillant
-          // annuler les autres prépublications valides du même lot.
-          output.push(await generateOne(item, env, true, String(error).slice(0, 500)));
-        } else {
-          throw error;
+      let draft = null;
+      let lastError = "";
+      // Deux corrections ciblées au maximum après la première génération.
+      // Un sujet défaillant ne doit pas annuler les autres prépublications valides.
+      for (let attempt = 0; attempt <= 2; attempt++) {
+        try {
+          draft = await generateOne(item, env, attempt > 0, lastError);
+          break;
+        } catch (error) {
+          lastError = String(error);
+          const retryable = /trop court|synthèse croisée|brief éditorial|structure éditoriale|format incomplet/i.test(lastError);
+          if (!retryable || attempt === 2) throw error;
         }
       }
+      if (draft) output.push(draft);
     } catch (error) {
       errors.push({
         trend_id: item.trend_id,
