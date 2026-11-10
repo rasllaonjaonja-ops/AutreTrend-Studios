@@ -246,7 +246,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   const appendGrounded = (value, minimum, target = minimum) => {
     let output = String(value || "").trim();
     const tokens = source => new Set(
-      (String(source || "").toLowerCase().match(/[\\p{L}\\p{N}]{3,}/gu) || [])
+      (String(source || "").toLowerCase().match(/[\p{L}\p{N}]{3,}/gu) || [])
     );
     for (const addition of groundedAdditions) {
       if (wordCount(output) >= target) break;
