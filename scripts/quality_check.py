@@ -66,9 +66,13 @@ def valid_editorial_queue(queue):
         if not isinstance(posts, dict):
             return False
         if posts:
+            # Les brouillons de secours possèdent aussi huit champs sociaux.
+            # Seuls les éléments portant la signature de génération IA comptent
+            # dans ai_generated_count.
             if not platforms.issubset(set(posts.keys())):
                 return False
-            complete_count += 1
+            if item.get("ai_generation"):
+                complete_count += 1
 
     if complete_count != generated_count:
         return False
