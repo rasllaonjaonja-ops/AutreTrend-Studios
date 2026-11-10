@@ -342,7 +342,7 @@ export async function onRequestPost({ request, env }) {
           break;
         } catch (error) {
           lastError = String(error);
-          if (attempt === 2) throw error;
+          if (attempt === 1) throw error;
         }
       }
       if (draft) output.push(draft);
