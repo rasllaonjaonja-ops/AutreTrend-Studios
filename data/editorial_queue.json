@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:04:33.240776+00:00",
+  "generated_at": "2026-11-10T08:05:25.547556+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 402,
+  "rejected_count": 399,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -293,10 +293,12 @@
       ],
       "market_countries": [
         "France",
-        "United Kingdom"
+        "United Kingdom",
+        "United States"
       ],
       "market_regions": [
-        "Europe"
+        "Europe",
+        "North America"
       ],
       "primary_sources": [],
       "primary_source_count": 0,
