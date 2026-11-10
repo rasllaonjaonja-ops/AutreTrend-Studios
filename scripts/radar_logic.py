@@ -4,7 +4,7 @@ import unicodedata
 
 GENERIC = {
     "anime", "manga", "news", "new", "gets", "get", "the", "and", "for",
-    "with", "from", "this", "that", "its", "are", "was", "has", "have",
+    "with", "from", "this", "that", "its", "are", "was", "has", "have", "in",
     "des", "les", "une", "un", "dans", "pour", "avec", "sur", "qui", "est",
     "season", "saison", "movie", "film", "theatrical", "cinema", "announced",
     "announcement", "reveals", "revealed", "confirms", "confirmed", "2027",
@@ -18,7 +18,7 @@ def _plain(value):
 
 def event_parts(title):
     """Retourne les tokens distinctifs et les facettes d'événement normalisées."""
-    text = _plain(title).replace("×", "x")
+    text = _plain(title).replace("×", " ")
     text = re.sub(r"\b(\d+)(?:st|nd|rd|th)\b", r"\1", text)
     text = re.sub(r"\b(first|1st)\b", "1", text)
     text = re.sub(r"\b(second|2nd)\b", "2", text)
