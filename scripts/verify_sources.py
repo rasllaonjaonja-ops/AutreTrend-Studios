@@ -8,14 +8,21 @@ import urllib.error
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
+
+try:
+    from radar_logic import detect_text_language, diversify_queue
+except ModuleNotFoundError:  # Import également possible depuis les tests à la racine du dépôt.
+    from scripts.radar_logic import detect_text_language, diversify_queue
 from urllib.parse import urlparse, urljoin
 
 ROOT = Path(__file__).resolve().parents[1]
 RADAR = ROOT / "data" / "radar.json"
 OUT = ROOT / "data" / "verification.json"
 QUEUE = ROOT / "data" / "editorial_queue.json"
-MAX_ARTICLES = 25
-TIMEOUT = 8
+MAX_ARTICLES = 40
+MAX_PREPUBLICATIONS = 3
+SOCIAL_NETWORKS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
+TIMEOUT = 4
 
 # Liste volontairement conservatrice : les médias généralistes ne sont pas traités comme preuves officielles.
 OFFICIAL_DOMAINS = {
@@ -56,7 +63,7 @@ class Links(HTMLParser):
             self.in_title = True
     def handle_endtag(self, tag):
         if tag.lower() == "a" and self.current_href:
-            label = re.sub(r"\\s+", " ", " ".join(self.current_anchor_parts)).strip()[:180]
+            label = re.sub(r"\s+", " ", " ".join(self.current_anchor_parts)).strip()[:180]
             self.links.append({"href": self.current_href, "label": label})
             self.current_href = None
             self.current_anchor_parts = []
@@ -108,7 +115,24 @@ def main():
     items = radar.get("items", [])
     checks = []
     errors = []
-    for item in items[:MAX_ARTICLES]:
+    # Échantillon de vérification équilibré : priorité aux articles récents,
+    # puis au score. Une page non contrôlée ne sera jamais présentée comme
+    # dépourvue de lien officiel.
+    def verification_rank(item):
+        age = age_hours_for_sampling(item.get("published_at"))
+        return (age is not None, age if age is not None else 10**9, -int(item.get("score", 0) or 0))
+    def age_hours_for_sampling(value):
+        try:
+            from datetime import datetime, timezone
+            dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            hours = (datetime.now(timezone.utc) - dt).total_seconds() / 3600
+            return hours if -24 <= hours <= 168 * 30 else None
+        except Exception:
+            return None
+    selected_items = sorted(items, key=verification_rank)[:MAX_ARTICLES]
+    for item in selected_items:
         url = item.get("url", "")
         host = (urlparse(url).hostname or "").lower().removeprefix("www.")
         result = {
@@ -155,9 +179,13 @@ def main():
             dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
+            # Une date anormalement future est considérée comme invalide,
+            # pas comme une actualité fraîche.
+            if dt > now + __import__("datetime").timedelta(hours=24):
+                return None
             return max(0, (now - dt).total_seconds() / 3600)
         except Exception:
-            return 9999
+            return None
 
     def hashtags(title):
         words = re.findall(r"[A-Za-z0-9À-ÿ]+", title or "")
@@ -202,47 +230,86 @@ def main():
         title = str(trend.get("title", "")).strip()
         low_title = title.lower()
         trend_articles = trend.get("articles", [])
-        evidence, summaries, article_urls = [], [], []
+        evidence, summary_candidates, article_urls, checked_urls = [], [], [], []
         for article in trend_articles:
             url = article.get("url", "")
             article_urls.append(url)
             check = by_url.get(url)
             if check:
+                checked_urls.append(url)
                 evidence.extend(check["official_evidence"])
             original = radar_items.get(url, {})
             snippet = original.get("summary", "").strip()
-            if snippet and snippet not in summaries:
-                summaries.append(snippet)
+            if snippet and all(existing[0] != snippet for existing in summary_candidates):
+                summary_candidates.append((
+                    snippet,
+                    detect_text_language(snippet),
+                    url,
+                    bool(check)
+                ))
         evidence = list({x["url"]: x for x in evidence}.values())
         sources = trend.get("sources", [])
         publisher_count = int(trend.get("source_count", 0) or 0)
+        primary_source_count = int(trend.get("primary_source_count", 0) or 0)
+        primary_sources = trend.get("primary_sources", [])
         score_value = int(trend.get("score", 0) or 0)
-        latest_age = min((age_hours(radar_items.get(u, {}).get("published_at")) for u in article_urls), default=9999)
+        known_ages = [
+            age_hours(radar_items.get(u, {}).get("published_at"))
+            for u in article_urls
+        ]
+        known_ages = [age for age in known_ages if age is not None]
+        latest_age = min(known_ages) if known_ages else None
         excluded_format = any(term in low_title for term in excluded_terms)
         has_official = bool(evidence)
         cross_checked = publisher_count >= 2
+        verification_coverage = len(set(checked_urls))
         reasons = []
         if excluded_format:
             reasons.append("format critique/recap écarté du flux prioritaire")
         if score_value < 45:
             reasons.append("score éditorial inférieur à 45/100")
-        if latest_age > 168:
+        if latest_age is None:
+            reasons.append("date de publication absente, invalide ou anormalement future")
+        elif latest_age > 168:
             reasons.append("actualité trop ancienne (plus de 7 jours)")
         if not cross_checked and not has_official and score_value < 65:
             reasons.append("source unique sans lien officiel repéré")
-        if not summaries and score_value < 60:
+        if not summary_candidates and score_value < 60:
             reasons.append("aucun résumé exploitable dans le flux RSS")
+        if verification_coverage == 0:
+            reasons.append("page source non contrôlée : aucun statut de lien officiel disponible")
         if reasons:
             rejected.append({"title": title, "reasons": reasons})
             continue
 
-        primary_url = article_urls[0] if article_urls else ""
+        # Choisir l'extrait le plus exploitable : français d'abord, puis page
+        # effectivement contrôlée, puis longueur utile. L'URL suit toujours
+        # exactement l'article dont provient l'extrait retenu.
+        summary_candidates.sort(
+            key=lambda row: (row[1] == "fr", row[3], min(len(row[0]), 420)),
+            reverse=True
+        )
+        summary, summary_language, primary_url, summary_page_checked = (
+            summary_candidates[0] if summary_candidates else ("", "und", "", False)
+        )
+        if not primary_url and article_urls:
+            primary_url = article_urls[0]
         primary_item = radar_items.get(primary_url, {})
-        language = primary_item.get("title_language", trend.get("title_language", "en"))
-        summary = summaries[0] if summaries else ""
-        posts = make_social_posts(title, summary, language, sources, primary_url, has_official)
+        # La langue du résumé est détectée indépendamment de celle du titre.
+        # En cas de doute, le texte reste bloqué comme traduction à contrôler.
+        summary_language = detect_text_language(summary)
+        title_language = detect_text_language(title)
+        # Un brouillon n'est considéré prêt en français que si le titre ET
+        # l'extrait le sont. Traduire uniquement le résumé laisserait le titre anglais.
+        posts = make_social_posts(
+            title, summary,
+            "fr" if title_language == "fr" and summary_language == "fr" else "und",
+            sources, primary_url, has_official
+        )
         if has_official:
             editorial_status = "lien officiel repéré — détails à relire"
+        elif primary_source_count > 0:
+            editorial_status = "flux de première partie présent — contenu à vérifier"
         elif cross_checked:
             editorial_status = "plusieurs médias — confirmation officielle requise"
         else:
@@ -253,23 +320,45 @@ def main():
             "score_indicatif": score_value,
             "media_count": publisher_count,
             "media": sources,
+            "source_countries": trend.get("source_countries", []),
+            "source_regions": trend.get("source_regions", []),
+            "market_countries": trend.get("market_countries", []),
+            "market_regions": trend.get("market_regions", []),
+            "primary_sources": primary_sources,
+            "primary_source_count": primary_source_count,
+            "source_excerpt_url": primary_url,
+            "source_excerpt_checked": summary_page_checked,
             "articles": trend_articles,
             "official_evidence": evidence,
+            "verification_coverage": {
+                "checked_articles": verification_coverage,
+                "total_articles": len(article_urls),
+                "status": "checked" if verification_coverage else "not_checked"
+            },
             "editorial_status": editorial_status,
             "human_review_required": True,
             "publication_allowed": False,
-            "title_language": language,
+            "title_language": title_language,
+            "summary_language": summary_language,
             "source_excerpt": summary,
             "social_posts": posts,
             "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : " + title + "\nExtrait RSS : " + (summary or "Aucun résumé fourni par la source.") + "\n\nÉtat : " + editorial_status + "\nSources médias : " + ", ".join(sources) + "\n" + (posts["translation_note"] + "\n" if posts["translation_note"] else "") + "Ne pas publier avant contrôle des faits et de la traduction."
         })
 
-    queue.sort(key=lambda x: (bool(x["official_evidence"]), x["media_count"], x["score_indicatif"]), reverse=True)
-    queue = queue[:15]
+    queue.sort(key=lambda x: (
+        bool(x["official_evidence"]),
+        x.get("primary_source_count", 0),
+        x["media_count"],
+        x["score_indicatif"]
+    ), reverse=True)
+    candidate_count = len(queue)
+    queue = diversify_queue(queue, limit=MAX_PREPUBLICATIONS, max_per_franchise=1)
+    diversity_excluded_count = candidate_count - len(queue)
 
     payload = {
         "checked_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
         "checked_articles": len(checks),
+        "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
         "official_link_found": sum(bool(x["official_evidence"]) for x in checks),
         "errors": errors,
         "checks": checks,
@@ -280,11 +369,17 @@ def main():
     QUEUE.write_text(json.dumps({
         "generated_at": payload["checked_at"],
         "count": len(queue),
+        "daily_goal": MAX_PREPUBLICATIONS,
+        "selected_networks": list(SOCIAL_NETWORKS),
+        "network_variant_count": len(queue) * len(SOCIAL_NETWORKS),
+        "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
         "rejected_count": len(rejected),
         "rejected_sample": rejected[:30],
         "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
+        "diversity_policy": "Maximum 1 prépublication par franchise dans les trois sujets du jour, pour privilégier trois actualités réellement distinctes.",
+        "diversity_excluded_count": diversity_excluded_count,
         "items": queue,
-        "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
+        "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Vérification : {len(checks)} pages contrôlées; {payload['official_link_found']} avec lien officiel repéré; {len(errors)} erreur(s).")
     print(f"File éditoriale : {len(queue)} briefs non publiables générés.")

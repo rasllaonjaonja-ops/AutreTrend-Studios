@@ -5,13 +5,8 @@
       "url": "https://www.animenewsnetwork.com/news/rss.xml?ann-edition=us",
       "category": "anime-manga",
       "language": "en",
-      "enabled": true
-    },
-    {
-      "name": "Anime News Network – All Articles",
-      "url": "https://www.animenewsnetwork.com/all/rss.xml",
-      "category": "anime-manga",
-      "language": "en",
+      "country": "United States",
+      "region": "North America",
       "enabled": true
     },
     {
@@ -19,6 +14,8 @@
       "url": "https://shonenjumpplus.com/atom",
       "category": "manga-official",
       "language": "ja",
+      "country": "Japan",
+      "region": "East Asia",
       "enabled": true
     },
     {
@@ -26,6 +23,8 @@
       "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
       "category": "anime-manga",
       "language": "en",
+      "country": "United States",
+      "region": "North America",
       "enabled": true
     },
     {
@@ -33,6 +32,8 @@
       "url": "https://myanimelist.net/rss/news.xml",
       "category": "anime-manga",
       "language": "en",
+      "country": "International",
+      "region": "International",
       "enabled": true
     },
     {
@@ -41,8 +42,229 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "source_type": "professional-media",
+      "country": "Japan",
+      "region": "East Asia",
+      "enabled": true
+    },
+    {
+      "name": "AnimeNation",
+      "url": "https://www.animenation.net/blog/feed/",
+      "category": "anime-manga",
+      "language": "en",
+      "country": "United States",
+      "region": "North America",
+      "enabled": true
+    },
+    {
+      "name": "Anime UK News",
+      "url": "https://animeuknews.net/feed/",
+      "category": "anime-manga",
+      "language": "en",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "enabled": true
+    },
+    {
+      "name": "World of Geek – Manga",
+      "url": "https://worldofgeek.fr/mangas/feed/",
+      "category": "anime-manga",
+      "language": "fr",
+      "country": "France",
+      "region": "Europe",
+      "enabled": true
+    },
+    {
+      "name": "Animehunch",
+      "url": "https://animehunch.com/feed/",
+      "category": "anime-manga",
+      "language": "en",
+      "country": "India",
+      "region": "South Asia",
+      "enabled": true
+    },
+    {
+      "name": "Anime News India",
+      "url": "https://animenewsindia.com/feed",
+      "category": "anime-manga",
+      "language": "en",
+      "country": "India",
+      "region": "South Asia",
+      "enabled": true
+    },
+    {
+      "name": "Anime Corner",
+      "url": "https://animecorner.me/feed/",
+      "category": "anime-manga",
+      "language": "en",
+      "country": "Philippines",
+      "region": "Southeast Asia",
+      "enabled": true
+    },
+    {
+      "name": "Anime Feminist",
+      "url": "https://www.animefeminist.com/feed/",
+      "category": "anime-manga-analysis",
+      "language": "en",
+      "country": "United States",
+      "region": "North America",
+      "enabled": true
+    },
+    {
+      "name": "Otaku USA Magazine",
+      "url": "https://www.otakuusamagazine.com/feed/",
+      "category": "anime-manga",
+      "language": "en",
+      "country": "United States",
+      "region": "North America",
+      "enabled": true
+    },
+    {
+      "name": "Anime Herald",
+      "url": "https://animeherald.com/feed/",
+      "category": "anime-manga",
+      "language": "en",
+      "country": "United States",
+      "region": "North America",
+      "enabled": true
+    },
+    {
+      "name": "BDzoom – Manga",
+      "url": "https://www.bdzoom.com/mangas/feed/",
+      "category": "manga-anime",
+      "language": "fr",
+      "country": "France",
+      "region": "Europe",
+      "enabled": true
+    },
+    {
+      "name": "Animotaku",
+      "url": "https://animotaku.fr/feed/",
+      "category": "anime-manga",
+      "language": "fr",
+      "country": "France",
+      "region": "Europe",
+      "enabled": true
+    },
+    {
+      "name": "Adala News",
+      "url": "https://adala-news.fr/feed/",
+      "category": "anime-manga",
+      "language": "fr",
+      "country": "France",
+      "region": "Europe",
+      "enabled": true
+    },
+    {
+      "name": "Japan FM – Manga",
+      "url": "https://www.japanfm.fr/manga/feed/",
+      "category": "anime-manga",
+      "language": "fr",
+      "country": "France",
+      "region": "Europe",
+      "enabled": true
+    },
+    {
+      "name": "AnimeAnime.jp",
+      "url": "https://animeanime.jp/rss20/index.rdf",
+      "category": "anime-manga",
+      "language": "ja",
+      "country": "Japan",
+      "region": "East Asia",
+      "enabled": true
+    },
+    {
+      "name": "Journal du Japon",
+      "url": "https://www.journaldujapon.com/feed/",
+      "category": "anime-manga-culture",
+      "language": "fr",
+      "country": "France",
+      "region": "Europe",
+      "enabled": true
+    },
+    {
+      "name": "Google Actualités – France",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "anime-manga-market",
+      "language": "fr",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – United States",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-US&gl=US&ceid=US:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – United Kingdom",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-GB&gl=GB&ceid=GB:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "United Kingdom",
+      "market_region": "Europe",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – India",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-IN&gl=IN&ceid=IN:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "India",
+      "market_region": "South Asia",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – Japan",
+      "url": "https://news.google.com/rss/search?q=%E3%82%A2%E3%83%8B%E3%83%A1+OR+%E6%BC%AB%E7%94%BB&hl=ja&gl=JP&ceid=JP:ja",
+      "category": "anime-manga-market",
+      "language": "ja",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "Japan",
+      "market_region": "East Asia",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – Philippines",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-PH&gl=PH&ceid=PH:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "Philippines",
+      "market_region": "Southeast Asia",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google Actualités – Brésil",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "category": "anime-manga-market",
+      "language": "pt",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "Brazil",
+      "market_region": "South America",
+      "source_type": "market_search",
       "enabled": true
     }
   ],
-  "note": "Flux RSS/Atom validés. Les médias professionnels servent à détecter et recouper les sujets; les annonces doivent être confirmées sur les sites des éditeurs, studios ou ayants droit."
+  "note": "Veille mondiale : 20 sites éditoriaux manga/anime indépendants et 7 flux Google Actualités localisés (France, États-Unis, Royaume-Uni, Inde, Japon, Philippines, Brésil). Les pays des sites décrivent leur implantation; les marchés Google Actualités décrivent la zone ciblée par la recherche. Ces flux ne mesurent pas les tendances natives des réseaux sociaux ni le nombre de recherches. Les flux sont contrôlés à chaque collecte; les erreurs et flux sans articles restent visibles."
 }

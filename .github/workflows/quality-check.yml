@@ -2,12 +2,13 @@ name: AutreTrend Quality Check
 
 on:
   push:
-    branches: [main]
+    branches: [main, radar-intelligent-hardening]
     paths:
       - "index.html"
       - "app.js"
       - "styles.css"
       - "scripts/**"
+      - "tests/**"
       - "data/**"
       - "sources.json"
       - ".github/workflows/**"
@@ -18,6 +19,7 @@ on:
       - "app.js"
       - "styles.css"
       - "scripts/**"
+      - "tests/**"
       - "data/**"
       - "sources.json"
       - ".github/workflows/**"
@@ -41,5 +43,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Exécuter les tests de logique Radar
+        run: python -m unittest discover -s tests -p "test_*.py"
       - name: Vérifier la qualité du projet
         run: python scripts/quality_check.py

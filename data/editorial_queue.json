@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-11-10T05:02:33.831845+00:00",
-  "count": 6,
-  "rejected_count": 107,
+  "generated_at": "2026-11-10T06:58:36.985980+00:00",
+  "count": 3,
+  "daily_goal": 3,
+  "selected_networks": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "threads",
+    "youtube",
+    "telegram",
+    "pinterest"
+  ],
+  "network_variant_count": 24,
+  "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
+  "rejected_count": 398,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -10,19 +23,13 @@
       ]
     },
     {
-      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
-      "reasons": [
-        "format critique/recap écarté du flux prioritaire"
-      ]
-    },
-    {
-      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -34,29 +41,60 @@
       ]
     },
     {
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "U.S. Navy Recruitment Video Reuses Blend S Anime's Opening",
+      "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
       "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -67,10 +105,56 @@
       ]
     },
     {
-      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
+      "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "[第634話]ONE PIECE",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Bocchi The Rock! Announces New Anime Movie Focusing On Seika And Nijika For 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "actualité trop ancienne (plus de 7 jours)",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -81,473 +165,554 @@
       ]
     },
     {
-      "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027 - Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "Black Clover Season 2 ‒ Episode 176",
+      "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita Saison 2 (anime)",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "TOHO Eyes Historic 20 Billion Yen Milestone For Chiikawa Movie As It Continues Successful Box Office Run",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "reasons": [
+        "format critique/recap écarté du flux prioritaire",
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
       "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
+      "title": "Photo Gallery: Miciaglo as Talia from Cyberpunk Edgerunners Season 2 at Lucca Comics & Games",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
       "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
       "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
       "title": "Fate Rewinder Anime Reveals Four New Character Visuals",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "MEGATERA・ZERO and VK Blanka Bring Fresh Beats to Dragon Ball Super: Beerus Anime",
+      "title": "L’anime Boku no Suki na Hito ga Suki na Hito, en Teaser Vidéo & Date de sortie",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "My Crush's Crush Anime Premieres in April 2027",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Blue Box Season 2 ‒ Episode 5",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Suikoden: The Anime ‒ Episode 5",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Minami-ke: Korekara Season 5 Premieres April 2027, Returning After 14 Years",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "[第634話]ONE PIECE",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "source unique sans lien officiel repéré",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
+  "diversity_policy": "Maximum 1 prépublication par franchise dans les trois sujets du jour, pour privilégier trois actualités réellement distinctes.",
+  "diversity_excluded_count": 0,
   "items": [
     {
-      "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
-      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
-      "score_indicatif": 62,
-      "media_count": 2,
+      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+      "score_indicatif": 70,
+      "media_count": 8,
       "media": [
+        "Adala News",
+        "Anime Corner",
         "Anime News Network",
-        "Crunchyroll"
-      ],
-      "articles": [
-        {
-          "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        },
-        {
-          "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "The series follows a college student reincarnated as a villain in his favorite game",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Death #Flags #Show\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
-        "instagram": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Death #Flags #Show\nhttps://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
-        "tiktok": "ACCROCHE : My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Death #Flags #Show",
-        "x": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027 — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Death #Flags #Show",
-        "threads": "On vient de repérer cette actualité : My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027\n\n#Anime #Manga #Death #Flags #Show"
-        },
-        "telegram": "📰 My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
-        "pinterest": {
-          "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Death #Flags #Show\nhttps://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027\nExtrait RSS : The series follows a college student reincarnated as a villain in his favorite game\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
-      "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-      "score_indicatif": 58,
-      "media_count": 2,
-      "media": [
-        "Anime News Network",
-        "Crunchyroll"
-      ],
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        },
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "The clip spotlights the Stands introduced so far",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #STEEL #BALL #RUN\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
-        "instagram": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #STEEL #BALL #RUN\nhttps://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
-        "tiktok": "ACCROCHE : STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #STEEL #BALL #RUN",
-        "x": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #STEEL #BALL #RUN",
-        "threads": "On vient de repérer cette actualité : STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video\n\n#Anime #Manga #STEEL #BALL #RUN"
-        },
-        "telegram": "📰 STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
-        "pinterest": {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #STEEL #BALL #RUN\nhttps://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video\nExtrait RSS : The clip spotlights the Stands introduced so far\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
-      "trend_id": "https://myanimelist.net/news/74917181?_location=rss",
-      "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-      "score_indicatif": 48,
-      "media_count": 2,
-      "media": [
+        "Animehunch",
+        "Animotaku",
+        "Crunchyroll",
         "MyAnimeList",
         "ORICON / Japan Anime News"
       ],
+      "source_countries": [
+        "France",
+        "India",
+        "International",
+        "Japan",
+        "Philippines",
+        "United States"
+      ],
+      "source_regions": [
+        "East Asia",
+        "Europe",
+        "International",
+        "North America",
+        "South Asia",
+        "Southeast Asia"
+      ],
+      "market_countries": [
+        "France",
+        "United Kingdom"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "primary_sources": [],
+      "primary_source_count": 0,
+      "source_excerpt_url": "https://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+      "source_excerpt_checked": false,
       "articles": [
+        {
+          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+          "title_language": "en",
+          "url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        },
+        {
+          "title": "Spy x Family : alerte, la saison 4 de l’anime et un film sont en préparation ! Quand seront-ils disponibles ? Que vont-ils raconter ? - Serieously",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcmtVbW83NmY2YWF2b1IwaFhEUGZiUk5TQzlwd1RLTmlpakFJVWNFRWczYVZ0TnJ0TVNlb0swM2xtdzhTa09TcXVJMk1qbWhwLW5YdXhDYk9WSmNqZ1BYNk5sc1pVbWtqejRQU0VNOXpUMW9rRmdGUHdVMHhYblhDcmZGSGxTMXRXcERsR0NTMGZIMm53YVRHeXZDeHM0SnZNX0VvemRPVkUzZy1NY0gyVUEtR2lpM25Ud0F0bGxmaTRMOWxnN3Bua0t4UmQ0Z3kwUkJsQzJxZDN3T1VPb1V0N2ZSeWhyTEkwQnB4Ql9seU4?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        },
+        {
+          "title": "SPY x FAMILY Saison 4 et nouveau film anime annoncés pour 2027 - Crunchyroll",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFZlQ3RiUWg4QTJNbThfV3pSRUplTWtmNWlPZ0pScFcyLTF0SzJKREJWNDBvN0MySDFvaVVEOHUtX2hlbTBmaEhyX0pJMHYwcVRESXUtLUVZLU1UMTdhU1ZMcVZXeGh3aFNCMThRZElEREZtbThnTUotemM1RndYeU1ZSVJxYUZjd1RYejhSTDFkWmtHOWI2Y2ZWOU9xTGox?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        },
+        {
+          "title": "SPY x FAMILY THE MOVIE 2 (film)",
+          "title_language": "en",
+          "url": "https://animotaku.fr/encyclotaku/film/spy-x-family-the-movie-2/",
+          "source": "Animotaku",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "Animotaku"
+          ]
+        },
+        {
+          "title": "SPY x FAMILY Saison 4 (anime)",
+          "title_language": "en",
+          "url": "https://animotaku.fr/encyclotaku/anime/spy-x-family-saison-4/",
+          "source": "Animotaku",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "Animotaku"
+          ]
+        },
+        {
+          "title": "L’anime SPY x FAMILY Saison 4, annoncé pour 2027",
+          "title_language": "fr",
+          "url": "https://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+          "source": "Adala News",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "Adala News"
+          ]
+        },
+        {
+          "title": "L'anime SPY x FAMILY Saison 4, annoncé pour 2027 - Adala News",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWEVrZDBfTVBTaDB0bHVXQm9TTFgxcXlMRGZIVVJkQS1Rc0tRWlB1MHBaMG9vd19DeFJNZC1PN2VrWWEwVnpDRm5fN3pRbGtuNmZoeVl6clhOaXViaGRXc04tS0U2dldvYzIwbC1udlpGdUw0QlJxbjhzZmtVSUJxNzhFQQ?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        },
         {
           "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
           "title_language": "en",
           "url": "https://myanimelist.net/news/74917181?_location=rss",
           "source": "MyAnimeList News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "International",
+          "market_country": null,
           "feed_sources": [
             "MyAnimeList News – RSS"
           ]
+        }
+      ],
+      "official_evidence": [],
+      "verification_coverage": {
+        "checked_articles": 1,
+        "total_articles": 8,
+        "status": "checked"
+      },
+      "editorial_status": "plusieurs médias — confirmation officielle requise",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "title_language": "en",
+      "summary_language": "fr",
+      "source_excerpt": "Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…",
+      "social_posts": {
+        "language_ready": false,
+        "translation_required": true,
+        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
+        "facebook": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spy #Family #Season\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+        "instagram": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spy #Family #Season\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+        "tiktok": "ACCROCHE : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spy #Family #Season",
+        "x": "Spy x Family Season 4 & New Film Confirmed For 2027 Release — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spy #Family #Season",
+        "threads": "On vient de repérer cette actualité : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "youtube": {
+          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/\n\n#Anime #Manga #Spy #Family #Season"
+        },
+        "telegram": "📰 Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+        "pinterest": {
+          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spy #Family #Season\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/"
+        }
+      },
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Adala News, Anime Corner, Anime News Network, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+    },
+    {
+      "trend_id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
+      "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
+      "score_indicatif": 70,
+      "media_count": 4,
+      "media": [
+        "Anime Corner",
+        "Anime News Network",
+        "Crunchyroll",
+        "ORICON / Japan Anime News"
+      ],
+      "source_countries": [
+        "Japan",
+        "Philippines",
+        "United States"
+      ],
+      "source_regions": [
+        "East Asia",
+        "North America",
+        "Southeast Asia"
+      ],
+      "market_countries": [
+        "Philippines",
+        "United States"
+      ],
+      "market_regions": [
+        "North America",
+        "Southeast Asia"
+      ],
+      "primary_sources": [],
+      "primary_source_count": 0,
+      "source_excerpt_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
+      "source_excerpt_checked": true,
+      "articles": [
+        {
+          "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
+          "source": "Google News – Philippines",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Philippines",
+          "feed_sources": [
+            "Google News – Philippines"
+          ]
         },
         {
-          "title": "SPY x FAMILY Announces Two New Anime Projects: Season 4 and Second Movie Set for 2027",
+          "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
           "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9485/",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        },
+        {
+          "title": "Japanese Horror Manga ‘Noah Of The Blood Sea’ Set For Feature Adaptation As Tyrus Pictures Options Rights - Deadline",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczdzQkRxcm9WZy11SHJIOGE2c2xGQjg4UjN4S0VHU1FqMFZWNWhDSFpZb2c5MWtHbm0yUEg1MWEzWjZpYlZFaTdHcmlpS1hpOG82bzdEbjhaZXNZRlZzZ1JRR044bEhRSl9EdDdLY0swVVJEM3RPdE4wNnZyY2ZRemlHY2Izbjg5WUNQVXlsNXdJVlU1WG9yb0p5UmYxT29v?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – India",
+            "Google News – Philippines",
+            "Google News – United Kingdom",
+            "Google News – United States"
+          ]
+        },
+        {
+          "title": "Paradox Live THE MOVIE Anime Film Slated for 2027, Reveals Super Teaser Visual",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/7/paradox-live-the-movie-anime-film-2027-super-teaser-visual",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        },
+        {
+          "title": "Mashle Live-Action Film Teaser Reveals Mackenyu Cast as Mash, Yuichi Fukuda Directs",
+          "title_language": "en",
+          "url": "https://animecorner.me/mashle-live-action-film-teaser-reveals-mackenyu-cast-as-mash-yuichi-fukuda-directs/",
+          "source": "Anime Corner",
+          "source_type": "editorial_site",
+          "source_country": "Philippines",
+          "market_country": null,
+          "feed_sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Live-Action Film Adaptation Announced",
+          "title_language": "en",
+          "url": "https://animecorner.me/mashle-magic-and-muscles-live-action-film-adaptation-announced/",
+          "source": "Anime Corner",
+          "source_type": "editorial_site",
+          "source_country": "Philippines",
+          "market_country": null,
+          "feed_sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Live-Action Movie Set for March 19, 2027; Teaser Visual Reveals Mash From Behind",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9474/",
           "source": "Japan Anime News – ORICON RSS",
+          "source_type": "professional-media",
+          "source_country": "Japan",
+          "market_country": null,
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
           ]
         }
       ],
       "official_evidence": [],
+      "verification_coverage": {
+        "checked_articles": 2,
+        "total_articles": 7,
+        "status": "checked"
+      },
       "editorial_status": "plusieurs médias — confirmation officielle requise",
       "human_review_required": true,
       "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "The Spy x Family Anime Extra Mission II special event announced a fourth season and a second theatrical movie on Sunday, revealing the production staff and a teaser visual (pictured) for Season 4. The new season and movie are scheduled for a 2027 premiere. Staff Director: Yasuhiro Akamatsu (Spy x Family Season 3 episode director) NEW Assistant Director: Hiroki Shinagawa (Lazarus sub character design) NEW Series Composition: Aya Takaha (Mahoutsukai no Yome script) NEW Assistant Series Composition",
+      "title_language": "und",
+      "summary_language": "und",
+      "source_excerpt": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere Anime Trending",
       "social_posts": {
         "language_ready": false,
         "translation_required": true,
         "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spy #Family #Season\nSources à consulter : MyAnimeList, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://myanimelist.net/news/74917181?_location=rss",
-        "instagram": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spy #Family #Season\nhttps://myanimelist.net/news/74917181?_location=rss",
-        "tiktok": "ACCROCHE : 'Spy x Family' Gets Season 4, Second Anime Movie in 2027\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spy #Family #Season",
-        "x": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027 — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spy #Family #Season",
-        "threads": "On vient de repérer cette actualité : 'Spy x Family' Gets Season 4, Second Anime Movie in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "facebook": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Paradox #Live #Film\nSources à consulter : Anime Corner, Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
+        "instagram": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Paradox #Live #Film\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
+        "tiktok": "ACCROCHE : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Paradox #Live #Film",
+        "x": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Paradox #Live #Film",
+        "threads": "On vient de repérer cette actualité : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
         "youtube": {
-          "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : MyAnimeList, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://myanimelist.net/news/74917181?_location=rss\n\n#Anime #Manga #Spy #Family #Season"
+          "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime Corner, Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5\n\n#Anime #Manga #Paradox #Live #Film"
         },
-        "telegram": "📰 'Spy x Family' Gets Season 4, Second Anime Movie in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : MyAnimeList, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://myanimelist.net/news/74917181?_location=rss",
+        "telegram": "📰 Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime Corner, Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
         "pinterest": {
-          "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spy #Family #Season\nhttps://myanimelist.net/news/74917181?_location=rss"
+          "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Paradox #Live #Film\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5"
         }
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : 'Spy x Family' Gets Season 4, Second Anime Movie in 2027\nExtrait RSS : The Spy x Family Anime Extra Mission II special event announced a fourth season and a second theatrical movie on Sunday, revealing the production staff and a teaser visual (pictured) for Season 4. The new season and movie are scheduled for a 2027 premiere. Staff Director: Yasuhiro Akamatsu (Spy x Family Season 3 episode director) NEW Assistant Director: Hiroki Shinagawa (Lazarus sub character design) NEW Series Composition: Aya Takaha (Mahoutsukai no Yome script) NEW Assistant Series Composition\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : MyAnimeList, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\nExtrait RSS : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere Anime Trending\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime Corner, Anime News Network, Crunchyroll, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     },
     {
-      "trend_id": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-      "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
-      "score_indicatif": 47,
+      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+      "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+      "score_indicatif": 59,
       "media_count": 2,
       "media": [
         "Anime News Network",
         "Crunchyroll"
       ],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [
+        "India",
+        "United States"
+      ],
+      "market_regions": [
+        "North America",
+        "South Asia"
+      ],
+      "primary_sources": [],
+      "primary_source_count": 0,
+      "source_excerpt_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5",
+      "source_excerpt_checked": true,
       "articles": [
         {
-          "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
+          "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        },
-        {
-          "title": "Harajuku Himegoto House Multimedia Project Announced",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-07/harajuku-himegoto-house-multimedia-project-announced/.243612",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
           "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "Check out a teaser trailer for the \"cute hitmen\" project",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Harajuku Himegoto House Anime and Media Mix Project Announced\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Harajuku #Himegoto #House\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-        "instagram": "Harajuku Himegoto House Anime and Media Mix Project Announced\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Harajuku #Himegoto #House\nhttps://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-        "tiktok": "ACCROCHE : Harajuku Himegoto House Anime and Media Mix Project Announced\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Harajuku #Himegoto #House",
-        "x": "Harajuku Himegoto House Anime and Media Mix Project Announced — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Harajuku #Himegoto #House",
-        "threads": "On vient de repérer cette actualité : Harajuku Himegoto House Anime and Media Mix Project Announced\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced\n\n#Anime #Manga #Harajuku #Himegoto #House"
-        },
-        "telegram": "📰 Harajuku Himegoto House Anime and Media Mix Project Announced\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-        "pinterest": {
-          "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Harajuku #Himegoto #House\nhttps://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Harajuku Himegoto House Anime and Media Mix Project Announced\nExtrait RSS : Check out a teaser trailer for the \"cute hitmen\" project\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
-      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-      "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-      "score_indicatif": 47,
-      "media_count": 2,
-      "media": [
-        "Anime News Network",
-        "Crunchyroll"
-      ],
-      "articles": [
-        {
-          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
           ]
         },
         {
-          "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
-          "source": "Crunchyroll News – RSS",
+          "title": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual - AnimeTV チェーン",
+          "title_language": "ja",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5",
+          "source": "Google News – India",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "India",
           "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "Visual revealed for new season",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spy×Family #4th #Season\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-        "instagram": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spy×Family #4th #Season\nhttps://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-        "tiktok": "ACCROCHE : Spy×Family Anime Gets 4th Season, Theatrical Film in 2027\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spy×Family #4th #Season",
-        "x": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027 — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spy×Family #4th #Season",
-        "threads": "On vient de repérer cette actualité : Spy×Family Anime Gets 4th Season, Theatrical Film in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614\n\n#Anime #Manga #Spy×Family #4th #Season"
-        },
-        "telegram": "📰 Spy×Family Anime Gets 4th Season, Theatrical Film in 2027\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-        "pinterest": {
-          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spy×Family #4th #Season\nhttps://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy×Family Anime Gets 4th Season, Theatrical Film in 2027\nExtrait RSS : Visual revealed for new season\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
-      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-      "title": "My Hero Ultra Rumble Game Gets Mobile Version",
-      "score_indicatif": 46,
-      "media_count": 2,
-      "media": [
-        "Anime News Network",
-        "Crunchyroll"
-      ],
-      "articles": [
-        {
-          "title": "My Hero Ultra Rumble Game Gets Mobile Version",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
+            "Google News – India"
           ]
         },
         {
-          "title": "My Hero Ultra Rumble Mobile Version Teased in New Trailer",
+          "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual - Crunchyroll",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/8/my-hero-ultra-rumble-mobile-version-teaser-trailer",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcURLUmY5Y3pVdjVIX2tuNDZWeTJ0ME91dkkzeDFlT1BhdHgxTEp2cUQ5WXA5MUxRVzJON3N0aExQMlJYVElYMVA0N3pxTnpfSmhoQVAxSWYxeDZWLWZxb2JmZGttWHJ0SzgxNlRIWWYtTzI4LW1CZWhzZjJvX1JiemR3bjBKU3RfZTBndjhBMEVOQkI5LWc2eVJuSzZIM3NfWlQxN1lJS3RpRW9KQnFQRy13ZUJ1NUxpbERhYw?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – India",
+            "Google News – Philippines",
+            "Google News – United Kingdom",
+            "Google News – United States"
+          ]
+        },
+        {
+          "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
           "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
           ]
         }
       ],
       "official_evidence": [],
+      "verification_coverage": {
+        "checked_articles": 4,
+        "total_articles": 4,
+        "status": "checked"
+      },
       "editorial_status": "plusieurs médias — confirmation officielle requise",
       "human_review_required": true,
       "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "English, Japanese teasers streamed",
+      "title_language": "und",
+      "summary_language": "ja",
+      "source_excerpt": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual AnimeTV チェーン",
       "social_posts": {
         "language_ready": false,
         "translation_required": true,
         "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "My Hero Ultra Rumble Game Gets Mobile Version\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Hero #Ultra #Rumble\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-        "instagram": "My Hero Ultra Rumble Game Gets Mobile Version\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Hero #Ultra #Rumble\nhttps://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-        "tiktok": "ACCROCHE : My Hero Ultra Rumble Game Gets Mobile Version\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Hero #Ultra #Rumble",
-        "x": "My Hero Ultra Rumble Game Gets Mobile Version — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Hero #Ultra #Rumble",
-        "threads": "On vient de repérer cette actualité : My Hero Ultra Rumble Game Gets Mobile Version\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "facebook": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #ghost #end #night\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5",
+        "instagram": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #ghost #end #night\nhttps://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5",
+        "tiktok": "ACCROCHE : ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #ghost #end #night",
+        "x": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #ghost #end #night",
+        "threads": "On vient de repérer cette actualité : ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
         "youtube": {
-          "title": "My Hero Ultra Rumble Game Gets Mobile Version",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633\n\n#Anime #Manga #Hero #Ultra #Rumble"
+          "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5\n\n#Anime #Manga #ghost #end #night"
         },
-        "telegram": "📰 My Hero Ultra Rumble Game Gets Mobile Version\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
+        "telegram": "📰 ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5",
         "pinterest": {
-          "title": "My Hero Ultra Rumble Game Gets Mobile Version",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Hero #Ultra #Rumble\nhttps://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633"
+          "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #ghost #end #night\nhttps://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5"
         }
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : My Hero Ultra Rumble Game Gets Mobile Version\nExtrait RSS : English, Japanese teasers streamed\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song\nExtrait RSS : ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual AnimeTV チェーン\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     }
   ],
-  "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
+  "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique."
 }
