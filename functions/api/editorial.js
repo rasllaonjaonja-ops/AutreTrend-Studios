@@ -97,7 +97,7 @@ async function generateOne(item, env, correctivePass = false) {
   const result = await env.AI.run(MODEL, {
     messages: [
       { role: "system", content: system },
-      { role: "user", content: (correctivePass ? "CORRECTION : la réponse précédente était trop courte. Réécris tous les champs en respectant Facebook 90 mots, Instagram 55, TikTok 40, Threads 45 et Telegram 45 mots, hors sources et hashtags.\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\n" + JSON.stringify(input) }
+      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : ta réponse précédente a été rejetée par le contrôle qualité. Recommence intégralement et retourne TOUS les champs demandés, sans en omettre aucun. La propriété trend_synthesis est obligatoire et doit contenir key_facts (au moins un fait sourcé de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide), coverage_summary (au moins 8 mots) et editorial_context (au moins 8 mots). Ne transforme jamais une absence d’information en fait. Respecte aussi les longueurs de chaque réseau et retourne uniquement un JSON valide.\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\n" + JSON.stringify(input) }
     ],
     response_format: { type: "json_object" },
     chat_template_kwargs: { enable_thinking: false },
@@ -215,7 +215,7 @@ export async function onRequestPost({ request, env }) {
       try {
         output.push(await generateOne(item, env));
       } catch (error) {
-        if (/trop court/i.test(String(error))) {
+        if (/trop court|synthèse croisée|brief éditorial|structure éditoriale|format incomplet/i.test(String(error))) {
           // Une seule correction ciblée : ne pas laisser un sujet défaillant
           // annuler les autres prépublications valides du même lot.
           output.push(await generateOne(item, env, true));
