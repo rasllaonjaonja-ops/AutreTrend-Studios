@@ -19,10 +19,10 @@ ROOT = Path(__file__).resolve().parents[1]
 RADAR = ROOT / "data" / "radar.json"
 OUT = ROOT / "data" / "verification.json"
 QUEUE = ROOT / "data" / "editorial_queue.json"
-MAX_ARTICLES = 12
+MAX_ARTICLES = 40
 MAX_PREPUBLICATIONS = 3
 SOCIAL_NETWORKS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
-TIMEOUT = 5
+TIMEOUT = 4
 
 # Liste volontairement conservatrice : les médias généralistes ne sont pas traités comme preuves officielles.
 OFFICIAL_DOMAINS = {
@@ -322,6 +322,8 @@ def main():
             "media": sources,
             "source_countries": trend.get("source_countries", []),
             "source_regions": trend.get("source_regions", []),
+            "market_countries": trend.get("market_countries", []),
+            "market_regions": trend.get("market_regions", []),
             "primary_sources": primary_sources,
             "primary_source_count": primary_source_count,
             "source_excerpt_url": primary_url,
