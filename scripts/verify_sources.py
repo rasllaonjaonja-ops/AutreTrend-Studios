@@ -285,6 +285,8 @@ def main():
         reasons = []
         if excluded_format:
             reasons.append("format critique/recap écarté du flux prioritaire")
+        if publisher_count == 0:
+            reasons.append("aucun éditeur indépendant : agrégateur seul, sujet non admissible")
         if score_value < 45:
             reasons.append("score éditorial inférieur à 45/100")
         if latest_age is None:
