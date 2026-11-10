@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:56:09.708487+00:00",
+  "generated_at": "2026-11-10T08:03:04.382771+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 401,
+  "rejected_count": 399,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -35,13 +35,13 @@
       ]
     },
     {
-      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -165,16 +165,6 @@
       ]
     },
     {
-      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "[第634話]ONE PIECE",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -212,9 +202,8 @@
       ]
     },
     {
-      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
       "reasons": [
-        "format critique/recap écarté du flux prioritaire",
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
         "source unique sans lien officiel repéré",
@@ -226,6 +215,17 @@
       "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita Saison 2 (anime)",
       "reasons": [
         "score éditorial inférieur à 45/100",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "reasons": [
+        "format critique/recap écarté du flux prioritaire",
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
@@ -315,7 +315,13 @@
           "market_country": null,
           "feed_sources": [
             "Animehunch"
-          ]
+          ],
+          "summary": "2027 will be a major year for Spy x Family as the anime is set to return with both its fourth season and a new movie to mark the fifth anniversary of the television adaptation. Both projects were revealed by TOHO animation during the “SPY×FAMILY ANIME EXTRA MISSION II” fan event held at Belle Salle ... Read more",
+          "publisher": "Animehunch",
+          "published_at": "2026-11-09T22:33:42+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
         },
         {
           "title": "Spy x Family : alerte, la saison 4 de l’anime et un film sont en préparation ! Quand seront-ils disponibles ? Que vont-ils raconter ? - Serieously",
@@ -327,7 +333,13 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
-          ]
+          ],
+          "summary": "",
+          "publisher": "Google Actualités – France",
+          "published_at": "",
+          "language": "fr",
+          "summary_status": "missing",
+          "date_status": "unknown"
         },
         {
           "title": "SPY x FAMILY Saison 4 et nouveau film anime annoncés pour 2027 - Crunchyroll",
@@ -339,7 +351,13 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
-          ]
+          ],
+          "summary": "SPY x FAMILY Saison 4 et nouveau film anime annoncés pour 2027 Crunchyroll",
+          "publisher": "Google News (agrégateur)",
+          "published_at": "2026-11-09T00:15:00+00:00",
+          "language": "fr",
+          "summary_status": "available",
+          "date_status": "known"
         },
         {
           "title": "SPY x FAMILY THE MOVIE 2 (film)",
@@ -351,7 +369,13 @@
           "market_country": null,
           "feed_sources": [
             "Animotaku"
-          ]
+          ],
+          "summary": "",
+          "publisher": "Animotaku",
+          "published_at": "",
+          "language": "en",
+          "summary_status": "missing",
+          "date_status": "unknown"
         },
         {
           "title": "SPY x FAMILY Saison 4 (anime)",
@@ -363,7 +387,13 @@
           "market_country": null,
           "feed_sources": [
             "Animotaku"
-          ]
+          ],
+          "summary": "",
+          "publisher": "Animotaku",
+          "published_at": "",
+          "language": "en",
+          "summary_status": "missing",
+          "date_status": "unknown"
         },
         {
           "title": "L’anime SPY x FAMILY Saison 4, annoncé pour 2027",
@@ -375,7 +405,13 @@
           "market_country": null,
           "feed_sources": [
             "Adala News"
-          ]
+          ],
+          "summary": "Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…",
+          "publisher": "Adala News",
+          "published_at": "2026-11-08T11:25:24+00:00",
+          "language": "fr",
+          "summary_status": "available",
+          "date_status": "known"
         },
         {
           "title": "L'anime SPY x FAMILY Saison 4, annoncé pour 2027 - Adala News",
@@ -387,7 +423,13 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
-          ]
+          ],
+          "summary": "",
+          "publisher": "Google Actualités – France",
+          "published_at": "",
+          "language": "fr",
+          "summary_status": "missing",
+          "date_status": "unknown"
         },
         {
           "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
@@ -399,7 +441,13 @@
           "market_country": null,
           "feed_sources": [
             "MyAnimeList News – RSS"
-          ]
+          ],
+          "summary": "The Spy x Family Anime Extra Mission II special event announced a fourth season and a second theatrical movie on Sunday, revealing the production staff and a teaser visual (pictured) for Season 4. The new season and movie are scheduled for a 2027 premiere. Staff Director: Yasuhiro Akamatsu (Spy x Family Season 3 episode director) NEW Assistant Director: Hiroki Shinagawa (Lazarus sub character design) NEW Series Composition: Aya Takaha (Mahoutsukai no Yome script) NEW Assistant Series Composition",
+          "publisher": "MyAnimeList",
+          "published_at": "2026-11-08T11:24:31+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
         }
       ],
       "official_evidence": [],
@@ -473,7 +521,13 @@
           "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
-          ]
+          ],
+          "summary": "Hitsujibungaku performs \"life\" for February 11 film",
+          "publisher": "Anime News Network",
+          "published_at": "2026-11-10T00:49:27+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
         },
         {
           "title": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual - AnimeTV チェーン",
@@ -485,7 +539,13 @@
           "market_country": "India",
           "feed_sources": [
             "Google News – India"
-          ]
+          ],
+          "summary": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual AnimeTV チェーン",
+          "publisher": "Google News (agrégateur)",
+          "published_at": "2026-11-10T00:26:37+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
         },
         {
           "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual - Crunchyroll",
@@ -500,7 +560,13 @@
             "Google News – Philippines",
             "Google News – United Kingdom",
             "Google News – United States"
-          ]
+          ],
+          "summary": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual Crunchyroll",
+          "publisher": "Google News (agrégateur)",
+          "published_at": "2026-11-10T00:17:00+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
         },
         {
           "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
@@ -512,7 +578,13 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
-          ]
+          ],
+          "summary": "Shingo Natsume's feature film releases in Japan on February 11, 2027",
+          "publisher": "Crunchyroll",
+          "published_at": "2026-11-10T00:17:00+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
         }
       ],
       "official_evidence": [],
