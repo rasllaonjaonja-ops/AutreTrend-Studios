@@ -59,6 +59,11 @@ def post_validation_errors(posts):
     return errors
 
 
+def valid_posts(posts):
+    """Compatibilité avec les tests et les autres modules du projet."""
+    return not post_validation_errors(posts)
+
+
 def valid_synthesis(synthesis):
     if not isinstance(synthesis, dict):
         return False
