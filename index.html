@@ -509,6 +509,11 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Déclinaisons sociales : lecture compacte, priorité mobile */
 .social-pack{margin-top:12px;border-top:1px solid #e3e9f2;padding-top:10px}.social-pack summary{cursor:pointer;color:#2454a0;font-size:11px;font-weight:900;letter-spacing:.2px}.social-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}.social-output{min-width:0;border:1px solid #dce5f1;border-radius:10px;background:#f8faff;padding:10px}.social-output>div{display:flex;align-items:center;justify-content:space-between;gap:8px}.social-output b{font-size:11px;color:#1c2d4c}.social-output p{white-space:pre-wrap;overflow-wrap:anywhere;font-size:10px;line-height:1.5;color:#465873;margin:8px 0 0}.social-copy{border:1px solid #d5dfed;border-radius:7px;background:#fff;color:#2454a0;font-size:9px;font-weight:800;padding:5px 8px}.social-warning,.social-ready{font-size:10px;margin:8px 0;color:#8a5b12}.social-ready{color:#28644b}@media(max-width:560px){.social-grid{grid-template-columns:1fr}.social-output{padding:9px}}
+.radar-controls{grid-template-columns:minmax(220px,2fr) repeat(3,minmax(130px,1fr));align-items:center}
+.radar-reset{min-height:42px;border:1px solid #d5dfed;border-radius:10px;background:#eef3ff;color:#2454a0;font:700 11px system-ui,sans-serif;padding:9px 12px;cursor:pointer}
+.radar-reset:hover{background:#e1eaff}
+@media(max-width:900px){.radar-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.radar-controls input{grid-column:span 2}}
+@media(max-width:560px){.radar-controls{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.radar-controls input{grid-column:span 2}.radar-controls select,.radar-reset{font-size:11px;padding:9px 7px}}
 </style></head><body><div class="layout"><aside class="side"><div class="brand"><img class="brand-logo" src="assets/logo-manga-anime-actualites.png" alt="AutreTrend Studios"><span><b>AutreTrend</b><small>STUDIOS</small></span></div><div class="group">ESPACE ÉDITORIAL</div><button class="nav active" data-view="home"><span class="ico">▦</span><span class="label">Vue d'ensemble</span></button><button class="nav" data-view="radar"><span class="ico">⌕</span><span class="label">Radar de tendances</span></button><button class="nav" data-view="library"><span class="ico">▤</span><span class="label">Bibliothèque</span></button><button class="nav" data-view="studio"><span class="ico">✎</span><span class="label">Atelier éditorial</span></button><button class="nav" data-view="review"><span class="ico">✓</span><span class="label">Validation</span></button><div class="group">INTELLIGENCE</div><button class="nav" data-view="assistant"><span class="ico">✧</span><span class="label">Assistant IA personnel</span></button><button class="nav" data-view="settings"><span class="ico">⚙</span><span class="label">Réglages</span></button><div class="sidefoot"><span class="dot"></span>Mode sécurisé<br><b>Publication manuelle uniquement</b></div></aside><main class="main"><header class="top"><div><div class="eyebrow">THE NEXT GENERATION OF AI CONTENT</div><h1 id="page-title">Vue d'ensemble</h1></div><div class="topright"><span class="pill">● SYSTÈME · MODE TEST</span><div class="avatar">AT</div></div></header>
 <div class="studio-banner"><img src="assets/hero-generated.jpg" alt="Illustration manga de couverture AutreTrend Studios" loading="eager"></div>
 <section class="visual-strip" aria-label="Modules principaux">
@@ -516,7 +521,7 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 <article class="visual-card studio-card"><div class="visual-art"><img src="assets/card-production-generated.jpg" alt="Illustration de la production éditoriale" loading="lazy"> <svg viewBox="0 0 320 150" aria-hidden="true" style="display:none"><rect x="72" y="24" width="176" height="108" rx="12" fill="#fff" fill-opacity=".12" stroke="#f2c8ff" stroke-width="2"/><path d="M88 43h58v72H88z" fill="#f6c5ff" fill-opacity=".28"/><path d="M158 43h72M158 58h58M158 73h65M158 88h48" stroke="white" stroke-width="5" stroke-linecap="round"/><path d="m104 96 17-35 17 35-17-9z" fill="#ffd5a5"/><path d="m208 17 20 20-58 58-20 5 5-20z" fill="#f7d3ff" stroke="white" stroke-width="2"/></svg></div><div class="visual-copy"><span>02 · CRÉATION</span><h3>Studio éditorial</h3><p>Transformer les informations en contenus prêts à relire.</p><button data-go="studio">Créer un contenu ↗</button></div></article>
 <article class="visual-card ai-card"><div class="visual-art"><img src="assets/card-create-generated.jpg" alt="Illustration de la création assistée" loading="lazy"> <svg viewBox="0 0 320 150" aria-hidden="true" style="display:none"><g fill="none" stroke="#9be8ff" stroke-width="2"><path d="M160 22 105 52 105 103 160 132 215 103 215 52zM160 22v110M105 52l110 51M215 52 105 103"/></g><g fill="#d9caff" stroke="white" stroke-width="2"><circle cx="160" cy="22" r="8"/><circle cx="105" cy="52" r="8"/><circle cx="215" cy="52" r="8"/><circle cx="105" cy="103" r="8"/><circle cx="215" cy="103" r="8"/><circle cx="160" cy="132" r="8"/><circle cx="160" cy="75" r="13"/></g><path d="M151 75h18M160 66v18" stroke="#46377c" stroke-width="3"/></svg></div><div class="visual-copy"><span>03 · INTELLIGENCE</span><h3>Assistant personnel</h3><p>Espace de recherche, d’analyse et de rédaction assistée.</p><button data-go="assistant">Ouvrir l’assistant ↗</button></div></article></section>
 <section class="view active" id="home"><div class="hero"><div><div class="eyebrow">VOTRE RÉDACTION AUGMENTÉE</div><h2>De la tendance<br>à la <em>prépublication.</em></h2><p>Repérez les sujets qui comptent, vérifiez les informations et transformez-les en contenus prêts à être relus. Vous gardez toujours le contrôle.</p><button class="btn" data-go="radar">Explorer le radar&nbsp; ↗</button></div><div class="art"><div class="halo"></div><div class="core"><span>AT✦</span></div></div></div><div class="stats"><article class="stat"><small>SUJETS DÉTECTÉS</small><strong id="count-news">0</strong><span>Articles collectés · flux RSS</span></article><article class="stat"><small>PRÉPUBLICATIONS</small><strong id="count-drafts">0</strong><span>Brouillons enregistrés</span></article><article class="stat"><small>À VÉRIFIER</small><strong id="count-review">0</strong><span>Contrôle humain requis</span></article><article class="stat"><small>PUBLICATION</small><strong style="font-size:18px">MANUELLE</strong><span>Aucune publication automatique</span></article></div><div class="sectionhead"><div><div class="eyebrow">CENTRE DE CONTRÔLE</div><h2>Votre espace de travail</h2></div></div><div class="featuregrid"><button class="feature" data-go="radar"><div class="symbol">⌁</div><h3>Radar intelligent</h3><p>Explorer les tendances et les sources suivies.</p></button><button class="feature" data-go="studio"><div class="symbol">✧</div><h3>Studio éditorial</h3><p>Préparer des articles et publications structurés.</p></button><button class="feature" data-go="assistant"><div class="symbol">✳</div><h3>Assistant personnel</h3><p>Un espace dédié à l'assistant IA et à son historique.</p></button></div><div class="sectionhead"><h2>Activité récente</h2></div><div class="panel" id="recent" class="empty">Aucun contenu enregistré pour le moment.</div></section>
-<section class="view" id="radar"><div class="intro"><div class="eyebrow">VEILLE MULTIPLATEFORME · <span id="radar-feed-count">6</span> FLUX RSS</div><h2>Radar de tendances</h2><p class="muted">Actualités collectées automatiquement, sujets regroupés et signaux classés. Les scores indiquent un potentiel éditorial, jamais une preuve de viralité.</p></div><div class="panel radar-panel"><div class="radar-toolbar"><div><h3>Radar connecté</h3><p class="muted" id="radar-source-summary">Sources internationales · collecte automatique</p></div><button class="btn" id="scan" type="button">↻ Actualiser</button></div><div id="radar-kpis" class="radar-kpis"><div class="radar-kpi"><small>ARTICLES</small><b>—</b></div><div class="radar-kpi"><small>SUJETS REPÉRÉS</small><b>—</b></div><div class="radar-kpi"><small>BRIEFS ÉDITORIAUX</small><b>—</b></div><div class="radar-kpi"><small>LIENS OFFICIELS REPÉRÉS</small><b>—</b></div></div><div class="radar-controls"><input id="radar-search" type="search" placeholder="Rechercher un manga, anime ou sujet…" aria-label="Rechercher dans le radar"><select id="radar-filter" aria-label="Filtrer les tendances"><option value="all">Toutes les tendances</option><option value="multi">Plusieurs médias</option><option value="single">Un seul média</option></select><select id="radar-source" aria-label="Filtrer par source"><option value="all">Toutes les sources</option></select></div><div id="radar-source-chips" class="radar-source-strip" aria-live="polite"></div><div id="radar-result" class="empty" style="margin-top:14px">Chargement des données du radar…</div><p class="notice">Les regroupements et scores sont heuristiques. Un sujet cité par plusieurs médias reste à confirmer. La vérification humaine est obligatoire avant toute publication.</p></div></section>
+<section class="view" id="radar"><div class="intro"><div class="eyebrow">VEILLE MULTIPLATEFORME · <span id="radar-feed-count">6</span> FLUX RSS</div><h2>Radar de tendances</h2><p class="muted">Actualités collectées automatiquement, sujets regroupés et signaux classés. Les scores indiquent un potentiel éditorial, jamais une preuve de viralité.</p></div><div class="panel radar-panel"><div class="radar-toolbar"><div><h3>Radar connecté</h3><p class="muted" id="radar-source-summary">Sources internationales · collecte automatique</p></div><button class="btn" id="scan" type="button" title="Recharge les derniers fichiers produits par la collecte automatique">↻ Recharger les données</button></div><div id="radar-kpis" class="radar-kpis"><div class="radar-kpi"><small>ARTICLES</small><b>—</b></div><div class="radar-kpi"><small>SUJETS REPÉRÉS</small><b>—</b></div><div class="radar-kpi"><small>BRIEFS ÉDITORIAUX</small><b>—</b></div><div class="radar-kpi"><small>LIENS OFFICIELS REPÉRÉS</small><b>—</b></div></div><div class="radar-controls"><input id="radar-search" type="search" placeholder="Rechercher un manga, anime ou sujet…" aria-label="Rechercher dans le radar"><select id="radar-source" aria-label="Filtrer par source"><option value="all">Toutes les sources</option></select><select id="radar-filter" aria-label="Filtrer par recoupement"><option value="all">Tous les recoupements</option><option value="multi">Plusieurs médias</option><option value="single">Source unique</option></select><select id="radar-score" aria-label="Score éditorial minimum"><option value="0">Tous les scores</option><option value="45" selected>Score ≥ 45</option><option value="60">Score ≥ 60</option><option value="70">Score ≥ 70</option><option value="80">Score ≥ 80</option></select><select id="radar-age" aria-label="Période de publication"><option value="0">Toutes les dates</option><option value="24">Dernières 24 heures</option><option value="72">Dernières 72 heures</option><option value="168" selected>7 derniers jours</option></select><select id="radar-language" aria-label="Langue des titres"><option value="all">Toutes les langues</option><option value="fr">Titres français</option><option value="other">À traduire</option></select><select id="radar-sort" aria-label="Trier les tendances"><option value="score">Meilleur score</option><option value="newest">Plus récents</option><option value="sources">Plus de médias</option></select><button id="radar-reset" class="radar-reset" type="button">Réinitialiser</button></div><div id="radar-source-chips" class="radar-source-strip" aria-live="polite"></div><div id="radar-result" class="empty" style="margin-top:14px">Chargement des données du radar…</div><p class="notice">Les regroupements et scores sont heuristiques. Un sujet cité par plusieurs médias reste à confirmer. La vérification humaine est obligatoire avant toute publication.</p></div></section>
 <section class="view" id="library"><div class="intro"><div class="eyebrow">ARCHIVES ÉDITORIALES</div><h2>Bibliothèque</h2></div><div id="library-list" class="list"><div class="empty">Votre bibliothèque est encore vide.</div></div></section>
 <section class="view" id="studio"><div class="intro"><div class="eyebrow">CRÉATION DE CONTENU</div><h2>Atelier éditorial</h2><p class="muted">Enregistrez vos prépublications avant validation humaine.</p></div><div class="panel"><div class="field"><label for="draft-title">Titre du contenu</label><input id="draft-title" placeholder="Ex. Une nouvelle annonce anime..."></div><div class="field"><label for="draft-source">Source(s) vérifiée(s)</label><input id="draft-source" placeholder="URL officielle ou média fiable"></div><div class="field"><label for="draft-text">Texte de prépublication</label><textarea id="draft-text" placeholder="Rédigez votre contenu..."></textarea></div><button class="btn" id="save">Enregistrer le brouillon</button></div></section>
 <section class="view" id="review"><div class="intro"><div class="eyebrow">CONTRÔLE HUMAIN</div><h2>File de validation</h2></div><div id="review-list" class="list"><div class="empty">Aucune prépublication en attente.</div></div></section>
@@ -532,6 +537,10 @@ function renderRadar(){
  const search=($("#radar-search")?.value||"").trim().toLocaleLowerCase("fr");
  const filter=$("#radar-filter")?.value||"all";
  const selectedSource=$("#radar-source")?.value||"all";
+ const scoreMin=Number($("#radar-score")?.value||0);
+ const maxAgeHours=Number($("#radar-age")?.value||0);
+ const languageFilter=$("#radar-language")?.value||"all";
+ const sortMode=$("#radar-sort")?.value||"score";
  const allItems=Array.isArray(radar.items)?radar.items:[];
  const sourceNames=(Array.isArray(radar.sources)&&radar.sources.length?radar.sources:[...new Set(allItems.map(a=>a.source).filter(Boolean))]).slice().sort((a,b)=>a.localeCompare(b,"fr"));
  const sourceSelect=$("#radar-source");
@@ -546,19 +555,31 @@ function renderRadar(){
  if(sourceSummary)sourceSummary.textContent=sourceNames.join(" · ")||"Aucune source identifiée";
  const sourceStrip=$("#radar-source-chips");
  if(sourceStrip)sourceStrip.innerHTML='<span class="radar-source-label">SOURCES ACTIVES</span>'+sourceNames.map(name=>{const stat=radar.source_stats?.[name]||{};const unique=Number(stat.unique_items||0);const read=Number(stat.entries_found||0);const detail=unique?unique+" article(s)":(read?read+" entrée(s) lue(s), aucun article unique":"aucun article lu");return '<span class="source-chip '+(name.toLowerCase().includes("oricon")?"source-chip-new":"")+'" title="'+esc(detail)+'">'+esc(name)+' · '+esc(detail)+'</span>'}).join("");
- const trends=(radar.trends||[]).filter(t=>{
+ let trends=(radar.trends||[]).filter(t=>{
   const sources=(t.sources||[]).join(" ");
   const hay=[t.title,sources,t.status].join(" ").toLocaleLowerCase("fr");
   if(search&&!hay.includes(search))return false;
   if(filter==="multi"&&Number(t.source_count||0)<2)return false;
   if(filter==="single"&&Number(t.source_count||0)>1)return false;
   if(selectedSource!=="all"&&!(t.articles||[]).some(a=>a.source===selectedSource||(a.feed_sources||[]).includes(selectedSource)))return false;
+  if(Number(t.score||0)<scoreMin)return false;
+  if(languageFilter==="fr"&&t.title_language!=="fr")return false;
+  if(languageFilter==="other"&&t.title_language==="fr")return false;
+  if(maxAgeHours){const published=Date.parse(t.published_at||"");if(!Number.isFinite(published)||(Date.now()-published)/3600000>maxAgeHours)return false;}
   return true;
+ });
+ trends.sort((a,b)=>{
+  if(sortMode==="newest")return (Date.parse(b.published_at||"")||0)-(Date.parse(a.published_at||"")||0);
+  if(sortMode==="sources")return Number(b.source_count||0)-Number(a.source_count||0)||Number(b.score||0)-Number(a.score||0);
+  return Number(b.score||0)-Number(a.score||0);
  });
  const articles=allItems.filter(a=>{
   if(selectedSource!=="all"&&a.source!==selectedSource&&!(a.feed_sources||[]).includes(selectedSource))return false;
-  if(!search)return true;
-  return [a.title,a.source,a.summary].join(" ").toLocaleLowerCase("fr").includes(search);
+  if(search&&![a.title,a.source,a.summary].join(" ").toLocaleLowerCase("fr").includes(search))return false;
+  if(languageFilter==="fr"&&a.title_language!=="fr")return false;
+  if(languageFilter==="other"&&a.title_language==="fr")return false;
+  if(maxAgeHours){const published=Date.parse(a.published_at||"");if(!Number.isFinite(published)||(Date.now()-published)/3600000>maxAgeHours)return false;}
+  return true;
  }).slice(0,20);
  $("#radar-kpis").innerHTML='<div class="radar-kpi"><small>ARTICLES COLLECTÉS</small><b>'+esc(radar.item_count||allItems.length)+'</b></div><div class="radar-kpi"><small>SUJETS REGROUPÉS</small><b>'+esc(radar.trend_count||trends.length)+'</b></div><div class="radar-kpi"><small>BRIEFS À RELIRE</small><b>'+esc(queue?.count||0)+'</b></div><div class="radar-kpi"><small>PREUVES OFFICIELLES REPÉRÉES</small><b>'+esc(verification?.official_link_found||0)+'</b></div>';
  const socialLabels={facebook:"Facebook",instagram:"Instagram",tiktok:"TikTok",x:"X",threads:"Threads",youtube:"YouTube",telegram:"Telegram",pinterest:"Pinterest"};
@@ -570,7 +591,7 @@ function renderRadar(){
    const body=typeof value==="string"?value:(String(value.title||"")+"\n\n"+String(value.description||""));
    return '<div class="social-output"><div><b>'+label+'</b><button type="button" class="social-copy" data-copy-social="'+key+'" data-copy-id="'+esc(pack.trend_id)+'">Copier</button></div><p>'+esc(body)+'</p></div>';
   }).join("");
-  const warning=posts.translation_required?'<p class="social-warning">⚠ Traduction française et contrôle des faits requis : ce brouillon n’est pas publiable tel quel.</p>':'<p class="social-ready">Brouillons structurés · relecture humaine obligatoire.</p>';
+  const warning=posts.translation_required?'<p class="social-warning">⚠ Traduction française et contrôle des faits requis : ce brouillon n’est pas publiable tel quel.</p>':'<p class="social-ready">Brouillons préformatés depuis les extraits RSS · pas encore de résumé IA · relecture humaine obligatoire.</p>';
   return '<details class="social-pack"><summary>Préparer les réseaux sociaux · 8 formats</summary>'+warning+'<div class="social-grid">'+cards+'</div></details>';
  };
  const trendHtml=trends.slice(0,40).map(t=>{
@@ -593,11 +614,18 @@ function renderRadar(){
  $("#radar-result").className="radar-results";
  $("#radar-result").innerHTML='<div class="radar-result-head"><h3>Signaux de tendance</h3><span class="muted">'+trends.length+' résultat(s) · '+feedCount+' flux · '+(queue?.count||0)+' retenu(s) · '+(queue?.rejected_count||0)+' écarté(s)</span></div>'+(trendHtml||'<div class="empty">Aucune tendance ne correspond à ces filtres.</div>')+'<div class="radar-result-head radar-articles-head"><h3>Articles collectés</h3><span class="muted">'+Math.min(articles.length,20)+' affiché(s) sur '+esc(selectedSource==="all"?(radar.item_count||allItems.length):allItems.filter(a=>a.source===selectedSource||(a.feed_sources||[]).includes(selectedSource)).length)+'</span></div>'+(articleHtml||'<div class="empty">Aucun article correspondant à ces filtres.</div>')+'<div class="radar-foot"><span>Collecte : '+esc(radarDate(radar.updated_at))+'</span><span>'+errors.length+' erreur(s) de flux · '+esc(verification?.checked_articles||0)+' article(s) contrôlé(s)</span></div>'+(errors.length?'<div class="notice">'+errors.map(e=>esc(e.source)+': '+esc(e.error)).join(" · ")+'</div>':"")+'<p class="muted">'+esc(radar.notice||"Scores indicatifs, vérification humaine obligatoire.")+'</p>'+(verification?.policy?'<p class="muted">'+esc(verification.policy)+'</p>':"");
  $("#radar-result").querySelectorAll("[data-copy-social]").forEach(button=>{
-  button.addEventListener("click",()=>{
+  button.addEventListener("click",async()=>{
    const pack=(radarState.queue?.items||[]).find(q=>q.trend_id===button.dataset.copyId);
    const value=pack?.social_posts?.[button.dataset.copySocial];
    const text=typeof value==="string"?value:(value?String(value.title||"")+"\n\n"+String(value.description||""):"");
-   if(text&&navigator.clipboard?.writeText)navigator.clipboard.writeText(text).then(()=>{button.textContent="Copié ✓"}).catch(()=>{button.textContent="Copie indisponible"});
+   if(!text)return;
+   const original=button.textContent;
+   try{
+    if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);}
+    else{const area=document.createElement("textarea");area.value=text;area.setAttribute("readonly","");area.style.position="fixed";area.style.opacity="0";document.body.appendChild(area);area.select();const copied=document.execCommand("copy");area.remove();if(!copied)throw new Error("copy unavailable");}
+    button.textContent="Copié ✓";
+   }catch{button.textContent="Copie impossible";}
+   window.setTimeout(()=>{button.textContent=original;},1800);
   });
  });
 }
@@ -625,9 +653,15 @@ async function loadRadar(force){
  finally{radarState.busy=false}
 }
 $("#scan").onclick=()=>loadRadar(true);
-$("#radar-search").addEventListener("input",()=>{if(radarState.loaded)renderRadar()});
-$("#radar-filter").addEventListener("change",()=>{if(radarState.loaded)renderRadar()});
-$("#radar-source").addEventListener("change",()=>{if(radarState.loaded)renderRadar()});
+["#radar-search","#radar-filter","#radar-source","#radar-score","#radar-age","#radar-language","#radar-sort"].forEach(selector=>{
+ const control=$(selector);if(!control)return;
+ control.addEventListener(control.tagName==="INPUT"?"input":"change",()=>{if(radarState.loaded)renderRadar()});
+});
+$("#radar-reset").onclick=()=>{
+ $("#radar-search").value="";$("#radar-filter").value="all";$("#radar-source").value="all";
+ $("#radar-score").value="45";$("#radar-age").value="168";$("#radar-language").value="all";$("#radar-sort").value="score";
+ if(radarState.loaded)renderRadar();
+};
 const previousGo=go;
 go=function(v){previousGo(v);if(v==="radar")loadRadar(false)};
 render();loadRadar(false);
