@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:34:59.695810+00:00",
+  "updated_at": "2026-11-10T12:38:15.645048+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:44.218907+00:00",
+      "last_success_at": "2026-11-10T12:38:00.076919+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:44.784938+00:00",
+      "last_success_at": "2026-11-10T12:38:00.647377+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:45.374383+00:00",
+      "last_success_at": "2026-11-10T12:38:01.094676+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:45.606509+00:00",
+      "last_success_at": "2026-11-10T12:38:01.340454+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 35,
       "unique_items": 35,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:46.183092+00:00",
+      "last_success_at": "2026-11-10T12:38:01.442097+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:46.617963+00:00",
+      "last_success_at": "2026-11-10T12:38:02.053454+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:46.927122+00:00",
+      "last_success_at": "2026-11-10T12:38:02.461402+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:47.550122+00:00",
+      "last_success_at": "2026-11-10T12:38:03.201838+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:48.080941+00:00",
+      "last_success_at": "2026-11-10T12:38:03.731415+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:48.992400+00:00",
+      "last_success_at": "2026-11-10T12:38:04.688474+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:49.112655+00:00",
+      "last_success_at": "2026-11-10T12:38:04.897961+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:50.216427+00:00",
+      "last_success_at": "2026-11-10T12:38:05.884229+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:50.602259+00:00",
+      "last_success_at": "2026-11-10T12:38:06.322606+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:51.471250+00:00",
+      "last_success_at": "2026-11-10T12:38:07.621280+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:52.533884+00:00",
+      "last_success_at": "2026-11-10T12:38:08.699600+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:53.223006+00:00",
+      "last_success_at": "2026-11-10T12:38:09.348247+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:53.769722+00:00",
+      "last_success_at": "2026-11-10T12:38:10.020285+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:54.445404+00:00",
+      "last_success_at": "2026-11-10T12:38:10.543089+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:55.475123+00:00",
+      "last_success_at": "2026-11-10T12:38:11.773303+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:56.051349+00:00",
+      "last_success_at": "2026-11-10T12:38:12.299341+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:56.539033+00:00",
+      "last_success_at": "2026-11-10T12:38:12.782342+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:57.019592+00:00",
+      "last_success_at": "2026-11-10T12:38:13.210916+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:57.606687+00:00",
+      "last_success_at": "2026-11-10T12:38:13.685919+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:58.174303+00:00",
+      "last_success_at": "2026-11-10T12:38:14.212512+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:58.643312+00:00",
+      "last_success_at": "2026-11-10T12:38:14.626460+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:59.124200+00:00",
+      "last_success_at": "2026-11-10T12:38:15.173508+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,7 +411,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T12:34:59.682593+00:00",
+      "last_success_at": "2026-11-10T12:38:15.635583+00:00",
       "error": null
     }
   },
@@ -3220,22 +3220,21 @@
       "published_at": "2026-11-10T02:31:00+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – United States",
+      "source": "Google News – Philippines",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
+      "market_country": "Philippines",
+      "market_region": "Southeast Asia",
       "source_role": "professional_media",
       "language": "en",
       "score": 16,
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdVFJeDI3Z2xRSU1FUlZiX2FlTjk1NThCRVJkcDlWMENlNjJSYlZMdWF6ZTA2anptVzZQekpfa2JubEJyR3JWZ1U5X29QNHIxYzdMc3hvU0ZVVk5sWHFPN2Fyc3VGcUxNOWo1ZjJPSTFURGVfX1dGdEFHWG9YUko4WVlfTjJQbjNNcmticmV3ODJGYUJmVU5uY3Z4TXZZTXgxRkx4VC1HdVUwbF9RdVpmNDkwTHRKVEVFSzFDQlR1QWxJOHpmMzl0QVpRTkJXVWdCV2pkZQ?oc=5",
       "feed_sources": [
-        "Google News – Philippines",
-        "Google News – United States"
+        "Google News – Philippines"
       ]
     },
     {
@@ -4725,6 +4724,33 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWkFOYkJ6Z2JzczRsbTRXYV9rZ21xTkRLYk5QeUVtT0FNQm5RdG9UcmZjRjR3Rmw1YUczRFBQQlA2SmxLQ1V6WnMyUTdrVnkwRFpjcGlXV2NqYXRWQmdwMG1DdEhxeEpHZmx2b0VnVlNXZG5Db2xTZk9CWE51UHdjbjJuNmFsRXMzUFVLOHZxYzV5QnJ3Qy0xYThnZGVrcHhQa012cWYzMkw?oc=5",
+      "title": "L'anime Boku no Suki na Hito ga Suki na Hito, en Teaser Vidéo & Date de sortie - Adala News",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWkFOYkJ6Z2JzczRsbTRXYV9rZ21xTkRLYk5QeUVtT0FNQm5RdG9UcmZjRjR3Rmw1YUczRFBQQlA2SmxLQ1V6WnMyUTdrVnkwRFpjcGlXV2NqYXRWQmdwMG1DdEhxeEpHZmx2b0VnVlNXZG5Db2xTZk9CWE51UHdjbjJuNmFsRXMzUFVLOHZxYzV5QnJ3Qy0xYThnZGVrcHhQa012cWYzMkw?oc=5",
+      "summary": "L'anime Boku no Suki na Hito ga Suki na Hito, en Teaser Vidéo & Date de sortie Adala News",
+      "published_at": "2026-11-09T12:10:19+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 13,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWkFOYkJ6Z2JzczRsbTRXYV9rZ21xTkRLYk5QeUVtT0FNQm5RdG9UcmZjRjR3Rmw1YUczRFBQQlA2SmxLQ1V6WnMyUTdrVnkwRFpjcGlXV2NqYXRWQmdwMG1DdEhxeEpHZmx2b0VnVlNXZG5Db2xTZk9CWE51UHdjbjJuNmFsRXMzUFVLOHZxYzV5QnJ3Qy0xYThnZGVrcHhQa012cWYzMkw?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9486/",
       "title": "BLESS Anime Premieres January 8, First PV and Key Visual Revealed",
       "title_language": "en",
@@ -5815,21 +5841,24 @@
       "published_at": "2026-11-09T19:00:32+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – India",
+      "source": "Google News – United States",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "India",
-      "market_region": "South Asia",
+      "market_country": "United States",
+      "market_region": "North America",
       "source_role": "professional_media",
       "language": "en",
       "score": 11,
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
       "feed_sources": [
-        "Google News – India"
+        "Google News – India",
+        "Google News – Philippines",
+        "Google News – United Kingdom",
+        "Google News – United States"
       ]
     },
     {
@@ -5857,33 +5886,6 @@
       "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
       "feed_sources": [
         "Google Actualités – France"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
-      "title": "Late Tetsuya Chiba's Autobiographical Manga to End in 8th Volume",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
-      "summary": "Tomorrow's Joe's creator launched Hinemosu Notari Nikki in 2015, went on hiatus on September 25 before his October 22 death",
-      "published_at": "2026-11-09T09:17:48+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "United States",
-      "source_region": "North America",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
-      "feed_sources": [
-        "Anime News Network – News"
       ]
     }
   ],
@@ -6018,7 +6020,7 @@
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 32,
-        "freshness": 81,
+        "freshness": 80,
         "independent_sources": 8,
         "article_volume": 13
       },
@@ -6219,7 +6221,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6799,7 +6801,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 26,
-        "freshness": 74,
+        "freshness": 73,
         "independent_sources": 1,
         "article_volume": 3
       },
@@ -7321,53 +7323,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "title_language": "en",
-      "score": 38,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 79,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T21:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
       "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
       "title_language": "en",
@@ -7773,6 +7728,53 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "title_language": "en",
+      "score": 37,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 79,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T21:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animehunch.com/toho-eyes-historic-20-billion-yen-milestone-for-chiikawa-movie-as-it-continues-succesful-box-office-run/",
       "title": "TOHO Eyes Historic 20 Billion Yen Milestone For Chiikawa Movie As It Continues Successful Box Office Run",
       "title_language": "en",
@@ -7960,53 +7962,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
-      "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 70,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-09T15:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://animecorner.me/my-crushs-crush-anime-reveals-teaser-visual-trailer-staff-cast-april-2027-premiere/",
       "title": "My Crush’s Crush Anime Reveals Teaser Visual, Trailer, Staff, Cast, April 2027 Premiere",
       "title_language": "en",
@@ -8153,7 +8108,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 99,
+        "freshness": 98,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -8417,6 +8372,53 @@
           "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
+      "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 70,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-09T15:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -8810,10 +8812,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United States"
+        "Philippines"
       ],
       "market_regions": [
-        "North America"
+        "Southeast Asia"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -8825,13 +8827,12 @@
           "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdVFJeDI3Z2xRSU1FUlZiX2FlTjk1NThCRVJkcDlWMENlNjJSYlZMdWF6ZTA2anptVzZQekpfa2JubEJyR3JWZ1U5X29QNHIxYzdMc3hvU0ZVVk5sWHFPN2Fyc3VGcUxNOWo1ZjJPSTFURGVfX1dGdEFHWG9YUko4WVlfTjJQbjNNcmticmV3ODJGYUJmVU5uY3Z4TXZZTXgxRkx4VC1HdVUwbF9RdVpmNDkwTHRKVEVFSzFDQlR1QWxJOHpmMzl0QVpRTkJXVWdCV2pkZQ?oc=5",
-          "source": "Google News – United States",
+          "source": "Google News – Philippines",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United States",
+          "market_country": "Philippines",
           "feed_sources": [
-            "Google News – Philippines",
-            "Google News – United States"
+            "Google News – Philippines"
           ]
         }
       ]
@@ -9067,51 +9068,6 @@
           "market_country": null,
           "feed_sources": [
             "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQkVtZDc3UWtsMTNZejJzb2pfNXB5LWpaOHczVnJpYUh1djFkOU5Ic21IV1MzTnQtVTNnLXZoNU5leHpqR0hwNEJvLUwwZXBSSnVSeV95cWJlcjZFSnFTUnd3eUJIYlRXQlFUMWRranBJc19wWFRqNXBEcTlvWGNCLXp1T0pyd1kyQUxwTlpJcndHdw?oc=5",
-      "title": "Attack on Titan 3 : une nouvelle perspective sur l’anime avec gestion d’escouade - big-n.fr",
-      "title_language": "fr",
-      "score": 34,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 94,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T08:11:05+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Attack on Titan 3 : une nouvelle perspective sur l’anime avec gestion d’escouade - big-n.fr",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQkVtZDc3UWtsMTNZejJzb2pfNXB5LWpaOHczVnJpYUh1djFkOU5Ic21IV1MzTnQtVTNnLXZoNU5leHpqR0hwNEJvLUwwZXBSSnVSeV95cWJlcjZFSnFTUnd3eUJIYlRXQlFUMWRranBJc19wWFRqNXBEcTlvWGNCLXp1T0pyd1kyQUxwTlpJcndHdw?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
           ]
         }
       ]
@@ -9851,7 +9807,6 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – India",
-            "Google News – Philippines",
             "Google News – United Kingdom",
             "Google News – United States"
           ]
@@ -10081,7 +10036,6 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – India",
-            "Google News – United Kingdom",
             "Google News – United States"
           ]
         }
@@ -11160,7 +11114,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 83,
+        "freshness": 82,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -11232,51 +11186,6 @@
           "title": "Ex-deputada Joice Hasselmann exibe barriga negativa e responde haters: “chupa essa manga” - URB News",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMGg0SENzOW1UOW9ra2JpVUxBclAwY2FjenkwV1dham9ORGhjMmx3X0g4V25kWldISmlIcmtWQUwtdjAtZE1rc0I1QUZ6VzFpQ2gxblNGNGFmT1ZNQkJhbzV6NFZiTWtzVjgzR05EQmVIbWtMMzlGM3p3VzMxdkEwQndmZUVpQ3hFNzZMVk5naV9qM2M3d05tTWhFclR2STN1ejFQTk85ZmlTNkNOOFdrN25TRTlVTXphSG01dVdR?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjk5QS16Z2Zpd25NcS1TSmdOR1ZJcXBmTklMdEEtVGYxUExESkQ3SU5fZ0l1MjlVdk8yV0xVNDNNaUQ4a3FVVUVzd1NNQWhCZTVqWklpWFNNeDU1Z0gtb19qeE4wbk9UdE9kWUVDLWxWbnV6cWp5dzVOTndQaFUzQS1Gd2ZtU28?oc=5",
-      "title": "Chegada misteriosa no episódio 7 vira o tabuleiro de Black Clover e expõe a nova pressa do anime - Rádio Geek",
-      "title_language": "en",
-      "score": 31,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 81,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T22:42:08+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Chegada misteriosa no episódio 7 vira o tabuleiro de Black Clover e expõe a nova pressa do anime - Rádio Geek",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjk5QS16Z2Zpd25NcS1TSmdOR1ZJcXBmTklMdEEtVGYxUExESkQ3SU5fZ0l1MjlVdk8yV0xVNDNNaUQ4a3FVVUVzd1NNQWhCZTVqWklpWFNNeDU1Z0gtb19qeE4wbk9UdE9kWUVDLWxWbnV6cWp5dzVOTndQaFUzQS1Gd2ZtU28?oc=5",
           "source": "Google Actualités – Brésil",
           "source_type": "market_search",
           "source_country": null,
@@ -11927,6 +11836,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjk5QS16Z2Zpd25NcS1TSmdOR1ZJcXBmTklMdEEtVGYxUExESkQ3SU5fZ0l1MjlVdk8yV0xVNDNNaUQ4a3FVVUVzd1NNQWhCZTVqWklpWFNNeDU1Z0gtb19qeE4wbk9UdE9kWUVDLWxWbnV6cWp5dzVOTndQaFUzQS1Gd2ZtU28?oc=5",
+      "title": "Chegada misteriosa no episódio 7 vira o tabuleiro de Black Clover e expõe a nova pressa do anime - Rádio Geek",
+      "title_language": "en",
+      "score": 30,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 81,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T22:42:08+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Chegada misteriosa no episódio 7 vira o tabuleiro de Black Clover e expõe a nova pressa do anime - Rádio Geek",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjk5QS16Z2Zpd25NcS1TSmdOR1ZJcXBmTklMdEEtVGYxUExESkQ3SU5fZ0l1MjlVdk8yV0xVNDNNaUQ4a3FVVUVzd1NNQWhCZTVqWklpWFNNeDU1Z0gtb19qeE4wbk9UdE9kWUVDLWxWbnV6cWp5dzVOTndQaFUzQS1Gd2ZtU28?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWFZtNUpWVjRzVlNTbzlJTmFvZHF1OFk1STRMUkE5TWNya2o1aGVvdXQzU0pjWUpXYXFHbFlEc3RrYVB0MGNfckZ6NU1HLUR3YWViLVlad0lHVFVfcUhUdFNKX1JUQk1oQzVtLUtJTnBZcDFlV3hLeEV6VFh4aDhTUF9GZ2RPaU1oRG1fekU3dUF5T3BRbDh4NGYzSkFMM0tnVFVmVXE4MmpmWGQ1UkJXVTFseXh5RTJ6RjVLT3VpTVFrelpmMWpZVXQtZXI?oc=5",
       "title": "AiNA THE END revela videoclipe colaborativo do tema de abertura do Arco de Elbaph de ONE PIECE - Crunchyroll",
       "title_language": "en",
@@ -12036,10 +11990,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "India"
+        "United States"
       ],
       "market_regions": [
-        "South Asia"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -12051,12 +12005,15 @@
           "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
-          "source": "Google News – India",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "India",
+          "market_country": "United States",
           "feed_sources": [
-            "Google News – India"
+            "Google News – India",
+            "Google News – Philippines",
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -12109,53 +12066,6 @@
       ]
     },
     {
-      "id": "https://animecorner.me/minami-ke-season-5-reveals-teaser-visual-trailer-april-2027-premiere/",
-      "title": "Minami-ke Season 5 Reveals Teaser Visual, Trailer, April 2027 Premiere",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 24,
-        "freshness": 30,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "Philippines"
-      ],
-      "source_regions": [
-        "Southeast Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime Corner"
-      ],
-      "published_at": "2026-11-08T10:28:37+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Minami-ke Season 5 Reveals Teaser Visual, Trailer, April 2027 Premiere",
-          "title_language": "en",
-          "url": "https://animecorner.me/minami-ke-season-5-reveals-teaser-visual-trailer-april-2027-premiere/",
-          "source": "Anime Corner",
-          "source_type": "editorial_site",
-          "source_country": "Philippines",
-          "market_country": null,
-          "feed_sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0FIc1I4cjJ1eVJ5cGtPdlUxcklTdTYtdGVaVFhyMUZMMmlLQ01qaHBtSWc0bEtjQ0szUzgxVE94cUZKTW5mU1c3T3UxYk8wanY0aGFDeTdsWFdzRzRGRm1VdVgza21PVkJnN056QlNWWktTVEFQOExDcWFFS3EtcEgtbkJGZU9DSkNGSUVrM1p3b0ZERFRJZVNaSVppWVdycDZIVnlPWGREQWJieEFxa1Q5TjZ5cG9FcHBuZEVlOWw4bXRDZmtuVA?oc=5",
       "title": "Un recours déposé contre ce projet de parcs manga de six milliards d'euros - Actu.fr",
       "title_language": "fr",
@@ -12163,7 +12073,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -12341,6 +12251,53 @@
       ]
     },
     {
+      "id": "https://animecorner.me/minami-ke-season-5-reveals-teaser-visual-trailer-april-2027-premiere/",
+      "title": "Minami-ke Season 5 Reveals Teaser Visual, Trailer, April 2027 Premiere",
+      "title_language": "en",
+      "score": 28,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 24,
+        "freshness": 30,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "Philippines"
+      ],
+      "source_regions": [
+        "Southeast Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime Corner"
+      ],
+      "published_at": "2026-11-08T10:28:37+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Minami-ke Season 5 Reveals Teaser Visual, Trailer, April 2027 Premiere",
+          "title_language": "en",
+          "url": "https://animecorner.me/minami-ke-season-5-reveals-teaser-visual-trailer-april-2027-premiere/",
+          "source": "Anime Corner",
+          "source_type": "editorial_site",
+          "source_country": "Philippines",
+          "market_country": null,
+          "feed_sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeW5jZW13ODJVRWFvVUZ3azlTQllBUi1Bem5IVXNGT3NHMGJrODV4aVFnQVFtaWMwdU1QcENtRzdFbkR0YWNIakltQlhmZzhwSUROTnhsSU5WRm5adWQ0UjZiODRINi0zcE41SjlDZktqV3Y5bUlZQlZXU2h2S0xZa1FYQWdUclMtUkpqOFFMNVpqNE00ek1zcUg5Yld3SlFrcFNfLVFRaEI4Wk5odXVFMUN0V1lxb2JuUTZtZXZPdXRidw?oc=5",
       "title": "Quiz : classe ces 7 personnages de My Hero Academia, on te dira si tu finis héros ou vilain - Serieously",
       "title_language": "fr",
@@ -12348,7 +12305,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -12800,7 +12757,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 67,
+        "freshness": 66,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -12833,6 +12790,51 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWkFOYkJ6Z2JzczRsbTRXYV9rZ21xTkRLYk5QeUVtT0FNQm5RdG9UcmZjRjR3Rmw1YUczRFBQQlA2SmxLQ1V6WnMyUTdrVnkwRFpjcGlXV2NqYXRWQmdwMG1DdEhxeEpHZmx2b0VnVlNXZG5Db2xTZk9CWE51UHdjbjJuNmFsRXMzUFVLOHZxYzV5QnJ3Qy0xYThnZGVrcHhQa012cWYzMkw?oc=5",
+      "title": "L'anime Boku no Suki na Hito ga Suki na Hito, en Teaser Vidéo & Date de sortie - Adala News",
+      "title_language": "fr",
+      "score": 28,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 13,
+        "freshness": 66,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T12:10:19+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "L'anime Boku no Suki na Hito ga Suki na Hito, en Teaser Vidéo & Date de sortie - Adala News",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWkFOYkJ6Z2JzczRsbTRXYV9rZ21xTkRLYk5QeUVtT0FNQm5RdG9UcmZjRjR3Rmw1YUczRFBQQlA2SmxLQ1V6WnMyUTdrVnkwRFpjcGlXV2NqYXRWQmdwMG1DdEhxeEpHZmx2b0VnVlNXZG5Db2xTZk9CWE51UHdjbjJuNmFsRXMzUFVLOHZxYzV5QnJ3Qy0xYThnZGVrcHhQa012cWYzMkw?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -12952,7 +12954,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 39,
+        "freshness": 38,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -13549,7 +13551,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 32,
+        "freshness": 31,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -13676,54 +13678,6 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVU1UbHhIN3A0LXU5NTIyLTFEemlpM0JVRVBXQy1LS2lWRHN6WWJLM0kzbjY3SmdaRXB3OVhkTGZQN2NOeWVoSnJSWHh5TWt4YTBmM2t2aF94WlZ3X1JhYUpGSThwbEZ4Y01JaGI4bWQ1UHVFYW1uOXlodWEtRHQ1aw?oc=5",
-      "title": "Government betting on language app powered by anime and AI - The Japan Times",
-      "title_language": "en",
-      "score": 25,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 61,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T08:17:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Government betting on language app powered by anime and AI - The Japan Times",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVU1UbHhIN3A0LXU5NTIyLTFEemlpM0JVRVBXQy1LS2lWRHN6WWJLM0kzbjY3SmdaRXB3OVhkTGZQN2NOeWVoSnJSWHh5TWt4YTBmM2t2aF94WlZ3X1JhYUpGSThwbEZ4Y01JaGI4bWQ1UHVFYW1uOXlodWEtRHQ1aw?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – India",
-            "Google News – Philippines",
-            "Google News – United Kingdom",
-            "Google News – United States"
           ]
         }
       ]
@@ -13865,6 +13819,54 @@
           "market_country": null,
           "feed_sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVU1UbHhIN3A0LXU5NTIyLTFEemlpM0JVRVBXQy1LS2lWRHN6WWJLM0kzbjY3SmdaRXB3OVhkTGZQN2NOeWVoSnJSWHh5TWt4YTBmM2t2aF94WlZ3X1JhYUpGSThwbEZ4Y01JaGI4bWQ1UHVFYW1uOXlodWEtRHQ1aw?oc=5",
+      "title": "Government betting on language app powered by anime and AI - The Japan Times",
+      "title_language": "en",
+      "score": 24,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 61,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T08:17:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Government betting on language app powered by anime and AI - The Japan Times",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVU1UbHhIN3A0LXU5NTIyLTFEemlpM0JVRVBXQy1LS2lWRHN6WWJLM0kzbjY3SmdaRXB3OVhkTGZQN2NOeWVoSnJSWHh5TWt4YTBmM2t2aF94WlZ3X1JhYUpGSThwbEZ4Y01JaGI4bWQ1UHVFYW1uOXlodWEtRHQ1aw?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – India",
+            "Google News – Philippines",
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -14294,7 +14296,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 53,
+        "freshness": 52,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -14662,53 +14664,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
-      "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
-      "title_language": "en",
-      "score": 21,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 25,
-        "freshness": 3,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-07T14:24:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://animehunch.com/33-year-old-single-female-knight-captain-anime-was-confirmed-just-a-week-after-joking-about-it/",
       "title": "‘It Actually Came’: Interspecies Reviewers Author’s New Ecchi Anime Was Confirmed Just A Week After Joking About It",
       "title_language": "en",
@@ -15033,6 +14988,53 @@
           "market_country": null,
           "feed_sources": [
             "Otaku USA Magazine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
+      "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
+      "title_language": "en",
+      "score": 20,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 25,
+        "freshness": 2,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-07T14:24:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -16273,7 +16275,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 37,
+        "freshness": 36,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -19180,7 +19182,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 30,
+        "freshness": 29,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -24556,7 +24558,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 3,
+        "freshness": 2,
         "independent_sources": 0,
         "article_volume": 1
       },

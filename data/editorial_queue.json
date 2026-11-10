@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:35:21.047626+00:00",
+  "generated_at": "2026-11-10T12:38:35.742727+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -193,16 +193,6 @@
       ]
     },
     {
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -258,6 +248,13 @@
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
   ],
