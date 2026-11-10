@@ -134,7 +134,9 @@ def build_trends(items, now):
             # Seuil volontairement élevé pour éviter de fusionner deux événements proches.
             # La similarité lexicale seule confondait des articles parlant du même manga.
             # On exige un sujet distinctif commun et une facette d’événement commune.
-            if same_event(candidates[i]["title"], candidates[j]["title"]) or similarity(candidates[i]["title"], candidates[j]["title"]) >= 0.72:
+            # La similarité lexicale seule ne fusionne jamais deux sujets :
+            # seule une correspondance d'événement explicite autorise le regroupement.
+            if same_event(candidates[i]["title"], candidates[j]["title"]):
                 ri, rj = root(i), root(j)
                 if ri != rj:
                     parent[rj] = ri
