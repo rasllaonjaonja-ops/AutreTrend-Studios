@@ -64,7 +64,7 @@ async function generateOne(item, env) {
     "Telegram : brève journalistique de 40 à 70 mots, directe et utile, sans formule artificielle.",
     "Pinterest : titre descriptif de 45 à 90 caractères et description de 35 à 60 mots.",
     "N'ajoute aucune source ou URL non fournie. Une relecture humaine reste obligatoire. Ne prétends jamais être un humain ni avoir vérifié une source que tu n'as pas consultée.",
-    "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
+    "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir trend_synthesis (key_facts, reported_but_unconfirmed, coverage_summary, editorial_context), title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
     "posts doit contenir facebook, instagram, tiktok, x, threads, youtube, telegram et pinterest. youtube et pinterest sont des objets avec title et description; les autres plateformes sont des chaînes."
   ].join("\n");
 
