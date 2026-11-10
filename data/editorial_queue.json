@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T22:03:58.679042+00:00",
+  "generated_at": "2026-11-10T22:05:34.937635+00:00",
   "count": 1,
   "daily_goal": 3,
   "selected_networks": [
@@ -38,6 +38,16 @@
       "title": "Le manga Ore no Shibou Flag adapté en anime",
       "reasons": [
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Yu-Gi-Oh! Tag Force GX Game Previews Duels, Partners, Multiplayer, Exploration in New Trailer",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -253,13 +263,6 @@
         "source unique sans lien officiel repéré",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
-    },
-    {
-      "title": "L’anime Yuru Camp Saison 4, en Trailer",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -435,18 +438,18 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+        "Error: Contenu trop court pour instagram (32/45 mots)"
       ]
     }
   ],
   "ai_validation_errors": [
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+      "detail": "Error: Contenu trop court pour instagram (32/45 mots)"
     }
   ],
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour instagram (32/45 mots); Error: Contenu trop court pour instagram (32/45 mots)"
 }

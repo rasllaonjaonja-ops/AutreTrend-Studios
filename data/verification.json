@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T22:03:58.679042+00:00",
+  "checked_at": "2026-11-10T22:05:34.937635+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
@@ -200,6 +200,15 @@
       "page_title": "Google News"
     },
     {
+      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime - Crunchyroll",
+      "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T17:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
       "title": "4 Powerful Anime Swordsmen Who Could Beat Demon Slayer's Yoriichi Tsugikuni - Comic Book Resources",
       "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQazVBZW9rT1B4bkpQNmpKOVNyUEZmOWE0anZkZ21WRmhaNEtic0xpQUpkbDJIY21Ic0hDa3B3TmhEaF9IYjVrZnIxelV0Yk9KZ2x3dHFjVVlJMVh4ZVdreTYweDlRYTc2ZVZpclR2cjVxajZMYjI1S1JuSXJZdXJ3T1Y1eGl0dFpXYkt0NmlTcUhGUQ?oc=5",
       "publisher": "Google News (agrégateur)",
@@ -288,15 +297,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume - MyAnimeList.net"
-    },
-    {
-      "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-      "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T10:54:13+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
     },
     {
       "title": "Phantom of the Idol Volume 9 Review - Anime UK News",
