@@ -164,10 +164,14 @@ def main():
         claims = draft.get("claims_to_verify", [])
         if not isinstance(claims, list) or not all(isinstance(x, str) for x in claims):
             continue
-        french_platforms = ("facebook", "instagram", "tiktok", "threads", "telegram")
+        french_platforms = ("facebook", "instagram", "tiktok", "x", "threads", "telegram")
         if any(detect_text_language(draft["posts"][key]) != "fr" for key in french_platforms):
             continue
-        if any(detect_text_language(draft["posts"][key]["description"]) != "fr" for key in ("youtube", "pinterest")):
+        if any(
+            detect_text_language(draft["posts"][key]["title"]) != "fr"
+            or detect_text_language(draft["posts"][key]["description"]) != "fr"
+            for key in ("youtube", "pinterest")
+        ):
             continue
 
         synthesis = draft.get("trend_synthesis", {})
