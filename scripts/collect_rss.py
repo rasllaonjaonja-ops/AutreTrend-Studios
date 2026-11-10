@@ -10,6 +10,8 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 
+from radar_logic import evidence_level, same_event
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))["sources"]
 OUT = ROOT / "data" / "radar.json"
@@ -130,7 +132,9 @@ def build_trends(items, now):
     for i in range(len(candidates)):
         for j in range(i + 1, len(candidates)):
             # Seuil volontairement élevé pour éviter de fusionner deux événements proches.
-            if similarity(candidates[i]["title"], candidates[j]["title"]) >= 0.52:
+            # La similarité lexicale seule confondait des articles parlant du même manga.
+            # On exige un sujet distinctif commun et une facette d’événement commune.
+            if same_event(candidates[i]["title"], candidates[j]["title"]) or similarity(candidates[i]["title"], candidates[j]["title"]) >= 0.72:
                 ri, rj = root(i), root(j)
                 if ri != rj:
                     parent[rj] = ri
@@ -171,6 +175,8 @@ def build_trends(items, now):
             },
             "article_count": len(group),
             "source_count": len(publishers),
+            "evidence_level": evidence_level(len(publishers)),
+            "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
             "sources": publishers,
             "published_at": ordered[0]["published_at"],
             "status": status,
