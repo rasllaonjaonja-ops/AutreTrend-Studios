@@ -34,7 +34,15 @@
       "category": "anime-manga",
       "language": "en",
       "enabled": true
+    },
+    {
+      "name": "Japan Anime News – ORICON RSS",
+      "url": "https://us.oricon-group.com/_feed/user/oriconstyle.xml",
+      "category": "japan-anime-manga-media",
+      "language": "en",
+      "source_type": "professional-media",
+      "enabled": true
     }
   ],
-  "note": "Sources initiales vérifiées; ajouter d'autres flux après validation technique."
+  "note": "Flux RSS/Atom validés. Les médias professionnels servent à détecter et recouper les sujets; les annonces doivent être confirmées sur les sites des éditeurs, studios ou ayants droit."
 }
