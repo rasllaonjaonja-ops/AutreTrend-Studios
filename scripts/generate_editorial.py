@@ -100,9 +100,15 @@ def main():
         print("Aucun sujet éligible à rédiger.")
         return 0
 
-    payload_items = []
+    # Envoyer un sujet par requête : une génération lente ne doit pas faire
+    # expirer tout le lot ni empêcher les sujets suivants d'être traités.
+    generated_items = []
+    generation_errors = []
+    model = ""
+    generated_at = ""
+
     for item in items[:3]:
-        payload_items.append({
+        payload_item = {
             "trend_id": item.get("trend_id", ""),
             "title": item.get("title", ""),
             "source_excerpt": item.get("source_excerpt", "")[:1200],
@@ -132,44 +138,58 @@ def main():
                 "source_regions": item.get("source_regions", []),
                 "market_regions": item.get("market_regions", [])
             }
-        })
-
-    request = urllib.request.Request(
-        endpoint,
-        data=json.dumps({"items": payload_items}, ensure_ascii=False).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": "Bearer " + token,
-            "User-Agent": "AutreTrendStudios/1.0"
-        },
-        method="POST"
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=55) as response:
-            result = json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        # Conserver un extrait du message HTTP du Worker pour diagnostiquer 4xx/5xx,
-        # sans jamais journaliser les en-têtes Authorization ni les secrets.
+        }
+        request = urllib.request.Request(
+            endpoint,
+            data=json.dumps({"items": [payload_item]}, ensure_ascii=False).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + token,
+                "User-Agent": "AutreTrendStudios/1.0"
+            },
+            method="POST"
+        )
         try:
-            response_detail = exc.read().decode("utf-8", errors="replace").strip()[:300]
-        except Exception:
-            response_detail = ""
-        detail = f"HTTP {exc.code}"
-        if response_detail:
-            detail += " — " + response_detail
-        save_generation_status(
-            queue, "unavailable",
-            "Service IA indisponible : " + detail[:220] + ". Les brouillons restent non publiables."
+            with urllib.request.urlopen(request, timeout=80) as response:
+                item_result = json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            try:
+                response_detail = exc.read().decode("utf-8", errors="replace").strip()[:240]
+            except Exception:
+                response_detail = ""
+            detail = f"HTTP {exc.code}" + ((" — " + response_detail) if response_detail else "")
+            generation_errors.append({"trend_id": item.get("trend_id", ""), "detail": detail[:240]})
+            print(f"Génération IA ignorée pour un sujet : {detail[:220]}")
+            continue
+        except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+            detail = str(exc)[:220]
+            generation_errors.append({"trend_id": item.get("trend_id", ""), "detail": detail})
+            print(f"Génération IA ignorée pour un sujet : {detail}")
+            continue
+
+        if not isinstance(item_result, dict) or not isinstance(item_result.get("items"), list):
+            generation_errors.append({
+                "trend_id": item.get("trend_id", ""),
+                "detail": "Réponse IA invalide ou sans liste items"
+            })
+            continue
+        generated_items.extend(
+            value for value in item_result.get("items", []) if isinstance(value, dict)
         )
-        print(f"IA éditoriale indisponible : {detail[:300]}. Brouillons de secours conservés.")
-        return 0
-    except (urllib.error.URLError, TimeoutError, ValueError) as exc:
-        save_generation_status(
-            queue, "unavailable",
-            "Service IA indisponible : " + str(exc)[:180] + ". Les brouillons restent non publiables."
-        )
-        print(f"IA éditoriale indisponible : {str(exc)[:200]}. Brouillons de secours conservés.")
-        return 0
+        response_errors = item_result.get("errors", [])
+        if isinstance(response_errors, list):
+            generation_errors.extend(
+                value for value in response_errors if isinstance(value, dict)
+            )
+        model = item_result.get("model") or model
+        generated_at = item_result.get("generated_at") or generated_at
+
+    result = {
+        "items": generated_items,
+        "errors": generation_errors,
+        "model": model,
+        "generated_at": generated_at
+    }
 
     if not isinstance(result, dict) or not isinstance(result.get("items"), list):
         save_generation_status(
