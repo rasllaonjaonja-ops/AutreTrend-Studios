@@ -598,7 +598,7 @@ function renderRadar(){
   const posts=pack?.social_posts||{};
   const value=posts[platform];
   if(!value)return '<div class="preview-empty">La version de ce réseau n’est pas encore disponible.</div>';
-  const title=typeof value==="object"?String(value.title||""):String(pack.title_fr||pack.title||"");
+  const title=typeof value==="object"?String(value.title||""):"";
   const body=typeof value==="object"?String(value.description||""):String(value);
   const publisher={facebook:"AutreTrend Studios",instagram:"autotrend.studios",tiktok:"AutreTrend Studios",x:"@AutreTrend",threads:"AutreTrend Studios",youtube:"AutreTrend Studios",telegram:"AutreTrend · Actualités",pinterest:"AutreTrend Studios"}[platform]||"AutreTrend Studios";
   const avatar=platform==="youtube"?"▶":platform==="tiktok"?"♪":platform==="instagram"?"◎":platform==="telegram"?"➤":"A";
