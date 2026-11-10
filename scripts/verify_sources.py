@@ -157,9 +157,13 @@ def main():
             dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
+            # Une date anormalement future est considérée comme invalide,
+            # pas comme une actualité fraîche.
+            if dt > now + __import__("datetime").timedelta(hours=24):
+                return None
             return max(0, (now - dt).total_seconds() / 3600)
         except Exception:
-            return 9999
+            return None
 
     def hashtags(title):
         words = re.findall(r"[A-Za-z0-9À-ÿ]+", title or "")
@@ -219,7 +223,12 @@ def main():
         sources = trend.get("sources", [])
         publisher_count = int(trend.get("source_count", 0) or 0)
         score_value = int(trend.get("score", 0) or 0)
-        latest_age = min((age_hours(radar_items.get(u, {}).get("published_at")) for u in article_urls), default=9999)
+        known_ages = [
+            age_hours(radar_items.get(u, {}).get("published_at"))
+            for u in article_urls
+        ]
+        known_ages = [age for age in known_ages if age is not None]
+        latest_age = min(known_ages) if known_ages else None
         excluded_format = any(term in low_title for term in excluded_terms)
         has_official = bool(evidence)
         cross_checked = publisher_count >= 2
@@ -228,7 +237,9 @@ def main():
             reasons.append("format critique/recap écarté du flux prioritaire")
         if score_value < 45:
             reasons.append("score éditorial inférieur à 45/100")
-        if latest_age > 168:
+        if latest_age is None:
+            reasons.append("date de publication absente, invalide ou anormalement future")
+        elif latest_age > 168:
             reasons.append("actualité trop ancienne (plus de 7 jours)")
         if not cross_checked and not has_official and score_value < 65:
             reasons.append("source unique sans lien officiel repéré")
