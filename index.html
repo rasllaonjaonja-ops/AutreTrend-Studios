@@ -161,6 +161,85 @@ body{background:#edf2fb;color:#172441}
  .stat{padding:12px}
 }
 
+
+/* AUTOTREND STUDIOS — finition visuelle V1 (CSS uniquement, interactions intactes) */
+:root{
+ --at-ink:#142342;--at-blue:#2563eb;--at-gold:#f2c94c;--at-soft:#f5f7fc;
+ --at-shadow:0 18px 45px rgba(18,38,78,.10);
+}
+html{scroll-behavior:smooth}
+body{background:linear-gradient(180deg,#f7f9fe 0%,#edf2fb 62%,#f7f9fd 100%)}
+.layout{min-height:100svh}
+.side{box-shadow:10px 0 32px rgba(7,20,48,.12)}
+.brand-logo{object-fit:cover;transition:transform .35s ease,box-shadow .35s ease}
+.brand:hover .brand-logo{transform:rotate(-5deg) scale(1.04);box-shadow:0 0 0 4px #f5c84c22,0 10px 28px #0006}
+.nav{position:relative;isolation:isolate}
+.nav:after{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(100deg,#ffffff12,transparent);opacity:0;transition:opacity .2s;z-index:-1}
+.nav:hover:after{opacity:1}
+.top{backdrop-filter:blur(12px)}
+.top h1{letter-spacing:-.035em}
+.studio-banner{isolation:isolate;box-shadow:0 18px 42px rgba(14,34,72,.20)}
+.studio-banner:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,19,46,.52),transparent 72%);z-index:0;pointer-events:none}
+.studio-banner:after{z-index:1;border:1px solid #ffffff38;box-shadow:0 5px 18px #06132b55;backdrop-filter:blur(7px)}
+.visual-card{position:relative}
+.visual-card:focus-within{outline:3px solid #8eafff;outline-offset:3px}
+.visual-art img{filter:saturate(1.06) contrast(1.03)}
+.visual-copy{display:flex;flex-direction:column;align-items:flex-start}
+.visual-copy>span{display:inline-flex;align-items:center;gap:7px}
+.visual-copy>span:before{content:"";width:17px;height:2px;background:var(--at-gold);border-radius:2px}
+.visual-copy h3{letter-spacing:-.02em}
+.visual-copy button{margin-top:auto;min-height:36px}
+.hero{isolation:isolate}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,23,54,.18),transparent 68%);z-index:-1;pointer-events:none}
+.hero h2{letter-spacing:-.045em}
+.hero p{line-height:1.75;max-width:520px}
+.hero .btn{min-height:43px;padding-inline:19px;transition:transform .2s,box-shadow .2s,background .2s}
+.hero .btn:hover{transform:translateY(-2px);box-shadow:0 12px 25px #0b3d9c55}
+.stat{position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.stat:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,#2868ed,#f2c94c)}
+.stat:hover{transform:translateY(-3px);box-shadow:var(--at-shadow)}
+.stat strong{letter-spacing:-.04em}
+.sectionhead{margin-top:28px}
+.feature{position:relative;min-height:148px;transition:transform .22s,border-color .22s,box-shadow .22s}
+.feature:after{content:"↗";position:absolute;right:16px;top:15px;color:#8ca5d5;font-size:16px;opacity:.7;transition:transform .2s}
+.feature:hover:after{transform:translate(3px,-3px);color:#2563eb}
+.feature .symbol{width:42px;height:42px;border-radius:12px;background:#edf2ff;display:grid;place-items:center}
+.panel,.item,.empty{box-shadow:0 7px 22px rgba(20,42,82,.045)}
+.btn{transition:transform .2s,filter .2s,box-shadow .2s}
+.btn:hover{filter:brightness(1.04);transform:translateY(-1px)}
+.field input:focus,.field textarea:focus,.field select:focus,.chatinput:focus{outline:0;border-color:#6f91ed;box-shadow:0 0 0 3px #2563eb1a}
+@media(min-width:1100px){
+ .main{padding-top:28px;padding-bottom:46px}
+ .studio-banner{height:clamp(180px,19vw,250px)}
+ .visual-strip{gap:16px}
+ .visual-art{height:170px}
+ .hero{min-height:292px;padding:40px 4.2%}
+ .stats{margin-top:19px;margin-bottom:32px}
+}
+@media(max-width:900px){
+ .side{backdrop-filter:blur(14px)}
+ .side .nav{transition:background .2s,border-color .2s}
+ .studio-banner{height:clamp(130px,25vw,190px)}
+}
+@media(max-width:560px){
+ .brand-logo{width:38px;height:38px}
+ .brand b{font-size:13px}
+ .brand small{letter-spacing:2.4px}
+ .side .nav{border-radius:8px}
+ .studio-banner{height:105px}
+ .studio-banner:after{font-size:9px;letter-spacing:1px;bottom:10px;left:10px}
+ .hero{border-radius:14px;min-height:245px}
+ .hero p{font-size:12px;line-height:1.65}
+ .hero .btn{width:100%;max-width:230px}
+ .stat{min-height:105px}
+ .stat strong{font-size:24px}
+ .feature{min-height:126px;padding:14px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
 </style></head><body><div class="layout"><aside class="side"><div class="brand"><img class="brand-logo" src="assets/logo-manga-anime-actualites.png" alt="AutreTrend Studios"><span><b>AutreTrend</b><small>STUDIOS</small></span></div><div class="group">ESPACE ÉDITORIAL</div><button class="nav active" data-view="home"><span class="ico">▦</span><span class="label">Vue d'ensemble</span></button><button class="nav" data-view="radar"><span class="ico">⌕</span><span class="label">Radar de tendances</span></button><button class="nav" data-view="library"><span class="ico">▤</span><span class="label">Bibliothèque</span></button><button class="nav" data-view="studio"><span class="ico">✎</span><span class="label">Atelier éditorial</span></button><button class="nav" data-view="review"><span class="ico">✓</span><span class="label">Validation</span></button><div class="group">INTELLIGENCE</div><button class="nav" data-view="assistant"><span class="ico">✧</span><span class="label">Assistant IA personnel</span></button><button class="nav" data-view="settings"><span class="ico">⚙</span><span class="label">Réglages</span></button><div class="sidefoot"><span class="dot"></span>Mode sécurisé<br><b>Publication manuelle uniquement</b></div></aside><main class="main"><header class="top"><div><div class="eyebrow">THE NEXT GENERATION OF AI CONTENT</div><h1 id="page-title">Vue d'ensemble</h1></div><div class="topright"><span class="pill">● SYSTÈME · MODE TEST</span><div class="avatar">AT</div></div></header>
 <div class="studio-banner"><img src="assets/hero-generated.jpg" alt="Illustration manga de couverture AutreTrend Studios" loading="eager"></div>
 <section class="visual-strip" aria-label="Modules principaux">
