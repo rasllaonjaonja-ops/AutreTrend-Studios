@@ -612,9 +612,7 @@ function renderRadar(){
   const options=Object.entries(socialLabels).map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join("");
   const cards=Object.entries(socialLabels).map(([key,label])=>{
    const value=posts[key];if(!value)return "";
-   const body=typeof value==="string"?value:(String(value.title||"")+"
-
-"+String(value.description||""));
+   const body=typeof value==="string"?value:(String(value.title||"")+"\n\n"+String(value.description||""));
    return '<div class="social-output"><div><b>'+label+'</b><button type="button" class="social-copy" data-copy-social="'+key+'" data-copy-id="'+esc(pack.trend_id)+'">Copier</button></div><p>'+esc(body)+'</p></div>';
   }).join("");
   const warning=posts.translation_required?'<p class="social-warning">⚠ Traduction française et contrôle des faits requis : ce brouillon n’est pas publiable tel quel.</p>':(pack.ai_generation?'<p class="social-ready">Rédaction assistée par IA · adaptations spécifiques · relecture humaine obligatoire.</p>':'<p class="social-ready">Textes provisoires : la rédaction IA et la validation des faits restent nécessaires.</p>');
