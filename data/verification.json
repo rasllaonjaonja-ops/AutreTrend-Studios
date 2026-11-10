@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T23:05:49.426846+00:00",
+  "checked_at": "2026-11-10T03:37:40.915257+00:00",
   "checked_articles": 25,
   "official_link_found": 0,
   "errors": [],
@@ -131,6 +131,15 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
+      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-10T00:17:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
       "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
       "article_url": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
       "publisher": "Crunchyroll",
@@ -167,15 +176,6 @@
       "page_title": "'Yuru Camp△ Season 4' Reveals Additional Staff, Theme Songs, Main Promo, Spring 2027 Premiere - MyAnimeList.net"
     },
     {
-      "title": "'Game Sekai Tensei \"Dankatsu\"' Reveals Additional Cast, Second Teaser Promo",
-      "article_url": "https://myanimelist.net/news/74903583?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-04T09:24:11+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Game Sekai Tensei \"Dankatsu\"' Reveals Additional Cast, Second Teaser Promo - MyAnimeList.net"
-    },
-    {
       "title": "'Tensei shitara Ken deshita II' Reveals Supporting Cast, Third Promo",
       "article_url": "https://myanimelist.net/news/74904410?_location=rss",
       "publisher": "MyAnimeList",
@@ -192,6 +192,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "'Ramen Akeneko 2nd Season' Announces New Staff - MyAnimeList.net"
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T03:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
     },
     {
       "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
@@ -219,16 +228,7 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "North American Anime, Manga Releases, November 1-7",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-06/north-american-anime-manga-releases-november-1-7/.243459",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-06T22:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "North American Anime, Manga Releases, November 1-7 - News [2026-11-06] - Anime News Network"
     }
   ],
-  "policy": "Un lien officiel repéré n'est pas une validation automatique du fait. Vérifier séparément chaque date, format, studio, casting, nombre d'épisodes et territoire."
+  "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
 }
