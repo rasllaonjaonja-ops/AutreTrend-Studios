@@ -172,6 +172,7 @@ def build_trends(items, now):
         primary_sources = sorted({
             publisher_name(x["source"]) for x in group
             if x.get("source_role") == "first_party"
+            and not is_aggregator_source(x.get("source", ""))
         })
         source_countries = sorted({x.get("source_country", "International") for x in editorial_group if x.get("source_country")})
         source_regions = sorted({x.get("source_region", "International") for x in editorial_group if x.get("source_region")})
