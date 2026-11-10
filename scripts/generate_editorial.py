@@ -27,6 +27,8 @@ def valid_posts(posts):
                 return False
         elif not isinstance(value, str) or not value.strip():
             return False
+        elif key == "x" and len(value) > 280:
+            return False
     return True
 
 
@@ -96,6 +98,11 @@ def main():
         summary_fr = str(draft.get("summary_fr", "")).strip()
         # Une simple réponse du modèle ne suffit pas : on exige aussi une détection française.
         if detect_text_language(title_fr) != "fr" or detect_text_language(summary_fr) != "fr":
+            continue
+        french_platforms = ("facebook", "instagram", "tiktok", "threads", "telegram")
+        if any(detect_text_language(draft["posts"][key]) != "fr" for key in french_platforms):
+            continue
+        if any(detect_text_language(draft["posts"][key]["description"]) != "fr" for key in ("youtube", "pinterest")):
             continue
 
         item["title_fr"] = title_fr
