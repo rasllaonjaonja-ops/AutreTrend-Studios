@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T22:56:05.734835+00:00",
+  "generated_at": "2026-11-10T22:58:17.205580+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -45,13 +45,6 @@
       ]
     },
     {
-      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -60,6 +53,13 @@
     },
     {
       "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -220,13 +220,6 @@
       ]
     },
     {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "L’anime Yuru Camp Saison 4, en Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100"
@@ -243,6 +236,15 @@
     },
     {
       "title": "Phantom of the Idol Volume 9 Review",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
+      ]
+    },
+    {
+      "title": "Devils' Crest Anime Confirms Half-Year Run",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -449,32 +451,60 @@
         "status": "pending"
       },
       "verification_pending": true,
-      "editorial_status": "contrôle de provenance en attente — revue humaine obligatoire",
+      "editorial_status": "contrôle de provenance en attente — revue humaine obligatoire · rédaction IA à relire",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "en",
       "summary_language": "fr",
       "source_excerpt": "Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .",
       "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spy #Family #Season\nSources à consulter : Adala News, Anime Corner, Animehunch · recoupement officiel non établi\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-        "instagram": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spy #Family #Season\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-        "tiktok": "ACCROCHE : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spy #Family #Season",
-        "x": "Spy x Family Season 4 & New Film Confirmed For 2027 Release — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spy #Family #Season",
-        "threads": "On vient de repérer cette actualité : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "facebook": "L'anime SPY x FAMILY revient en 2027 avec une quatrième saison et un nouveau film ! 🎬 Ces deux projets ont été annoncés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. La nouvelle saison présentera également une nouvelle assistante réalisatrice et une nouvelle compositrice de série. C'est une excellente nouvelle pour les fans qui attendent la suite de l'histoire de la famille Forger. Quelles sont vos attentes pour cette suite ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "instagram": "L'anime SPY x FAMILY revient en 2027 avec une quatrième saison et un nouveau film ! 🎬 Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. La nouvelle saison présentera également une nouvelle assistante réalisatrice et une nouvelle compositrice de série. C'est une excellente nouvelle pour les fans qui attendent la suite de l'histoire de la famille Forger. Quelles sont vos attentes pour cette suite ? #SpyxFamily #Anime2027\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "tiktok": "L'anime SPY x FAMILY revient en 2027 avec une quatrième saison et un nouveau film ! 🎬 Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. C'est une excellente nouvelle pour les fans qui attendent la suite de l'histoire de la famille Forger. Quelles sont vos attentes pour cette suite ?\nSource à consulter : Adala News, Anime Corner, Animehunch",
+        "x": "SPY x FAMILY : Saison 4 et film confirmés pour 2027. Le réalisateur Yasuhiro Akamatsu est confirmé. https://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "threads": "L'anime SPY x FAMILY revient en 2027 avec une quatrième saison et un nouveau film ! 🎬 Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. C'est une excellente nouvelle pour les fans qui attendent la suite de l'histoire de la famille Forger. Quelles sont vos attentes pour cette suite ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
         "youtube": {
-          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Animehunch · recoupement officiel non établi\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/\n\n#Anime #Manga #Spy #Family #Season"
+          "title": "SPY x FAMILY : Saison 4 et film confirmés pour 2027",
+          "description": "L'anime SPY x FAMILY revient en 2027 avec une quatrième saison et un nouveau film ! 🎬 Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. La nouvelle saison présentera également une nouvelle assistante réalisatrice et une nouvelle compositrice de série. C'est une excellente nouvelle pour les fans qui attendent la suite de l'histoire de la famille Forger. Quelles sont vos attentes pour cette suite ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
         },
-        "telegram": "📰 Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Animehunch · recoupement officiel non établi\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "telegram": "L'anime SPY x FAMILY revient en 2027 avec une quatrième saison et un nouveau film ! 🎬 Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. C'est une excellente nouvelle pour les fans qui attendent la suite de l'histoire de la famille Forger. Quelles sont vos attentes pour cette suite ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
         "pinterest": {
-          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spy #Family #Season\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
-        }
+          "title": "SPY x FAMILY : Saison 4 et film confirmés pour 2027",
+          "description": "L'anime SPY x FAMILY revient en 2027 avec une quatrième saison et un nouveau film ! 🎬 Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. C'est une excellente nouvelle pour les fans qui attendent la suite de l'histoire de la famille Forger. Quelles sont vos attentes pour cette suite ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
+        },
+        "language_ready": true,
+        "translation_required": false,
+        "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .\n\nÉtat : contrôle de provenance en attente — revue humaine obligatoire\nSources médias : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY x FAMILY : Saison 4 et film confirmés pour 2027\n\nL'anime SPY x FAMILY annonce officiellement sa quatrième saison et un nouveau film pour l'année 2027. Ces deux projets ont été révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. Cependant, les détails précis sur la date de sortie et le scénario restent à confirmer.\n\nAngle éditorial : Une excellente nouvelle pour les fans qui pourront continuer à suivre les aventures de la famille Forger.\nSynthèse des tendances : Sept médias internationaux rapportent l'annonce de deux nouveaux projets pour 2027, mais aucune preuve officielle n'est disponible.\nFaits clés : L'anime SPY x FAMILY annonce une quatrième saison et un nouveau film pour 2027.; Les deux projets ont été révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II.; Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4.; La nouvelle saison présentera une nouvelle assistante réalisatrice et une nouvelle compositrice de série.\nÉléments rapportés à confirmer : Les détails précis sur la date de sortie et le scénario de la saison 4 restent à confirmer.; Le contenu exact du nouveau film d'animation n'a pas encore été dévoilé publiquement.\nQuestion : Quelle est votre attente pour la suite de l'histoire de la famille Forger ?\n\nPoints à vérifier : Les détails précis sur la date de sortie de la saison 4 restent à confirmer.; Le contenu exact du nouveau film d'animation n'a pas encore été dévoilé publiquement.\n\nSources : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
+      "trend_synthesis": {
+        "key_facts": [
+          "L'anime SPY x FAMILY annonce une quatrième saison et un nouveau film pour 2027.",
+          "Les deux projets ont été révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II.",
+          "Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4.",
+          "La nouvelle saison présentera une nouvelle assistante réalisatrice et une nouvelle compositrice de série."
+        ],
+        "reported_but_unconfirmed": [
+          "Les détails précis sur la date de sortie et le scénario de la saison 4 restent à confirmer.",
+          "Le contenu exact du nouveau film d'animation n'a pas encore été dévoilé publiquement."
+        ],
+        "coverage_summary": "Sept médias internationaux rapportent l'annonce de deux nouveaux projets pour 2027, mais aucune preuve officielle n'est disponible.",
+        "editorial_context": "Cette annonce est importante pour les fans francophones qui attendent la suite de l'histoire de la famille Forger."
+      },
+      "title_fr": "SPY x FAMILY : Saison 4 et film confirmés pour 2027",
+      "summary_fr": "L'anime SPY x FAMILY annonce officiellement sa quatrième saison et un nouveau film pour l'année 2027. Ces deux projets ont été révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé pour la saison 4. Cependant, les détails précis sur la date de sortie et le scénario restent à confirmer.",
+      "editorial_angle": "Une excellente nouvelle pour les fans qui pourront continuer à suivre les aventures de la famille Forger.",
+      "discussion_question": "Quelle est votre attente pour la suite de l'histoire de la famille Forger ?",
+      "claims_to_verify": [
+        "Les détails précis sur la date de sortie de la saison 4 restent à confirmer.",
+        "Le contenu exact du nouveau film d'animation n'a pas encore été dévoilé publiquement."
+      ],
+      "ai_generation": {
+        "provider": "Cloudflare Workers AI",
+        "model": "@cf/zai-org/glm-4.7-flash",
+        "generated_at": "2026-11-10T23:01:05.080Z",
+        "human_review_required": true
+      }
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -604,11 +634,9 @@
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "response_received": true,
       "response_valid": true,
-      "draft_returned": false,
-      "accepted": false,
-      "validation_errors": [
-        "Error: Message X supérieur à 260 caractères"
-      ]
+      "draft_returned": true,
+      "accepted": true,
+      "validation_errors": []
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -618,22 +646,18 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+        "Error: Format incomplet : youtube"
       ]
     }
   ],
   "ai_validation_errors": [
     {
-      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Message X supérieur à 260 caractères"
-    },
-    {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+      "detail": "Error: Format incomplet : youtube"
     }
   ],
-  "ai_generated_count": 0,
-  "ai_generation_status": "rejected",
+  "ai_generated_count": 1,
+  "ai_generation_status": "partial",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Message X supérieur à 260 caractères; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Message X supérieur à 260 caractères; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+  "ai_notice": "Rédaction IA partielle : 1/2 sujet(s) validé(s). Les sujets en échec restent non publiables. Validation humaine obligatoire."
 }
