@@ -176,10 +176,17 @@ def main():
 
         synthesis = draft.get("trend_synthesis", {})
         if (not isinstance(synthesis, dict)
-                or not isinstance(synthesis.get("key_facts", []), list)
-                or not isinstance(synthesis.get("reported_but_unconfirmed", []), list)
-                or not isinstance(synthesis.get("coverage_summary", ""), str)
-                or not isinstance(synthesis.get("editorial_context", ""), str)):
+                or not isinstance(synthesis.get("key_facts"), list)
+                or not synthesis.get("key_facts")
+                or not all(isinstance(x, str) and word_count(x) >= 5 for x in synthesis["key_facts"])
+                or not isinstance(synthesis.get("reported_but_unconfirmed"), list)
+                or not all(isinstance(x, str) for x in synthesis["reported_but_unconfirmed"])
+                or not isinstance(synthesis.get("coverage_summary"), str)
+                or word_count(synthesis["coverage_summary"]) < 8
+                or detect_text_language(synthesis["coverage_summary"]) != "fr"
+                or not isinstance(synthesis.get("editorial_context"), str)
+                or word_count(synthesis["editorial_context"]) < 8
+                or detect_text_language(synthesis["editorial_context"]) != "fr"):
             continue
         item["trend_synthesis"] = {
             "key_facts": [str(x)[:400] for x in synthesis.get("key_facts", [])[:8]],
