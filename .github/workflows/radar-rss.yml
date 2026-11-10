@@ -36,7 +36,7 @@ jobs:
       - name: Préparer les textes sociaux avec l’IA (si configurée)
         run: python scripts/generate_editorial.py
         env:
-          AUTOTREND_AI_URL: ${{ secrets.AUTOTREND_AI_URL }}
+          AUTOTREND_AI_URL: https://autretrend-studios-ai-test.pages.dev/api/editorial
           AUTOTREND_AI_TOKEN: ${{ secrets.AUTOTREND_AI_TOKEN }}
       - name: Enregistrer le radar et la file éditoriale
         run: |
