@@ -1,8 +1,14 @@
 {
-  "generated_at": "2026-11-10T19:48:03.983390+00:00",
+  "generated_at": "2026-11-10T21:45:16.998518+00:00",
   "count": 3,
   "rejected_count": 106,
   "rejected_sample": [
+    {
+      "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
       "reasons": [
@@ -10,26 +16,22 @@
       ]
     },
     {
-      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
       "reasons": [
-        "format critique/recap écarté du flux prioritaire"
+        "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Hell Mode Season 2 Anime Series Review",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Crunchyroll Streams Suikoden Anime",
       "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
-      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
@@ -131,9 +133,10 @@
       ]
     },
     {
-      "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
+      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
       "reasons": [
-        "score éditorial inférieur à 45/100"
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -161,13 +164,6 @@
       "title": "My Hero Ultra Rumble Game Gets Mobile Version",
       "reasons": [
         "score éditorial inférieur à 45/100"
-      ]
-    },
-    {
-      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -204,6 +200,13 @@
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
+    },
+    {
+      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -211,7 +214,7 @@
     {
       "trend_id": "https://us.oricon-group.com/news/9490/",
       "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
-      "score_indicatif": 67,
+      "score_indicatif": 66,
       "media_count": 3,
       "media": [
         "Anime News Network",
@@ -335,7 +338,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-      "score_indicatif": 52,
+      "score_indicatif": 51,
       "media_count": 2,
       "media": [
         "Anime News Network",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T19:47:55.494671+00:00",
+  "updated_at": "2026-11-10T21:45:06.024013+00:00",
   "source_count": 6,
   "sources": [
     "Anime News Network – News",
@@ -41,7 +41,7 @@
       "unique_items": 36
     }
   },
-  "item_count": 192,
+  "item_count": 190,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -193,6 +193,26 @@
       "canonical_url": "https://myanimelist.net/news/74917181",
       "feed_sources": [
         "MyAnimeList News – RSS"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
+      "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
+      "summary": "English-subbed trailer streamed for 1st film in new Made in Abyss anime film series",
+      "published_at": "2026-11-10T20:00:35+00:00",
+      "source": "Anime News Network – News",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 31,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
       ]
     },
     {
@@ -1036,25 +1056,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-      "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-      "summary": "Visual revealed for new season",
-      "published_at": "2026-11-08T11:00:18+00:00",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 15,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/gacha-girls-corps-anime-january-7-2027-premiere-date-main-visual-additional-cast",
       "title": "Gacha Girls Corps Anime Reveals January 7 Premiere Date, More Cast",
       "title_language": "en",
@@ -1147,25 +1148,6 @@
       "canonical_url": "https://us.oricon-group.com/news/9486",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
-      "title": "My Crush's Crush Anime's Teaser Unveils Cast, Staff, April Debut",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
-      "summary": "Gakuto Kajiwara, Haruna Mikawa, Nene Hieda star in 2027 anime",
-      "published_at": "2026-11-08T16:18:47+00:00",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 13,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
-      "feed_sources": [
-        "Anime News Network – News"
       ]
     },
     {
@@ -2035,25 +2017,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-54/.243626",
-      "title": "The Apothecary Diaries Season 3 ‒ Episode 54",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-54/.243626",
-      "summary": "We’ve learned one thing for sure: if you meet someone named Maomao, keep a close eye on your fish.",
-      "published_at": "2026-11-09T15:30:00+00:00",
-      "source": "Anime News Network – All Articles",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 6,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-54/.243626",
-      "feed_sources": [
-        "Anime News Network – All Articles"
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9488/",
       "title": "Magic Knight Rayearth Episode 6 Story & Preview Stills Released: The Rune God Awaits",
       "title_language": "en",
@@ -2551,25 +2514,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/romelia-war-chronicle/episode-6/.243615",
-      "title": "Romelia War Chronicle ‒ Episode 6",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/review/romelia-war-chronicle/episode-6/.243615",
-      "summary": "So far as new additions to the cast are concerned, though, Ragn and Gran, the Wonder Twins, are all right.",
-      "published_at": "2026-11-09T14:30:00+00:00",
-      "source": "Anime News Network – All Articles",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 2,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/review/romelia-war-chronicle/episode-6/.243615",
-      "feed_sources": [
-        "Anime News Network – All Articles"
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9464/",
       "title": "Disney Twisted-Wonderland: Episode of Savanaclaw Streams December 23, New Visual Revealed",
       "title_language": "en",
@@ -2605,6 +2549,26 @@
       "canonical_url": "https://us.oricon-group.com/news/9459",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/webtoon-reports-usd9.23-million-in-3rd-quarter-of-2026/.243674",
+      "title": "WEBTOON Reports US$9.23 Million in 3rd Quarter of 2026",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/webtoon-reports-usd9.23-million-in-3rd-quarter-of-2026/.243674",
+      "summary": "Japan, WEBTOON's largest market by revenue, struggled",
+      "published_at": "2026-11-10T21:00:00+00:00",
+      "source": "Anime News Network – News",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 0,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-10/webtoon-reports-usd9.23-million-in-3rd-quarter-of-2026/.243674",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
       ]
     },
     {
@@ -3722,11 +3686,11 @@
       "id": "https://us.oricon-group.com/news/9490/",
       "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
       "title_language": "en",
-      "score": 67,
+      "score": 66,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 91,
+        "freshness": 88,
         "independent_sources": 3,
         "article_volume": 3
       },
@@ -3778,7 +3742,7 @@
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 94,
+        "freshness": 91,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3813,14 +3777,46 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
+      "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
       "title_language": "en",
       "score": 52,
       "priority": "à examiner",
       "score_breakdown": {
+        "relevance": 31,
+        "freshness": 98,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-10T20:00:35+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
+      "title_language": "en",
+      "score": 51,
+      "priority": "à examiner",
+      "score_breakdown": {
         "relevance": 10,
-        "freshness": 78,
+        "freshness": 76,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3858,11 +3854,11 @@
       "id": "https://myanimelist.net/news/74923434?_location=rss",
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
       "title_language": "en",
-      "score": 49,
+      "score": 48,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 38,
-        "freshness": 78,
+        "freshness": 75,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3886,42 +3882,32 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
-      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "id": "https://crunchyroll.com/news/latest/2026/11/10/devils-crest-anime-two-consecutive-cours",
+      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
       "title_language": "en",
-      "score": 47,
+      "score": 45,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 6,
-        "freshness": 68,
-        "independent_sources": 2,
-        "article_volume": 2
+        "relevance": 15,
+        "freshness": 90,
+        "independent_sources": 1,
+        "article_volume": 1
       },
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "sources": [
-        "Anime News Network",
         "Crunchyroll"
       ],
-      "published_at": "2026-11-09T21:00:00+00:00",
-      "status": "multi-source à confirmer",
+      "published_at": "2026-11-10T14:41:00+00:00",
+      "status": "signal à surveiller",
       "articles": [
         {
-          "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+          "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/devils-crest-anime-two-consecutive-cours",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
-          ]
-        },
-        {
-          "title": "The Apothecary Diaries Season 3 ‒ Episode 54",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-54/.243626",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
           ]
         }
       ]
@@ -3930,11 +3916,11 @@
       "id": "https://www.animenewsnetwork.com/review/hell-mode-season-2-anime-series/.243051",
       "title": "Hell Mode Season 2 Anime Series Review",
       "title_language": "en",
-      "score": 45,
+      "score": 44,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 96,
+        "freshness": 93,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3961,11 +3947,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/crunchyroll-streams-suikoden-anime/.243688",
       "title": "Crunchyroll Streams Suikoden Anime",
       "title_language": "en",
-      "score": 45,
+      "score": 44,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 95,
+        "freshness": 92,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3990,45 +3976,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/10/devils-crest-anime-two-consecutive-cours",
-      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
-      "title_language": "en",
-      "score": 45,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 15,
-        "freshness": 93,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T14:41:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/devils-crest-anime-two-consecutive-cours",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/interviews/2026/11/10/ayra-starr-starrgirl-interview",
       "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime",
       "title_language": "en",
-      "score": 44,
+      "score": 43,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 96,
+        "freshness": 93,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4055,11 +4010,11 @@
       "id": "https://www.animenewsnetwork.com/review/psyren/episode-5/.243687",
       "title": "Psyren ‒ Episode 5",
       "title_language": "en",
-      "score": 44,
+      "score": 43,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 9,
-        "freshness": 94,
+        "freshness": 91,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4086,11 +4041,11 @@
       "id": "https://crunchyroll.com/news/announcements/2026/11/10/suikoden-the-anime-crunchyroll-stream",
       "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
       "title_language": "en",
-      "score": 44,
+      "score": 43,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 93,
+        "freshness": 90,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4117,11 +4072,11 @@
       "id": "https://myanimelist.net/news/74924616?_location=rss",
       "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
       "title_language": "en",
-      "score": 44,
+      "score": 43,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 90,
+        "freshness": 88,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4148,11 +4103,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/dragon-quest-rpg-mobile-game-trailer-reveals-2027-launch-closed-beta-test-in-december/.243690",
       "title": "Dragon Quest RPG Mobile Game's Trailer Reveals 2027 Launch, Closed Beta Test in December",
       "title_language": "en",
-      "score": 43,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 96,
+        "freshness": 93,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4180,11 +4135,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
       "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
       "title_language": "en",
-      "score": 43,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 95,
+        "freshness": 92,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4211,11 +4166,11 @@
       "id": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-10/.243676",
       "title": "This Week in Anime - Kaiju King",
       "title_language": "en",
-      "score": 43,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 93,
+        "freshness": 91,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4242,11 +4197,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
       "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
       "title_language": "en",
-      "score": 43,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 26,
-        "freshness": 73,
+        "freshness": 70,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4273,11 +4228,11 @@
       "id": "https://myanimelist.net/news/74917181?_location=rss",
       "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
       "title_language": "en",
-      "score": 42,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 32,
-        "freshness": 22,
+        "freshness": 19,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -4314,11 +4269,11 @@
       "id": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
       "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
       "title_language": "en",
-      "score": 42,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 95,
+        "freshness": 93,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4345,11 +4300,11 @@
       "id": "https://crunchyroll.com/news/features/2026/11/10/anime-villains-ains-ooal-gown",
       "title": "Release the Villains: Ains Ooal Gown, a Lonely Gamer Playing the Role of a Lifetime",
       "title_language": "en",
-      "score": 42,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 93,
+        "freshness": 91,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4376,11 +4331,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/kodansha-comic-tint-digital-magazine-to-end-after-9-years/.243665",
       "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
       "title_language": "en",
-      "score": 42,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 91,
+        "freshness": 88,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4408,11 +4363,11 @@
       "id": "https://us.oricon-group.com/news/9489/",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
       "title_language": "en",
-      "score": 42,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 91,
+        "freshness": 88,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4439,11 +4394,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
       "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
       "title_language": "en",
-      "score": 42,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 74,
+        "freshness": 71,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4468,42 +4423,33 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-      "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/hollywood-reporter-variety-apple-tv-in-talks-for-monarch-legacy-of-monsters-season-3/.243668",
+      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
       "title_language": "en",
-      "score": 41,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 28,
-        "freshness": 21,
-        "independent_sources": 2,
-        "article_volume": 2
+        "relevance": 4,
+        "freshness": 86,
+        "independent_sources": 1,
+        "article_volume": 1
       },
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "sources": [
-        "Anime News Network",
-        "Crunchyroll"
+        "Anime News Network"
       ],
-      "published_at": "2026-11-08T11:00:18+00:00",
-      "status": "multi-source à confirmer",
+      "published_at": "2026-11-10T11:55:42+00:00",
+      "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
+          "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-10/hollywood-reporter-variety-apple-tv-in-talks-for-monarch-legacy-of-monsters-season-3/.243668",
           "source": "Anime News Network – News",
           "feed_sources": [
+            "Anime News Network – All Articles",
             "Anime News Network – News"
-          ]
-        },
-        {
-          "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -4512,11 +4458,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/devils-crest-anime-confirms-half-year-run/.243678",
       "title": "Devils' Crest Anime Confirms Half-Year Run",
       "title_language": "en",
-      "score": 41,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 83,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4544,11 +4490,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/kyugo-monster-in-sheep-clothing-bl-manga-gets-live-action-film/.243671",
       "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
       "title_language": "en",
-      "score": 41,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 82,
+        "freshness": 79,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4576,11 +4522,11 @@
       "id": "https://myanimelist.net/news/74922872?_location=rss",
       "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
       "title_language": "en",
-      "score": 41,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 19,
-        "freshness": 73,
+        "freshness": 70,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4607,11 +4553,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
       "title": "My Hero Ultra Rumble Game Gets Mobile Version",
       "title_language": "en",
-      "score": 40,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 46,
+        "freshness": 43,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -4645,46 +4591,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-10/hollywood-reporter-variety-apple-tv-in-talks-for-monarch-legacy-of-monsters-season-3/.243668",
-      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 4,
-        "freshness": 89,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-10T11:55:42+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-10/hollywood-reporter-variety-apple-tv-in-talks-for-monarch-legacy-of-monsters-season-3/.243668",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
       "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
       "title_language": "en",
-      "score": 40,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 76,
+        "freshness": 73,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4712,11 +4626,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
       "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
       "title_language": "en",
-      "score": 40,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 14,
-        "freshness": 75,
+        "freshness": 72,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4743,11 +4657,11 @@
       "id": "https://www.animenewsnetwork.com/interest/2026-11-09/u.s-navy-recruitment-video-reuses-blend-s-anime-opening/.243648",
       "title": "U.S. Navy Recruitment Video Reuses Blend S Anime's Opening",
       "title_language": "en",
-      "score": 38,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 75,
+        "freshness": 73,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4774,11 +4688,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
       "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
       "title_language": "en",
-      "score": 38,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 75,
+        "freshness": 72,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4806,11 +4720,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
       "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
       "title_language": "en",
-      "score": 38,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 73,
+        "freshness": 71,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4837,11 +4751,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
       "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
       "title_language": "en",
-      "score": 38,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 63,
+        "freshness": 61,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4866,14 +4780,46 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
+      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
+      "title_language": "en",
+      "score": 36,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 65,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T20:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
       "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
       "title_language": "en",
-      "score": 37,
+      "score": 36,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 21,
-        "freshness": 59,
+        "freshness": 56,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4900,11 +4846,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
       "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
       "title_language": "en",
-      "score": 36,
+      "score": 35,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 69,
+        "freshness": 66,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4932,11 +4878,11 @@
       "id": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
       "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
       "title_language": "en",
-      "score": 36,
+      "score": 35,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 9,
-        "freshness": 68,
+        "freshness": 66,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4960,46 +4906,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
-      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 68,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T20:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
       "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
       "title_language": "en",
-      "score": 36,
+      "score": 35,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 67,
+        "freshness": 64,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5023,100 +4937,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/black-clover-season-2/episode-176/.243618",
-      "title": "Black Clover Season 2 ‒ Episode 176",
-      "title_language": "en",
-      "score": 35,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 6,
-        "freshness": 68,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T20:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Black Clover Season 2 ‒ Episode 176",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/black-clover-season-2/episode-176/.243618",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
-      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
-      "title_language": "en",
-      "score": 35,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 65,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T18:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
-      "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
-      "title_language": "en",
-      "score": 35,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 63,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T17:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://myanimelist.net/news/74917765?_location=rss",
       "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
       "title_language": "en",
@@ -5124,7 +4944,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 33,
-        "freshness": 27,
+        "freshness": 24,
         "independent_sources": 1,
         "article_volume": 3
       },
@@ -5166,14 +4986,171 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
-      "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+      "id": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
+      "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+      "title_language": "en",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 66,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-09T21:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/review/black-clover-season-2/episode-176/.243618",
+      "title": "Black Clover Season 2 ‒ Episode 176",
+      "title_language": "en",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 65,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T20:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Black Clover Season 2 ‒ Episode 176",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/review/black-clover-season-2/episode-176/.243618",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
+      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+      "title_language": "en",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 62,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T18:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
+      "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
       "title_language": "en",
       "score": 34,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
         "freshness": 60,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T17:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
+      "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
+      "title_language": "en",
+      "score": 33,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 59,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
+      "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+      "title_language": "en",
+      "score": 33,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 57,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5200,11 +5177,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/9/fate-rewinder-anime-character-visuals",
       "title": "Fate Rewinder Anime Reveals Four New Character Visuals",
       "title_language": "en",
-      "score": 34,
+      "score": 33,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 59,
+        "freshness": 57,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5231,11 +5208,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
       "title": "My Crush's Crush Anime Premieres in April 2027",
       "title_language": "en",
-      "score": 34,
+      "score": 33,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 38,
-        "freshness": 29,
+        "freshness": 26,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5262,11 +5239,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
       "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
       "title_language": "en",
-      "score": 33,
+      "score": 32,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 64,
+        "freshness": 61,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5293,11 +5270,11 @@
       "id": "https://www.animenewsnetwork.com/review/blue-box-season-2/episode-5/.243630",
       "title": "Blue Box Season 2 ‒ Episode 5",
       "title_language": "en",
-      "score": 33,
+      "score": 32,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 62,
+        "freshness": 59,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5321,46 +5298,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
-      "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
-      "title_language": "en",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 61,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T16:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9487/",
       "title": "Minami-ke: Korekara Season 5 Premieres April 2027, Returning After 14 Years",
       "title_language": "en",
-      "score": 33,
+      "score": 32,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 42,
+        "freshness": 39,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5387,11 +5332,11 @@
       "id": "https://crunchyroll.com/news/features/2026/11/9/anime-villains-zeke-jaeger",
       "title": "Release the Villains: Zeke Jaeger Is Attack on Titan’s Ultimate Agent of Chaos",
       "title_language": "en",
-      "score": 32,
+      "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 60,
+        "freshness": 57,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5418,11 +5363,11 @@
       "id": "https://us.oricon-group.com/news/9488/",
       "title": "Magic Knight Rayearth Episode 6 Story & Preview Stills Released: The Rune God Awaits",
       "title_language": "en",
-      "score": 32,
+      "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 57,
+        "freshness": 55,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5449,11 +5394,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
       "title": "Late Tetsuya Chiba's Autobiographical Manga to End in 8th Volume",
       "title_language": "en",
-      "score": 32,
+      "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 52,
+        "freshness": 49,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5480,11 +5425,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
       "title": "Fool Night Manga Crosses 1 Million Copies Worldwide",
       "title_language": "en",
-      "score": 32,
+      "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 45,
+        "freshness": 43,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5511,11 +5456,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
       "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
       "title_language": "en",
-      "score": 32,
+      "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 40,
+        "freshness": 37,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5542,11 +5487,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/dragon-quest-teases-new-rpg-for-ios-android/.243644",
       "title": "Dragon Quest Teases New RPG for iOS, Android",
       "title_language": "en",
-      "score": 31,
+      "score": 30,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 56,
+        "freshness": 53,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5573,11 +5518,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/heisei-haizan-hei-sumire-chan-manga-resumes-on-november-16/.243640",
       "title": "Heisei Haizan-hei ☆ Sumire-chan Manga Resumes on November 16",
       "title_language": "en",
-      "score": 31,
+      "score": 30,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 52,
+        "freshness": 49,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5604,11 +5549,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
       "title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11",
       "title_language": "en",
-      "score": 31,
+      "score": 30,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 45,
+        "freshness": 42,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5635,11 +5580,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/hirayasumi-tv-anime-to-stream-on-netflix/.243636",
       "title": "Hirayasumi TV Anime to Stream on Netflix",
       "title_language": "en",
-      "score": 30,
+      "score": 29,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 46,
+        "freshness": 43,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5670,7 +5615,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 42,
+        "freshness": 39,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5697,11 +5642,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/9/one-piece-elbaph-arc-anime-opening-song-collab-music-video-aina-the-end",
       "title": "AiNA THE END Shares ONE PIECE Elbaph Arc Anime Opening Song Collab Music Video",
       "title_language": "en",
-      "score": 29,
+      "score": 28,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 41,
+        "freshness": 38,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5725,14 +5670,45 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-      "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
+      "id": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
+      "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
       "title_language": "en",
       "score": 28,
       "priority": "veille",
       "score_breakdown": {
+        "relevance": 28,
+        "freshness": 18,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-08T11:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
+      "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
+      "title_language": "en",
+      "score": 27,
+      "priority": "veille",
+      "score_breakdown": {
         "relevance": 23,
-        "freshness": 26,
+        "freshness": 24,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5751,37 +5727,6 @@
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
-      "title": "Gen Hoshino Performs Hirayasumi TV Anime's Opening Song",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 40,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T00:44:26+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Gen Hoshino Performs Hirayasumi TV Anime's Opening Song",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
           ]
         }
       ]
@@ -5818,14 +5763,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
-      "title": "My Crush's Crush Anime's Teaser Unveils Cast, Staff, April Debut",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
+      "title": "Gen Hoshino Performs Hirayasumi TV Anime's Opening Song",
       "title_language": "en",
-      "score": 25,
+      "score": 26,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 13,
-        "freshness": 28,
+        "relevance": 8,
+        "freshness": 37,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5834,13 +5779,13 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-08T16:18:47+00:00",
+      "published_at": "2026-11-09T00:44:26+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "My Crush's Crush Anime's Teaser Unveils Cast, Staff, April Debut",
+          "title": "Gen Hoshino Performs Hirayasumi TV Anime's Opening Song",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – News"
@@ -5856,7 +5801,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 20,
+        "freshness": 18,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5883,11 +5828,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/8/minami-ke-korekara-anime-april-2027-release-date-teaser-trailer-visual",
       "title": "Minami-ke: Korekara Anime Reveals April 2027 Broadcast, Teaser Trailer and Visual",
       "title_language": "en",
-      "score": 25,
+      "score": 24,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 16,
+        "freshness": 13,
         "independent_sources": 1,
         "article_volume": 1
       },
