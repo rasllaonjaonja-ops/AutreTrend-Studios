@@ -8,6 +8,8 @@ import urllib.error
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
+
+from radar_logic import detect_text_language
 from urllib.parse import urlparse, urljoin
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -238,9 +240,12 @@ def main():
 
         primary_url = article_urls[0] if article_urls else ""
         primary_item = radar_items.get(primary_url, {})
-        language = primary_item.get("title_language", trend.get("title_language", "en"))
         summary = summaries[0] if summaries else ""
-        posts = make_social_posts(title, summary, language, sources, primary_url, has_official)
+        # La langue du résumé est détectée indépendamment de celle du titre.
+        # En cas de doute, le texte reste bloqué comme traduction à contrôler.
+        summary_language = detect_text_language(summary)
+        title_language = primary_item.get("title_language", trend.get("title_language", "und"))
+        posts = make_social_posts(title, summary, summary_language, sources, primary_url, has_official)
         if has_official:
             editorial_status = "lien officiel repéré — détails à relire"
         elif cross_checked:
@@ -258,7 +263,8 @@ def main():
             "editorial_status": editorial_status,
             "human_review_required": True,
             "publication_allowed": False,
-            "title_language": language,
+            "title_language": title_language,
+            "summary_language": summary_language,
             "source_excerpt": summary,
             "social_posts": posts,
             "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : " + title + "\nExtrait RSS : " + (summary or "Aucun résumé fourni par la source.") + "\n\nÉtat : " + editorial_status + "\nSources médias : " + ", ".join(sources) + "\n" + (posts["translation_note"] + "\n" if posts["translation_note"] else "") + "Ne pas publier avant contrôle des faits et de la traduction."
