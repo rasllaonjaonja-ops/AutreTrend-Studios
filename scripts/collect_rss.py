@@ -90,6 +90,8 @@ def score(title, summary):
 def publisher_name(source_name):
     # Deux flux d'un même éditeur ne valent qu'une seule source indépendante.
     name = source_name.lower()
+    if "google actualités" in name or "google news" in name:
+        return "Google News (agrégateur)"
     if "anime news network" in name:
         return "Anime News Network"
     if "shonen jump" in name:
@@ -158,6 +160,8 @@ def build_trends(items, now):
         })
         source_countries = sorted({x.get("source_country", "International") for x in group if x.get("source_country")})
         source_regions = sorted({x.get("source_region", "International") for x in group if x.get("source_region")})
+        market_countries = sorted({x.get("market_country") for x in group if x.get("market_country")})
+        market_regions = sorted({x.get("market_region") for x in group if x.get("market_region")})
         newest = max((parse_timestamp(x["published_at"]) for x in group), default=0)
         age_hours = max(0, (now.timestamp() - newest) / 3600) if newest else 999
         freshness = max(0, 100 * (1 - min(age_hours, 72) / 72)) if newest else 0
@@ -192,6 +196,8 @@ def build_trends(items, now):
             "primary_sources": primary_sources,
             "source_countries": source_countries,
             "source_regions": source_regions,
+            "market_countries": market_countries,
+            "market_regions": market_regions,
             "evidence_level": evidence_level(len(publishers), len(primary_sources)),
             "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
             "sources": publishers,
@@ -207,6 +213,9 @@ source_stats = {
     s["name"]: {
         "country": s.get("country", "International"),
         "region": s.get("region", "International"),
+        "market_country": s.get("market_country"),
+        "market_region": s.get("market_region"),
+        "source_type": s.get("source_type", "editorial_site"),
         "language": s.get("language", "und"),
         "entries_found": 0, "accepted_items": 0, "unique_items": 0,
         "status": "pending", "last_success_at": None, "error": None
@@ -248,6 +257,8 @@ for source in enabled_sources:
                     "category": source.get("category", "anime-manga"),
                     "source_country": source.get("country", "International"),
                     "source_region": source.get("region", "International"),
+                    "market_country": source.get("market_country"),
+                    "market_region": source.get("market_region"),
                     "source_role": "first_party" if "official" in source.get("category", "") else "professional_media",
                     "language": source.get("language", "und"),
                     "score": score(title, summary),
@@ -312,13 +323,17 @@ trends = build_trends(result, now)
 payload = {
     "updated_at": now.isoformat(),
     "source_count": len(enabled_sources),
-    "source_country_count": len({s.get("country", "International") for s in enabled_sources}),
-    "source_region_count": len({s.get("region", "International") for s in enabled_sources}),
+    "site_count": sum(1 for s in enabled_sources if s.get("source_type") != "market_search"),
+    "market_feed_count": sum(1 for s in enabled_sources if s.get("source_type") == "market_search"),
+    "source_country_count": len({s.get("country", "International") for s in enabled_sources if s.get("source_type") != "market_search"}),
+    "source_region_count": len({s.get("region", "International") for s in enabled_sources if s.get("source_type") != "market_search"}),
+    "market_country_count": len({s.get("market_country") for s in enabled_sources if s.get("market_country")}),
     "sources": [s["name"] for s in enabled_sources],
     "source_stats": source_stats,
     "health": {
         "sources_ok": sum(1 for stat in source_stats.values() if stat["status"] == "ok"),
-        "source_countries_ok": sorted({stat["country"] for stat in source_stats.values() if stat["status"] == "ok"}),
+        "source_countries_ok": sorted({stat["country"] for stat in source_stats.values() if stat["status"] == "ok" and stat.get("source_type") != "market_search"}),
+        "market_countries_ok": sorted({stat["market_country"] for stat in source_stats.values() if stat["status"] == "ok" and stat.get("market_country")}),
         "sources_error": sum(1 for stat in source_stats.values() if stat["status"] == "error"),
         "items_without_date": sum(1 for item in result if item.get("date_status") == "unknown"),
         "items_without_summary": sum(1 for item in result if item.get("summary_status") == "missing")
@@ -328,7 +343,7 @@ payload = {
     "trend_count": len(trends),
     "trends": trends,
     "errors": errors,
-    "notice": "Radar international manga/anime : les pays indiqués sont ceux des sources, pas une mesure de popularité locale. Priorité éditoriale indicative : pertinence (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs (25 %, bonus limité aux flux de première partie) et volume (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier."
+    "notice": "Radar international manga/anime : 20 sites éditoriaux et des flux Google Actualités localisés. Les pays des sites indiquent leur implantation; les marchés Google indiquent la zone ciblée, sans mesurer la popularité native sur les réseaux sociaux. Priorité indicative : pertinence (35 %), fraîcheur (30 %), diversité des éditeurs (25 %) et volume (10 %). Toute information reste à vérifier."
 }
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
