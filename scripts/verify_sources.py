@@ -42,21 +42,30 @@ class Links(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
-        self.title = False
         self.title_parts = []
         self.in_title = False
+        self.current_href = None
+        self.current_anchor_parts = []
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
-        if tag.lower() == "a" and attrs.get("href"):
-            self.links.append(attrs["href"])
+        if tag.lower() == "a":
+            self.current_href = attrs.get("href")
+            self.current_anchor_parts = []
         if tag.lower() == "title":
             self.in_title = True
     def handle_endtag(self, tag):
+        if tag.lower() == "a" and self.current_href:
+            label = re.sub(r"\\s+", " ", " ".join(self.current_anchor_parts)).strip()[:180]
+            self.links.append({"href": self.current_href, "label": label})
+            self.current_href = None
+            self.current_anchor_parts = []
         if tag.lower() == "title":
             self.in_title = False
     def handle_data(self, data):
         if self.in_title:
             self.title_parts.append(data.strip())
+        if self.current_href is not None:
+            self.current_anchor_parts.append(data.strip())
 
 def host_is(domain, base):
     return domain == base or domain.endswith("." + base)
@@ -84,10 +93,10 @@ def fetch_links(url):
     parser.feed(raw)
     base = url
     resolved = []
-    for href in parser.links:
-        absolute = urljoin(base, href)
+    for entry in parser.links:
+        absolute = urljoin(base, entry["href"])
         if absolute.startswith("https://"):
-            resolved.append(absolute.split("#", 1)[0])
+            resolved.append({"url": absolute.split("#", 1)[0], "label": entry["label"]})
     return list(dict.fromkeys(resolved)), " ".join(parser.title_parts)[:300]
 
 def main():
@@ -109,9 +118,15 @@ def main():
         try:
             links, page_title = fetch_links(url)
             for link in links:
-                if is_official(link, host):
-                    domain = (urlparse(link).hostname or "").lower()
-                    result["official_evidence"].append({"url": link, "domain": domain})
+                link_url = link["url"]
+                if is_official(link_url, host):
+                    domain = (urlparse(link_url).hostname or "").lower()
+                    result["official_evidence"].append({
+                        "url": link_url,
+                        "domain": domain,
+                        "link_text": link["label"],
+                        "evidence_type": "lien externe vers un domaine de première partie répertorié"
+                    })
             if result["official_evidence"]:
                 result["status"] = "lien de première partie repéré — contenu à contrôler"
             result["page_title"] = page_title
@@ -158,7 +173,7 @@ def main():
         "official_link_found": sum(bool(x["official_evidence"]) for x in checks),
         "errors": errors,
         "checks": checks,
-        "policy": "Un lien officiel repéré n'est pas une validation automatique du fait. Vérifier séparément chaque date, format, studio, casting, nombre d'épisodes et territoire."
+        "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
