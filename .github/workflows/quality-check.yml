@@ -2,7 +2,7 @@ name: AutreTrend Quality Check
 
 on:
   push:
-    branches: [main]
+    branches: [main, radar-intelligent-hardening]
     paths:
       - "index.html"
       - "app.js"
