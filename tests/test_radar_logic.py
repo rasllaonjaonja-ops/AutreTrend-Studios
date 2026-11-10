@@ -1,6 +1,7 @@
 """Tests de non-régression pour la logique du Radar."""
 import unittest
 
+from scripts.generate_editorial import fit_x_post, add_x_source_link
 from scripts.verify_sources import (
     Links, MAX_PREPUBLICATIONS, SOCIAL_NETWORKS, enrich_source_reports,
     age_hours_for_sampling, verification_rank,
@@ -12,6 +13,22 @@ from scripts.radar_logic import (
 
 
 class RadarLogicTests(unittest.TestCase):
+    def test_x_post_never_ends_with_a_partial_word(self):
+        text = (
+            "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. "
+            "Une quatrième saison et un second film d'animation sont confirmés. "
+            "L'objectif serait de célébrer le cinquième anniver"
+        )
+        result = fit_x_post(text)
+        self.assertLessEqual(len(result), 260)
+        self.assertTrue(result.endswith((".", "!", "?", "…")))
+        self.assertNotEqual(result.split()[-1], "anniver")
+
+    def test_x_source_link_is_omitted_instead_of_truncating_the_post(self):
+        post = "Une annonce officielle présente les nouveaux projets de cette série animée."
+        result = add_x_source_link(post, "https://example.com/a/very/long/source/link/that/cannot/fit")
+        self.assertEqual(result, post)
+
     def test_spy_family_synonyms_are_same_event(self):
         a = "'Spy x Family' Gets Season 4, Second Anime Movie in 2027"
         b = "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027"
