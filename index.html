@@ -541,18 +541,18 @@ function renderRadar(){
  const sourceSummary=$("#radar-source-summary");
  if(sourceSummary)sourceSummary.textContent=sourceNames.join(" · ")||"Aucune source identifiée";
  const sourceStrip=$("#radar-source-chips");
- if(sourceStrip)sourceStrip.innerHTML='<span class="radar-source-label">SOURCES ACTIVES</span>'+sourceNames.map(name=>'<span class="source-chip '+(name.toLowerCase().includes("oricon")?"source-chip-new":"")+'">'+esc(name)+'</span>').join("");
+ if(sourceStrip)sourceStrip.innerHTML='<span class="radar-source-label">SOURCES ACTIVES</span>'+sourceNames.map(name=>{const stat=radar.source_stats?.[name]||{};const unique=Number(stat.unique_items||0);const read=Number(stat.entries_found||0);const detail=unique?unique+" article(s)":(read?read+" entrée(s) lue(s), aucun article unique":"aucun article lu");return '<span class="source-chip '+(name.toLowerCase().includes("oricon")?"source-chip-new":"")+'" title="'+esc(detail)+'">'+esc(name)+' · '+esc(detail)+'</span>'}).join("");
  const trends=(radar.trends||[]).filter(t=>{
   const sources=(t.sources||[]).join(" ");
   const hay=[t.title,sources,t.status].join(" ").toLocaleLowerCase("fr");
   if(search&&!hay.includes(search))return false;
   if(filter==="multi"&&Number(t.source_count||0)<2)return false;
   if(filter==="single"&&Number(t.source_count||0)>1)return false;
-  if(selectedSource!=="all"&&!(t.articles||[]).some(a=>a.source===selectedSource))return false;
+  if(selectedSource!=="all"&&!(t.articles||[]).some(a=>a.source===selectedSource||(a.feed_sources||[]).includes(selectedSource)))return false;
   return true;
  });
  const articles=allItems.filter(a=>{
-  if(selectedSource!=="all"&&a.source!==selectedSource)return false;
+  if(selectedSource!=="all"&&a.source!==selectedSource&&!(a.feed_sources||[]).includes(selectedSource))return false;
   if(!search)return true;
   return [a.title,a.source,a.summary].join(" ").toLocaleLowerCase("fr").includes(search);
  }).slice(0,20);
@@ -572,7 +572,7 @@ function renderRadar(){
  }).join("");
  const errors=Array.isArray(radar.errors)?radar.errors:[];
  $("#radar-result").className="radar-results";
- $("#radar-result").innerHTML='<div class="radar-result-head"><h3>Signaux de tendance</h3><span class="muted">'+trends.length+' résultat(s) filtré(s) · '+feedCount+' flux</span></div>'+(trendHtml||'<div class="empty">Aucune tendance ne correspond à ces filtres.</div>')+'<div class="radar-result-head radar-articles-head"><h3>Articles collectés</h3><span class="muted">'+Math.min(articles.length,20)+' affiché(s) sur '+esc(selectedSource==="all"?(radar.item_count||allItems.length):allItems.filter(a=>a.source===selectedSource).length)+'</span></div>'+(articleHtml||'<div class="empty">Aucun article correspondant à ces filtres.</div>')+'<div class="radar-foot"><span>Collecte : '+esc(radarDate(radar.updated_at))+'</span><span>'+errors.length+' erreur(s) de flux · '+esc(verification?.checked_articles||0)+' article(s) contrôlé(s)</span></div>'+(errors.length?'<div class="notice">'+errors.map(e=>esc(e.source)+': '+esc(e.error)).join(" · ")+'</div>':"")+'<p class="muted">'+esc(radar.notice||"Scores indicatifs, vérification humaine obligatoire.")+'</p>'+(verification?.policy?'<p class="muted">'+esc(verification.policy)+'</p>':"");
+ $("#radar-result").innerHTML='<div class="radar-result-head"><h3>Signaux de tendance</h3><span class="muted">'+trends.length+' résultat(s) filtré(s) · '+feedCount+' flux</span></div>'+(trendHtml||'<div class="empty">Aucune tendance ne correspond à ces filtres.</div>')+'<div class="radar-result-head radar-articles-head"><h3>Articles collectés</h3><span class="muted">'+Math.min(articles.length,20)+' affiché(s) sur '+esc(selectedSource==="all"?(radar.item_count||allItems.length):allItems.filter(a=>a.source===selectedSource||(a.feed_sources||[]).includes(selectedSource)).length)+'</span></div>'+(articleHtml||'<div class="empty">Aucun article correspondant à ces filtres.</div>')+'<div class="radar-foot"><span>Collecte : '+esc(radarDate(radar.updated_at))+'</span><span>'+errors.length+' erreur(s) de flux · '+esc(verification?.checked_articles||0)+' article(s) contrôlé(s)</span></div>'+(errors.length?'<div class="notice">'+errors.map(e=>esc(e.source)+': '+esc(e.error)).join(" · ")+'</div>':"")+'<p class="muted">'+esc(radar.notice||"Scores indicatifs, vérification humaine obligatoire.")+'</p>'+(verification?.policy?'<p class="muted">'+esc(verification.policy)+'</p>':"");
 }
 async function loadRadar(force){
  if(radarState.busy)return;
