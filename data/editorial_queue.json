@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:02:55.949549+00:00",
+  "generated_at": "2026-11-10T13:05:46.458372+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -398,24 +398,6 @@
           "date_status": "known"
         },
         {
-          "title": "L'anime SPY x FAMILY Saison 4, annoncé pour 2027 - Adala News",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWEVrZDBfTVBTaDB0bHVXQm9TTFgxcXlMRGZIVVJkQS1Rc0tRWlB1MHBaMG9vd19DeFJNZC1PN2VrWWEwVnpDRm5fN3pRbGtuNmZoeVl6clhOaXViaGRXc04tS0U2dldvYzIwbC1udlpGdUw0QlJxbjhzZmtVSUJxNzhFQQ?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ],
-          "summary": "",
-          "publisher": "Google Actualités – France",
-          "published_at": "",
-          "language": "fr",
-          "summary_status": "missing",
-          "date_status": "unknown"
-        },
-        {
           "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
           "title_language": "en",
           "url": "https://myanimelist.net/news/74917181?_location=rss",
@@ -447,6 +429,24 @@
           "summary": "SPY x FAMILY will return with two new anime projects in 2027, including TV anime Season 4 and a second theatrical film.",
           "publisher": "ORICON / Japan Anime News",
           "published_at": "2026-11-08T11:20:51+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
+        },
+        {
+          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ],
+          "summary": "Visual revealed for new season",
+          "publisher": "Anime News Network",
+          "published_at": "2026-11-08T11:00:18+00:00",
           "language": "en",
           "summary_status": "available",
           "date_status": "known"
@@ -665,7 +665,7 @@
   ],
   "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
   "ai_generated_count": 0,
-  "ai_generation_status": "unavailable",
-  "ai_model": "",
-  "ai_notice": "Service IA indisponible : The read operation timed out. Les brouillons restent non publiables."
+  "ai_generation_status": "rejected",
+  "ai_model": "@cf/zai-org/glm-4.7-flash",
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Synthèse croisée des tendances absente ou trop faible; Error: Synthèse croisée des tendances absente ou trop faible"
 }
