@@ -209,20 +209,31 @@ export async function onRequestPost({ request, env }) {
   }
 
   const output = [];
+  const errors = [];
   for (const item of body.items) {
     try {
       try {
         output.push(await generateOne(item, env));
       } catch (error) {
         if (/trop court/i.test(String(error))) {
+          // Une seule correction ciblée : ne pas laisser un sujet défaillant
+          // annuler les autres prépublications valides du même lot.
           output.push(await generateOne(item, env, true));
         } else {
           throw error;
         }
       }
     } catch (error) {
-      return json({ error: "Editorial generation failed", detail: String(error).slice(0, 240) }, 502);
+      errors.push({
+        trend_id: item.trend_id,
+        detail: String(error).slice(0, 240)
+      });
     }
   }
-  return json({ model: MODEL, generated_at: new Date().toISOString(), items: output });
+  return json({
+    model: MODEL,
+    generated_at: new Date().toISOString(),
+    items: output,
+    errors
+  });
 }
