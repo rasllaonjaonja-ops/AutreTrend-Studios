@@ -226,8 +226,35 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     briefErrors.push("claims_to_verify doit être un tableau de chaînes françaises de 4 mots minimum");
   }
   if (briefErrors.length) throw new Error("Brief éditorial incomplet : " + briefErrors.join("; "));
+  // Renforcer les formats trop courts avec des faits déjà validés dans la synthèse.
+  // Aucun fait nouveau n'est créé : les ajouts sont repris mot pour mot et sans doublon.
+  const groundedAdditions = [
+    ...parsed.trend_synthesis.key_facts,
+    parsed.summary_fr,
+    parsed.trend_synthesis.coverage_summary
+  ].filter(value => typeof value === "string"
+    && detectTextLanguage(value) === "fr"
+    && wordCount(value) >= 5);
+  const appendGrounded = (value, minimum, target = minimum) => {
+    let output = String(value || "").trim();
+    for (const addition of groundedAdditions) {
+      if (wordCount(output) >= target) break;
+      const normalized = addition.toLowerCase().replace(/\\s+/g, " ").trim();
+      const current = output.toLowerCase().replace(/\\s+/g, " ").trim();
+      if (!normalized || current.includes(normalized)) continue;
+      const candidate = (output ? output.replace(/[.!?…]*$/, ".") + " " : "") + addition.trim();
+      if (wordCount(candidate) <= 115) output = candidate;
+    }
+    return wordCount(output) >= minimum ? output : String(value || "").trim();
+  };
+
   const minimumWords = { facebook: 70, instagram: 45, tiktok: 35, x: 8, threads: 40, telegram: 40 };
   for (const platform of ["facebook", "instagram", "tiktok", "x", "threads", "telegram"]) {
+    parsed.posts[platform] = appendGrounded(
+      parsed.posts[platform],
+      minimumWords[platform],
+      platform === "facebook" ? 85 : minimumWords[platform]
+    );
     if (wordCount(parsed.posts[platform]) < minimumWords[platform]) {
       throw new Error("Contenu trop court pour " + platform + " (" + wordCount(parsed.posts[platform]) + "/" + minimumWords[platform] + " mots)");
     }
@@ -237,6 +264,9 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   }
   for (const platform of ["youtube", "pinterest"]) {
     const minimumDescriptionWords = platform === "youtube" ? 50 : 35;
+    parsed.posts[platform].description = appendGrounded(
+      parsed.posts[platform].description, minimumDescriptionWords, minimumDescriptionWords
+    );
     if (wordCount(parsed.posts[platform].description) < minimumDescriptionWords
         || parsed.posts[platform].title.trim().length < 45) {
       throw new Error("Titre ou description trop court pour " + platform);
@@ -303,10 +333,10 @@ export async function onRequestPost({ request, env }) {
     try {
       let draft = null;
       let lastError = "";
-      // Deux nouvelles tentatives après la première génération. Toute erreur de
+      // Une tentative corrective après la première génération. Toute erreur de
       // validation ou de format relance le modèle avec le motif exact; les erreurs
       // d'un sujet ne bloquent jamais les autres prépublications.
-      for (let attempt = 0; attempt <= 2; attempt++) {
+      for (let attempt = 0; attempt <= 1; attempt++) {
         try {
           draft = await generateOne(item, env, attempt > 0, lastError);
           break;
