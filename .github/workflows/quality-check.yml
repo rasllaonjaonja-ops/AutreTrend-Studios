@@ -1,0 +1,45 @@
+name: AutreTrend Quality Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "app.js"
+      - "styles.css"
+      - "scripts/**"
+      - "data/**"
+      - "sources.json"
+      - ".github/workflows/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "app.js"
+      - "styles.css"
+      - "scripts/**"
+      - "data/**"
+      - "sources.json"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v5
+      - name: Préparer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Préparer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Vérifier la qualité du projet
+        run: python scripts/quality_check.py
