@@ -26,7 +26,8 @@ class RadarLogicTests(unittest.TestCase):
 
     def test_x_source_link_is_omitted_instead_of_truncating_the_post(self):
         post = "Une annonce officielle présente les nouveaux projets de cette série animée."
-        result = add_x_source_link(post, "https://example.com/a/very/long/source/link/that/cannot/fit")
+        long_url = "https://example.com/" + "segment/" * 40
+        result = add_x_source_link(post, long_url)
         self.assertEqual(result, post)
 
     def test_spy_family_synonyms_are_same_event(self):
