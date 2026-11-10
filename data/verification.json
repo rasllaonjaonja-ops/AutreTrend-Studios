@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T06:54:54.772668+00:00",
+  "checked_at": "2026-11-10T06:56:20.691584+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
