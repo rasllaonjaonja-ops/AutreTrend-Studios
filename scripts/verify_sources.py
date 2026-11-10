@@ -97,7 +97,10 @@ def fetch_links(url):
         absolute = urljoin(base, entry["href"])
         if absolute.startswith("https://"):
             resolved.append({"url": absolute.split("#", 1)[0], "label": entry["label"]})
-    return list(dict.fromkeys(resolved)), " ".join(parser.title_parts)[:300]
+    unique = {}
+    for entry in resolved:
+        unique.setdefault(entry["url"], entry)
+    return list(unique.values()), " ".join(parser.title_parts)[:300]
 
 def main():
     radar = json.loads(RADAR.read_text(encoding="utf-8"))
