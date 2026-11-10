@@ -22,28 +22,41 @@ def word_count(value):
     return len(str(value or "").split())
 
 
-def valid_posts(posts):
-    if not isinstance(posts, dict) or not all(key in posts for key in PLATFORMS):
-        return False
+def post_validation_errors(posts):
+    """Retourne les contrôles précis qui empêchent l'acceptation des textes sociaux."""
+    if not isinstance(posts, dict):
+        return ["posts absent ou non structuré"]
+    errors = [f"plateforme absente : {key}" for key in PLATFORMS if key not in posts]
     minimum_words = {
         "facebook": 70, "instagram": 45, "tiktok": 35,
         "x": 8, "threads": 40, "telegram": 40,
     }
     for key in PLATFORMS:
+        if key not in posts:
+            continue
         value = posts[key]
         if key in ("youtube", "pinterest"):
-            if (not isinstance(value, dict)
-                    or not isinstance(value.get("title"), str)
-                    or len(value["title"].strip()) < 45
-                    or not isinstance(value.get("description"), str)
-                    or word_count(value["description"]) < (50 if key == "youtube" else 35)):
-                return False
-        elif (not isinstance(value, str)
-                or word_count(value) < minimum_words[key]):
-            return False
-        elif key == "x" and len(value) > 260:
-            return False
-    return True
+            if not isinstance(value, dict):
+                errors.append(f"{key} : titre/description doivent être un objet")
+                continue
+            title = value.get("title")
+            description = value.get("description")
+            if not isinstance(title, str) or len(title.strip()) < 45:
+                errors.append(f"{key} : titre inférieur à 45 caractères")
+            minimum = 50 if key == "youtube" else 35
+            if not isinstance(description, str) or word_count(description) < minimum:
+                actual = word_count(description) if isinstance(description, str) else 0
+                errors.append(f"{key} : description {actual}/{minimum} mots")
+        else:
+            if not isinstance(value, str):
+                errors.append(f"{key} : texte absent ou invalide")
+                continue
+            actual = word_count(value)
+            if actual < minimum_words[key]:
+                errors.append(f"{key} : texte {actual}/{minimum_words[key]} mots")
+            if key == "x" and len(value) > 260:
+                errors.append(f"x : {len(value)}/260 caractères")
+    return errors
 
 
 def valid_synthesis(synthesis):
@@ -150,7 +163,7 @@ def main():
             method="POST"
         )
         try:
-            with urllib.request.urlopen(request, timeout=80) as response:
+            with urllib.request.urlopen(request, timeout=150) as response:
                 item_result = json.loads(response.read().decode("utf-8"))
         except urllib.error.HTTPError as exc:
             try:
@@ -208,9 +221,19 @@ def main():
     if not isinstance(generation_errors, list):
         generation_errors = []
     accepted = 0
+    validation_errors = []
     for item in items[:3]:
         draft = generated.get(item.get("trend_id"))
-        if not draft or not valid_posts(draft.get("posts")):
+        if not draft:
+            detail = next((str(error.get("detail", "")) for error in generation_errors
+                           if isinstance(error, dict) and error.get("trend_id") == item.get("trend_id")), "")
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": detail or "aucune réponse IA reçue"})
+            continue
+        post_errors = post_validation_errors(draft.get("posts"))
+        if post_errors:
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": " | ".join(post_errors[:8])})
             continue
         title_fr = str(draft.get("title_fr", "")).strip()
         summary_fr = str(draft.get("summary_fr", "")).strip()
@@ -218,6 +241,8 @@ def main():
         if (detect_text_language(title_fr) != "fr"
                 or detect_text_language(summary_fr) != "fr"
                 or word_count(summary_fr) < 60):
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": "titre/résumé : langue française ou résumé de 60 mots non validé"})
             continue
         editorial_angle = str(draft.get("editorial_angle", "")).strip()
         discussion_question = str(draft.get("discussion_question", "")).strip()
@@ -226,24 +251,34 @@ def main():
                 or word_count(discussion_question) < 6
                 or detect_text_language(discussion_question) != "fr"
                 or not discussion_question.endswith("?")):
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": "angle/question : langue française, longueur ou ponctuation invalide"})
             continue
         claims = draft.get("claims_to_verify", [])
         if (not isinstance(claims, list)
                 or not all(isinstance(x, str) and word_count(x) >= 4
                            and detect_text_language(x) == "fr" for x in claims)):
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": "claims_to_verify : au moins un élément est trop court ou non français"})
             continue
         french_platforms = ("facebook", "instagram", "tiktok", "x", "threads", "telegram")
         if any(detect_text_language(draft["posts"][key]) != "fr" for key in french_platforms):
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": "au moins un texte social n'est pas détecté en français"})
             continue
         if any(
             detect_text_language(draft["posts"][key]["title"]) != "fr"
             or detect_text_language(draft["posts"][key]["description"]) != "fr"
             for key in ("youtube", "pinterest")
         ):
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": "YouTube/Pinterest : titre ou description non détecté en français"})
             continue
 
         synthesis = draft.get("trend_synthesis", {})
         if not valid_synthesis(synthesis):
+            validation_errors.append({"trend_id": item.get("trend_id", ""),
+                                      "detail": "synthèse croisée absente, trop courte ou non française"})
             continue
         item["trend_synthesis"] = {
             "key_facts": [str(x)[:400] for x in synthesis.get("key_facts", [])[:8]],
@@ -305,6 +340,7 @@ def main():
         )
         accepted += 1
 
+    queue["ai_validation_errors"] = validation_errors[:12]
     queue["ai_generated_count"] = accepted
     queue["ai_generation_status"] = "generated" if accepted == len(items[:3]) else ("partial" if accepted else "rejected")
     queue["ai_model"] = result.get("model", "")
@@ -316,9 +352,10 @@ def main():
             "Les sujets en échec restent non publiables. Validation humaine obligatoire."
         )
     else:
+        all_errors = generation_errors + validation_errors
         details = "; ".join(
-            str(error.get("detail", "échec de génération"))[:140]
-            for error in generation_errors if isinstance(error, dict)
+            str(error.get("detail", "échec de génération"))[:180]
+            for error in all_errors if isinstance(error, dict)
         )
         queue["ai_notice"] = (
             "Aucune prépublication IA validée. Les brouillons restent non publiables."
