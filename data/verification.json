@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-10T06:49:00.910227+00:00",
-  "checked_articles": 25,
+  "checked_at": "2026-11-10T06:50:03.356904+00:00",
+  "checked_articles": 12,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
-  "official_link_found": 3,
+  "official_link_found": 2,
   "errors": [],
   "checks": [
     {
@@ -49,6 +49,24 @@
       "page_title": "Kaiju No. 8 Season 2 Trailer Looks Ahead to Next Arc"
     },
     {
+      "title": "Unboxing April 2026 Suruga-ya Orders",
+      "article_url": "https://www.animenation.net/blog/unboxing-april-2026-suruga-ya-orders/",
+      "publisher": "AnimeNation",
+      "published_at": "2026-04-07T02:15:06+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Unboxing April 2026 Suruga-ya Orders – AnimeNation Anime News Blog"
+    },
+    {
+      "title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff",
+      "article_url": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
+      "publisher": "AnimeNation",
+      "published_at": "2025-12-07T04:18:44+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff – AnimeNation Anime News Blog"
+    },
+    {
       "title": "Three Powerful Back-to-School Anime",
       "article_url": "https://otakuusamagazine.com/back-to-school-anime-2025/",
       "publisher": "Otaku USA Magazine",
@@ -72,6 +90,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
+    },
+    {
+      "title": "Zoom sur les meilleures ventes de mangas de mars 2026",
+      "article_url": "https://www.bdzoom.com/211416/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-mars-2026/",
+      "publisher": "BDzoom – Manga",
+      "published_at": "2026-04-09T06:42:36+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Zoom sur les meilleures ventes de mangas de mars 2026 | BDZoom.com"
     },
     {
       "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
@@ -99,157 +126,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
-    },
-    {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T03:34:51+00:00",
-      "official_evidence": [
-        {
-          "url": "https://www.viz.com/manga-books/manga/jojo-s-bizarre-adventure-part-7-steel-ball-run-volume-1/product/8330",
-          "domain": "www.viz.com",
-          "link_text": "released",
-          "evidence_type": "lien externe vers un domaine de première partie répertorié"
-        }
-      ],
-      "status": "lien de première partie repéré — contenu à contrôler",
-      "page_title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - News - Anime News Network"
-    },
-    {
-      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T03:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
-    },
-    {
-      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T02:31:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - News - Anime News Network"
-    },
-    {
-      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T01:56:30+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga - News - Anime News Network"
-    },
-    {
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T01:39:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T00:49:27+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song - News - Anime News Network"
-    },
-    {
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T00:39:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T00:17:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
-      "article_url": "https://myanimelist.net/news/74922872?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-10T00:05:31+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer - MyAnimeList.net"
-    },
-    {
-      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "article_url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "publisher": "Animehunch",
-      "published_at": "2026-11-09T22:33:42+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release - Animehunch"
-    },
-    {
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-09T21:30:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award - News - Anime News Network"
-    },
-    {
-      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
-      "article_url": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-09T21:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "article_url": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
-      "publisher": "Animehunch",
-      "published_at": "2026-11-09T20:48:16+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "A Silent Voice Anime's Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals - Animehunch"
-    },
-    {
-      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-09T20:30:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - News - Anime News Network"
-    },
-    {
-      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
-      "article_url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-09T20:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-09T18:30:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "K Manga Adds nyalra's Strayboy Overkill Manga - News - Anime News Network"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."

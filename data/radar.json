@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T06:48:49.444574+00:00",
+  "updated_at": "2026-11-10T06:49:57.201349+00:00",
   "source_count": 20,
   "source_country_count": 7,
   "source_region_count": 6,
@@ -9,16 +9,16 @@
     "Crunchyroll News – RSS",
     "MyAnimeList News – RSS",
     "Japan Anime News – ORICON RSS",
-    "Tokyo Otaku Mode",
+    "AnimeNation",
     "Anime UK News",
-    "UK Anime Network",
+    "World of Geek – Manga",
     "Animehunch",
     "Anime News India",
     "Anime Corner",
     "Anime Feminist",
     "Otaku USA Magazine",
     "Anime Herald",
-    "Manga News",
+    "BDzoom – Manga",
     "Animotaku",
     "Adala News",
     "Japan FM – Manga",
@@ -34,7 +34,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:35.529826+00:00",
+      "last_success_at": "2026-11-10T06:49:43.465393+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -45,7 +45,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:36.236547+00:00",
+      "last_success_at": "2026-11-10T06:49:44.287765+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -56,7 +56,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:36.695825+00:00",
+      "last_success_at": "2026-11-10T06:49:45.038338+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -67,7 +67,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:36.997401+00:00",
+      "last_success_at": "2026-11-10T06:49:45.350835+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -78,19 +78,19 @@
       "accepted_items": 36,
       "unique_items": 36,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:37.331999+00:00",
+      "last_success_at": "2026-11-10T06:49:45.738279+00:00",
       "error": null
     },
-    "Tokyo Otaku Mode": {
-      "country": "Japan",
-      "region": "East Asia",
+    "AnimeNation": {
+      "country": "United States",
+      "region": "North America",
       "language": "en",
-      "entries_found": 0,
-      "accepted_items": 0,
-      "unique_items": 0,
-      "status": "error",
-      "last_success_at": null,
-      "error": "HTTP Error 403: Forbidden"
+      "entries_found": 15,
+      "accepted_items": 15,
+      "unique_items": 15,
+      "status": "ok",
+      "last_success_at": "2026-11-10T06:49:47.092614+00:00",
+      "error": null
     },
     "Anime UK News": {
       "country": "United Kingdom",
@@ -100,18 +100,18 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:37.859643+00:00",
+      "last_success_at": "2026-11-10T06:49:47.446034+00:00",
       "error": null
     },
-    "UK Anime Network": {
-      "country": "United Kingdom",
+    "World of Geek – Manga": {
+      "country": "France",
       "region": "Europe",
-      "language": "en",
-      "entries_found": 10,
-      "accepted_items": 0,
-      "unique_items": 0,
+      "language": "fr",
+      "entries_found": 30,
+      "accepted_items": 30,
+      "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:38.862561+00:00",
+      "last_success_at": "2026-11-10T06:49:48.179051+00:00",
       "error": null
     },
     "Animehunch": {
@@ -122,7 +122,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:39.278121+00:00",
+      "last_success_at": "2026-11-10T06:49:48.686065+00:00",
       "error": null
     },
     "Anime News India": {
@@ -133,7 +133,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:39.809395+00:00",
+      "last_success_at": "2026-11-10T06:49:49.833449+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -144,7 +144,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:39.892952+00:00",
+      "last_success_at": "2026-11-10T06:49:50.038023+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -155,7 +155,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:41.189775+00:00",
+      "last_success_at": "2026-11-10T06:49:51.381662+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -166,7 +166,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:42.172941+00:00",
+      "last_success_at": "2026-11-10T06:49:51.799971+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -177,19 +177,19 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:43.203649+00:00",
+      "last_success_at": "2026-11-10T06:49:52.590827+00:00",
       "error": null
     },
-    "Manga News": {
+    "BDzoom – Manga": {
       "country": "France",
       "region": "Europe",
       "language": "fr",
-      "entries_found": 0,
-      "accepted_items": 0,
-      "unique_items": 0,
-      "status": "error",
-      "last_success_at": null,
-      "error": "junk after document element: line 290, column 6"
+      "entries_found": 10,
+      "accepted_items": 10,
+      "unique_items": 10,
+      "status": "ok",
+      "last_success_at": "2026-11-10T06:49:53.692723+00:00",
+      "error": null
     },
     "Animotaku": {
       "country": "France",
@@ -199,7 +199,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:44.986475+00:00",
+      "last_success_at": "2026-11-10T06:49:54.376597+00:00",
       "error": null
     },
     "Adala News": {
@@ -210,7 +210,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:45.718157+00:00",
+      "last_success_at": "2026-11-10T06:49:54.863796+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -221,7 +221,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:47.998249+00:00",
+      "last_success_at": "2026-11-10T06:49:55.593114+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -232,7 +232,7 @@
       "accepted_items": 39,
       "unique_items": 39,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:48.892093+00:00",
+      "last_success_at": "2026-11-10T06:49:56.630266+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -243,12 +243,12 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-10T06:48:49.439475+00:00",
+      "last_success_at": "2026-11-10T06:49:57.197327+00:00",
       "error": null
     }
   },
   "health": {
-    "sources_ok": 18,
+    "sources_ok": 20,
     "source_countries_ok": [
       "France",
       "India",
@@ -258,11 +258,11 @@
       "United Kingdom",
       "United States"
     ],
-    "sources_error": 2,
+    "sources_error": 0,
     "items_without_date": 0,
     "items_without_summary": 0
   },
-  "item_count": 391,
+  "item_count": 446,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -574,6 +574,30 @@
       "canonical_url": "https://us.oricon-group.com/news/9469",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+      "title": "Kagurabachi : Crunchyroll annonce la date de sortie dans un nouveau trailer",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+      "summary": "L’anime Kagurabachi doit débuter en avril 2027. L’adaptation télévisée du manga de Takeru Hokazono, annoncée fin avril 2026, n’a pas encore de date de lancement précise ni de nombre d’épisodes confirmé. Ce calendrier laisse une année entre l’annonce et la diffusion. Il peut laisser penser que la production entend installer la série avant son arrivée […]",
+      "published_at": "2026-09-07T06:01:24+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 30,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/kagurabachi-anime-avril-2027",
+      "feed_sources": [
+        "World of Geek – Manga"
       ]
     },
     {
@@ -1513,6 +1537,30 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+      "title": "One Piece : Oda aurait fait annuler un arc complet de la série Netflix",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+      "summary": "Eiichiro Oda aurait bloqué une version alternative de la première saison de One Piece dans laquelle Syrup Village disparaissait au profit d’une introduction d’Usopp sur l’île de Gaimon. Cette intervention ne concerne donc ni un nouvel arc du manga ni une partie de l’anime annulée définitivement. L’information provient du récit de Steven Maeda, showrunner de […]",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 22,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece",
+      "feed_sources": [
+        "World of Geek – Manga"
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9468/",
       "title": "Mercedes and the Waning Moon Reveals New Trailer and 4 Additional Cast Members",
       "title_language": "en",
@@ -2113,6 +2161,30 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+      "title": "Crunchyroll annonce neuf nouvelles séries d’anime pour 2027",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+      "summary": "Crunchyroll dévoile neuf nouveaux anime pour 2027, entre romances, fantasy et action. Au programme aussi, des adaptations de webtoons coréens et de jeux vidéo.",
+      "published_at": "2026-10-14T05:55:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 17,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027",
+      "feed_sources": [
+        "World of Geek – Manga"
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/from-far-away-episode-1/",
       "title": "From Far Away – Episode 1",
       "title_language": "en",
@@ -2209,6 +2281,30 @@
       ]
     },
     {
+      "id": "https://www.animenation.net/blog/johns-november-anime-imports-unboxing/",
+      "title": "John’s November Anime Imports Unboxing",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenation.net/blog/johns-november-anime-imports-unboxing/",
+      "summary": "Join me for 94-minutes of import order opening including some original art, a few manga key issues, more Dirty Pair items, and a couple of Japanese John Wick oddities.",
+      "published_at": "2026-11-08T00:57:55+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "AnimeNation",
+      "publisher": "AnimeNation",
+      "category": "anime-manga",
+      "source_country": "United States",
+      "source_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 16,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenation.net/blog/johns-november-anime-imports-unboxing",
+      "feed_sources": [
+        "AnimeNation"
+      ]
+    },
+    {
       "id": "https://animenewsindia.com/2026/10/08/dragon-ball-super-beerus-anime-to-stream-on-crunchyroll-and-netflix-in-india-starting-october-2026/",
       "title": "Dragon Ball Super: Beerus Anime to Stream on Crunchyroll and Netflix in India Starting October 2026",
       "title_language": "en",
@@ -2254,6 +2350,54 @@
       "canonical_url": "https://animefeminist.com/the-anifem-guide-to-shojosei-series-coming-out-in-fall-2026",
       "feed_sources": [
         "Anime Feminist"
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/johns-september-anime-imports-unboxing/",
+      "title": "John’s September Anime Imports Unboxing",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenation.net/blog/johns-september-anime-imports-unboxing/",
+      "summary": "I’ve ended up stockpiling another mass of import orders, so watch me show-and-tell about rare Kenichi Sonoda doujinshi, vintage Dirty Pair oddities, doujin CD-ROMs, manga 1st appearances, and more.",
+      "published_at": "2026-09-19T21:42:39+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "AnimeNation",
+      "publisher": "AnimeNation",
+      "category": "anime-manga",
+      "source_country": "United States",
+      "source_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 16,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenation.net/blog/johns-september-anime-imports-unboxing",
+      "feed_sources": [
+        "AnimeNation"
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/unboxing-april-2026-suruga-ya-orders/",
+      "title": "Unboxing April 2026 Suruga-ya Orders",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenation.net/blog/unboxing-april-2026-suruga-ya-orders/",
+      "summary": "I recorded a little video of myself opening my latest two shipments of anime & manga odds & ends from Japan.",
+      "published_at": "2026-04-07T02:15:06+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "AnimeNation",
+      "publisher": "AnimeNation",
+      "category": "anime-manga",
+      "source_country": "United States",
+      "source_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 16,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenation.net/blog/unboxing-april-2026-suruga-ya-orders",
+      "feed_sources": [
+        "AnimeNation"
       ]
     },
     {
@@ -2497,6 +2641,30 @@
       ]
     },
     {
+      "id": "https://www.bdzoom.com/215789/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-septembre-2026/",
+      "title": "Zoom sur les meilleures ventes de mangas de septembre 2026",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.bdzoom.com/215789/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-septembre-2026/",
+      "summary": "Cela aurait pu être « Le Casse du siècle », si Sarah Knafo, avec son livre du même nom, ne s’était pas mise en travers de la route du volume 113 de la série « One Piece », lequel arrive directement — avec ses deux éditions différentes — dans le « Top 20 hebdo » des meilleures ventes compilées par GfK/ Livres Hebdo en cette fin du mois de septembre de l’année 2026. Le voyage trépidant de Luffy et son équipage contraste avec le long fleuve tranquille qui semble se dérouler à chaque édition d’un no",
+      "published_at": "2026-10-15T23:00:34+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "BDzoom – Manga",
+      "publisher": "BDzoom – Manga",
+      "category": "manga-anime",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 15,
+      "verification": "à vérifier",
+      "canonical_url": "https://bdzoom.com/215789/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-septembre-2026",
+      "feed_sources": [
+        "BDzoom – Manga"
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/nia-liston-the-merciless-maiden-episode-1/",
       "title": "Nia Liston: The Merciless Maiden – Episode 1",
       "title_language": "en",
@@ -2590,6 +2758,30 @@
       "canonical_url": "https://animefeminist.com/the-worlds-strongest-witch-episode-1",
       "feed_sources": [
         "Anime Feminist"
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
+      "title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
+      "summary": "I recorded a new video expressing my initial thoughts on the Jujutsu Kaisen: Execution/Culling Game movie and some of my latest anime purchases.",
+      "published_at": "2025-12-07T04:18:44+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "AnimeNation",
+      "publisher": "AnimeNation",
+      "category": "anime-manga",
+      "source_country": "United States",
+      "source_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 15,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff",
+      "feed_sources": [
+        "AnimeNation"
       ]
     },
     {
@@ -3433,6 +3625,30 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+      "title": "Naruto Shadow Rising : Masashi Kishimoto revient pour un nouveau manga ?!",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+      "summary": "Naruto revient avec Shadow Rising, le nouveau manga de Kishimoto. Son lien avec Boruto reste flou, mais Jump Festa 2027 devrait enfin lever le voile.",
+      "published_at": "2026-10-29T07:10:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising",
+      "feed_sources": [
+        "World of Geek – Manga"
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/chatty-af-245-2026-summer-season-wrap-up-part-1/",
       "title": "Chatty AF 245: 2026 Summer Season Wrap-Up (Part 1)",
       "title_language": "en",
@@ -3454,6 +3670,54 @@
       "canonical_url": "https://animefeminist.com/chatty-af-245-2026-summer-season-wrap-up-part-1",
       "feed_sources": [
         "Anime Feminist"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+      "title": "Jujutsu Kaisen Modulo : Yuji Itadori maîtrise enfin Shrine et pourrait accéder à Divine Flame",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+      "summary": "Gege Akutami offre à Yuji Itadori un nouveau niveau de puissance dans Jujutsu Kaisen Modulo maîtrisant enfin Shrine et une force bien plus létale que dans le manga d origine",
+      "published_at": "2026-09-22T09:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji",
+      "feed_sources": [
+        "World of Geek – Manga"
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/213341/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026-2/",
+      "title": "Zoom sur les meilleures ventes de mangas d’avril 2026",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.bdzoom.com/213341/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026-2/",
+      "summary": "On prend les mêmes et on continue. « One Piece » et « Spy x Family », arrivés dans le classement des meilleures ventes tous genres confondus de GFK/ Livres Hebdo en avril, résistent tant bien que mal en restant classés durant une bonne partie du mois de mai au sein de ce palmarès. Ce qui est très honorable, aucun titre franco-belge n’a eu un tel honneur.",
+      "published_at": "2026-06-17T23:00:57+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "BDzoom – Manga",
+      "publisher": "BDzoom – Manga",
+      "category": "manga-anime",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://bdzoom.com/213341/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026-2",
+      "feed_sources": [
+        "BDzoom – Manga"
       ]
     },
     {
@@ -3646,6 +3910,30 @@
       "canonical_url": "https://animeherald.com/2026/10/30/talking-galaxic-baseball-with-acky-bright-at-nycc-2026",
       "feed_sources": [
         "Anime Herald"
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026/",
+      "title": "Zoom sur les meilleures ventes de mangas d’avril 2026",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026/",
+      "summary": "14 e ! C’est la place du mois en ce qui concerne le manga : en effet, sont successivement entrés, à cette place dans le classement des meilleures ventes tous genres confondus de GFK/ Livres Hebdo , le quinzième volume de « Frieren », le vingt-deuxième de « Dandadan » et le vingtième de « Solo Leveling Ragnarok ». Ce classement a juste été perturbé, en troisième semaine, par l’arrivée inopportune d’un classique franco-belge : « La Longue Marche de Lucky Luke », alors que le mois dernier, c’était ",
+      "published_at": "2026-05-13T23:00:33+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "BDzoom – Manga",
+      "publisher": "BDzoom – Manga",
+      "category": "manga-anime",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 11,
+      "verification": "à vérifier",
+      "canonical_url": "https://bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026",
+      "feed_sources": [
+        "BDzoom – Manga"
       ]
     },
     {
@@ -3886,6 +4174,30 @@
       "canonical_url": "https://animeuknews.net/2026/10/crunchyroll-reveals-uk-home-entertainment-release-schedule-november-december-2026",
       "feed_sources": [
         "Anime UK News"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/crunchyroll-nouveau-roi-shonen-automne-2026/",
+      "title": "Crunchyroll annonce plus de 40 nouveautés pour cet automne 2026",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/crunchyroll-nouveau-roi-shonen-automne-2026/",
+      "summary": "Crunchyroll aligne plus de 40 anime cet automne 2026. Black Clover, PSYREN ou Chojo peuvent-ils prétendre au titre de nouveau roi du shōnen ?",
+      "published_at": "2026-10-23T06:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/crunchyroll-nouveau-roi-shonen-automne-2026",
+      "feed_sources": [
+        "World of Geek – Manga"
       ]
     },
     {
@@ -4489,6 +4801,30 @@
       ]
     },
     {
+      "id": "https://www.bdzoom.com/211416/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-mars-2026/",
+      "title": "Zoom sur les meilleures ventes de mangas de mars 2026",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.bdzoom.com/211416/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-mars-2026/",
+      "summary": "Après un quasi-mois complet, sans qu’aucun manga n’apparaisse dans le classement des meilleures ventes tous genres confondus de GFK/ Livres Hebdo , une surprise a pointé le bout de ses pages en dernière semaine. En effet, « Kaiju n° 8 » T16 de Naoya Matsumoto (aux éditions Crunchyroll) fait une timide apparition en 14 e position pour la semaine du 23 au 29 mars 2026.",
+      "published_at": "2026-04-09T06:42:36+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "BDzoom – Manga",
+      "publisher": "BDzoom – Manga",
+      "category": "manga-anime",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://bdzoom.com/211416/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-mars-2026",
+      "feed_sources": [
+        "BDzoom – Manga"
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
       "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
       "title_language": "en",
@@ -4510,6 +4846,30 @@
       "canonical_url": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
       "feed_sources": [
         "Crunchyroll News – RSS"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/jujutsu-kaisen-s4-mise-a-jour-29-aout/",
+      "title": "Jujutsu Kaisen saison 4 : De nouvelles infos au Juju Fes 2026",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/jujutsu-kaisen-s4-mise-a-jour-29-aout/",
+      "summary": "Jujutsu Kaisen pourrait enfin avancer le 29 août à Juju Fes 2026 à Yokohama. Fenêtre de sortie teaser ou visuel un rendez vous très attendu pour la saison 4 attendue en 2027",
+      "published_at": "2026-08-29T05:22:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_country": "France",
+      "source_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 9,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/jujutsu-kaisen-s4-mise-a-jour-29-aout",
+      "feed_sources": [
+        "World of Geek – Manga"
       ]
     },
     {
@@ -4703,369 +5063,9 @@
       "feed_sources": [
         "Animotaku"
       ]
-    },
-    {
-      "id": "https://adala-news.fr/2026/11/lanime-bride-of-the-barrier-master-en-character-video/",
-      "title": "L’anime Bride of the Barrier Master, en Character Vidéo",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://adala-news.fr/2026/11/lanime-bride-of-the-barrier-master-en-character-video/",
-      "summary": "L’anime Bride of the Barrier Master (Kekkaishi no Ichirinka) se montre à travers ses deux protagonistes dans…",
-      "published_at": "2026-11-08T11:05:22+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Adala News",
-      "publisher": "Adala News",
-      "category": "anime-manga",
-      "source_country": "France",
-      "source_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://adala-news.fr/2026/11/lanime-bride-of-the-barrier-master-en-character-video",
-      "feed_sources": [
-        "Adala News"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
-      "title": "Bride of the Barrier Master Anime Streams Videos for Leads Hana Ichise, Saku Ichinomiya",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
-      "summary": "Akari Kitō voices Hana, Kikunosuke Toya voices Saku in anime debuting in January",
-      "published_at": "2026-11-08T10:53:36+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://adala-news.fr/2026/11/toutes-les-informations-sur-lanime-bless/",
-      "title": "Toutes les informations sur l’anime BLESS",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://adala-news.fr/2026/11/toutes-les-informations-sur-lanime-bless/",
-      "summary": "L’anime BLESS, réalisé Shotaro Kitamura (Makeine: Too Many Losing Heroines!), dévoile toutes ses informations à travers un…",
-      "published_at": "2026-11-07T16:15:05+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Adala News",
-      "publisher": "Adala News",
-      "category": "anime-manga",
-      "source_country": "France",
-      "source_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://adala-news.fr/2026/11/toutes-les-informations-sur-lanime-bless",
-      "feed_sources": [
-        "Adala News"
-      ]
-    },
-    {
-      "id": "https://animecorner.me/everyones-darling-has-a-secret-reveals-additional-cast-ending-theme-song/",
-      "title": "Everyone's Darling Has a Secret Reveals Additional Cast, Ending Theme Song",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animecorner.me/everyones-darling-has-a-secret-reveals-additional-cast-ending-theme-song/",
-      "summary": "Everyone’s Darling Has a Secret anime has three additional cast and the ending theme…",
-      "published_at": "2026-11-07T15:36:43+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime Corner",
-      "publisher": "Anime Corner",
-      "category": "anime-manga",
-      "source_country": "Philippines",
-      "source_region": "Southeast Asia",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animecorner.me/everyones-darling-has-a-secret-reveals-additional-cast-ending-theme-song",
-      "feed_sources": [
-        "Anime Corner"
-      ]
-    },
-    {
-      "id": "https://adala-news.fr/2026/11/lanime-there-was-a-cute-girl-in-the-heros-party-saison-2-annonce/",
-      "title": "L’anime There Was a Cute Girl in the Hero’s Party Saison 2, annoncé",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://adala-news.fr/2026/11/lanime-there-was-a-cute-girl-in-the-heros-party-saison-2-annonce/",
-      "summary": "C’est par le biais du site officiel que nous apprenons la production de l’anime There Was a…",
-      "published_at": "2026-11-07T15:20:07+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Adala News",
-      "publisher": "Adala News",
-      "category": "anime-manga",
-      "source_country": "France",
-      "source_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://adala-news.fr/2026/11/lanime-there-was-a-cute-girl-in-the-heros-party-saison-2-annonce",
-      "feed_sources": [
-        "Adala News"
-      ]
-    },
-    {
-      "id": "https://animotaku.fr/encyclotaku/anime/harajuku-himegoto-house/",
-      "title": "Harajuku Himegoto House (anime)",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animotaku.fr/encyclotaku/anime/harajuku-himegoto-house/",
-      "summary": "Découvrez toutes nos informations à propos de l'anime Harajuku Himegoto House ! L’article Harajuku Himegoto House (anime) est apparu en premier sur AnimOtaku .",
-      "published_at": "2026-11-07T13:26:44+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Animotaku",
-      "publisher": "Animotaku",
-      "category": "anime-manga",
-      "source_country": "France",
-      "source_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animotaku.fr/encyclotaku/anime/harajuku-himegoto-house",
-      "feed_sources": [
-        "Animotaku"
-      ]
-    },
-    {
-      "id": "https://animotaku.fr/actualite/anime-there-was-a-cute-girl-in-the-heros-party-saison-2-annonce/",
-      "title": "L’anime There Was A Cute Girl In The Hero’s Party Saison 2, officiellement en production",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animotaku.fr/actualite/anime-there-was-a-cute-girl-in-the-heros-party-saison-2-annonce/",
-      "summary": "La production d'une saison 2 a été annoncée pour l'anime There Was A Cute Girl In The Hero's Party. Découvre les premières informations ! L’article L’anime There Was A Cute Girl In The Hero’s Party Saison 2, officiellement en production est apparu en premier sur AnimOtaku .",
-      "published_at": "2026-11-07T13:00:12+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Animotaku",
-      "publisher": "Animotaku",
-      "category": "anime-manga",
-      "source_country": "France",
-      "source_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animotaku.fr/actualite/anime-there-was-a-cute-girl-in-the-heros-party-saison-2-annonce",
-      "feed_sources": [
-        "Animotaku"
-      ]
-    },
-    {
-      "id": "https://animotaku.fr/encyclotaku/anime/yuusha-party-ni-kawaii-ko-ga-ita-node-saison-2/",
-      "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita Saison 2 (anime)",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animotaku.fr/encyclotaku/anime/yuusha-party-ni-kawaii-ko-ga-ita-node-saison-2/",
-      "summary": "Découvrez toutes nos informations à propos de l'anime Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita. Saison 2 ! L’article Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita Saison 2 (anime) est apparu en premier sur AnimOtaku .",
-      "published_at": "2026-11-07T12:34:58+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Animotaku",
-      "publisher": "Animotaku",
-      "category": "anime-manga",
-      "source_country": "France",
-      "source_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animotaku.fr/encyclotaku/anime/yuusha-party-ni-kawaii-ko-ga-ita-node-saison-2",
-      "feed_sources": [
-        "Animotaku"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-07/gacha-girls-corps-anime-reveals-more-cast-january-7-debut/.243607",
-      "title": "Gacha Girls Corps Anime Reveals More Cast, January 7 Debut",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-07/gacha-girls-corps-anime-reveals-more-cast-january-7-debut/.243607",
-      "summary": "≒JOY idols Aimi Ozawa, Renon Esumi join cast",
-      "published_at": "2026-11-07T10:36:55+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/gacha-girls-corps-anime-reveals-more-cast-january-7-debut/.243607",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-07/bless-tv-anime-1st-full-promo-video-announces-january-8-debut/.243605",
-      "title": "Bless TV Anime's 1st Full Promo Video Announces January 8 Debut",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-07/bless-tv-anime-1st-full-promo-video-announces-january-8-debut/.243605",
-      "summary": "Hikka's ending theme song \"New Page\" also previewed",
-      "published_at": "2026-11-07T08:59:25+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/bless-tv-anime-1st-full-promo-video-announces-january-8-debut/.243605",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
-      "title": "Abema Selects Project PRISMation's 1st Open Call Finalists to Make 3 Pilot Anime",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
-      "summary": "\"OXY-HEAVEN,\" \"Amneka,\" \"Kandy-Killers for Hire\" pilots slated for 2027 or later",
-      "published_at": "2026-11-07T08:19:34+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/7/hana-kimi-manga-30th-anniversary-new-live-action-drama-stage-play",
-      "title": "Hana-Kimi Manga Celebrates 30th Anniversary with New Live-Action Drama and Stage Play",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/7/hana-kimi-manga-30th-anniversary-new-live-action-drama-stage-play",
-      "summary": "The 12 main cast will star in both the drama and the play",
-      "published_at": "2026-11-07T01:06:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/hana-kimi-manga-30th-anniversary-new-live-action-drama-stage-play",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-06/hana-kimi-manga-gets-new-live-action-series-1st-stage-play/.243601",
-      "title": "Hana-Kimi Manga Gets New Live-Action Series, 1st Stage Play",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-06/hana-kimi-manga-gets-new-live-action-series-1st-stage-play/.243601",
-      "summary": "Hana Kawamura, The Rampage's Makoto Hasegawa & Itsuki Fujiwara star in both",
-      "published_at": "2026-11-06T23:51:13+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-06/hana-kimi-manga-gets-new-live-action-series-1st-stage-play/.243601",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-06/odd-taxi-manga-author-launches-new-rematch-with-you-manga-in-late-november/.243576",
-      "title": "Odd Taxi Manga Author Launches New Rematch With You Manga in Late November",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-06/odd-taxi-manga-author-launches-new-rematch-with-you-manga-in-late-november/.243576",
-      "summary": "Abaraya previously published dōjin version of manga at Comitia in November 2025",
-      "published_at": "2026-11-06T21:00:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-06/odd-taxi-manga-author-launches-new-rematch-with-you-manga-in-late-november/.243576",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://www.animefeminist.com/goodbye-lara-as-an-intertextual-queer-retelling/",
-      "title": "Goodbye, Lara as an intertextual queer retelling",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animefeminist.com/goodbye-lara-as-an-intertextual-queer-retelling/",
-      "summary": "This very meta fairy tale retelling both critiques and pays homage to everything that came before it. The post Goodbye, Lara as an intertextual queer retelling appeared first on Anime Feminist .",
-      "published_at": "2026-11-06T18:00:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime Feminist",
-      "publisher": "Anime Feminist",
-      "category": "anime-manga-analysis",
-      "source_country": "United States",
-      "source_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animefeminist.com/goodbye-lara-as-an-intertextual-queer-retelling",
-      "feed_sources": [
-        "Anime Feminist"
-      ]
     }
   ],
-  "trend_count": 230,
+  "trend_count": 265,
   "trends": [
     {
       "id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
@@ -5744,7 +5744,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7890,7 +7890,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 40,
+        "freshness": 39,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8083,6 +8083,47 @@
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/johns-november-anime-imports-unboxing/",
+      "title": "John’s November Anime Imports Unboxing",
+      "title_language": "en",
+      "score": 24,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 16,
+        "freshness": 25,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2026-11-08T00:57:55+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "John’s November Anime Imports Unboxing",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/johns-november-anime-imports-unboxing/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
           ]
         }
       ]
@@ -8452,6 +8493,47 @@
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+      "title": "Kagurabachi : Crunchyroll annonce la date de sortie dans un nouveau trailer",
+      "title_language": "fr",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 30,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-07T06:01:24+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Kagurabachi : Crunchyroll annonce la date de sortie dans un nouveau trailer",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
           ]
         }
       ]
@@ -9318,6 +9400,47 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+      "title": "One Piece : Oda aurait fait annuler un arc complet de la série Netflix",
+      "title_language": "fr",
+      "score": 19,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 22,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "One Piece : Oda aurait fait annuler un arc complet de la série Netflix",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9468/",
       "title": "Mercedes and the Waning Moon Reveals New Trailer and 4 Additional Cast Members",
       "title_language": "en",
@@ -10108,6 +10231,47 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+      "title": "Crunchyroll annonce neuf nouvelles séries d’anime pour 2027",
+      "title_language": "fr",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 17,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-14T05:55:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Crunchyroll annonce neuf nouvelles séries d’anime pour 2027",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animenewsindia.com/2026/10/09/crunchyroll-manga-expands-in-india-by-bringing-more-than-250-titles-in-localised-english/",
       "title": "Crunchyroll Manga Expands In India by bringing More Than 250 Titles in localised English",
       "title_language": "en",
@@ -10272,6 +10436,47 @@
       ]
     },
     {
+      "id": "https://www.animenation.net/blog/johns-september-anime-imports-unboxing/",
+      "title": "John’s September Anime Imports Unboxing",
+      "title_language": "en",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 16,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2026-09-19T21:42:39+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "John’s September Anime Imports Unboxing",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/johns-september-anime-imports-unboxing/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animenewsindia.com/2026/08/12/crunchyroll-acquires-india-and-worldwide-rights-to-release-makoto-shinkais-next-film-excluding-other-asian-territories/",
       "title": "Crunchyroll Acquires India and Worldwide Rights to Release Makoto Shinkai’s Next Film Excluding Other Asian Territories",
       "title_language": "en",
@@ -10308,6 +10513,47 @@
           "source": "Anime News India",
           "feed_sources": [
             "Anime News India"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/unboxing-april-2026-suruga-ya-orders/",
+      "title": "Unboxing April 2026 Suruga-ya Orders",
+      "title_language": "en",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 16,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2026-04-07T02:15:06+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Unboxing April 2026 Suruga-ya Orders",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/unboxing-april-2026-suruga-ya-orders/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
           ]
         }
       ]
@@ -11174,6 +11420,47 @@
       ]
     },
     {
+      "id": "https://www.bdzoom.com/215789/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-septembre-2026/",
+      "title": "Zoom sur les meilleures ventes de mangas de septembre 2026",
+      "title_language": "fr",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-10-15T23:00:34+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Zoom sur les meilleures ventes de mangas de septembre 2026",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/215789/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-septembre-2026/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/nia-liston-the-merciless-maiden-episode-1/",
       "title": "Nia Liston: The Merciless Maiden – Episode 1",
       "title_language": "en",
@@ -11420,6 +11707,47 @@
       ]
     },
     {
+      "id": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
+      "title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff",
+      "title_language": "en",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2025-12-07T04:18:44+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-07/gacha-girls-corps-anime-reveals-more-cast-january-7-debut/.243607",
       "title": "Gacha Girls Corps Anime Reveals More Cast, January 7 Debut",
       "title_language": "en",
@@ -11584,6 +11912,47 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+      "title": "Naruto Shadow Rising : Masashi Kishimoto revient pour un nouveau manga ?!",
+      "title_language": "fr",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-29T07:10:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Naruto Shadow Rising : Masashi Kishimoto revient pour un nouveau manga ?!",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/chatty-af-245-2026-summer-season-wrap-up-part-1/",
       "title": "Chatty AF 245: 2026 Summer Season Wrap-Up (Part 1)",
       "title_language": "en",
@@ -11620,6 +11989,129 @@
           "source": "Anime Feminist",
           "feed_sources": [
             "Anime Feminist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+      "title": "Jujutsu Kaisen Modulo : Yuji Itadori maîtrise enfin Shrine et pourrait accéder à Divine Flame",
+      "title_language": "fr",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-22T09:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Jujutsu Kaisen Modulo : Yuji Itadori maîtrise enfin Shrine et pourrait accéder à Divine Flame",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/213341/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026-2/",
+      "title": "Zoom sur les meilleures ventes de mangas d’avril 2026",
+      "title_language": "fr",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-06-17T23:00:57+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Zoom sur les meilleures ventes de mangas d’avril 2026",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/213341/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026-2/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026/",
+      "title": "Zoom sur les meilleures ventes de mangas d’avril 2026",
+      "title_language": "fr",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-05-13T23:00:33+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Zoom sur les meilleures ventes de mangas d’avril 2026",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
           ]
         }
       ]
@@ -12445,6 +12937,47 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/hunter-x-hunter-togashi-annonce-suite/",
+      "title": "Le créateur de Hunter x Hunter annonce enfin une suite au manga ?",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-11-02T09:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Le créateur de Hunter x Hunter annonce enfin une suite au manga ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/hunter-x-hunter-togashi-annonce-suite/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/anime-feminist-recommendations-of-summer-2026/",
       "title": "Anime Feminist Recommendations of Summer 2026",
       "title_language": "en",
@@ -12850,6 +13383,47 @@
           "source": "Anime UK News",
           "feed_sources": [
             "Anime UK News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/crunchyroll-nouveau-roi-shonen-automne-2026/",
+      "title": "Crunchyroll annonce plus de 40 nouveautés pour cet automne 2026",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-23T06:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Crunchyroll annonce plus de 40 nouveautés pour cet automne 2026",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/crunchyroll-nouveau-roi-shonen-automne-2026/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
           ]
         }
       ]
@@ -13301,6 +13875,47 @@
           "source": "Anime Feminist",
           "feed_sources": [
             "Anime Feminist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/215360/actualites/c%e2%80%99est-le-plus-grand-le-plus-charmant-le-plus-elegant-le-petit-fils-d%e2%80%99arsene-revient-avec-%c2%ab-lupin-iii-%c2%bb-%e2%80%a6/",
+      "title": "C’est le plus grand, le plus charmant, le plus élégant… : le petit-fils d’Arsène revient avec « Lupin III »…",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-10-11T05:27:50+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "C’est le plus grand, le plus charmant, le plus élégant… : le petit-fils d’Arsène revient avec « Lupin III »…",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/215360/actualites/c%e2%80%99est-le-plus-grand-le-plus-charmant-le-plus-elegant-le-petit-fils-d%e2%80%99arsene-revient-avec-%c2%ab-lupin-iii-%c2%bb-%e2%80%a6/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
           ]
         }
       ]
@@ -13962,6 +14577,498 @@
       ]
     },
     {
+      "id": "https://www.animenation.net/blog/the-delinquent-girl-seeks-your-attention/",
+      "title": "The Delinquent Girl Seeks Your Attention",
+      "title_language": "en",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2026-09-26T01:03:43+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Delinquent Girl Seeks Your Attention",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/the-delinquent-girl-seeks-your-attention/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/215116/actualites/le-mouvement-artistique-%c2%ab-underground-%c2%bb-japonais-vu-par-suehiro-maruo/",
+      "title": "Le mouvement artistique « UNderGround » japonais vu par Suehiro Maruo…",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-09-21T04:00:25+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Le mouvement artistique « UNderGround » japonais vu par Suehiro Maruo…",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/215116/actualites/le-mouvement-artistique-%c2%ab-underground-%c2%bb-japonais-vu-par-suehiro-maruo/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/214942/actualites/les-ultimes-%c2%ab-invitations-%c2%bb-de-jiro-taniguchi%e2%80%a6/",
+      "title": "Les ultimes « Invitations » de Jirô Taniguchi…",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-09-14T04:00:24+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Les ultimes « Invitations » de Jirô Taniguchi…",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/214942/actualites/les-ultimes-%c2%ab-invitations-%c2%bb-de-jiro-taniguchi%e2%80%a6/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/214862/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99aout-2026/",
+      "title": "Zoom sur les meilleures ventes de mangas d’août 2026",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-09-11T04:00:45+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Zoom sur les meilleures ventes de mangas d’août 2026",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/214862/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99aout-2026/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/johns-late-august-anime-acquisitions/",
+      "title": "John’s Late August Anime Acquisitions",
+      "title_language": "en",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2026-08-30T19:56:10+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "John’s Late August Anime Acquisitions",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/johns-late-august-anime-acquisitions/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/jujutsu-kaisen-s4-mise-a-jour-29-aout/",
+      "title": "Jujutsu Kaisen saison 4 : De nouvelles infos au Juju Fes 2026",
+      "title_language": "en",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 9,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-08-29T05:22:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Jujutsu Kaisen saison 4 : De nouvelles infos au Juju Fes 2026",
+          "title_language": "en",
+          "url": "https://worldofgeek.fr/jujutsu-kaisen-s4-mise-a-jour-29-aout/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/kingdom-hearts-anime-disney-plus/",
+      "title": "Kingdom Hearts : une nouvelle série animée annoncée sur Disney+ !",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-08-16T06:21:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Kingdom Hearts : une nouvelle série animée annoncée sur Disney+ !",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/kingdom-hearts-anime-disney-plus/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/an-exceptional-villainess-manga-coming-your-way/",
+      "title": "An Exceptional Villainess Manga Coming Your Way",
+      "title_language": "en",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2026-08-09T23:17:59+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "An Exceptional Villainess Manga Coming Your Way",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/an-exceptional-villainess-manga-coming-your-way/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/212669/actualites/des-pirates-wagneriens-hantent-l%e2%80%99espace-avec-%c2%ab-les-chants-du-cygne-noir-%c2%bb-%e2%80%a6/",
+      "title": "Des pirates wagnériens hantent l’espace dans « Les Chants du Cygne noir »…",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-05-30T22:01:12+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Des pirates wagnériens hantent l’espace dans « Les Chants du Cygne noir »…",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/212669/actualites/des-pirates-wagneriens-hantent-l%e2%80%99espace-avec-%c2%ab-les-chants-du-cygne-noir-%c2%bb-%e2%80%a6/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/212121/actualites/%c2%ab-no-devil-%c2%bb-ca-sonne-comme-du-bon-rock%e2%80%89/",
+      "title": "« No Devil » : ça sonne comme du bon rock !",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-05-07T02:00:29+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "« No Devil » : ça sonne comme du bon rock !",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/212121/actualites/%c2%ab-no-devil-%c2%bb-ca-sonne-comme-du-bon-rock%e2%80%89/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.bdzoom.com/211416/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-mars-2026/",
+      "title": "Zoom sur les meilleures ventes de mangas de mars 2026",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "BDzoom – Manga"
+      ],
+      "published_at": "2026-04-09T06:42:36+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Zoom sur les meilleures ventes de mangas de mars 2026",
+          "title_language": "fr",
+          "url": "https://www.bdzoom.com/211416/mangas/zoom-sur-les-meilleures-ventes-de-mangas-de-mars-2026/",
+          "source": "BDzoom – Manga",
+          "feed_sources": [
+            "BDzoom – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenation.net/blog/johns-picks-for-2025s-best-tv-anime/",
+      "title": "John’s Picks for 2025’s Best TV Anime",
+      "title_language": "en",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "AnimeNation"
+      ],
+      "published_at": "2026-01-01T18:09:10+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "John’s Picks for 2025’s Best TV Anime",
+          "title_language": "en",
+          "url": "https://www.animenation.net/blog/johns-picks-for-2025s-best-tv-anime/",
+          "source": "AnimeNation",
+          "feed_sources": [
+            "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://otakuusamagazine.com/manga-review-isekai-metaller-volume-1/",
       "title": "MANGA REVIEW: Isekai Metaller Is a Hard Rocking Fantasy Adventure",
       "title_language": "en",
@@ -14454,6 +15561,88 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/one-piece-s4-netflix-bientot/",
+      "title": "One Piece Netflix : la suite va arriver plus vite que prévu !",
+      "title_language": "fr",
+      "score": 13,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-15T05:55:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "One Piece Netflix : la suite va arriver plus vite que prévu !",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/one-piece-s4-netflix-bientot/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/demon-slayer-forteresse-infinie-partie-2-date-sortie/",
+      "title": "Quelle date de sortie pour la partie 2 du film Demon Slayer La Forteresse Infinie ?",
+      "title_language": "fr",
+      "score": 13,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-07-29T05:16:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Quelle date de sortie pour la partie 2 du film Demon Slayer La Forteresse Infinie ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/demon-slayer-forteresse-infinie-partie-2-date-sortie/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animecorner.me/interview-asta-voice-actors-gakuto-kajiwara-and-dallas-reid-on-black-clover-season-2/",
       "title": "Interview: Asta Voice Actors Gakuto Kajiwara and Dallas Reid on Black Clover Season 2",
       "title_language": "en",
@@ -14531,6 +15720,252 @@
           "source": "Anime UK News",
           "feed_sources": [
             "Anime UK News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/fortnite-saison-one-piece-premiere-bande-annonce/",
+      "title": "Fortnite confirme sa saison One Piece Treasure Hunters dès le 1er novembre 2026",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fortnite confirme sa saison One Piece Treasure Hunters dès le 1er novembre 2026",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/fortnite-saison-one-piece-premiere-bande-annonce/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/one-piece-3-pirates-plus-forts-nouvelle-generation/",
+      "title": "One Piece : Luffy, Zoro et Sanji comme la relève de Roger, Rayleigh et Gaban ?",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-28T08:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "One Piece : Luffy, Zoro et Sanji comme la relève de Roger, Rayleigh et Gaban ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/one-piece-3-pirates-plus-forts-nouvelle-generation/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/my-hero-academia-retour/",
+      "title": "My Hero Academia : Des Révélations majeures arrive au Jump Festa 2027",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-28T07:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "My Hero Academia : Des Révélations majeures arrive au Jump Festa 2027",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/my-hero-academia-retour/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/fuite-collab-fortnite-one-piece/",
+      "title": "Fortnite X One Piece : un énorme cross over est en préparation ?",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-26T06:10:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fortnite X One Piece : un énorme cross over est en préparation ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/fuite-collab-fortnite-one-piece/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/my-hero-academia-sortie-16-septembre/",
+      "title": "My Hero Academia : Les nouvelles figurines de malade révélées par Banpresto !",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-10T06:04:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "My Hero Academia : Les nouvelles figurines de malade révélées par Banpresto !",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/my-hero-academia-sortie-16-septembre/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/dragon-ball-nouveau-super-saiyan-retour-serie/",
+      "title": "Dragon Ball : Toyotarou dévoile un Mr. Satan officiellement en Super Saiyan",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-08-30T07:22:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Dragon Ball : Toyotarou dévoile un Mr. Satan officiellement en Super Saiyan",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/dragon-ball-nouveau-super-saiyan-retour-serie/",
+          "source": "World of Geek – Manga",
+          "feed_sources": [
+            "World of Geek – Manga"
           ]
         }
       ]
@@ -14782,15 +16217,6 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "source": "Tokyo Otaku Mode",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "Manga News",
-      "error": "junk after document element: line 290, column 6"
-    }
-  ],
+  "errors": [],
   "notice": "Radar international manga/anime : les pays indiqués sont ceux des sources, pas une mesure de popularité locale. Priorité éditoriale indicative : pertinence (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs (25 %, bonus limité aux flux de première partie) et volume (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier."
 }
