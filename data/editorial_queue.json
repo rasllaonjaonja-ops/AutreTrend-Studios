@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:56:54.782855+00:00",
+  "generated_at": "2026-11-10T14:10:17.247660+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 404,
+  "rejected_count": 410,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
+      "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -142,17 +142,19 @@
       ]
     },
     {
-      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation - Anime News Network",
+      "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
+      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
       "reasons": [
         "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
@@ -168,6 +170,14 @@
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation - Anime News Network",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -216,13 +226,6 @@
       ]
     },
     {
-      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "[第634話]ONE PIECE",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -241,7 +244,7 @@
       ]
     },
     {
-      "title": "My Crush's Crush Anime Set for April 2027 Release - IGN India",
+      "title": "First Teaser for Slice of Life Anime 'Hirayasumi' Very Calm & Peaceful - FirstShowing.net",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -394,24 +397,6 @@
           "date_status": "known"
         },
         {
-          "title": "L'anime SPY x FAMILY Saison 4, annoncé pour 2027 - Adala News",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWEVrZDBfTVBTaDB0bHVXQm9TTFgxcXlMRGZIVVJkQS1Rc0tRWlB1MHBaMG9vd19DeFJNZC1PN2VrWWEwVnpDRm5fN3pRbGtuNmZoeVl6clhOaXViaGRXc04tS0U2dldvYzIwbC1udlpGdUw0QlJxbjhzZmtVSUJxNzhFQQ?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ],
-          "summary": "",
-          "publisher": "Google Actualités – France",
-          "published_at": "",
-          "language": "fr",
-          "summary_status": "missing",
-          "date_status": "unknown"
-        },
-        {
           "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
           "title_language": "en",
           "url": "https://myanimelist.net/news/74917181?_location=rss",
@@ -446,6 +431,24 @@
           "language": "en",
           "summary_status": "available",
           "date_status": "known"
+        },
+        {
+          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ],
+          "summary": "Visual revealed for new season",
+          "publisher": "Anime News Network",
+          "published_at": "2026-11-08T11:00:18+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
         }
       ],
       "official_evidence": [],
@@ -454,65 +457,32 @@
         "total_articles": 8,
         "status": "checked"
       },
-      "editorial_status": "plusieurs médias — confirmation officielle requise · rédaction IA à relire",
+      "editorial_status": "plusieurs médias — confirmation officielle requise",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "en",
       "summary_language": "fr",
       "source_excerpt": "Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…",
       "social_posts": {
-        "facebook": "L'univers de SPY x FAMILY s'agrandit encore ! Plusieurs médias confirment aujourd'hui l'annonce de la production de la Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cela promet d'être une année majeure pour les fans de la famille Forgeron. Quelle est votre anticipation pour le contenu de cette nouvelle saison et de ce film inédit ?\nSource à consulter : Adala News, Anime Corner, Anime News Network\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-        "instagram": "L'univers de SPY x FAMILY s'agrandit encore ! Plusieurs médias confirment aujourd'hui l'annonce de la production de la Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cela promet d'être une année majeure pour les fans de la famille Forgeron. Quelle est votre anticipation pour le contenu de cette nouvelle saison et de ce film inédit ? #SpyxFamily #Anime #Saison4\nSource à consulter : Adala News, Anime Corner, Anime News Network\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-        "tiktok": "L'univers de SPY x FAMILY s'agrandit encore ! Plusieurs médias confirment aujourd'hui l'annonce de la production de la Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cela promet d'être une année majeure pour les fans de la famille Forgeron. Quelle est votre anticipation pour le contenu de cette nouvelle saison et de ce film inédit ?\nSource à consulter : Adala News, Anime Corner, Anime News Network",
-        "x": "SPY x FAMILY : Saison 4 et nouveau film annoncés pour 2027. Plusieurs médias rapportent l'annonce de la production de l'anime et d'un film lors d'un événement fan. La sortie est prévue pour 2027. https://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-        "threads": "L'univers de SPY x FAMILY s'agrandit encore ! Plusieurs médias confirment aujourd'hui l'annonce de la production de la Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cela promet d'être une année majeure pour les fans de la famille Forgeron. Quelle est votre anticipation pour le contenu de cette nouvelle saison et de ce film inédit ?\nSource à consulter : Adala News, Anime Corner, Anime News Network\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+        "language_ready": false,
+        "translation_required": true,
+        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
+        "facebook": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spy #Family #Season\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+        "instagram": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spy #Family #Season\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+        "tiktok": "ACCROCHE : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spy #Family #Season",
+        "x": "Spy x Family Season 4 & New Film Confirmed For 2027 Release — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spy #Family #Season",
+        "threads": "On vient de repérer cette actualité : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
         "youtube": {
-          "title": "SPY x FAMILY : Saison 4 et nouveau film annoncés pour 2027",
-          "description": "Plusieurs médias rapportent l'annonce de la production de l'anime SPY x FAMILY Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cela promet d'être une année majeure pour les fans de la famille Forgeron.\nSource à consulter : Adala News, Anime Corner, Anime News Network\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/"
+          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/\n\n#Anime #Manga #Spy #Family #Season"
         },
-        "telegram": "Plusieurs médias rapportent l'annonce de la production de l'anime SPY x FAMILY Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cela promet d'être une année majeure pour les fans de la famille Forgeron.\nSource à consulter : Adala News, Anime Corner, Anime News Network\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
+        "telegram": "📰 Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
         "pinterest": {
-          "title": "SPY x FAMILY : Saison 4 et nouveau film annoncés pour 2027",
-          "description": "Plusieurs médias rapportent l'annonce de la production de l'anime SPY x FAMILY Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour 2027, marquant le cinquième anniversaire de l'adaptation télévisée.\nSource à consulter : Adala News, Anime Corner, Anime News Network\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/"
-        },
-        "language_ready": true,
-        "translation_required": false,
-        "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
+          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spy #Family #Season\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/"
+        }
       },
-      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY x FAMILY : Saison 4 et nouveau film annoncés pour 2027\n\nPlusieurs médias rapportent l'annonce officielle de la production de l'anime SPY x FAMILY Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour l'année 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis comme le studio d'animation ou la date exacte ne sont pas communiqués dans les rapports disponibles.\n\nAngle éditorial : Cette annonce est essentielle pour les fans qui attendent la suite des aventures de la famille Forgeron et qui cherchent à planifier leur agenda culturel pour 2027.\nSynthèse des tendances : La couverture médiatique confirme que des annonces ont été faites lors d'un événement fan, mais ne fournit pas de lien direct vers la source officielle.\nFaits clés : Plusieurs médias rapportent l'annonce de la production de l'anime SPY x FAMILY Saison 4.; Un nouveau film est également annoncé pour 2027.; Ces annonces proviendraient d'un événement fan intitulé SPY×FAMILY ANIME EXTRA MISSION II.; La sortie est prévue pour l'année 2027.; La sortie marquerait le cinquième anniversaire de l'adaptation télévisée.\nÉléments rapportés à confirmer : Le studio responsable de l'animation n'est pas mentionné dans les rapports fournis.; La date exacte de sortie pour 2027 n'est pas précisée dans les extraits.; Le réalisateur de la saison 4 n'est pas identifié dans les données disponibles.; Les détails concernant le scénario du nouveau film ne sont pas communiqués.\nQuestion : Quelle est votre anticipation pour le contenu de cette nouvelle saison et de ce film inédit ?\n\nPoints à vérifier : Le studio d'animation responsable de la production n'est pas identifié dans les rapports.; La date exacte de sortie pour 2027 n'est pas précisée dans les données disponibles.; Le réalisateur de la saison 4 n'est pas mentionné dans les rapports fournis.; Les détails concernant le scénario du nouveau film ne sont pas communiqués.\n\nSources : Adala News, Anime Corner, Anime News Network, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
-      "trend_synthesis": {
-        "key_facts": [
-          "Plusieurs médias rapportent l'annonce de la production de l'anime SPY x FAMILY Saison 4.",
-          "Un nouveau film est également annoncé pour 2027.",
-          "Ces annonces proviendraient d'un événement fan intitulé SPY×FAMILY ANIME EXTRA MISSION II.",
-          "La sortie est prévue pour l'année 2027.",
-          "La sortie marquerait le cinquième anniversaire de l'adaptation télévisée."
-        ],
-        "reported_but_unconfirmed": [
-          "Le studio responsable de l'animation n'est pas mentionné dans les rapports fournis.",
-          "La date exacte de sortie pour 2027 n'est pas précisée dans les extraits.",
-          "Le réalisateur de la saison 4 n'est pas identifié dans les données disponibles.",
-          "Les détails concernant le scénario du nouveau film ne sont pas communiqués."
-        ],
-        "coverage_summary": "La couverture médiatique confirme que des annonces ont été faites lors d'un événement fan, mais ne fournit pas de lien direct vers la source officielle.",
-        "editorial_context": "L'actualité SPY x FAMILY suscite un fort intérêt dans la communauté francophone et internationale en raison de l'attente de la suite de l'histoire."
-      },
-      "title_fr": "SPY x FAMILY : Saison 4 et nouveau film annoncés pour 2027",
-      "summary_fr": "Plusieurs médias rapportent l'annonce officielle de la production de l'anime SPY x FAMILY Saison 4 ainsi que d'un nouveau film. Ces projets seraient dévoilés lors de l'événement fan SPY×FAMILY ANIME EXTRA MISSION II. La sortie est prévue pour l'année 2027, marquant le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis comme le studio d'animation ou la date exacte ne sont pas communiqués dans les rapports disponibles.",
-      "editorial_angle": "Cette annonce est essentielle pour les fans qui attendent la suite des aventures de la famille Forgeron et qui cherchent à planifier leur agenda culturel pour 2027.",
-      "discussion_question": "Quelle est votre anticipation pour le contenu de cette nouvelle saison et de ce film inédit ?",
-      "claims_to_verify": [
-        "Le studio d'animation responsable de la production n'est pas identifié dans les rapports.",
-        "La date exacte de sortie pour 2027 n'est pas précisée dans les données disponibles.",
-        "Le réalisateur de la saison 4 n'est pas mentionné dans les rapports fournis.",
-        "Les détails concernant le scénario du nouveau film ne sont pas communiqués."
-      ],
-      "ai_generation": {
-        "provider": "Cloudflare Workers AI",
-        "model": "@cf/zai-org/glm-4.7-flash",
-        "generated_at": "2026-11-10T13:59:27.309Z",
-        "human_review_required": true
-      }
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Adala News, Anime Corner, Anime News Network, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -534,12 +504,14 @@
       ],
       "market_countries": [
         "France",
+        "India",
         "United Kingdom",
         "United States"
       ],
       "market_regions": [
         "Europe",
-        "North America"
+        "North America",
+        "South Asia"
       ],
       "primary_sources": [],
       "primary_source_count": 0,
@@ -620,6 +592,24 @@
           "date_status": "known"
         },
         {
+          "title": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual - AnimeTV チェーン",
+          "title_language": "ja",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5",
+          "source": "Google News – India",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "India",
+          "feed_sources": [
+            "Google News – India"
+          ],
+          "summary": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual AnimeTV チェーン",
+          "publisher": "Google News (agrégateur)",
+          "published_at": "2026-11-10T00:26:37+00:00",
+          "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
+        },
+        {
           "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual - Crunchyroll",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcURLUmY5Y3pVdjVIX2tuNDZWeTJ0ME91dkkzeDFlT1BhdHgxTEp2cUQ5WXA5MUxRVzJON3N0aExQMlJYVElYMVA0N3pxTnpfSmhoQVAxSWYxeDZWLWZxb2JmZGttWHJ0SzgxNlRIWWYtTzI4LW1CZWhzZjJvX1JiemR3bjBKU3RfZTBndjhBMEVOQkI5LWc2eVJuSzZIM3NfWlQxN1lJS3RpRW9KQnFQRy13ZUJ1NUxpbERhYw?oc=5",
@@ -679,8 +669,8 @@
       ],
       "official_evidence": [],
       "verification_coverage": {
-        "checked_articles": 6,
-        "total_articles": 7,
+        "checked_articles": 7,
+        "total_articles": 8,
         "status": "checked"
       },
       "editorial_status": "plusieurs médias — confirmation officielle requise",
@@ -714,12 +704,16 @@
   "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
   "ai_validation_errors": [
     {
-      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
+      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
+    },
+    {
+      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
+      "detail": "Error: Contenu trop court pour instagram"
     }
   ],
-  "ai_generated_count": 1,
-  "ai_generation_status": "partial",
+  "ai_generated_count": 0,
+  "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Rédaction IA partielle : 1/2 sujet(s) validé(s). Les sujets en échec restent non publiables. Validation humaine obligatoire."
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots; Error: Contenu trop court pour instagram; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots; Error: Contenu trop court pour instagram"
 }
