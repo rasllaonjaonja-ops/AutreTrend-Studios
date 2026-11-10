@@ -31,6 +31,16 @@ class RadarLogicTests(unittest.TestCase):
             "Spy x Family Gets Season 4 in 2027",
         ))
 
+    def test_live_action_format_words_do_not_merge_unrelated_films(self):
+        self.assertFalse(same_event(
+            "Paradox Live THE MOVIE Anime Film Slated for 2027, Reveals Super Teaser Visual",
+            "Mashle Live-Action Film Teaser Reveals Mackenyu Cast as Mash, Yuichi Fukuda Directs",
+        ))
+        self.assertFalse(same_event(
+            "Mashle: Magic and Muscles Live-Action Film Adaptation Announced",
+            "Japanese Horror Manga Noah Of The Blood Sea Set For Feature Adaptation As Tyrus Pictures Options Rights",
+        ))
+
     def test_event_parts_normalize_ordinal_and_movie_synonyms(self):
         _, facets = event_parts(
             "Spy×Family gets 4th season and theatrical film in 2027"
