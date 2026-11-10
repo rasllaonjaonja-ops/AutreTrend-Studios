@@ -100,7 +100,7 @@ def detect_title_language(title):
     if re.search(r"[ぁ-んァ-ン一-龯々ー]", title or ""):
         return "ja"
     low = (title or "").lower()
-    if re.search(r"\\b(le|la|les|des|une|un|pour|avec|dans|est|sur)\\b", low) or re.search(r"[àâçéèêëîïôùûüÿœ]", low):
+    if re.search(r"\b(le|la|les|des|une|un|pour|avec|dans|est|sur)\b", low) or re.search(r"[àâçéèêëîïôùûüÿœ]", low):
         return "fr"
     return "en"
 
