@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T13:05:46.458372+00:00",
+  "checked_at": "2026-11-10T13:09:25.611349+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
@@ -90,6 +90,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
+      "article_url": "https://us.oricon-group.com/news/9490/",
+      "publisher": "ORICON / Japan Anime News",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027 | Japan Anime News powered by ORICON NEWS"
     },
     {
       "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
@@ -366,15 +375,6 @@
       "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
       "publisher": "Google News (agrégateur)",
       "published_at": "2026-11-09T19:00:32+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "K Manga Adds nyalra's Strayboy Overkill Manga - Anime News Network",
-      "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemV6UlZDM0ZfNDRTWDRfbElmSUlVR0pUZzNFcUlkcEtGdU1BNnhpZm9VUVF4U29vZENTYnh5TnlmYlBubEFJbFdMc2JoU0pGUExYZWU3Q1JzTE8tbjZoOFFma1BweWtuTU04MWtjU1RQTUNwUlZfX3NGajdXTjZBZVZyQ3k5UTZKamFNQlk3WmpTQ3lsaUNtVC1CbWhrRFB0bnc?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T18:30:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"

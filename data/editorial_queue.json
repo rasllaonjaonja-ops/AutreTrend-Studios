@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:05:46.458372+00:00",
+  "generated_at": "2026-11-10T13:09:25.611349+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,10 +14,16 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 402,
+  "rejected_count": 403,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -48,7 +54,7 @@
       ]
     },
     {
-      "title": "Phantom of the Idol Volume 9 Review",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -66,6 +72,16 @@
     },
     {
       "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Phantom of the Idol Volume 9 Review",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -235,26 +251,6 @@
       "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "TOHO Eyes Historic 20 Billion Yen Milestone For Chiikawa Movie As It Continues Successful Box Office Run",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
@@ -667,5 +663,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Synthèse croisée des tendances absente ou trop faible; Error: Synthèse croisée des tendances absente ou trop faible"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Brief éditorial trop court ou incomplet; Error: Brief éditorial trop court ou incomplet"
 }
