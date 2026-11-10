@@ -765,7 +765,5 @@ $("#radar-reset").onclick=()=>{
  $("#radar-score").value="45";$("#radar-age").value="168";$("#radar-language").value="all";$("#radar-sort").value="score";
  if(radarState.loaded)renderRadar();
 };
-const previousGo=go;
-go=function(v){previousGo(v);if(v==="radar")loadRadar(false)};
 render();loadRadar(false);
 </script></body></html>
