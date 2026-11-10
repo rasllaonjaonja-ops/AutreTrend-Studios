@@ -98,11 +98,22 @@ async function generateOne(item, env) {
       { role: "system", content: system },
       { role: "user", content: "Prépare une prépublication complète pour ce sujet. Données source :\n" + JSON.stringify(input) }
     ],
+    response_format: { type: "json_object" },
+    chat_template_kwargs: { enable_thinking: false },
     max_tokens: 3200,
     temperature: 0.25
   });
 
-  const parsed = extractJson(result?.response ?? result?.result?.response ?? result);
+  // GLM-4.7-Flash renvoie une réponse au format chat-completions :
+  // choices[0].message.content. Garder aussi les formats Workers AI historiques.
+  const choice = result?.choices?.[0] ?? result?.result?.choices?.[0];
+  const messageContent = choice?.message?.content;
+  const content = typeof messageContent === "string"
+    ? messageContent
+    : Array.isArray(messageContent)
+      ? messageContent.filter(part => part?.type === "text").map(part => part.text || "").join("\\n")
+      : result?.response ?? result?.result?.response ?? result;
+  const parsed = extractJson(content);
   if (!parsed || typeof parsed !== "object" || !parsed.posts) throw new Error("Structure éditoriale absente");
   for (const platform of PLATFORMS) {
     const value = parsed.posts[platform];
