@@ -138,7 +138,7 @@ def age_hours_for_sampling(value, now=None):
         if dt > current + timedelta(hours=24):
             return None
         hours = (current - dt).total_seconds() / 3600
-        if hours > 168 * 30:
+        if hours > 24 * 30:
             return None
         return max(0, hours)
     except Exception:
