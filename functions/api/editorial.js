@@ -127,7 +127,7 @@ async function generateOne(item, env) {
     throw new Error("Synthèse croisée des tendances absente ou trop faible");
   }
   if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4
-      || typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < 35
+      || typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < 60
       || typeof parsed.editorial_angle !== "string" || wordCount(parsed.editorial_angle) < 8
       || typeof parsed.discussion_question !== "string" || wordCount(parsed.discussion_question) < 6
       || !parsed.discussion_question.trim().endsWith("?")
@@ -135,19 +135,20 @@ async function generateOne(item, env) {
       || !parsed.claims_to_verify.every(x => typeof x === "string")) {
     throw new Error("Brief éditorial trop court ou incomplet");
   }
-  const minimumWords = { facebook: 45, instagram: 30, tiktok: 25, x: 8, threads: 25, telegram: 25 };
+  const minimumWords = { facebook: 70, instagram: 45, tiktok: 35, x: 8, threads: 40, telegram: 40 };
   for (const platform of ["facebook", "instagram", "tiktok", "x", "threads", "telegram"]) {
     if (wordCount(parsed.posts[platform]) < minimumWords[platform]) {
       throw new Error("Contenu trop court pour " + platform);
     }
   }
   for (const platform of ["youtube", "pinterest"]) {
-    if (wordCount(parsed.posts[platform].description) < 25
-        || parsed.posts[platform].title.trim().length < 12) {
+    const minimumDescriptionWords = platform === "youtube" ? 50 : 35;
+    if (wordCount(parsed.posts[platform].description) < minimumDescriptionWords
+        || parsed.posts[platform].title.trim().length < 45) {
       throw new Error("Titre ou description trop court pour " + platform);
     }
   }
-  if (parsed.posts.x.length > 280) throw new Error("Message X supérieur à 280 caractères");
+  if (parsed.posts.x.length > 260) throw new Error("Message X supérieur à 280 caractères");
   return {
     trend_id: item.trend_id,
     trend_synthesis: {
