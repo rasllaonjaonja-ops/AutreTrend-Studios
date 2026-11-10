@@ -509,7 +509,7 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Déclinaisons sociales : lecture compacte, priorité mobile */
 .social-pack{margin-top:12px;border-top:1px solid #e3e9f2;padding-top:10px}.social-pack summary{cursor:pointer;color:#2454a0;font-size:11px;font-weight:900;letter-spacing:.2px}.social-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}.social-output{min-width:0;border:1px solid #dce5f1;border-radius:10px;background:#f8faff;padding:10px}.social-output>div{display:flex;align-items:center;justify-content:space-between;gap:8px}.social-output b{font-size:11px;color:#1c2d4c}.social-output p{white-space:pre-wrap;overflow-wrap:anywhere;font-size:10px;line-height:1.5;color:#465873;margin:8px 0 0}.social-copy{border:1px solid #d5dfed;border-radius:7px;background:#fff;color:#2454a0;font-size:9px;font-weight:800;padding:5px 8px}.social-warning,.social-ready{font-size:10px;margin:8px 0;color:#8a5b12}.social-ready{color:#28644b}@media(max-width:560px){.social-grid{grid-template-columns:1fr}.social-output{padding:9px}}
-.radar-controls{grid-template-columns:minmax(220px,2fr) repeat(3,minmax(130px,1fr));align-items:center}
+.editorial-check{margin-top:9px;border:1px solid #dce5f1;border-radius:10px;background:#f8faff;padding:10px 12px;font-size:10px;color:#465873}.editorial-check summary{cursor:pointer;color:#2454a0;font-weight:900;font-size:11px}.editorial-check p{margin:8px 0}.editorial-check ul{padding-left:18px;margin:6px 0}.editorial-check li{margin:6px 0}.editorial-check li small{display:block;color:#687891}.radar-controls{grid-template-columns:minmax(220px,2fr) repeat(3,minmax(130px,1fr));align-items:center}
 .radar-reset{min-height:42px;border:1px solid #d5dfed;border-radius:10px;background:#eef3ff;color:#2454a0;font:700 11px system-ui,sans-serif;padding:9px 12px;cursor:pointer}
 .radar-reset:hover{background:#e1eaff}
 @media(max-width:900px){.radar-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.radar-controls input{grid-column:span 2}}
@@ -594,6 +594,18 @@ function renderRadar(){
   const warning=posts.translation_required?'<p class="social-warning">⚠ Traduction française et contrôle des faits requis : ce brouillon n’est pas publiable tel quel.</p>':'<p class="social-ready">Brouillons préformatés depuis les extraits RSS · pas encore de résumé IA · relecture humaine obligatoire.</p>';
   return '<details class="social-pack"><summary>Préparer les réseaux sociaux · 8 formats</summary>'+warning+'<div class="social-grid">'+cards+'</div></details>';
  };
+
+ const editorialDetails=(pack)=>{
+  if(!pack)return "";
+  const evidence=Array.isArray(pack.official_evidence)?pack.official_evidence:[];
+  const evidenceHtml=evidence.length?evidence.map(e=>{
+   const u=radarSafeUrl(e.url);
+   return u?'<li><a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">'+esc(e.domain||"Source officielle")+' ↗</a><small>'+esc(e.evidence_type||"Lien repéré")+'</small></li>':"";
+  }).join(""):'<li class="muted">Aucun lien officiel repéré automatiquement. Cela ne prouve pas qu’aucune annonce officielle n’existe.</li>';
+  const excerpt=String(pack.source_excerpt||"").trim();
+  const media=(pack.media||[]).map(x=>esc(x)).join(" · ");
+  return '<details class="editorial-check"><summary>Fiche de vérification éditoriale</summary><p><b>Statut :</b> '+esc(pack.editorial_status||"À vérifier")+'</p><p><b>Médias :</b> '+(media||"Non précisés")+'</p><p><b>Extrait source :</b> '+esc(excerpt||"Aucun extrait RSS disponible.")+'</p><p><b>Liens officiels repérés :</b></p><ul>'+evidenceHtml+'</ul><p class="muted">Scores et liens indicatifs : vérifier les faits avant publication.</p></details>';
+ };
  const trendHtml=trends.slice(0,40).map(t=>{
   const links=(t.articles||[]).map(a=>{const u=radarSafeUrl(a.url);return u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">'+esc(a.source||"Source")+' ↗</a>':""}).filter(Boolean).join("");
   const sources=(t.sources||[]).map(name=>'<span class="source-chip">'+esc(name)+'</span>').join("");
@@ -601,7 +613,7 @@ function renderRadar(){
   const priority=String(t.priority||"veille").toUpperCase();
   const languageBadge=t.title_language==="ja"?' <span class="language-flag">JAPONAIS · TRADUCTION À FAIRE</span>':"";
   const pack=(queue?.items||[]).find(q=>q.trend_id===t.id);
-  return '<article class="trend-card"><div class="trend-head"><div><span class="trend-status '+(multi?"multi":"single")+'">'+(multi?"MULTI-SOURCE · À CONFIRMER":"SIGNAL À SURVEILLER")+'</span><h4>'+esc(t.title)+languageBadge+'</h4><small class="muted">PRIORITÉ : '+esc(priority)+' · score éditorial indicatif</small></div><div class="trend-score"><b>'+esc(t.score||0)+'</b><small>/100</small></div></div><div class="trend-meta"><span>'+esc(t.article_count||0)+' article(s)</span><span>'+esc(t.source_count||0)+' média(s) distinct(s)</span><span>'+esc(radarDate(t.published_at))+'</span></div><div class="source-chips">'+sources+'</div><div class="trend-links">'+links+'</div>'+socialCards(pack)+'</article>';
+  return '<article class="trend-card"><div class="trend-head"><div><span class="trend-status '+(multi?"multi":"single")+'">'+(multi?"MULTI-SOURCE · À CONFIRMER":"SIGNAL À SURVEILLER")+'</span><h4>'+esc(t.title)+languageBadge+'</h4><small class="muted">PRIORITÉ : '+esc(priority)+' · score éditorial indicatif</small></div><div class="trend-score"><b>'+esc(t.score||0)+'</b><small>/100</small></div></div><div class="trend-meta"><span>'+esc(t.article_count||0)+' article(s)</span><span>'+esc(t.source_count||0)+' média(s) distinct(s)</span><span>'+esc(radarDate(t.published_at))+'</span></div><div class="source-chips">'+sources+'</div><div class="trend-links">'+links+'</div>'+editorialDetails(pack)+socialCards(pack)+'</article>';
  }).join("");
  const articleHtml=articles.map(a=>{
   const u=radarSafeUrl(a.url);
