@@ -654,9 +654,10 @@ function renderRadar(){
   const needsTranslation=Boolean(pack.social_posts?.translation_required||pack.social_posts?.language_ready===false);
   const status=needsTranslation?"TRADUCTION REQUISE":"RELECTURE HUMAINE";
   const title=String(pack.title_fr||pack.title||"Sujet sans titre");
+  const summary=String(pack.summary_fr||pack.source_excerpt||"La synthèse éditoriale sera disponible après génération IA et vérification des sources.");
   const mediaCount=Number(pack.media_count||pack.media?.length||0);
   const markets=(pack.market_countries||[]).join(", ")||"Marchés non renseignés";
-  return '<article class="prepub-card"><div class="prepub-top"><span class="prepub-index">PRÉPUBLICATION 0'+(index+1)+'</span><span class="prepub-state '+(needsTranslation?"needs-translation":"needs-review")+'">'+status+'</span></div><h4>'+esc(title)+'</h4><p class="prepub-summary">'+(needsTranslation?"Le texte doit être traduit et vérifié avant toute utilisation.":"Le texte reste soumis à une relecture et à une vérification des faits.")+'</p><div class="prepub-meta"><span>'+esc(pack.score_indicatif||0)+'/100 · score indicatif</span><span>'+esc(mediaCount)+' média(s)</span><span>'+esc(markets)+'</span></div>'+editorialDetails(pack)+socialCards(pack)+'</article>';
+  return '<article class="prepub-card"><div class="prepub-top"><span class="prepub-index">PRÉPUBLICATION 0'+(index+1)+'</span><span class="prepub-state '+(needsTranslation?"needs-translation":"needs-review")+'">'+status+'</span></div><h4>'+esc(title)+'</h4><p class="prepub-summary">'+esc(summary)+'</p><div class="prepub-meta"><span>'+esc(pack.score_indicatif||0)+'/100 · score indicatif</span><span>'+esc(mediaCount)+' média(s)</span><span>'+esc(markets)+'</span></div>'+editorialDetails(pack)+socialCards(pack)+'</article>';
  }).join("");
  const prepublicationSection='<section class="prepub-section"><div class="radar-result-head"><h3>Prépublications du jour</h3><span class="muted">'+queueItems.length+' / 3 sélectionnée(s)</span></div><p class="prepub-note">Sélection éditoriale à préparer. Les badges signalent les traductions et contrôles encore nécessaires ; aucun contenu n’est publié automatiquement.</p><div class="prepub-grid">'+(prepublicationHtml||'<div class="empty">Aucune prépublication ne satisfait actuellement les critères de sélection. Le Radar ne complète pas artificiellement la liste.</div>')+'</div></section>';
  const articleHtml=articles.map(a=>{
@@ -672,7 +673,7 @@ function renderRadar(){
  $("#radar-result").querySelectorAll("[data-preview-select]").forEach(select=>{
   select.addEventListener("change",()=>{
    const pack=(radarState.queue?.items||[]).find(q=>q.trend_id===select.dataset.previewSelect);
-   const target=$("#radar-result").querySelector('[data-preview-content="'+CSS.escape(select.dataset.previewSelect)+'"]');
+   const target=Array.from($("#radar-result").querySelectorAll("[data-preview-content]")).find(node=>node.dataset.previewContent===select.dataset.previewSelect);
    if(target&&pack)target.innerHTML=renderNetworkPreview(pack,select.value);
   });
  });
