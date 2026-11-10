@@ -7,14 +7,14 @@ from scripts.radar_logic import detect_text_language
 class EditorialGenerationTests(unittest.TestCase):
     def setUp(self):
         self.posts = {
-            "facebook": "Cette actualité apporte une nouvelle information importante pour les lecteurs de manga et mérite que l’on prenne un instant pour comprendre ce qui a réellement été annoncé aujourd’hui. Nous faisons le point sans ajouter de détails absents des sources, afin que chacun puisse se faire un avis éclairé.",
-            "instagram": "Une nouvelle à découvrir pour les amateurs de manga et d’animation. Voici les informations connues à ce stade, sans ajouter de détails qui ne sont pas encore confirmés. On vous résume l’essentiel pour suivre cette actualité.",
-            "tiktok": "Vous avez vu passer cette annonce ? Voici ce que l’on sait réellement pour le moment, et les détails qu’il faudra encore vérifier avant de tirer des conclusions.",
+            "facebook": "Cette actualité apporte une nouvelle information importante pour les lecteurs de manga et mérite que l’on prenne un instant pour comprendre ce qui a réellement été annoncé aujourd’hui. Nous faisons le point sans ajouter de détails absents des sources, afin que chacun puisse se faire un avis éclairé. Notre rédaction distingue les annonces confirmées des éléments encore rapportés, pour donner aux lecteurs un aperçu utile et fidèle des informations disponibles.",
+            "instagram": "Une nouvelle à découvrir pour les amateurs de manga et d’animation. Voici les informations connues à ce stade, sans ajouter de détails qui ne sont pas encore confirmés. On vous résume l’essentiel pour suivre cette actualité. Prenez le temps de découvrir les éléments annoncés et de partager votre point de vue avec la communauté.",
+            "tiktok": "Vous avez vu passer cette annonce ? Voici ce que l’on sait réellement pour le moment, et les détails qu’il faudra encore vérifier avant de tirer des conclusions. On garde les faits, on écarte les suppositions et on attend les précisions fiables pour la suite.",
             "x": "Une nouvelle information à suivre pour les fans de manga et d’anime : voici ce qui est annoncé à ce stade, sans extrapoler sur la suite.",
-            "threads": "Cette annonce mérite qu’on s’y arrête un instant. Les informations disponibles donnent déjà une première idée de ce qui se prépare, mais certains détails restent à confirmer. Quel aspect vous intéresse le plus ?",
-            "youtube": {"title": "Une nouvelle actualité manga à suivre", "description": "Dans cette vidéo, nous revenons sur les informations actuellement disponibles autour de cette annonce, en distinguant les faits confirmés des éléments qui demandent encore une vérification."},
-            "telegram": "Une nouvelle actualité manga vient d’être repérée. Voici les premiers éléments disponibles et les points qui restent à confirmer avant de considérer l’annonce comme entièrement établie. Nous mettrons les informations à jour lorsque des précisions fiables seront disponibles.",
-            "pinterest": {"title": "Actualité manga : les informations à retenir", "description": "Retrouvez les principaux éléments de cette actualité manga dans un résumé clair et facile à consulter. Les informations encore incertaines sont signalées afin de ne pas confondre rumeur et annonce confirmée."},
+            "threads": "Cette annonce mérite qu’on s’y arrête un instant. Les informations disponibles donnent déjà une première idée de ce qui se prépare, mais certains détails restent à confirmer. Quel aspect vous intéresse le plus ? On préfère prendre le temps de distinguer les faits des interprétations avant de tirer des conclusions.",
+            "youtube": {"title": "Actualité manga : les informations essentielles à retenir", "description": "Dans cette vidéo, nous revenons sur les informations actuellement disponibles autour de cette annonce, en distinguant les faits confirmés des éléments qui demandent encore une vérification. Nous présentons les éléments utiles avec prudence, sans ajouter de détails absents des sources consultées, afin de proposer un point clair aux amateurs de manga et d’animation."},
+            "telegram": "Une nouvelle actualité manga vient d’être repérée. Voici les premiers éléments disponibles et les points qui restent à confirmer avant de considérer l’annonce comme entièrement établie. Nous mettrons les informations à jour lorsque des précisions fiables seront disponibles. Notre priorité reste de transmettre une information claire, utile et fidèle aux sources.",
+            "pinterest": {"title": "Actualité manga : les informations essentielles à retenir", "description": "Retrouvez les principaux éléments de cette actualité manga dans un résumé clair et facile à consulter. Les informations encore incertaines sont signalées afin de ne pas confondre rumeur et annonce confirmée. Cette présentation aide à retrouver les faits utiles et à suivre les prochaines précisions sans amplifier les éléments qui restent à vérifier."},
         }
 
     def test_requires_all_eight_platform_variants(self):
@@ -37,6 +37,17 @@ class EditorialGenerationTests(unittest.TestCase):
         oversized = dict(self.posts)
         oversized["x"] = "Information manga " * 30
         self.assertFalse(valid_posts(oversized))
+
+    def test_enforces_editorial_word_and_character_targets(self):
+        too_short = dict(self.posts)
+        too_short["facebook"] = " ".join(["actualité"] * 69)
+        self.assertFalse(valid_posts(too_short))
+        too_long_x = dict(self.posts)
+        too_long_x["x"] = "x" * 261
+        self.assertFalse(valid_posts(too_long_x))
+        short_video_title = dict(self.posts)
+        short_video_title["youtube"] = {**self.posts["youtube"], "title": "Titre trop court"}
+        self.assertFalse(valid_posts(short_video_title))
 
     def test_requires_a_french_cross_source_synthesis(self):
         synthesis = {
