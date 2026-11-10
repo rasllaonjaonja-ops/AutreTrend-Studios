@@ -251,6 +251,99 @@ main.main{margin-block:0; margin-inline:auto; align-self:start}
   main.main{padding-top:8px}
 }
 
+
+/* AUTOTREND STUDIOS — DESIGN PROFESSIONNEL V2
+   Couche de présentation uniquement : aucune logique ni donnée modifiée. */
+:root{
+  --at-navy:#101d3b;
+  --at-navy-deep:#0b1630;
+  --at-blue:#2367ed;
+  --at-blue-soft:#eaf0ff;
+  --at-gold:#f5c84c;
+  --at-ink:#172441;
+  --at-muted:#64748d;
+  --at-border:#dce5f1;
+  --at-surface:#ffffff;
+  --at-shadow:0 12px 30px rgba(19,43,83,.075);
+}
+html{scroll-padding-top:18px}
+body{background:linear-gradient(180deg,#f7f9fe 0%,#edf2fb 58%,#f8faff 100%)}
+.layout{align-items:start}
+main.main{align-self:start;margin-block:0;min-width:0}
+.side{background:linear-gradient(180deg,var(--at-navy) 0%,var(--at-navy-deep) 100%);border-right:1px solid #24375d}
+.top{min-height:70px;gap:12px;border:1px solid var(--at-border);box-shadow:0 7px 22px rgba(19,43,83,.055)}
+.top h1{font-weight:800;letter-spacing:-.045em}
+.top .eyebrow{font-size:9px;letter-spacing:1.8px}
+.studio-banner{position:relative;isolation:isolate;box-shadow:0 14px 34px rgba(13,32,69,.17)}
+.studio-banner:before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,rgba(8,19,46,.30),rgba(8,19,46,.02) 70%)}
+.studio-banner img{position:relative;z-index:-1}
+.visual-card{border-color:#dce5f1;box-shadow:var(--at-shadow)}
+.visual-card:hover{transform:translateY(-3px);box-shadow:0 18px 38px rgba(19,43,83,.13)}
+.visual-art img{filter:saturate(1.08) contrast(1.04)}
+.visual-copy h3{color:var(--at-ink);font-weight:800;letter-spacing:-.025em}
+.visual-copy p{color:var(--at-muted);line-height:1.55}
+.visual-copy button{background:var(--at-blue-soft);color:#1e56c5;border:1px solid #dce6ff}
+.visual-copy button:hover{background:#dfe9ff;transform:translateY(-1px)}
+.hero{border-color:#294d83;box-shadow:0 18px 42px rgba(15,35,76,.18)}
+.hero h2{font-weight:850;letter-spacing:-.055em}
+.hero p{font-size:13px;line-height:1.75}
+.hero .btn{background:linear-gradient(100deg,#2a6df0,#1b56cf);border:1px solid #7da6ff;color:#fff;box-shadow:0 8px 20px rgba(13,70,185,.28)}
+.stats{align-items:stretch}
+.stat{border:1px solid var(--at-border);border-radius:15px;box-shadow:0 7px 22px rgba(19,43,83,.055)}
+.stat:before{width:3px;background:linear-gradient(180deg,var(--at-blue),var(--at-gold))}
+.stat strong{color:var(--at-ink);font-weight:850}
+.sectionhead{align-items:end}
+.sectionhead h2{font-weight:800;letter-spacing:-.035em}
+.feature{border:1px solid var(--at-border);box-shadow:0 7px 22px rgba(19,43,83,.05)}
+.feature .symbol{color:var(--at-blue);background:#edf3ff;border:1px solid #e0e9ff}
+.panel{border-color:var(--at-border);box-shadow:var(--at-shadow)}
+.field input,.field textarea,.field select,.chatinput{border-color:#d5dfed;box-shadow:inset 0 1px 2px rgba(18,38,75,.025)}
+.field input:focus,.field textarea:focus,.field select:focus,.chatinput:focus{border-color:#6e94ef;box-shadow:0 0 0 3px rgba(35,103,237,.13)}
+.btn{font-weight:800}
+.item{border-color:#e0e7f1;background:#f9fbff}
+.empty{background:#fbfcff}
+@media(min-width:901px){
+  .side{position:sticky;top:0;height:100svh;min-height:100vh}
+  .main{padding-top:20px}
+}
+@media(max-width:900px){
+  .layout{grid-template-columns:minmax(0,1fr);align-items:start}
+  .side{position:sticky;top:0;height:auto;min-height:0;display:block;white-space:nowrap;overflow-x:auto;overflow-y:hidden;padding:9px 12px;scrollbar-width:none}
+  .side::-webkit-scrollbar{display:none}
+  .brand{width:max-content;max-width:100%;margin:0 0 7px 2px}
+  .side .nav{display:inline-flex;vertical-align:middle;flex:0 0 auto;margin:2px 3px 2px 0;padding:8px 10px}
+  .main{padding-top:10px}
+  .top{margin-top:0}
+  .visual-strip{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .side{padding:8px 10px}
+  .brand{margin-bottom:6px}
+  .brand-logo{width:36px;height:36px}
+  .side .nav{font-size:10px;padding:7px 9px;gap:6px}
+  .main{padding:8px 10px 24px}
+  .top{min-height:60px;padding:9px 11px;margin-bottom:10px;border-radius:12px}
+  .top h1{font-size:18px}
+  .studio-banner{height:104px;margin-bottom:11px;border-radius:13px}
+  .visual-strip{gap:9px;margin-bottom:13px}
+  .visual-card{grid-template-columns:31% minmax(0,1fr);min-height:132px}
+  .visual-art{min-height:132px}
+  .visual-copy{padding:10px}
+  .visual-copy h3{font-size:13px}
+  .visual-copy p{font-size:10px}
+  .hero{min-height:225px;padding:20px 16px;border-radius:14px}
+  .hero h2{font-size:32px}
+  .hero p{font-size:11px}
+  .stats{gap:8px;margin:12px 0 22px}
+  .stat{min-height:98px;padding:11px}
+  .stat strong{font-size:23px}
+  .sectionhead{margin:20px 0 10px}
+}
+@media(prefers-reduced-motion:reduce){
+  .visual-card,.visual-copy button,.hero .btn{transition:none}
+  .visual-card:hover,.hero .btn:hover{transform:none}
+}
+
 </style></head><body><div class="layout"><aside class="side"><div class="brand"><img class="brand-logo" src="assets/logo-manga-anime-actualites.png" alt="AutreTrend Studios"><span><b>AutreTrend</b><small>STUDIOS</small></span></div><div class="group">ESPACE ÉDITORIAL</div><button class="nav active" data-view="home"><span class="ico">▦</span><span class="label">Vue d'ensemble</span></button><button class="nav" data-view="radar"><span class="ico">⌕</span><span class="label">Radar de tendances</span></button><button class="nav" data-view="library"><span class="ico">▤</span><span class="label">Bibliothèque</span></button><button class="nav" data-view="studio"><span class="ico">✎</span><span class="label">Atelier éditorial</span></button><button class="nav" data-view="review"><span class="ico">✓</span><span class="label">Validation</span></button><div class="group">INTELLIGENCE</div><button class="nav" data-view="assistant"><span class="ico">✧</span><span class="label">Assistant IA personnel</span></button><button class="nav" data-view="settings"><span class="ico">⚙</span><span class="label">Réglages</span></button><div class="sidefoot"><span class="dot"></span>Mode sécurisé<br><b>Publication manuelle uniquement</b></div></aside><main class="main"><header class="top"><div><div class="eyebrow">THE NEXT GENERATION OF AI CONTENT</div><h1 id="page-title">Vue d'ensemble</h1></div><div class="topright"><span class="pill">● SYSTÈME · MODE TEST</span><div class="avatar">AT</div></div></header>
 <div class="studio-banner"><img src="assets/hero-generated.jpg" alt="Illustration manga de couverture AutreTrend Studios" loading="eager"></div>
 <section class="visual-strip" aria-label="Modules principaux">
