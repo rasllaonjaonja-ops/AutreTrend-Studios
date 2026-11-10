@@ -88,7 +88,27 @@ def main():
             "source_countries": item.get("source_countries", []),
             "market_countries": item.get("market_countries", []),
             "editorial_status": item.get("editorial_status", ""),
-            "official_evidence": item.get("official_evidence", [])[:5]
+            "official_evidence": item.get("official_evidence", [])[:5],
+            "source_reports": [
+                {
+                    "title": article.get("title", "")[:300],
+                    "summary": article.get("summary", "")[:900],
+                    "publisher": article.get("publisher") or article.get("source", ""),
+                    "source_type": article.get("source_type", ""),
+                    "source_country": article.get("source_country", ""),
+                    "market_country": article.get("market_country", ""),
+                    "published_at": article.get("published_at", ""),
+                    "url": article.get("url", "")
+                }
+                for article in item.get("articles", [])[:10]
+            ],
+            "coverage": {
+                "media_count": item.get("media_count", len(item.get("media", []))),
+                "primary_source_count": item.get("primary_source_count", 0),
+                "verification_coverage": item.get("verification_coverage", {}),
+                "source_regions": item.get("source_regions", []),
+                "market_regions": item.get("market_regions", [])
+            }
         })
 
     request = urllib.request.Request(
@@ -150,6 +170,19 @@ def main():
         if any(detect_text_language(draft["posts"][key]["description"]) != "fr" for key in ("youtube", "pinterest")):
             continue
 
+        synthesis = draft.get("trend_synthesis", {})
+        if (not isinstance(synthesis, dict)
+                or not isinstance(synthesis.get("key_facts", []), list)
+                or not isinstance(synthesis.get("reported_but_unconfirmed", []), list)
+                or not isinstance(synthesis.get("coverage_summary", ""), str)
+                or not isinstance(synthesis.get("editorial_context", ""), str)):
+            continue
+        item["trend_synthesis"] = {
+            "key_facts": [str(x)[:400] for x in synthesis.get("key_facts", [])[:8]],
+            "reported_but_unconfirmed": [str(x)[:400] for x in synthesis.get("reported_but_unconfirmed", [])[:8]],
+            "coverage_summary": synthesis.get("coverage_summary", "").strip(),
+            "editorial_context": synthesis.get("editorial_context", "").strip()
+        }
         item["title_fr"] = title_fr
         item["summary_fr"] = summary_fr
         item["editorial_angle"] = str(draft.get("editorial_angle", "")).strip()
@@ -194,6 +227,9 @@ def main():
             + "Titre : " + title_fr + "\n\n"
             + summary_fr + "\n\n"
             + "Angle éditorial : " + item["editorial_angle"] + "\n"
+            + "Synthèse des tendances : " + item["trend_synthesis"]["coverage_summary"] + "\n"
+            + "Faits clés : " + "; ".join(item["trend_synthesis"]["key_facts"]) + "\n"
+            + "Éléments rapportés à confirmer : " + "; ".join(item["trend_synthesis"]["reported_but_unconfirmed"]) + "\n"
             + "Question : " + item["discussion_question"] + "\n\n"
             + "Points à vérifier : " + "; ".join(item["claims_to_verify"]) + "\n\n"
             + "Sources : " + ", ".join(item.get("media", [])) + "\n"
