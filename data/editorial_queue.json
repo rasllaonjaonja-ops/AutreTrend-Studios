@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-11-10T04:17:48.746367+00:00",
+  "generated_at": "2026-11-10T04:34:30.379597+00:00",
   "count": 30,
   "items": [
+    {
+      "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
+      "score_indicatif": 62,
+      "media_count": 2,
+      "media": [
+        "Anime News Network",
+        "Crunchyroll"
+      ],
+      "articles": [
+        {
+          "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        },
+        {
+          "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "en attente de source officielle",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network, Crunchyroll\nPublication interdite avant validation humaine."
+    },
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
@@ -14,6 +50,7 @@
       "articles": [
         {
           "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -22,6 +59,7 @@
         },
         {
           "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -47,6 +85,7 @@
       "articles": [
         {
           "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+          "title_language": "en",
           "url": "https://myanimelist.net/news/74923434?_location=rss",
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
@@ -63,7 +102,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
       "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
-      "score_indicatif": 54,
+      "score_indicatif": 53,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -72,6 +111,7 @@
       "articles": [
         {
           "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -80,6 +120,7 @@
         },
         {
           "title": "The Apothecary Diaries Season 3 ‒ Episode 54",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-54/.243626",
           "source": "Anime News Network – All Articles",
           "feed_sources": [
@@ -94,31 +135,6 @@
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network, Crunchyroll\nPublication interdite avant validation humaine."
     },
     {
-      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
-      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
-      "score_indicatif": 50,
-      "media_count": 1,
-      "media": [
-        "Anime News Network"
-      ],
-      "articles": [
-        {
-          "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "en attente de source officielle",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network\nPublication interdite avant validation humaine."
-    },
-    {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
       "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
       "score_indicatif": 50,
@@ -129,6 +145,7 @@
       "articles": [
         {
           "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -154,6 +171,7 @@
       "articles": [
         {
           "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
+          "title_language": "en",
           "url": "https://myanimelist.net/news/74917181?_location=rss",
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
@@ -162,6 +180,7 @@
         },
         {
           "title": "SPY x FAMILY Announces Two New Anime Projects: Season 4 and Second Movie Set for 2027",
+          "title_language": "en",
           "url": "https://us.oricon-group.com/news/9485/",
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
@@ -178,7 +197,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
       "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
-      "score_indicatif": 49,
+      "score_indicatif": 48,
       "media_count": 1,
       "media": [
         "Anime News Network"
@@ -186,6 +205,7 @@
       "articles": [
         {
           "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -201,40 +221,6 @@
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network\nPublication interdite avant validation humaine."
     },
     {
-      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-      "title": "My Hero Ultra Rumble Game Gets Mobile Version",
-      "score_indicatif": 47,
-      "media_count": 2,
-      "media": [
-        "Anime News Network",
-        "Crunchyroll"
-      ],
-      "articles": [
-        {
-          "title": "My Hero Ultra Rumble Game Gets Mobile Version",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        },
-        {
-          "title": "My Hero Ultra Rumble Mobile Version Teased in New Trailer",
-          "url": "https://crunchyroll.com/news/latest/2026/11/8/my-hero-ultra-rumble-mobile-version-teaser-trailer",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "en attente de source officielle",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : My Hero Ultra Rumble Game Gets Mobile Version\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network, Crunchyroll\nPublication interdite avant validation humaine."
-    },
-    {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
       "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
       "score_indicatif": 47,
@@ -246,6 +232,7 @@
       "articles": [
         {
           "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -254,6 +241,7 @@
         },
         {
           "title": "Harajuku Himegoto House Multimedia Project Announced",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-07/harajuku-himegoto-house-multimedia-project-announced/.243612",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -279,6 +267,7 @@
       "articles": [
         {
           "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -287,6 +276,7 @@
         },
         {
           "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -311,6 +301,7 @@
       "articles": [
         {
           "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -336,6 +327,7 @@
       "articles": [
         {
           "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
+          "title_language": "en",
           "url": "https://myanimelist.net/news/74922872?_location=rss",
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
@@ -350,6 +342,42 @@
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : 'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : MyAnimeList\nPublication interdite avant validation humaine."
     },
     {
+      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
+      "title": "My Hero Ultra Rumble Game Gets Mobile Version",
+      "score_indicatif": 46,
+      "media_count": 2,
+      "media": [
+        "Anime News Network",
+        "Crunchyroll"
+      ],
+      "articles": [
+        {
+          "title": "My Hero Ultra Rumble Game Gets Mobile Version",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        },
+        {
+          "title": "My Hero Ultra Rumble Mobile Version Teased in New Trailer",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/8/my-hero-ultra-rumble-mobile-version-teaser-trailer",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "en attente de source officielle",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : My Hero Ultra Rumble Game Gets Mobile Version\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network, Crunchyroll\nPublication interdite avant validation humaine."
+    },
+    {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
       "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
       "score_indicatif": 46,
@@ -360,6 +388,7 @@
       "articles": [
         {
           "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -374,30 +403,6 @@
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
     },
     {
-      "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-      "score_indicatif": 45,
-      "media_count": 1,
-      "media": [
-        "Crunchyroll"
-      ],
-      "articles": [
-        {
-          "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "en attente de source officielle",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
-    },
-    {
       "trend_id": "https://www.animenewsnetwork.com/interest/2026-11-09/u.s-navy-recruitment-video-reuses-blend-s-anime-opening/.243648",
       "title": "U.S. Navy Recruitment Video Reuses Blend S Anime's Opening",
       "score_indicatif": 44,
@@ -408,6 +413,7 @@
       "articles": [
         {
           "title": "U.S. Navy Recruitment Video Reuses Blend S Anime's Opening",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/interest/2026-11-09/u.s-navy-recruitment-video-reuses-blend-s-anime-opening/.243648",
           "source": "Anime News Network – All Articles",
           "feed_sources": [
@@ -432,6 +438,7 @@
       "articles": [
         {
           "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -447,6 +454,31 @@
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network\nPublication interdite avant validation humaine."
     },
     {
+      "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
+      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+      "score_indicatif": 44,
+      "media_count": 1,
+      "media": [
+        "Crunchyroll"
+      ],
+      "articles": [
+        {
+          "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "en attente de source officielle",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
+    },
+    {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
       "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
       "score_indicatif": 44,
@@ -457,6 +489,7 @@
       "articles": [
         {
           "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -482,6 +515,7 @@
       "articles": [
         {
           "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -506,6 +540,7 @@
       "articles": [
         {
           "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -531,6 +566,7 @@
       "articles": [
         {
           "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -556,6 +592,7 @@
       "articles": [
         {
           "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -580,6 +617,7 @@
       "articles": [
         {
           "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -594,38 +632,6 @@
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
     },
     {
-      "trend_id": "https://shonenjumpplus.com/episode/13932016480028742287",
-      "title": "[第634話]ONE PIECE",
-      "score_indicatif": 42,
-      "media_count": 1,
-      "media": [
-        "Shueisha / Shonen Jump+"
-      ],
-      "articles": [
-        {
-          "title": "[第634話]ONE PIECE",
-          "url": "https://shonenjumpplus.com/episode/13932016480028742287",
-          "source": "Shonen Jump+ – Atom",
-          "feed_sources": [
-            "Shonen Jump+ – Atom"
-          ]
-        },
-        {
-          "title": "[75話 前編]ONE PIECE学園",
-          "url": "https://shonenjumpplus.com/episode/9253191257689746043",
-          "source": "Shonen Jump+ – Atom",
-          "feed_sources": [
-            "Shonen Jump+ – Atom"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "en attente de source officielle",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : [第634話]ONE PIECE\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Shueisha / Shonen Jump+\nPublication interdite avant validation humaine."
-    },
-    {
       "trend_id": "https://myanimelist.net/news/74917765?_location=rss",
       "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
       "score_indicatif": 42,
@@ -636,6 +642,7 @@
       "articles": [
         {
           "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
+          "title_language": "en",
           "url": "https://myanimelist.net/news/74917765?_location=rss",
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
@@ -644,6 +651,7 @@
         },
         {
           "title": "'Minami-ke Korekara' Reveals New Staff, Teaser Promo, Spring 2027 Premiere",
+          "title_language": "en",
           "url": "https://myanimelist.net/news/74916427?_location=rss",
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
@@ -652,6 +660,7 @@
         },
         {
           "title": "'Namidaame to Serenade' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
+          "title_language": "en",
           "url": "https://myanimelist.net/news/74910185?_location=rss",
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
@@ -676,6 +685,7 @@
       "articles": [
         {
           "title": "Black Clover Season 2 ‒ Episode 176",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/review/black-clover-season-2/episode-176/.243618",
           "source": "Anime News Network – All Articles",
           "feed_sources": [
@@ -700,6 +710,7 @@
       "articles": [
         {
           "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -725,6 +736,7 @@
       "articles": [
         {
           "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
           "source": "Anime News Network – All Articles",
           "feed_sources": [
@@ -739,30 +751,6 @@
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Grow Up Show -Sunflower Circus- Anime Series Review\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network\nPublication interdite avant validation humaine."
     },
     {
-      "trend_id": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
-      "title": "My Crush's Crush Anime Premieres in April 2027",
-      "score_indicatif": 41,
-      "media_count": 1,
-      "media": [
-        "Crunchyroll"
-      ],
-      "articles": [
-        {
-          "title": "My Crush's Crush Anime Premieres in April 2027",
-          "url": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "en attente de source officielle",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : My Crush's Crush Anime Premieres in April 2027\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
-    },
-    {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
       "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
       "score_indicatif": 40,
@@ -773,6 +761,7 @@
       "articles": [
         {
           "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
+          "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
@@ -797,6 +786,7 @@
       "articles": [
         {
           "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
+          "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
           "source": "Anime News Network – News",
           "feed_sources": [
@@ -810,6 +800,56 @@
       "human_review_required": true,
       "publication_allowed": false,
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network\nPublication interdite avant validation humaine."
+    },
+    {
+      "trend_id": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
+      "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+      "score_indicatif": 40,
+      "media_count": 1,
+      "media": [
+        "Crunchyroll"
+      ],
+      "articles": [
+        {
+          "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "en attente de source officielle",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
+    },
+    {
+      "trend_id": "https://crunchyroll.com/news/latest/2026/11/9/fate-rewinder-anime-character-visuals",
+      "title": "Fate Rewinder Anime Reveals Four New Character Visuals",
+      "score_indicatif": 40,
+      "media_count": 1,
+      "media": [
+        "Crunchyroll"
+      ],
+      "articles": [
+        {
+          "title": "Fate Rewinder Anime Reveals Four New Character Visuals",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/9/fate-rewinder-anime-character-visuals",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "en attente de source officielle",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Fate Rewinder Anime Reveals Four New Character Visuals\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
     }
   ],
   "notice": "Briefs de travail uniquement. Aucun contenu n'est prêt à publier sans validation humaine."
