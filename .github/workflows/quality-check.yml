@@ -8,6 +8,7 @@ on:
       - "app.js"
       - "styles.css"
       - "scripts/**"
+      - "tests/**"
       - "data/**"
       - "sources.json"
       - ".github/workflows/**"
