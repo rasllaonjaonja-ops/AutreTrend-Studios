@@ -231,6 +231,7 @@ def main():
         low_title = title.lower()
         trend_articles = trend.get("articles", [])
         evidence, summary_candidates, article_urls, checked_urls = [], [], [], []
+        source_reports = []
         for article in trend_articles:
             url = article.get("url", "")
             article_urls.append(url)
@@ -239,6 +240,15 @@ def main():
                 checked_urls.append(url)
                 evidence.extend(check["official_evidence"])
             original = radar_items.get(url, {})
+            source_reports.append({
+                **article,
+                "summary": str(original.get("summary", "")).strip()[:1200],
+                "publisher": original.get("publisher") or original.get("source") or article.get("source", ""),
+                "published_at": original.get("published_at", ""),
+                "language": original.get("language", article.get("title_language", "und")),
+                "summary_status": original.get("summary_status", "missing"),
+                "date_status": original.get("date_status", "unknown")
+            })
             snippet = original.get("summary", "").strip()
             if snippet and all(existing[0] != snippet for existing in summary_candidates):
                 summary_candidates.append((
@@ -328,7 +338,7 @@ def main():
             "primary_source_count": primary_source_count,
             "source_excerpt_url": primary_url,
             "source_excerpt_checked": summary_page_checked,
-            "articles": trend_articles,
+            "articles": source_reports,
             "official_evidence": evidence,
             "verification_coverage": {
                 "checked_articles": verification_coverage,
