@@ -33,6 +33,58 @@ jobs:
         run: python scripts/collect_rss.py
       - name: Vérifier les liens de sources officielles
         run: python scripts/verify_sources.py
+      - name: Précontrôle sécurisé de l’API IA (sans génération)
+        env:
+          AUTOTREND_AI_URL: ${{ secrets.AUTOTREND_AI_URL }}
+          AUTOTREND_AI_TOKEN: ${{ secrets.AUTOTREND_AI_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.request
+
+          url = os.environ.get("AUTOTREND_AI_URL", "").strip()
+          token = os.environ.get("AUTOTREND_AI_TOKEN", "").strip()
+          if not url or not token:
+              raise SystemExit("Précontrôle IA impossible : secret AUTOTREND_AI_URL ou AUTOTREND_AI_TOKEN absent côté GitHub.")
+          if not url.startswith("https://"):
+              raise SystemExit("Précontrôle IA refusé : AUTOTREND_AI_URL doit utiliser HTTPS.")
+
+          request = urllib.request.Request(
+              url,
+              data=b"{}",
+              headers={
+                  "Content-Type": "application/json",
+                  "Authorization": "Bearer " + token,
+                  "User-Agent": "AutreTrendStudios/1.0",
+              },
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  status = response.status
+                  body = response.read().decode("utf-8", "replace")
+          except urllib.error.HTTPError as error:
+              status = error.code
+              body = error.read().decode("utf-8", "replace")
+          except Exception as error:
+              raise SystemExit("Précontrôle IA : impossible de joindre l’API (" + type(error).__name__ + ").")
+
+          try:
+              result = json.loads(body)
+          except Exception:
+              result = {}
+
+          if status == 400 and result.get("error") == "One to three valid editorial items are required":
+              print("Précontrôle IA OK : URL, jeton et configuration Preview reconnus. Aucune génération IA lancée.")
+          elif status == 401:
+              raise SystemExit("Précontrôle IA refusé : le jeton GitHub ne correspond pas au secret configuré dans Cloudflare Preview.")
+          elif status == 503:
+              raise SystemExit("Précontrôle IA bloqué : binding AI ou secret manquant dans Cloudflare Preview.")
+          else:
+              raise SystemExit("Précontrôle IA inattendu : HTTP " + str(status) + " — " + str(result)[:250])
+          PY
       - name: Préparer les textes sociaux avec l’IA (si configurée)
         run: python scripts/generate_editorial.py
         env:
