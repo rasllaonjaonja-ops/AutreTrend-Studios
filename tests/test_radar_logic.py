@@ -1,6 +1,7 @@
 """Tests de non-régression pour la logique du Radar."""
 import unittest
 
+from scripts.verify_sources import Links
 from scripts.radar_logic import (
     detect_text_language, event_parts, same_event, evidence_level, coverage_score,
 )
@@ -47,6 +48,11 @@ class RadarLogicTests(unittest.TestCase):
             "en",
         )
         self.assertEqual(detect_text_language("Spy x Family"), "und")
+
+    def test_official_link_labels_normalize_whitespace(self):
+        parser = Links()
+        parser.feed('<a href="https://example.com/official">  Official   announcement\\n details </a>')
+        self.assertEqual(parser.links[0]["label"], "Official announcement details")
 
     def test_media_coverage_is_not_truth_confirmation(self):
         self.assertEqual(evidence_level(1), "single_publisher_signal")
