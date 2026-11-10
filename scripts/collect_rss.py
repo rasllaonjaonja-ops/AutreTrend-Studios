@@ -95,8 +95,22 @@ def publisher_name(source_name):
         return "ORICON / Japan Anime News"
     return source_name.strip()
 
+def detect_title_language(title):
+    """Détection légère de l'écriture du titre, sans prétendre le traduire."""
+    if re.search(r"[ぁ-んァ-ン一-龯々ー]", title or ""):
+        return "ja"
+    low = (title or "").lower()
+    if re.search(r"\\b(le|la|les|des|une|un|pour|avec|dans|est|sur)\\b", low) or re.search(r"[àâçéèêëîïôùûüÿœ]", low):
+        return "fr"
+    return "en"
+
 def title_tokens(title):
-    words = re.findall(r"[a-z0-9]{3,}", title.lower())
+    low = (title or "").lower()
+    words = set(re.findall(r"[a-z0-9]{3,}", low))
+    # Les titres japonais n'ont pas toujours d'espaces : les bigrammes
+    # permettent de comparer les séquences communes sans translittération hasardeuse.
+    for run in re.findall(r"[ぁ-んァ-ン一-龯々ー]{2,}", low):
+        words.update(run[i:i+2] for i in range(len(run)-1))
     return {w for w in words if w not in STOPWORDS}
 
 def similarity(a, b):
@@ -146,6 +160,7 @@ def build_trends(items, now):
         trends.append({
             "id": ordered[0]["id"],
             "title": ordered[0]["title"],
+            "title_language": detect_title_language(ordered[0]["title"]),
             "score": heat,
             "priority": priority,
             "score_breakdown": {
@@ -159,7 +174,7 @@ def build_trends(items, now):
             "sources": publishers,
             "published_at": ordered[0]["published_at"],
             "status": status,
-            "articles": [{"title": x["title"], "url": x["url"], "source": x["source"], "feed_sources": x.get("feed_sources", [x["source"]])} for x in ordered[:8]]
+            "articles": [{"title": x["title"], "title_language": x.get("title_language", detect_title_language(x["title"])), "url": x["url"], "source": x["source"], "feed_sources": x.get("feed_sources", [x["source"]])} for x in ordered[:8]]
         })
     return sorted(trends, key=lambda x: (x["score"], x["source_count"], x["published_at"]), reverse=True)
 
@@ -192,8 +207,8 @@ for source in enabled_sources:
             date = child_text(entry, {"pubdate", "published", "updated", "date"})
             if title and link.startswith(("https://", "http://")):
                 items.append({
-                    "id": link, "title": title, "url": link,
-                    "summary": summary[:500], "published_at": parse_date(date),
+                    "id": link, "title": title, "title_language": detect_title_language(title), "translation_status": "à traduire si japonais",
+                    "url": link, "summary": summary[:500], "published_at": parse_date(date),
                     "source": source["name"],
                     "publisher": publisher_name(source["name"]),
                     "category": source.get("category", "anime-manga"),
