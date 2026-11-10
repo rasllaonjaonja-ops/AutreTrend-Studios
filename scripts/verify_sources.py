@@ -297,8 +297,10 @@ def main():
             reasons.append("source unique sans lien officiel repéré")
         if not summary_candidates and score_value < 60:
             reasons.append("aucun résumé exploitable dans le flux RSS")
-        if verification_coverage == 0:
-            reasons.append("page source non contrôlée : aucun statut de lien officiel disponible")
+        # Une absence de contrôle dans l'échantillon global n'est pas un échec
+        # de vérification : elle signifie uniquement que la page reste à contrôler.
+        # Le sujet peut entrer dans la file de brouillons s'il satisfait les autres
+        # critères éditoriaux; la revue humaine et le blocage de publication restent actifs.
         if reasons:
             rejected.append({"title": title, "reasons": reasons})
             continue
@@ -327,7 +329,9 @@ def main():
             "fr" if title_language == "fr" and summary_language == "fr" else "und",
             sources, primary_url, has_official
         )
-        if has_official:
+        if verification_coverage == 0:
+            editorial_status = "contrôle de provenance en attente — revue humaine obligatoire"
+        elif has_official:
             editorial_status = "lien officiel repéré — détails à relire"
         elif primary_source_count > 0:
             editorial_status = "flux de première partie présent — contenu à vérifier"
@@ -354,8 +358,9 @@ def main():
             "verification_coverage": {
                 "checked_articles": verification_coverage,
                 "total_articles": len(article_urls),
-                "status": "checked" if verification_coverage else "not_checked"
+                "status": "checked" if verification_coverage else "pending"
             },
+            "verification_pending": verification_coverage == 0,
             "editorial_status": editorial_status,
             "human_review_required": True,
             "publication_allowed": False,
@@ -379,7 +384,7 @@ def main():
     payload = {
         "checked_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
         "checked_articles": len(checks),
-        "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
+        "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
         "official_link_found": sum(bool(x["official_evidence"]) for x in checks),
         "errors": errors,
         "checks": checks,
