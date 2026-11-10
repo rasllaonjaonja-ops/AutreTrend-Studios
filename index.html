@@ -594,7 +594,6 @@ function renderRadar(){
  }).slice(0,20);
  $("#radar-kpis").innerHTML='<div class="radar-kpi"><small>ARTICLES COLLECTÉS</small><b>'+esc(radar.item_count||allItems.length)+'</b></div><div class="radar-kpi"><small>SITES ÉDITORIAUX</small><b>'+esc(radar.site_count||20)+'</b></div><div class="radar-kpi"><small>MARCHÉS PAYS</small><b>'+esc(radar.market_country_count||7)+'</b></div><div class="radar-kpi"><small>SUJETS REGROUPÉS</small><b>'+esc(radar.trend_count||trends.length)+'</b></div><div class="radar-kpi"><small>PRÉPUBLICATIONS</small><b>'+esc(queue?.count||0)+' / 3</b></div><div class="radar-kpi"><small>LIENS OFFICIELS REPÉRÉS</small><b>'+esc(verification?.official_link_found||0)+'</b></div>';
  const socialLabels={facebook:"Facebook",instagram:"Instagram",tiktok:"TikTok",x:"X",threads:"Threads",youtube:"YouTube",telegram:"Telegram",pinterest:"Pinterest"};
- const socialLabels={facebook:"Facebook",instagram:"Instagram",tiktok:"TikTok",x:"X",threads:"Threads",youtube:"YouTube",telegram:"Telegram",pinterest:"Pinterest"};
  const renderNetworkPreview=(pack,platform)=>{
   const posts=pack?.social_posts||{};
   const value=posts[platform];
