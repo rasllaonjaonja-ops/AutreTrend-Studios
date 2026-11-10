@@ -46,3 +46,18 @@ Le workflow « AutreTrend Quality Check » vérifie les fichiers JSON, les scrip
 
 Les contenus sont des brouillons. Vérifier chaque date, nom, studio, casting, annonce, territoire et lien primaire avant publication. La validation et la publication restent manuelles via les outils sociaux de l'utilisateur.
 
+
+## Rédaction IA sécurisée — activation facultative
+
+Le Radar prépare trois sujets maximum et huit formats sociaux par sujet. Une fonction Cloudflare Pages facultative peut rédiger et traduire les textes avec Workers AI, sans droit de publication. Le modèle configuré est `@cf/zai-org/glm-4.7-flash`.
+
+Pour activer cette fonction :
+
+1. Dans Cloudflare Pages > AutreTrend Studios > Settings > Functions > Bindings, ajouter un binding **Workers AI** nommé `AI`.
+2. Dans Cloudflare Pages > Settings > Variables and Secrets, créer le secret `AUTOTREND_AI_TOKEN`.
+3. Dans GitHub > Settings > Secrets and variables > Actions, créer `AUTOTREND_AI_URL` avec l'URL HTTPS de la fonction `/api/editorial`, puis `AUTOTREND_AI_TOKEN` avec exactement le même secret.
+4. Relancer le workflow Radar. Si les secrets ou le binding manquent, le pipeline conserve ses brouillons de secours et n'interrompt pas la collecte.
+
+Workers AI dispose d'une allocation gratuite de 10 000 Neurons par jour sur le plan Workers Free. Au-delà, le plan gratuit refuse les requêtes supplémentaires; aucun dépassement payant n'est activé automatiquement. Vérifier le compteur d'utilisation Cloudflare avant toute évolution de volume.
+
+L'IA ne publie rien. Chaque texte généré reste marqué comme brouillon, avec relecture humaine obligatoire. Les informations, traductions, dates et noms propres doivent être vérifiés avant publication.
