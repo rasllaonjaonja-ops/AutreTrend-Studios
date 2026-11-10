@@ -260,7 +260,7 @@ payload = {
     "sources": [s["name"] for s in enabled_sources],
     "source_stats": source_stats,
     "item_count": len(result),
-    "items": result[:100],
+    "items": result[:200],
     "trend_count": len(trends),
     "trends": trends,
     "errors": errors,
