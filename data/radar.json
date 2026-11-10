@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:09:50.683261+00:00",
+  "updated_at": "2026-11-10T04:13:27.996540+00:00",
   "source_count": 6,
   "sources": [
     "Anime News Network – News",
@@ -9,7 +9,7 @@
     "MyAnimeList News – RSS",
     "Japan Anime News – ORICON RSS"
   ],
-  "item_count": 193,
+  "item_count": 192,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -22,7 +22,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 41,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74913297",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74923434?_location=rss",
@@ -35,7 +39,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 38,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74923434",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
@@ -48,7 +56,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 38,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74906596?_location=rss",
@@ -61,7 +73,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 35,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74906596",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74917765?_location=rss",
@@ -74,7 +90,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 33,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74917765",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74910185?_location=rss",
@@ -87,7 +107,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 33,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74910185",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74909101?_location=rss",
@@ -100,7 +124,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 33,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74909101",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74917181?_location=rss",
@@ -113,7 +141,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 32,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74917181",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9469/",
@@ -126,7 +158,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 30,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9469",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
@@ -139,7 +175,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 28,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/rainy-day-serenade-anime-premieres-in-april-2027",
@@ -152,7 +192,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 28,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/rainy-day-serenade-anime-premieres-in-april-2027",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9484/",
@@ -165,7 +209,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 28,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9484",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74909626?_location=rss",
@@ -178,7 +226,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 28,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74909626",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74909290?_location=rss",
@@ -191,7 +243,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 28,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74909290",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/33-sai-dokushin-onna-kishi-taicho-anime-adaptation-announced",
@@ -204,7 +260,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 28,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/33-sai-dokushin-onna-kishi-taicho-anime-adaptation-announced",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9471/",
@@ -217,7 +277,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 28,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9471",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/one-punch-man-season-3-part-2-anime-visuals-ending-theme-performer",
@@ -230,7 +294,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 27,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/one-punch-man-season-3-part-2-anime-visuals-ending-theme-performer",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/paradox-live-the-movie-anime-film-2027-super-teaser-visual",
@@ -243,7 +311,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 27,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/paradox-live-the-movie-anime-film-2027-super-teaser-visual",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9474/",
@@ -256,7 +328,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 27,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9474",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
@@ -269,7 +345,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 26,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
@@ -282,7 +362,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 25,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74913326?_location=rss",
@@ -295,7 +379,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 25,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74913326",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74912747?_location=rss",
@@ -308,7 +396,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 25,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74912747",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74910044?_location=rss",
@@ -321,7 +413,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 25,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74910044",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9482/",
@@ -334,7 +430,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 25,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9482",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74904410?_location=rss",
@@ -347,7 +447,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 24,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74904410",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
@@ -360,7 +464,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 23,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
@@ -373,7 +482,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 23,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
@@ -386,7 +499,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 23,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/rascal-does-not-dream-of-a-dear-friend-anime-film-clip-kaede",
@@ -399,7 +516,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 23,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/rascal-does-not-dream-of-a-dear-friend-anime-film-clip-kaede",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-06/north-american-anime-manga-releases-november-1-7/.243459",
@@ -412,7 +533,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 23,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-06/north-american-anime-manga-releases-november-1-7/.243459",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
@@ -425,7 +550,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 22,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9487/",
@@ -438,7 +568,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 22,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9487",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/8/minami-ke-korekara-anime-april-2027-release-date-teaser-trailer-visual",
@@ -451,7 +585,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 22,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/8/minami-ke-korekara-anime-april-2027-release-date-teaser-trailer-visual",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74916427?_location=rss",
@@ -464,7 +602,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 22,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74916427",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/laid-back-camp-season-4-anime-trailer-key-visual-april-2027-premiere",
@@ -477,7 +619,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 22,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/laid-back-camp-season-4-anime-trailer-key-visual-april-2027-premiere",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9468/",
@@ -490,7 +636,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 22,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9468",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9470/",
@@ -503,7 +653,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 22,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9470",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
@@ -516,7 +670,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 21,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74913365?_location=rss",
@@ -529,7 +687,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 21,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74913365",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/8/bride-of-the-barrier-master-anime-shares-new-character-trailers",
@@ -542,7 +704,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 20,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/8/bride-of-the-barrier-master-anime-shares-new-character-trailers",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/bless-anime-january-8-2027-premiere-date-trailer-key-visual-ending-theme-song",
@@ -555,7 +721,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 20,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/bless-anime-january-8-2027-premiere-date-trailer-key-visual-ending-theme-song",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/expelled-from-paradise-resonance-of-the-heart-anime-film-and-girls-band-cry-the-movie-collab-video-visuals",
@@ -568,7 +738,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 20,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/expelled-from-paradise-resonance-of-the-heart-anime-film-and-girls-band-cry-the-movie-collab-video-visuals",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9456/",
@@ -581,7 +755,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 20,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9456",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74922872?_location=rss",
@@ -594,7 +772,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 19,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74922872",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her-season-2-anime-announced",
@@ -607,7 +789,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 19,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her-season-2-anime-announced",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
@@ -620,7 +806,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 18,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
@@ -633,7 +824,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 18,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9485/",
@@ -646,7 +842,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 18,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9485",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74910161?_location=rss",
@@ -659,7 +859,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 18,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74910161",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74906712?_location=rss",
@@ -672,7 +876,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 18,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74906712",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74906532?_location=rss",
@@ -685,7 +893,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 18,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74906532",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9465/",
@@ -698,7 +910,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 18,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9465",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
@@ -711,7 +927,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 16,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/ingoku-danchi-deviant-apartment-complex-anime-english-dub-streams-on-november-11/.243606",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/new-minami-ke-korekara-tv-anime-teaser-unveils-cast-staff-april-debut/.243619",
@@ -724,7 +945,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 16,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/new-minami-ke-korekara-tv-anime-teaser-unveils-cast-staff-april-debut/.243619",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
@@ -737,7 +962,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 15,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
@@ -750,7 +980,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 15,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/gacha-girls-corps-anime-january-7-2027-premiere-date-main-visual-additional-cast",
@@ -763,7 +997,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 15,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/gacha-girls-corps-anime-january-7-2027-premiere-date-main-visual-additional-cast",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
@@ -776,7 +1014,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 14,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/please-excuse-my-younger-brothers-cour-2-anime-ending-song-music-video-meminor",
@@ -789,7 +1031,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 14,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/please-excuse-my-younger-brothers-cour-2-anime-ending-song-music-video-meminor",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9476/",
@@ -802,7 +1048,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 14,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9476",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9486/",
@@ -815,7 +1065,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 13,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9486",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
@@ -828,7 +1082,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 13,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/my-crush-crush-anime-teaser-unveils-cast-staff-april-debut/.243627",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-07/harajuku-himegoto-house-multimedia-project-announced/.243612",
@@ -841,7 +1099,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 13,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/harajuku-himegoto-house-multimedia-project-announced/.243612",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-07/everyone-darling-has-a-secret-anime-new-teaser-unveils-more-cast-ending-song/.243603",
@@ -854,7 +1116,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 13,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/everyone-darling-has-a-secret-anime-new-teaser-unveils-more-cast-ending-song/.243603",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/wound-bandage-anime-trailer-reveals-miyavi-opening-theme-song-more-cast",
@@ -867,7 +1133,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 13,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/wound-bandage-anime-trailer-reveals-miyavi-opening-theme-song-more-cast",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://myanimelist.net/news/74906589?_location=rss",
@@ -880,7 +1150,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 13,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://myanimelist.net/news/74906589",
+      "feed_sources": [
+        "MyAnimeList News – RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9457/",
@@ -893,7 +1167,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 13,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9457",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/interview/2026-11-09/megatera-zero-and-vk-blanka-bring-fresh-beats-to-dragon-ball-super-beerus-anime/.243291",
@@ -906,7 +1184,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 12,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/interview/2026-11-09/megatera-zero-and-vk-blanka-bring-fresh-beats-to-dragon-ball-super-beerus-anime/.243291",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/one-piece-elbaph-arc-anime-opening-song-collab-music-video-aina-the-end",
@@ -919,7 +1201,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 12,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/9/one-piece-elbaph-arc-anime-opening-song-collab-music-video-aina-the-end",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-07/there-was-a-cute-girl-in-the-hero-party-so-i-tried-confessing-to-her-anime-gets-2nd-season/.243604",
@@ -932,7 +1218,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 12,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/there-was-a-cute-girl-in-the-hero-party-so-i-tried-confessing-to-her-anime-gets-2nd-season/.243604",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
@@ -945,7 +1235,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 11,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
@@ -958,7 +1252,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 11,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
@@ -971,7 +1270,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 11,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
@@ -979,12 +1283,17 @@
       "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
       "summary": "Weekly episodes now debuting as part of \"2nd & 3rd stages\" that started on September 25",
       "published_at": "2026-11-10T03:34:51+00:00",
-      "source": "Anime News Network – All Articles",
+      "source": "Anime News Network – News",
       "publisher": "Anime News Network",
       "category": "anime-manga",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
@@ -997,7 +1306,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
@@ -1010,7 +1323,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
@@ -1023,7 +1340,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/quizzes/2026/11/9/anime-crosswords-puzzles-vol-80",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/fate-rewinder-anime-character-visuals",
@@ -1036,7 +1357,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/9/fate-rewinder-anime-character-visuals",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/review/suikoden-the-anime/episode-5/.243583",
@@ -1049,7 +1374,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/review/suikoden-the-anime/episode-5/.243583",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/hirayasumi-tv-anime-to-stream-on-netflix/.243636",
@@ -1062,7 +1391,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/hirayasumi-tv-anime-to-stream-on-netflix/.243636",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9473/",
@@ -1075,7 +1409,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9473",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://us.oricon-group.com/news/9472/",
@@ -1088,7 +1426,11 @@
       "category": "japan-anime-manga-media",
       "language": "en",
       "score": 10,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9472",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
@@ -1101,7 +1443,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 9,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/interest/2026-11-09/u.s-navy-recruitment-video-reuses-blend-s-anime-opening/.243648",
@@ -1114,7 +1460,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/interest/2026-11-09/u.s-navy-recruitment-video-reuses-blend-s-anime-opening/.243648",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
@@ -1127,7 +1477,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
@@ -1140,7 +1495,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
@@ -1153,7 +1513,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
@@ -1166,7 +1531,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/heisei-haizan-hei-sumire-chan-manga-resumes-on-november-16/.243640",
@@ -1179,7 +1549,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/heisei-haizan-hei-sumire-chan-manga-resumes-on-november-16/.243640",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
@@ -1192,7 +1567,12 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
@@ -1205,7 +1585,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-08/bride-of-the-barrier-master-anime-streams-videos-for-leads-hana-ichise-saku-ichinomiya/.243623",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-07/gacha-girls-corps-anime-reveals-more-cast-january-7-debut/.243607",
@@ -1218,7 +1602,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/gacha-girls-corps-anime-reveals-more-cast-january-7-debut/.243607",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-07/bless-tv-anime-1st-full-promo-video-announces-january-8-debut/.243605",
@@ -1231,7 +1619,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/bless-tv-anime-1st-full-promo-video-announces-january-8-debut/.243605",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
@@ -1244,7 +1636,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-07/abema-selects-project-prismation-1st-open-call-finalists-to-make-3-pilot-anime/.243602",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/hana-kimi-manga-30th-anniversary-new-live-action-drama-stage-play",
@@ -1257,7 +1653,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/7/hana-kimi-manga-30th-anniversary-new-live-action-drama-stage-play",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-06/hana-kimi-manga-gets-new-live-action-series-1st-stage-play/.243601",
@@ -1270,7 +1670,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-06/hana-kimi-manga-gets-new-live-action-series-1st-stage-play/.243601",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-06/odd-taxi-manga-author-launches-new-rematch-with-you-manga-in-late-november/.243576",
@@ -1283,7 +1687,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-06/odd-taxi-manga-author-launches-new-rematch-with-you-manga-in-late-november/.243576",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/nippon-anime-awards-announced-november-21-2027",
@@ -1296,7 +1704,11 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/nippon-anime-awards-announced-november-21-2027",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     },
     {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/magical-sisters-lulutto-lilly-anime-new-magical-creature-cast",
@@ -1309,10 +1721,14 @@
       "category": "anime-manga",
       "language": "en",
       "score": 8,
-      "verification": "à vérifier"
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/magical-sisters-lulutto-lilly-anime-new-magical-creature-cast",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
     }
   ],
-  "trend_count": 114,
+  "trend_count": 113,
   "trends": [
     {
       "id": "https://myanimelist.net/news/74923434?_location=rss",
@@ -1631,9 +2047,35 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "score": 46,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 14,
+        "freshness": 96,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-10T01:39:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
+          "source": "Crunchyroll News – RSS"
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "score": 46,
+      "score": 45,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
@@ -1652,33 +2094,7 @@
         {
           "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-          "source": "Anime News Network – All Articles"
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-      "score": 46,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 14,
-        "freshness": 97,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T01:39:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
-          "source": "Crunchyroll News – RSS"
+          "source": "Anime News Network – News"
         }
       ]
     },
@@ -2016,7 +2432,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 87,
+        "freshness": 86,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -2536,7 +2952,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 74,
+        "freshness": 73,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4128,32 +4544,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/daily-briefs/2026-11-06/paradox-live-the-animation-film-announces-title-2027-opening/.243590",
-      "title": "Paradox Live The Animation's Film Announces Title, 2027 Opening",
-      "score": 15,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-06T12:32:30+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Paradox Live The Animation's Film Announces Title, 2027 Opening",
-          "url": "https://www.animenewsnetwork.com/daily-briefs/2026-11-06/paradox-live-the-animation-film-announces-title-2027-opening/.243590",
-          "source": "Anime News Network – News"
-        }
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9478/",
       "title": "BLUE GIANT MOMENTUM Vol. 9 Tops Japan Weekly Manga Ranking",
       "score": 15,
@@ -4363,13 +4753,5 @@
     }
   ],
   "errors": [],
-  "notice": "Priorité éditoriale indicative : pertinence du sujet (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs indépendants (25 %) et volume d'articles (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier.",
-  "sources": [
-    "Anime News Network – News",
-    "Anime News Network – All Articles",
-    "Shonen Jump+ – Atom",
-    "Crunchyroll News – RSS",
-    "MyAnimeList News – RSS",
-    "Japan Anime News – ORICON RSS"
-  ]
+  "notice": "Priorité éditoriale indicative : pertinence du sujet (35 %), fraîcheur sur 72 h (30 %), diversité des éditeurs indépendants (25 %) et volume d'articles (10 %). Ce score ne mesure ni les vues, ni la viralité, ni la véracité. Toute information reste à vérifier."
 }
