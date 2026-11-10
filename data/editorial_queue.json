@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:55:23.463433+00:00",
+  "generated_at": "2026-11-10T21:58:06.618098+00:00",
   "count": 1,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 8,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 411,
+  "rejected_count": 410,
   "rejected_sample": [
     {
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
@@ -31,8 +31,7 @@
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
       "reasons": [
-        "source unique sans lien officiel repéré",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -191,16 +190,6 @@
       ]
     },
     {
-      "title": "Release the Villains: Ains Ooal Gown, a Lonely Gamer Playing the Role of a Lifetime",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -215,6 +204,16 @@
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Release the Villains: Ains Ooal Gown, a Lonely Gamer Playing the Role of a Lifetime",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {

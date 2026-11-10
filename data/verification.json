@@ -1,14 +1,9 @@
 {
-  "checked_at": "2026-11-10T21:55:23.463433+00:00",
+  "checked_at": "2026-11-10T21:58:06.618098+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
-  "errors": [
-    {
-      "url": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
-      "error": "The read operation timed out"
-    }
-  ],
+  "errors": [],
   "checks": [
     {
       "title": "Plus-Sized Misadventures in Love! Anime Shares New Trailer, Adds to Cast",
@@ -68,7 +63,8 @@
       "publisher": "AnimeNation",
       "published_at": "2025-12-07T04:18:44+00:00",
       "official_evidence": [],
-      "status": "page source inaccessible — vérification humaine requise"
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff – AnimeNation Anime News Blog"
     },
     {
       "title": "Three Powerful Back-to-School Anime",
@@ -148,15 +144,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5 - News - Anime News Network"
-    },
-    {
-      "title": "My Death Flags Show No Sign of Ending tem anime confirmado para 2027 - Crunchyroll",
-      "article_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQakstTnFXbGFEcTJQNWFWOXpEU0RoTFlrRC11LWNoX0ZSZ1lpUjVWZzlYbHpLM0RZYVpoV3laR0ZPRnk1UUI4ZW5BSlloNWVnTE1CcUVmcjZmMlJHMVV1dzFQUEs5c0NRQ212WVk5Tkh6R3F6M0R1TVlYaFk0S0llTlhpQmRVN2tpc3FONm1zc0NZc0RxdnJyTW1BZl9sS05hNUMwT0RuSDhOVDBmRmh2RXRiTnM5QQ?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T18:35:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
     },
     {
       "title": "Novo trailer do filme anime ghost – end of night revela tema musical - OtakuPT",
@@ -382,6 +369,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "article_url": "https://myanimelist.net/news/74923434?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-10T03:58:55+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
