@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T06:56:20.691584+00:00",
+  "checked_at": "2026-11-10T06:57:04.336774+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
@@ -335,6 +335,15 @@
       "page_title": "Google News"
     },
     {
+      "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
+      "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-09T19:00:32+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
       "title": "K Manga Adds nyalra's Strayboy Overkill Manga - Anime News Network",
       "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemV6UlZDM0ZfNDRTWDRfbElmSUlVR0pUZzNFcUlkcEtGdU1BNnhpZm9VUVF4U29vZENTYnh5TnlmYlBubEFJbFdMc2JoU0pGUExYZWU3Q1JzTE8tbjZoOFFma1BweWtuTU04MWtjU1RQTUNwUlZfX3NGajdXTjZBZVZyQ3k5UTZKamFNQlk3WmpTQ3lsaUNtVC1CbWhrRFB0bnc?oc=5",
       "publisher": "Google News (agrégateur)",
@@ -369,15 +378,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation - News - Anime News Network"
-    },
-    {
-      "title": "Anime - Dragon Ball Super - Beerus - Episode #5 - Le Dieu de la Destruction et Son Goku, 09 Novembre 2026 - Manga news",
-      "article_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX2lhNHNjdENsZXUzZFYyYXdhNThhZFpZRW5DcDZVUzVOU2d2UmFJVTJVWHE2clotT1JzYUdUV2lsbVBoUm4wMXdzNC1GVnhHaTRxRkNDc05TZ3piWE9uSldhRTNVWlg1R1d3RkFVS0paWmhJZnNEbzBBc2pnZWMxRm11Qy1aMmdmNVByUGd2ZFpJMW1oWXM1YjhNclJtZFJJWDB1bHJvallKTUVFanYtVERtSl9yWkR5RzdiX29GZ0xqczNGR2FPOHB3RlM?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T16:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
