@@ -56,7 +56,7 @@ def valid_editorial_queue(queue):
         "facebook", "instagram", "tiktok", "x",
         "threads", "youtube", "telegram", "pinterest",
     }
-    complete_count = 0
+    ai_complete_count = 0
     for item in items:
         if not isinstance(item, dict):
             return False
@@ -65,19 +65,22 @@ def valid_editorial_queue(queue):
         posts = item.get("social_posts") or {}
         if not isinstance(posts, dict):
             return False
-        if posts:
-            # Les brouillons de secours peuvent eux aussi contenir huit variantes.
-            # Leur présence ne signifie pas que le modèle IA les a générées.
-            if not platforms.issubset(set(posts.keys())):
+        if posts and not platforms.issubset(set(posts.keys())):
+            return False
+        # Les brouillons de secours peuvent contenir huit variantes : seul le
+        # marqueur ai_generation distingue un contenu réellement généré par l'IA.
+        ai_generation = item.get("ai_generation")
+        if ai_generation is not None:
+            if not isinstance(ai_generation, dict) or not posts:
                 return False
-            complete_count += 1
+            ai_complete_count += 1
 
     if status in fallback_statuses:
-        return generated_count == 0
+        return generated_count == 0 and ai_complete_count == 0
     if status == "generated":
-        return generated_count == len(items) and complete_count == generated_count
+        return generated_count == len(items) and ai_complete_count == generated_count
     if status == "partial":
-        return 0 < generated_count < len(items) and complete_count == generated_count
+        return 0 < generated_count < len(items) and ai_complete_count == generated_count
     if not items and status in ("", "not_requested"):
         return generated_count == 0
     return False
