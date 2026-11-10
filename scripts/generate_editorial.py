@@ -92,6 +92,15 @@ def save_generation_status(queue, status, notice, model=""):
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def generation_response_diagnostic(trend_id, response_received_ids, response_valid_ids, draft_returned):
+    """Sépare la réception HTTP, la validité du payload et le retour d'un brouillon."""
+    return {
+        "response_received": trend_id in response_received_ids,
+        "response_valid": trend_id in response_valid_ids,
+        "draft_returned": bool(draft_returned),
+    }
+
+
 def main():
     endpoint = os.environ.get("AUTOTREND_AI_URL", "").strip()
     token = os.environ.get("AUTOTREND_AI_TOKEN", "").strip()
@@ -125,6 +134,8 @@ def main():
     generation_errors = []
     model = ""
     generated_at = ""
+    response_received_ids = set()
+    response_valid_ids = set()
 
     for item in items[:3]:
         payload_item = {
@@ -170,8 +181,12 @@ def main():
         )
         try:
             with urllib.request.urlopen(request, timeout=150) as response:
-                item_result = json.loads(response.read().decode("utf-8"))
+                response_body = response.read()
+                response_received_ids.add(item.get("trend_id", ""))
+                item_result = json.loads(response_body.decode("utf-8"))
         except urllib.error.HTTPError as exc:
+            # Une réponse HTTP a bien été reçue, même si le serveur refuse la requête.
+            response_received_ids.add(item.get("trend_id", ""))
             try:
                 response_detail = exc.read().decode("utf-8", errors="replace").strip()[:240]
             except Exception:
@@ -192,6 +207,7 @@ def main():
                 "detail": "Réponse IA invalide ou sans liste items"
             })
             continue
+        response_valid_ids.add(item.get("trend_id", ""))
         generated_items.extend(
             value for value in item_result.get("items", []) if isinstance(value, dict)
         )
@@ -239,7 +255,10 @@ def main():
             generation_diagnostics.append({
                 "trend_id": item.get("trend_id", ""),
                 "title": str(item.get("title", ""))[:180],
-                "response_received": False,
+                **generation_response_diagnostic(
+                    item.get("trend_id", ""), response_received_ids,
+                    response_valid_ids, draft_returned=False
+                ),
                 "accepted": False,
                 "validation_errors": [reason]
             })
@@ -372,7 +391,10 @@ def main():
         generation_diagnostics.append({
             "trend_id": item.get("trend_id", ""),
             "title": str(item.get("title", ""))[:180],
-            "response_received": True,
+            **generation_response_diagnostic(
+                item.get("trend_id", ""), response_received_ids,
+                response_valid_ids, draft_returned=True
+            ),
             "accepted": True,
             "validation_errors": []
         })
