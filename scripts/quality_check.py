@@ -96,7 +96,7 @@ def main():
     finally:
         js_path.unlink(missing_ok=True)
 
-    for name in ("collect_rss.py", "verify_sources.py"):
+    for name in ("collect_rss.py", "verify_sources.py", "radar_logic.py"):
         source = ROOT / "scripts" / name
         compile(source.read_text(encoding="utf-8"), str(source), "exec")
 
