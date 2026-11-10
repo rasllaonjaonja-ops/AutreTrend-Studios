@@ -151,6 +151,14 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertIn("Threads 40", worker_prompt)
         self.assertIn("Telegram 40", worker_prompt)
 
+    def test_generation_diagnostics_are_per_item_and_use_the_real_summary_threshold(self):
+        from pathlib import Path
+        source = (Path(__file__).resolve().parents[1] / "scripts" / "generate_editorial.py").read_text(encoding="utf-8")
+        self.assertIn("ai_generation_diagnostics", source)
+        self.assertIn("response_received", source)
+        self.assertIn("validation_errors", source)
+        self.assertIn("MIN_SUMMARY_WORDS", source)
+        self.assertNotIn("résumé de 60 mots non validé", source)
     def test_worker_prompt_protects_proper_names_and_source_fidelity(self):
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
         worker_prompt = worker_path.read_text(encoding="utf-8")
