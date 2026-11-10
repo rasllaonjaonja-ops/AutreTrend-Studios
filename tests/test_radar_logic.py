@@ -2,7 +2,7 @@
 import unittest
 
 from scripts.radar_logic import (
-    detect_text_language, event_parts, same_event, evidence_level,
+    detect_text_language, event_parts, same_event, evidence_level, coverage_score,
 )
 
 
@@ -51,6 +51,12 @@ class RadarLogicTests(unittest.TestCase):
     def test_media_coverage_is_not_truth_confirmation(self):
         self.assertEqual(evidence_level(1), "single_publisher_signal")
         self.assertEqual(evidence_level(2), "multi_media_reported")
+        self.assertEqual(
+            evidence_level(1, 1),
+            "first_party_feed_present_needs_review",
+        )
+        self.assertGreater(coverage_score(1, 1), coverage_score(1, 0))
+        self.assertLessEqual(coverage_score(4, 3), 100)
 
 
 if __name__ == "__main__":
