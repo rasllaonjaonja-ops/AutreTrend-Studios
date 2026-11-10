@@ -51,7 +51,7 @@ class RadarLogicTests(unittest.TestCase):
 
     def test_official_link_labels_normalize_whitespace(self):
         parser = Links()
-        parser.feed('<a href="https://example.com/official">  Official   announcement\\n details </a>')
+        parser.feed('<a href="https://example.com/official">  Official   announcement\n details </a>')
         self.assertEqual(parser.links[0]["label"], "Official announcement details")
 
     def test_media_coverage_is_not_truth_confirmation(self):
