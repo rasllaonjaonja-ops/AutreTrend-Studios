@@ -127,28 +127,41 @@ def enrich_source_reports(trend_articles, radar_items):
         })
     return reports
 
+def age_hours_for_sampling(value, now=None):
+    """Retourne l'âge en heures; les dates absentes, trop anciennes ou futures sont non classables."""
+    from datetime import datetime, timedelta, timezone
+    try:
+        dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        current = now or datetime.now(timezone.utc)
+        if dt > current + timedelta(hours=24):
+            return None
+        hours = (current - dt).total_seconds() / 3600
+        if hours > 168 * 30:
+            return None
+        return max(0, hours)
+    except Exception:
+        return None
+
+
+def verification_rank(item, now=None):
+    """Classe les dates valides de la plus récente à la plus ancienne, puis par score."""
+    age = age_hours_for_sampling(item.get("published_at"), now=now)
+    try:
+        score = int(item.get("score", 0) or 0)
+    except (TypeError, ValueError):
+        score = 0
+    return (age is None, age if age is not None else float("inf"), -score)
+
 
 def main():
     radar = json.loads(RADAR.read_text(encoding="utf-8"))
     items = radar.get("items", [])
     checks = []
     errors = []
-    # Échantillon de vérification équilibré : priorité aux articles récents,
-    # puis au score. Une page non contrôlée ne sera jamais présentée comme
-    # dépourvue de lien officiel.
-    def verification_rank(item):
-        age = age_hours_for_sampling(item.get("published_at"))
-        return (age is not None, age if age is not None else 10**9, -int(item.get("score", 0) or 0))
-    def age_hours_for_sampling(value):
-        try:
-            from datetime import datetime, timezone
-            dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            hours = (datetime.now(timezone.utc) - dt).total_seconds() / 3600
-            return hours if -24 <= hours <= 168 * 30 else None
-        except Exception:
-            return None
+    # Échantillon de vérification : dates valides les plus récentes d'abord,
+    # puis score décroissant. Les dates absentes/anciennes restent en fin d'échantillon.
     selected_items = sorted(items, key=verification_rank)[:MAX_ARTICLES]
     for item in selected_items:
         url = item.get("url", "")
