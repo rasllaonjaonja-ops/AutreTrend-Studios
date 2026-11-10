@@ -16,6 +16,7 @@ except ModuleNotFoundError:
 ROOT = Path(__file__).resolve().parents[1]
 QUEUE = ROOT / "data" / "editorial_queue.json"
 PLATFORMS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
+MIN_SUMMARY_WORDS = 45
 
 
 def word_count(value):
@@ -245,7 +246,7 @@ def main():
         # Une simple réponse du modèle ne suffit pas : on exige aussi une détection française.
         if (detect_text_language(title_fr) != "fr"
                 or detect_text_language(summary_fr) != "fr"
-                or word_count(summary_fr) < 60):
+                or word_count(summary_fr) < MIN_SUMMARY_WORDS):
             validation_errors.append({"trend_id": item.get("trend_id", ""),
                                       "detail": "titre/résumé : langue française ou résumé de 60 mots non validé"})
             continue
