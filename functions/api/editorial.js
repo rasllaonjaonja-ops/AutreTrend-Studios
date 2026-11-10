@@ -239,8 +239,8 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     let output = String(value || "").trim();
     for (const addition of groundedAdditions) {
       if (wordCount(output) >= target) break;
-      const normalized = addition.toLowerCase().replace(/\\s+/g, " ").trim();
-      const current = output.toLowerCase().replace(/\\s+/g, " ").trim();
+      const normalized = addition.toLowerCase().replace(/\s+/g, " ").trim();
+      const current = output.toLowerCase().replace(/\s+/g, " ").trim();
       if (!normalized || current.includes(normalized)) continue;
       const candidate = (output ? output.replace(/[.!?…]*$/, ".") + " " : "") + addition.trim();
       if (wordCount(candidate) <= 115) output = candidate;
