@@ -180,7 +180,91 @@
       "country": "France",
       "region": "Europe",
       "enabled": true
+    },
+    {
+      "name": "Google Actualités – France",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "anime-manga-market",
+      "language": "fr",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – United States",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-US&gl=US&ceid=US:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – United Kingdom",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-GB&gl=GB&ceid=GB:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "United Kingdom",
+      "market_region": "Europe",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – India",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-IN&gl=IN&ceid=IN:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "India",
+      "market_region": "South Asia",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – Japan",
+      "url": "https://news.google.com/rss/search?q=アニメ+OR+漫画&hl=ja&gl=JP&ceid=JP:ja",
+      "category": "anime-manga-market",
+      "language": "ja",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "Japan",
+      "market_region": "East Asia",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google News – Philippines",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=en-PH&gl=PH&ceid=PH:en",
+      "category": "anime-manga-market",
+      "language": "en",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "Philippines",
+      "market_region": "Southeast Asia",
+      "source_type": "market_search",
+      "enabled": true
+    },
+    {
+      "name": "Google Actualités – Brésil",
+      "url": "https://news.google.com/rss/search?q=anime+OR+manga&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "category": "anime-manga-market",
+      "language": "pt",
+      "country": "Google News",
+      "region": "Market search",
+      "market_country": "Brazil",
+      "market_region": "South America",
+      "source_type": "market_search",
+      "enabled": true
     }
   ],
-  "note": "Veille internationale manga/anime : 20 flux provenant de médias, communautés éditoriales et d'une source de première partie. Le pays désigne le pays d'origine/implantation de la source, pas le pays où un sujet est populaire. Les flux sont contrôlés à chaque collecte; un flux en erreur reste visible dans source_stats et ne compte pas comme source active. Les médias servent à détecter et recouper; seules les sources de première partie peuvent apporter un signal de provenance officiel, sans validation automatique des faits."
+  "note": "Veille mondiale : 20 sites éditoriaux manga/anime indépendants et 7 flux Google Actualités localisés (France, États-Unis, Royaume-Uni, Inde, Japon, Philippines, Brésil). Les pays des sites décrivent leur implantation; les marchés Google Actualités décrivent la zone ciblée par la recherche. Ces flux ne mesurent pas les tendances natives des réseaux sociaux ni le nombre de recherches. Les flux sont contrôlés à chaque collecte; les erreurs et flux sans articles restent visibles."
 }
