@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:25:52.044911+00:00",
+  "updated_at": "2026-11-10T23:28:48.591636+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:33.659562+00:00",
+      "last_success_at": "2026-11-10T23:28:19.637491+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:34.475432+00:00",
+      "last_success_at": "2026-11-10T23:28:20.192736+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:34.949325+00:00",
+      "last_success_at": "2026-11-10T23:28:20.522282+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:35.189346+00:00",
+      "last_success_at": "2026-11-10T23:28:20.737974+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 36,
       "unique_items": 36,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:35.463166+00:00",
+      "last_success_at": "2026-11-10T23:28:20.810835+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:35.663998+00:00",
+      "last_success_at": "2026-11-10T23:28:21.424476+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:38.984042+00:00",
+      "last_success_at": "2026-11-10T23:28:21.786987+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:39.646006+00:00",
+      "last_success_at": "2026-11-10T23:28:22.391078+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:40.098636+00:00",
+      "last_success_at": "2026-11-10T23:28:22.861857+00:00",
       "error": null
     },
     "Anime News India": {
@@ -169,12 +169,12 @@
       "market_region": null,
       "source_type": "editorial_site",
       "language": "en",
-      "entries_found": 10,
-      "accepted_items": 10,
-      "unique_items": 10,
-      "status": "ok",
-      "last_success_at": "2026-11-10T23:25:40.748347+00:00",
-      "error": null
+      "entries_found": 0,
+      "accepted_items": 0,
+      "unique_items": 0,
+      "status": "error",
+      "last_success_at": null,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     "Anime Corner": {
       "country": "Philippines",
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:40.874611+00:00",
+      "last_success_at": "2026-11-10T23:28:38.981600+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:42.108372+00:00",
+      "last_success_at": "2026-11-10T23:28:39.898016+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:42.786132+00:00",
+      "last_success_at": "2026-11-10T23:28:40.387469+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:43.739195+00:00",
+      "last_success_at": "2026-11-10T23:28:41.190264+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:44.910897+00:00",
+      "last_success_at": "2026-11-10T23:28:41.996567+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:45.737597+00:00",
+      "last_success_at": "2026-11-10T23:28:42.748724+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:46.375032+00:00",
+      "last_success_at": "2026-11-10T23:28:43.273865+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:47.330386+00:00",
+      "last_success_at": "2026-11-10T23:28:43.865169+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:48.328384+00:00",
+      "last_success_at": "2026-11-10T23:28:45.093523+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:49.085409+00:00",
+      "last_success_at": "2026-11-10T23:28:45.566019+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:49.468427+00:00",
+      "last_success_at": "2026-11-10T23:28:46.012149+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:49.813437+00:00",
+      "last_success_at": "2026-11-10T23:28:46.385740+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:50.202416+00:00",
+      "last_success_at": "2026-11-10T23:28:46.825779+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:50.645643+00:00",
+      "last_success_at": "2026-11-10T23:28:47.297229+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:51.169518+00:00",
+      "last_success_at": "2026-11-10T23:28:47.686613+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:51.640536+00:00",
+      "last_success_at": "2026-11-10T23:28:48.175879+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,12 +411,12 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:25:52.028498+00:00",
+      "last_success_at": "2026-11-10T23:28:48.574722+00:00",
       "error": null
     }
   },
   "health": {
-    "sources_ok": 27,
+    "sources_ok": 26,
     "source_countries_ok": [
       "France",
       "India",
@@ -435,11 +435,11 @@
       "United Kingdom",
       "United States"
     ],
-    "sources_error": 0,
+    "sources_error": 1,
     "items_without_date": 0,
     "items_without_summary": 0
   },
-  "item_count": 637,
+  "item_count": 627,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -1281,33 +1281,6 @@
       "canonical_url": "https://us.oricon-group.com/news/9474",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/09/03/dragon-ball-super-beerus-premieres-october-2026-super-surge-visual-and-trailer-unveiled-opening-and-ending-themes-announced/",
-      "title": "Dragon Ball Super: Beerus Premieres October 2026 — Super Surge Visual and Trailer Unveiled; Opening and Ending Themes Announced",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/09/03/dragon-ball-super-beerus-premieres-october-2026-super-surge-visual-and-trailer-unveiled-opening-and-ending-themes-announced/",
-      "summary": "New York Comic Con 2026 Panel Confirmed with World-Premiere Screening Today Toei Animation has announced The post Dragon Ball Super: Beerus Premieres October 2026 — Super Surge Visual and Trailer Unveiled; Opening and Ending Themes Announced appeared first on Anime News India .",
-      "published_at": "2026-09-03T02:53:25+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 27,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/09/03/dragon-ball-super-beerus-premieres-october-2026-super-surge-visual-and-trailer-unveiled-opening-and-ending-themes-announced",
-      "feed_sources": [
-        "Anime News India"
       ]
     },
     {
@@ -2450,33 +2423,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/10/11/naruto-shippuden-returns-to-sony-yay-with-brand-new-episodes-starting-october-192026/",
-      "title": "Naruto Shippuden Returns to Sony YAY! with Brand-New Episodes Starting October 19,2026",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/10/11/naruto-shippuden-returns-to-sony-yay-with-brand-new-episodes-starting-october-192026/",
-      "summary": "On the occasion of Naruto Uzumaki’s birthday, Sony YAY! announced across its social media platforms The post Naruto Shippuden Returns to Sony YAY! with Brand-New Episodes Starting October 19,2026 appeared first on Anime News India .",
-      "published_at": "2026-10-11T11:00:15+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 19,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/10/11/naruto-shippuden-returns-to-sony-yay-with-brand-new-episodes-starting-october-192026",
-      "feed_sources": [
-        "Anime News India"
-      ]
-    },
-    {
       "id": "https://otakuusamagazine.com/kaiju-no-8-season-2-trailer-looks-ahead-to-next-arc/",
       "title": "Kaiju No. 8 Season 2 Trailer Looks Ahead to Next Arc",
       "title_language": "en",
@@ -2801,33 +2747,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/10/09/crunchyroll-manga-expands-in-india-by-bringing-more-than-250-titles-in-localised-english/",
-      "title": "Crunchyroll Manga Expands In India by bringing More Than 250 Titles in localised English",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/10/09/crunchyroll-manga-expands-in-india-by-bringing-more-than-250-titles-in-localised-english/",
-      "summary": "Fans in India Can Level Up Their Memberships Today With Ad-Free Access to Digital Manga, The post Crunchyroll Manga Expands In India by bringing More Than 250 Titles in localised English appeared first on Anime News India .",
-      "published_at": "2026-10-09T07:35:22+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 18,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/10/09/crunchyroll-manga-expands-in-india-by-bringing-more-than-250-titles-in-localised-english",
-      "feed_sources": [
-        "Anime News India"
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GTE05Y1N3dFloOTZmbDFtMExOX3o2NzM2RVljeThwei1HeHVyV2dlYmtleFNwVDJLMlp2SGVtM2VULVBsOU1ZTEJaMW9YMzNOUEVIR1E4U1BqUQ?oc=5",
       "title": "Hit Rom-Com Anime The Dangers in My Heart Sets Season 3 for April 2027 in First Teaser - Japan Wire by Kyodo News",
       "title_language": "en",
@@ -2935,33 +2854,6 @@
       "canonical_url": "https://animefeminist.com/from-far-away-episode-1",
       "feed_sources": [
         "Anime Feminist"
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/08/12/crunchyroll-acquires-india-and-worldwide-rights-to-release-makoto-shinkais-next-film-excluding-other-asian-territories/",
-      "title": "Crunchyroll Acquires India and Worldwide Rights to Release Makoto Shinkai’s Next Film Excluding Other Asian Territories",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/08/12/crunchyroll-acquires-india-and-worldwide-rights-to-release-makoto-shinkais-next-film-excluding-other-asian-territories/",
-      "summary": "Crunchyroll and Sony Pictures Entertainment to Distribute Upcoming Anime in India in Original Japanese with The post Crunchyroll Acquires India and Worldwide Rights to Release Makoto Shinkai’s Next Film Excluding Other Asian Territories appeared first on Anime News India .",
-      "published_at": "2026-08-12T14:30:49+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 17,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/08/12/crunchyroll-acquires-india-and-worldwide-rights-to-release-makoto-shinkais-next-film-excluding-other-asian-territories",
-      "feed_sources": [
-        "Anime News India"
       ]
     },
     {
@@ -3236,33 +3128,6 @@
       "canonical_url": "https://animenation.net/blog/johns-november-anime-imports-unboxing",
       "feed_sources": [
         "AnimeNation"
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/10/08/dragon-ball-super-beerus-anime-to-stream-on-crunchyroll-and-netflix-in-india-starting-october-2026/",
-      "title": "Dragon Ball Super: Beerus Anime to Stream on Crunchyroll and Netflix in India Starting October 2026",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/10/08/dragon-ball-super-beerus-anime-to-stream-on-crunchyroll-and-netflix-in-india-starting-october-2026/",
-      "summary": "It’s official ! The enhanced edition of the Dragon Ball Super ( 2015-1018 ) , The post Dragon Ball Super: Beerus Anime to Stream on Crunchyroll and Netflix in India Starting October 2026 appeared first on Anime News India .",
-      "published_at": "2026-10-08T07:35:35+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 16,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/10/08/dragon-ball-super-beerus-anime-to-stream-on-crunchyroll-and-netflix-in-india-starting-october-2026",
-      "feed_sources": [
-        "Anime News India"
       ]
     },
     {
@@ -4113,6 +3978,33 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
+      "summary": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video Crunchyroll",
+      "published_at": "2026-11-10T01:39:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – United Kingdom",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "United Kingdom",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 14,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
+      "feed_sources": [
+        "Google News – United Kingdom"
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYms2UDZyTlAwWGNlM0FaTkdLRENqcUtrZzNnbk81MEtKOFY1S3FxRTVycFBtb0UzVTdjeFJRSFZhTXJ3blhpQVNNSUNlS2Y4WUVDMG5CbEZXemdBUkdObFRJZTBTeHZucWZzQjNseEJjckNXODdfYjNreGN5WkZJX2ZjUjZEeGxXVXNFR29Bb0pyaHBPcmhHaEUyczhoLThJUnFMRG1BTmNZa1dMOFBJbDdlZWdhMFU?oc=5",
       "title": "One-Punch Man Season 3 Part 2 Anime Reveals New Visuals, Ending Theme Performer - Crunchyroll",
       "title_language": "en",
@@ -4191,87 +4083,6 @@
       "canonical_url": "https://us.oricon-group.com/news/9476",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/10/29/black-clover-season-1-part-1-is-now-streaming-on-crunchyroll-india-in-hindi-tamil-and-telugu-dubs/",
-      "title": "Black Clover Season 1 Part 1 is Now Streaming on Crunchyroll India in Hindi, Tamil and Telugu Dubs",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/10/29/black-clover-season-1-part-1-is-now-streaming-on-crunchyroll-india-in-hindi-tamil-and-telugu-dubs/",
-      "summary": "Crunchyroll, the ultimate home of anime, has begun streaming Black Clover Season 1 Part 1 The post Black Clover Season 1 Part 1 is Now Streaming on Crunchyroll India in Hindi, Tamil and Telugu Dubs appeared first on Anime News India .",
-      "published_at": "2026-10-29T06:33:52+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 14,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/10/29/black-clover-season-1-part-1-is-now-streaming-on-crunchyroll-india-in-hindi-tamil-and-telugu-dubs",
-      "feed_sources": [
-        "Anime News India"
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/10/25/crunchyroll-brings-complete-catalogue-of-one-piece-to-india-in-sub-dub/",
-      "title": "Crunchyroll Brings Complete Catalogue of One Piece to India in Sub & Dub",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/10/25/crunchyroll-brings-complete-catalogue-of-one-piece-to-india-in-sub-dub/",
-      "summary": "From the East Blue Saga to the ongoing Elbaph arc, nearly the entire series is The post Crunchyroll Brings Complete Catalogue of One Piece to India in Sub & Dub appeared first on Anime News India .",
-      "published_at": "2026-10-25T08:59:20+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 14,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/10/25/crunchyroll-brings-complete-catalogue-of-one-piece-to-india-in-sub-dub",
-      "feed_sources": [
-        "Anime News India"
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/08/14/bleach-thousand-year-blood-war-the-final-cour-the-calamity-now-streaming-on-jiohotstar-with-brand-new-hindi-dub/",
-      "title": "Bleach: Thousand-Year Blood War The Final Cour- The Calamity Now Streaming on JioHotstar With Brand-New Hindi Dub",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/08/14/bleach-thousand-year-blood-war-the-final-cour-the-calamity-now-streaming-on-jiohotstar-with-brand-new-hindi-dub/",
-      "summary": "Fresh Hindi-dubbed episodes will release weekly every Monday on Jiohotstar Bleach: Thousand-Year Blood War – The Calamity, the The post Bleach: Thousand-Year Blood War The Final Cour- The Calamity Now Streaming on JioHotstar With Brand-New Hindi Dub appeared first on Anime News India .",
-      "published_at": "2026-08-14T03:10:22+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 14,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/08/14/bleach-thousand-year-blood-war-the-final-cour-the-calamity-now-streaming-on-jiohotstar-with-brand-new-hindi-dub",
-      "feed_sources": [
-        "Anime News India"
       ]
     },
     {
@@ -4869,33 +4680,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/10/09/crunchyroll-acquires-indian-and-global-rights-to-new-apothecary-diaries-feature-film/",
-      "title": "Crunchyroll Acquires Indian and Global Rights to New Apothecary Diaries Feature Film",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animenewsindia.com/2026/10/09/crunchyroll-acquires-indian-and-global-rights-to-new-apothecary-diaries-feature-film/",
-      "summary": "The film is a brand new story by series creator Hyuganatsu and first feature film The post Crunchyroll Acquires Indian and Global Rights to New Apothecary Diaries Feature Film appeared first on Anime News India .",
-      "published_at": "2026-10-09T12:45:34+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News India",
-      "publisher": "Anime News India",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "India",
-      "source_region": "South Asia",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 13,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsindia.com/2026/10/09/crunchyroll-acquires-indian-and-global-rights-to-new-apothecary-diaries-feature-film",
-      "feed_sources": [
-        "Anime News India"
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU3VoQlg5NWozeGlxR2VCN2F1a043RHFvd3lwYTBVTXNqcEdySkx4NHVQRFVjSHFtWENWQ1V5ODdTcjdIa2ZOWXZIT09oOTQ2dXgza2ZmYnozUjBCNGxrT1gxMnYwdjVnbmFMNFNjOU55Y1dVZXRMUU9mLTUwUHJFZExPeG1rR0JBdGxiYW4xQVo1Q2sxS1VYX2pvTnd6SHVWUV9Rdl9tRHpVOFJYUXd2VWVkVklUU21uSUJxb3Fudw?oc=5",
       "title": "AMC Global Media's Anime Release 'Made in Abyss: Awakening Mystery' to Stream on HIDIVE in 2027 - Media Play News",
       "title_language": "en",
@@ -4992,21 +4776,22 @@
       "published_at": "2026-11-10T21:11:50+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – United Kingdom",
+      "source": "Google News – United States",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "United Kingdom",
-      "market_region": "Europe",
+      "market_country": "United States",
+      "market_region": "North America",
       "source_role": "professional_media",
       "language": "en",
       "score": 12,
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2I3SkR0QkZwTnJCbnV1M2RheUpnY3B1RHdFN0ZxZlI3ZnRXeDhRUTNNWTlEV1lsc25BZXhQYWh4cDA0RDJibTNKZjQ4ZTZwSHNjOTlyOGdEZXVHR29ha3JoUXBNZ2JWV3NaX2xWWGxSRVFJcUpBQ3RILWxpSk03MnVnZ2Q0d3ktaXZzZmVXVWtsTUc1eUV5V3NnaEIzY1ZWQjRmdXZ2QklwRXZIZDRYLQ?oc=5",
       "feed_sources": [
-        "Google News – United Kingdom"
+        "Google News – United Kingdom",
+        "Google News – United States"
       ]
     },
     {
@@ -5881,9 +5666,236 @@
       "feed_sources": [
         "Google Actualités – Brésil"
       ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
+      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime - Crunchyroll",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
+      "summary": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime Crunchyroll",
+      "published_at": "2026-11-10T17:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – United States",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
+      "feed_sources": [
+        "Google News – India",
+        "Google News – Philippines",
+        "Google News – United Kingdom",
+        "Google News – United States"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzNpVlhJY19zQkRpOXFGVUMyckU5NDZ5a3FVaDdZUkY0T1BTekoyam5EemF6eWxSdThDZHBLdFFYUlltVHlCSGVOREZ0RTJoU011UTM0dU5GSjZYc3BNOFBxRkY0d0xDcmZseWNSeFZyUjNHcmVRNEs3bnZnRnBpTEJUajk5TzRTbk5FRUNXcWozZEhpR2c?oc=5",
+      "title": "Crunchyroll Streams Suikoden Anime - Anime News Network",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzNpVlhJY19zQkRpOXFGVUMyckU5NDZ5a3FVaDdZUkY0T1BTekoyam5EemF6eWxSdThDZHBLdFFYUlltVHlCSGVOREZ0RTJoU011UTM0dU5GSjZYc3BNOFBxRkY0d0xDcmZseWNSeFZyUjNHcmVRNEs3bnZnRnBpTEJUajk5TzRTbk5FRUNXcWozZEhpR2c?oc=5",
+      "summary": "Crunchyroll Streams Suikoden Anime Anime News Network",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – Philippines",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "Philippines",
+      "market_region": "Southeast Asia",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzNpVlhJY19zQkRpOXFGVUMyckU5NDZ5a3FVaDdZUkY0T1BTekoyam5EemF6eWxSdThDZHBLdFFYUlltVHlCSGVOREZ0RTJoU011UTM0dU5GSjZYc3BNOFBxRkY0d0xDcmZseWNSeFZyUjNHcmVRNEs3bnZnRnBpTEJUajk5TzRTbk5FRUNXcWozZEhpR2c?oc=5",
+      "feed_sources": [
+        "Google News – Philippines"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
+      "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur - Crunchyroll",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
+      "summary": "Millennium Family Anime Casts Mutsumi Tamura as Arthur Crunchyroll",
+      "published_at": "2026-11-10T15:26:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – United States",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
+      "feed_sources": [
+        "Google News – India",
+        "Google News – Philippines",
+        "Google News – United Kingdom",
+        "Google News – United States"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
+      "title": "Suikoden: The Anime Now Streaming on Crunchyroll - Crunchyroll",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
+      "summary": "Suikoden: The Anime Now Streaming on Crunchyroll Crunchyroll",
+      "published_at": "2026-11-10T14:30:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – United States",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
+      "feed_sources": [
+        "Google News – India",
+        "Google News – Philippines",
+        "Google News – United Kingdom",
+        "Google News – United States"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRUJuZmN4dnFvS1FfOHllenJRSzA0Mkt5UEhQam1qckl3Z1hZVk1tclRoVF80YVhWcUJXTkhUQ0dfQllIazJfY3hGUXUzd2JJVTN6elVjM3dUR25MLTVSZ0ZQV2JYeGRGazR6aHYwaHZnLS1HU2RJT2RkcERKdGFxTkx4VjY3WjZrdm9aNUhla1lKMjI1VnY1NUtGN2p4cXYydVk0UQ?oc=5",
+      "title": "Suikoden: The Anime chega à Crunchyroll na próxima semana - Crunchyroll",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRUJuZmN4dnFvS1FfOHllenJRSzA0Mkt5UEhQam1qckl3Z1hZVk1tclRoVF80YVhWcUJXTkhUQ0dfQllIazJfY3hGUXUzd2JJVTN6elVjM3dUR25MLTVSZ0ZQV2JYeGRGazR6aHYwaHZnLS1HU2RJT2RkcERKdGFxTkx4VjY3WjZrdm9aNUhla1lKMjI1VnY1NUtGN2p4cXYydVk0UQ?oc=5",
+      "summary": "Suikoden: The Anime chega à Crunchyroll na próxima semana Crunchyroll",
+      "published_at": "2026-11-10T14:30:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – Brésil",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "Brazil",
+      "market_region": "South America",
+      "source_role": "professional_media",
+      "language": "pt",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRUJuZmN4dnFvS1FfOHllenJRSzA0Mkt5UEhQam1qckl3Z1hZVk1tclRoVF80YVhWcUJXTkhUQ0dfQllIazJfY3hGUXUzd2JJVTN6elVjM3dUR25MLTVSZ0ZQV2JYeGRGazR6aHYwaHZnLS1HU2RJT2RkcERKdGFxTkx4VjY3WjZrdm9aNUhla1lKMjI1VnY1NUtGN2p4cXYydVk0UQ?oc=5",
+      "feed_sources": [
+        "Google Actualités – Brésil"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUs5cE5IcHJyWDh2RlUtZ1ZEZkNQY3ZMaFU1bFhJZHYyejlTbzRkZWxUeWgwOFo2WHVwVDN4WlJBZE1GeVAwV21ZY3hsbVg1ZmpaR19pS2Q3R3RBWloxYWdDWGt1VXhjQ2RsLVFKTGMtTW9oUnRxdUdiS2hrZzdGRTNabk4tX2xBbW1XT2JKLUxMdVE1QmFlNGdxbmhmbVFOY3hXZnk1ZUVmMjRBakt5eG1LQmZzVkdJRDJscENFeDQ3SUQwU3YyREJHaGNadw?oc=5",
+      "title": "“Bass X Machina”, sur Netflix : un anime explosif et politique, la pépite de l’année - Télérama",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUs5cE5IcHJyWDh2RlUtZ1ZEZkNQY3ZMaFU1bFhJZHYyejlTbzRkZWxUeWgwOFo2WHVwVDN4WlJBZE1GeVAwV21ZY3hsbVg1ZmpaR19pS2Q3R3RBWloxYWdDWGt1VXhjQ2RsLVFKTGMtTW9oUnRxdUdiS2hrZzdGRTNabk4tX2xBbW1XT2JKLUxMdVE1QmFlNGdxbmhmbVFOY3hXZnk1ZUVmMjRBakt5eG1LQmZzVkdJRDJscENFeDQ3SUQwU3YyREJHaGNadw?oc=5",
+      "summary": "“Bass X Machina”, sur Netflix : un anime explosif et politique, la pépite de l’année Télérama",
+      "published_at": "2026-11-10T10:30:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUs5cE5IcHJyWDh2RlUtZ1ZEZkNQY3ZMaFU1bFhJZHYyejlTbzRkZWxUeWgwOFo2WHVwVDN4WlJBZE1GeVAwV21ZY3hsbVg1ZmpaR19pS2Q3R3RBWloxYWdDWGt1VXhjQ2RsLVFKTGMtTW9oUnRxdUdiS2hrZzdGRTNabk4tX2xBbW1XT2JKLUxMdVE1QmFlNGdxbmhmbVFOY3hXZnk1ZUVmMjRBakt5eG1LQmZzVkdJRDJscENFeDQ3SUQwU3YyREJHaGNadw?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNEFTZDA5YkdjYThNTlRJZnZvQXhnVHFDNUtSVmVxcWNvNHVBOFptOGNjU0lBZ0x4dlpFSFRTdjJ2NjZ0NFc3Wmg5aE1xcWVCZ2Uyc3ZrT21wSDkybTlLY2tyRlJHMjZvY05fZ2VuZ0ZNQ09aV3ItRjhEdVc3eXhfRU9VUW1MN01RV2VCamFnU3EtM2RMTWhPNmkybFVWZU5WOWsta09oVjRPUHlkUnAzdVdHQjl6QQ?oc=5",
+      "title": "My Death Flags Show No Sign of Ending sera adapté en anime en 2027 - Crunchyroll",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNEFTZDA5YkdjYThNTlRJZnZvQXhnVHFDNUtSVmVxcWNvNHVBOFptOGNjU0lBZ0x4dlpFSFRTdjJ2NjZ0NFc3Wmg5aE1xcWVCZ2Uyc3ZrT21wSDkybTlLY2tyRlJHMjZvY05fZ2VuZ0ZNQ09aV3ItRjhEdVc3eXhfRU9VUW1MN01RV2VCamFnU3EtM2RMTWhPNmkybFVWZU5WOWsta09oVjRPUHlkUnAzdVdHQjl6QQ?oc=5",
+      "summary": "My Death Flags Show No Sign of Ending sera adapté en anime en 2027 Crunchyroll",
+      "published_at": "2026-11-10T06:05:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNEFTZDA5YkdjYThNTlRJZnZvQXhnVHFDNUtSVmVxcWNvNHVBOFptOGNjU0lBZ0x4dlpFSFRTdjJ2NjZ0NFc3Wmg5aE1xcWVCZ2Uyc3ZrT21wSDkybTlLY2tyRlJHMjZvY05fZ2VuZ0ZNQ09aV3ItRjhEdVc3eXhfRU9VUW1MN01RV2VCamFnU3EtM2RMTWhPNmkybFVWZU5WOWsta09oVjRPUHlkUnAzdVdHQjl6QQ?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video - Crunchyroll",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
+      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video Crunchyroll",
+      "published_at": "2026-11-10T04:15:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – United States",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
+      "feed_sources": [
+        "Google News – Philippines",
+        "Google News – United Kingdom",
+        "Google News – United States"
+      ]
     }
   ],
-  "trend_count": 409,
+  "trend_count": 399,
   "trends": [
     {
       "id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -6314,7 +6326,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6361,7 +6373,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7046,53 +7058,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
-      "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 4,
-        "freshness": 90,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T16:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
       "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
       "title_language": "en",
@@ -7187,53 +7152,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-10/kodansha-comic-tint-digital-magazine-to-end-after-9-years/.243665",
-      "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 86,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-10T13:07:45+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-10/kodansha-comic-tint-digital-magazine-to-end-after-9-years/.243665",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
       "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
       "title_language": "en",
@@ -7270,6 +7188,53 @@
           "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
           "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
+      "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
+      "title_language": "en",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 90,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-10T16:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
           "source": "Crunchyroll News – RSS",
           "source_type": "editorial_site",
           "source_country": "United States",
@@ -7328,6 +7293,53 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/kodansha-comic-tint-digital-magazine-to-end-after-9-years/.243665",
+      "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
+      "title_language": "en",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 86,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-10T13:07:45+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-10/kodansha-comic-tint-digital-magazine-to-end-after-9-years/.243665",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9489/",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
       "title_language": "en",
@@ -7335,7 +7347,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7382,7 +7394,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 97,
+        "freshness": 96,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8128,10 +8140,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United Kingdom"
+        "United States"
       ],
       "market_regions": [
-        "Europe"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -8143,12 +8155,13 @@
           "title": "Samuel L. Jackson Says His Favorite Anime Is ‘One Piece’ - Yahoo",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2I3SkR0QkZwTnJCbnV1M2RheUpnY3B1RHdFN0ZxZlI3ZnRXeDhRUTNNWTlEV1lsc25BZXhQYWh4cDA0RDJibTNKZjQ4ZTZwSHNjOTlyOGdEZXVHR29ha3JoUXBNZ2JWV3NaX2xWWGxSRVFJcUpBQ3RILWxpSk03MnVnZ2Q0d3ktaXZzZmVXVWtsTUc1eUV5V3NnaEIzY1ZWQjRmdXZ2QklwRXZIZDRYLQ?oc=5",
-          "source": "Google News – United Kingdom",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United Kingdom",
+          "market_country": "United States",
           "feed_sources": [
-            "Google News – United Kingdom"
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -8299,7 +8312,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9159,51 +9172,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQzhZUWNldkFKSF9pNmszNmQ3UmhrR1pUVzh6TEFUWmdrbzlSOE5lMkN5bnRORkd5QzRZLVhkZmJRVEJES1VMbzlnZEtKMlAwbGVNZk9KcEd3eFJ0TXo4SVZkS2NGM2pNbDQ4d1hvRnFFbS1qeEhoQzRTN1VGQ1pCdGR6UGR1MjJYSWtKU2Vld1RsMnBleUlibGYxUkI3SXdmZUN1V0dfQ3c5XzV4?oc=5",
-      "title": "Desnes. Salle comble pour le premier loto familial de Desn’Anime - Le Progrès",
-      "title_language": "fr",
-      "score": 35,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 94,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T19:07:42+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Desnes. Salle comble pour le premier loto familial de Desn’Anime - Le Progrès",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQzhZUWNldkFKSF9pNmszNmQ3UmhrR1pUVzh6TEFUWmdrbzlSOE5lMkN5bnRORkd5QzRZLVhkZmJRVEJES1VMbzlnZEtKMlAwbGVNZk9KcEd3eFJ0TXo4SVZkS2NGM2pNbDQ4d1hvRnFFbS1qeEhoQzRTN1VGQ1pCdGR6UGR1MjJYSWtKU2Vld1RsMnBleUlibGYxUkI3SXdmZUN1V0dfQ3c5XzV4?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQakstTnFXbGFEcTJQNWFWOXpEU0RoTFlrRC11LWNoX0ZSZ1lpUjVWZzlYbHpLM0RZYVpoV3laR0ZPRnk1UUI4ZW5BSlloNWVnTE1CcUVmcjZmMlJHMVV1dzFQUEs5c0NRQ212WVk5Tkh6R3F6M0R1TVlYaFk0S0llTlhpQmRVN2tpc3FONm1zc0NZc0RxdnJyTW1BZl9sS05hNUMwT0RuSDhOVDBmRmh2RXRiTnM5QQ?oc=5",
       "title": "My Death Flags Show No Sign of Ending tem anime confirmado para 2027 - Crunchyroll",
       "title_language": "en",
@@ -9431,6 +9399,51 @@
             "Google News – India",
             "Google News – United Kingdom",
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQzhZUWNldkFKSF9pNmszNmQ3UmhrR1pUVzh6TEFUWmdrbzlSOE5lMkN5bnRORkd5QzRZLVhkZmJRVEJES1VMbzlnZEtKMlAwbGVNZk9KcEd3eFJ0TXo4SVZkS2NGM2pNbDQ4d1hvRnFFbS1qeEhoQzRTN1VGQ1pCdGR6UGR1MjJYSWtKU2Vld1RsMnBleUlibGYxUkI3SXdmZUN1V0dfQ3c5XzV4?oc=5",
+      "title": "Desnes. Salle comble pour le premier loto familial de Desn’Anime - Le Progrès",
+      "title_language": "fr",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 94,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T19:07:42+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Desnes. Salle comble pour le premier loto familial de Desn’Anime - Le Progrès",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQzhZUWNldkFKSF9pNmszNmQ3UmhrR1pUVzh6TEFUWmdrbzlSOE5lMkN5bnRORkd5QzRZLVhkZmJRVEJES1VMbzlnZEtKMlAwbGVNZk9KcEd3eFJ0TXo4SVZkS2NGM2pNbDQ4d1hvRnFFbS1qeEhoQzRTN1VGQ1pCdGR6UGR1MjJYSWtKU2Vld1RsMnBleUlibGYxUkI3SXdmZUN1V0dfQ3c5XzV4?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -11195,7 +11208,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 87,
+        "freshness": 86,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11375,7 +11388,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11972,7 +11985,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 38,
-        "freshness": 24,
+        "freshness": 23,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12019,7 +12032,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12847,7 +12860,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 35,
+        "freshness": 34,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -13024,51 +13037,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZTZ5Q1Q3MW5xV1BmZnEwdGcwUWNvT1ZwYWNHQ3ZLY3VUT3JyeURNM0ZSWkJNbzE3MlRsTHlaTGN0WnlrY1l1dnV5a0ZBWlo1MkQ0Sk03Y2JsZGJJYi1pdWNsbHgwVk9mMTNSSnFKUjJoOWhRWlkydFRrSWlnRE1JOGJSd0d6Yk9EWXJzNUZyUEcxdDdNc1pnTXh1YTlHYnlVVVpCeFMyVFE2eVJOQTR3Q0hQTnZ3MTZNNm5CcnJqOFNVTmx2cnl5T0hNZldLa1pkMHNpdThUb2dIMUVJSnF3N3BCS2NmQjdGY05jQTlFTnl1WGNaalhB?oc=5",
-      "title": "Cosne-Cours-sur-Loire : La Ville à Joie anime la salle des fêtes avec des échanges et animations - Le Journal du Centre",
-      "title_language": "fr",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 76,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T05:57:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Cosne-Cours-sur-Loire : La Ville à Joie anime la salle des fêtes avec des échanges et animations - Le Journal du Centre",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZTZ5Q1Q3MW5xV1BmZnEwdGcwUWNvT1ZwYWNHQ3ZLY3VUT3JyeURNM0ZSWkJNbzE3MlRsTHlaTGN0WnlrY1l1dnV5a0ZBWlo1MkQ0Sk03Y2JsZGJJYi1pdWNsbHgwVk9mMTNSSnFKUjJoOWhRWlkydFRrSWlnRE1JOGJSd0d6Yk9EWXJzNUZyUEcxdDdNc1pnTXh1YTlHYnlVVVpCeFMyVFE2eVJOQTR3Q0hQTnZ3MTZNNm5CcnJqOFNVTmx2cnl5T0hNZldLa1pkMHNpdThUb2dIMUVJSnF3N3BCS2NmQjdGY05jQTlFTnl1WGNaalhB?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video - Crunchyroll",
       "title_language": "en",
@@ -13111,6 +13079,51 @@
             "Google News – Philippines",
             "Google News – United Kingdom",
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
+      "title_language": "en",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 14,
+        "freshness": 70,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United Kingdom"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T01:39:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
+          "source": "Google News – United Kingdom",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United Kingdom",
+          "feed_sources": [
+            "Google News – United Kingdom"
           ]
         }
       ]
@@ -13833,53 +13846,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
-      "title": "10 Underrated Crunchyroll Fantasy Anime That Are 10/10 Masterpieces - Comic Book Resources",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 65,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T22:15:11+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "10 Underrated Crunchyroll Fantasy Anime That Are 10/10 Masterpieces - Comic Book Resources",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – India",
-            "Google News – United Kingdom",
-            "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUc2Q21zOEVmTmFORm80MnZYVGxMWEpYazkwTGNBR1J0Y01RTjF4Mld6UGQ2aGRtR1JxQkEyelRNMGJ1X2ZXX3lwbWpneTBPUXQtRWM1aUVqcmJ1T1UtblJqdnpIbTl3a0VYanp2MVZieFFGWmV3cUxWZm5CNGw5RUxPc3EyZHhiN0JfbVFaZThPMWoyS2hkeTcxYjRKLWRjZ29fbXctNXJTRlVoN3dnQW13?oc=5",
       "title": "Anime Minami-ke: Korekara ganha trailer, arte e previsão de estreia para abril de 2027 - Crunchyroll",
       "title_language": "en",
@@ -14062,14 +14028,14 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
-      "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
+      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
+      "title": "10 Underrated Crunchyroll Fantasy Anime That Are 10/10 Masterpieces - Comic Book Resources",
       "title_language": "en",
       "score": 26,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 11,
-        "freshness": 61,
+        "relevance": 10,
+        "freshness": 65,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -14081,27 +14047,29 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "India"
+        "United States"
       ],
       "market_regions": [
-        "South Asia"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
       "sources": [],
-      "published_at": "2026-11-09T19:00:32+00:00",
+      "published_at": "2026-11-09T22:15:11+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
+          "title": "10 Underrated Crunchyroll Fantasy Anime That Are 10/10 Masterpieces - Comic Book Resources",
           "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
-          "source": "Google News – India",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "India",
+          "market_country": "United States",
           "feed_sources": [
-            "Google News – India"
+            "Google News – India",
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -14293,6 +14261,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
+      "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
+      "title_language": "en",
+      "score": 25,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 60,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "India"
+      ],
+      "market_regions": [
+        "South Asia"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T19:00:32+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
+          "source": "Google News – India",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "India",
+          "feed_sources": [
+            "Google News – India"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animecorner.me/minami-ke-season-5-reveals-teaser-visual-trailer-april-2027-premiere/",
       "title": "Minami-ke Season 5 Reveals Teaser Visual, Trailer, April 2027 Premiere",
       "title_language": "en",
@@ -14394,7 +14407,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 7,
-        "freshness": 61,
+        "freshness": 60,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -14427,51 +14440,6 @@
           "market_country": "Philippines",
           "feed_sources": [
             "Google News – Philippines"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RRDFNQTM1eTR2UnhiS3BxU1p2UGhFWW5OQVo5N3FvQ2Rxd0xQVkFsajZoN3dfc3RIQ1NJendxak9jcDZoRVI2Y3JCYTRMVGtkd3RScllOT3FCMlZ0MVI3TTl0anlLVDFuVmpLV0JQZnEzdmUzVnk3anFEVV8?oc=5",
-      "title": "Anime de My Crush’s Crush ganha primeiro teaser e estreia em abril de 2027 - Combo Infinito",
-      "title_language": "en",
-      "score": 24,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 13,
-        "freshness": 52,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T12:30:44+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Anime de My Crush’s Crush ganha primeiro teaser e estreia em abril de 2027 - Combo Infinito",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RRDFNQTM1eTR2UnhiS3BxU1p2UGhFWW5OQVo5N3FvQ2Rxd0xQVkFsajZoN3dfc3RIQ1NJendxak9jcDZoRVI2Y3JCYTRMVGtkd3RScllOT3FCMlZ0MVI3TTl0anlLVDFuVmpLV0JQZnEzdmUzVnk3anFEVV8?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
           ]
         }
       ]
@@ -14982,6 +14950,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RRDFNQTM1eTR2UnhiS3BxU1p2UGhFWW5OQVo5N3FvQ2Rxd0xQVkFsajZoN3dfc3RIQ1NJendxak9jcDZoRVI2Y3JCYTRMVGtkd3RScllOT3FCMlZ0MVI3TTl0anlLVDFuVmpLV0JQZnEzdmUzVnk3anFEVV8?oc=5",
+      "title": "Anime de My Crush’s Crush ganha primeiro teaser e estreia em abril de 2027 - Combo Infinito",
+      "title_language": "en",
+      "score": 23,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 13,
+        "freshness": 51,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T12:30:44+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Anime de My Crush’s Crush ganha primeiro teaser e estreia em abril de 2027 - Combo Infinito",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RRDFNQTM1eTR2UnhiS3BxU1p2UGhFWW5OQVo5N3FvQ2Rxd0xQVkFsajZoN3dfc3RIQ1NJendxak9jcDZoRVI2Y3JCYTRMVGtkd3RScllOT3FCMlZ0MVI3TTl0anlLVDFuVmpLV0JQZnEzdmUzVnk3anFEVV8?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/8/my-hero-ultra-rumble-mobile-version-teaser-trailer",
       "title": "My Hero Ultra Rumble Mobile Version Teased in New Trailer",
       "title_language": "en",
@@ -15083,7 +15096,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 11,
+        "freshness": 10,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -16065,53 +16078,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/09/03/dragon-ball-super-beerus-premieres-october-2026-super-surge-visual-and-trailer-unveiled-opening-and-ending-themes-announced/",
-      "title": "Dragon Ball Super: Beerus Premieres October 2026 — Super Surge Visual and Trailer Unveiled; Opening and Ending Themes Announced",
-      "title_language": "en",
-      "score": 20,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 27,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-09-03T02:53:25+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Dragon Ball Super: Beerus Premieres October 2026 — Super Surge Visual and Trailer Unveiled; Opening and Ending Themes Announced",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/09/03/dragon-ball-super-beerus-premieres-october-2026-super-surge-visual-and-trailer-unveiled-opening-and-ending-themes-announced/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVU1UbHhIN3A0LXU5NTIyLTFEemlpM0JVRVBXQy1LS2lWRHN6WWJLM0kzbjY3SmdaRXB3OVhkTGZQN2NOeWVoSnJSWHh5TWt4YTBmM2t2aF94WlZ3X1JhYUpGSThwbEZ4Y01JaGI4bWQ1UHVFYW1uOXlodWEtRHQ1aw?oc=5",
       "title": "Government betting on language app powered by anime and AI - The Japan Times",
       "title_language": "en",
@@ -16830,53 +16796,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/10/11/naruto-shippuden-returns-to-sony-yay-with-brand-new-episodes-starting-october-192026/",
-      "title": "Naruto Shippuden Returns to Sony YAY! with Brand-New Episodes Starting October 19,2026",
-      "title_language": "en",
-      "score": 18,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 19,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-10-11T11:00:15+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Naruto Shippuden Returns to Sony YAY! with Brand-New Episodes Starting October 19,2026",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/10/11/naruto-shippuden-returns-to-sony-yay-with-brand-new-episodes-starting-october-192026/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://otakuusamagazine.com/kaiju-no-8-season-2-trailer-looks-ahead-to-next-arc/",
       "title": "Kaiju No. 8 Season 2 Trailer Looks Ahead to Next Arc",
       "title_language": "en",
@@ -16919,6 +16838,51 @@
           "market_country": null,
           "feed_sources": [
             "Otaku USA Magazine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
+      "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
+      "title_language": "fr",
+      "score": 18,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 39,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T03:45:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -17345,100 +17309,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/10/09/crunchyroll-manga-expands-in-india-by-bringing-more-than-250-titles-in-localised-english/",
-      "title": "Crunchyroll Manga Expands In India by bringing More Than 250 Titles in localised English",
-      "title_language": "en",
-      "score": 17,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 18,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-10-09T07:35:22+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll Manga Expands In India by bringing More Than 250 Titles in localised English",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/10/09/crunchyroll-manga-expands-in-india-by-bringing-more-than-250-titles-in-localised-english/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/10/08/dragon-ball-super-beerus-anime-to-stream-on-crunchyroll-and-netflix-in-india-starting-october-2026/",
-      "title": "Dragon Ball Super: Beerus Anime to Stream on Crunchyroll and Netflix in India Starting October 2026",
-      "title_language": "en",
-      "score": 17,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 16,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-10-08T07:35:35+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Dragon Ball Super: Beerus Anime to Stream on Crunchyroll and Netflix in India Starting October 2026",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/10/08/dragon-ball-super-beerus-anime-to-stream-on-crunchyroll-and-netflix-in-india-starting-october-2026/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animefeminist.com/from-far-away-episode-1/",
       "title": "From Far Away – Episode 1",
       "title_language": "en",
@@ -17580,53 +17450,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/08/12/crunchyroll-acquires-india-and-worldwide-rights-to-release-makoto-shinkais-next-film-excluding-other-asian-territories/",
-      "title": "Crunchyroll Acquires India and Worldwide Rights to Release Makoto Shinkai’s Next Film Excluding Other Asian Territories",
-      "title_language": "en",
-      "score": 17,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 17,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-08-12T14:30:49+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll Acquires India and Worldwide Rights to Release Makoto Shinkai’s Next Film Excluding Other Asian Territories",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/08/12/crunchyroll-acquires-india-and-worldwide-rights-to-release-makoto-shinkais-next-film-excluding-other-asian-territories/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenation.net/blog/unboxing-april-2026-suruga-ya-orders/",
       "title": "Unboxing April 2026 Suruga-ya Orders",
       "title_language": "en",
@@ -17669,52 +17492,6 @@
           "market_country": null,
           "feed_sources": [
             "AnimeNation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa19oTlh0ZVJEWmlUbGxyUGVqdWdsMDA5R2dhdXd2amcxWElGand4T1hMRHVITWhmQl9Zakg0YWQwUHJZN3FYS0swOWU5VGhOVmU0MmtJdVBDSUJRWWUwNkpCQzNKRTFINnNHYUNuX2NCNFh4eXhlc1lPbnNBajJLVWthejZreWFORF9OSWFUWm9aZHAxTXBGakpwdWJ0QQ?oc=5",
-      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist - Crunchyroll",
-      "title_language": "en",
-      "score": 17,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 35,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T00:18:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Hirayasumi Anime Reveals Opening Theme Song Artist - Crunchyroll",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa19oTlh0ZVJEWmlUbGxyUGVqdWdsMDA5R2dhdXd2amcxWElGand4T1hMRHVITWhmQl9Zakg0YWQwUHJZN3FYS0swOWU5VGhOVmU0MmtJdVBDSUJRWWUwNkpCQzNKRTFINnNHYUNuX2NCNFh4eXhlc1lPbnNBajJLVWthejZreWFORF9OSWFUWm9aZHAxTXBGakpwdWJ0QQ?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United Kingdom",
-            "Google News – United States"
           ]
         }
       ]
@@ -18425,53 +18202,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/10/29/black-clover-season-1-part-1-is-now-streaming-on-crunchyroll-india-in-hindi-tamil-and-telugu-dubs/",
-      "title": "Black Clover Season 1 Part 1 is Now Streaming on Crunchyroll India in Hindi, Tamil and Telugu Dubs",
-      "title_language": "en",
-      "score": 16,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 14,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-10-29T06:33:52+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Black Clover Season 1 Part 1 is Now Streaming on Crunchyroll India in Hindi, Tamil and Telugu Dubs",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/10/29/black-clover-season-1-part-1-is-now-streaming-on-crunchyroll-india-in-hindi-tamil-and-telugu-dubs/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9457/",
       "title": "Welcome to Demon School! Iruma-kun: IruMafia Edition Anime Premieres January 4, 2027; New Visuals Revealed",
       "title_language": "en",
@@ -18514,53 +18244,6 @@
           "market_country": null,
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/10/25/crunchyroll-brings-complete-catalogue-of-one-piece-to-india-in-sub-dub/",
-      "title": "Crunchyroll Brings Complete Catalogue of One Piece to India in Sub & Dub",
-      "title_language": "en",
-      "score": 16,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 14,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-10-25T08:59:20+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll Brings Complete Catalogue of One Piece to India in Sub & Dub",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/10/25/crunchyroll-brings-complete-catalogue-of-one-piece-to-india-in-sub-dub/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
           ]
         }
       ]
@@ -18895,53 +18578,6 @@
       ]
     },
     {
-      "id": "https://animenewsindia.com/2026/10/09/crunchyroll-acquires-indian-and-global-rights-to-new-apothecary-diaries-feature-film/",
-      "title": "Crunchyroll Acquires Indian and Global Rights to New Apothecary Diaries Feature Film",
-      "title_language": "en",
-      "score": 16,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 13,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-10-09T12:45:34+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll Acquires Indian and Global Rights to New Apothecary Diaries Feature Film",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/10/09/crunchyroll-acquires-indian-and-global-rights-to-new-apothecary-diaries-feature-film/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animefeminist.com/the-worlds-strongest-witch-episode-1/",
       "title": "The World’s Strongest Witch – Episode 1",
       "title_language": "en",
@@ -18984,53 +18620,6 @@
           "market_country": null,
           "feed_sources": [
             "Anime Feminist"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/08/14/bleach-thousand-year-blood-war-the-final-cour-the-calamity-now-streaming-on-jiohotstar-with-brand-new-hindi-dub/",
-      "title": "Bleach: Thousand-Year Blood War The Final Cour- The Calamity Now Streaming on JioHotstar With Brand-New Hindi Dub",
-      "title_language": "en",
-      "score": 16,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 14,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-08-14T03:10:22+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Bleach: Thousand-Year Blood War The Final Cour- The Calamity Now Streaming on JioHotstar With Brand-New Hindi Dub",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/08/14/bleach-thousand-year-blood-war-the-final-cour-the-calamity-now-streaming-on-jiohotstar-with-brand-new-hindi-dub/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
           ]
         }
       ]
@@ -19090,7 +18679,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 24,
+        "freshness": 23,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -20909,53 +20498,6 @@
           "market_country": null,
           "feed_sources": [
             "Anime Feminist"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://animenewsindia.com/2026/10/21/crunchyroll-offers-special-festive-discounts-on-annual-subscription-plans-in-india/",
-      "title": "Crunchyroll Offers Special Festive Discounts on Annual Subscription Plans in India",
-      "title_language": "en",
-      "score": 14,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "India"
-      ],
-      "source_regions": [
-        "South Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News India"
-      ],
-      "published_at": "2026-10-21T16:33:42+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll Offers Special Festive Discounts on Annual Subscription Plans in India",
-          "title_language": "en",
-          "url": "https://animenewsindia.com/2026/10/21/crunchyroll-offers-special-festive-discounts-on-annual-subscription-plans-in-india/",
-          "source": "Anime News India",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News India"
           ]
         }
       ]
@@ -23455,7 +22997,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 22,
+        "freshness": 21,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -25199,6 +24741,11 @@
       ]
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Anime News India",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    }
+  ],
   "notice": "Radar international manga/anime : 20 sites éditoriaux et des flux Google Actualités localisés. Les pays des sites indiquent leur implantation; les marchés Google indiquent la zone ciblée, sans mesurer la popularité native sur les réseaux sociaux. Priorité indicative : pertinence (35 %), fraîcheur (30 %), diversité des éditeurs (25 %) et volume (10 %). Toute information reste à vérifier."
 }
