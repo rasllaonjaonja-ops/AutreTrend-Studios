@@ -148,7 +148,7 @@ async function generateOne(item, env) {
       throw new Error("Titre ou description trop court pour " + platform);
     }
   }
-  if (parsed.posts.x.length > 260) throw new Error("Message X supérieur à 280 caractères");
+  if (parsed.posts.x.length > 260) throw new Error("Message X supérieur à 260 caractères");
   return {
     trend_id: item.trend_id,
     trend_synthesis: {
