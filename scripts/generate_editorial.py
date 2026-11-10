@@ -92,15 +92,15 @@ def main():
             "source_reports": [
                 {
                     "title": article.get("title", "")[:300],
-                    "summary": article.get("summary", "")[:900],
+                    "summary": article.get("summary", "")[:500],
                     "publisher": article.get("publisher") or article.get("source", ""),
                     "source_type": article.get("source_type", ""),
                     "source_country": article.get("source_country", ""),
                     "market_country": article.get("market_country", ""),
                     "published_at": article.get("published_at", ""),
-                    "url": article.get("url", "")
+                    "url": article.get("url", "")[:500]
                 }
-                for article in item.get("articles", [])[:10]
+                for article in item.get("articles", [])[:6]
             ],
             "coverage": {
                 "media_count": item.get("media_count", len(item.get("media", []))),
