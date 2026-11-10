@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:45:41.930440+00:00",
+  "updated_at": "2026-11-10T07:46:27.269010+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:26.291362+00:00",
+      "last_success_at": "2026-11-10T07:46:14.574603+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:26.720752+00:00",
+      "last_success_at": "2026-11-10T07:46:15.077446+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:27.192827+00:00",
+      "last_success_at": "2026-11-10T07:46:15.601439+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:27.438890+00:00",
+      "last_success_at": "2026-11-10T07:46:16.024664+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 35,
       "unique_items": 35,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:27.734031+00:00",
+      "last_success_at": "2026-11-10T07:46:16.151730+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:28.425240+00:00",
+      "last_success_at": "2026-11-10T07:46:16.570409+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:28.800474+00:00",
+      "last_success_at": "2026-11-10T07:46:16.931945+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -141,12 +141,12 @@
       "market_region": null,
       "source_type": "editorial_site",
       "language": "fr",
-      "entries_found": 0,
-      "accepted_items": 0,
-      "unique_items": 0,
-      "status": "error",
-      "last_success_at": null,
-      "error": "mismatched tag: line 93, column 2"
+      "entries_found": 30,
+      "accepted_items": 30,
+      "unique_items": 30,
+      "status": "ok",
+      "last_success_at": "2026-11-10T07:46:17.608574+00:00",
+      "error": null
     },
     "Animehunch": {
       "country": "India",
@@ -155,12 +155,12 @@
       "market_region": null,
       "source_type": "editorial_site",
       "language": "en",
-      "entries_found": 0,
-      "accepted_items": 0,
-      "unique_items": 0,
-      "status": "error",
-      "last_success_at": null,
-      "error": "mismatched tag: line 93, column 2"
+      "entries_found": 15,
+      "accepted_items": 15,
+      "unique_items": 15,
+      "status": "ok",
+      "last_success_at": "2026-11-10T07:46:18.226280+00:00",
+      "error": null
     },
     "Anime News India": {
       "country": "India",
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:29.910089+00:00",
+      "last_success_at": "2026-11-10T07:46:18.701179+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:29.998666+00:00",
+      "last_success_at": "2026-11-10T07:46:18.784242+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:31.349732+00:00",
+      "last_success_at": "2026-11-10T07:46:20.025574+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:32.056655+00:00",
+      "last_success_at": "2026-11-10T07:46:20.782857+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:33.006611+00:00",
+      "last_success_at": "2026-11-10T07:46:21.878402+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:34.429593+00:00",
+      "last_success_at": "2026-11-10T07:46:23.260322+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:35.300421+00:00",
+      "last_success_at": "2026-11-10T07:46:24.076224+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:35.605308+00:00",
+      "last_success_at": "2026-11-10T07:46:24.676705+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:36.597047+00:00",
+      "last_success_at": "2026-11-10T07:46:25.355710+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:37.621191+00:00",
+      "last_success_at": "2026-11-10T07:46:26.353145+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:38.399356+00:00",
+      "last_success_at": "2026-11-10T07:46:26.740695+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:38.793246+00:00",
+      "last_success_at": "2026-11-10T07:46:26.820709+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:39.399108+00:00",
+      "last_success_at": "2026-11-10T07:46:26.895252+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:39.856210+00:00",
+      "last_success_at": "2026-11-10T07:46:26.970005+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:40.461564+00:00",
+      "last_success_at": "2026-11-10T07:46:27.043428+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:41.030726+00:00",
+      "last_success_at": "2026-11-10T07:46:27.112060+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:41.514482+00:00",
+      "last_success_at": "2026-11-10T07:46:27.182207+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,12 +411,12 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:45:41.915990+00:00",
+      "last_success_at": "2026-11-10T07:46:27.254939+00:00",
       "error": null
     }
   },
   "health": {
-    "sources_ok": 25,
+    "sources_ok": 27,
     "source_countries_ok": [
       "France",
       "India",
@@ -435,11 +435,11 @@
       "United Kingdom",
       "United States"
     ],
-    "sources_error": 2,
+    "sources_error": 0,
     "items_without_date": 0,
     "items_without_summary": 0
   },
-  "item_count": 591,
+  "item_count": 636,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -739,6 +739,33 @@
       ]
     },
     {
+      "id": "https://animehunch.com/bocchi-the-rock-announces-new-anime-movie-focusing-on-seika-and-nijika-for-2027/",
+      "title": "Bocchi The Rock! Announces New Anime Movie Focusing On Seika And Nijika For 2027",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/bocchi-the-rock-announces-new-anime-movie-focusing-on-seika-and-nijika-for-2027/",
+      "summary": "Bocchi the Rock! is getting a new anime movie titled Bocchi the Rock! Hoshi no Ashiato (Starry Footprints), with the film scheduled to premiere in 2027. The film adapts the prequel story included at the end of volume 5 of the manga and will focus on Seika Ijichi and her younger sister, Nijika, exploring their ... Read more",
+      "published_at": "2026-11-02T10:35:37+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 30,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/bocchi-the-rock-announces-new-anime-movie-focusing-on-seika-and-nijika-for-2027",
+      "feed_sources": [
+        "Animehunch"
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9469/",
       "title": "Charisma Anime Premieres January 7, Adds Shinnosuke Tachibana and Tomohiro Ohno",
       "title_language": "en",
@@ -763,6 +790,60 @@
       "canonical_url": "https://us.oricon-group.com/news/9469",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+      "title": "Kagurabachi : Crunchyroll annonce la date de sortie dans un nouveau trailer",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+      "summary": "L’anime Kagurabachi doit débuter en avril 2027. L’adaptation télévisée du manga de Takeru Hokazono, annoncée fin avril 2026, n’a pas encore de date de lancement précise ni de nombre d’épisodes confirmé. Ce calendrier laisse une année entre l’annonce et la diffusion. Il peut laisser penser que la production entend installer la série avant son arrivée […]",
+      "published_at": "2026-09-07T06:01:24+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "France",
+      "source_region": "Europe",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 30,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/kagurabachi-anime-avril-2027",
+      "feed_sources": [
+        "World of Geek – Manga"
+      ]
+    },
+    {
+      "id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+      "summary": "2027 will be a major year for Spy x Family as the anime is set to return with both its fourth season and a new movie to mark the fifth anniversary of the television adaptation. Both projects were revealed by TOHO animation during the “SPY×FAMILY ANIME EXTRA MISSION II” fan event held at Belle Salle ... Read more",
+      "published_at": "2026-11-09T22:33:42+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 29,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release",
+      "feed_sources": [
+        "Animehunch"
       ]
     },
     {
@@ -877,6 +958,33 @@
         "Google News – Philippines",
         "Google News – United Kingdom",
         "Google News – United States"
+      ]
+    },
+    {
+      "id": "https://animehunch.com/33-year-old-single-female-knight-captain-anime-was-confirmed-just-a-week-after-joking-about-it/",
+      "title": "‘It Actually Came’: Interspecies Reviewers Author’s New Ecchi Anime Was Confirmed Just A Week After Joking About It",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/33-year-old-single-female-knight-captain-anime-was-confirmed-just-a-week-after-joking-about-it/",
+      "summary": "Digital Shokunin Inc. and publisher BookLive announced on Nov. 6, 2026, that manga creator Amahara’s fantasy adult comedy series 33-sai Dokushin Onna Kishi Taichou. (33 Years Old Single Female Knight-Captain.), is receiving an anime adaptation. Produced to commemorate the 10th anniversary of the manga, which started serializing in 2015, the project was confirmed to the ... Read more",
+      "published_at": "2026-11-07T04:09:07+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 28,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/33-year-old-single-female-knight-captain-anime-was-confirmed-just-a-week-after-joking-about-it",
+      "feed_sources": [
+        "Animehunch"
       ]
     },
     {
@@ -1150,6 +1258,33 @@
       ]
     },
     {
+      "id": "https://animehunch.com/sony-pictures-joins-lionsgate-for-naruto-live-action-movie-production-to-officially-begin-in-2027/",
+      "title": "Sony Pictures Joins Lionsgate For Naruto Live-Action Movie; Production To Officially Begin In 2027",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/sony-pictures-joins-lionsgate-for-naruto-live-action-movie-production-to-officially-begin-in-2027/",
+      "summary": "Sony Pictures has joined Lionsgate as a co-financing and international distribution partner for the upcoming live-action Naruto movie, with production scheduled to begin in spring 2027. The deal follows competitive bidding involving multiple studios and marks a major step forward for the long-awaited adaptation of Masashi Kishimoto’s manga. Lionsgate will continue to oversee the film’s ... Read more",
+      "published_at": "2026-11-04T11:51:06+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 27,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/sony-pictures-joins-lionsgate-for-naruto-live-action-movie-production-to-officially-begin-in-2027",
+      "feed_sources": [
+        "Animehunch"
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9474/",
       "title": "Mashle: Magic and Muscles Live-Action Movie Set for March 19, 2027; Teaser Visual Reveals Mash From Behind",
       "title_language": "en",
@@ -1366,6 +1501,33 @@
       ]
     },
     {
+      "id": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
+      "summary": "Kyoto Animation director of photography Kazuya Takao looked back on the production of the anime film A Silent Voice during a commemorative stage greeting held at the Marunouchi Piccadilly Dolby Cinema in Tokyo on Nov. 8, 2026. The event was held as a part of the movie’s 10th-anniversary theatrical re-release and first ever Dolby Cinema ... Read more",
+      "published_at": "2026-11-09T20:48:16+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 24,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie",
+      "feed_sources": [
+        "Animehunch"
+      ]
+    },
+    {
       "id": "https://animecorner.me/minami-ke-season-5-reveals-teaser-visual-trailer-april-2027-premiere/",
       "title": "Minami-ke Season 5 Reveals Teaser Visual, Trailer, April 2027 Premiere",
       "title_language": "en",
@@ -1417,6 +1579,33 @@
       "canonical_url": "https://myanimelist.net/news/74904410",
       "feed_sources": [
         "MyAnimeList News – RSS"
+      ]
+    },
+    {
+      "id": "https://animehunch.com/mashle-magic-and-muscles-season-3-to-air-on-crunchyroll-beginning-in-january-2027/",
+      "title": "Mashle: Magic And Muscles Season 3 To Air On Crunchyroll Beginning In January 2027",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/mashle-magic-and-muscles-season-3-to-air-on-crunchyroll-beginning-in-january-2027/",
+      "summary": "Crunchyroll announced on October 29, 2026, that MASHLE: MAGIC AND MUSCLES The Tri-Magicathlon Divine Visionary Final Exam Arc, the third season of the hit anime series, will stream on its platforms beginning in January 2027. Check out the trailer here: The new season will be available on Crunchyroll worldwide, excluding Japan and China. The series ... Read more",
+      "published_at": "2026-10-30T07:55:35+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 24,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/mashle-magic-and-muscles-season-3-to-air-on-crunchyroll-beginning-in-january-2027",
+      "feed_sources": [
+        "Animehunch"
       ]
     },
     {
@@ -1579,6 +1768,33 @@
       "canonical_url": "https://animecorner.me/rainy-day-serenade-anime-reveals-key-visual-teaser-trailer-main-cast-april-2027-premiere",
       "feed_sources": [
         "Anime Corner"
+      ]
+    },
+    {
+      "id": "https://animehunch.com/mashle-live-action-director-offered-mackenyu-the-lead-role-just-5-seconds-after-getting-adaptation-rights/",
+      "title": "Mashle Live-Action Director Offered Mackenyu The Lead Role Just 5 Seconds After Getting Adaptation Rights",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/mashle-live-action-director-offered-mackenyu-the-lead-role-just-5-seconds-after-getting-adaptation-rights/",
+      "summary": "Director Yuichi Fukuda revealed that he offered Mackenyu the lead role in the upcoming live-action Mashle: Magic and Muscles film just five seconds after receiving permission to adapt Hajime Komoto’s manga. Mackenyu will play Mash Burnedead in the film, which is scheduled to open in Japanese theaters on March 19, 2027. The casting announcement was ... Read more",
+      "published_at": "2026-11-05T10:36:23+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 23,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/mashle-live-action-director-offered-mackenyu-the-lead-role-just-5-seconds-after-getting-adaptation-rights",
+      "feed_sources": [
+        "Animehunch"
       ]
     },
     {
@@ -1774,6 +1990,33 @@
       ]
     },
     {
+      "id": "https://animehunch.com/anime-voice-actors-avengers-doomsday-japanese-dub/",
+      "title": "Major Anime Voice Actors Headline Avengers: Doomsday Japanese Dub",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/anime-voice-actors-avengers-doomsday-japanese-dub/",
+      "summary": "Marvel Studios Japan revealed the Japanese dub cast for Avengers: Doomsday ahead of its Dec. 18 theatrical release in the country, bringing together several major anime voice actors to localize the film, including Yuki Kaji and Toshiyuki Morikawa. In an official video message, Robert Downey Jr. personally announced veteran voice actor Toshiyuki Morikawa as Doctor ... Read more",
+      "published_at": "2026-11-07T02:35:50+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 22,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/anime-voice-actors-avengers-doomsday-japanese-dub",
+      "feed_sources": [
+        "Animehunch"
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/6/laid-back-camp-season-4-anime-trailer-key-visual-april-2027-premiere",
       "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
       "title_language": "en",
@@ -1798,6 +2041,33 @@
       "canonical_url": "https://crunchyroll.com/news/latest/2026/11/6/laid-back-camp-season-4-anime-trailer-key-visual-april-2027-premiere",
       "feed_sources": [
         "Crunchyroll News – RSS"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+      "title": "One Piece : Oda aurait fait annuler un arc complet de la série Netflix",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+      "summary": "Eiichiro Oda aurait bloqué une version alternative de la première saison de One Piece dans laquelle Syrup Village disparaissait au profit d’une introduction d’Usopp sur l’île de Gaimon. Cette intervention ne concerne donc ni un nouvel arc du manga ni une partie de l’anime annulée définitivement. L’information provient du récit de Steven Maeda, showrunner de […]",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "France",
+      "source_region": "Europe",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 22,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece",
+      "feed_sources": [
+        "World of Geek – Manga"
       ]
     },
     {
@@ -1960,6 +2230,33 @@
       "canonical_url": "https://animecorner.me/laid-back-camp-season-4-anime-reveals-new-trailer-visual-april-2027-release-date",
       "feed_sources": [
         "Anime Corner"
+      ]
+    },
+    {
+      "id": "https://animehunch.com/naruto-spy-x-family-and-kaiju-no-8-join-emaqi-premiums-november-lineup/",
+      "title": "Naruto, Spy x Family And Kaiju No. 8 Join emaqi Premium’s November Lineup",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/naruto-spy-x-family-and-kaiju-no-8-join-emaqi-premiums-november-lineup/",
+      "summary": "emaqi has announced that five popular manga series from VIZ Media will join its emaqi Premium library in November 2026. This includes Naruto, Spy x Family, Kaiju No. 8, Black Torch and Dr. STONE. Alongside the VIZ Media additions, emaqi will release eight exclusive manga titles throughout November, all receiving their first official English digital ... Read more",
+      "published_at": "2026-11-04T11:38:47+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 21,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/naruto-spy-x-family-and-kaiju-no-8-join-emaqi-premiums-november-lineup",
+      "feed_sources": [
+        "Animehunch"
       ]
     },
     {
@@ -2771,6 +3068,33 @@
       "canonical_url": "https://animefeminist.com/horror-collector-episode-1",
       "feed_sources": [
         "Anime Feminist"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+      "title": "Crunchyroll annonce neuf nouvelles séries d’anime pour 2027",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+      "summary": "Crunchyroll dévoile neuf nouveaux anime pour 2027, entre romances, fantasy et action. Au programme aussi, des adaptations de webtoons coréens et de jeux vidéo.",
+      "published_at": "2026-10-14T05:55:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "France",
+      "source_region": "Europe",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 17,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027",
+      "feed_sources": [
+        "World of Geek – Manga"
       ]
     },
     {
@@ -3629,6 +3953,33 @@
       ]
     },
     {
+      "id": "https://animehunch.com/the-dangers-in-my-heart-author-reflects-on-physical-toll-manga/",
+      "title": "‘I’m Relieved I Could End It Properly’: The Dangers In My Heart Author Reflects On Physical Toll Of Manga’s 8.5-Year Run",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/the-dangers-in-my-heart-author-reflects-on-physical-toll-manga/",
+      "summary": "Akita Shoten released the 14th and final compiled tankobon volume of Norio Sakurai’s romantic comedy manga The Dangers in My Heart (BokuYaba) on Friday, Nov. 6, 2026. To mark this release, Animate Times published a commemorative interview written by Mari Sakasai featuring Sakurai alongside her longtime editor Yuko Fukuda. In the interview, the creator discussed ... Read more",
+      "published_at": "2026-11-07T03:19:55+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 15,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/the-dangers-in-my-heart-author-reflects-on-physical-toll-manga",
+      "feed_sources": [
+        "Animehunch"
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVTJrWncwaERFclhld1IzTHYwTHlIYjJpSXZlUWNaYndmRWZMckV0c095elZnd0VEYVphSktwUnZBOUR6RGF3akktV3FIMEViQ05uZU9TdUhqSS11RUdQZDJVVVhOYUpiaFV2b3RTYVVicW13eHhLT2xfbTF0ZWNtZHVINEtOZjBsN2lvRmM2R1RBRW9oSTBlTmcyTXB4bUxSVTV3NlAxTld1S0xtSFoyeFdPazZkR1NIejNEWG5ISXkyNWxsRkE?oc=5",
       "title": "Wound & Bandage Anime Trailer Reveals MIYAVI Opening Theme Song, More Cast - Crunchyroll",
       "title_language": "en",
@@ -3710,6 +4061,33 @@
         "Google News – Philippines",
         "Google News – United Kingdom",
         "Google News – United States"
+      ]
+    },
+    {
+      "id": "https://animehunch.com/dragon-ball-super-beerus-english-spanish-and-portuguese-dubs-release-date-revealed/",
+      "title": "Dragon Ball Super: Beerus’ English, Spanish And Portuguese Dubs Release Date Revealed",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/dragon-ball-super-beerus-english-spanish-and-portuguese-dubs-release-date-revealed/",
+      "summary": "Crunchyroll has announced that Dragon Ball Super: Beerus will receive English, Spanish and Portuguese dubs, which will begin streaming on the platform on Nov. 12, 2026, at 8:00 a.m. PT. The initial voice cast for all three language versions has also been revealed. The English dub will see Sean Schemmel return as Son Goku, Christopher ... Read more",
+      "published_at": "2026-11-06T09:29:49+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 15,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/dragon-ball-super-beerus-english-spanish-and-portuguese-dubs-release-date-revealed",
+      "feed_sources": [
+        "Animehunch"
       ]
     },
     {
@@ -4883,6 +5261,33 @@
       ]
     },
     {
+      "id": "https://animehunch.com/nippon-anime-awards-japans-new-anime-awards-ceremony-set-to-debut-in-2027/",
+      "title": "Nippon Anime Awards: Japan’s New Anime Awards Ceremony Set To Debut In 2027",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://animehunch.com/nippon-anime-awards-japans-new-anime-awards-ceremony-set-to-debut-in-2027/",
+      "summary": "Japan is set to get a new anime awards ceremony, with the inaugural Nippon Anime Awards scheduled to take place on Nov. 21, 2027, at SGC Hall Ariake in Tokyo. The announcement was made on Nov. 2 during the closing event of TOKYO ANIME NEXT, where Kazuko Ishikawa, chairperson of the AJA, unveiled the awards’ ... Read more",
+      "published_at": "2026-11-03T09:59:24+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Animehunch",
+      "publisher": "Animehunch",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "India",
+      "source_region": "South Asia",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 13,
+      "verification": "à vérifier",
+      "canonical_url": "https://animehunch.com/nippon-anime-awards-japans-new-anime-awards-ceremony-set-to-debut-in-2027",
+      "feed_sources": [
+        "Animehunch"
+      ]
+    },
+    {
       "id": "https://adala-news.fr/2026/11/lanime-charisma-en-teaser-video/",
       "title": "L’anime Charisma, en Teaser Vidéo",
       "title_language": "fr",
@@ -5234,6 +5639,33 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+      "title": "Naruto Shadow Rising : Masashi Kishimoto revient pour un nouveau manga ?!",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+      "summary": "Naruto revient avec Shadow Rising, le nouveau manga de Kishimoto. Son lien avec Boruto reste flou, mais Jump Festa 2027 devrait enfin lever le voile.",
+      "published_at": "2026-10-29T07:10:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "France",
+      "source_region": "Europe",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising",
+      "feed_sources": [
+        "World of Geek – Manga"
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/chatty-af-245-2026-summer-season-wrap-up-part-1/",
       "title": "Chatty AF 245: 2026 Summer Season Wrap-Up (Part 1)",
       "title_language": "en",
@@ -5258,6 +5690,33 @@
       "canonical_url": "https://animefeminist.com/chatty-af-245-2026-summer-season-wrap-up-part-1",
       "feed_sources": [
         "Anime Feminist"
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+      "title": "Jujutsu Kaisen Modulo : Yuji Itadori maîtrise enfin Shrine et pourrait accéder à Divine Flame",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+      "summary": "Gege Akutami offre à Yuji Itadori un nouveau niveau de puissance dans Jujutsu Kaisen Modulo maîtrisant enfin Shrine et une force bien plus létale que dans le manga d origine",
+      "published_at": "2026-09-22T09:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "World of Geek – Manga",
+      "publisher": "World of Geek – Manga",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "France",
+      "source_region": "Europe",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji",
+      "feed_sources": [
+        "World of Geek – Manga"
       ]
     },
     {
@@ -5421,498 +5880,30 @@
       "feed_sources": [
         "Anime News Network – News"
       ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
-      "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
-      "summary": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime Vulture",
-      "published_at": "2026-11-09T19:00:32+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
-      "feed_sources": [
-        "Google News – India",
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
-      "title": "Le manga Mashle adapté en film live !, 09 Novembre 2026 - Manga news",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
-      "summary": "Le manga Mashle adapté en film live !, 09 Novembre 2026 Manga news",
-      "published_at": "2026-11-09T13:00:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google Actualités – France",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "France",
-      "market_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
-      "feed_sources": [
-        "Google Actualités – France"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcmtVbW83NmY2YWF2b1IwaFhEUGZiUk5TQzlwd1RLTmlpakFJVWNFRWczYVZ0TnJ0TVNlb0swM2xtdzhTa09TcXVJMk1qbWhwLW5YdXhDYk9WSmNqZ1BYNk5sc1pVbWtqejRQU0VNOXpUMW9rRmdGUHdVMHhYblhDcmZGSGxTMXRXcERsR0NTMGZIMm53YVRHeXZDeHM0SnZNX0VvemRPVkUzZy1NY0gyVUEtR2lpM25Ud0F0bGxmaTRMOWxnN3Bua0t4UmQ0Z3kwUkJsQzJxZDN3T1VPb1V0N2ZSeWhyTEkwQnB4Ql9seU4?oc=5",
-      "title": "Spy x Family : alerte, la saison 4 de l’anime et un film sont en préparation ! Quand seront-ils disponibles ? Que vont-ils raconter ? - Serieously",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcmtVbW83NmY2YWF2b1IwaFhEUGZiUk5TQzlwd1RLTmlpakFJVWNFRWczYVZ0TnJ0TVNlb0swM2xtdzhTa09TcXVJMk1qbWhwLW5YdXhDYk9WSmNqZ1BYNk5sc1pVbWtqejRQU0VNOXpUMW9rRmdGUHdVMHhYblhDcmZGSGxTMXRXcERsR0NTMGZIMm53YVRHeXZDeHM0SnZNX0VvemRPVkUzZy1NY0gyVUEtR2lpM25Ud0F0bGxmaTRMOWxnN3Bua0t4UmQ0Z3kwUkJsQzJxZDN3T1VPb1V0N2ZSeWhyTEkwQnB4Ql9seU4?oc=5",
-      "summary": "Spy x Family : alerte, la saison 4 de l’anime et un film sont en préparation ! Quand seront-ils disponibles ? Que vont-ils raconter ? Serieously",
-      "published_at": "2026-11-09T13:00:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google Actualités – France",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "France",
-      "market_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcmtVbW83NmY2YWF2b1IwaFhEUGZiUk5TQzlwd1RLTmlpakFJVWNFRWczYVZ0TnJ0TVNlb0swM2xtdzhTa09TcXVJMk1qbWhwLW5YdXhDYk9WSmNqZ1BYNk5sc1pVbWtqejRQU0VNOXpUMW9rRmdGUHdVMHhYblhDcmZGSGxTMXRXcERsR0NTMGZIMm53YVRHeXZDeHM0SnZNX0VvemRPVkUzZy1NY0gyVUEtR2lpM25Ud0F0bGxmaTRMOWxnN3Bua0t4UmQ0Z3kwUkJsQzJxZDN3T1VPb1V0N2ZSeWhyTEkwQnB4Ql9seU4?oc=5",
-      "feed_sources": [
-        "Google Actualités – France"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
-      "title": "Late Tetsuya Chiba's Autobiographical Manga to End in 8th Volume",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
-      "summary": "Tomorrow's Joe's creator launched Hinemosu Notari Nikki in 2015, went on hiatus on September 25 before his October 22 death",
-      "published_at": "2026-11-09T09:17:48+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "United States",
-      "source_region": "North America",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
-      "title": "Dans 5 mois sortira un film adapté d'un manga culte, son acteur se prépare depuis 3 ans pour le rôle - Purebreak",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
-      "summary": "Dans 5 mois sortira un film adapté d'un manga culte, son acteur se prépare depuis 3 ans pour le rôle Purebreak",
-      "published_at": "2026-11-09T08:30:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google Actualités – France",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "France",
-      "market_region": "Europe",
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
-      "feed_sources": [
-        "Google Actualités – France"
-      ]
-    },
-    {
-      "id": "https://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-      "title": "SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-      "summary": "Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .",
-      "published_at": "2026-11-08T11:00:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Animotaku",
-      "publisher": "Animotaku",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "France",
-      "source_region": "Europe",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027",
-      "feed_sources": [
-        "Animotaku"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-      "title": "10 Perfect 2000s Anime Movies That Nobody Remembers - Comic Book Resources",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-      "summary": "10 Perfect 2000s Anime Movies That Nobody Remembers Comic Book Resources",
-      "published_at": "2026-11-08T04:45:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-      "feed_sources": [
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://adala-news.fr/2026/11/le-film-anime-bocchi-the-rock-annonce-pour-2027/",
-      "title": "Le film anime Bocchi the Rock!, annoncé pour 2027",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://adala-news.fr/2026/11/le-film-anime-bocchi-the-rock-annonce-pour-2027/",
-      "summary": "Le phénomène musical Bocchi the Rock! va faire son grand retour dans les salles obscures avec l’annonce…",
-      "published_at": "2026-11-01T17:10:37+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Adala News",
-      "publisher": "Adala News",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "France",
-      "source_region": "Europe",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://adala-news.fr/2026/11/le-film-anime-bocchi-the-rock-annonce-pour-2027",
-      "feed_sources": [
-        "Adala News"
-      ]
-    },
-    {
-      "id": "https://animeherald.com/2026/10/30/talking-galaxic-baseball-with-acky-bright-at-nycc-2026/?utm_source=rss&utm_medium=rss&utm_campaign=talking-galaxic-baseball-with-acky-bright-at-nycc-2026",
-      "title": "Talking GalaXic Baseball with Acky Bright at NYCC 2026",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://animeherald.com/2026/10/30/talking-galaxic-baseball-with-acky-bright-at-nycc-2026/?utm_source=rss&utm_medium=rss&utm_campaign=talking-galaxic-baseball-with-acky-bright-at-nycc-2026",
-      "summary": "Anime Herald: I overheard that you’re a fan of Spider-Man. Do you know what baseball team Spider-Man roots for? Acky Bright: I don’t know off the top of my head, but in chapter six there will be a spider-ish character coming in to play. Anime Herald: Got it. Just to share, Spider-Man roots for the […] Talking GalaXic Baseball with Acky Bright at NYCC 2026 - Seth Burn",
-      "published_at": "2026-10-31T02:12:24+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime Herald",
-      "publisher": "Anime Herald",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "United States",
-      "source_region": "North America",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://animeherald.com/2026/10/30/talking-galaxic-baseball-with-acky-bright-at-nycc-2026",
-      "feed_sources": [
-        "Anime Herald"
-      ]
-    },
-    {
-      "id": "https://www.bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026/",
-      "title": "Zoom sur les meilleures ventes de mangas d’avril 2026",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026/",
-      "summary": "14 e ! C’est la place du mois en ce qui concerne le manga : en effet, sont successivement entrés, à cette place dans le classement des meilleures ventes tous genres confondus de GFK/ Livres Hebdo , le quinzième volume de « Frieren », le vingt-deuxième de « Dandadan » et le vingtième de « Solo Leveling Ragnarok ». Ce classement a juste été perturbé, en troisième semaine, par l’arrivée inopportune d’un classique franco-belge : « La Longue Marche de Lucky Luke », alors que le mois dernier, c’était ",
-      "published_at": "2026-05-13T23:00:33+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "BDzoom – Manga",
-      "publisher": "BDzoom – Manga",
-      "category": "manga-anime",
-      "source_type": "editorial_site",
-      "source_country": "France",
-      "source_region": "Europe",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "fr",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://bdzoom.com/212439/mangas/zoom-sur-les-meilleures-ventes-de-mangas-d%e2%80%99avril-2026",
-      "feed_sources": [
-        "BDzoom – Manga"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video - Crunchyroll",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
-      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video Crunchyroll",
-      "published_at": "2026-11-10T04:15:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
-      "feed_sources": [
-        "Google News – India",
-        "Google News – Philippines",
-        "Google News – United Kingdom",
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "summary": "Weekly episodes now debuting as part of \"2nd & 3rd stages\" that started on September 25",
-      "published_at": "2026-11-10T03:34:51+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "United States",
-      "source_region": "North America",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RanBXN3ZuVWlYRUJGMXBsQk1sUmhTNjFreDNsakNVQ0tSYjAzbEJlR3JoNXFqd21PU3lsckpWUzJ0blYyWGJaZjVyLVFjdmE0MG9IX1dPa2p0eWlpckhaM2x4M0hZWFJWMHc?oc=5",
-      "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - IMDb",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RanBXN3ZuVWlYRUJGMXBsQk1sUmhTNjFreDNsakNVQ0tSYjAzbEJlR3JoNXFqd21PU3lsckpWUzJ0blYyWGJaZjVyLVFjdmE0MG9IX1dPa2p0eWlpckhaM2x4M0hZWFJWMHc?oc=5",
-      "summary": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes IMDb",
-      "published_at": "2026-11-10T03:07:29+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – India",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "India",
-      "market_region": "South Asia",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RanBXN3ZuVWlYRUJGMXBsQk1sUmhTNjFreDNsakNVQ0tSYjAzbEJlR3JoNXFqd21PU3lsckpWUzJ0blYyWGJaZjVyLVFjdmE0MG9IX1dPa2p0eWlpckhaM2x4M0hZWFJWMHc?oc=5",
-      "feed_sources": [
-        "Google News – India"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84X3hRNW55OG95TGlvWGM0MDcyUzBUSW1taEZ4eEUxNGVVZDFIZjU4STlQTF9LVmJScGwtcEdtTTlXb20yX2hkeWZXZTdlWlByd0JDY0NLNFZ6eHRLWEg4b3lsSVVDX0dJT0E?oc=5",
-      "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - IMDb",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84X3hRNW55OG95TGlvWGM0MDcyUzBUSW1taEZ4eEUxNGVVZDFIZjU4STlQTF9LVmJScGwtcEdtTTlXb20yX2hkeWZXZTdlWlByd0JDY0NLNFZ6eHRLWEg4b3lsSVVDX0dJT0E?oc=5",
-      "summary": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes IMDb",
-      "published_at": "2026-11-10T02:59:35+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google Actualités – Brésil",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "Brazil",
-      "market_region": "South America",
-      "source_role": "professional_media",
-      "language": "pt",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84X3hRNW55OG95TGlvWGM0MDcyUzBUSW1taEZ4eEUxNGVVZDFIZjU4STlQTF9LVmJScGwtcEdtTTlXb20yX2hkeWZXZTdlWlByd0JDY0NLNFZ6eHRLWEg4b3lsSVVDX0dJT0E?oc=5",
-      "feed_sources": [
-        "Google Actualités – Brésil"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGNTOTRZOTdKbmxGMlFuYjlIcVlLcXRPaXpaRTJmcmcxSU41RkNLQU4xR3Fta2NSYWJGWjBDRWZjcWV6bk9zSnY0azdsa0VhcWc4SWdLeUZWZjl4bEcxQ1ZqY05YN1NrQkVua3VqVTZoOHQ4c1hHc3RaWmRHRzBaWFBVWk9wZDA?oc=5",
-      "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - TVLine",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGNTOTRZOTdKbmxGMlFuYjlIcVlLcXRPaXpaRTJmcmcxSU41RkNLQU4xR3Fta2NSYWJGWjBDRWZjcWV6bk9zSnY0azdsa0VhcWc4SWdLeUZWZjl4bEcxQ1ZqY05YN1NrQkVua3VqVTZoOHQ4c1hHc3RaWmRHRzBaWFBVWk9wZDA?oc=5",
-      "summary": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes TVLine",
-      "published_at": "2026-11-10T02:12:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGNTOTRZOTdKbmxGMlFuYjlIcVlLcXRPaXpaRTJmcmcxSU41RkNLQU4xR3Fta2NSYWJGWjBDRWZjcWV6bk9zSnY0azdsa0VhcWc4SWdLeUZWZjl4bEcxQ1ZqY05YN1NrQkVua3VqVTZoOHQ4c1hHc3RaWmRHRzBaWFBVWk9wZDA?oc=5",
-      "feed_sources": [
-        "Google News – India",
-        "Google News – Philippines",
-        "Google News – United Kingdom",
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
-      "title": "10 Underrated Crunchyroll Fantasy Anime That Are 10/10 Masterpieces - Comic Book Resources",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
-      "summary": "10 Underrated Crunchyroll Fantasy Anime That Are 10/10 Masterpieces Comic Book Resources",
-      "published_at": "2026-11-09T22:15:11+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
-      "feed_sources": [
-        "Google News – India",
-        "Google News – Philippines",
-        "Google News – United Kingdom",
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
-      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
-      "summary": "Check out the new music videos from FLOW, BLUE ENCOUNT and more!",
-      "published_at": "2026-11-09T20:00:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "United States",
-      "source_region": "North America",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
     }
   ],
-  "trend_count": 373,
+  "trend_count": 402,
   "trends": [
     {
-      "id": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcmtVbW83NmY2YWF2b1IwaFhEUGZiUk5TQzlwd1RLTmlpakFJVWNFRWczYVZ0TnJ0TVNlb0swM2xtdzhTa09TcXVJMk1qbWhwLW5YdXhDYk9WSmNqZ1BYNk5sc1pVbWtqejRQU0VNOXpUMW9rRmdGUHdVMHhYblhDcmZGSGxTMXRXcERsR0NTMGZIMm53YVRHeXZDeHM0SnZNX0VvemRPVkUzZy1NY0gyVUEtR2lpM25Ud0F0bGxmaTRMOWxnN3Bua0t4UmQ0Z3kwUkJsQzJxZDN3T1VPb1V0N2ZSeWhyTEkwQnB4Ql9seU4?oc=5",
-      "title": "Spy x Family : alerte, la saison 4 de l’anime et un film sont en préparation ! Quand seront-ils disponibles ? Que vont-ils raconter ? - Serieously",
-      "title_language": "fr",
-      "score": 66,
-      "priority": "à examiner",
+      "id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+      "title_language": "en",
+      "score": 70,
+      "priority": "priorité élevée",
       "score_breakdown": {
         "relevance": 32,
-        "freshness": 74,
-        "independent_sources": 7,
-        "article_volume": 14
+        "freshness": 87,
+        "independent_sources": 8,
+        "article_volume": 15
       },
-      "article_count": 9,
+      "article_count": 10,
       "market_signal_count": 5,
-      "source_count": 7,
+      "source_count": 8,
       "primary_source_count": 0,
       "primary_sources": [],
       "source_countries": [
         "France",
+        "India",
         "International",
         "Japan",
         "Philippines",
@@ -5923,6 +5914,7 @@
         "Europe",
         "International",
         "North America",
+        "South Asia",
         "Southeast Asia"
       ],
       "market_countries": [
@@ -5940,14 +5932,27 @@
         "Adala News",
         "Anime Corner",
         "Anime News Network",
+        "Animehunch",
         "Animotaku",
         "Crunchyroll",
         "MyAnimeList",
         "ORICON / Japan Anime News"
       ],
-      "published_at": "2026-11-09T13:00:00+00:00",
+      "published_at": "2026-11-09T22:33:42+00:00",
       "status": "multi-source à confirmer",
       "articles": [
+        {
+          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+          "title_language": "en",
+          "url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        },
         {
           "title": "Spy x Family : alerte, la saison 4 de l’anime et un film sont en préparation ! Quand seront-ils disponibles ? Que vont-ils raconter ? - Serieously",
           "title_language": "fr",
@@ -6030,18 +6035,6 @@
           "market_country": null,
           "feed_sources": [
             "MyAnimeList News – RSS"
-          ]
-        },
-        {
-          "title": "SPY x FAMILY Announces Two New Anime Projects: Season 4 and Second Movie Set for 2027",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9485/",
-          "source": "Japan Anime News – ORICON RSS",
-          "source_type": "professional-media",
-          "source_country": "Japan",
-          "market_country": null,
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
           ]
         }
       ]
@@ -6407,6 +6400,53 @@
       ]
     },
     {
+      "id": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+      "title_language": "en",
+      "score": 45,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 24,
+        "freshness": 85,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-09T20:48:16+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+          "title_language": "en",
+          "url": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
       "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
       "title_language": "en",
@@ -6501,10 +6541,104 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "title_language": "en",
+      "score": 43,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 94,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-10T03:34:51+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "title_language": "en",
+      "score": 43,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 14,
+        "freshness": 91,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-10T01:39:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animecorner.me/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her-anime-gets-season-2/",
       "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
       "title_language": "en",
-      "score": 43,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 19,
@@ -6593,100 +6727,6 @@
           "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her Season 2 Anime Announced",
           "title_language": "en",
           "url": "https://crunchyroll.com/news/latest/2026/11/7/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her-season-2-anime-announced",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "title_language": "en",
-      "score": 43,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 94,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-10T03:34:51+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-      "title_language": "en",
-      "score": 43,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 14,
-        "freshness": 92,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T01:39:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
           "source": "Crunchyroll News – RSS",
           "source_type": "editorial_site",
           "source_country": "United States",
@@ -7044,6 +7084,83 @@
       ]
     },
     {
+      "id": "https://animehunch.com/bocchi-the-rock-announces-new-anime-movie-focusing-on-seika-and-nijika-for-2027/",
+      "title": "Bocchi The Rock! Announces New Anime Movie Focusing On Seika And Nijika For 2027",
+      "title_language": "en",
+      "score": 40,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 30,
+        "freshness": 0,
+        "independent_sources": 3,
+        "article_volume": 3
+      },
+      "article_count": 3,
+      "market_signal_count": 0,
+      "source_count": 3,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France",
+        "India",
+        "Japan"
+      ],
+      "source_regions": [
+        "East Asia",
+        "Europe",
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "multi_media_reported",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Adala News",
+        "Animehunch",
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-02T10:35:37+00:00",
+      "status": "multi-source à confirmer",
+      "articles": [
+        {
+          "title": "Bocchi The Rock! Announces New Anime Movie Focusing On Seika And Nijika For 2027",
+          "title_language": "en",
+          "url": "https://animehunch.com/bocchi-the-rock-announces-new-anime-movie-focusing-on-seika-and-nijika-for-2027/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        },
+        {
+          "title": "BOCCHI THE ROCK! Hoshi no Ashiato Film Announced for 2027, Centered on Seika Ijichi",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9470/",
+          "source": "Japan Anime News – ORICON RSS",
+          "source_type": "professional-media",
+          "source_country": "Japan",
+          "market_country": null,
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        },
+        {
+          "title": "Le film anime Bocchi the Rock!, annoncé pour 2027",
+          "title_language": "fr",
+          "url": "https://adala-news.fr/2026/11/le-film-anime-bocchi-the-rock-annonce-pour-2027/",
+          "source": "Adala News",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "Adala News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
       "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
       "title_language": "en",
@@ -7324,6 +7441,53 @@
             "Google News – Philippines",
             "Google News – United Kingdom",
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://animehunch.com/toho-eyes-historic-20-billion-yen-milestone-for-chiikawa-movie-as-it-continues-succesful-box-office-run/",
+      "title": "TOHO Eyes Historic 20 Billion Yen Milestone For Chiikawa Movie As It Continues Successful Box Office Run",
+      "title_language": "en",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 86,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-09T21:26:19+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "TOHO Eyes Historic 20 Billion Yen Milestone For Chiikawa Movie As It Continues Successful Box Office Run",
+          "title_language": "en",
+          "url": "https://animehunch.com/toho-eyes-historic-20-billion-yen-milestone-for-chiikawa-movie-as-it-continues-succesful-box-office-run/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
           ]
         }
       ]
@@ -8469,7 +8633,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 14,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -8752,7 +8916,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 62,
+        "freshness": 61,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8844,7 +9008,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -10969,51 +11133,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Jc3V5SGdrWGpzLWZnZEdIWFlxd0RKcjY1eWZpTGJxSWdtRS1Ha0NCTlFoUkxubGc4SmhidEx3RG1QNlh5aFNPNTAzNDZLYlVFMEZhVG1zSVllQQ?oc=5",
-      "title": "10 Best Anime That Ended in the 2010s, Ranked - Comic Book Resources",
-      "title_language": "en",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 84,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T20:15:12+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "10 Best Anime That Ended in the 2010s, Ranked - Comic Book Resources",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Jc3V5SGdrWGpzLWZnZEdIWFlxd0RKcjY1eWZpTGJxSWdtRS1Ha0NCTlFoUkxubGc4SmhidEx3RG1QNlh5aFNPNTAzNDZLYlVFMEZhVG1zSVllQQ?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRGVSMU41dURudnNxdkppWFFZMjVZMWZ3UW94NDZTeWowdmlKZFhiWmV3QnRSOG5KZ1d6Y2tMdnE1clU4TWlGVjdIdGF1MFc3cmo2RW13bnAwaDNGMFZNQ1l3WDkwbkVrTVM2UlpZdGdhZTl6eFJqWERnOFlmNE9SM1ZXRmZocC1LMHk0Q2Q5cmx2cGNpLXhQb0JFOUM1cm1QX2hMY253c0lOUFg1NHBMNGwybnlMazQ5Y3VEc3RMOC1lZmEtc29hbmwxRXJBVC1uWXR1a1UyVUNjSi1ic1d3?oc=5",
       "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary e mais músicas de anime chegam à Crunchyroll - Crunchyroll",
       "title_language": "fr",
@@ -11194,6 +11313,51 @@
           "market_country": null,
           "feed_sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Jc3V5SGdrWGpzLWZnZEdIWFlxd0RKcjY1eWZpTGJxSWdtRS1Ha0NCTlFoUkxubGc4SmhidEx3RG1QNlh5aFNPNTAzNDZLYlVFMEZhVG1zSVllQQ?oc=5",
+      "title": "10 Best Anime That Ended in the 2010s, Ranked - Comic Book Resources",
+      "title_language": "en",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 84,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T20:15:12+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "10 Best Anime That Ended in the 2010s, Ranked - Comic Book Resources",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Jc3V5SGdrWGpzLWZnZEdIWFlxd0RKcjY1eWZpTGJxSWdtRS1Ha0NCTlFoUkxubGc4SmhidEx3RG1QNlh5aFNPNTAzNDZLYlVFMEZhVG1zSVllQQ?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – United States"
           ]
         }
       ]
@@ -11523,68 +11687,6 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9470/",
-      "title": "BOCCHI THE ROCK! Hoshi no Ashiato Film Announced for 2027, Centered on Seika Ijichi",
-      "title_language": "en",
-      "score": 30,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 22,
-        "freshness": 0,
-        "independent_sources": 2,
-        "article_volume": 2
-      },
-      "article_count": 2,
-      "market_signal_count": 0,
-      "source_count": 2,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "France",
-        "Japan"
-      ],
-      "source_regions": [
-        "East Asia",
-        "Europe"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "multi_media_reported",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Adala News",
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-02T05:00:00+00:00",
-      "status": "multi-source à confirmer",
-      "articles": [
-        {
-          "title": "BOCCHI THE ROCK! Hoshi no Ashiato Film Announced for 2027, Centered on Seika Ijichi",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9470/",
-          "source": "Japan Anime News – ORICON RSS",
-          "source_type": "professional-media",
-          "source_country": "Japan",
-          "market_country": null,
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        },
-        {
-          "title": "Le film anime Bocchi the Rock!, annoncé pour 2027",
-          "title_language": "fr",
-          "url": "https://adala-news.fr/2026/11/le-film-anime-bocchi-the-rock-annonce-pour-2027/",
-          "source": "Adala News",
-          "source_type": "editorial_site",
-          "source_country": "France",
-          "market_country": null,
-          "feed_sources": [
-            "Adala News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeW5jZW13ODJVRWFvVUZ3azlTQllBUi1Bem5IVXNGT3NHMGJrODV4aVFnQVFtaWMwdU1QcENtRzdFbkR0YWNIakltQlhmZzhwSUROTnhsSU5WRm5adWQ0UjZiODRINi0zcE41SjlDZktqV3Y5bUlZQlZXU2h2S0xZa1FYQWdUclMtUkpqOFFMNVpqNE00ek1zcUg5Yld3SlFrcFNfLVFRaEI4Wk5odXVFMUN0V1lxb2JuUTZtZXZPdXRidw?oc=5",
       "title": "Quiz : classe ces 7 personnages de My Hero Academia, on te dira si tu finis héros ou vilain - Serieously",
       "title_language": "fr",
@@ -11772,7 +11874,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 78,
+        "freshness": 77,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -14310,6 +14412,53 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+      "title": "Kagurabachi : Crunchyroll annonce la date de sortie dans un nouveau trailer",
+      "title_language": "fr",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 30,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-07T06:01:24+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Kagurabachi : Crunchyroll annonce la date de sortie dans un nouveau trailer",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/kagurabachi-anime-avril-2027/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://otakuusamagazine.com/room-of-guilty-pleasure-anime-shows-off-trailer-after-revealing-early-uncensored-release/",
       "title": "Room of Guilty Pleasure Anime Shows Off Trailer After Revealing Early, Uncensored Release",
       "title_language": "en",
@@ -14492,6 +14641,53 @@
           "market_country": null,
           "feed_sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://animehunch.com/33-year-old-single-female-knight-captain-anime-was-confirmed-just-a-week-after-joking-about-it/",
+      "title": "‘It Actually Came’: Interspecies Reviewers Author’s New Ecchi Anime Was Confirmed Just A Week After Joking About It",
+      "title_language": "en",
+      "score": 21,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 28,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-07T04:09:07+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "‘It Actually Came’: Interspecies Reviewers Author’s New Ecchi Anime Was Confirmed Just A Week After Joking About It",
+          "title_language": "en",
+          "url": "https://animehunch.com/33-year-old-single-female-knight-captain-anime-was-confirmed-just-a-week-after-joking-about-it/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
           ]
         }
       ]
@@ -14965,6 +15161,53 @@
       ]
     },
     {
+      "id": "https://animehunch.com/sony-pictures-joins-lionsgate-for-naruto-live-action-movie-production-to-officially-begin-in-2027/",
+      "title": "Sony Pictures Joins Lionsgate For Naruto Live-Action Movie; Production To Officially Begin In 2027",
+      "title_language": "en",
+      "score": 20,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 27,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-04T11:51:06+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Sony Pictures Joins Lionsgate For Naruto Live-Action Movie; Production To Officially Begin In 2027",
+          "title_language": "en",
+          "url": "https://animehunch.com/sony-pictures-joins-lionsgate-for-naruto-live-action-movie-production-to-officially-begin-in-2027/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animenewsindia.com/2026/09/03/dragon-ball-super-beerus-premieres-october-2026-super-surge-visual-and-trailer-unveiled-opening-and-ending-themes-announced/",
       "title": "Dragon Ball Super: Beerus Premieres October 2026 — Super Surge Visual and Trailer Unveiled; Opening and Ending Themes Announced",
       "title_language": "en",
@@ -15199,6 +15442,53 @@
       ]
     },
     {
+      "id": "https://animehunch.com/anime-voice-actors-avengers-doomsday-japanese-dub/",
+      "title": "Major Anime Voice Actors Headline Avengers: Doomsday Japanese Dub",
+      "title_language": "en",
+      "score": 19,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 22,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-07T02:35:50+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Major Anime Voice Actors Headline Avengers: Doomsday Japanese Dub",
+          "title_language": "en",
+          "url": "https://animehunch.com/anime-voice-actors-avengers-doomsday-japanese-dub/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-06/north-american-anime-manga-releases-november-1-7/.243459",
       "title": "North American Anime, Manga Releases, November 1-7",
       "title_language": "en",
@@ -15293,6 +15583,53 @@
       ]
     },
     {
+      "id": "https://animehunch.com/mashle-live-action-director-offered-mackenyu-the-lead-role-just-5-seconds-after-getting-adaptation-rights/",
+      "title": "Mashle Live-Action Director Offered Mackenyu The Lead Role Just 5 Seconds After Getting Adaptation Rights",
+      "title_language": "en",
+      "score": 19,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 23,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-05T10:36:23+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Mashle Live-Action Director Offered Mackenyu The Lead Role Just 5 Seconds After Getting Adaptation Rights",
+          "title_language": "en",
+          "url": "https://animehunch.com/mashle-live-action-director-offered-mackenyu-the-lead-role-just-5-seconds-after-getting-adaptation-rights/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://myanimelist.net/news/74904410?_location=rss",
       "title": "'Tensei shitara Ken deshita II' Reveals Supporting Cast, Third Promo",
       "title_language": "en",
@@ -15335,6 +15672,53 @@
           "market_country": null,
           "feed_sources": [
             "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+      "title": "One Piece : Oda aurait fait annuler un arc complet de la série Netflix",
+      "title_language": "fr",
+      "score": 19,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 22,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "One Piece : Oda aurait fait annuler un arc complet de la série Netflix",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/oda-annule-definitivement-nouvel-arc-one-piece/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
           ]
         }
       ]
@@ -15387,6 +15771,53 @@
       ]
     },
     {
+      "id": "https://animehunch.com/mashle-magic-and-muscles-season-3-to-air-on-crunchyroll-beginning-in-january-2027/",
+      "title": "Mashle: Magic And Muscles Season 3 To Air On Crunchyroll Beginning In January 2027",
+      "title_language": "en",
+      "score": 19,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 24,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-10-30T07:55:35+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Mashle: Magic And Muscles Season 3 To Air On Crunchyroll Beginning In January 2027",
+          "title_language": "en",
+          "url": "https://animehunch.com/mashle-magic-and-muscles-season-3-to-air-on-crunchyroll-beginning-in-january-2027/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animecorner.me/fool-night-anime-by-shaft-and-sunrise-reveals-main-trailer-theme-songs-new-key-visual/",
       "title": "Fool Night Anime by SHAFT and SUNRISE Reveals Main Trailer, Theme Songs, New Key Visual",
       "title_language": "en",
@@ -15429,6 +15860,53 @@
           "market_country": null,
           "feed_sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://animehunch.com/naruto-spy-x-family-and-kaiju-no-8-join-emaqi-premiums-november-lineup/",
+      "title": "Naruto, Spy x Family And Kaiju No. 8 Join emaqi Premium’s November Lineup",
+      "title_language": "en",
+      "score": 18,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 21,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-04T11:38:47+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Naruto, Spy x Family And Kaiju No. 8 Join emaqi Premium’s November Lineup",
+          "title_language": "en",
+          "url": "https://animehunch.com/naruto-spy-x-family-and-kaiju-no-8-join-emaqi-premiums-november-lineup/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
           ]
         }
       ]
@@ -16151,6 +16629,53 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+      "title": "Crunchyroll annonce neuf nouvelles séries d’anime pour 2027",
+      "title_language": "fr",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 17,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-14T05:55:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Crunchyroll annonce neuf nouvelles séries d’anime pour 2027",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/crunchyroll-9-nouvelles-series-anime-2027/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://animenewsindia.com/2026/10/09/crunchyroll-manga-expands-in-india-by-bringing-more-than-250-titles-in-localised-english/",
       "title": "Crunchyroll Manga Expands In India by bringing More Than 250 Titles in localised English",
       "title_language": "en",
@@ -16711,6 +17236,53 @@
       ]
     },
     {
+      "id": "https://animehunch.com/the-dangers-in-my-heart-author-reflects-on-physical-toll-manga/",
+      "title": "‘I’m Relieved I Could End It Properly’: The Dangers In My Heart Author Reflects On Physical Toll Of Manga’s 8.5-Year Run",
+      "title_language": "en",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-07T03:19:55+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "‘I’m Relieved I Could End It Properly’: The Dangers In My Heart Author Reflects On Physical Toll Of Manga’s 8.5-Year Run",
+          "title_language": "en",
+          "url": "https://animehunch.com/the-dangers-in-my-heart-author-reflects-on-physical-toll-manga/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/7/please-excuse-my-younger-brothers-cour-2-anime-ending-song-music-video-meminor",
       "title": "MEminor Releases Please Excuse My Younger Brothers Cour 2 Anime Ending Song Music Video",
       "title_language": "en",
@@ -16800,6 +17372,53 @@
           "market_country": null,
           "feed_sources": [
             "Adala News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://animehunch.com/dragon-ball-super-beerus-english-spanish-and-portuguese-dubs-release-date-revealed/",
+      "title": "Dragon Ball Super: Beerus’ English, Spanish And Portuguese Dubs Release Date Revealed",
+      "title_language": "en",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-06T09:29:49+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Dragon Ball Super: Beerus’ English, Spanish And Portuguese Dubs Release Date Revealed",
+          "title_language": "en",
+          "url": "https://animehunch.com/dragon-ball-super-beerus-english-spanish-and-portuguese-dubs-release-date-revealed/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
           ]
         }
       ]
@@ -17176,6 +17795,53 @@
           "market_country": null,
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://animehunch.com/nippon-anime-awards-japans-new-anime-awards-ceremony-set-to-debut-in-2027/",
+      "title": "Nippon Anime Awards: Japan’s New Anime Awards Ceremony Set To Debut In 2027",
+      "title_language": "en",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 13,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-11-03T09:59:24+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Nippon Anime Awards: Japan’s New Anime Awards Ceremony Set To Debut In 2027",
+          "title_language": "en",
+          "url": "https://animehunch.com/nippon-anime-awards-japans-new-anime-awards-ceremony-set-to-debut-in-2027/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
           ]
         }
       ]
@@ -18119,6 +18785,53 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+      "title": "Naruto Shadow Rising : Masashi Kishimoto revient pour un nouveau manga ?!",
+      "title_language": "fr",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-29T07:10:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Naruto Shadow Rising : Masashi Kishimoto revient pour un nouveau manga ?!",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/kishimoto-revient-naruto-shadow-rising/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/chatty-af-245-2026-summer-season-wrap-up-part-1/",
       "title": "Chatty AF 245: 2026 Summer Season Wrap-Up (Part 1)",
       "title_language": "en",
@@ -18161,6 +18874,53 @@
           "market_country": null,
           "feed_sources": [
             "Anime Feminist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+      "title": "Jujutsu Kaisen Modulo : Yuji Itadori maîtrise enfin Shrine et pourrait accéder à Divine Flame",
+      "title_language": "fr",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-22T09:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Jujutsu Kaisen Modulo : Yuji Itadori maîtrise enfin Shrine et pourrait accéder à Divine Flame",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/jujutsu-kaisen-nouveau-pouvoir-yuji/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
           ]
         }
       ]
@@ -19200,6 +19960,53 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/hunter-x-hunter-togashi-annonce-suite/",
+      "title": "Le créateur de Hunter x Hunter annonce enfin une suite au manga ?",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-11-02T09:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Le créateur de Hunter x Hunter annonce enfin une suite au manga ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/hunter-x-hunter-togashi-annonce-suite/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animefeminist.com/anime-feminist-recommendations-of-summer-2026/",
       "title": "Anime Feminist Recommendations of Summer 2026",
       "title_language": "en",
@@ -19336,6 +20143,53 @@
           "market_country": null,
           "feed_sources": [
             "Adala News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://animehunch.com/anime-industry-4-trillion-yen-overseas-market-over-50-percent/",
+      "title": "Anime Industry Hits Record 4 Trillion Yen; Overseas Market Accounts For More Than Half The Revenue",
+      "title_language": "en",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "India"
+      ],
+      "source_regions": [
+        "South Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Animehunch"
+      ],
+      "published_at": "2026-10-30T13:32:50+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Anime Industry Hits Record 4 Trillion Yen; Overseas Market Accounts For More Than Half The Revenue",
+          "title_language": "en",
+          "url": "https://animehunch.com/anime-industry-4-trillion-yen-overseas-market-over-50-percent/",
+          "source": "Animehunch",
+          "source_type": "editorial_site",
+          "source_country": "India",
+          "market_country": null,
+          "feed_sources": [
+            "Animehunch"
           ]
         }
       ]
@@ -19618,6 +20472,53 @@
           "market_country": null,
           "feed_sources": [
             "Anime UK News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/crunchyroll-nouveau-roi-shonen-automne-2026/",
+      "title": "Crunchyroll annonce plus de 40 nouveautés pour cet automne 2026",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-23T06:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Crunchyroll annonce plus de 40 nouveautés pour cet automne 2026",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/crunchyroll-nouveau-roi-shonen-automne-2026/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
           ]
         }
       ]
@@ -21174,6 +22075,100 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/jujutsu-kaisen-s4-mise-a-jour-29-aout/",
+      "title": "Jujutsu Kaisen saison 4 : De nouvelles infos au Juju Fes 2026",
+      "title_language": "en",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 9,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-08-29T05:22:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Jujutsu Kaisen saison 4 : De nouvelles infos au Juju Fes 2026",
+          "title_language": "en",
+          "url": "https://worldofgeek.fr/jujutsu-kaisen-s4-mise-a-jour-29-aout/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/kingdom-hearts-anime-disney-plus/",
+      "title": "Kingdom Hearts : une nouvelle série animée annoncée sur Disney+ !",
+      "title_language": "fr",
+      "score": 14,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-08-16T06:21:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Kingdom Hearts : une nouvelle série animée annoncée sur Disney+ !",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/kingdom-hearts-anime-disney-plus/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenation.net/blog/an-exceptional-villainess-manga-coming-your-way/",
       "title": "An Exceptional Villainess Manga Coming Your Way",
       "title_language": "en",
@@ -22108,6 +23103,100 @@
       ]
     },
     {
+      "id": "https://worldofgeek.fr/one-piece-s4-netflix-bientot/",
+      "title": "One Piece Netflix : la suite va arriver plus vite que prévu !",
+      "title_language": "fr",
+      "score": 13,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-15T05:55:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "One Piece Netflix : la suite va arriver plus vite que prévu !",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/one-piece-s4-netflix-bientot/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/demon-slayer-forteresse-infinie-partie-2-date-sortie/",
+      "title": "Quelle date de sortie pour la partie 2 du film Demon Slayer La Forteresse Infinie ?",
+      "title_language": "fr",
+      "score": 13,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-07-29T05:16:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Quelle date de sortie pour la partie 2 du film Demon Slayer La Forteresse Infinie ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/demon-slayer-forteresse-infinie-partie-2-date-sortie/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMTFRbzBQRVVhUUd0TGsyNmhWOE94YU5xWEdONnRLcDNmeTBRMlNUVDRqZDlWX3pVYkpLN2VFQUt0c05wQUN3Yld0VUJoOVBmSW5sN045cGpoOV9QU2VNc1ZVbDdVSFg3R0ZXTVVxelczXzBfOVhRd096VDhTVzRTb2dieV9mUl9ob0NHa0U4X2xHYU1zako1REVnUFVEQlJRbEdmaVVkdXZHZ2Q2UDFTOVFSbHp0ZWw0WHNPVkZYd1YzcXNLVU5yaVJkMnZlQU1T?oc=5",
       "title": "Sambista Manga do Cavaco morre após muro desabar durante churrasco em família em São Paulo - Alô Alô Bahia",
       "title_language": "fr",
@@ -22287,6 +23376,288 @@
           "market_country": null,
           "feed_sources": [
             "Anime UK News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/fortnite-saison-one-piece-premiere-bande-annonce/",
+      "title": "Fortnite confirme sa saison One Piece Treasure Hunters dès le 1er novembre 2026",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fortnite confirme sa saison One Piece Treasure Hunters dès le 1er novembre 2026",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/fortnite-saison-one-piece-premiere-bande-annonce/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/one-piece-3-pirates-plus-forts-nouvelle-generation/",
+      "title": "One Piece : Luffy, Zoro et Sanji comme la relève de Roger, Rayleigh et Gaban ?",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-28T08:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "One Piece : Luffy, Zoro et Sanji comme la relève de Roger, Rayleigh et Gaban ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/one-piece-3-pirates-plus-forts-nouvelle-generation/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/my-hero-academia-retour/",
+      "title": "My Hero Academia : Des Révélations majeures arrive au Jump Festa 2027",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-28T07:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "My Hero Academia : Des Révélations majeures arrive au Jump Festa 2027",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/my-hero-academia-retour/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/fuite-collab-fortnite-one-piece/",
+      "title": "Fortnite X One Piece : un énorme cross over est en préparation ?",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-26T06:10:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fortnite X One Piece : un énorme cross over est en préparation ?",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/fuite-collab-fortnite-one-piece/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/my-hero-academia-sortie-16-septembre/",
+      "title": "My Hero Academia : Les nouvelles figurines de malade révélées par Banpresto !",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-09-10T06:04:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "My Hero Academia : Les nouvelles figurines de malade révélées par Banpresto !",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/my-hero-academia-sortie-16-septembre/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://worldofgeek.fr/dragon-ball-nouveau-super-saiyan-retour-serie/",
+      "title": "Dragon Ball : Toyotarou dévoile un Mr. Satan officiellement en Super Saiyan",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "World of Geek – Manga"
+      ],
+      "published_at": "2026-08-30T07:22:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Dragon Ball : Toyotarou dévoile un Mr. Satan officiellement en Super Saiyan",
+          "title_language": "fr",
+          "url": "https://worldofgeek.fr/dragon-ball-nouveau-super-saiyan-retour-serie/",
+          "source": "World of Geek – Manga",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "World of Geek – Manga"
           ]
         }
       ]
@@ -23659,15 +25030,6 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "source": "World of Geek – Manga",
-      "error": "mismatched tag: line 93, column 2"
-    },
-    {
-      "source": "Animehunch",
-      "error": "mismatched tag: line 93, column 2"
-    }
-  ],
+  "errors": [],
   "notice": "Radar international manga/anime : 20 sites éditoriaux et des flux Google Actualités localisés. Les pays des sites indiquent leur implantation; les marchés Google indiquent la zone ciblée, sans mesurer la popularité native sur les réseaux sociaux. Priorité indicative : pertinence (35 %), fraîcheur (30 %), diversité des éditeurs (25 %) et volume (10 %). Toute information reste à vérifier."
 }
