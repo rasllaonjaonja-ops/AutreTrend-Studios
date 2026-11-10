@@ -5,6 +5,7 @@ on:
     branches: [main, radar-intelligent-hardening]
     paths:
       - "index.html"
+      - "functions/**"
       - "app.js"
       - "styles.css"
       - "scripts/**"
@@ -16,6 +17,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "functions/**"
       - "app.js"
       - "styles.css"
       - "scripts/**"
