@@ -34,6 +34,23 @@ function extractJson(value) {
   return JSON.parse(cleaned.slice(start, end + 1));
 }
 
+function wordCount(value) {
+  return String(value || "").trim().split(/\s+/).filter(Boolean).length;
+}
+
+function fitXPost(value) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (text.length <= 260) return text;
+  const prefix = text.slice(0, 259);
+  const boundary = prefix.lastIndexOf(" ");
+  if (boundary < 1) throw new Error("Message X impossible à raccourcir proprement");
+  const shortened = prefix.slice(0, boundary).trimEnd() + "…";
+  if (shortened.length > 260 || wordCount(shortened) < 8) {
+    throw new Error("Message X trop long pour conserver au moins 8 mots");
+  }
+  return shortened;
+}
+
 async function generateOne(item, env, correctivePass = false, previousError = "") {
   const system = [
     "Tu es journaliste-rédacteur francophone spécialisé manga, anime et culture pop, au sein d'un média indépendant.",
@@ -61,13 +78,13 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "Facebook : mini-article accessible de 90 à 110 mots (cible obligatoire), en 5 à 7 phrases naturelles : accroche factuelle, détails vérifiables fournis, contexte uniquement s’il est sourcé, puis question communautaire. Ne compte pas le titre ni les hashtags dans ces mots.",
     "Instagram : légende vivante de 45 à 80 mots, phrases aérées et 3 à 6 hashtags pertinents.",
     "TikTok : script oral de 35 à 60 mots, accroche parlée, explication simple, chute et question; pas de consignes de caméra.",
-    "X : message autonome, informatif et naturel, 260 caractères maximum, sans lien ni hashtags superflus.",
+    "X : message autonome, informatif et naturel. Vise 200 à 230 caractères et ne dépasse jamais 260 caractères, espaces compris; au moins 8 mots; sans lien ni hashtags superflus.",
     "Threads : commentaire éditorial conversationnel de 40 à 75 mots, ton proche mais informé, question spécifique.",
     "YouTube : titre précis de 45 à 90 caractères et description de 50 à 90 mots.",
     "Telegram : brève journalistique de 40 à 70 mots, directe et utile, sans formule artificielle.",
     "Pinterest : titre descriptif de 45 à 90 caractères et description de 35 à 60 mots.",
     "N'ajoute aucune source ou URL non fournie. Une relecture humaine reste obligatoire. Ne prétends jamais être un humain ni avoir vérifié une source que tu n'as pas consultée.",
-    "Respecte strictement les longueurs minimales cohérentes avec le validateur : Facebook 70 mots, Instagram 45, TikTok 35, Threads 40 et Telegram 40 mots, hors sources et hashtags. Ne remplace jamais le corps par une phrase courte.",
+    "Respecte strictement les longueurs minimales du validateur : Facebook 70 mots, Instagram 45, TikTok 35, X 8 mots et 260 caractères maximum, Threads 40 et Telegram 40 mots, hors sources et hashtags. Vise le milieu de chaque fourchette plutôt que la limite minimale. Ne remplace jamais le corps par une phrase courte.",
     "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir trend_synthesis (key_facts, reported_but_unconfirmed, coverage_summary, editorial_context), title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
     "posts doit contenir facebook, instagram, tiktok, x, threads, youtube, telegram et pinterest. youtube et pinterest sont des objets avec title et description; les autres plateformes sont des chaînes."
   ].join("\n");
@@ -129,12 +146,11 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
       throw new Error("Format incomplet : " + platform);
     }
   }
-  const wordCount = value => String(value || "").trim().split(/\s+/).filter(Boolean).length;
   if (!parsed.trend_synthesis || !Array.isArray(parsed.trend_synthesis.key_facts)
       || parsed.trend_synthesis.key_facts.length < 1
       || !parsed.trend_synthesis.key_facts.every(x => typeof x === "string" && wordCount(x) >= 5)
       || !Array.isArray(parsed.trend_synthesis.reported_but_unconfirmed)
-      || !parsed.trend_synthesis.reported_but_unconfirmed.every(x => typeof x === "string")
+      || !parsed.trend_synthesis.reported_but_unconfirmed.every(x => typeof x === "string" && wordCount(x) >= 4)
       || typeof parsed.trend_synthesis.coverage_summary !== "string"
       || wordCount(parsed.trend_synthesis.coverage_summary) < 8
       || typeof parsed.trend_synthesis.editorial_context !== "string"
@@ -148,7 +164,9 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   if (typeof parsed.discussion_question !== "string" || wordCount(parsed.discussion_question) < 6
       || !parsed.discussion_question.trim().endsWith("?")) briefErrors.push("discussion_question doit contenir au moins 6 mots et finir par ?");
   if (!Array.isArray(parsed.claims_to_verify)
-      || !parsed.claims_to_verify.every(x => typeof x === "string")) briefErrors.push("claims_to_verify doit être un tableau de chaînes");
+      || !parsed.claims_to_verify.every(x => typeof x === "string" && wordCount(x) >= 4)) {
+    briefErrors.push("claims_to_verify doit être un tableau de chaînes françaises de 4 mots minimum");
+  }
   if (briefErrors.length) throw new Error("Brief éditorial incomplet : " + briefErrors.join("; "));
   const minimumWords = { facebook: 70, instagram: 45, tiktok: 35, x: 8, threads: 40, telegram: 40 };
   for (const platform of ["facebook", "instagram", "tiktok", "x", "threads", "telegram"]) {
@@ -163,7 +181,10 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
       throw new Error("Titre ou description trop court pour " + platform);
     }
   }
-  if (parsed.posts.x.length > 260) throw new Error("Message X supérieur à 260 caractères");
+  // Ajustement mécanique sans ajout de faits : X est ramené à la limite du réseau
+  // en coupant uniquement à une frontière de mot; si 8 mots ne subsistent pas,
+  // la génération est rejetée et relancée avec le diagnostic exact.
+  parsed.posts.x = fitXPost(parsed.posts.x);
   return {
     trend_id: item.trend_id,
     trend_synthesis: {
@@ -217,16 +238,16 @@ export async function onRequestPost({ request, env }) {
     try {
       let draft = null;
       let lastError = "";
-      // Deux corrections ciblées au maximum après la première génération.
-      // Un sujet défaillant ne doit pas annuler les autres prépublications valides.
+      // Deux nouvelles tentatives après la première génération. Toute erreur de
+      // validation ou de format relance le modèle avec le motif exact; les erreurs
+      // d'un sujet ne bloquent jamais les autres prépublications.
       for (let attempt = 0; attempt <= 2; attempt++) {
         try {
           draft = await generateOne(item, env, attempt > 0, lastError);
           break;
         } catch (error) {
           lastError = String(error);
-          const retryable = /trop court|synthèse croisée|brief éditorial|structure éditoriale|format incomplet/i.test(lastError);
-          if (!retryable || attempt === 2) throw error;
+          if (attempt === 2) throw error;
         }
       }
       if (draft) output.push(draft);
