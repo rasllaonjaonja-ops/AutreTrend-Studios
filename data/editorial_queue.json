@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:06:25.289242+00:00",
+  "generated_at": "2026-11-10T23:10:53.825718+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 409,
+  "rejected_count": 408,
   "rejected_sample": [
     {
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
@@ -601,12 +601,12 @@
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "response_received": true,
-      "response_valid": true,
+      "response_received": false,
+      "response_valid": false,
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+        "The read operation timed out"
       ]
     },
     {
@@ -617,22 +617,22 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+        "Error: Contenu trop court pour facebook (59/70 mots)"
       ]
     }
   ],
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+      "detail": "The read operation timed out"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+      "detail": "Error: Contenu trop court pour facebook (59/70 mots)"
     }
   ],
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : The read operation timed out; Error: Contenu trop court pour facebook (59/70 mots); The read operation timed out; Error: Contenu trop court pour facebook (59/70 mots)"
 }

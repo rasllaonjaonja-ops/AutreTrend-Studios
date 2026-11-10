@@ -1,10 +1,19 @@
 {
-  "checked_at": "2026-11-10T23:06:25.289242+00:00",
+  "checked_at": "2026-11-10T23:10:53.825718+00:00",
   "checked_articles": 40,
   "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
   "official_link_found": 0,
   "errors": [],
   "checks": [
+    {
+      "title": "Hit Rom-Com Anime The Dangers in My Heart Sets Season 3 for April 2027 in First Teaser - Japan Wire by Kyodo News",
+      "article_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GTE05Y1N3dFloOTZmbDFtMExOX3o2NzM2RVljeThwei1HeHVyV2dlYmtleFNwVDJLMlp2SGVtM2VULVBsOU1ZTEJaMW9YMzNOUEVIR1E4U1BqUQ?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T23:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
     {
       "title": "The Iceblade Sorcerer Shall Rule the World Author Nana Mikoshiba's Original Novel Gets Manga Adaptation on November 17",
       "article_url": "https://www.animenewsnetwork.com/news/2026-11-10/the-iceblade-sorcerer-shall-rule-the-world-author-nana-mikoshiba-original-novel-gets-manga-/.243677",
@@ -127,15 +136,6 @@
       "article_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DU2dNZVg2akFBVWV0WHRJaFI4ZWl3anZjNkJHLXhkSTdjZTJ6YUhSNWJXQkc0MFV4S2dGZGpvQnlqNXE5bm1aV010c2pPdXhycXYyQXE3RUVPZEtBUUNDWDRCbzlTQzNGRzFHOXZ6Wk1nNTlfTldiMlZVNDRyY2c?oc=5",
       "publisher": "Google News (agrégateur)",
       "published_at": "2026-11-10T17:20:01+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime - Crunchyroll",
-      "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T17:00:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
