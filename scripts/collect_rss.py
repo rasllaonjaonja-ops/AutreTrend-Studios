@@ -4,7 +4,7 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -70,7 +70,12 @@ def parse_date(value):
             return ""
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=timezone.utc)
-    return parsed.astimezone(timezone.utc).isoformat()
+    parsed = parsed.astimezone(timezone.utc)
+    # Un flux peut contenir une date erronée ou une date de mise à jour future.
+    # Ne jamais transformer cette valeur en signal de fraîcheur artificiel.
+    if parsed > datetime.now(timezone.utc) + timedelta(hours=24):
+        return ""
+    return parsed.isoformat()
 
 def parse_timestamp(value):
     try:
