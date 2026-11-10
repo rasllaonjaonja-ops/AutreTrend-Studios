@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:18:53.071575+00:00",
+  "generated_at": "2026-11-10T14:28:41.032520+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 409,
+  "rejected_count": 410,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -43,6 +43,7 @@
     {
       "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
@@ -686,16 +687,20 @@
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "response_received": false,
+      "response_received": true,
+      "response_valid": true,
+      "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour instagram"
+        "Error: Contenu trop court pour facebook"
       ]
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-      "response_received": false,
+      "response_received": true,
+      "response_valid": true,
+      "draft_returned": false,
       "accepted": false,
       "validation_errors": [
         "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
@@ -705,7 +710,7 @@
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Contenu trop court pour instagram"
+      "detail": "Error: Contenu trop court pour facebook"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -715,5 +720,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour instagram; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots; Error: Contenu trop court pour instagram; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots; Error: Contenu trop court pour facebook; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
 }
