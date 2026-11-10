@@ -1,96 +1,10 @@
 {
-  "checked_at": "2026-11-10T22:46:08.615783+00:00",
+  "checked_at": "2026-11-10T22:53:33.307286+00:00",
   "checked_articles": 40,
   "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
-  "official_link_found": 2,
+  "official_link_found": 0,
   "errors": [],
   "checks": [
-    {
-      "title": "Plus-Sized Misadventures in Love! Anime Shares New Trailer, Adds to Cast",
-      "article_url": "https://otakuusamagazine.com/plus-sized-misadventures-in-love-anime-shares-new-trailer-adds-to-cast/",
-      "publisher": "Otaku USA Magazine",
-      "published_at": "2025-08-28T09:55:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Plus-Sized Misadventures in Love! Anime Shares New Trailer, Adds to Cast"
-    },
-    {
-      "title": "Room of Guilty Pleasure Anime Shows Off Trailer After Revealing Early, Uncensored Release",
-      "article_url": "https://otakuusamagazine.com/room-of-guilty-pleasure-anime-shows-off-trailer-after-revealing-early-uncensored-release/",
-      "publisher": "Otaku USA Magazine",
-      "published_at": "2025-08-27T18:47:42+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Room of Guilty Pleasure Anime Shows Off Trailer After Revealing Early, Uncensored Release"
-    },
-    {
-      "title": "MANGA REVIEW: City Hunter and Cat’s Eye Omnibus Editions",
-      "article_url": "https://otakuusamagazine.com/manga-review-city-hunter-and-cats-eye-omnibus-editions/",
-      "publisher": "Otaku USA Magazine",
-      "published_at": "2025-08-27T11:00:36+00:00",
-      "official_evidence": [
-        {
-          "url": "https://www.netflix.com/title/81454087",
-          "domain": "www.netflix.com",
-          "link_text": "Netflix City Hunter film",
-          "evidence_type": "lien externe vers un domaine de première partie répertorié"
-        }
-      ],
-      "status": "lien de première partie repéré — contenu à contrôler",
-      "page_title": "MANGA REVIEW: City Hunter and Cat's Eye Omnibus Editions"
-    },
-    {
-      "title": "Kaiju No. 8 Season 2 Trailer Looks Ahead to Next Arc",
-      "article_url": "https://otakuusamagazine.com/kaiju-no-8-season-2-trailer-looks-ahead-to-next-arc/",
-      "publisher": "Otaku USA Magazine",
-      "published_at": "2025-08-27T18:41:14+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Kaiju No. 8 Season 2 Trailer Looks Ahead to Next Arc"
-    },
-    {
-      "title": "Unboxing April 2026 Suruga-ya Orders",
-      "article_url": "https://www.animenation.net/blog/unboxing-april-2026-suruga-ya-orders/",
-      "publisher": "AnimeNation",
-      "published_at": "2026-04-07T02:15:06+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Unboxing April 2026 Suruga-ya Orders – AnimeNation Anime News Blog"
-    },
-    {
-      "title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff",
-      "article_url": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
-      "publisher": "AnimeNation",
-      "published_at": "2025-12-07T04:18:44+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff – AnimeNation Anime News Blog"
-    },
-    {
-      "title": "Three Powerful Back-to-School Anime",
-      "article_url": "https://otakuusamagazine.com/back-to-school-anime-2025/",
-      "publisher": "Otaku USA Magazine",
-      "published_at": "2025-08-31T11:00:59+00:00",
-      "official_evidence": [
-        {
-          "url": "https://www.netflix.com/title/80156387",
-          "domain": "www.netflix.com",
-          "link_text": "Little Witch Academia is available to watch on Netflix.",
-          "evidence_type": "lien externe vers un domaine de première partie répertorié"
-        }
-      ],
-      "status": "lien de première partie repéré — contenu à contrôler",
-      "page_title": "Three Powerful Back-to-School Anime"
-    },
-    {
-      "title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION",
-      "article_url": "https://otakuusamagazine.com/kaf-interview-kamitsuki-city-under-construction/",
-      "publisher": "Otaku USA Magazine",
-      "published_at": "2025-08-28T21:26:42+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
-    },
     {
       "title": "AMC Global Media's Anime Release 'Made in Abyss: Awakening Mystery' to Stream on HIDIVE in 2027 - Media Play News",
       "article_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU3VoQlg5NWozeGlxR2VCN2F1a043RHFvd3lwYTBVTXNqcEdySkx4NHVQRFVjSHFtWENWQ1V5ODdTcjdIa2ZOWXZIT09oOTQ2dXgza2ZmYnozUjBCNGxrT1gxMnYwdjVnbmFMNFNjOU55Y1dVZXRMUU9mLTUwUHJFZExPeG1rR0JBdGxiYW4xQVo1Q2sxS1VYX2pvTnd6SHVWUV9Rdl9tRHpVOFJYUXd2VWVkVklUU21uSUJxb3Fudw?oc=5",
@@ -375,6 +289,78 @@
       "article_url": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
       "publisher": "Crunchyroll",
       "published_at": "2026-11-10T04:25:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "article_url": "https://myanimelist.net/news/74923434?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-10T03:58:55+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T03:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
+    },
+    {
+      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - Anime News Network",
+      "article_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdVFJeDI3Z2xRSU1FUlZiX2FlTjk1NThCRVJkcDlWMENlNjJSYlZMdWF6ZTA2anptVzZQekpfa2JubEJyR3JWZ1U5X29QNHIxYzdMc3hvU0ZVVk5sWHFPN2Fyc3VGcUxNOWo1ZjJPSTFURGVfX1dGdEFHWG9YUko4WVlfTjJQbjNNcmticmV3ODJGYUJmVU5uY3Z4TXZZTXgxRkx4VC1HdVUwbF9RdVpmNDkwTHRKVEVFSzFDQlR1QWxJOHpmMzl0QVpRTkJXVWdCV2pkZQ?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T02:31:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T02:31:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - News - Anime News Network"
+    },
+    {
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-10T01:39:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
+      "article_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T01:39:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T00:49:27+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song - News - Anime News Network"
+    },
+    {
+      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-10T00:39:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
