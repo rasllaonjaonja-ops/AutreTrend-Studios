@@ -33,6 +33,11 @@ jobs:
         run: python scripts/collect_rss.py
       - name: Vérifier les liens de sources officielles
         run: python scripts/verify_sources.py
+      - name: Préparer les textes sociaux avec l’IA (si configurée)
+        run: python scripts/generate_editorial.py
+        env:
+          AUTOTREND_AI_URL: ${{ secrets.AUTOTREND_AI_URL }}
+          AUTOTREND_AI_TOKEN: ${{ secrets.AUTOTREND_AI_TOKEN }}
       - name: Enregistrer le radar et la file éditoriale
         run: |
           git config user.name "github-actions[bot]"
