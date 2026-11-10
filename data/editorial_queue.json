@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T22:53:33.307286+00:00",
+  "generated_at": "2026-11-10T22:56:05.734835+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -287,11 +287,10 @@
       ],
       "market_countries": [
         "France",
-        "United States"
+        "United Kingdom"
       ],
       "market_regions": [
-        "Europe",
-        "North America"
+        "Europe"
       ],
       "primary_sources": [],
       "primary_source_count": 0,
@@ -608,7 +607,7 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour tiktok (30/35 mots)"
+        "Error: Message X supérieur à 260 caractères"
       ]
     },
     {
@@ -626,7 +625,7 @@
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Contenu trop court pour tiktok (30/35 mots)"
+      "detail": "Error: Message X supérieur à 260 caractères"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -636,5 +635,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour tiktok (30/35 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Contenu trop court pour tiktok (30/35 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Message X supérieur à 260 caractères; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Message X supérieur à 260 caractères; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
 }

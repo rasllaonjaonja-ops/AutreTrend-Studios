@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T22:53:33.307286+00:00",
+  "checked_at": "2026-11-10T22:56:05.734835+00:00",
   "checked_articles": 40,
   "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
   "official_link_found": 0,
@@ -154,6 +154,15 @@
       "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNjdCekFxSUI5VG5nZndhd29Vb242cGZ3aWZjak5WZy1vWVRyQzZqT0JaYTdNbVZ2Qm9JMm5qNjBCcThnR0NJS1JMQTBVQ2dNMWpRM2lrY0dfWkxndjFad1VCMnd2Y0k?oc=5",
       "publisher": "Google News (agrégateur)",
       "published_at": "2026-11-10T15:50:53+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur - Crunchyroll",
+      "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T15:26:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
@@ -355,15 +364,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song - News - Anime News Network"
-    },
-    {
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T00:39:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
