@@ -541,7 +541,7 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 <section class="view" id="studio"><div class="intro"><div class="eyebrow">CRÉATION DE CONTENU</div><h2>Atelier éditorial</h2><p class="muted">Enregistrez vos prépublications avant validation humaine.</p></div><div class="panel"><div class="field"><label for="draft-title">Titre du contenu</label><input id="draft-title" placeholder="Ex. Une nouvelle annonce anime..."></div><div class="field"><label for="draft-source">Source(s) vérifiée(s)</label><input id="draft-source" placeholder="URL officielle ou média fiable"></div><div class="field"><label for="draft-text">Texte de prépublication</label><textarea id="draft-text" placeholder="Rédigez votre contenu..."></textarea></div><button class="btn" id="save">Enregistrer le brouillon</button></div></section>
 <section class="view" id="review"><div class="intro"><div class="eyebrow">CONTRÔLE HUMAIN</div><h2>File de validation</h2></div><div id="review-list" class="list"><div class="empty">Aucune prépublication en attente.</div></div></section>
 <section class="view" id="assistant"><div class="intro"><div class="eyebrow">AUTRE INTELLIGENCE</div><h2>Assistant IA personnel</h2><p class="muted">Espace de conversation prévu pour la recherche, l'analyse des tendances, la vérification des sources et la rédaction.</p></div><div class="panel"><div class="chatbox" id="chat"><div class="chatmsg">Bonjour ! Je suis l'espace de votre assistant AutreTrend. La connexion au moteur IA doit être configurée avant de pouvoir répondre réellement.</div></div><form class="chatrow" id="chat-form"><input class="chatinput" id="chat-input" placeholder="Écrivez votre demande..." disabled><button class="btn" disabled>Envoyer</button></form><div class="notice">Assistant visuel restauré. Le moteur IA réel, sa mémoire persistante et ses outils seront activés après connexion sécurisée à un fournisseur IA.</div></div></section>
-<section class="view" id="settings"><div class="intro"><div class="eyebrow">CONFIGURATION</div><h2>Réglages du studio</h2></div><div class="panel"><h3>État des modules</h3><p class="muted">Interface premium active · Stockage local des brouillons · Radar serveur à connecter · Assistant IA à connecter · Publication automatique désactivée.</p></div></section>
+<section class="view" id="settings"><div class="intro"><div class="eyebrow">CONFIGURATION</div><h2>Réglages du studio</h2><p class="muted">Diagnostic réel des services, sans afficher ni exposer les secrets.</p></div><div class="panel"><h3>État des modules</h3><div class="settings-status" id="settings-status" aria-live="polite"><p class="muted">Vérification des connexions disponible ci-dessous.</p></div><button class="btn" id="check-services" type="button">Vérifier les connexions</button><p class="muted" id="settings-check-time">Aucun diagnostic effectué.</p></div><div class="panel" style="margin-top:14px"><h3>Sécurité et publication</h3><p class="muted">Les clés restent côté serveur. La publication automatique demeure désactivée. Chaque contenu doit être relu et validé manuellement.</p></div></section>
 </main></div><script>
 const names={home:"Vue d'ensemble",radar:"Radar de tendances",library:"Bibliothèque",studio:"Atelier éditorial",review:"Validation",assistant:"Assistant IA personnel",settings:"Réglages"};let drafts=[];try{drafts=JSON.parse(localStorage.getItem("autotrend.drafts")||"[]")}catch{};const $=s=>document.querySelector(s);function go(v){document.querySelectorAll(".view").forEach(x=>x.classList.toggle("active",x.id===v));document.querySelectorAll(".nav").forEach(x=>x.classList.toggle("active",x.dataset.view===v));document.body.classList.toggle("module-open",v!=="home");$("#page-title").textContent=names[v];if(v!=="home"&&window.matchMedia("(max-width:900px)").matches){requestAnimationFrame(()=>{const side=document.querySelector(".side");const target=document.getElementById(v);if(target){const offset=side?side.getBoundingClientRect().height:0;const top=target.getBoundingClientRect().top+window.scrollY-offset-8;window.scrollTo({top:Math.max(0,top),behavior:"smooth"})}})}}document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>go(b.dataset.view));document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}function render(){const markup=drafts.map((d,i)=>'<article class="item"><b>'+esc(d.title)+'</b><small>'+esc(d.source)+' · '+esc(d.status)+'</small><p>'+esc(d.text)+'</p></article>').join("")||'<div class="empty">Aucune prépublication enregistrée.</div>';$("#library-list").innerHTML=markup;$("#review-list").innerHTML=markup;$("#recent").innerHTML=markup;$("#count-drafts").textContent=drafts.length;$("#count-review").textContent=drafts.filter(d=>d.status==="À vérifier").length}$("#save").onclick=()=>{const title=$("#draft-title").value.trim(),text=$("#draft-text").value.trim();if(!title||!text){alert("Ajoutez un titre et un texte.");return}drafts.unshift({title,text,source:$("#draft-source").value.trim(),status:"À vérifier"});localStorage.setItem("autotrend.drafts",JSON.stringify(drafts));$("#draft-title").value=$("#draft-source").value=$("#draft-text").value="";render();go("review")};const radarState={data:null,verification:null,queue:null,loaded:false,busy:false};
 function radarSafeUrl(value){try{const u=new URL(String(value||""),location.href);return u.protocol==="https:"?u.href:""}catch{return ""}}
@@ -728,6 +728,33 @@ async function loadRadar(force){
  }catch(error){box.className="empty";box.textContent=error.message+" Les données précédemment enregistrées sont conservées."}
  finally{radarState.busy=false}
 }
+async function checkStudioServices(){
+ const box=$("#settings-status"),time=$("#settings-check-time"),button=$("#check-services");
+ if(!box||!button)return;
+ button.disabled=true;button.textContent="Vérification…";
+ box.innerHTML='<p class="muted">Contact du service sécurisé…</p>';
+ const row=(label,ok,detail)=>'<div class="item"><b>'+label+'</b><small>'+detail+'</small><strong style="color:'+(ok?'#087a5c':'#a15b12')+'">'+(ok?'Disponible':'À configurer')+'</strong></div>';
+ try{
+  const response=await fetch("./api/editorial",{method:"GET",cache:"no-store",headers:{"accept":"application/json"}});
+  if(!response.ok)throw new Error("Service indisponible (HTTP "+response.status+"). Vérifier le déploiement Preview et le dossier functions.");
+  const data=await response.json();
+  box.innerHTML=[
+   row("API éditoriale",true,"La fonction Cloudflare répond."),
+   row("Workers AI",Boolean(data.ai_binding),data.ai_binding?"Binding AI détecté côté serveur.":"Binding Workers AI AI absent dans cet environnement."),
+   row("Secret serveur",Boolean(data.token_configured),data.token_configured?"Secret présent côté serveur, valeur masquée.":"Secret AUTOTREND_AI_TOKEN absent dans cet environnement."),
+   row("Rédaction IA",data.status==="ready",data.status==="ready"?"Configuration serveur complète pour la rédaction éditoriale.":"La rédaction reste bloquée tant que la configuration serveur est incomplète."),
+   row("Publication automatique",false,"Désactivée volontairement ; validation humaine obligatoire.")
+  ].join("");
+ }catch(error){
+  box.innerHTML=row("API éditoriale",false,error.message)+"<p class=\"muted\">Le diagnostic n'a pas pu confirmer la présence de la fonction serveur. Cela ne prouve pas que les secrets GitHub sont incorrects.</p>";
+ }finally{
+  button.disabled=false;button.textContent="Vérifier à nouveau";
+  time.textContent="Dernière vérification : "+new Date().toLocaleString("fr-FR");
+ }
+}
+$("#check-services")?.addEventListener("click",checkStudioServices);
+const previousGo=go;
+go=function(v){previousGo(v);if(v==="radar")loadRadar(false);if(v==="settings")checkStudioServices()};
 $("#scan").onclick=()=>loadRadar(true);
 ["#radar-search","#radar-filter","#radar-source","#radar-score","#radar-age","#radar-language","#radar-sort"].forEach(selector=>{
  const control=$(selector);if(!control)return;
