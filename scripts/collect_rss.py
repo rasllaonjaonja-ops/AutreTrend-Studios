@@ -199,11 +199,48 @@ for source in enabled_sources:
     except Exception as exc:
         errors.append({"source": source.get("name", "unknown"), "error": str(exc)[:240]})
 
+def canonical_article_url(value):
+    """Normalise les URL d'un même article sans supprimer ses identifiants utiles."""
+    from urllib.parse import parse_qsl, urlencode, urlunparse
+    try:
+        parsed = urlparse(value.strip())
+        if parsed.scheme.lower() not in ("http", "https") or not parsed.netloc:
+            return value.strip()
+        host = parsed.netloc.lower()
+        if host.startswith("www."):
+            host = host[4:]
+        tracking = {
+            "fbclid", "gclid", "mc_cid", "mc_eid", "_location",
+            "ref", "ref_src", "source"
+        }
+        query = [
+            (key, val) for key, val in parse_qsl(parsed.query, keep_blank_values=True)
+            if key.lower() not in tracking and not key.lower().startswith("utm_")
+        ]
+        path = re.sub(r"/+$", "", parsed.path) or "/"
+        return urlunparse((
+            parsed.scheme.lower(), host, path, "", urlencode(sorted(query)), ""
+        ))
+    except Exception:
+        return value.strip()
+
+
 unique = {}
 for item in items:
-    existing = unique.get(item["url"])
-    if existing is None or item["score"] > existing["score"]:
-        unique[item["url"]] = item
+    canonical = canonical_article_url(item["url"])
+    item["canonical_url"] = canonical
+    existing = unique.get(canonical)
+    if existing is None:
+        item["feed_sources"] = [item["source"]]
+        unique[canonical] = item
+    else:
+        # Une même URL reçue par plusieurs flux ne doit compter qu'une fois.
+        feeds = set(existing.get("feed_sources", [existing.get("source", "")]))
+        feeds.add(item["source"])
+        existing["feed_sources"] = sorted(x for x in feeds if x)
+        if item["score"] > existing["score"]:
+            item["feed_sources"] = existing["feed_sources"]
+            unique[canonical] = item
 result = sorted(unique.values(), key=lambda x: (x["score"], x["published_at"]), reverse=True)
 now = datetime.now(timezone.utc)
 trends = build_trends(result, now)
