@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-10T07:44:44.252459+00:00",
+  "checked_at": "2026-11-10T07:46:03.765847+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
-  "official_link_found": 2,
+  "official_link_found": 3,
   "errors": [],
   "checks": [
     {
@@ -128,6 +128,15 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video - Crunchyroll",
+      "article_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T04:15:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
       "title": "\"Hana-Kimi\" gets new TV series and stage adaptation for manga's 30th anniversary - Yahoo",
       "article_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xWmZxRVRYWjRZaldJYWZvd25RYVB6UlhEMW5XcnZENDFHcWYtTDUtRmpSQ2R6WFJmbkdWTU55bG00YkNicFdUNTdiY0xnaUdPWFhDYV96ZzVqUHpxQzgxT2VwWHZ3SlFWZTZydHU1OXFrVl9aVExsZVZadw?oc=5",
       "publisher": "Google News (agrégateur)",
@@ -155,6 +164,31 @@
       "page_title": "Google News"
     },
     {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T03:34:51+00:00",
+      "official_evidence": [
+        {
+          "url": "https://www.viz.com/manga-books/manga/jojo-s-bizarre-adventure-part-7-steel-ball-run-volume-1/product/8330",
+          "domain": "www.viz.com",
+          "link_text": "released",
+          "evidence_type": "lien externe vers un domaine de première partie répertorié"
+        }
+      ],
+      "status": "lien de première partie repéré — contenu à contrôler",
+      "page_title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - News - Anime News Network"
+    },
+    {
+      "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - IMDb",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RanBXN3ZuVWlYRUJGMXBsQk1sUmhTNjFreDNsakNVQ0tSYjAzbEJlR3JoNXFqd21PU3lsckpWUzJ0blYyWGJaZjVyLVFjdmE0MG9IX1dPa2p0eWlpckhaM2x4M0hZWFJWMHc?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T03:07:29+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
       "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
       "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
       "publisher": "Anime News Network",
@@ -162,6 +196,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
+    },
+    {
+      "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - IMDb",
+      "article_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84X3hRNW55OG95TGlvWGM0MDcyUzBUSW1taEZ4eEUxNGVVZDFIZjU4STlQTF9LVmJScGwtcEdtTTlXb20yX2hkeWZXZTdlWlByd0JDY0NLNFZ6eHRLWEg4b3lsSVVDX0dJT0E?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T02:59:35+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
     },
     {
       "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - Anime News Network",
@@ -180,6 +223,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - News - Anime News Network"
+    },
+    {
+      "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - TVLine",
+      "article_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGNTOTRZOTdKbmxGMlFuYjlIcVlLcXRPaXpaRTJmcmcxSU41RkNLQU4xR3Fta2NSYWJGWjBDRWZjcWV6bk9zSnY0azdsa0VhcWc4SWdLeUZWZjl4bEcxQ1ZqY05YN1NrQkVua3VqVTZoOHQ4c1hHc3RaWmRHRzBaWFBVWk9wZDA?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T02:12:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
     },
     {
       "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
@@ -281,22 +333,13 @@
       "page_title": "Google News"
     },
     {
-      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "article_url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "publisher": "Animehunch",
-      "published_at": "2026-11-09T22:33:42+00:00",
+      "title": "10 Underrated Crunchyroll Fantasy Anime That Are 10/10 Masterpieces - Comic Book Resources",
+      "article_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nZWVQeWhVbmJvaFk1Z05rLXV3b01GVEhFZERPaUxFTUJJbzNCNE9aSU11M0VucDhEWnJIV1ZuMVNFX3o4ZGtvcnRmTXhvZW1lQ0lCY3JpQ2pwdE8yNmd6LXVLRmkxS05nalR6VnE0X1MzeTNRV3Q0QlFB?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-09T22:15:11+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release - Animehunch"
-    },
-    {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "article_url": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
-      "publisher": "Animehunch",
-      "published_at": "2026-11-09T20:48:16+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "A Silent Voice Anime's Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals - Animehunch"
+      "page_title": "Google News"
     },
     {
       "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - Anime News Network",
@@ -326,6 +369,15 @@
       "page_title": "Google News"
     },
     {
+      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
+      "article_url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-09T20:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
       "title": "Crunchyroll’s ‘Release the Villains’ Campaign Puts the Anime Bad Guys in Charge - Animation Magazine",
       "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQXBRQXBMc04wemEtZFFFSlZ3S1FzSXlBX2I4VUpIUnRWbWdFc0UxaENpcjdPdkswWk11LVBLY2VxRkwtTkstT2NsQ0VsdVpSb2ZXSFhyc3NVUUpvQTJtSXRsV3g2MTlienBJVTh4aTljdkVpWlhwa3JwNUZuQXczekxoYl8zR0NZa3VUZzY2SV91UU1JREtndUFwTnhFMTZWaG90NUwweHpUcktVeXZWeVhYejdWdFJqMU00?oc=5",
       "publisher": "Google News (agrégateur)",
@@ -333,51 +385,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
-    },
-    {
-      "title": "The Best ‘Ramayana’ Movie Is Actually a ’90s Anime - Vulture",
-      "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONHpaN1lMMnRUWFkxNWxMUUN2QXB4bkJCTkhuYUFqZWpTOXFBS201Sm1GZW16b29jcUdOQ0J6RVFnbmlPbF9pMDhUYUZDM1VtUmhmWkxEZl9UVHdneDdYVDVWaDJYQ2NnRnJBOW5ncHFmS3NoMlpCU3hZa2xiYllaZjB5bW9sTXkwZEJEaw?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T19:00:32+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "K Manga Adds nyalra's Strayboy Overkill Manga - Anime News Network",
-      "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemV6UlZDM0ZfNDRTWDRfbElmSUlVR0pUZzNFcUlkcEtGdU1BNnhpZm9VUVF4U29vZENTYnh5TnlmYlBubEFJbFdMc2JoU0pGUExYZWU3Q1JzTE8tbjZoOFFma1BweWtuTU04MWtjU1RQTUNwUlZfX3NGajdXTjZBZVZyQ3k5UTZKamFNQlk3WmpTQ3lsaUNtVC1CbWhrRFB0bnc?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T18:30:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Anime Minami-ke: Korekara ganha trailer, arte e previsão de estreia para abril de 2027 - Crunchyroll",
-      "article_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUc2Q21zOEVmTmFORm80MnZYVGxMWEpYazkwTGNBR1J0Y01RTjF4Mld6UGQ2aGRtR1JxQkEyelRNMGJ1X2ZXX3lwbWpneTBPUXQtRWM1aUVqcmJ1T1UtblJqdnpIbTl3a0VYanp2MVZieFFGWmV3cUxWZm5CNGw5RUxPc3EyZHhiN0JfbVFaZThPMWoyS2hkeTcxYjRKLWRjZ29fbXctNXJTRlVoN3dnQW13?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T18:28:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "‘Hirayasumi’ Anime Sets International Streaming Premiere on Netflix - Animation Magazine",
-      "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NfMEI0YkhJWHpjVDlSaGdvc0NaajZGSUxSR2xTSWR0dFJLOGprUnhQVUJpTUZQQU42U1ZmcnhyX1lrUTRmeVk0UmszWTl5YXhtQTNWLXNtZjczZEdid0tBRUIyRW1tU0ZUSl85RXV6RF9kNzZyOEdIWDdlNHNEMjNIOUVvOTlzWU5jcVZiSEhnOXFST2NfM1pqQVRUQVdLMVgxb3pJLU9lcU5u?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T18:09:17+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-09T17:30:52+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation - News - Anime News Network"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
