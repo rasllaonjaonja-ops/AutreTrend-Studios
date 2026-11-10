@@ -1,17 +1,95 @@
 {
-  "checked_at": "2026-11-10T05:02:33.831845+00:00",
+  "checked_at": "2026-11-10T06:49:00.910227+00:00",
   "checked_articles": 25,
-  "official_link_found": 0,
+  "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
+  "official_link_found": 3,
   "errors": [],
   "checks": [
     {
-      "title": "'Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.' Second Season in Production",
-      "article_url": "https://myanimelist.net/news/74913297?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-07T08:39:43+00:00",
+      "title": "Plus-Sized Misadventures in Love! Anime Shares New Trailer, Adds to Cast",
+      "article_url": "https://otakuusamagazine.com/plus-sized-misadventures-in-love-anime-shares-new-trailer-adds-to-cast/",
+      "publisher": "Otaku USA Magazine",
+      "published_at": "2025-08-28T09:55:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.' Second Season in Production - MyAnimeList.net"
+      "page_title": "Plus-Sized Misadventures in Love! Anime Shares New Trailer, Adds to Cast"
+    },
+    {
+      "title": "Room of Guilty Pleasure Anime Shows Off Trailer After Revealing Early, Uncensored Release",
+      "article_url": "https://otakuusamagazine.com/room-of-guilty-pleasure-anime-shows-off-trailer-after-revealing-early-uncensored-release/",
+      "publisher": "Otaku USA Magazine",
+      "published_at": "2025-08-27T18:47:42+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Room of Guilty Pleasure Anime Shows Off Trailer After Revealing Early, Uncensored Release"
+    },
+    {
+      "title": "MANGA REVIEW: City Hunter and Cat’s Eye Omnibus Editions",
+      "article_url": "https://otakuusamagazine.com/manga-review-city-hunter-and-cats-eye-omnibus-editions/",
+      "publisher": "Otaku USA Magazine",
+      "published_at": "2025-08-27T11:00:36+00:00",
+      "official_evidence": [
+        {
+          "url": "https://www.netflix.com/title/81454087",
+          "domain": "www.netflix.com",
+          "link_text": "Netflix City Hunter film",
+          "evidence_type": "lien externe vers un domaine de première partie répertorié"
+        }
+      ],
+      "status": "lien de première partie repéré — contenu à contrôler",
+      "page_title": "MANGA REVIEW: City Hunter and Cat's Eye Omnibus Editions"
+    },
+    {
+      "title": "Kaiju No. 8 Season 2 Trailer Looks Ahead to Next Arc",
+      "article_url": "https://otakuusamagazine.com/kaiju-no-8-season-2-trailer-looks-ahead-to-next-arc/",
+      "publisher": "Otaku USA Magazine",
+      "published_at": "2025-08-27T18:41:14+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Kaiju No. 8 Season 2 Trailer Looks Ahead to Next Arc"
+    },
+    {
+      "title": "Three Powerful Back-to-School Anime",
+      "article_url": "https://otakuusamagazine.com/back-to-school-anime-2025/",
+      "publisher": "Otaku USA Magazine",
+      "published_at": "2025-08-31T11:00:59+00:00",
+      "official_evidence": [
+        {
+          "url": "https://www.netflix.com/title/80156387",
+          "domain": "www.netflix.com",
+          "link_text": "Little Witch Academia is available to watch on Netflix.",
+          "evidence_type": "lien externe vers un domaine de première partie répertorié"
+        }
+      ],
+      "status": "lien de première partie repéré — contenu à contrôler",
+      "page_title": "Three Powerful Back-to-School Anime"
+    },
+    {
+      "title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION",
+      "article_url": "https://otakuusamagazine.com/kaf-interview-kamitsuki-city-under-construction/",
+      "publisher": "Otaku USA Magazine",
+      "published_at": "2025-08-28T21:26:42+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-10T04:25:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-10T04:15:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -23,148 +101,74 @@
       "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
     },
     {
-      "title": "My Crush's Crush Anime Premieres in April 2027",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T03:34:51+00:00",
+      "official_evidence": [
+        {
+          "url": "https://www.viz.com/manga-books/manga/jojo-s-bizarre-adventure-part-7-steel-ball-run-volume-1/product/8330",
+          "domain": "www.viz.com",
+          "link_text": "released",
+          "evidence_type": "lien externe vers un domaine de première partie répertorié"
+        }
+      ],
+      "status": "lien de première partie repéré — contenu à contrôler",
+      "page_title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - News - Anime News Network"
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T03:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
+    },
+    {
+      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T02:31:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - News - Anime News Network"
+    },
+    {
+      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T01:56:30+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga - News - Anime News Network"
+    },
+    {
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
       "publisher": "Crunchyroll",
-      "published_at": "2026-11-08T16:23:00+00:00",
+      "published_at": "2026-11-10T01:39:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Manga 'Spirit Circle' Gets TV Anime in December 2026",
-      "article_url": "https://myanimelist.net/news/74906596?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-05T09:55:21+00:00",
+      "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T00:49:27+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Manga 'Spirit Circle' Gets TV Anime in December 2026 - MyAnimeList.net"
+      "page_title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song - News - Anime News Network"
     },
     {
-      "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
-      "article_url": "https://myanimelist.net/news/74917765?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-08T15:20:52+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere - MyAnimeList.net"
-    },
-    {
-      "title": "'Namidaame to Serenade' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
-      "article_url": "https://myanimelist.net/news/74910185?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-06T11:34:35+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Namidaame to Serenade' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere - MyAnimeList.net"
-    },
-    {
-      "title": "Manga '33-sai Dokushin Onna Kishi Taichou.' Gets Anime Adaptation in 2027",
-      "article_url": "https://myanimelist.net/news/74909101?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-06T03:30:22+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Manga '33-sai Dokushin Onna Kishi Taichou.' Gets Anime Adaptation in 2027 - MyAnimeList.net"
-    },
-    {
-      "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-      "article_url": "https://myanimelist.net/news/74917181?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-08T11:24:31+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027 - MyAnimeList.net"
-    },
-    {
-      "title": "Charisma Anime Premieres January 7, Adds Shinnosuke Tachibana and Tomohiro Ohno",
-      "article_url": "https://us.oricon-group.com/news/9469/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-02T05:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Charisma Anime Premieres January 7, Adds Shinnosuke Tachibana and Tomohiro Ohno | Japan Anime News powered by ORICON NEWS"
-    },
-    {
-      "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
+      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
       "publisher": "Crunchyroll",
-      "published_at": "2026-11-08T11:00:00+00:00",
+      "published_at": "2026-11-10T00:39:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Rainy Day Serenade Anime Premieres in April 2027",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/6/rainy-day-serenade-anime-premieres-in-april-2027",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-06T11:37:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "SAKAMOTO DAYS Character List | Names, Voice Actors, Weapons, Abilities & Affiliations",
-      "article_url": "https://us.oricon-group.com/news/9484/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-06T09:05:51+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "SAKAMOTO DAYS Character List | Names, Voice Actors, Weapons, Abilities & Affiliations | Japan Anime News powered by ORICON NEWS"
-    },
-    {
-      "title": "'Kizuguchi to Houtai' Reveals Additional Cast, Staff, Opening Theme, First Promo",
-      "article_url": "https://myanimelist.net/news/74909626?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-06T07:38:34+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Kizuguchi to Houtai' Reveals Additional Cast, Staff, Opening Theme, First Promo - MyAnimeList.net"
-    },
-    {
-      "title": "Manga 'Hagure Idol: Jigoku-hen' Gets TV Anime in Winter 2027",
-      "article_url": "https://myanimelist.net/news/74909290?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-06T05:11:20+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Manga 'Hagure Idol: Jigoku-hen' Gets TV Anime in Winter 2027 - MyAnimeList.net"
-    },
-    {
-      "title": "Hiragi-san's House of Vampires Gets TV Anime Adaptation, Super Teaser Visual Revealed",
-      "article_url": "https://us.oricon-group.com/news/9471/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-02T05:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Hiragi-san's House of Vampires Gets TV Anime Adaptation, Super Teaser Visual Revealed | Japan Anime News powered by ORICON NEWS"
-    },
-    {
-      "title": "One-Punch Man Season 3 Part 2 Anime Reveals New Visuals, Ending Theme Performer",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/7/one-punch-man-season-3-part-2-anime-visuals-ending-theme-performer",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-07T13:21:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Paradox Live THE MOVIE Anime Film Slated for 2027, Reveals Super Teaser Visual",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/7/paradox-live-the-movie-anime-film-2027-super-teaser-visual",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-07T01:36:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Mashle: Magic and Muscles Live-Action Movie Set for March 19, 2027; Teaser Visual Reveals Mash From Behind",
-      "article_url": "https://us.oricon-group.com/news/9474/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-04T00:41:15+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Mashle Live-Action Movie Set for March 19, 2027 | Japan Anime News powered by ORICON NEWS"
     },
     {
       "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
@@ -176,58 +180,76 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/7/everyones-darling-has-a-secret-anime-additional-cast-ending-theme-performers",
+      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
+      "article_url": "https://myanimelist.net/news/74922872?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-10T00:05:31+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer - MyAnimeList.net"
+    },
+    {
+      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+      "article_url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+      "publisher": "Animehunch",
+      "published_at": "2026-11-09T22:33:42+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release - Animehunch"
+    },
+    {
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-09T21:30:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award - News - Anime News Network"
+    },
+    {
+      "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
+      "article_url": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
       "publisher": "Crunchyroll",
-      "published_at": "2026-11-07T14:24:00+00:00",
+      "published_at": "2026-11-09T21:00:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Additional Cast for 'Gacha wo Mawashite Nakama wo Fuyasu' Announced",
-      "article_url": "https://myanimelist.net/news/74913326?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-07T09:02:11+00:00",
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+      "article_url": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
+      "publisher": "Animehunch",
+      "published_at": "2026-11-09T20:48:16+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Additional Cast for 'Gacha wo Mawashite Nakama wo Fuyasu' Announced - MyAnimeList.net"
+      "page_title": "A Silent Voice Anime's Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals - Animehunch"
     },
     {
-      "title": "Mixed Media Project 'Harajuku Himegoto House' Announces TV Anime Adaptation",
-      "article_url": "https://myanimelist.net/news/74912747?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-07T05:07:54+00:00",
+      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-09T20:30:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Mixed Media Project 'Harajuku Himegoto House' Announces TV Anime Adaptation - MyAnimeList.net"
+      "page_title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - News - Anime News Network"
     },
     {
-      "title": "'Yuru Camp△ Season 4' Reveals Additional Staff, Theme Songs, Main Promo, Spring 2027 Premiere",
-      "article_url": "https://myanimelist.net/news/74910044?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-06T09:36:07+00:00",
+      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
+      "article_url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-09T20:00:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Yuru Camp△ Season 4' Reveals Additional Staff, Theme Songs, Main Promo, Spring 2027 Premiere - MyAnimeList.net"
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Spirit Circle TV Anime Set for December, Becomes Tatsuo Sato's Final Directorial Work",
-      "article_url": "https://us.oricon-group.com/news/9482/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-05T13:00:00+00:00",
+      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-09T18:30:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Spirit Circle TV Anime Set for December, Becomes Tatsuo Sato's Final Directorial Work | Japan Anime News powered by ORICON NEWS"
-    },
-    {
-      "title": "'Tensei shitara Ken deshita II' Reveals Supporting Cast, Third Promo",
-      "article_url": "https://myanimelist.net/news/74904410?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-04T16:33:53+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Tensei shitara Ken deshita II' Reveals Supporting Cast, Third Promo - MyAnimeList.net"
+      "page_title": "K Manga Adds nyalra's Strayboy Overkill Manga - News - Anime News Network"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
