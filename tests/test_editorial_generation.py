@@ -137,6 +137,13 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
         self.assertEqual(detect_text_language("The fourth season of this series is confirmed"), "en")
 
+    def test_worker_prompt_protects_proper_names_and_source_fidelity(self):
+        worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
+        worker_prompt = worker_path.read_text(encoding="utf-8")
+        self.assertIn("ne traduis jamais les noms propres", worker_prompt)
+        self.assertIn("Forgeron", worker_prompt)
+        self.assertIn("laisse le contrôle rejeter le sujet", worker_prompt)
+
 
 if __name__ == "__main__":
     unittest.main()
