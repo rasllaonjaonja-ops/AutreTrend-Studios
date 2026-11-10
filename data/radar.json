@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:53:51.768060+00:00",
+  "updated_at": "2026-11-10T07:55:46.215509+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:37.681535+00:00",
+      "last_success_at": "2026-11-10T07:55:31.037546+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:38.193311+00:00",
+      "last_success_at": "2026-11-10T07:55:31.451538+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:38.641825+00:00",
+      "last_success_at": "2026-11-10T07:55:31.895987+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:38.934614+00:00",
+      "last_success_at": "2026-11-10T07:55:32.145005+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 35,
       "unique_items": 35,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:39.011889+00:00",
+      "last_success_at": "2026-11-10T07:55:32.241377+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:39.454505+00:00",
+      "last_success_at": "2026-11-10T07:55:32.927320+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:39.686991+00:00",
+      "last_success_at": "2026-11-10T07:55:33.268272+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:40.217327+00:00",
+      "last_success_at": "2026-11-10T07:55:33.957903+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:40.624374+00:00",
+      "last_success_at": "2026-11-10T07:55:34.483375+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:42.212707+00:00",
+      "last_success_at": "2026-11-10T07:55:35.421839+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:42.264390+00:00",
+      "last_success_at": "2026-11-10T07:55:35.497942+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:43.206919+00:00",
+      "last_success_at": "2026-11-10T07:55:36.667036+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:43.733188+00:00",
+      "last_success_at": "2026-11-10T07:55:37.063503+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:44.495813+00:00",
+      "last_success_at": "2026-11-10T07:55:37.847510+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:45.402962+00:00",
+      "last_success_at": "2026-11-10T07:55:38.953851+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:46.064590+00:00",
+      "last_success_at": "2026-11-10T07:55:39.656594+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:46.543443+00:00",
+      "last_success_at": "2026-11-10T07:55:40.119859+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:47.253526+00:00",
+      "last_success_at": "2026-11-10T07:55:40.876526+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:48.334751+00:00",
+      "last_success_at": "2026-11-10T07:55:41.917010+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:48.772308+00:00",
+      "last_success_at": "2026-11-10T07:55:42.852651+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:49.183993+00:00",
+      "last_success_at": "2026-11-10T07:55:43.305353+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:49.578076+00:00",
+      "last_success_at": "2026-11-10T07:55:43.860772+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:50.035732+00:00",
+      "last_success_at": "2026-11-10T07:55:44.322733+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:50.458289+00:00",
+      "last_success_at": "2026-11-10T07:55:44.776746+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:50.844949+00:00",
+      "last_success_at": "2026-11-10T07:55:45.270043+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:51.354789+00:00",
+      "last_success_at": "2026-11-10T07:55:45.731982+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,7 +411,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T07:53:51.753107+00:00",
+      "last_success_at": "2026-11-10T07:55:46.198575+00:00",
       "error": null
     }
   },
@@ -6188,7 +6188,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 27,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -6455,7 +6455,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 93,
+        "freshness": 92,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7045,7 +7045,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 21,
-        "freshness": 76,
+        "freshness": 75,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7310,7 +7310,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7548,7 +7548,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 41,
-        "freshness": 7,
+        "freshness": 6,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -7892,7 +7892,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8126,7 +8126,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 93,
+        "freshness": 92,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -8490,51 +8490,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUzJGYWhFRUU4Mk1uMWhlc0w5TzdNLWxYeWo1ZDdzN1duVy0za1gzekcwZU5IVTJPblV6a0tkLV9NLThFQnRLMXJ0ejd0VXVVQlduTlBXNnFUWnd3OUptbkYzZDlxVUZLUkpaeC03LVEyMzJ4RjV5M3pMWE9VYUpUWENQMU5DNWc5RjNRdk1sYnh0TWlmTFFWVVhsaWtUYlpGRm1jaVc4cjl1VXhvNXpWOF91Q1d2ZWtTVW5NbHdYV1RrZEZhSVVJY1ptNmZtWXlhM1d2WVRzbnJqb1lneFVXdjZpbU1uOFNPY2c?oc=5",
-      "title": "McCrack-Con grows as Paducah fans celebrate gaming, anime and pop culture - The Paducah Sun",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 97,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T06:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "McCrack-Con grows as Paducah fans celebrate gaming, anime and pop culture - The Paducah Sun",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUzJGYWhFRUU4Mk1uMWhlc0w5TzdNLWxYeWo1ZDdzN1duVy0za1gzekcwZU5IVTJPblV6a0tkLV9NLThFQnRLMXJ0ejd0VXVVQlduTlBXNnFUWnd3OUptbkYzZDlxVUZLUkpaeC03LVEyMzJ4RjV5M3pMWE9VYUpUWENQMU5DNWc5RjNRdk1sYnh0TWlmTFFWVVhsaWtUYlpGRm1jaVc4cjl1VXhvNXpWOF91Q1d2ZWtTVW5NbHdYV1RrZEZhSVVJY1ptNmZtWXlhM1d2WVRzbnJqb1lneFVXdjZpbU1uOFNPY2c?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
       "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
       "title_language": "en",
@@ -8590,7 +8545,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8860,6 +8815,51 @@
           "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUzJGYWhFRUU4Mk1uMWhlc0w5TzdNLWxYeWo1ZDdzN1duVy0za1gzekcwZU5IVTJPblV6a0tkLV9NLThFQnRLMXJ0ejd0VXVVQlduTlBXNnFUWnd3OUptbkYzZDlxVUZLUkpaeC03LVEyMzJ4RjV5M3pMWE9VYUpUWENQMU5DNWc5RjNRdk1sYnh0TWlmTFFWVVhsaWtUYlpGRm1jaVc4cjl1VXhvNXpWOF91Q1d2ZWtTVW5NbHdYV1RrZEZhSVVJY1ptNmZtWXlhM1d2WVRzbnJqb1lneFVXdjZpbU1uOFNPY2c?oc=5",
+      "title": "McCrack-Con grows as Paducah fans celebrate gaming, anime and pop culture - The Paducah Sun",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 97,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T06:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "McCrack-Con grows as Paducah fans celebrate gaming, anime and pop culture - The Paducah Sun",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUzJGYWhFRUU4Mk1uMWhlc0w5TzdNLWxYeWo1ZDdzN1duVy0za1gzekcwZU5IVTJPblV6a0tkLV9NLThFQnRLMXJ0ejd0VXVVQlduTlBXNnFUWnd3OUptbkYzZDlxVUZLUkpaeC03LVEyMzJ4RjV5M3pMWE9VYUpUWENQMU5DNWc5RjNRdk1sYnh0TWlmTFFWVVhsaWtUYlpGRm1jaVc4cjl1VXhvNXpWOF91Q1d2ZWtTVW5NbHdYV1RrZEZhSVVJY1ptNmZtWXlhM1d2WVRzbnJqb1lneFVXdjZpbU1uOFNPY2c?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – United States"
           ]
         }
       ]
@@ -9188,52 +9188,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzZPbksyNjI5NlFfVGZPRm9PX2tvRWlyNjJzbWRvWDgwMFM0U0xrYTlDdGVIekZfcGNhUEtCTW02a25KQllESHVhdm56Z1dRS1h2OFRJLXFCZm1venQ0MjJMSXlfdnNvczlfSFhuMzhJMWQ1VkFaSjRNNkhMTWdpdUhXeS0yRTVubmdJVGpKOXNCN2piSEJ1QUVXZi14YnptSVptdHVUdjk1ckx3bWs0cWd6YUEzM04wN2NfZ2lUR2pMejlQZHNWclZtelU?oc=5",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - Anime News Network",
-      "title_language": "en",
-      "score": 35,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 94,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T03:34:51+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - Anime News Network",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzZPbksyNjI5NlFfVGZPRm9PX2tvRWlyNjJzbWRvWDgwMFM0U0xrYTlDdGVIekZfcGNhUEtCTW02a25KQllESHVhdm56Z1dRS1h2OFRJLXFCZm1venQ0MjJMSXlfdnNvczlfSFhuMzhJMWQ1VkFaSjRNNkhMTWdpdUhXeS0yRTVubmdJVGpKOXNCN2piSEJ1QUVXZi14YnptSVptdHVUdjk1ckx3bWs0cWd6YUEzM04wN2NfZ2lUR2pMejlQZHNWclZtelU?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – Philippines",
-            "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RanBXN3ZuVWlYRUJGMXBsQk1sUmhTNjFreDNsakNVQ0tSYjAzbEJlR3JoNXFqd21PU3lsckpWUzJ0blYyWGJaZjVyLVFjdmE0MG9IX1dPa2p0eWlpckhaM2x4M0hZWFJWMHc?oc=5",
       "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - IMDb",
       "title_language": "en",
@@ -9552,6 +9506,52 @@
           "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzZPbksyNjI5NlFfVGZPRm9PX2tvRWlyNjJzbWRvWDgwMFM0U0xrYTlDdGVIekZfcGNhUEtCTW02a25KQllESHVhdm56Z1dRS1h2OFRJLXFCZm1venQ0MjJMSXlfdnNvczlfSFhuMzhJMWQ1VkFaSjRNNkhMTWdpdUhXeS0yRTVubmdJVGpKOXNCN2piSEJ1QUVXZi14YnptSVptdHVUdjk1ckx3bWs0cWd6YUEzM04wN2NfZ2lUR2pMejlQZHNWclZtelU?oc=5",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - Anime News Network",
+      "title_language": "en",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 94,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T03:34:51+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - Anime News Network",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzZPbksyNjI5NlFfVGZPRm9PX2tvRWlyNjJzbWRvWDgwMFM0U0xrYTlDdGVIekZfcGNhUEtCTW02a25KQllESHVhdm56Z1dRS1h2OFRJLXFCZm1venQ0MjJMSXlfdnNvczlfSFhuMzhJMWQ1VkFaSjRNNkhMTWdpdUhXeS0yRTVubmdJVGpKOXNCN2piSEJ1QUVXZi14YnptSVptdHVUdjk1ckx3bWs0cWd6YUEzM04wN2NfZ2lUR2pMejlQZHNWclZtelU?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – Philippines",
+            "Google News – United States"
           ]
         }
       ]
@@ -11555,7 +11555,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -11600,7 +11600,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 76,
+        "freshness": 75,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -11875,7 +11875,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 78,
+        "freshness": 77,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -11965,7 +11965,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -12694,7 +12694,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 74,
+        "freshness": 73,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -13150,7 +13150,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 68,
+        "freshness": 67,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -13765,7 +13765,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 60,
+        "freshness": 59,
         "independent_sources": 0,
         "article_volume": 1
       },
@@ -14975,51 +14975,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUlwU1FjRExHR3hLUmtZZGV2d1NHQUpXMFE4MlFVNmlfRVFIV2Q3emRVU3hfbFdvRTVyVXptOWE3dEwyTEpJdnV1NHRZdDR1RHkzMFpPV2pod2o2Nm9sdlR5STg5NFVYT0xDSFRLTWZkMzRjOFBUTnFhN05qVlBnRTh3eGx5R1ctSDZYeHZodGdtVWRkT2d6R2lLM1ZWRFZJb1FSQ0tJZHY?oc=5",
-      "title": "'Twisted-Wonderland': anime da Disney volta com 'O Episódio de Savanaclaw' em dezembro - einerd.com",
-      "title_language": "en",
-      "score": 21,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 47,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-08T18:00:11+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Twisted-Wonderland': anime da Disney volta com 'O Episódio de Savanaclaw' em dezembro - einerd.com",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUlwU1FjRExHR3hLUmtZZGV2d1NHQUpXMFE4MlFVNmlfRVFIV2Q3emRVU3hfbFdvRTVyVXptOWE3dEwyTEpJdnV1NHRZdDR1RHkzMFpPV2pod2o2Nm9sdlR5STg5NFVYT0xDSFRLTWZkMzRjOFBUTnFhN05qVlBnRTh3eGx5R1ctSDZYeHZodGdtVWRkT2d6R2lLM1ZWRFZJb1FSQ0tJZHY?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://myanimelist.net/news/74913326?_location=rss",
       "title": "Additional Cast for 'Gacha wo Mawashite Nakama wo Fuyasu' Announced",
       "title_language": "en",
@@ -15250,6 +15205,51 @@
           "market_country": null,
           "feed_sources": [
             "Anime News India"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUlwU1FjRExHR3hLUmtZZGV2d1NHQUpXMFE4MlFVNmlfRVFIV2Q3emRVU3hfbFdvRTVyVXptOWE3dEwyTEpJdnV1NHRZdDR1RHkzMFpPV2pod2o2Nm9sdlR5STg5NFVYT0xDSFRLTWZkMzRjOFBUTnFhN05qVlBnRTh3eGx5R1ctSDZYeHZodGdtVWRkT2d6R2lLM1ZWRFZJb1FSQ0tJZHY?oc=5",
+      "title": "'Twisted-Wonderland': anime da Disney volta com 'O Episódio de Savanaclaw' em dezembro - einerd.com",
+      "title_language": "en",
+      "score": 20,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 47,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-08T18:00:11+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'Twisted-Wonderland': anime da Disney volta com 'O Episódio de Savanaclaw' em dezembro - einerd.com",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUlwU1FjRExHR3hLUmtZZGV2d1NHQUpXMFE4MlFVNmlfRVFIV2Q3emRVU3hfbFdvRTVyVXptOWE3dEwyTEpJdnV1NHRZdDR1RHkzMFpPV2pod2o2Nm9sdlR5STg5NFVYT0xDSFRLTWZkMzRjOFBUTnFhN05qVlBnRTh3eGx5R1ctSDZYeHZodGdtVWRkT2d6R2lLM1ZWRFZJb1FSQ0tJZHY?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
           ]
         }
       ]
@@ -16152,51 +16152,6 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcDlMWkpzM2szY2RpMTgzM3pIeHV5SnZpdUZ4ay1GcllwUnlGUmVUelAteDdrME9jUWZ1YWpMdmE5a0V2bm5JSjVETHVESnBSUjhOUUtBUEZoZWNNOUdQOGJJQl8zVTRPWTZlVmoyOERJdGFfMW1pMmlBeHpnUWxMRE92UWhzWWdOalhGZQ?oc=5",
-      "title": "L'anime Bride of the Barrier Master, en Character Vidéo - Adala News",
-      "title_language": "fr",
-      "score": 18,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 38,
-        "independent_sources": 0,
-        "article_volume": 1
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-08T11:05:22+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "L'anime Bride of the Barrier Master, en Character Vidéo - Adala News",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcDlMWkpzM2szY2RpMTgzM3pIeHV5SnZpdUZ4ay1GcllwUnlGUmVUelAteDdrME9jUWZ1YWpMdmE5a0V2bm5JSjVETHVESnBSUjhOUUtBUEZoZWNNOUdQOGJJQl8zVTRPWTZlVmoyOERJdGFfMW1pMmlBeHpnUWxMRE92UWhzWWdOalhGZQ?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
           ]
         }
       ]
@@ -19166,7 +19121,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 2,
+        "freshness": 1,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -24614,6 +24569,51 @@
           "title": "“Bass X Machina”, sur Netflix : un anime explosif et politique, la pépite de l’année - Télérama",
           "title_language": "fr",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdHY0VFI4Q0xlaFhuV245X2FLMEZiLUNwYkVYcENqenlTWHNhVHhqLTNlVG0wSzBqeXgxemMxVi13aGp1d01Ld1czdjY4N3J0ckd3VldvQ0pROXZSTmlTNGRTOUotbjBKSFJ4eG9fUkduWXVTMF83OEc3ak1kRUVRN3ltekoweExWY3lkWUgxM2Z5MWE0bFBNZkUwemFWYTNMbDRXeG1yU0c5ekJJNldJdjE2ekFlQXFfVGJodkxPdV9ObXVoZ0VR?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0hWbXo4M2Z5Z3FhZ3NncWgtd0ZTOEJzemFoSzN1TG90eWxDeUVOSnRLSGJUckRKMTQwcTRzNjAtRnJ6VHN3MHpjaXp5X2lZY0Z0amo3Uk5CaGFMTW1GLXYzaThXTERVWC12enIwaDBFb29zZld2a0ljVm5xTGlzeXBNbnluV2VZXzFzOGJSZllqaU9vV2loZktMOE1lWTRseE96WmY5ODQ?oc=5",
+      "title": "33-sai Dokushin Onna Kishi Taicho. sera adapté en anime - Crunchyroll",
+      "title_language": "fr",
+      "score": 7,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 0,
+        "independent_sources": 0,
+        "article_volume": 1
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-06T03:20:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "33-sai Dokushin Onna Kishi Taicho. sera adapté en anime - Crunchyroll",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ0hWbXo4M2Z5Z3FhZ3NncWgtd0ZTOEJzemFoSzN1TG90eWxDeUVOSnRLSGJUckRKMTQwcTRzNjAtRnJ6VHN3MHpjaXp5X2lZY0Z0amo3Uk5CaGFMTW1GLXYzaThXTERVWC12enIwaDBFb29zZld2a0ljVm5xTGlzeXBNbnluV2VZXzFzOGJSZllqaU9vV2loZktMOE1lWTRseE96WmY5ODQ?oc=5",
           "source": "Google Actualités – France",
           "source_type": "market_search",
           "source_country": null,
