@@ -103,3 +103,53 @@ def evidence_level(publisher_count, primary_source_count=0):
     if primary_source_count > 0:
         return "first_party_feed_present_needs_review"
     return "multi_media_reported" if publisher_count >= 2 else "single_publisher_signal"
+
+
+# Termes éditoriaux à ignorer pour reconnaître une franchise dans un titre.
+EDITORIAL_GENERIC = {
+    "new", "latest", "announced", "announcement", "reveals", "revealed",
+    "confirms", "confirmed", "adaptation", "anime", "manga", "release",
+    "trailer", "teaser", "premiere", "episode", "chapter", "volume",
+    "returns", "return", "live", "action", "gets", "get", "season",
+    "saison", "movie", "film", "theatrical", "cinema", "feature",
+    "my", "its", "the", "and", "for", "with", "from", "in", "on",
+}
+
+
+def same_franchise(title_a, title_b):
+    """Repère prudemment deux titres d'une même franchise, sans confondre un mot générique."""
+    core_a, _ = event_parts(title_a)
+    core_b, _ = event_parts(title_b)
+    core_a -= EDITORIAL_GENERIC
+    core_b -= EDITORIAL_GENERIC
+    if not core_a or not core_b:
+        return False
+    shared = core_a & core_b
+    ratio = len(shared) / min(len(core_a), len(core_b))
+    # Deux mots distinctifs suffisent ; un seul n'est accepté que s'il est long et rare.
+    if len(shared) >= 2 and ratio >= 0.5:
+        return True
+    return len(shared) == 1 and len(next(iter(shared))) >= 7 and ratio >= 0.66
+
+
+def diversify_queue(items, limit=15, max_per_franchise=2):
+    """Conserve l'ordre de priorité tout en limitant la répétition d'une franchise."""
+    selected = []
+    groups = []
+    for item in items:
+        title = str(item.get("title", ""))
+        group_index = next(
+            (index for index, group in enumerate(groups)
+             if same_franchise(title, group["representative"])),
+            None
+        )
+        if group_index is not None:
+            if groups[group_index]["count"] >= max_per_franchise:
+                continue
+            groups[group_index]["count"] += 1
+        else:
+            groups.append({"representative": title, "count": 1})
+        selected.append(item)
+        if len(selected) >= limit:
+            break
+    return selected
