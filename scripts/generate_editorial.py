@@ -17,15 +17,28 @@ QUEUE = ROOT / "data" / "editorial_queue.json"
 PLATFORMS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
 
 
+def word_count(value):
+    return len(str(value or "").split())
+
+
 def valid_posts(posts):
     if not isinstance(posts, dict) or not all(key in posts for key in PLATFORMS):
         return False
+    minimum_words = {
+        "facebook": 45, "instagram": 30, "tiktok": 25,
+        "x": 8, "threads": 25, "telegram": 25,
+    }
     for key in PLATFORMS:
         value = posts[key]
         if key in ("youtube", "pinterest"):
-            if not isinstance(value, dict) or not value.get("title") or not value.get("description"):
+            if (not isinstance(value, dict)
+                    or not isinstance(value.get("title"), str)
+                    or len(value["title"].strip()) < 12
+                    or not isinstance(value.get("description"), str)
+                    or word_count(value["description"]) < 25):
                 return False
-        elif not isinstance(value, str) or not value.strip():
+        elif (not isinstance(value, str)
+                or word_count(value) < minimum_words[key]):
             return False
         elif key == "x" and len(value) > 280:
             return False
@@ -97,7 +110,16 @@ def main():
         title_fr = str(draft.get("title_fr", "")).strip()
         summary_fr = str(draft.get("summary_fr", "")).strip()
         # Une simple réponse du modèle ne suffit pas : on exige aussi une détection française.
-        if detect_text_language(title_fr) != "fr" or detect_text_language(summary_fr) != "fr":
+        if (detect_text_language(title_fr) != "fr"
+                or detect_text_language(summary_fr) != "fr"
+                or word_count(summary_fr) < 35):
+            continue
+        if (word_count(draft.get("editorial_angle", "")) < 8
+                or word_count(draft.get("discussion_question", "")) < 6
+                or not str(draft.get("discussion_question", "")).strip().endswith("?")):
+            continue
+        claims = draft.get("claims_to_verify", [])
+        if not isinstance(claims, list) or not all(isinstance(x, str) for x in claims):
             continue
         french_platforms = ("facebook", "instagram", "tiktok", "threads", "telegram")
         if any(detect_text_language(draft["posts"][key]) != "fr" for key in french_platforms):
@@ -109,7 +131,7 @@ def main():
         item["summary_fr"] = summary_fr
         item["editorial_angle"] = str(draft.get("editorial_angle", "")).strip()
         item["discussion_question"] = str(draft.get("discussion_question", "")).strip()
-        item["claims_to_verify"] = draft.get("claims_to_verify", [])[:12]
+        item["claims_to_verify"] = claims[:12]
         posts = dict(draft["posts"])
         source_url = str(item.get("source_excerpt_url", "")).strip()
         if source_url.startswith("https://"):
