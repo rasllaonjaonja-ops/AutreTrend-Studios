@@ -3,7 +3,8 @@ import unittest
 
 from scripts.verify_sources import Links
 from scripts.radar_logic import (
-    detect_text_language, event_parts, same_event, evidence_level, coverage_score,
+    detect_text_language, event_parts, same_event, same_franchise,
+    diversify_queue, evidence_level, coverage_score,
 )
 
 
@@ -48,6 +49,22 @@ class RadarLogicTests(unittest.TestCase):
             "en",
         )
         self.assertEqual(detect_text_language("Spy x Family"), "und")
+
+    def test_franchise_matching_is_conservative(self):
+        self.assertTrue(same_franchise("Spy x Family Season 4 announced", "Spy x Family new movie announced"))
+        self.assertTrue(same_franchise("Dandadan anime trailer", "Dandadan season 2 announced"))
+        self.assertFalse(same_franchise("Blue Lock season 3", "Blue Exorcist season 3"))
+        self.assertFalse(same_franchise("One Piece season 3", "One Punch Man season 3"))
+
+    def test_editorial_queue_limits_repeated_franchises(self):
+        items = [
+            {"title": "Spy x Family Season 4 announced", "score": 95},
+            {"title": "Spy x Family new movie announced", "score": 90},
+            {"title": "Spy x Family game announced", "score": 85},
+            {"title": "Frieren Season 2 announced", "score": 80},
+        ]
+        selected = diversify_queue(items, limit=4, max_per_franchise=2)
+        self.assertEqual([item["score"] for item in selected], [95, 90, 80])
 
     def test_official_link_labels_normalize_whitespace(self):
         parser = Links()
