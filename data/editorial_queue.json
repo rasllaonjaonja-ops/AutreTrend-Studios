@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:33:38.150092+00:00",
+  "generated_at": "2026-11-10T12:35:21.047626+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 402,
+  "rejected_count": 404,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -24,12 +24,6 @@
     },
     {
       "title": "L’anime My Death Flags Show No Sign of Ending annoncé pour 2027",
-      "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -199,13 +193,6 @@
       ]
     },
     {
-      "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -254,6 +241,20 @@
     },
     {
       "title": "Cool Japan Fund postmortem finds that video game, anime and manga investments were profitable, while live-action sector suffered losses - AUTOMATON",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Idées cadeaux manga et anime : notre sélection Noël 2026 - FuransuJapon",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027 - Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
