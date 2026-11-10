@@ -33,7 +33,7 @@ function extractJson(value) {
   return JSON.parse(cleaned.slice(start, end + 1));
 }
 
-async function generateOne(item, env, correctivePass = false) {
+async function generateOne(item, env, correctivePass = false, previousError = "") {
   const system = [
     "Tu es journaliste-rédacteur francophone spécialisé manga, anime et culture pop, au sein d'un média indépendant.",
     "Écris comme une personne qui maîtrise son sujet : naturel, précis, fluide, chaleureux et crédible. Le texte doit pouvoir être lu à voix haute sans sonner comme un communiqué automatique.",
@@ -97,7 +97,7 @@ async function generateOne(item, env, correctivePass = false) {
   const result = await env.AI.run(MODEL, {
     messages: [
       { role: "system", content: system },
-      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : ta réponse précédente a été rejetée par le contrôle qualité. Recommence intégralement et retourne TOUS les champs demandés, sans en omettre aucun. La propriété trend_synthesis est obligatoire et doit contenir key_facts (au moins un fait sourcé de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide), coverage_summary (au moins 8 mots) et editorial_context (au moins 8 mots). Ne transforme jamais une absence d’information en fait. Respecte aussi les longueurs de chaque réseau et retourne uniquement un JSON valide.\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\n" + JSON.stringify(input) }
+      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr au moins 60 mots; editorial_angle au moins 8 mots; discussion_question au moins 6 mots et se terminant par ?; claims_to_verify un tableau de chaînes. trend_synthesis doit contenir key_facts (au moins un fait sourcé de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide), coverage_summary (au moins 8 mots) et editorial_context (au moins 8 mots). Posts : Facebook 70 mots minimum, Instagram 45, TikTok 35, X 8 mots minimum et 260 caractères maximum, Threads 40, Telegram 40, YouTube titre 45 caractères minimum et description 50 mots minimum, Pinterest titre 45 caractères minimum et description 35 mots minimum. Les textes doivent rester fidèles aux sources. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
     ],
     response_format: { type: "json_object" },
     chat_template_kwargs: { enable_thinking: false },
@@ -138,15 +138,15 @@ async function generateOne(item, env, correctivePass = false) {
       || wordCount(parsed.trend_synthesis.editorial_context) < 8) {
     throw new Error("Synthèse croisée des tendances absente ou trop faible");
   }
-  if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4
-      || typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < 60
-      || typeof parsed.editorial_angle !== "string" || wordCount(parsed.editorial_angle) < 8
-      || typeof parsed.discussion_question !== "string" || wordCount(parsed.discussion_question) < 6
-      || !parsed.discussion_question.trim().endsWith("?")
-      || !Array.isArray(parsed.claims_to_verify)
-      || !parsed.claims_to_verify.every(x => typeof x === "string")) {
-    throw new Error("Brief éditorial trop court ou incomplet");
-  }
+  const briefErrors = [];
+  if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4) briefErrors.push("title_fr doit contenir au moins 4 mots");
+  if (typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < 60) briefErrors.push("summary_fr doit contenir au moins 60 mots");
+  if (typeof parsed.editorial_angle !== "string" || wordCount(parsed.editorial_angle) < 8) briefErrors.push("editorial_angle doit contenir au moins 8 mots");
+  if (typeof parsed.discussion_question !== "string" || wordCount(parsed.discussion_question) < 6
+      || !parsed.discussion_question.trim().endsWith("?")) briefErrors.push("discussion_question doit contenir au moins 6 mots et finir par ?");
+  if (!Array.isArray(parsed.claims_to_verify)
+      || !parsed.claims_to_verify.every(x => typeof x === "string")) briefErrors.push("claims_to_verify doit être un tableau de chaînes");
+  if (briefErrors.length) throw new Error("Brief éditorial incomplet : " + briefErrors.join("; "));
   const minimumWords = { facebook: 70, instagram: 45, tiktok: 35, x: 8, threads: 40, telegram: 40 };
   for (const platform of ["facebook", "instagram", "tiktok", "x", "threads", "telegram"]) {
     if (wordCount(parsed.posts[platform]) < minimumWords[platform]) {
@@ -218,7 +218,7 @@ export async function onRequestPost({ request, env }) {
         if (/trop court|synthèse croisée|brief éditorial|structure éditoriale|format incomplet/i.test(String(error))) {
           // Une seule correction ciblée : ne pas laisser un sujet défaillant
           // annuler les autres prépublications valides du même lot.
-          output.push(await generateOne(item, env, true));
+          output.push(await generateOne(item, env, true, String(error).slice(0, 500)));
         } else {
           throw error;
         }
