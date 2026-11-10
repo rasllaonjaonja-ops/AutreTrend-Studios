@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-10T22:30:49.953908+00:00",
+  "checked_at": "2026-11-10T22:46:08.615783+00:00",
   "checked_articles": 40,
-  "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
+  "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
   "official_link_found": 2,
   "errors": [],
   "checks": [
@@ -155,6 +155,15 @@
       "page_title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5 - News - Anime News Network"
     },
     {
+      "title": "My Death Flags Show No Sign of Ending tem anime confirmado para 2027 - Crunchyroll",
+      "article_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQakstTnFXbGFEcTJQNWFWOXpEU0RoTFlrRC11LWNoX0ZSZ1lpUjVWZzlYbHpLM0RZYVpoV3laR0ZPRnk1UUI4ZW5BSlloNWVnTE1CcUVmcjZmMlJHMVV1dzFQUEs5c0NRQ212WVk5Tkh6R3F6M0R1TVlYaFk0S0llTlhpQmRVN2tpc3FONm1zc0NZc0RxdnJyTW1BZl9sS05hNUMwT0RuSDhOVDBmRmh2RXRiTnM5QQ?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T18:35:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
       "title": "Novo trailer do filme anime ghost – end of night revela tema musical - OtakuPT",
       "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3RRNkNuNzZXYWFiOWYxblJiRmlEWTc3QUwxN3g1QXRkczdmU202YjZjVkI3TUhEMFBpc2dPZWpBSHVYMmZVSkVqcEdiZXY5UDBKZG1fMEdwQlEzbk93d1NqT21HYVdGcW5FZE9ub2FtdFZOUGJfTm4xT2Rybm4xSmNMcnhrRHF3c2Y2OE1kQmZRVDJoak1wRWQzVGU0UQ?oc=5",
       "publisher": "Google News (agrégateur)",
@@ -200,10 +209,10 @@
       "page_title": "Google News"
     },
     {
-      "title": "Dragon Ball Super: Beerus Officially Loses to Crunchyroll’s Best Shonen Anime of 2026 - IMDb",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uLWJjVDlOV0x5U2xOdjY1UkxIQ0NKRFMzbDhMQWFrZFpsbmtLOGl6dU1Dd2lLNHVYaTBKMWhnNTFTdy1zU0pUNFhuTEpJWHhsMUlSdS11b2U5SkRCb3RZMzZjQ3VJTUk?oc=5",
+      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime - Crunchyroll",
+      "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
       "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T17:12:47+00:00",
+      "published_at": "2026-11-10T17:00:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
@@ -216,6 +225,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Crunchyroll Streams Suikoden Anime - News - Anime News Network"
+    },
+    {
+      "title": "Crunchyroll Streams Suikoden Anime - Anime News Network",
+      "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzNpVlhJY19zQkRpOXFGVUMyckU5NDZ5a3FVaDdZUkY0T1BTekoyam5EemF6eWxSdThDZHBLdFFYUlltVHlCSGVOREZ0RTJoU011UTM0dU5GSjZYc3BNOFBxRkY0d0xDcmZseWNSeFZyUjNHcmVRNEs3bnZnRnBpTEJUajk5TzRTbk5FRUNXcWozZEhpR2c?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
     },
     {
       "title": "Dragon Ball: 7 Anime Heroes Who Would Have Dominated in the Tournament of Power - IMDb",
@@ -290,15 +308,6 @@
       "page_title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume - MyAnimeList.net"
     },
     {
-      "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-      "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T10:54:13+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
       "title": "Phantom of the Idol Volume 9 Review - Anime UK News",
       "article_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FOWZKM0ZTa1NIYlEwWllFbk1ZTnRlbXpGOUNNZEtRanlhbl9DWEhpTjgzZkVNdEkyVXJqczJxSldCTC1PZzk4TzFkenpKa2hJYUhVSm5xTmN5QWhmcWp0SU5zWWwzZTVGLVZTY19sSUg5YWtidmJB?oc=5",
       "publisher": "Google News (agrégateur)",
@@ -369,15 +378,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
-      "article_url": "https://myanimelist.net/news/74923434?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-10T03:58:55+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
