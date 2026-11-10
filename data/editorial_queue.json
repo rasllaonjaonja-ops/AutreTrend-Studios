@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:10:53.825718+00:00",
+  "generated_at": "2026-11-10T23:15:47.389399+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 408,
+  "rejected_count": 406,
   "rejected_sample": [
     {
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
@@ -448,32 +448,65 @@
         "status": "pending"
       },
       "verification_pending": true,
-      "editorial_status": "contrôle de provenance en attente — revue humaine obligatoire",
+      "editorial_status": "contrôle de provenance en attente — revue humaine obligatoire · rédaction IA à relire",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "en",
       "summary_language": "fr",
       "source_excerpt": "Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .",
       "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spy #Family #Season\nSources à consulter : Adala News, Anime Corner, Animehunch · recoupement officiel non établi\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-        "instagram": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spy #Family #Season\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-        "tiktok": "ACCROCHE : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spy #Family #Season",
-        "x": "Spy x Family Season 4 & New Film Confirmed For 2027 Release — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spy #Family #Season",
-        "threads": "On vient de repérer cette actualité : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "facebook": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir. Quelle est votre attente pour la suite de l'histoire de la famille Forger ? #SpyxFamily #AnimeNews. L'événement SPY×FAMILY ANIME EXTRA MISSION II a annoncé deux nouveaux projets pour 2027. Les médias rapportent la confirmation d'une quatrième saison et d'un second film d'animation.\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "instagram": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir. Quelle est votre attente pour la suite de l'histoire de la famille Forger ? #SpyxFamily #AnimeNews\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "tiktok": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir. Quelle est votre attente pour la suite de l'histoire de la famille Forger ? #SpyxFamily #AnimeNews\nSource à consulter : Adala News, Anime Corner, Animehunch",
+        "x": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniver",
+        "threads": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir. Quelle est votre attente pour la suite de l'histoire de la famille Forger ? #SpyxFamily #AnimeNews\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
         "youtube": {
-          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Animehunch · recoupement officiel non établi\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/\n\n#Anime #Manga #Spy #Family #Season"
+          "title": "SPY×FAMILY : Saison 4 et Nouveau Film pour 2027",
+          "description": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir. Quelle est votre attente pour la suite de l'histoire de la famille Forger ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
         },
-        "telegram": "📰 Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Animehunch · recoupement officiel non établi\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "telegram": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir. Quelle est votre attente pour la suite de l'histoire de la famille Forger ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
         "pinterest": {
-          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spy #Family #Season\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
-        }
+          "title": "SPY×FAMILY : Saison 4 et Nouveau Film pour 2027",
+          "description": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir. Quelle est votre attente pour la suite de l'histoire de la famille Forger ?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
+        },
+        "language_ready": true,
+        "translation_required": false,
+        "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .\n\nÉtat : contrôle de provenance en attente — revue humaine obligatoire\nSources médias : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY×FAMILY : une saison 4 et un nouveau film annoncés pour 2027\n\nL'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir.\n\nAngle éditorial : Cette annonce est une excellente nouvelle pour les fans, mais il est crucial de rester prudent sur les détails techniques et la date exacte de sortie.\nSynthèse des tendances : La couverture médiatique confirme l'existence de deux projets annoncés lors d'un événement spécial, mais ne fournit pas encore de détails concrets sur les contenus ou les dates exactes.\nFaits clés : L'événement SPY×FAMILY ANIME EXTRA MISSION II a annoncé deux nouveaux projets pour 2027.; Les médias rapportent la confirmation d'une quatrième saison et d'un second film d'animation.; Les sources mentionnent une célébration du cinquième anniversaire de l'adaptation télévisée.; Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé à la réalisation.; La composition de la série sera assurée par Aya Takaha.; Les annonces proviennent d'événements spéciaux et de rapports de presse.\nÉléments rapportés à confirmer : Les détails précis sur l'intrigue de la saison 4 et du film restent à découvrir.; La date exacte de sortie de 2027 n'est pas confirmée par une source officielle.; Les rôles de l'assistant réalisateur et de l'assistant à la composition ne sont pas validés.; La nature exacte de l'événement SPY×FAMILY ANIME EXTRA MISSION II n'est pas décrite.\nQuestion : Quelle est votre attente pour la suite de l'histoire de la famille Forger ?\n\nPoints à vérifier : La date exacte de sortie de 2027 n'est pas confirmée par une source officielle.; Les rôles de l'assistant réalisateur et de l'assistant à la composition ne sont pas validés.; La nature exacte de l'événement SPY×FAMILY ANIME EXTRA MISSION II n'est pas décrite.\n\nSources : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
+      "trend_synthesis": {
+        "key_facts": [
+          "L'événement SPY×FAMILY ANIME EXTRA MISSION II a annoncé deux nouveaux projets pour 2027.",
+          "Les médias rapportent la confirmation d'une quatrième saison et d'un second film d'animation.",
+          "Les sources mentionnent une célébration du cinquième anniversaire de l'adaptation télévisée.",
+          "Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé à la réalisation.",
+          "La composition de la série sera assurée par Aya Takaha.",
+          "Les annonces proviennent d'événements spéciaux et de rapports de presse."
+        ],
+        "reported_but_unconfirmed": [
+          "Les détails précis sur l'intrigue de la saison 4 et du film restent à découvrir.",
+          "La date exacte de sortie de 2027 n'est pas confirmée par une source officielle.",
+          "Les rôles de l'assistant réalisateur et de l'assistant à la composition ne sont pas validés.",
+          "La nature exacte de l'événement SPY×FAMILY ANIME EXTRA MISSION II n'est pas décrite."
+        ],
+        "coverage_summary": "La couverture médiatique confirme l'existence de deux projets annoncés lors d'un événement spécial, mais ne fournit pas encore de détails concrets sur les contenus ou les dates exactes.",
+        "editorial_context": "Pour les fans francophones, cette annonce marque une étape importante dans la continuité de l'univers SPY×FAMILY, bien que les informations restent encore très générales."
+      },
+      "title_fr": "SPY×FAMILY : une saison 4 et un nouveau film annoncés pour 2027",
+      "summary_fr": "L'univers SPY×FAMILY s'agrandit avec deux nouveaux projets annoncés pour 2027. Une quatrième saison et un second film d'animation sont confirmés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'objectif serait de célébrer le cinquième anniversaire de l'adaptation télévisée. Cependant, les détails précis sur les contenus et les dates exactes restent à découvrir.",
+      "editorial_angle": "Cette annonce est une excellente nouvelle pour les fans, mais il est crucial de rester prudent sur les détails techniques et la date exacte de sortie.",
+      "discussion_question": "Quelle est votre attente pour la suite de l'histoire de la famille Forger ?",
+      "claims_to_verify": [
+        "La date exacte de sortie de 2027 n'est pas confirmée par une source officielle.",
+        "Les rôles de l'assistant réalisateur et de l'assistant à la composition ne sont pas validés.",
+        "La nature exacte de l'événement SPY×FAMILY ANIME EXTRA MISSION II n'est pas décrite."
+      ],
+      "ai_generation": {
+        "provider": "Cloudflare Workers AI",
+        "model": "@cf/zai-org/glm-4.7-flash",
+        "generated_at": "2026-11-10T23:16:54.892Z",
+        "human_review_required": true
+      }
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -568,32 +601,61 @@
         "status": "checked"
       },
       "verification_pending": false,
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
+      "editorial_status": "plusieurs médias — confirmation officielle requise · rédaction IA à relire",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "fr",
       "summary_language": "und",
       "source_excerpt": "Hitsujibungaku performs \"life\" for February 11 film",
       "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #film #ghost #end\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
-        "instagram": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #film #ghost #end\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
-        "tiktok": "ACCROCHE : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #film #ghost #end",
-        "x": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #film #ghost #end",
-        "threads": "On vient de repérer cette actualité : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "facebook": "Le film d'animation Ghost – End of Night dévoile enfin son trailer principal et un nouveau visuel. Hitsujibungaku interprète le thème musical \"life\" pour cette production. La sortie est prévue au Japon le 11 février 2027. Cependant, aucune date officielle n'est encore annoncée pour la France ou les États-Unis. Qu'attendez-vous de ce film après avoir vu ce nouveau trailer . Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\" pour cette production.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+        "instagram": "Le trailer principal de Ghost – End of Night vient d'être révélé ! Hitsujibungaku chante le thème \"life\" pour ce film. Sortie japonaise prévue en février 2027. #GhostEndOfNight #AnimeNews. Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\" pour cette production.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+        "tiktok": "Le trailer principal de Ghost – End of Night vient d'être révélé ! Hitsujibungaku chante le thème \"life\" pour ce film. Sortie japonaise prévue en février 2027. Qu'attendez-vous de ce film . Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll",
+        "x": "Le trailer principal de Ghost – End of Night est dévoilé. Hitsujibungaku interprète le thème \"life\" pour cette sortie japonaise prévue en février 2027.",
+        "threads": "Le trailer principal de Ghost – End of Night est dévoilé. Hitsujibungaku interprète le thème \"life\" pour cette sortie japonaise prévue en février 2027. Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\" pour cette production.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
         "youtube": {
-          "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662\n\n#Anime #Manga #film #ghost #end"
+          "title": "Ghost – End of Night : trailer principal et thème musical révélés",
+          "description": "Le trailer principal de Ghost – End of Night est dévoilé. Hitsujibungaku interprète le thème \"life\" pour cette sortie japonaise prévue en février 2027. Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\" pour cette production.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662"
         },
-        "telegram": "📰 Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+        "telegram": "Le trailer principal de Ghost – End of Night est dévoilé. Hitsujibungaku interprète le thème \"life\" pour cette sortie japonaise prévue en février 2027. Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\" pour cette production.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
         "pinterest": {
-          "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #film #ghost #end\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662"
-        }
+          "title": "Ghost – End of Night : trailer principal et thème musical",
+          "description": "Le trailer principal de Ghost – End of Night est dévoilé. Hitsujibungaku interprète le thème \"life\" pour cette sortie japonaise prévue en février 2027. Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662"
+        },
+        "language_ready": true,
+        "translation_required": false,
+        "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\nExtrait RSS : Hitsujibungaku performs \"life\" for February 11 film\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Animotaku, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : Ghost – End of Night : le trailer principal et le thème musical sont révélés\n\nLe film d'animation Ghost – End of Night dévoile son trailer principal ainsi qu'un nouveau visuel. Hitsujibungaku interprète le thème musical \"life\" pour cette production. La sortie est prévue au Japon le 11 février 2027. Cependant, aucune date officielle n'est encore annoncée pour la France ou les États-Unis.\n\nAngle éditorial : L'arrivée d'un nouveau trailer pour un projet de Shingo Natsume est une excellente nouvelle pour les fans, mais la confirmation des dates de sortie internationales reste attendue.\nSynthèse des tendances : Trois médias rapportent la sortie du trailer principal et du nouveau visuel pour le film Ghost – End of Night. Hitsujibungaku est confirmé pour le thème musical. La date de sortie japonaise est fixée au 11 février 2027. Cependant, les rapports ne confirment pas la date de sortie pour les marchés francophone et américain.\nFaits clés : Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027.; Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\" pour cette production.; Le trailer principal et un nouveau visuel ont été dévoilés par les médias.; Plus de casting et d'équipe technique ont été confirmés par les rapports.; La sortie est prévue pour février 2027, mais aucune date officielle n'est annoncée pour la France ou les États-Unis.\nÉléments rapportés à confirmer : La date de sortie française ou américaine n'est pas encore confirmée par les sources.; Le réalisateur Shingo Natsume est mentionné dans un résumé, mais cette information n'apparaît pas dans les titres ou les résumés fournis.\nQuestion : Qu'attendez-vous de ce film après avoir vu ce nouveau trailer ?\n\nPoints à vérifier : La date de sortie française ou américaine n'est pas encore confirmée par les sources.; Le réalisateur Shingo Natsume est mentionné dans un résumé, mais cette information n'apparaît pas dans les titres ou les résumés fournis.\n\nSources : Anime News Network, Animotaku, Crunchyroll\nNe pas publier sans relecture humaine.",
+      "trend_synthesis": {
+        "key_facts": [
+          "Le film d'animation Ghost – End of Night sortira au Japon le 11 février 2027.",
+          "Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\" pour cette production.",
+          "Le trailer principal et un nouveau visuel ont été dévoilés par les médias.",
+          "Plus de casting et d'équipe technique ont été confirmés par les rapports.",
+          "La sortie est prévue pour février 2027, mais aucune date officielle n'est annoncée pour la France ou les États-Unis."
+        ],
+        "reported_but_unconfirmed": [
+          "La date de sortie française ou américaine n'est pas encore confirmée par les sources.",
+          "Le réalisateur Shingo Natsume est mentionné dans un résumé, mais cette information n'apparaît pas dans les titres ou les résumés fournis."
+        ],
+        "coverage_summary": "Trois médias rapportent la sortie du trailer principal et du nouveau visuel pour le film Ghost – End of Night. Hitsujibungaku est confirmé pour le thème musical. La date de sortie japonaise est fixée au 11 février 2027. Cependant, les rapports ne confirment pas la date de sortie pour les marchés francophone et américain.",
+        "editorial_context": "L'annonce d'un nouveau trailer pour un projet de Shingo Natsume suscite un intérêt certain auprès des amateurs d'animation japonaise, notamment pour sa sortie prévue en 2027."
+      },
+      "title_fr": "Ghost – End of Night : le trailer principal et le thème musical sont révélés",
+      "summary_fr": "Le film d'animation Ghost – End of Night dévoile son trailer principal ainsi qu'un nouveau visuel. Hitsujibungaku interprète le thème musical \"life\" pour cette production. La sortie est prévue au Japon le 11 février 2027. Cependant, aucune date officielle n'est encore annoncée pour la France ou les États-Unis.",
+      "editorial_angle": "L'arrivée d'un nouveau trailer pour un projet de Shingo Natsume est une excellente nouvelle pour les fans, mais la confirmation des dates de sortie internationales reste attendue.",
+      "discussion_question": "Qu'attendez-vous de ce film après avoir vu ce nouveau trailer ?",
+      "claims_to_verify": [
+        "La date de sortie française ou américaine n'est pas encore confirmée par les sources.",
+        "Le réalisateur Shingo Natsume est mentionné dans un résumé, mais cette information n'apparaît pas dans les titres ou les résumés fournis."
+      ],
+      "ai_generation": {
+        "provider": "Cloudflare Workers AI",
+        "model": "@cf/zai-org/glm-4.7-flash",
+        "generated_at": "2026-11-10T23:16:54.892Z",
+        "human_review_required": true
+      }
     }
   ],
   "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
@@ -601,38 +663,25 @@
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "response_received": false,
-      "response_valid": false,
-      "draft_returned": false,
-      "accepted": false,
-      "validation_errors": [
-        "The read operation timed out"
-      ]
+      "response_received": true,
+      "response_valid": true,
+      "draft_returned": true,
+      "accepted": true,
+      "validation_errors": []
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
       "response_received": true,
       "response_valid": true,
-      "draft_returned": false,
-      "accepted": false,
-      "validation_errors": [
-        "Error: Contenu trop court pour facebook (59/70 mots)"
-      ]
+      "draft_returned": true,
+      "accepted": true,
+      "validation_errors": []
     }
   ],
-  "ai_validation_errors": [
-    {
-      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "The read operation timed out"
-    },
-    {
-      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Contenu trop court pour facebook (59/70 mots)"
-    }
-  ],
-  "ai_generated_count": 0,
-  "ai_generation_status": "rejected",
+  "ai_validation_errors": [],
+  "ai_generated_count": 2,
+  "ai_generation_status": "generated",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : The read operation timed out; Error: Contenu trop court pour facebook (59/70 mots); The read operation timed out; Error: Contenu trop court pour facebook (59/70 mots)"
+  "ai_notice": "Rédaction assistée par IA, adaptations spécifiques à chaque réseau. Validation humaine obligatoire; aucune publication automatique."
 }

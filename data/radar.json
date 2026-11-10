@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:10:36.799899+00:00",
+  "updated_at": "2026-11-10T23:15:28.504622+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:21.612872+00:00",
+      "last_success_at": "2026-11-10T23:15:12.123353+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:22.298414+00:00",
+      "last_success_at": "2026-11-10T23:15:12.822035+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:22.541911+00:00",
+      "last_success_at": "2026-11-10T23:15:13.155374+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:22.961407+00:00",
+      "last_success_at": "2026-11-10T23:15:13.510527+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 36,
       "unique_items": 36,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:23.946830+00:00",
+      "last_success_at": "2026-11-10T23:15:13.845318+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:24.558589+00:00",
+      "last_success_at": "2026-11-10T23:15:14.534660+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:24.931484+00:00",
+      "last_success_at": "2026-11-10T23:15:15.039672+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:25.596690+00:00",
+      "last_success_at": "2026-11-10T23:15:15.623973+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:26.072102+00:00",
+      "last_success_at": "2026-11-10T23:15:16.382764+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:26.614772+00:00",
+      "last_success_at": "2026-11-10T23:15:16.985216+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:26.679563+00:00",
+      "last_success_at": "2026-11-10T23:15:17.071685+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:27.577448+00:00",
+      "last_success_at": "2026-11-10T23:15:18.111147+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:28.087138+00:00",
+      "last_success_at": "2026-11-10T23:15:18.674688+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:29.227472+00:00",
+      "last_success_at": "2026-11-10T23:15:20.770150+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:30.106782+00:00",
+      "last_success_at": "2026-11-10T23:15:21.830949+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:30.803934+00:00",
+      "last_success_at": "2026-11-10T23:15:22.555629+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:31.087135+00:00",
+      "last_success_at": "2026-11-10T23:15:22.787544+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:31.802615+00:00",
+      "last_success_at": "2026-11-10T23:15:23.585222+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:33.008260+00:00",
+      "last_success_at": "2026-11-10T23:15:25.136885+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:33.354250+00:00",
+      "last_success_at": "2026-11-10T23:15:25.714150+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:33.777922+00:00",
+      "last_success_at": "2026-11-10T23:15:26.088105+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:34.262526+00:00",
+      "last_success_at": "2026-11-10T23:15:26.453439+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:34.773272+00:00",
+      "last_success_at": "2026-11-10T23:15:26.940480+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:35.238789+00:00",
+      "last_success_at": "2026-11-10T23:15:27.344653+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:35.814698+00:00",
+      "last_success_at": "2026-11-10T23:15:27.717854+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:36.372167+00:00",
+      "last_success_at": "2026-11-10T23:15:28.156909+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,7 +411,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:10:36.783072+00:00",
+      "last_success_at": "2026-11-10T23:15:28.489687+00:00",
       "error": null
     }
   },
@@ -439,7 +439,7 @@
     "items_without_date": 0,
     "items_without_summary": 0
   },
-  "item_count": 638,
+  "item_count": 636,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -2268,14 +2268,14 @@
       "published_at": "2026-11-06T22:00:00+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – India",
+      "source": "Google News – United Kingdom",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "India",
-      "market_region": "South Asia",
+      "market_country": "United Kingdom",
+      "market_region": "Europe",
       "source_role": "professional_media",
       "language": "en",
       "score": 20,
@@ -2283,7 +2283,8 @@
       "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcDNPSzdjMTQxYWlyd0hNaW9tMk1OcEpfWDFuQ0dZRE1Ua1N0SzJucUhXUFZpelhhVkI0OENhVTBwTlNTbUxpWVVOYUdZWkhrWk1ndEpCX2d4SlljdTh5S0tzQ1BDemNycWZxZUhKVGNpQXp6NzNWN2RaWkFCbFg3ei04NGoxdmRSVXJjUEJJT2dRY0VOWldIZW56Um10ZnlETEQtcS1qMmU?oc=5",
       "feed_sources": [
         "Google News – India",
-        "Google News – Philippines"
+        "Google News – Philippines",
+        "Google News – United Kingdom"
       ]
     },
     {
@@ -3631,22 +3632,21 @@
       "published_at": "2026-11-08T14:47:00+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – United States",
+      "source": "Google News – Philippines",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
+      "market_country": "Philippines",
+      "market_region": "Southeast Asia",
       "source_role": "professional_media",
       "language": "en",
       "score": 15,
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb21PVjJORnlHOFE0NHQ5TEFKUlJsbDN0UkwyY0dGSWJoRFpWUl82TDFpZDJ2OUpKb2dkQ0IwMUppaUI1em1MaGlldmFPS3BHTm9CZEN0SG9HV1RNM01EMVowTW5OWkpYMXZQSUw1SWZrNHZHOXVDUzQzQVp5ZDhHUmNJZlVsNGN3TFpEQ0dqVXc4UnlfT09kRDhTS1cxX2o2YldFZlVteFJ2UnM?oc=5",
       "feed_sources": [
-        "Google News – Philippines",
-        "Google News – United States"
+        "Google News – Philippines"
       ]
     },
     {
@@ -4109,33 +4109,6 @@
       "canonical_url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
       "feed_sources": [
         "Crunchyroll News – RSS"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
-      "summary": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video Crunchyroll",
-      "published_at": "2026-11-10T01:39:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United Kingdom",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United Kingdom",
-      "market_region": "Europe",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 14,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
-      "feed_sources": [
-        "Google News – United Kingdom"
       ]
     },
     {
@@ -5018,22 +4991,21 @@
       "published_at": "2026-11-10T21:11:50+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – United States",
+      "source": "Google News – United Kingdom",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
+      "market_country": "United Kingdom",
+      "market_region": "Europe",
       "source_role": "professional_media",
       "language": "en",
       "score": 12,
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2I3SkR0QkZwTnJCbnV1M2RheUpnY3B1RHdFN0ZxZlI3ZnRXeDhRUTNNWTlEV1lsc25BZXhQYWh4cDA0RDJibTNKZjQ4ZTZwSHNjOTlyOGdEZXVHR29ha3JoUXBNZ2JWV3NaX2xWWGxSRVFJcUpBQ3RILWxpSk03MnVnZ2Q0d3ktaXZzZmVXVWtsTUc1eUV5V3NnaEIzY1ZWQjRmdXZ2QklwRXZIZDRYLQ?oc=5",
       "feed_sources": [
-        "Google News – United Kingdom",
-        "Google News – United States"
+        "Google News – United Kingdom"
       ]
     },
     {
@@ -5059,6 +5031,36 @@
       "score": 12,
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
+      "feed_sources": [
+        "Google News – India",
+        "Google News – Philippines",
+        "Google News – United Kingdom",
+        "Google News – United States"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQalE0cllPOEREMXNFVnUyTkhzREVxdlNnYkhQR1RidjlsNDNvYVROUDg2dWRGTHY3U1FUVW1uRVJoTGI3TTc5a1JMbGF2VnNDb2hwTXk4ZVRCX1hvaFdpM1ZYaExTTUwwOG5lc05LTy1MeFJsQnBmYVZ2Y19WQzYyZzU2a1hOZw?oc=5",
+      "title": "Hell Mode Season 2 Anime Series Review - Anime News Network",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQalE0cllPOEREMXNFVnUyTkhzREVxdlNnYkhQR1RidjlsNDNvYVROUDg2dWRGTHY3U1FUVW1uRVJoTGI3TTc5a1JMbGF2VnNDb2hwTXk4ZVRCX1hvaFdpM1ZYaExTTUwwOG5lc05LTy1MeFJsQnBmYVZ2Y19WQzYyZzU2a1hOZw?oc=5",
+      "summary": "Hell Mode Season 2 Anime Series Review Anime News Network",
+      "published_at": "2026-11-10T17:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – United States",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQalE0cllPOEREMXNFVnUyTkhzREVxdlNnYkhQR1RidjlsNDNvYVROUDg2dWRGTHY3U1FUVW1uRVJoTGI3TTc5a1JMbGF2VnNDb2hwTXk4ZVRCX1hvaFdpM1ZYaExTTUwwOG5lc05LTy1MeFJsQnBmYVZ2Y19WQzYyZzU2a1hOZw?oc=5",
       "feed_sources": [
         "Google News – India",
         "Google News – Philippines",
@@ -5199,33 +5201,6 @@
       "canonical_url": "https://myanimelist.net/news/74924616",
       "feed_sources": [
         "MyAnimeList News – RSS"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-      "title_language": "ja",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "summary": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV AnimeTV チェーン",
-      "published_at": "2026-11-10T10:54:13+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – India",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "India",
-      "market_region": "South Asia",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 12,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "feed_sources": [
-        "Google News – India"
       ]
     },
     {
@@ -5878,9 +5853,39 @@
       "feed_sources": [
         "Google Actualités – Brésil"
       ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
+      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime - Crunchyroll",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
+      "summary": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime Crunchyroll",
+      "published_at": "2026-11-10T17:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – United States",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "United States",
+      "market_region": "North America",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
+      "feed_sources": [
+        "Google News – India",
+        "Google News – Philippines",
+        "Google News – United Kingdom",
+        "Google News – United States"
+      ]
     }
   ],
-  "trend_count": 410,
+  "trend_count": 408,
   "trends": [
     {
       "id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -6119,11 +6124,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
       "title_language": "en",
-      "score": 51,
+      "score": 50,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 31,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6828,7 +6833,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8077,10 +8082,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United States"
+        "United Kingdom"
       ],
       "market_regions": [
-        "North America"
+        "Europe"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -8092,13 +8097,12 @@
           "title": "Samuel L. Jackson Says His Favorite Anime Is ‘One Piece’ - Yahoo",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2I3SkR0QkZwTnJCbnV1M2RheUpnY3B1RHdFN0ZxZlI3ZnRXeDhRUTNNWTlEV1lsc25BZXhQYWh4cDA0RDJibTNKZjQ4ZTZwSHNjOTlyOGdEZXVHR29ha3JoUXBNZ2JWV3NaX2xWWGxSRVFJcUpBQ3RILWxpSk03MnVnZ2Q0d3ktaXZzZmVXVWtsTUc1eUV5V3NnaEIzY1ZWQjRmdXZ2QklwRXZIZDRYLQ?oc=5",
-          "source": "Google News – United States",
+          "source": "Google News – United Kingdom",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United States",
+          "market_country": "United Kingdom",
           "feed_sources": [
-            "Google News – United Kingdom",
-            "Google News – United States"
+            "Google News – United Kingdom"
           ]
         }
       ]
@@ -8648,7 +8652,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 71,
+        "freshness": 70,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8869,7 +8873,6 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – India",
-            "Google News – United Kingdom",
             "Google News – United States"
           ]
         }
@@ -8988,10 +8991,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "Philippines"
+        "India"
       ],
       "market_regions": [
-        "Southeast Asia"
+        "South Asia"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -9003,11 +9006,12 @@
           "title": "WEBTOON Reports US$9.23 Million in 3rd Quarter of 2026 - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTlZUkg5bFdTN3R5cWpicFJNVjJENW5mQnhicjNfLWExNGN5TmFXVXlSRWlnT3F5OFJRS3kwZ1B5S3F3WXZHZjlQZzN6TldCRlVpcndKNWs2WmZvcVZpb3VqcFp4eVo3S0hwck5mRDQ5bjBwaFlhN0gyMTZHczBnR1YwTTU5QkxkQVEyVkhIVGFoVTgxdHpmNHlmN0RyUVNOWDBpVndCY2IwUXRGSFh6Qw?oc=5",
-          "source": "Google News – Philippines",
+          "source": "Google News – India",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "Philippines",
+          "market_country": "India",
           "feed_sources": [
+            "Google News – India",
             "Google News – Philippines"
           ]
         }
@@ -9069,7 +9073,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 95,
+        "freshness": 94,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9293,6 +9297,54 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQalE0cllPOEREMXNFVnUyTkhzREVxdlNnYkhQR1RidjlsNDNvYVROUDg2dWRGTHY3U1FUVW1uRVJoTGI3TTc5a1JMbGF2VnNDb2hwTXk4ZVRCX1hvaFdpM1ZYaExTTUwwOG5lc05LTy1MeFJsQnBmYVZ2Y19WQzYyZzU2a1hOZw?oc=5",
+      "title": "Hell Mode Season 2 Anime Series Review - Anime News Network",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 91,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T17:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Hell Mode Season 2 Anime Series Review - Anime News Network",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQalE0cllPOEREMXNFVnUyTkhzREVxdlNnYkhQR1RidjlsNDNvYVROUDg2dWRGTHY3U1FUVW1uRVJoTGI3TTc5a1JMbGF2VnNDb2hwTXk4ZVRCX1hvaFdpM1ZYaExTTUwwOG5lc05LTy1MeFJsQnBmYVZ2Y19WQzYyZzU2a1hOZw?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – India",
+            "Google News – Philippines",
+            "Google News – United Kingdom",
+            "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNjdCekFxSUI5VG5nZndhd29Vb242cGZ3aWZjak5WZy1vWVRyQzZqT0JaYTdNbVZ2Qm9JMm5qNjBCcThnR0NJS1JMQTBVQ2dNMWpRM2lrY0dfWkxndjFad1VCMnd2Y0k?oc=5",
       "title": "Dragon Ball: 7 Anime Heroes Who Would Have Dominated in the Tournament of Power - IMDb",
       "title_language": "en",
@@ -9484,7 +9536,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 94,
+        "freshness": 93,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9574,7 +9626,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9619,7 +9671,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9684,7 +9736,7 @@
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
       "sources": [],
-      "published_at": "2026-11-10T17:02:43+00:00",
+      "published_at": "2026-11-10T17:01:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
@@ -10490,7 +10542,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 89,
+        "freshness": 88,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10629,7 +10681,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 88,
+        "freshness": 87,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10662,96 +10714,6 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUFteEJZQkVRMWZLYnkydUw0ZmFVTzJxNmVBcUlPQzUyRTBFcXVpbVBFczRYVlZmNUJ2Ym1GeHJOSWkycm00WlBkaS1fc0R3YlFrUzJVRWlIX0phYWdzU2Y0S1Nub1ZpZjQyY1JUOTZCakJZWTZNcGUzd1FVSHE5ZElzSkNhWWRRVW5ZeHNiWW0?oc=5",
-      "title": "Archange de la décapitation (l') Vol.1 : Critiques - Manga news",
-      "title_language": "fr",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 87,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T14:08:11+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Archange de la décapitation (l') Vol.1 : Critiques - Manga news",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUFteEJZQkVRMWZLYnkydUw0ZmFVTzJxNmVBcUlPQzUyRTBFcXVpbVBFczRYVlZmNUJ2Ym1GeHJOSWkycm00WlBkaS1fc0R3YlFrUzJVRWlIX0phYWdzU2Y0S1Nub1ZpZjQyY1JUOTZCakJZWTZNcGUzd1FVSHE5ZElzSkNhWWRRVW5ZeHNiWW0?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-      "title_language": "ja",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 83,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "India"
-      ],
-      "market_regions": [
-        "South Asia"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T10:54:13+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-          "title_language": "ja",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-          "source": "Google News – India",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "India",
-          "feed_sources": [
-            "Google News – India"
           ]
         }
       ]
@@ -11045,6 +11007,51 @@
           "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUFteEJZQkVRMWZLYnkydUw0ZmFVTzJxNmVBcUlPQzUyRTBFcXVpbVBFczRYVlZmNUJ2Ym1GeHJOSWkycm00WlBkaS1fc0R3YlFrUzJVRWlIX0phYWdzU2Y0S1Nub1ZpZjQyY1JUOTZCakJZWTZNcGUzd1FVSHE5ZElzSkNhWWRRVW5ZeHNiWW0?oc=5",
+      "title": "Archange de la décapitation (l') Vol.1 : Critiques - Manga news",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 87,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T14:08:11+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Archange de la décapitation (l') Vol.1 : Critiques - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUFteEJZQkVRMWZLYnkydUw0ZmFVTzJxNmVBcUlPQzUyRTBFcXVpbVBFczRYVlZmNUJ2Ym1GeHJOSWkycm00WlBkaS1fc0R3YlFrUzJVRWlIX0phYWdzU2Y0S1Nub1ZpZjQyY1JUOTZCakJZWTZNcGUzd1FVSHE5ZElzSkNhWWRRVW5ZeHNiWW0?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -11462,7 +11469,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11540,51 +11547,6 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdS1wOFVtWU9NZTEyTmg3RWprdUVmMDg3NWlLLWRwZGk0Qm5vanRhaXN6c2FlM3dGd0pzMVYxbDRyTkNoR05BWkNsZ0p6LXlhVnNxeWI3aGlKcS1yMjlSbnhvQUxXU09KZHJ0aW1mMWVGSzMzd3R2b1RQWFF3MlBhM2tya1E1TERGcGhEakpQcGNhVEtfZ2pNV2JGMll5ekhJVHNTcy1KSGdaOHU0REFyUFVRaTBOTFhOQXVXTThQRjJ5N2ZHVVktUFRoY2c4ZTJ0?oc=5",
-      "title": "Why Chhota Bheem and Little Singham Went Anime in Rise of Anshaks (Exclusive) - IGN India",
-      "title_language": "en",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 84,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "India"
-      ],
-      "market_regions": [
-        "South Asia"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T11:40:27+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Why Chhota Bheem and Little Singham Went Anime in Rise of Anshaks (Exclusive) - IGN India",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdS1wOFVtWU9NZTEyTmg3RWprdUVmMDg3NWlLLWRwZGk0Qm5vanRhaXN6c2FlM3dGd0pzMVYxbDRyTkNoR05BWkNsZ0p6LXlhVnNxeWI3aGlKcS1yMjlSbnhvQUxXU09KZHJ0aW1mMWVGSzMzd3R2b1RQWFF3MlBhM2tya1E1TERGcGhEakpQcGNhVEtfZ2pNV2JGMll5ekhJVHNTcy1KSGdaOHU0REFyUFVRaTBOTFhOQXVXTThQRjJ5N2ZHVVktUFRoY2c4ZTJ0?oc=5",
-          "source": "Google News – India",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "India",
-          "feed_sources": [
-            "Google News – India"
           ]
         }
       ]
@@ -11875,7 +11837,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 55,
+        "freshness": 54,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12096,6 +12058,51 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdS1wOFVtWU9NZTEyTmg3RWprdUVmMDg3NWlLLWRwZGk0Qm5vanRhaXN6c2FlM3dGd0pzMVYxbDRyTkNoR05BWkNsZ0p6LXlhVnNxeWI3aGlKcS1yMjlSbnhvQUxXU09KZHJ0aW1mMWVGSzMzd3R2b1RQWFF3MlBhM2tya1E1TERGcGhEakpQcGNhVEtfZ2pNV2JGMll5ekhJVHNTcy1KSGdaOHU0REFyUFVRaTBOTFhOQXVXTThQRjJ5N2ZHVVktUFRoY2c4ZTJ0?oc=5",
+      "title": "Why Chhota Bheem and Little Singham Went Anime in Rise of Anshaks (Exclusive) - IGN India",
+      "title_language": "en",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 84,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "India"
+      ],
+      "market_regions": [
+        "South Asia"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T11:40:27+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Why Chhota Bheem and Little Singham Went Anime in Rise of Anshaks (Exclusive) - IGN India",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdS1wOFVtWU9NZTEyTmg3RWprdUVmMDg3NWlLLWRwZGk0Qm5vanRhaXN6c2FlM3dGd0pzMVYxbDRyTkNoR05BWkNsZ0p6LXlhVnNxeWI3aGlKcS1yMjlSbnhvQUxXU09KZHJ0aW1mMWVGSzMzd3R2b1RQWFF3MlBhM2tya1E1TERGcGhEakpQcGNhVEtfZ2pNV2JGMll5ekhJVHNTcy1KSGdaOHU0REFyUFVRaTBOTFhOQXVXTThQRjJ5N2ZHVVktUFRoY2c4ZTJ0?oc=5",
+          "source": "Google News – India",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "India",
+          "feed_sources": [
+            "Google News – India"
           ]
         }
       ]
@@ -12377,53 +12384,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
-      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
-      "title_language": "en",
-      "score": 30,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 23,
-        "freshness": 35,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-09T00:18:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbjdmUFZJU3dJRzZpanluZHlES2FtZjNqR0ZYZzRtc3hvbTQ3Z3d2ZllINV9BTHVpcUJRME4wMXNyd0ZoZ2dPTUxlcjlkU0hMTTVWMzhoN29hZGZHX2ZKckpYWUpVZjlZNTVfUFJpRlpTdDBnSElGcFhhOGFyUzYyOW4wUWVhSWlJX1oyVURmelBUZEZzTG5aOUszQVRobUpaczczTXAxRjJsSlE?oc=5",
       "title": "Dentsu, Nissin Foods debut anime-powered campaign to launch \"Bold Tastes of Tokyo\" - marketech apac",
       "title_language": "en",
@@ -12431,7 +12391,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 81,
+        "freshness": 80,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12658,7 +12618,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 53,
+        "freshness": 52,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12799,7 +12759,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 41,
+        "freshness": 40,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12881,6 +12841,53 @@
           "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
+      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
+      "title_language": "en",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 23,
+        "freshness": 35,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-09T00:18:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -13110,51 +13117,6 @@
             "Google News – Philippines",
             "Google News – United Kingdom",
             "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 14,
-        "freshness": 70,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United Kingdom"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T01:39:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
-          "source": "Google News – United Kingdom",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United Kingdom",
-          "feed_sources": [
-            "Google News – United Kingdom"
           ]
         }
       ]
@@ -13504,51 +13466,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfanVfX1hHVzBWRHg0NG9LVmgyRXNjc3lEdndXWmNZdkRtVkdqZldPVU82RU9oMmtZRDluOTJCRnY1WTdLSjNZYWl2eWtabjhaNVdvVUNOQVl5Ui1ud2lUSW1scDZOZw?oc=5",
-      "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - IMDb",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 71,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "India"
-      ],
-      "market_regions": [
-        "South Asia"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T02:24:20+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Samuel L. Jackson's Favorite Anime Series Is A Classic With More Than 1000 Episodes - IMDb",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfanVfX1hHVzBWRHg0NG9LVmgyRXNjc3lEdndXWmNZdkRtVkdqZldPVU82RU9oMmtZRDluOTJCRnY1WTdLSjNZYWl2eWtabjhaNVdvVUNOQVl5Ui1ud2lUSW1scDZOZw?oc=5",
-          "source": "Google News – India",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "India",
-          "feed_sources": [
-            "Google News – India"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3lUaUloVWpJTHRPb0NHUkd1azZYV2s0SWhWRW9fdUVPcnRnWDB3OFNNM3RNbEFRRWdPUkFndFRJZUdoM1JUd0ljX19BVWhQejVSbWFBSnZXTE1zTmtSOFpsQkdoaGRqX0FoWTFhNU1ZTjY3dlR3T0RTY0dlanBhbGlNS1o0SzNwd1kyX1hrbjJrNkQ3LURmZmZDbWM3X01IOHg4cGNQRHY2QXJPTlppNWkwbGZ2UlVhdEdkd3l2LVg?oc=5",
       "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award - Anime News Network",
       "title_language": "en",
@@ -13744,7 +13661,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 70,
+        "freshness": 69,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13915,7 +13832,6 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – India",
-            "Google News – Philippines",
             "Google News – United Kingdom",
             "Google News – United States"
           ]
@@ -14854,7 +14770,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 55,
+        "freshness": 54,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -16210,7 +16126,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 17,
+        "freshness": 16,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -17757,6 +17673,52 @@
           "market_country": null,
           "feed_sources": [
             "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa19oTlh0ZVJEWmlUbGxyUGVqdWdsMDA5R2dhdXd2amcxWElGand4T1hMRHVITWhmQl9Zakg0YWQwUHJZN3FYS0swOWU5VGhOVmU0MmtJdVBDSUJRWWUwNkpCQzNKRTFINnNHYUNuX2NCNFh4eXhlc1lPbnNBajJLVWthejZreWFORF9OSWFUWm9aZHAxTXBGakpwdWJ0QQ?oc=5",
+      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist - Crunchyroll",
+      "title_language": "en",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 35,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T00:18:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Hirayasumi Anime Reveals Opening Theme Song Artist - Crunchyroll",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa19oTlh0ZVJEWmlUbGxyUGVqdWdsMDA5R2dhdXd2amcxWElGand4T1hMRHVITWhmQl9Zakg0YWQwUHJZN3FYS0swOWU5VGhOVmU0MmtJdVBDSUJRWWUwNkpCQzNKRTFINnNHYUNuX2NCNFh4eXhlc1lPbnNBajJLVWthejZreWFORF9OSWFUWm9aZHAxTXBGakpwdWJ0QQ?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -19660,10 +19622,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United States"
+        "Philippines"
       ],
       "market_regions": [
-        "North America"
+        "Southeast Asia"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -19675,13 +19637,12 @@
           "title": "Harajuku Himegoto House Anime and Media Mix Project Announced - Crunchyroll",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb21PVjJORnlHOFE0NHQ5TEFKUlJsbDN0UkwyY0dGSWJoRFpWUl82TDFpZDJ2OUpKb2dkQ0IwMUppaUI1em1MaGlldmFPS3BHTm9CZEN0SG9HV1RNM01EMVowTW5OWkpYMXZQSUw1SWZrNHZHOXVDUzQzQVp5ZDhHUmNJZlVsNGN3TFpEQ0dqVXc4UnlfT09kRDhTS1cxX2o2YldFZlVteFJ2UnM?oc=5",
-          "source": "Google News – United States",
+          "source": "Google News – Philippines",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United States",
+          "market_country": "Philippines",
           "feed_sources": [
-            "Google News – Philippines",
-            "Google News – United States"
+            "Google News – Philippines"
           ]
         }
       ]
@@ -24248,7 +24209,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 21,
+        "freshness": 20,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -24445,10 +24406,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "India"
+        "United Kingdom"
       ],
       "market_regions": [
-        "South Asia"
+        "Europe"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -24460,13 +24421,14 @@
           "title": "North American Anime, Manga Releases, November 1-7 - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcDNPSzdjMTQxYWlyd0hNaW9tMk1OcEpfWDFuQ0dZRE1Ua1N0SzJucUhXUFZpelhhVkI0OENhVTBwTlNTbUxpWVVOYUdZWkhrWk1ndEpCX2d4SlljdTh5S0tzQ1BDemNycWZxZUhKVGNpQXp6NzNWN2RaWkFCbFg3ei04NGoxdmRSVXJjUEJJT2dRY0VOWldIZW56Um10ZnlETEQtcS1qMmU?oc=5",
-          "source": "Google News – India",
+          "source": "Google News – United Kingdom",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "India",
+          "market_country": "United Kingdom",
           "feed_sources": [
             "Google News – India",
-            "Google News – Philippines"
+            "Google News – Philippines",
+            "Google News – United Kingdom"
           ]
         }
       ]
@@ -24830,51 +24792,6 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM0h1Ykg4OTZqR2JxLXY0NnptX3hnTGxyYU1RdTNKNlJRdFlrb3Q0TnFOQlFJWlRKb1c5cnEybW00SmljZzlSSlBRQ1ByTXZfMVVEbVd2aWUtUlRFbEFDZTlybmllVjBWaldRZlY4VElMTjhIZDFlNm8wVHpIcFNnZEhkYUJjcHM4azlVZ1ZHTFVvcjRiV0ZaejZQVHVPTDZTR3ZBQnJRMnpZUkpiUjJQQUF1eUc2aXRlS1NOZ1FaaUJkYndf?oc=5",
-      "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers - Crunchyroll",
-      "title_language": "en",
-      "score": 7,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 0,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United Kingdom"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-07T14:24:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Everyone's Darling Has a Secret Anime Reveals Additional Cast & Ending Theme Performers - Crunchyroll",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM0h1Ykg4OTZqR2JxLXY0NnptX3hnTGxyYU1RdTNKNlJRdFlrb3Q0TnFOQlFJWlRKb1c5cnEybW00SmljZzlSSlBRQ1ByTXZfMVVEbVd2aWUtUlRFbEFDZTlybmllVjBWaldRZlY4VElMTjhIZDFlNm8wVHpIcFNnZEhkYUJjcHM4azlVZ1ZHTFVvcjRiV0ZaejZQVHVPTDZTR3ZBQnJRMnpZUkpiUjJQQUF1eUc2aXRlS1NOZ1FaaUJkYndf?oc=5",
-          "source": "Google News – United Kingdom",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United Kingdom",
-          "feed_sources": [
-            "Google News – United Kingdom"
           ]
         }
       ]
