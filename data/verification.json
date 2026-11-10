@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T07:24:54.904245+00:00",
+  "checked_at": "2026-11-10T19:48:03.983390+00:00",
   "checked_articles": 25,
   "official_link_found": 0,
   "errors": [],
@@ -90,15 +90,6 @@
       "article_url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
       "publisher": "Crunchyroll",
       "published_at": "2026-11-08T11:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Rainy Day Serenade Anime Premieres in April 2027",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/6/rainy-day-serenade-anime-premieres-in-april-2027",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-06T11:37:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
@@ -221,13 +212,22 @@
       "page_title": "Spirit Circle TV Anime Set for December, Becomes Tatsuo Sato's Final Directorial Work | Japan Anime News powered by ORICON NEWS"
     },
     {
-      "title": "'Tensei shitara Ken deshita II' Reveals Supporting Cast, Third Promo",
-      "article_url": "https://myanimelist.net/news/74904410?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-04T16:33:53+00:00",
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T03:00:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Tensei shitara Ken deshita II' Reveals Supporting Cast, Third Promo - MyAnimeList.net"
+      "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
+    },
+    {
+      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-09T00:18:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
