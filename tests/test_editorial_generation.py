@@ -28,6 +28,16 @@ class EditorialGenerationTests(unittest.TestCase):
         malformed["youtube"] = "Titre et description en une seule chaîne"
         self.assertFalse(valid_posts(malformed))
 
+    def test_rejects_placeholder_or_thin_social_copy(self):
+        shallow = dict(self.posts)
+        shallow["facebook"] = "Voici une actualité manga."
+        self.assertFalse(valid_posts(shallow))
+
+    def test_rejects_x_posts_over_platform_limit(self):
+        oversized = dict(self.posts)
+        oversized["x"] = "Information manga " * 30
+        self.assertFalse(valid_posts(oversized))
+
     def test_french_headline_and_summary_detection(self):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
         self.assertEqual(detect_text_language("The fourth season of this series is confirmed"), "en")
