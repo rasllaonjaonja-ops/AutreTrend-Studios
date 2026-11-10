@@ -50,7 +50,7 @@ def save_generation_status(queue, status, notice, model=""):
     queue["ai_generation_status"] = status
     queue["ai_model"] = model
     queue["ai_notice"] = notice
-    QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main():
