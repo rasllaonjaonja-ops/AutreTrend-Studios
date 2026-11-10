@@ -269,7 +269,7 @@ def main():
             reasons.append("actualité trop ancienne (plus de 7 jours)")
         if not cross_checked and not has_official and score_value < 65:
             reasons.append("source unique sans lien officiel repéré")
-        if not summaries and score_value < 60:
+        if not summary_candidates and score_value < 60:
             reasons.append("aucun résumé exploitable dans le flux RSS")
         if verification_coverage == 0:
             reasons.append("page source non contrôlée : aucun statut de lien officiel disponible")
@@ -293,7 +293,7 @@ def main():
         # La langue du résumé est détectée indépendamment de celle du titre.
         # En cas de doute, le texte reste bloqué comme traduction à contrôler.
         summary_language = detect_text_language(summary)
-        title_language = primary_item.get("title_language", trend.get("title_language", "und"))
+        title_language = detect_text_language(title)
         # Un brouillon n'est considéré prêt en français que si le titre ET
         # l'extrait le sont. Traduire uniquement le résumé laisserait le titre anglais.
         posts = make_social_posts(
