@@ -143,6 +143,22 @@ def main():
     try:
         with urllib.request.urlopen(request, timeout=55) as response:
             result = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        # Conserver un extrait du message HTTP du Worker pour diagnostiquer 4xx/5xx,
+        # sans jamais journaliser les en-têtes Authorization ni les secrets.
+        try:
+            response_detail = exc.read().decode("utf-8", errors="replace").strip()[:300]
+        except Exception:
+            response_detail = ""
+        detail = f"HTTP {exc.code}"
+        if response_detail:
+            detail += " — " + response_detail
+        save_generation_status(
+            queue, "unavailable",
+            "Service IA indisponible : " + detail[:220] + ". Les brouillons restent non publiables."
+        )
+        print(f"IA éditoriale indisponible : {detail[:300]}. Brouillons de secours conservés.")
+        return 0
     except (urllib.error.URLError, TimeoutError, ValueError) as exc:
         save_generation_status(
             queue, "unavailable",
