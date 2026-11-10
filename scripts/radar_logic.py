@@ -91,6 +91,15 @@ def same_event(title_a, title_b):
     return bool(denominator and len(core_a & core_b) / denominator >= 0.5)
 
 
-def evidence_level(publisher_count):
-    """Niveau de couverture médiatique, jamais une validation de vérité."""
+def coverage_score(publisher_count, primary_source_count=0):
+    """Mesure la diversité des sources, avec bonus limité aux flux de première partie."""
+    media_score = min(90, max(0, publisher_count) * 30)
+    primary_bonus = min(20, max(0, primary_source_count) * 20)
+    return min(100, media_score + primary_bonus)
+
+
+def evidence_level(publisher_count, primary_source_count=0):
+    """Niveau de provenance, jamais une validation automatique des faits."""
+    if primary_source_count > 0:
+        return "first_party_feed_present_needs_review"
     return "multi_media_reported" if publisher_count >= 2 else "single_publisher_signal"
