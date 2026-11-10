@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T13:45:29.899504+00:00",
+  "checked_at": "2026-11-10T13:54:16.261231+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
@@ -90,6 +90,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
+    },
+    {
+      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
+      "article_url": "https://animecorner.me/get-backers-teases-return-with-mysterious-strongest-duo-video-no-new-anime-project-announced/",
+      "publisher": "Anime Corner",
+      "published_at": "2026-11-10T13:48:43+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced - Anime Corner"
     },
     {
       "title": "My Crush's Crush Anime Set for April 2027 Release - IGN India",
@@ -366,15 +375,6 @@
       "article_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQkx3UHQxVlk2UTFtQjRxVlpzOHhqSkxFRFgxaUVKa2ZDdjJCN3pzanYzN1FQOG0xTGF0NWZ0STVsZWtKWjZoWDhsR081T3VValgwUEFiZnJaTHhDUEtaN2RrNFFLWWoxSHltd0FhbEMzdFZXZURMOExuWm9xQjdNRnFyZlFNckJ4LV9VNHFBMWtyd3BCejlVaEFaLTR0aU1KbEJxa3NNN0pPRVZrMTdmTjRIQlJnYnhmUjhIU0p6Y0lVZUtpZVNVOXdxekNfTWs5?oc=5",
       "publisher": "Google News (agrégateur)",
       "published_at": "2026-11-09T20:08:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Crunchyroll’s ‘Release the Villains’ Campaign Puts the Anime Bad Guys in Charge - Animation Magazine",
-      "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQXBRQXBMc04wemEtZFFFSlZ3S1FzSXlBX2I4VUpIUnRWbWdFc0UxaENpcjdPdkswWk11LVBLY2VxRkwtTkstT2NsQ0VsdVpSb2ZXSFhyc3NVUUpvQTJtSXRsV3g2MTlienBJVTh4aTljdkVpWlhwa3JwNUZuQXczekxoYl8zR0NZa3VUZzY2SV91UU1JREtndUFwTnhFMTZWaG90NUwweHpUcktVeXZWeVhYejdWdFJqMU00?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T19:28:05+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
