@@ -107,7 +107,7 @@ def main():
         source_url = str(item.get("source_excerpt_url", "")).strip()
         if source_url.startswith("https://"):
             publishers = ", ".join(item.get("media", [])[:3])
-            source_note = "\\nSource à consulter : " + publishers + "\\n" + source_url
+            source_note = "\nSource à consulter : " + publishers + "\n" + source_url
             for key in ("facebook", "instagram", "threads", "telegram"):
                 posts[key] = str(posts[key]).rstrip() + source_note
             posts["youtube"] = {
@@ -118,7 +118,7 @@ def main():
                 **posts["pinterest"],
                 "description": str(posts["pinterest"]["description"]).rstrip() + source_note
             }
-            posts["tiktok"] = str(posts["tiktok"]).rstrip() + "\\nSource à consulter : " + publishers
+            posts["tiktok"] = str(posts["tiktok"]).rstrip() + "\nSource à consulter : " + publishers
             x_post = str(posts["x"]).rstrip()
             x_with_link = x_post + " " + source_url
             posts["x"] = x_with_link if len(x_with_link) <= 280 else x_post[:250].rstrip()
