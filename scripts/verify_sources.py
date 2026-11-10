@@ -20,6 +20,8 @@ RADAR = ROOT / "data" / "radar.json"
 OUT = ROOT / "data" / "verification.json"
 QUEUE = ROOT / "data" / "editorial_queue.json"
 MAX_ARTICLES = 25
+MAX_PREPUBLICATIONS = 3
+SOCIAL_NETWORKS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
 TIMEOUT = 8
 
 # Liste volontairement conservatrice : les médias généralistes ne sont pas traités comme preuves officielles.
@@ -318,6 +320,8 @@ def main():
             "score_indicatif": score_value,
             "media_count": publisher_count,
             "media": sources,
+            "source_countries": trend.get("source_countries", []),
+            "source_regions": trend.get("source_regions", []),
             "primary_sources": primary_sources,
             "primary_source_count": primary_source_count,
             "source_excerpt_url": primary_url,
@@ -346,7 +350,7 @@ def main():
         x["score_indicatif"]
     ), reverse=True)
     candidate_count = len(queue)
-    queue = diversify_queue(queue, limit=15, max_per_franchise=2)
+    queue = diversify_queue(queue, limit=MAX_PREPUBLICATIONS, max_per_franchise=1)
     diversity_excluded_count = candidate_count - len(queue)
 
     payload = {
@@ -363,13 +367,17 @@ def main():
     QUEUE.write_text(json.dumps({
         "generated_at": payload["checked_at"],
         "count": len(queue),
+        "daily_goal": MAX_PREPUBLICATIONS,
+        "selected_networks": list(SOCIAL_NETWORKS),
+        "network_variant_count": len(queue) * len(SOCIAL_NETWORKS),
+        "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
         "rejected_count": len(rejected),
         "rejected_sample": rejected[:30],
         "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
-        "diversity_policy": "Maximum 2 brouillons par franchise dans la sélection, afin de favoriser la variété sans supprimer les sujets du même univers de la veille.",
+        "diversity_policy": "Maximum 1 prépublication par franchise dans les trois sujets du jour, pour privilégier trois actualités réellement distinctes.",
         "diversity_excluded_count": diversity_excluded_count,
         "items": queue,
-        "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
+        "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Vérification : {len(checks)} pages contrôlées; {payload['official_link_found']} avec lien officiel repéré; {len(errors)} erreur(s).")
     print(f"File éditoriale : {len(queue)} briefs non publiables générés.")
