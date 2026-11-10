@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:01:31.194479+00:00",
+  "updated_at": "2026-11-10T23:06:05.076716+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:14.847041+00:00",
+      "last_success_at": "2026-11-10T23:05:48.259181+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:15.333922+00:00",
+      "last_success_at": "2026-11-10T23:05:49.024211+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:15.837716+00:00",
+      "last_success_at": "2026-11-10T23:05:49.546929+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:16.072874+00:00",
+      "last_success_at": "2026-11-10T23:05:49.759947+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 36,
       "unique_items": 36,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:16.815432+00:00",
+      "last_success_at": "2026-11-10T23:05:49.979521+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:17.052341+00:00",
+      "last_success_at": "2026-11-10T23:05:50.620963+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:17.457546+00:00",
+      "last_success_at": "2026-11-10T23:05:50.943755+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:18.007747+00:00",
+      "last_success_at": "2026-11-10T23:05:52.128942+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:18.454495+00:00",
+      "last_success_at": "2026-11-10T23:05:52.657088+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:19.389033+00:00",
+      "last_success_at": "2026-11-10T23:05:53.701424+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:19.456512+00:00",
+      "last_success_at": "2026-11-10T23:05:53.879540+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:20.804688+00:00",
+      "last_success_at": "2026-11-10T23:05:55.029037+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:21.687205+00:00",
+      "last_success_at": "2026-11-10T23:05:55.622003+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:22.828197+00:00",
+      "last_success_at": "2026-11-10T23:05:56.842523+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:24.177875+00:00",
+      "last_success_at": "2026-11-10T23:05:57.871730+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:24.999484+00:00",
+      "last_success_at": "2026-11-10T23:05:58.358446+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:25.708759+00:00",
+      "last_success_at": "2026-11-10T23:05:58.867053+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:26.545407+00:00",
+      "last_success_at": "2026-11-10T23:05:59.676047+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:27.410459+00:00",
+      "last_success_at": "2026-11-10T23:06:00.730082+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:28.175700+00:00",
+      "last_success_at": "2026-11-10T23:06:01.391706+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:28.573183+00:00",
+      "last_success_at": "2026-11-10T23:06:01.972828+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:28.961818+00:00",
+      "last_success_at": "2026-11-10T23:06:02.509693+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:29.458546+00:00",
+      "last_success_at": "2026-11-10T23:06:03.057087+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:29.873342+00:00",
+      "last_success_at": "2026-11-10T23:06:03.587500+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:30.342782+00:00",
+      "last_success_at": "2026-11-10T23:06:04.057743+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:30.793137+00:00",
+      "last_success_at": "2026-11-10T23:06:04.616950+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,7 +411,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-10T23:01:31.176764+00:00",
+      "last_success_at": "2026-11-10T23:06:05.068087+00:00",
       "error": null
     }
   },
@@ -439,7 +439,7 @@
     "items_without_date": 0,
     "items_without_summary": 0
   },
-  "item_count": 640,
+  "item_count": 638,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -967,14 +967,14 @@
       "published_at": "2026-11-08T11:00:00+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – United States",
+      "source": "Google News – United Kingdom",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
+      "market_country": "United Kingdom",
+      "market_region": "Europe",
       "source_role": "professional_media",
       "language": "en",
       "score": 28,
@@ -983,8 +983,7 @@
       "feed_sources": [
         "Google News – India",
         "Google News – Philippines",
-        "Google News – United Kingdom",
-        "Google News – United States"
+        "Google News – United Kingdom"
       ]
     },
     {
@@ -3107,14 +3106,14 @@
       "published_at": "2026-11-09T21:30:00+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – India",
+      "source": "Google News – United States",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "India",
-      "market_region": "South Asia",
+      "market_country": "United States",
+      "market_region": "North America",
       "source_role": "professional_media",
       "language": "en",
       "score": 16,
@@ -3122,7 +3121,8 @@
       "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3lUaUloVWpJTHRPb0NHUkd1azZYV2s0SWhWRW9fdUVPcnRnWDB3OFNNM3RNbEFRRWdPUkFndFRJZUdoM1JUd0ljX19BVWhQejVSbWFBSnZXTE1zTmtSOFpsQkdoaGRqX0FoWTFhNU1ZTjY3dlR3T0RTY0dlanBhbGlNS1o0SzNwd1kyX1hrbjJrNkQ3LURmZmZDbWM3X01IOHg4cGNQRHY2QXJPTlppNWkwbGZ2UlVhdEdkd3l2LVg?oc=5",
       "feed_sources": [
         "Google News – India",
-        "Google News – Philippines"
+        "Google News – Philippines",
+        "Google News – United States"
       ]
     },
     {
@@ -3135,14 +3135,14 @@
       "published_at": "2026-11-09T20:30:00+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – India",
+      "source": "Google News – United States",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "India",
-      "market_region": "South Asia",
+      "market_country": "United States",
+      "market_region": "North America",
       "source_role": "professional_media",
       "language": "en",
       "score": 16,
@@ -3150,7 +3150,8 @@
       "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOXZTSjZUUWg5UUVEVFU1TnBOY0dXX3RlSG94d25RaEJYdEt4SjRkbHlfdnZYQTR1clZSX05UTXNGc2w1cE9YajVjcmQ5QWpaVDFNUEwzMkNIZGFoclFQZWgxU0pPQ0JmNUxoRGJzaEh2QnlHTXkzU1FWUWVrRXNLcmdMSENiSkVtTlJYSUtmbWNfc0dmbS1BenpjWkVVWmNETEd2ZVN3?oc=5",
       "feed_sources": [
         "Google News – India",
-        "Google News – Philippines"
+        "Google News – Philippines",
+        "Google News – United States"
       ]
     },
     {
@@ -3427,6 +3428,33 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/the-iceblade-sorcerer-shall-rule-the-world-author-nana-mikoshiba-original-novel-gets-manga-/.243677",
+      "title": "The Iceblade Sorcerer Shall Rule the World Author Nana Mikoshiba's Original Novel Gets Manga Adaptation on November 17",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/the-iceblade-sorcerer-shall-rule-the-world-author-nana-mikoshiba-original-novel-gets-manga-/.243677",
+      "summary": "Artist Meguru Kanadome draws manga of Mikoshiba's novel",
+      "published_at": "2026-11-10T23:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Anime News Network – News",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "source_type": "editorial_site",
+      "source_country": "United States",
+      "source_region": "North America",
+      "market_country": null,
+      "market_region": null,
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 15,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-10/the-iceblade-sorcerer-shall-rule-the-world-author-nana-mikoshiba-original-novel-gets-manga-/.243677",
+      "feed_sources": [
+        "Anime News Network – News"
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/devils-crest-anime-two-consecutive-cours",
       "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
       "title_language": "en",
@@ -3508,13 +3536,13 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczdzQkRxcm9WZy11SHJIOGE2c2xGQjg4UjN4S0VHU1FqMFZWNWhDSFpZb2c5MWtHbm0yUEg1MWEzWjZpYlZFaTdHcmlpS1hpOG82bzdEbjhaZXNZRlZzZ1JRR044bEhRSl9EdDdLY0swVVJEM3RPdE4wNnZyY2ZRemlHY2Izbjg5WUNQVXlsNXdJVlU1WG9yb0p5UmYxT29v?oc=5",
-      "title": "Japanese Horror Manga ‘Noah Of The Blood Sea’ Set For Feature Adaptation As Tyrus Pictures Options Rights - Deadline",
+      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NfMEI0YkhJWHpjVDlSaGdvc0NaajZGSUxSR2xTSWR0dFJLOGprUnhQVUJpTUZQQU42U1ZmcnhyX1lrUTRmeVk0UmszWTl5YXhtQTNWLXNtZjczZEdid0tBRUIyRW1tU0ZUSl85RXV6RF9kNzZyOEdIWDdlNHNEMjNIOUVvOTlzWU5jcVZiSEhnOXFST2NfM1pqQVRUQVdLMVgxb3pJLU9lcU5u?oc=5",
+      "title": "‘Hirayasumi’ Anime Sets International Streaming Premiere on Netflix - Animation Magazine",
       "title_language": "en",
       "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczdzQkRxcm9WZy11SHJIOGE2c2xGQjg4UjN4S0VHU1FqMFZWNWhDSFpZb2c5MWtHbm0yUEg1MWEzWjZpYlZFaTdHcmlpS1hpOG82bzdEbjhaZXNZRlZzZ1JRR044bEhRSl9EdDdLY0swVVJEM3RPdE4wNnZyY2ZRemlHY2Izbjg5WUNQVXlsNXdJVlU1WG9yb0p5UmYxT29v?oc=5",
-      "summary": "Japanese Horror Manga ‘Noah Of The Blood Sea’ Set For Feature Adaptation As Tyrus Pictures Options Rights Deadline",
-      "published_at": "2026-11-09T16:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NfMEI0YkhJWHpjVDlSaGdvc0NaajZGSUxSR2xTSWR0dFJLOGprUnhQVUJpTUZQQU42U1ZmcnhyX1lrUTRmeVk0UmszWTl5YXhtQTNWLXNtZjczZEdid0tBRUIyRW1tU0ZUSl85RXV6RF9kNzZyOEdIWDdlNHNEMjNIOUVvOTlzWU5jcVZiSEhnOXFST2NfM1pqQVRUQVdLMVgxb3pJLU9lcU5u?oc=5",
+      "summary": "‘Hirayasumi’ Anime Sets International Streaming Premiere on Netflix Animation Magazine",
+      "published_at": "2026-11-09T18:09:17+00:00",
       "date_status": "known",
       "summary_status": "available",
       "source": "Google News – United States",
@@ -3529,7 +3557,7 @@
       "language": "en",
       "score": 15,
       "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczdzQkRxcm9WZy11SHJIOGE2c2xGQjg4UjN4S0VHU1FqMFZWNWhDSFpZb2c5MWtHbm0yUEg1MWEzWjZpYlZFaTdHcmlpS1hpOG82bzdEbjhaZXNZRlZzZ1JRR044bEhRSl9EdDdLY0swVVJEM3RPdE4wNnZyY2ZRemlHY2Izbjg5WUNQVXlsNXdJVlU1WG9yb0p5UmYxT29v?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NfMEI0YkhJWHpjVDlSaGdvc0NaajZGSUxSR2xTSWR0dFJLOGprUnhQVUJpTUZQQU42U1ZmcnhyX1lrUTRmeVk0UmszWTl5YXhtQTNWLXNtZjczZEdid0tBRUIyRW1tU0ZUSl85RXV6RF9kNzZyOEdIWDdlNHNEMjNIOUVvOTlzWU5jcVZiSEhnOXFST2NfM1pqQVRUQVdLMVgxb3pJLU9lcU5u?oc=5",
       "feed_sources": [
         "Google News – United States"
       ]
@@ -3574,22 +3602,21 @@
       "published_at": "2026-11-08T14:47:00+00:00",
       "date_status": "known",
       "summary_status": "available",
-      "source": "Google News – United States",
+      "source": "Google News – Philippines",
       "publisher": "Google News (agrégateur)",
       "category": "anime-manga-market",
       "source_type": "market_search",
       "source_country": null,
       "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
+      "market_country": "Philippines",
+      "market_region": "Southeast Asia",
       "source_role": "professional_media",
       "language": "en",
       "score": 15,
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb21PVjJORnlHOFE0NHQ5TEFKUlJsbDN0UkwyY0dGSWJoRFpWUl82TDFpZDJ2OUpKb2dkQ0IwMUppaUI1em1MaGlldmFPS3BHTm9CZEN0SG9HV1RNM01EMVowTW5OWkpYMXZQSUw1SWZrNHZHOXVDUzQzQVp5ZDhHUmNJZlVsNGN3TFpEQ0dqVXc4UnlfT09kRDhTS1cxX2o2YldFZlVteFJ2UnM?oc=5",
       "feed_sources": [
-        "Google News – Philippines",
-        "Google News – United States"
+        "Google News – Philippines"
       ]
     },
     {
@@ -5717,33 +5744,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-      "title": "10 Perfect 2000s Anime Movies That Nobody Remembers - Comic Book Resources",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-      "summary": "10 Perfect 2000s Anime Movies That Nobody Remembers Comic Book Resources",
-      "published_at": "2026-11-08T04:45:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 11,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-      "feed_sources": [
-        "Google News – United States"
-      ]
-    },
-    {
       "id": "https://adala-news.fr/2026/11/le-film-anime-bocchi-the-rock-annonce-pour-2027/",
       "title": "Le film anime Bocchi the Rock!, annoncé pour 2027",
       "title_language": "fr",
@@ -5882,13 +5882,94 @@
       ]
     }
   ],
-  "trend_count": 412,
+  "trend_count": 411,
   "trends": [
+    {
+      "id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
+      "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
+      "title_language": "fr",
+      "score": 64,
+      "priority": "à examiner",
+      "score_breakdown": {
+        "relevance": 28,
+        "freshness": 83,
+        "independent_sources": 3,
+        "article_volume": 3
+      },
+      "article_count": 3,
+      "market_signal_count": 2,
+      "source_count": 3,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France",
+        "United States"
+      ],
+      "source_regions": [
+        "Europe",
+        "North America"
+      ],
+      "market_countries": [
+        "France",
+        "United States"
+      ],
+      "market_regions": [
+        "Europe",
+        "North America"
+      ],
+      "evidence_level": "multi_media_reported",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network",
+        "Animotaku",
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-10T10:53:42+00:00",
+      "status": "multi-source à confirmer",
+      "articles": [
+        {
+          "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
+          "title_language": "fr",
+          "url": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
+          "source": "Animotaku",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "Animotaku"
+          ]
+        },
+        {
+          "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        },
+        {
+          "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
     {
       "id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "title_language": "en",
-      "score": 64,
+      "score": 63,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 32,
@@ -5919,11 +6000,10 @@
       ],
       "market_countries": [
         "France",
-        "United States"
+        "United Kingdom"
       ],
       "market_regions": [
-        "Europe",
-        "North America"
+        "Europe"
       ],
       "evidence_level": "multi_media_reported",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -6038,87 +6118,6 @@
       ]
     },
     {
-      "id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-      "title_language": "fr",
-      "score": 64,
-      "priority": "à examiner",
-      "score_breakdown": {
-        "relevance": 28,
-        "freshness": 83,
-        "independent_sources": 3,
-        "article_volume": 3
-      },
-      "article_count": 3,
-      "market_signal_count": 2,
-      "source_count": 3,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "France",
-        "United States"
-      ],
-      "source_regions": [
-        "Europe",
-        "North America"
-      ],
-      "market_countries": [
-        "France",
-        "United States"
-      ],
-      "market_regions": [
-        "Europe",
-        "North America"
-      ],
-      "evidence_level": "multi_media_reported",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network",
-        "Animotaku",
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T10:53:42+00:00",
-      "status": "multi-source à confirmer",
-      "articles": [
-        {
-          "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "title_language": "fr",
-          "url": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-          "source": "Animotaku",
-          "source_type": "editorial_site",
-          "source_country": "France",
-          "market_country": null,
-          "feed_sources": [
-            "Animotaku"
-          ]
-        },
-        {
-          "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        },
-        {
-          "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
       "title_language": "en",
@@ -6166,6 +6165,53 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/the-iceblade-sorcerer-shall-rule-the-world-author-nana-mikoshiba-original-novel-gets-manga-/.243677",
+      "title": "The Iceblade Sorcerer Shall Rule the World Author Nana Mikoshiba's Original Novel Gets Manga Adaptation on November 17",
+      "title_language": "en",
+      "score": 46,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 100,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-10T23:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Iceblade Sorcerer Shall Rule the World Author Nana Mikoshiba's Original Novel Gets Manga Adaptation on November 17",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-10/the-iceblade-sorcerer-shall-rule-the-world-author-nana-mikoshiba-original-novel-gets-manga-/.243677",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://myanimelist.net/news/74923434?_location=rss",
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
       "title_language": "en",
@@ -6173,7 +6219,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 38,
-        "freshness": 74,
+        "freshness": 73,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6220,7 +6266,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 9,
-        "freshness": 99,
+        "freshness": 98,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7100,7 +7146,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 91,
+        "freshness": 90,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7457,7 +7503,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 85,
+        "freshness": 84,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7551,7 +7597,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 82,
+        "freshness": 81,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7598,7 +7644,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 81,
+        "freshness": 80,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7645,7 +7691,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 81,
+        "freshness": 80,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7692,7 +7738,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 72,
+        "freshness": 71,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7786,7 +7832,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 24,
-        "freshness": 64,
+        "freshness": 63,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7973,7 +8019,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 98,
+        "freshness": 97,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8115,7 +8161,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 94,
+        "freshness": 93,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8160,7 +8206,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 93,
+        "freshness": 92,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8414,53 +8460,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 69,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T00:39:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FeEtpWkgxZlpFaUxMTkI5Sl9PV0lpRVZqaC1oT1pzWGQyYXpzbzJiR3dKRWNvXzhudHdKSVpUMXJOVkVwSGtlVWZqVU90RUNROUc2dmJZTTFXNlFSam9UVlVWRmg4bEFCbkhNOA?oc=5",
       "title": "5 Gundam Anime Series From the 1990s That Are 10/10 Masterpieces - Comic Book Resources",
       "title_language": "en",
@@ -8468,7 +8467,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 100,
+        "freshness": 99,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8513,7 +8512,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 100,
+        "freshness": 99,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8644,51 +8643,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSDhCcml3ZVF3cE9yNHpMeHIwVURVS1JGYl83dTJqQWNEbUk3T0h4Vll0bUh5aHlmQ3lWZXNxZ0VSa25TQ3JzSjZyNWw0bU1DQUxXUHZRU2p3a2pPQk1reEROb2lmMUdQSVdmRUVsWjNlY2dKSnpsTm9kQk1xOEQxT2JvUzZYRkNOM3QtN2tVdC03aVB6SU1uZkg3MUNOT2VrUmc?oc=5",
-      "title": "Mutsumi Tamura Joins Voice Cast of Millennium Family TV Anime - Anime Trending",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 98,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T21:18:09+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Mutsumi Tamura Joins Voice Cast of Millennium Family TV Anime - Anime Trending",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSDhCcml3ZVF3cE9yNHpMeHIwVURVS1JGYl83dTJqQWNEbUk3T0h4Vll0bUh5aHlmQ3lWZXNxZ0VSa25TQ3JzSjZyNWw0bU1DQUxXUHZRU2p3a2pPQk1reEROb2lmMUdQSVdmRUVsWjNlY2dKSnpsTm9kQk1xOEQxT2JvUzZYRkNOM3QtN2tVdC03aVB6SU1uZkg3MUNOT2VrUmc?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
       "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
       "title_language": "en",
@@ -8736,6 +8690,53 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
+      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 69,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-10T00:39:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
       "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
       "title_language": "en",
@@ -8748,7 +8749,7 @@
         "article_volume": 1
       },
       "article_count": 1,
-      "market_signal_count": 1,
+      "market_signal_count": 0,
       "source_count": 1,
       "primary_source_count": 0,
       "primary_sources": [],
@@ -8758,12 +8759,8 @@
       "source_regions": [
         "North America"
       ],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
+      "market_countries": [],
+      "market_regions": [],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
       "sources": [
@@ -8794,7 +8791,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 21,
-        "freshness": 55,
+        "freshness": 54,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8993,10 +8990,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United States"
+        "India"
       ],
       "market_regions": [
-        "North America"
+        "South Asia"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -9008,13 +9005,13 @@
           "title": "WEBTOON Reports US$9.23 Million in 3rd Quarter of 2026 - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTlZUkg5bFdTN3R5cWpicFJNVjJENW5mQnhicjNfLWExNGN5TmFXVXlSRWlnT3F5OFJRS3kwZ1B5S3F3WXZHZjlQZzN6TldCRlVpcndKNWs2WmZvcVZpb3VqcFp4eVo3S0hwck5mRDQ5bjBwaFlhN0gyMTZHczBnR1YwTTU5QkxkQVEyVkhIVGFoVTgxdHpmNHlmN0RyUVNOWDBpVndCY2IwUXRGSFh6Qw?oc=5",
-          "source": "Google News – United States",
+          "source": "Google News – India",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United States",
+          "market_country": "India",
           "feed_sources": [
-            "Google News – Philippines",
-            "Google News – United States"
+            "Google News – India",
+            "Google News – Philippines"
           ]
         }
       ]
@@ -9123,7 +9120,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 95,
+        "freshness": 94,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9156,51 +9153,6 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVWp6MkR5ZDF2c0ExQjFVSThHWkMzS3o0RXh0U0k0ZllaQVZtTVZYVTg2cG5DT2FBRVVVdmlPdHZNWlBTTlZtRHlEalJfOWRjSXBGM043SGR6M3ZmMk5HZ25tQ1JJOGVyQThtZWFfVS12R1NnOWdlTk5lQ3R3MlRUX2lFRm5EYVpraEV5ZmcyYmZVTGpabHRYdkt3djVNS2pPczhBUllrRDN2RzNHOTN2QkFGbXdkUzBuNW9WY1Q4TkpPSjdZNU4tZkVVWmdqVlZCWV9TdU9FSWdRang0cGoyODMwbUthNGJGd0trUA?oc=5",
-      "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - Blog Glau na Capital",
-      "title_language": "fr",
-      "score": 35,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 95,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T19:05:51+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - Blog Glau na Capital",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVWp6MkR5ZDF2c0ExQjFVSThHWkMzS3o0RXh0U0k0ZllaQVZtTVZYVTg2cG5DT2FBRVVVdmlPdHZNWlBTTlZtRHlEalJfOWRjSXBGM043SGR6M3ZmMk5HZ25tQ1JJOGVyQThtZWFfVS12R1NnOWdlTk5lQ3R3MlRUX2lFRm5EYVpraEV5ZmcyYmZVTGpabHRYdkt3djVNS2pPczhBUllrRDN2RzNHOTN2QkFGbXdkUzBuNW9WY1Q4TkpPSjdZNU4tZkVVWmdqVlZCWV9TdU9FSWdRang0cGoyODMwbUthNGJGd0trUA?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
           ]
         }
       ]
@@ -9246,6 +9198,51 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNaVdTWWVWb3JLYWVFcHFtYWVVN0VfdThKVTFlNEtVd2VkclpmSURTMzRHTlB5eTNNUHhxa2kwWm5MZnBEcWpYSnVMVlJNVzZvRExzOU00ckhlSjk0czhjcHdLU0lvSXU4VjhwTWFBelRab0ZrVXFYY2VJbmhXVjN3VWdzZ3pMUXpNU3plWWY2WmhqaFZvVnlIYVFYLWc1V3AwOFRWdUIwcE1rSzNmUUNfUDJMSDQwSWp4S0xjQXJxTm5TMDRLMXNnSGprUDRCVl85dzJmN19GcXZLam1NTHZkQWpIR2xnZXUweVpKckZGZGYyRklRc2hfR2t3YUlJdW1jcHF0WVJFS3lDQQ?oc=5",
+      "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - Tribuna do Sertão",
+      "title_language": "fr",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 94,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T18:50:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - Tribuna do Sertão",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNaVdTWWVWb3JLYWVFcHFtYWVVN0VfdThKVTFlNEtVd2VkclpmSURTMzRHTlB5eTNNUHhxa2kwWm5MZnBEcWpYSnVMVlJNVzZvRExzOU00ckhlSjk0czhjcHdLU0lvSXU4VjhwTWFBelRab0ZrVXFYY2VJbmhXVjN3VWdzZ3pMUXpNU3plWWY2WmhqaFZvVnlIYVFYLWc1V3AwOFRWdUIwcE1rSzNmUUNfUDJMSDQwSWp4S0xjQXJxTm5TMDRLMXNnSGprUDRCVl85dzJmN19GcXZLam1NTHZkQWpIR2xnZXUweVpKckZGZGYyRklRc2hfR2t3YUlJdW1jcHF0WVJFS3lDQQ?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
           ]
         }
       ]
@@ -9690,7 +9687,7 @@
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
       "sources": [],
-      "published_at": "2026-11-10T17:01:00+00:00",
+      "published_at": "2026-11-10T17:02:43+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
@@ -9949,7 +9946,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 88,
+        "freshness": 87,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10039,7 +10036,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 65,
+        "freshness": 64,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -10349,51 +10346,6 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRlVzYW81TmJBRVBHT3JzRHg4WlJKR1RRcjh1X2pQMVgyRlRJWTBHa2Qwd1NKYlpjZ3c5dDA0MXNudnUxZEtXaVloYUsyOExhTzMwZWZvcVhTcFN5dDZTUDlXNVFZOFdzQVA3RVp3OHhrZ1RYTFhEeUpTZ2hrZ1NwZ0NqTTF2SjBxTGZN?oc=5",
-      "title": "Cineverse’s RetroCrush Streaming Bows New Anime Slate - Media Play News",
-      "title_language": "en",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 90,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T15:52:13+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Cineverse’s RetroCrush Streaming Bows New Anime Slate - Media Play News",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRlVzYW81TmJBRVBHT3JzRHg4WlJKR1RRcjh1X2pQMVgyRlRJWTBHa2Qwd1NKYlpjZ3c5dDA0MXNudnUxZEtXaVloYUsyOExhTzMwZWZvcVhTcFN5dDZTUDlXNVFZOFdzQVA3RVp3OHhrZ1RYTFhEeUpTZ2hrZ1NwZ0NqTTF2SjBxTGZN?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United States"
           ]
         }
       ]
@@ -10905,7 +10857,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 81,
+        "freshness": 80,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11425,7 +11377,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 87,
+        "freshness": 86,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11733,51 +11685,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4aVZZNmx1MzlEdm9qd1FuM2E2SlJMbHRqSkpRTWhacVcyZFV6dVZhQWVrd0RNa3JmR1l6UFZaNlZiNzhrcTRYSG0ycHRmeUZPTnBIam1TUnVqVmlfR2FFYkxyRXk5V0E?oc=5",
-      "title": "Devils' Crest : 2 cours, épisodes et où regarder l'anime - FuransuJapon",
-      "title_language": "fr",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 84,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T11:32:56+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Devils' Crest : 2 cours, épisodes et où regarder l'anime - FuransuJapon",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4aVZZNmx1MzlEdm9qd1FuM2E2SlJMbHRqSkpRTWhacVcyZFV6dVZhQWVrd0RNa3JmR1l6UFZaNlZiNzhrcTRYSG0ycHRmeUZPTnBIam1TUnVqVmlfR2FFYkxyRXk5V0E?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUs5cE5IcHJyWDh2RlUtZ1ZEZkNQY3ZMaFU1bFhJZHYyejlTbzRkZWxUeWgwOFo2WHVwVDN4WlJBZE1GeVAwV21ZY3hsbVg1ZmpaR19pS2Q3R3RBWloxYWdDWGt1VXhjQ2RsLVFKTGMtTW9oUnRxdUdiS2hrZzdGRTNabk4tX2xBbW1XT2JKLUxMdVE1QmFlNGdxbmhmbVFOY3hXZnk1ZUVmMjRBakt5eG1LQmZzVkdJRDJscENFeDQ3SUQwU3YyREJHaGNadw?oc=5",
       "title": "“Bass X Machina”, sur Netflix : un anime explosif et politique, la pépite de l’année - Télérama",
       "title_language": "fr",
@@ -11785,7 +11692,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 83,
+        "freshness": 82,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12016,7 +11923,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 56,
+        "freshness": 55,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12110,7 +12017,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 52,
+        "freshness": 51,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12157,7 +12064,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 28,
-        "freshness": 36,
+        "freshness": 35,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12231,6 +12138,51 @@
           "title": "One Piece : Luffy a-t-il vraiment coupé le bras de Shanks ? La folle théorie des fans - Serieously",
           "title_language": "fr",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZm9yNG9fWWpMU1dwckdhNjhOTDNHbXBMZTBhWkEySzlOOVFwaW5YRVAyRW96M1dvTDlnV1AzZVU3ZE5qdXAwalMwYmpDUGhub19pNDJ0WVdFcV9TZGVHdzNTak15eVBuVGs2QUVpRXctbEhwNG5zNnVPRTBYMHJ4WlF1d3JWdUVBd2VjR1ZCVEo4Rk5MZDFvM0VuMktiVTZtQ2Q3dnJiX0FtV1NxX1JwdFVRWGUzU0Zp?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4aVZZNmx1MzlEdm9qd1FuM2E2SlJMbHRqSkpRTWhacVcyZFV6dVZhQWVrd0RNa3JmR1l6UFZaNlZiNzhrcTRYSG0ycHRmeUZPTnBIam1TUnVqVmlfR2FFYkxyRXk5V0E?oc=5",
+      "title": "Devils' Crest : 2 cours, épisodes et où regarder l'anime - FuransuJapon",
+      "title_language": "fr",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 84,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T11:32:56+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Devils' Crest : 2 cours, épisodes et où regarder l'anime - FuransuJapon",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4aVZZNmx1MzlEdm9qd1FuM2E2SlJMbHRqSkpRTWhacVcyZFV6dVZhQWVrd0RNa3JmR1l6UFZaNlZiNzhrcTRYSG0ycHRmeUZPTnBIam1TUnVqVmlfR2FFYkxyRXk5V0E?oc=5",
           "source": "Google Actualités – France",
           "source_type": "market_search",
           "source_country": null,
@@ -12339,7 +12291,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 82,
+        "freshness": 81,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12351,10 +12303,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United Kingdom"
+        "United States"
       ],
       "market_regions": [
-        "Europe"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -12366,13 +12318,14 @@
           "title": "Devils' Crest Anime Confirms Half-Year Run - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc1JqUGE2S2NVYWUtbVprVTN0WHAzOXI0cVV2d2NFZzd3U05yQTRmdlhadG50X0pGM01Ba0pMc1JVLUZrc0NfaHVKQTdjd0VVeThWRVJTV1NvOWNTMVBjd045M1kxeFI2SjNoankzTXBkaFZ3WWt4Q09IYWRIcXd5NWN4UW8tRzhRSWdrQloxMUs5WkRlVnpZRVNQblprYWM?oc=5",
-          "source": "Google News – United Kingdom",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United Kingdom",
+          "market_country": "United States",
           "feed_sources": [
             "Google News – Philippines",
-            "Google News – United Kingdom"
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -12430,7 +12383,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 72,
+        "freshness": 71,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12510,53 +12463,6 @@
           "market_country": null,
           "feed_sources": [
             "Anime UK News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
-      "title": "Fool Night Manga Crosses 1 Million Copies Worldwide",
-      "title_language": "en",
-      "score": 30,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 18,
-        "freshness": 41,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T04:22:41+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Fool Night Manga Crosses 1 Million Copies Worldwide",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
           ]
         }
       ]
@@ -12663,7 +12569,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 81,
+        "freshness": 80,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12753,7 +12659,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 56,
+        "freshness": 55,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12847,7 +12753,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 48,
+        "freshness": 47,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -12929,6 +12835,53 @@
           "market_country": null,
           "feed_sources": [
             "Animotaku"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
+      "title": "Fool Night Manga Crosses 1 Million Copies Worldwide",
+      "title_language": "en",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 18,
+        "freshness": 41,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T04:22:41+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fool Night Manga Crosses 1 Million Copies Worldwide",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-08/fool-night-manga-crosses-1-million-copies-worldwide/.243609",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
           ]
         }
       ]
@@ -13080,7 +13033,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13264,7 +13217,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 52,
+        "freshness": 51,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -13396,6 +13349,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVXBPcGUxR0UyVV9TVm9aZ1d4SG53ZVVQWTkzdlRYX25NNG1iQWdZUVBXX19RWG5lS2F0aUw3ZDV3cmNTVkcyR09LbENFcDZsT195Tjc5b0QxSWFjczVDZjBSTzBCMU1sT1U2UTN0bmQwQUhXYzlBanNuYXlSNmVfWXY2cnJxX3RPWkhUOUNVQ3IyT29OcUFyTEV4eXhVdTl0NGkzQ0Rjdw?oc=5",
+      "title": "After Magic Knight Rayearth, This Clamp Anime Deserves a Reboot Next - ComicBook.com",
+      "title_language": "en",
+      "score": 28,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 73,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T03:45:05+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "After Magic Knight Rayearth, This Clamp Anime Deserves a Reboot Next - ComicBook.com",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVXBPcGUxR0UyVV9TVm9aZ1d4SG53ZVVQWTkzdlRYX25NNG1iQWdZUVBXX19RWG5lS2F0aUw3ZDV3cmNTVkcyR09LbENFcDZsT195Tjc5b0QxSWFjczVDZjBSTzBCMU1sT1U2UTN0bmQwQUhXYzlBanNuYXlSNmVfWXY2cnJxX3RPWkhUOUNVQ3IyT29OcUFyTEV4eXhVdTl0NGkzQ0Rjdw?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzZPbksyNjI5NlFfVGZPRm9PX2tvRWlyNjJzbWRvWDgwMFM0U0xrYTlDdGVIekZfcGNhUEtCTW02a25KQllESHVhdm56Z1dRS1h2OFRJLXFCZm1venQ0MjJMSXlfdnNvczlfSFhuMzhJMWQ1VkFaSjRNNkhMTWdpdUhXeS0yRTVubmdJVGpKOXNCN2piSEJ1QUVXZi14YnptSVptdHVUdjk1ckx3bWs0cWd6YUEzM04wN2NfZ2lUR2pMejlQZHNWclZtelU?oc=5",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - Anime News Network",
       "title_language": "en",
@@ -13415,10 +13413,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "Philippines"
+        "United States"
       ],
       "market_regions": [
-        "Southeast Asia"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -13430,12 +13428,13 @@
           "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzZPbksyNjI5NlFfVGZPRm9PX2tvRWlyNjJzbWRvWDgwMFM0U0xrYTlDdGVIekZfcGNhUEtCTW02a25KQllESHVhdm56Z1dRS1h2OFRJLXFCZm1venQ0MjJMSXlfdnNvczlfSFhuMzhJMWQ1VkFaSjRNNkhMTWdpdUhXeS0yRTVubmdJVGpKOXNCN2piSEJ1QUVXZi14YnptSVptdHVUdjk1ckx3bWs0cWd6YUEzM04wN2NfZ2lUR2pMejlQZHNWclZtelU?oc=5",
-          "source": "Google News – Philippines",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "Philippines",
+          "market_country": "United States",
           "feed_sources": [
-            "Google News – Philippines"
+            "Google News – Philippines",
+            "Google News – United States"
           ]
         }
       ]
@@ -13460,10 +13459,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United Kingdom"
+        "United States"
       ],
       "market_regions": [
-        "Europe"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -13475,14 +13474,15 @@
           "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM1JlS0ZHRTJOemJ3YURnOTByTTRHTlFVTHVlQ1VGZ3hDUEEtQnFxNnFGX1FBTVVjRVd5ZVBadUoySWJOeVpQeWJQNzZ4S19aTXVSMVBOTndsV2VndllIanhiOW5ITk9JUzhYczM4VzhEUU9JQmZJY2FNWTA0ZGFQbWlKZ2JieTZzdzBHbjRFeVlLUThyck82TVBCd3RRSW54bzQyU2tVWkhiM2JuSGhuaDk0dW9LMWtiaWFBLVRhWQ?oc=5",
-          "source": "Google News – United Kingdom",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United Kingdom",
+          "market_country": "United States",
           "feed_sources": [
             "Google News – India",
             "Google News – Philippines",
-            "Google News – United Kingdom"
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -13540,7 +13540,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 65,
+        "freshness": 64,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13552,10 +13552,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "India"
+        "United States"
       ],
       "market_regions": [
-        "South Asia"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -13567,13 +13567,14 @@
           "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3lUaUloVWpJTHRPb0NHUkd1azZYV2s0SWhWRW9fdUVPcnRnWDB3OFNNM3RNbEFRRWdPUkFndFRJZUdoM1JUd0ljX19BVWhQejVSbWFBSnZXTE1zTmtSOFpsQkdoaGRqX0FoWTFhNU1ZTjY3dlR3T0RTY0dlanBhbGlNS1o0SzNwd1kyX1hrbjJrNkQ3LURmZmZDbWM3X01IOHg4cGNQRHY2QXJPTlppNWkwbGZ2UlVhdEdkd3l2LVg?oc=5",
-          "source": "Google News – India",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "India",
+          "market_country": "United States",
           "feed_sources": [
             "Google News – India",
-            "Google News – Philippines"
+            "Google News – Philippines",
+            "Google News – United States"
           ]
         }
       ]
@@ -13598,10 +13599,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "India"
+        "United States"
       ],
       "market_regions": [
-        "South Asia"
+        "North America"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -13613,13 +13614,14 @@
           "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - Anime News Network",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOXZTSjZUUWg5UUVEVFU1TnBOY0dXX3RlSG94d25RaEJYdEt4SjRkbHlfdnZYQTR1clZSX05UTXNGc2w1cE9YajVjcmQ5QWpaVDFNUEwzMkNIZGFoclFQZWgxU0pPQ0JmNUxoRGJzaEh2QnlHTXkzU1FWUWVrRXNLcmdMSENiSkVtTlJYSUtmbWNfc0dmbS1BenpjWkVVWmNETEd2ZVN3?oc=5",
-          "source": "Google News – India",
+          "source": "Google News – United States",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "India",
+          "market_country": "United States",
           "feed_sources": [
             "Google News – India",
-            "Google News – Philippines"
+            "Google News – Philippines",
+            "Google News – United States"
           ]
         }
       ]
@@ -13694,7 +13696,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 42,
+        "freshness": 41,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -13926,7 +13928,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 66,
+        "freshness": 65,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -14007,6 +14009,51 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NfMEI0YkhJWHpjVDlSaGdvc0NaajZGSUxSR2xTSWR0dFJLOGprUnhQVUJpTUZQQU42U1ZmcnhyX1lrUTRmeVk0UmszWTl5YXhtQTNWLXNtZjczZEdid0tBRUIyRW1tU0ZUSl85RXV6RF9kNzZyOEdIWDdlNHNEMjNIOUVvOTlzWU5jcVZiSEhnOXFST2NfM1pqQVRUQVdLMVgxb3pJLU9lcU5u?oc=5",
+      "title": "‘Hirayasumi’ Anime Sets International Streaming Premiere on Netflix - Animation Magazine",
+      "title_language": "en",
+      "score": 27,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 60,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T18:09:17+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "‘Hirayasumi’ Anime Sets International Streaming Premiere on Netflix - Animation Magazine",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NfMEI0YkhJWHpjVDlSaGdvc0NaajZGSUxSR2xTSWR0dFJLOGprUnhQVUJpTUZQQU42U1ZmcnhyX1lrUTRmeVk0UmszWTl5YXhtQTNWLXNtZjczZEdid0tBRUIyRW1tU0ZUSl85RXV6RF9kNzZyOEdIWDdlNHNEMjNIOUVvOTlzWU5jcVZiSEhnOXFST2NfM1pqQVRUQVdLMVgxb3pJLU9lcU5u?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – United States"
           ]
         }
       ]
@@ -14232,53 +14279,6 @@
           "title": "My Hero Ultra Rumble Game Gets Mobile Version",
           "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
-      "title": "Gen Hoshino Performs Hirayasumi TV Anime's Opening Song",
-      "title_language": "en",
-      "score": 25,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 36,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T00:44:26+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Gen Hoshino Performs Hirayasumi TV Anime's Opening Song",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/gen-hoshino-performs-hirayasumi-tv-anime-opening-song/.243631",
           "source": "Anime News Network – News",
           "source_type": "editorial_site",
           "source_country": "United States",
@@ -14573,7 +14573,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 24,
+        "freshness": 23,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -15080,7 +15080,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 53,
+        "freshness": 52,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -16632,7 +16632,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 39,
+        "freshness": 38,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -17803,6 +17803,51 @@
           "market_country": null,
           "feed_sources": [
             "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa19oTlh0ZVJEWmlUbGxyUGVqdWdsMDA5R2dhdXd2amcxWElGand4T1hMRHVITWhmQl9Zakg0YWQwUHJZN3FYS0swOWU5VGhOVmU0MmtJdVBDSUJRWWUwNkpCQzNKRTFINnNHYUNuX2NCNFh4eXhlc1lPbnNBajJLVWthejZreWFORF9OSWFUWm9aZHAxTXBGakpwdWJ0QQ?oc=5",
+      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist - Crunchyroll",
+      "title_language": "en",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 35,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T00:18:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Hirayasumi Anime Reveals Opening Theme Song Artist - Crunchyroll",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa19oTlh0ZVJEWmlUbGxyUGVqdWdsMDA5R2dhdXd2amcxWElGand4T1hMRHVITWhmQl9Zakg0YWQwUHJZN3FYS0swOWU5VGhOVmU0MmtJdVBDSUJRWWUwNkpCQzNKRTFINnNHYUNuX2NCNFh4eXhlc1lPbnNBajJLVWthejZreWFORF9OSWFUWm9aZHAxTXBGakpwdWJ0QQ?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – United States"
           ]
         }
       ]
@@ -19171,51 +19216,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHFsVUpwbW1tRjRUcGNHZmIzSG1GamY0UWtaYlR1cFh4TFhIMEFZWFROYjNic0ExTE9QTTRlV0JrSDRtYXRMRGRSb0dFbHVtUDdJT3daVVZxUVFsZkd3RW9MWk5QTmh1OURXZnZvdjgtVVFkYjZteHp3UDdpNm4zX0gyRC1iTlQ0X0o4WWpMRklqMEE?oc=5",
-      "title": "Crunchyroll usa nostalgia de Zelda para converter gamers em assinantes de anime - Rádio Geek",
-      "title_language": "en",
-      "score": 16,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 28,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-08T19:26:43+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll usa nostalgia de Zelda para converter gamers em assinantes de anime - Rádio Geek",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHFsVUpwbW1tRjRUcGNHZmIzSG1GamY0UWtaYlR1cFh4TFhIMEFZWFROYjNic0ExTE9QTTRlV0JrSDRtYXRMRGRSb0dFbHVtUDdJT3daVVZxUVFsZkd3RW9MWk5QTmh1OURXZnZvdjgtVVFkYjZteHp3UDdpNm4zX0gyRC1iTlQ0X0o4WWpMRklqMEE?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUG1KTmhMclN4SHZsUDFPb2lJbmg1M2oxcjZvXzJGTGJEUDVMaU4wWUJJNU1Ncmg5ejlyMnVCT0Fua21VNGR6ZDgyRmw0TlV3bi1uVWlXOEdwYkRwVXVoNlpKbDU2dl83U0xUd1NqTkdheENsSVR0R2RZQzNJR3IxLUEwQmFwMzA1STl6NkhjWi1ycFVaeEt0N0N6RGV2aUJkMlFRMExiR2hpWTdu?oc=5",
       "title": "My Crush's Crush Anime Premieres in April 2027 - Crunchyroll",
       "title_language": "en",
@@ -19687,6 +19687,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHFsVUpwbW1tRjRUcGNHZmIzSG1GamY0UWtaYlR1cFh4TFhIMEFZWFROYjNic0ExTE9QTTRlV0JrSDRtYXRMRGRSb0dFbHVtUDdJT3daVVZxUVFsZkd3RW9MWk5QTmh1OURXZnZvdjgtVVFkYjZteHp3UDdpNm4zX0gyRC1iTlQ0X0o4WWpMRklqMEE?oc=5",
+      "title": "Crunchyroll usa nostalgia de Zelda para converter gamers em assinantes de anime - Rádio Geek",
+      "title_language": "en",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 28,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-08T19:26:43+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Crunchyroll usa nostalgia de Zelda para converter gamers em assinantes de anime - Rádio Geek",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHFsVUpwbW1tRjRUcGNHZmIzSG1GamY0UWtaYlR1cFh4TFhIMEFZWFROYjNic0ExTE9QTTRlV0JrSDRtYXRMRGRSb0dFbHVtUDdJT3daVVZxUVFsZkd3RW9MWk5QTmh1OURXZnZvdjgtVVFkYjZteHp3UDdpNm4zX0gyRC1iTlQ0X0o4WWpMRklqMEE?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb21PVjJORnlHOFE0NHQ5TEFKUlJsbDN0UkwyY0dGSWJoRFpWUl82TDFpZDJ2OUpKb2dkQ0IwMUppaUI1em1MaGlldmFPS3BHTm9CZEN0SG9HV1RNM01EMVowTW5OWkpYMXZQSUw1SWZrNHZHOXVDUzQzQVp5ZDhHUmNJZlVsNGN3TFpEQ0dqVXc4UnlfT09kRDhTS1cxX2o2YldFZlVteFJ2UnM?oc=5",
       "title": "Harajuku Himegoto House Anime and Media Mix Project Announced - Crunchyroll",
       "title_language": "en",
@@ -19706,10 +19751,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United States"
+        "Philippines"
       ],
       "market_regions": [
-        "North America"
+        "Southeast Asia"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -19721,13 +19766,12 @@
           "title": "Harajuku Himegoto House Anime and Media Mix Project Announced - Crunchyroll",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb21PVjJORnlHOFE0NHQ5TEFKUlJsbDN0UkwyY0dGSWJoRFpWUl82TDFpZDJ2OUpKb2dkQ0IwMUppaUI1em1MaGlldmFPS3BHTm9CZEN0SG9HV1RNM01EMVowTW5OWkpYMXZQSUw1SWZrNHZHOXVDUzQzQVp5ZDhHUmNJZlVsNGN3TFpEQ0dqVXc4UnlfT09kRDhTS1cxX2o2YldFZlVteFJ2UnM?oc=5",
-          "source": "Google News – United States",
+          "source": "Google News – Philippines",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United States",
+          "market_country": "Philippines",
           "feed_sources": [
-            "Google News – Philippines",
-            "Google News – United States"
+            "Google News – Philippines"
           ]
         }
       ]
@@ -23584,51 +23628,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE13Q3FhZGwyMUc3OFlQRXlzMDk3NUJTRm5PYkMyTWtFZjh4U095RnhvMXdzOFFlb3hiTlpESTFobDI1N2hXNzlXVXFoZFJWT3lYNWVQSzBadzdHREtKdzU5NU92bi1mXzR6cDJoOHkwUFUxdw?oc=5",
-      "title": "Anime Origins Codes: novos códigos de novembro de 2026 e como resgatar no Roblox - Game Overdrive",
-      "title_language": "en",
-      "score": 13,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 21,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-08T13:57:56+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Anime Origins Codes: novos códigos de novembro de 2026 e como resgatar no Roblox - Game Overdrive",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13Q3FhZGwyMUc3OFlQRXlzMDk3NUJTRm5PYkMyTWtFZjh4U095RnhvMXdzOFFlb3hiTlpESTFobDI1N2hXNzlXVXFoZFJWT3lYNWVQSzBadzdHREtKdzU5NU92bi1mXzR6cDJoOHkwUFUxdw?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://animecorner.me/interview-asta-voice-actors-gakuto-kajiwara-and-dallas-reid-on-black-clover-season-2/",
       "title": "Interview: Asta Voice Actors Gakuto Kajiwara and Dallas Reid on Black Clover Season 2",
       "title_language": "en",
@@ -24332,6 +24331,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE13Q3FhZGwyMUc3OFlQRXlzMDk3NUJTRm5PYkMyTWtFZjh4U095RnhvMXdzOFFlb3hiTlpESTFobDI1N2hXNzlXVXFoZFJWT3lYNWVQSzBadzdHREtKdzU5NU92bi1mXzR6cDJoOHkwUFUxdw?oc=5",
+      "title": "Anime Origins Codes: novos códigos de novembro de 2026 e como resgatar no Roblox - Game Overdrive",
+      "title_language": "en",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 21,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-08T13:57:56+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Anime Origins Codes: novos códigos de novembro de 2026 e como resgatar no Roblox - Game Overdrive",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13Q3FhZGwyMUc3OFlQRXlzMDk3NUJTRm5PYkMyTWtFZjh4U095RnhvMXdzOFFlb3hiTlpESTFobDI1N2hXNzlXVXFoZFJWT3lYNWVQSzBadzdHREtKdzU5NU92bi1mXzR6cDJoOHkwUFUxdw?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMF9saUJUNWhyQUJPV3ppUmpCYmh3Y2RTcVhFcWR5TjRob0pSQjlLRkE0ZlN5T1NwcXF3X3k1anlyb2ltMlV6dUwySHlERmgzWkloZnRUSXo1R1JTRWpzdDExSFpGbVBFZTdJN3RnUFRBSnNTUVlsNDNWSTRDLXhGV0tSWQ?oc=5",
       "title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success? - The New York Times",
       "title_language": "en",
@@ -24398,10 +24442,10 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "United States"
+        "United Kingdom"
       ],
       "market_regions": [
-        "North America"
+        "Europe"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
@@ -24413,58 +24457,12 @@
           "title": "‘Vampire Princess Miyu’ Blu-Ray Review: An Underrated And Eerie Anime - Forbes",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVm9xanBNSTBTcWg0ajhHMjhhMjc3TGk5T2tXYjFZU3N1SzJqUmZTb1hiWG1ERVlXQ0pGT2EtNDYyR1UxSFNucUIwWlFWYnlLWk9Qa1E2ek1Ic0tfSi10TFItMGV5cnA1em5GNHJHSlBwYldFVVpmby1Mck0tbUwxdTV4cGJubXhab0hkTUNoX082WmJHWHJWWFdPS0otT2lLVUgzNTFmdVRCSVI1VHpZVHZaRnI2NlRjWm5F?oc=5",
-          "source": "Google News – United States",
+          "source": "Google News – United Kingdom",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "United States",
+          "market_country": "United Kingdom",
           "feed_sources": [
-            "Google News – United Kingdom",
-            "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-      "title": "10 Perfect 2000s Anime Movies That Nobody Remembers - Comic Book Resources",
-      "title_language": "en",
-      "score": 10,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 8,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-08T04:45:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "10 Perfect 2000s Anime Movies That Nobody Remembers - Comic Book Resources",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mUUNXdnBFMVA2LUktd0hYV3JzVmVkUWoyS0tQU2RzUFRmS1AxbTR6WXBNODJVNGNoTDY5cUpXTVo0Tk1yV2d3TS0wbF9tTVZteXJsbEVBR1hFbjhzQ3RMTTR2emtOX2xreGtnRGdR?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United States"
+            "Google News – United Kingdom"
           ]
         }
       ]
@@ -25102,51 +25100,6 @@
           "market_country": "United Kingdom",
           "feed_sources": [
             "Google News – United Kingdom"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWmlpbmZLMF9PdFNHXzFEbFo5REhUbDg1eXluM0hwSS12eE9lWkt4T3N4NEp0TVczZXlNS3VOVDhIQXo3b3FjRExDQkFlWDNxUEF3RlQ1NndUamNSdU16UWlrSHB2c2V0N0dmQ2FjcC1jOVhSLUlEbFFPaEZVT2xvcU9QaXBmaFNZLVJKVnRJX05QZF8xT0ZmaHlR?oc=5",
-      "title": "No Manga Nails Liminal Spaces Quite Like Tsutomu Nihei’s ‘Blame!’ - Gizmodo",
-      "title_language": "en",
-      "score": 6,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 0,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "India"
-      ],
-      "market_regions": [
-        "South Asia"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-06T23:16:27+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "No Manga Nails Liminal Spaces Quite Like Tsutomu Nihei’s ‘Blame!’ - Gizmodo",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWmlpbmZLMF9PdFNHXzFEbFo5REhUbDg1eXluM0hwSS12eE9lWkt4T3N4NEp0TVczZXlNS3VOVDhIQXo3b3FjRExDQkFlWDNxUEF3RlQ1NndUamNSdU16UWlrSHB2c2V0N0dmQ2FjcC1jOVhSLUlEbFFPaEZVT2xvcU9QaXBmaFNZLVJKVnRJX05QZF8xT0ZmaHlR?oc=5",
-          "source": "Google News – India",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "India",
-          "feed_sources": [
-            "Google News – India"
           ]
         }
       ]
