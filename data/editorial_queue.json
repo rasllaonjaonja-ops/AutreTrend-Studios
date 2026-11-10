@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:39:14.764703+00:00",
+  "generated_at": "2026-11-10T07:44:44.252459+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -47,12 +47,6 @@
       ]
     },
     {
-      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
-      "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
       "reasons": [
         "source unique sans lien officiel repéré"
@@ -60,6 +54,13 @@
     },
     {
       "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -229,16 +230,6 @@
       ]
     },
     {
-      "title": "Photo Gallery: Miciaglo as Talia from Cyberpunk Edgerunners Season 2 at Lucca Comics & Games",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -255,6 +246,14 @@
         "date de publication absente, invalide ou anormalement future",
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "My Crush’s Crush Anime Reveals Teaser Visual, Trailer, Staff, Cast, April 2027 Premiere",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
