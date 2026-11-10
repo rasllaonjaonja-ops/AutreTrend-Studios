@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:34:12.524413+00:00",
+  "updated_at": "2026-11-10T04:44:36.952456+00:00",
   "source_count": 6,
   "sources": [
     "Anime News Network – News",
@@ -3769,7 +3769,7 @@
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 100,
+        "freshness": 99,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3879,8 +3879,8 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
       "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
       "title_language": "en",
-      "score": 50,
-      "priority": "à examiner",
+      "score": 49,
+      "priority": "veille",
       "score_breakdown": {
         "relevance": 26,
         "freshness": 94,
@@ -3910,7 +3910,7 @@
       "id": "https://myanimelist.net/news/74917181?_location=rss",
       "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
       "title_language": "en",
-      "score": 49,
+      "score": 48,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 32,
@@ -3987,7 +3987,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 48,
+        "freshness": 47,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -4268,7 +4268,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 95,
+        "freshness": 94,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4299,7 +4299,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 85,
+        "freshness": 84,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4662,7 +4662,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 83,
+        "freshness": 82,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4787,7 +4787,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 38,
-        "freshness": 50,
+        "freshness": 49,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4849,7 +4849,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 78,
+        "freshness": 77,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4899,37 +4899,6 @@
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
-      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
-      "title_language": "en",
-      "score": 39,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 23,
-        "freshness": 61,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-09T00:18:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -5186,6 +5155,37 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
+      "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
+      "title_language": "en",
+      "score": 38,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 23,
+        "freshness": 60,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-09T00:18:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Hirayasumi Anime Reveals Opening Theme Song Artist",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/9/hirayasumi-anime-gen-hoshino-opening-theme-song",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/dragon-quest-teases-new-rpg-for-ios-android/.243644",
       "title": "Dragon Quest Teases New RPG for iOS, Android",
       "title_language": "en",
@@ -5320,7 +5320,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 50,
+        "freshness": 49,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -5505,7 +5505,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 42,
+        "freshness": 41,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5536,7 +5536,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 37,
+        "freshness": 36,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5598,7 +5598,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 41,
-        "freshness": 6,
+        "freshness": 5,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5660,7 +5660,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 25,
-        "freshness": 14,
+        "freshness": 13,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6568,7 +6568,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 6,
+        "freshness": 5,
         "independent_sources": 1,
         "article_volume": 1
       },
