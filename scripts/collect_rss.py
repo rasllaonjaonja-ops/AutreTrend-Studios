@@ -219,7 +219,7 @@ for source in enabled_sources:
             source["url"],
             headers={"User-Agent": "AutreTrendStudios/0.2 (+RSS editorial reader)"}
         )
-        with urllib.request.urlopen(request, timeout=20) as response:
+        with urllib.request.urlopen(request, timeout=8) as response:
             root = ET.fromstring(response.read())
         source_stats[source["name"]]["status"] = "ok"
         source_stats[source["name"]]["last_success_at"] = datetime.now(timezone.utc).isoformat()
