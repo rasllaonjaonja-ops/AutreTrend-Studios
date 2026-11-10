@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-11-10T04:13:42.240518+00:00",
+  "generated_at": "2026-11-10T04:15:55.837189+00:00",
   "count": 30,
   "items": [
+    {
+      "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
+      "score_indicatif": 58,
+      "media_count": 2,
+      "media": [
+        "Anime News Network",
+        "Crunchyroll"
+      ],
+      "articles": [
+        {
+          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/steel-ball-run-jojos-bizarre-adventure-anime-stand-special-video",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        },
+        {
+          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "en attente de source officielle",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network, Crunchyroll\nPublication interdite avant validation humaine."
+    },
     {
       "trend_id": "https://myanimelist.net/news/74923434?_location=rss",
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -14,7 +48,10 @@
         {
           "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
           "url": "https://myanimelist.net/news/74923434?_location=rss",
-          "source": "MyAnimeList News – RSS"
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -36,12 +73,18 @@
         {
           "title": "The Apothecary Diaries Season 3, Episode 6 Recap, “The Paper Village”",
           "url": "https://crunchyroll.com/news/features/2026/11/9/the-apothecary-diaries-season-3-episode-6-recap",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         },
         {
           "title": "The Apothecary Diaries Season 3 ‒ Episode 54",
           "url": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-54/.243626",
-          "source": "Anime News Network – All Articles"
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
         }
       ],
       "official_evidence": [],
@@ -62,7 +105,11 @@
         {
           "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -83,7 +130,10 @@
         {
           "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
           "url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -105,12 +155,18 @@
         {
           "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
           "url": "https://myanimelist.net/news/74917181?_location=rss",
-          "source": "MyAnimeList News – RSS"
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
         },
         {
           "title": "SPY x FAMILY Announces Two New Anime Projects: Season 4 and Second Movie Set for 2027",
           "url": "https://us.oricon-group.com/news/9485/",
-          "source": "Japan Anime News – ORICON RSS"
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -131,7 +187,11 @@
         {
           "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -153,12 +213,19 @@
         {
           "title": "My Hero Ultra Rumble Game Gets Mobile Version",
           "url": "https://www.animenewsnetwork.com/news/2026-11-08/my-hero-ultra-rumble-game-gets-mobile-version/.243633",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         },
         {
           "title": "My Hero Ultra Rumble Mobile Version Teased in New Trailer",
           "url": "https://crunchyroll.com/news/latest/2026/11/8/my-hero-ultra-rumble-mobile-version-teaser-trailer",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -180,12 +247,18 @@
         {
           "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
           "url": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         },
         {
           "title": "Harajuku Himegoto House Multimedia Project Announced",
           "url": "https://www.animenewsnetwork.com/news/2026-11-07/harajuku-himegoto-house-multimedia-project-announced/.243612",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -207,12 +280,18 @@
         {
           "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
           "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
         },
         {
           "title": "SPY x FAMILY Season 4, New Anime Film Announced for 2027",
           "url": "https://crunchyroll.com/news/latest/2026/11/8/spy-x-family-season-4-anime-new-film-announced-2027-release-date-teaser-visual",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -233,7 +312,11 @@
         {
           "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -254,7 +337,10 @@
         {
           "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
           "url": "https://myanimelist.net/news/74922872?_location=rss",
-          "source": "MyAnimeList News – RSS"
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -275,7 +361,10 @@
         {
           "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
           "url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -283,27 +372,6 @@
       "human_review_required": true,
       "publication_allowed": false,
       "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Crunchyroll\nPublication interdite avant validation humaine."
-    },
-    {
-      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "score_indicatif": 45,
-      "media_count": 1,
-      "media": [
-        "Anime News Network"
-      ],
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-          "source": "Anime News Network – News"
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "en attente de source officielle",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "draft_fr": "BRIEF ÉDITORIAL — À COMPLÉTER APRÈS LECTURE DE LA SOURCE OFFICIELLE\n\nSujet : STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands\nÉtat : Aucune preuve officielle n'a été repérée automatiquement. Ne pas présenter ce sujet comme confirmé.\n\nSources médias : Anime News Network\nPublication interdite avant validation humaine."
     },
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
@@ -317,7 +385,10 @@
         {
           "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
           "url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -338,7 +409,10 @@
         {
           "title": "U.S. Navy Recruitment Video Reuses Blend S Anime's Opening",
           "url": "https://www.animenewsnetwork.com/interest/2026-11-09/u.s-navy-recruitment-video-reuses-blend-s-anime-opening/.243648",
-          "source": "Anime News Network – All Articles"
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
         }
       ],
       "official_evidence": [],
@@ -359,7 +433,11 @@
         {
           "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/kodama-tales-licenses-a-mandala-in-flames-baki-hanma-neo-cat-manga/.243660",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -380,7 +458,11 @@
         {
           "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -401,7 +483,10 @@
         {
           "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
           "url": "https://crunchyroll.com/news/latest/2026/11/9/fool-night-anime-toshiro-kamiya-character-trailer",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -422,7 +507,11 @@
         {
           "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -443,7 +532,11 @@
         {
           "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/kodansha-announces-winners-of-mangaka-discovery-global-manga-award/.243616",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -464,7 +557,10 @@
         {
           "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
           "url": "https://crunchyroll.com/news/announcements/2026/11/9/puella-magi-madoka-magica-the-movie-trilogy-streaming-crunchyroll",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -485,7 +581,10 @@
         {
           "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary and More Anime Music Videos Now Available on Crunchyroll",
           "url": "https://crunchyroll.com/news/announcements/2026/11/9/a-returners-magic-should-be-special-reborn-as-a-space-mercenary-anime-music-videos",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -506,12 +605,18 @@
         {
           "title": "[第634話]ONE PIECE",
           "url": "https://shonenjumpplus.com/episode/13932016480028742287",
-          "source": "Shonen Jump+ – Atom"
+          "source": "Shonen Jump+ – Atom",
+          "feed_sources": [
+            "Shonen Jump+ – Atom"
+          ]
         },
         {
           "title": "[75話 前編]ONE PIECE学園",
           "url": "https://shonenjumpplus.com/episode/9253191257689746043",
-          "source": "Shonen Jump+ – Atom"
+          "source": "Shonen Jump+ – Atom",
+          "feed_sources": [
+            "Shonen Jump+ – Atom"
+          ]
         }
       ],
       "official_evidence": [],
@@ -532,17 +637,26 @@
         {
           "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
           "url": "https://myanimelist.net/news/74917765?_location=rss",
-          "source": "MyAnimeList News – RSS"
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
         },
         {
           "title": "'Minami-ke Korekara' Reveals New Staff, Teaser Promo, Spring 2027 Premiere",
           "url": "https://myanimelist.net/news/74916427?_location=rss",
-          "source": "MyAnimeList News – RSS"
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
         },
         {
           "title": "'Namidaame to Serenade' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
           "url": "https://myanimelist.net/news/74910185?_location=rss",
-          "source": "MyAnimeList News – RSS"
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -563,7 +677,10 @@
         {
           "title": "Black Clover Season 2 ‒ Episode 176",
           "url": "https://www.animenewsnetwork.com/review/black-clover-season-2/episode-176/.243618",
-          "source": "Anime News Network – All Articles"
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
         }
       ],
       "official_evidence": [],
@@ -584,7 +701,11 @@
         {
           "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
           "url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
-          "source": "Anime News Network – News"
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
         }
       ],
       "official_evidence": [],
@@ -605,7 +726,10 @@
         {
           "title": "Grow Up Show -Sunflower Circus- Anime Series Review",
           "url": "https://www.animenewsnetwork.com/review/grow-up-show-sunflower-circus-anime-series/.243071",
-          "source": "Anime News Network – All Articles"
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
         }
       ],
       "official_evidence": [],
@@ -626,7 +750,10 @@
         {
           "title": "MEGATERA・ZERO and VK Blanka Bring Fresh Beats to Dragon Ball Super: Beerus Anime",
           "url": "https://www.animenewsnetwork.com/interview/2026-11-09/megatera-zero-and-vk-blanka-bring-fresh-beats-to-dragon-ball-super-beerus-anime/.243291",
-          "source": "Anime News Network – All Articles"
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
         }
       ],
       "official_evidence": [],
@@ -647,7 +774,10 @@
         {
           "title": "My Crush's Crush Anime Premieres in April 2027",
           "url": "https://crunchyroll.com/news/latest/2026/11/8/my-crushs-crush-anime-april-2027-cast-staff-trailer-visual",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
@@ -668,7 +798,10 @@
         {
           "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
           "url": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
-          "source": "Crunchyroll News – RSS"
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
         }
       ],
       "official_evidence": [],
