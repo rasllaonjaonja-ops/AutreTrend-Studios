@@ -156,9 +156,34 @@ class EditorialGenerationTests(unittest.TestCase):
         source = (Path(__file__).resolve().parents[1] / "scripts" / "generate_editorial.py").read_text(encoding="utf-8")
         self.assertIn("ai_generation_diagnostics", source)
         self.assertIn("response_received", source)
+        self.assertIn("response_valid", source)
+        self.assertIn("draft_returned", source)
         self.assertIn("validation_errors", source)
         self.assertIn("MIN_SUMMARY_WORDS", source)
         self.assertNotIn("résumé de 60 mots non validé", source)
+
+    def test_generation_response_diagnostics_distinguish_rejection_from_no_response(self):
+        from scripts.generate_editorial import generation_response_diagnostic
+        received = {"trend-a"}
+        valid = {"trend-a"}
+        rejected = generation_response_diagnostic("trend-a", received, valid, draft_returned=False)
+        self.assertEqual(rejected, {
+            "response_received": True,
+            "response_valid": True,
+            "draft_returned": False,
+        })
+        missing = generation_response_diagnostic("trend-b", received, valid, draft_returned=False)
+        self.assertEqual(missing, {
+            "response_received": False,
+            "response_valid": False,
+            "draft_returned": False,
+        })
+        accepted = generation_response_diagnostic("trend-a", received, valid, draft_returned=True)
+        self.assertEqual(accepted, {
+            "response_received": True,
+            "response_valid": True,
+            "draft_returned": True,
+        })
     def test_worker_prompt_protects_proper_names_and_source_fidelity(self):
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
         worker_prompt = worker_path.read_text(encoding="utf-8")
