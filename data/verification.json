@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T14:14:53.337671+00:00",
+  "checked_at": "2026-11-10T14:18:53.071575+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
@@ -162,6 +162,15 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "L'anime My Death Flags Show No Sign of Ending sortira en 2027"
+    },
+    {
+      "title": "Idées cadeaux manga et anime : notre sélection Noël 2026 - FuransuJapon",
+      "article_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV0lGRzRiOW5zdlE3LXRlUXJjQUdLSlhmTFlyTkRMblMtaFA2dzBhWHpsay1wVVNFUUxvMU5xc3M3Y3VyTmZZdm1VS004MThGdGFUSmdJb3FYR3Jqd0RGQXkzZXJpdE9pZk1SSHVqMGJZVDk1eXpr?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
     },
     {
       "title": "Watch the Surreal New Trailer for Madhouse’s Original Anime Film ‘ghost - end of night’ - Hypebeast",
@@ -362,22 +371,13 @@
       "page_title": "Google News"
     },
     {
-      "title": "Japan government to create AI-based Japanese-learning app for anime, manga fans - Nikkei Asia",
-      "article_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQkx3UHQxVlk2UTFtQjRxVlpzOHhqSkxFRFgxaUVKa2ZDdjJCN3pzanYzN1FQOG0xTGF0NWZ0STVsZWtKWjZoWDhsR081T3VValgwUEFiZnJaTHhDUEtaN2RrNFFLWWoxSHltd0FhbEMzdFZXZURMOExuWm9xQjdNRnFyZlFNckJ4LV9VNHFBMWtyd3BCejlVaEFaLTR0aU1KbEJxa3NNN0pPRVZrMTdmTjRIQlJnYnhmUjhIU0p6Y0lVZUtpZVNVOXdxekNfTWs5?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T20:08:00+00:00",
+      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-09T20:30:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Crunchyroll’s ‘Release the Villains’ Campaign Puts the Anime Bad Guys in Charge - Animation Magazine",
-      "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQXBRQXBMc04wemEtZFFFSlZ3S1FzSXlBX2I4VUpIUnRWbWdFc0UxaENpcjdPdkswWk11LVBLY2VxRkwtTkstT2NsQ0VsdVpSb2ZXSFhyc3NVUUpvQTJtSXRsV3g2MTlienBJVTh4aTljdkVpWlhwa3JwNUZuQXczekxoYl8zR0NZa3VUZzY2SV91UU1JREtndUFwTnhFMTZWaG90NUwweHpUcktVeXZWeVhYejdWdFJqMU00?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T19:28:05+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
+      "page_title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - News - Anime News Network"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
