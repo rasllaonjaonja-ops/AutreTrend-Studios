@@ -98,6 +98,7 @@ class EditorialGenerationTests(unittest.TestCase):
                 "title": "Sujet rédigé",
                 "human_review_required": True,
                 "publication_allowed": False,
+                "ai_generation": {"provider": "Cloudflare Workers AI", "human_review_required": True},
                 "social_posts": {
                     "facebook": "Texte",
                     "instagram": "Texte",
@@ -125,8 +126,9 @@ class EditorialGenerationTests(unittest.TestCase):
             "ai_generation_status": "partial",
             "ai_generated_count": 1,
             "items": [
+                {"human_review_required": True, "publication_allowed": False,
+                 "ai_generation": {"provider": "Cloudflare Workers AI"}, "social_posts": complete},
                 {"human_review_required": True, "publication_allowed": False, "social_posts": complete},
-                {"human_review_required": True, "publication_allowed": False},
             ],
         }
         self.assertTrue(valid_editorial_queue(queue))
