@@ -1,5 +1,6 @@
 const MODEL = "@cf/zai-org/glm-4.7-flash";
 const PLATFORMS = ["facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest"];
+const MIN_SUMMARY_WORDS = 45;
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
@@ -42,11 +43,11 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "N'invente jamais de date, studio, réalisateur, casting, nombre d'épisodes, plateforme, territoire, intrigue, chiffre, citation, source ou confirmation.",
     "Distingue ce qui est annoncé, ce qui est rapporté par des médias et ce qui reste à confirmer. Plusieurs reprises médiatiques ne constituent pas une confirmation officielle.",
     "Traduis fidèlement les éléments anglais ou japonais, mais ne traduis jamais les noms propres : titres de franchises et d’œuvres, noms de personnages, familles, studios, éditeurs, événements et marques doivent rester exactement identifiables comme dans les sources. Par exemple, le nom de famille Forger reste « Forger » et ne devient jamais « Forgeron ». Conserve la graphie officielle, la casse et les signes distinctifs des titres (notamment SPY×FAMILY / Spy x Family).",
-    "Avant de finaliser, relis chaque texte pour repérer toute francisation accidentelle d’un nom propre. Corrige-la sans modifier les faits. N’ajoute pas de détails pour atteindre une longueur minimale : si les sources ne permettent pas un résumé fiable de 60 mots, reste prudent et laisse le contrôle rejeter le sujet.",
+    "Avant de finaliser, relis chaque texte pour repérer toute francisation accidentelle d’un nom propre. Corrige-la sans modifier les faits. N’ajoute pas de détails pour atteindre une longueur minimale : si les sources ne permettent pas un résumé fiable de 45 mots, reste prudent et laisse le contrôle rejeter le sujet.",
     "Évite les accroches creuses, le sensationnalisme, les répétitions, les emojis excessifs et les phrases passe-partout.",
     "Produis un vrai mini-article : accroche informative, faits essentiels, contexte uniquement s'il est fourni, puis ouverture pertinente. Ne transforme pas un simple titre en récit détaillé.",
     "title_fr : titre français clair, fidèle et attractif sans exagération.",
-    "summary_fr : 60 à 100 mots, en 2 à 4 phrases naturelles. Présente les faits disponibles et leurs limites sans inventer de contexte.",
+    "summary_fr : 45 à 90 mots, en 2 à 4 phrases naturelles. Présente les faits disponibles et leurs limites sans inventer de contexte.",
     "editorial_angle : 1 à 2 phrases expliquant l'intérêt réel du sujet pour les lecteurs.",
     "discussion_question : question spécifique, ouverte et naturelle, qui invite à une vraie discussion.",
     "claims_to_verify : liste des éléments concrets qui nécessitent encore une vérification; liste vide si aucun élément ne reste incertain.",
@@ -66,7 +67,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "Telegram : brève journalistique de 40 à 70 mots, directe et utile, sans formule artificielle.",
     "Pinterest : titre descriptif de 45 à 90 caractères et description de 35 à 60 mots.",
     "N'ajoute aucune source ou URL non fournie. Une relecture humaine reste obligatoire. Ne prétends jamais être un humain ni avoir vérifié une source que tu n'as pas consultée.",
-    "Respecte strictement les longueurs minimales : Facebook 90 mots, Instagram 55, TikTok 40, Threads 45 et Telegram 45 mots, hors sources et hashtags. Ne remplace jamais le corps par une phrase courte.",
+    "Respecte strictement les longueurs minimales cohérentes avec le validateur : Facebook 70 mots, Instagram 45, TikTok 35, Threads 40 et Telegram 40 mots, hors sources et hashtags. Ne remplace jamais le corps par une phrase courte.",
     "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir trend_synthesis (key_facts, reported_but_unconfirmed, coverage_summary, editorial_context), title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
     "posts doit contenir facebook, instagram, tiktok, x, threads, youtube, telegram et pinterest. youtube et pinterest sont des objets avec title et description; les autres plateformes sont des chaînes."
   ].join("\n");
@@ -99,7 +100,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   const result = await env.AI.run(MODEL, {
     messages: [
       { role: "system", content: system },
-      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr au moins 60 mots; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les huit textes sociaux doivent être en français naturel. Posts : Facebook 90 mots minimum, Instagram 55, TikTok 40, X 8 mots minimum et 260 caractères maximum, Threads 45, Telegram 45, YouTube titre 45 caractères minimum et description 50 mots minimum, Pinterest titre 45 caractères minimum et description 35 mots minimum. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 60 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
+      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr au moins 45 mots; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les huit textes sociaux doivent être en français naturel. Posts : Facebook 70 mots minimum, Instagram 45, TikTok 35, X 8 mots minimum et 260 caractères maximum, Threads 40, Telegram 40, YouTube titre 45 caractères minimum et description 50 mots minimum, Pinterest titre 45 caractères minimum et description 35 mots minimum. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 60 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
     ],
     response_format: { type: "json_object" },
     chat_template_kwargs: { enable_thinking: false },
@@ -142,7 +143,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   }
   const briefErrors = [];
   if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4) briefErrors.push("title_fr doit contenir au moins 4 mots");
-  if (typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < 60) briefErrors.push("summary_fr doit contenir au moins 60 mots");
+  if (typeof parsed.summary_fr !== "string" || wordCount(parsed.summary_fr) < MIN_SUMMARY_WORDS) briefErrors.push("summary_fr doit contenir au moins 60 mots");
   if (typeof parsed.editorial_angle !== "string" || wordCount(parsed.editorial_angle) < 8) briefErrors.push("editorial_angle doit contenir au moins 8 mots");
   if (typeof parsed.discussion_question !== "string" || wordCount(parsed.discussion_question) < 6
       || !parsed.discussion_question.trim().endsWith("?")) briefErrors.push("discussion_question doit contenir au moins 6 mots et finir par ?");
