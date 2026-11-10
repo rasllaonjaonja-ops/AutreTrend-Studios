@@ -14,6 +14,7 @@ FRENCH_MARKERS = {
     "le", "la", "les", "des", "une", "un", "pour", "avec", "dans", "est",
     "sont", "cette", "ces", "sur", "par", "du", "de", "et", "mais", "apres",
     "selon", "annonce", "annoncee", "nouveau", "nouvelle", "episode", "saison",
+    "de", "du", "au", "aux", "ce", "cet", "sa", "son", "ses", "notre", "leurs",
 }
 ENGLISH_MARKERS = {
     "the", "and", "for", "with", "from", "this", "that", "gets", "get", "has",
