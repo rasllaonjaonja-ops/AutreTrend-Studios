@@ -61,7 +61,7 @@ class Links(HTMLParser):
             self.in_title = True
     def handle_endtag(self, tag):
         if tag.lower() == "a" and self.current_href:
-            label = re.sub(r"\\s+", " ", " ".join(self.current_anchor_parts)).strip()[:180]
+            label = re.sub(r"\s+", " ", " ".join(self.current_anchor_parts)).strip()[:180]
             self.links.append({"href": self.current_href, "label": label})
             self.current_href = None
             self.current_anchor_parts = []
