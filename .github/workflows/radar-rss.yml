@@ -3,7 +3,7 @@ name: AutreTrend RSS Radar
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, radar-intelligent-hardening]
     paths:
       - "scripts/**"
       - "sources.json"
@@ -42,6 +42,6 @@ jobs:
             echo "Aucun changement dans le radar."
           else
             git commit -m "data: actualiser le radar RSS"
-            git pull --rebase origin main
-            git push
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
           fi
