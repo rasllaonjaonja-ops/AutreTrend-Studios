@@ -26,8 +26,10 @@ def event_parts(title):
     tokens = set(re.findall(r"[a-z0-9]{2,}", text))
     core = {token for token in tokens if token not in GENERIC and not token.isdigit()}
     facets = set()
-    for match in re.finditer(r"\b(?:season|saison)\s*(\d+)\b", text):
-        facets.add("season:" + match.group(1))
+    season_numbers = re.findall(r"\b(?:season|saison)\s*(\d+)\b", text)
+    season_numbers += re.findall(r"\b(\d+)\s*(?:season|saison)\b", text)
+    for number in season_numbers:
+        facets.add("season:" + number)
     if re.search(r"\b(movie|film|theatrical|cinema|feature)\b", text):
         facets.add("film")
     for year in re.findall(r"\b20\d{2}\b", text):
