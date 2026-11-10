@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T15:05:58.581682+00:00",
-  "count": 2,
+  "generated_at": "2026-11-10T21:55:23.463433+00:00",
+  "count": 1,
   "daily_goal": 3,
   "selected_networks": [
     "facebook",
@@ -12,12 +12,31 @@
     "telegram",
     "pinterest"
   ],
-  "network_variant_count": 16,
+  "network_variant_count": 8,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 410,
+  "rejected_count": 411,
   "rejected_sample": [
     {
+      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+      "reasons": [
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "reasons": [
+        "source unique sans lien officiel repéré",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Le manga Ore no Shibou Flag adapté en anime",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -25,35 +44,104 @@
     {
       "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "L’anime My Death Flags Show No Sign of Ending annoncé pour 2027",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Exclusive: Made in Abyss: Awakening Mystery Heads to HIDIVE in 2027, North American Premiere Set for December 5",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Crunchyroll Streams Suikoden Anime",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
       "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
+      "title": "Dragon Quest RPG Mobile Game's Trailer Reveals 2027 Launch, Closed Beta Test in December",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
       "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film - Anime News Network",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -70,11 +158,30 @@
       "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "source unique sans lien officiel repéré",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
+      "title": "Bocchi The Rock! Announces New Anime Movie Focusing On Seika And Nijika For 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "actualité trop ancienne (plus de 7 jours)",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -91,6 +198,23 @@
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Kodama Tales Licenses Baki Hanma, A Mandala in Flames & More Manga for Summer 2027 Release - Anime Trending",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -124,132 +248,15 @@
       ]
     },
     {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai (anime)",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Millennium Family TV Anime Casts Mutsumi Tamura",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation - Anime News Network",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "Bocchi The Rock! Announces New Anime Movie Focusing On Seika And Nijika For 2027",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "actualité trop ancienne (plus de 7 jours)",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "L’anime Yuru Camp Saison 4, en Trailer",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Fool Night Anime Spotlights Toshiro Kamiya in New Character Trailer",
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré",
@@ -262,231 +269,9 @@
   "diversity_excluded_count": 0,
   "items": [
     {
-      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "score_indicatif": 67,
-      "media_count": 8,
-      "media": [
-        "Adala News",
-        "Anime Corner",
-        "Anime News Network",
-        "Animehunch",
-        "Animotaku",
-        "Crunchyroll",
-        "MyAnimeList",
-        "ORICON / Japan Anime News"
-      ],
-      "source_countries": [
-        "France",
-        "India",
-        "International",
-        "Japan",
-        "Philippines",
-        "United States"
-      ],
-      "source_regions": [
-        "East Asia",
-        "Europe",
-        "International",
-        "North America",
-        "South Asia",
-        "Southeast Asia"
-      ],
-      "market_countries": [
-        "France",
-        "United States"
-      ],
-      "market_regions": [
-        "Europe",
-        "North America"
-      ],
-      "primary_sources": [],
-      "primary_source_count": 0,
-      "source_excerpt_url": "https://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-      "source_excerpt_checked": false,
-      "articles": [
-        {
-          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-          "title_language": "en",
-          "url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-          "source": "Animehunch",
-          "source_type": "editorial_site",
-          "source_country": "India",
-          "market_country": null,
-          "feed_sources": [
-            "Animehunch"
-          ],
-          "summary": "2027 will be a major year for Spy x Family as the anime is set to return with both its fourth season and a new movie to mark the fifth anniversary of the television adaptation. Both projects were revealed by TOHO animation during the “SPY×FAMILY ANIME EXTRA MISSION II” fan event held at Belle Salle ... Read more",
-          "publisher": "Animehunch",
-          "published_at": "2026-11-09T22:33:42+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "SPY x FAMILY Saison 4 et nouveau film anime annoncés pour 2027 - Crunchyroll",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFZlQ3RiUWg4QTJNbThfV3pSRUplTWtmNWlPZ0pScFcyLTF0SzJKREJWNDBvN0MySDFvaVVEOHUtX2hlbTBmaEhyX0pJMHYwcVRESXUtLUVZLU1UMTdhU1ZMcVZXeGh3aFNCMThRZElEREZtbThnTUotemM1RndYeU1ZSVJxYUZjd1RYejhSTDFkWmtHOWI2Y2ZWOU9xTGox?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ],
-          "summary": "SPY x FAMILY Saison 4 et nouveau film anime annoncés pour 2027 Crunchyroll",
-          "publisher": "Google News (agrégateur)",
-          "published_at": "2026-11-09T00:15:00+00:00",
-          "language": "fr",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "SPY x FAMILY THE MOVIE 2 (film)",
-          "title_language": "en",
-          "url": "https://animotaku.fr/encyclotaku/film/spy-x-family-the-movie-2/",
-          "source": "Animotaku",
-          "source_type": "editorial_site",
-          "source_country": "France",
-          "market_country": null,
-          "feed_sources": [
-            "Animotaku"
-          ],
-          "summary": "",
-          "publisher": "Animotaku",
-          "published_at": "",
-          "language": "en",
-          "summary_status": "missing",
-          "date_status": "unknown"
-        },
-        {
-          "title": "SPY x FAMILY Saison 4 (anime)",
-          "title_language": "en",
-          "url": "https://animotaku.fr/encyclotaku/anime/spy-x-family-saison-4/",
-          "source": "Animotaku",
-          "source_type": "editorial_site",
-          "source_country": "France",
-          "market_country": null,
-          "feed_sources": [
-            "Animotaku"
-          ],
-          "summary": "",
-          "publisher": "Animotaku",
-          "published_at": "",
-          "language": "en",
-          "summary_status": "missing",
-          "date_status": "unknown"
-        },
-        {
-          "title": "L’anime SPY x FAMILY Saison 4, annoncé pour 2027",
-          "title_language": "fr",
-          "url": "https://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-          "source": "Adala News",
-          "source_type": "editorial_site",
-          "source_country": "France",
-          "market_country": null,
-          "feed_sources": [
-            "Adala News"
-          ],
-          "summary": "Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…",
-          "publisher": "Adala News",
-          "published_at": "2026-11-08T11:25:24+00:00",
-          "language": "fr",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74917181?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "International",
-          "market_country": null,
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ],
-          "summary": "The Spy x Family Anime Extra Mission II special event announced a fourth season and a second theatrical movie on Sunday, revealing the production staff and a teaser visual (pictured) for Season 4. The new season and movie are scheduled for a 2027 premiere. Staff Director: Yasuhiro Akamatsu (Spy x Family Season 3 episode director) NEW Assistant Director: Hiroki Shinagawa (Lazarus sub character design) NEW Series Composition: Aya Takaha (Mahoutsukai no Yome script) NEW Assistant Series Composition",
-          "publisher": "MyAnimeList",
-          "published_at": "2026-11-08T11:24:31+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "SPY x FAMILY Announces Two New Anime Projects: Season 4 and Second Movie Set for 2027",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9485/",
-          "source": "Japan Anime News – ORICON RSS",
-          "source_type": "professional-media",
-          "source_country": "Japan",
-          "market_country": null,
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ],
-          "summary": "SPY x FAMILY will return with two new anime projects in 2027, including TV anime Season 4 and a second theatrical film.",
-          "publisher": "ORICON / Japan Anime News",
-          "published_at": "2026-11-08T11:20:51+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ],
-          "summary": "Visual revealed for new season",
-          "publisher": "Anime News Network",
-          "published_at": "2026-11-08T11:00:18+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        }
-      ],
-      "official_evidence": [],
-      "verification_coverage": {
-        "checked_articles": 1,
-        "total_articles": 8,
-        "status": "checked"
-      },
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "en",
-      "summary_language": "fr",
-      "source_excerpt": "Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spy #Family #Season\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-        "instagram": "Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spy #Family #Season\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-        "tiktok": "ACCROCHE : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spy #Family #Season",
-        "x": "Spy x Family Season 4 & New Film Confirmed For 2027 Release — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spy #Family #Season",
-        "threads": "On vient de repérer cette actualité : Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/\n\n#Anime #Manga #Spy #Family #Season"
-        },
-        "telegram": "📰 Spy x Family Season 4 & New Film Confirmed For 2027 Release\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Adala News, Anime Corner, Anime News Network · recoupement officiel non établi\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-        "pinterest": {
-          "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spy #Family #Season\nhttps://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Adala News, Anime Corner, Anime News Network, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-      "score_indicatif": 68,
+      "score_indicatif": 65,
       "media_count": 3,
       "media": [
         "Anime News Network",
@@ -503,7 +288,6 @@
       ],
       "market_countries": [
         "France",
-        "United Kingdom",
         "United States"
       ],
       "market_regions": [
@@ -532,25 +316,6 @@
           "language": "fr",
           "summary_status": "missing",
           "date_status": "unknown"
-        },
-        {
-          "title": "Watch the Surreal New Trailer for Madhouse’s Original Anime Film ‘ghost - end of night’ - Hypebeast",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2NJX3pOdW84SGVCSXlkMTdicHhrck5TN1JnQnRZaklnOGsydmpwT0tRaEhpYkRuYnk4RXJfOV9DV3Q3RmhkbDYwbEZzdEhFWWZDWkpqMERkNG5ZTG0xNDNpV0tUX21oTXY4MkJUaVFmSVA1UUd4bmp6bEl0R2JOWm9HOVNERjNlYXg2YXBQZ2pkbkVOalV2Mnd2SElNNG9URXdrMlUtSlRaR0F1LXpmUQ?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – India",
-            "Google News – United States"
-          ],
-          "summary": "Watch the Surreal New Trailer for Madhouse’s Original Anime Film ‘ghost - end of night’ Hypebeast",
-          "publisher": "Google News (agrégateur)",
-          "published_at": "2026-11-10T08:31:51+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
         },
         {
           "title": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime - Crunchyroll",
@@ -626,30 +391,12 @@
           "language": "en",
           "summary_status": "available",
           "date_status": "known"
-        },
-        {
-          "title": "Hitsujibungaku release ‘Sugar’ from upcoming Madhouse anime film ghost – end of night - Electric Bloom Webzine",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5",
-          "source": "Google News – United Kingdom",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United Kingdom",
-          "feed_sources": [
-            "Google News – United Kingdom"
-          ],
-          "summary": "Hitsujibungaku release ‘Sugar’ from upcoming Madhouse anime film ghost – end of night Electric Bloom Webzine",
-          "publisher": "Google News (agrégateur)",
-          "published_at": "2026-11-09T22:57:22+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
         }
       ],
       "official_evidence": [],
       "verification_coverage": {
-        "checked_articles": 6,
-        "total_articles": 7,
+        "checked_articles": 1,
+        "total_articles": 5,
         "status": "checked"
       },
       "editorial_status": "plusieurs médias — confirmation officielle requise",
@@ -683,40 +430,25 @@
   "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
   "ai_generation_diagnostics": [
     {
-      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "response_received": true,
-      "response_valid": false,
-      "draft_returned": false,
-      "accepted": false,
-      "validation_errors": [
-        "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
-      ]
-    },
-    {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
       "response_received": true,
-      "response_valid": false,
+      "response_valid": true,
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
+        "Error: Contenu trop court pour facebook"
       ]
     }
   ],
   "ai_validation_errors": [
     {
-      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
-    },
-    {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
+      "detail": "Error: Contenu trop court pour facebook"
     }
   ],
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
-  "ai_model": "",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : HTTP 503 — {\"error\":\"AI binding or secret not configured\"}; HTTP 503 — {\"error\":\"AI binding or secret not configured\"}; HTTP 503 — {\"error\":\"AI binding or secret not configured\"}; HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
+  "ai_model": "@cf/zai-org/glm-4.7-flash",
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook; Error: Contenu trop court pour facebook"
 }

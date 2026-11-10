@@ -1,9 +1,14 @@
 {
-  "checked_at": "2026-11-10T15:05:58.581682+00:00",
+  "checked_at": "2026-11-10T21:55:23.463433+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
-  "errors": [],
+  "errors": [
+    {
+      "url": "https://www.animenation.net/blog/unpacking-jujutsu-kaisen-movie-2-other-stuff/",
+      "error": "The read operation timed out"
+    }
+  ],
   "checks": [
     {
       "title": "Plus-Sized Misadventures in Love! Anime Shares New Trailer, Adds to Cast",
@@ -63,8 +68,7 @@
       "publisher": "AnimeNation",
       "published_at": "2025-12-07T04:18:44+00:00",
       "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Unpacking Jujutsu Kaisen Movie 2 & Other Stuff – AnimeNation Anime News Blog"
+      "status": "page source inaccessible — vérification humaine requise"
     },
     {
       "title": "Three Powerful Back-to-School Anime",
@@ -90,6 +94,150 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
+    },
+    {
+      "title": "AMC Global Media's Anime Release 'Made in Abyss: Awakening Mystery' to Stream on HIDIVE in 2027 - Media Play News",
+      "article_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU3VoQlg5NWozeGlxR2VCN2F1a043RHFvd3lwYTBVTXNqcEdySkx4NHVQRFVjSHFtWENWQ1V5ODdTcjdIa2ZOWXZIT09oOTQ2dXgza2ZmYnozUjBCNGxrT1gxMnYwdjVnbmFMNFNjOU55Y1dVZXRMUU9mLTUwUHJFZExPeG1rR0JBdGxiYW4xQVo1Q2sxS1VYX2pvTnd6SHVWUV9Rdl9tRHpVOFJYUXd2VWVkVklUU21uSUJxb3Fudw?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T21:52:34+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "10 Anime Series With No Bad Seasons, Ranked - Comic Book Resources",
+      "article_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pZzBmUElyTnd1LVV0eHpMN1EwamNoaHBUNnZuRnctSTZ2eDMzUkQzX2lLMEJkV1dVVFRtWUtndWhYdUVBdjNTazFOOXZ4T3JKNmxFaDhHN21EeHFvdWxReHdqcGJIRzBta0xTNA?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T21:28:49+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Samuel L. Jackson Says His Favorite Anime Is ‘One Piece’ - Yahoo",
+      "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2I3SkR0QkZwTnJCbnV1M2RheUpnY3B1RHdFN0ZxZlI3ZnRXeDhRUTNNWTlEV1lsc25BZXhQYWh4cDA0RDJibTNKZjQ4ZTZwSHNjOTlyOGdEZXVHR29ha3JoUXBNZ2JWV3NaX2xWWGxSRVFJcUpBQ3RILWxpSk03MnVnZ2Q0d3ktaXZzZmVXVWtsTUc1eUV5V3NnaEIzY1ZWQjRmdXZ2QklwRXZIZDRYLQ?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T21:11:50+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "7 Anime Series With the Most Perfect First Seasons, Ranked - Comic Book Resources",
+      "article_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T21:00:12+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Kodama Tales Licenses Baki Hanma, A Mandala in Flames & More Manga for Summer 2027 Release - Anime Trending",
+      "article_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd2lVOWhEV2ZlbmtiVnREbXE0THNTU3JfVTFOUGM3QXFSQTU5aWlERkhtTWdZWGFwU0pLVHNXWFNvN3BwQmM0ZVV3Z0c2WmhWWFFXbDFWLUVtUmZFQU5vWnI1NDV0RXE1anlwQkQwNTVMOS1hM2lKZm00bmNUZ0pUekdHUkpGWUZoS0FRaUNnaEdzeWtOVEt6bFpGYlFmMzl5WkpfbE1rVlVodGVNSzIwZU9nY1hCd2Q2dzltSmRQMjRTc2tk?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T20:57:09+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T20:00:35+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5 - News - Anime News Network"
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending tem anime confirmado para 2027 - Crunchyroll",
+      "article_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQakstTnFXbGFEcTJQNWFWOXpEU0RoTFlrRC11LWNoX0ZSZ1lpUjVWZzlYbHpLM0RZYVpoV3laR0ZPRnk1UUI4ZW5BSlloNWVnTE1CcUVmcjZmMlJHMVV1dzFQUEs5c0NRQ212WVk5Tkh6R3F6M0R1TVlYaFk0S0llTlhpQmRVN2tpc3FONm1zc0NZc0RxdnJyTW1BZl9sS05hNUMwT0RuSDhOVDBmRmh2RXRiTnM5QQ?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T18:35:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Novo trailer do filme anime ghost – end of night revela tema musical - OtakuPT",
+      "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3RRNkNuNzZXYWFiOWYxblJiRmlEWTc3QUwxN3g1QXRkczdmU202YjZjVkI3TUhEMFBpc2dPZWpBSHVYMmZVSkVqcEdiZXY5UDBKZG1fMEdwQlEzbk93d1NqT21HYVdGcW5FZE9ub2FtdFZOUGJfTm4xT2Rybm4xSmNMcnhrRHF3c2Y2OE1kQmZRVDJoak1wRWQzVGU0UQ?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T18:23:33+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Filme de anime ghost – end of night ganha trailer e data de estreia - Combo Infinito",
+      "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNazVTa3hTTHM4cTZJVlk5OUtkM3c5Y0VZYTk1cHhxUTBRUkNINVM3bEtTb1V2UmF5RzNoZU40aS1pSVZ5NlBJZ2UycVM3TFM3VTk0QU5rTzlyWlptLTE0cnJKSy00dWswTjBqTy0xcVFiR0xreFFNTVVPOTR6dG9McWJyLUJib2FIRWc?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T17:39:57+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "10 Anime Movies With the Most Perfect Endings, Ranked - Comic Book Resources",
+      "article_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XMUlBeGJnc2kwd1l3OXZZMHdUSmxzcF9ITExiWXVsVFpRb0Z0RjNKQ3hRVFh0Z3F0X2RyUWtFWTI5QndMQXg1ZDVJRFpjN0dob2F2VV85Q0p3SEk0WWp2WUJvUDhEcmhKSzlGOU9R?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T17:27:32+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Le manga Ore no Shibou Flag adapté en anime",
+      "article_url": "https://adala-news.fr/2026/11/le-manga-ore-no-shibou-flag-adapte-en-anime/",
+      "publisher": "Adala News",
+      "published_at": "2026-11-10T17:20:01+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Le manga Ore no Shibou Flag adapté en anime - Adala News"
+    },
+    {
+      "title": "Le manga Ore no Shibou Flag adapté en anime - Adala News",
+      "article_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DU2dNZVg2akFBVWV0WHRJaFI4ZWl3anZjNkJHLXhkSTdjZTJ6YUhSNWJXQkc0MFV4S2dGZGpvQnlqNXE5bm1aV010c2pPdXhycXYyQXE3RUVPZEtBUUNDWDRCbzlTQzNGRzFHOXZ6Wk1nNTlfTldiMlZVNDRyY2c?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T17:20:01+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Hell Mode Season 2 Anime Series Review - Anime News Network",
+      "article_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQalE0cllPOEREMXNFVnUyTkhzREVxdlNnYkhQR1RidjlsNDNvYVROUDg2dWRGTHY3U1FUVW1uRVJoTGI3TTc5a1JMbGF2VnNDb2hwTXk4ZVRCX1hvaFdpM1ZYaExTTUwwOG5lc05LTy1MeFJsQnBmYVZ2Y19WQzYyZzU2a1hOZw?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T17:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "4 Powerful Anime Swordsmen Who Could Beat Demon Slayer's Yoriichi Tsugikuni - Comic Book Resources",
+      "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQazVBZW9rT1B4bkpQNmpKOVNyUEZmOWE0anZkZ21WRmhaNEtic0xpQUpkbDJIY21Ic0hDa3B3TmhEaF9IYjVrZnIxelV0Yk9KZ2x3dHFjVVlJMVh4ZVdreTYweDlRYTc2ZVZpclR2cjVxajZMYjI1S1JuSXJZdXJ3T1Y1eGl0dFpXYkt0NmlTcUhGUQ?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T16:28:59+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
+    },
+    {
+      "title": "Crunchyroll Streams Suikoden Anime",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-10/crunchyroll-streams-suikoden-anime/.243688",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Crunchyroll Streams Suikoden Anime - News - Anime News Network"
+    },
+    {
+      "title": "Dragon Ball: 7 Anime Heroes Who Would Have Dominated in the Tournament of Power - IMDb",
+      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNjdCekFxSUI5VG5nZndhd29Vb242cGZ3aWZjak5WZy1vWVRyQzZqT0JaYTdNbVZ2Qm9JMm5qNjBCcThnR0NJS1JMQTBVQ2dNMWpRM2lrY0dfWkxndjFad1VCMnd2Y0k?oc=5",
+      "publisher": "Google News (agrégateur)",
+      "published_at": "2026-11-10T15:50:53+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Google News"
     },
     {
       "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
@@ -164,10 +312,10 @@
       "page_title": "Google News"
     },
     {
-      "title": "Cool Japan Fund postmortem finds that video game, anime and manga investments were profitable, while live-action sector suffered losses - AUTOMATON",
-      "article_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTkhIUUFmdFk1OGRkaTJFNnFqSGo2TmVtYWc1c3Bqa2d1TWFqQm5JYUU5VWdvaUZMSjFrRjZCNWtDaGZQY0QxTDRqeW05TnVnY3hJT3dZemVVM1l5dzM4bzJGT1lCc2oyak02WGtBcUZKTkZHQ2tDNVNTWFg5T1hxT0doVTYyRkNNNTNhUFg0dmdmZHdsTWxNSzllZ2tnNE5SOHJReVk4T01oR1ZTUlJTZWZCbTdXTDlSSjQzYjFQT3VOSzVybzZ5eVVvRlpvVUJMLWZpU2VwWDFibEI0UWJBZG9GbDJydUh6LTNmUjZaV2lzbmY2dlFzcFJOanhCY2s?oc=5",
+      "title": "Phantom of the Idol Volume 9 Review - Anime UK News",
+      "article_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FOWZKM0ZTa1NIYlEwWllFbk1ZTnRlbXpGOUNNZEtRanlhbl9DWEhpTjgzZkVNdEkyVXJqczJxSldCTC1PZzk4TzFkenpKa2hJYUhVSm5xTmN5QWhmcWp0SU5zWWwzZTVGLVZTY19sSUg5YWtidmJB?oc=5",
       "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T09:34:04+00:00",
+      "published_at": "2026-11-10T10:00:51+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
@@ -191,10 +339,10 @@
       "page_title": "Google News"
     },
     {
-      "title": "Watch the Surreal New Trailer for Madhouse’s Original Anime Film ‘ghost - end of night’ - Hypebeast",
-      "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2NJX3pOdW84SGVCSXlkMTdicHhrck5TN1JnQnRZaklnOGsydmpwT0tRaEhpYkRuYnk4RXJfOV9DV3Q3RmhkbDYwbEZzdEhFWWZDWkpqMERkNG5ZTG0xNDNpV0tUX21oTXY4MkJUaVFmSVA1UUd4bmp6bEl0R2JOWm9HOVNERjNlYXg2YXBQZ2pkbkVOalV2Mnd2SElNNG9URXdrMlUtSlRaR0F1LXpmUQ?oc=5",
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film - Anime News Network",
+      "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdW92eWxwMWZFZUJybHhraERFTHJGNWRGU0FHLW44OVk4alRTMW1PcmdCaTNFNVRlaWhpMmpLdDY3VUtJczFzeWptbXV3WEZmdkM3dElsb09RZS01ekV6dmNENUM3LU5aN2F3Wl8zVmx1SWk1QWRHVFdSWE5UY0ZuRlY0WjRwWHpGY2ozZ0lsTzRNSUNnVFJjN1pZelluLU1QNFNDMjJrOEVqbU1uNmtoU0Z6cWh5bTByME13?oc=5",
       "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T08:31:51+00:00",
+      "published_at": "2026-11-10T06:48:44+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Google News"
@@ -234,150 +382,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
-      "article_url": "https://myanimelist.net/news/74923434?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-10T03:58:55+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
-    },
-    {
-      "title": "5 Single-Season Anime With No Bad Episodes - Comic Book Resources",
-      "article_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VaDRaaXlBTTF3ejdIbnppbVJZeUNRVG1XWDNSeHhHRTdOa21JT2Q5QmJFTlcxNjIzbHc4QlJmU1I1N1AyMnRJd3hIZDB2RVg1bFFQUTl2Z2lDR1R1RnNDUTZCUkFPQVk?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T03:45:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T03:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
-    },
-    {
-      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - Anime News Network",
-      "article_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdVFJeDI3Z2xRSU1FUlZiX2FlTjk1NThCRVJkcDlWMENlNjJSYlZMdWF6ZTA2anptVzZQekpfa2JubEJyR3JWZ1U5X29QNHIxYzdMc3hvU0ZVVk5sWHFPN2Fyc3VGcUxNOWo1ZjJPSTFURGVfX1dGdEFHWG9YUko4WVlfTjJQbjNNcmticmV3ODJGYUJmVU5uY3Z4TXZZTXgxRkx4VC1HdVUwbF9RdVpmNDkwTHRKVEVFSzFDQlR1QWxJOHpmMzl0QVpRTkJXVWdCV2pkZQ?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T02:31:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/izumi-miyazono-kekkon-shimasho-koi-suru-mae-ni-manga-gets-live-action-short-drama/.243664",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T02:31:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - News - Anime News Network"
-    },
-    {
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/so-whats-wrong-with-getting-reborn-as-a-goblin-anime-opening-song-music-video-sou",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T01:39:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video - Crunchyroll",
-      "article_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblZsMWJKVm53aXg1bjVzOHM1TjhISHdodzI4aTJ3Z1FGNTAtWHhFZ3lCSXFKRGlqQlZVWmZ6em83Z2d2ajg5NlhxNTJGdFZIaW1NRG95V1BiZ3R4VzFCcEpiZE0wTjZpaVVwVHRPWlJIZFZ3S2tNTHBsaVdmcHp6WTJacnp2NzdPT0RnWTdSblRUMlE5UVdyWDhIdVFZM1NTbjlFS1NocmRvdUh3ZFFVLTZqYkNHN1dab1Z6ZEczMlJCWjhTRFh6MThEWlo?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T01:39:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T00:49:27+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song - News - Anime News Network"
-    },
-    {
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/godzilla-minus-zero-number-1-debut-japan-box-office",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T00:39:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual - Crunchyroll",
-      "article_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcURLUmY5Y3pVdjVIX2tuNDZWeTJ0ME91dkkzeDFlT1BhdHgxTEp2cUQ5WXA5MUxRVzJON3N0aExQMlJYVElYMVA0N3pxTnpfSmhoQVAxSWYxeDZWLWZxb2JmZGttWHJ0SzgxNlRIWWYtTzI4LW1CZWhzZjJvX1JiemR3bjBKU3RfZTBndjhBMEVOQkI5LWc2eVJuSzZIM3NfWlQxN1lJS3RpRW9KQnFQRy13ZUJ1NUxpbERhYw?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-10T00:17:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T00:17:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
-      "article_url": "https://myanimelist.net/news/74922872?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-10T00:05:31+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer - MyAnimeList.net"
-    },
-    {
-      "title": "Hitsujibungaku release ‘Sugar’ from upcoming Madhouse anime film ghost – end of night - Electric Bloom Webzine",
-      "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T22:57:22+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "article_url": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "publisher": "Animehunch",
-      "published_at": "2026-11-09T22:33:42+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release - Animehunch"
-    },
-    {
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award - Anime News Network",
-      "article_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3lUaUloVWpJTHRPb0NHUkd1azZYV2s0SWhWRW9fdUVPcnRnWDB3OFNNM3RNbEFRRWdPUkFndFRJZUdoM1JUd0ljX19BVWhQejVSbWFBSnZXTE1zTmtSOFpsQkdoaGRqX0FoWTFhNU1ZTjY3dlR3T0RTY0dlanBhbGlNS1o0SzNwd1kyX1hrbjJrNkQ3LURmZmZDbWM3X01IOHg4cGNQRHY2QXJPTlppNWkwbGZ2UlVhdEdkd3l2LVg?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T21:30:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "article_url": "https://animehunch.com/a-silent-voice-anime-staff-poured-their-youth-into-making-the-movie/",
-      "publisher": "Animehunch",
-      "published_at": "2026-11-09T20:48:16+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "A Silent Voice Anime's Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals - Animehunch"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
