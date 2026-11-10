@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:09:25.611349+00:00",
+  "generated_at": "2026-11-10T13:45:29.899504+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -61,13 +61,6 @@
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -142,6 +135,13 @@
       ]
     },
     {
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation - Anime News Network",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -153,16 +153,6 @@
       "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
@@ -192,10 +182,13 @@
       ]
     },
     {
-      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -206,6 +199,13 @@
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Japan Box Office: Godzilla Minus Zero Debuts at No. 1 in Record-Breaking Weekend",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -234,14 +234,7 @@
       ]
     },
     {
-      "title": "Cool Japan Fund postmortem finds that video game, anime and manga investments were profitable, while live-action sector suffered losses - AUTOMATON",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027 - Crunchyroll",
+      "title": "My Crush's Crush Anime Set for April 2027 Release - IGN India",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -253,6 +246,16 @@
         "score éditorial inférieur à 45/100",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
+    },
+    {
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -262,7 +265,7 @@
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
-      "score_indicatif": 68,
+      "score_indicatif": 67,
       "media_count": 8,
       "media": [
         "Adala News",
@@ -394,6 +397,24 @@
           "date_status": "known"
         },
         {
+          "title": "L'anime SPY x FAMILY Saison 4, annoncé pour 2027 - Adala News",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWEVrZDBfTVBTaDB0bHVXQm9TTFgxcXlMRGZIVVJkQS1Rc0tRWlB1MHBaMG9vd19DeFJNZC1PN2VrWWEwVnpDRm5fN3pRbGtuNmZoeVl6clhOaXViaGRXc04tS0U2dldvYzIwbC1udlpGdUw0QlJxbjhzZmtVSUJxNzhFQQ?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ],
+          "summary": "",
+          "publisher": "Google Actualités – France",
+          "published_at": "",
+          "language": "fr",
+          "summary_status": "missing",
+          "date_status": "unknown"
+        },
+        {
           "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
           "title_language": "en",
           "url": "https://myanimelist.net/news/74917181?_location=rss",
@@ -425,24 +446,6 @@
           "summary": "SPY x FAMILY will return with two new anime projects in 2027, including TV anime Season 4 and a second theatrical film.",
           "publisher": "ORICON / Japan Anime News",
           "published_at": "2026-11-08T11:20:51+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
-          "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ],
-          "summary": "Visual revealed for new season",
-          "publisher": "Anime News Network",
-          "published_at": "2026-11-08T11:00:18+00:00",
           "language": "en",
           "summary_status": "available",
           "date_status": "known"
@@ -500,6 +503,7 @@
         "North America"
       ],
       "market_countries": [
+        "France",
         "United Kingdom",
         "United States"
       ],
@@ -509,7 +513,7 @@
       ],
       "primary_sources": [],
       "primary_source_count": 0,
-      "source_excerpt_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5",
+      "source_excerpt_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
       "source_excerpt_checked": true,
       "articles": [
         {
@@ -546,6 +550,24 @@
           "publisher": "Google News (agrégateur)",
           "published_at": "2026-11-10T08:31:51+00:00",
           "language": "en",
+          "summary_status": "available",
+          "date_status": "known"
+        },
+        {
+          "title": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime - Crunchyroll",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ],
+          "summary": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll",
+          "publisher": "Google News (agrégateur)",
+          "published_at": "2026-11-10T05:30:00+00:00",
+          "language": "fr",
           "summary_status": "available",
           "date_status": "known"
         },
@@ -627,41 +649,41 @@
       ],
       "official_evidence": [],
       "verification_coverage": {
-        "checked_articles": 5,
-        "total_articles": 6,
+        "checked_articles": 6,
+        "total_articles": 7,
         "status": "checked"
       },
       "editorial_status": "plusieurs médias — confirmation officielle requise",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "fr",
-      "summary_language": "und",
-      "source_excerpt": "Hitsujibungaku release ‘Sugar’ from upcoming Madhouse anime film ghost – end of night Electric Bloom Webzine",
+      "summary_language": "fr",
+      "source_excerpt": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll",
       "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #film #ghost #end\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5",
-        "instagram": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #film #ghost #end\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5",
-        "tiktok": "ACCROCHE : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #film #ghost #end",
-        "x": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #film #ghost #end",
-        "threads": "On vient de repérer cette actualité : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "language_ready": true,
+        "translation_required": false,
+        "translation_note": "",
+        "facebook": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #film #ghost #end\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
+        "instagram": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #film #ghost #end\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
+        "tiktok": "ACCROCHE : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nSCRIPT À LIRE : ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #film #ghost #end",
+        "x": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel — ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll #Anime #Manga #film #ghost #end",
+        "threads": "On vient de repérer cette actualité : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nVous suivez cette série ?",
         "youtube": {
           "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5\n\n#Anime #Manga #film #ghost #end"
+          "description": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5\n\n#Anime #Manga #film #ghost #end"
         },
-        "telegram": "📰 Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5",
+        "telegram": "📰 Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\n\nghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nSources à consulter : Anime News Network, Animotaku, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
         "pinterest": {
           "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #film #ghost #end\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxOREhjN0haclJDeE9SVnFqWkl5RWFqZFM3SzdSanA4Z3dGV2o2c2VWY3ZiYVVMLWhIbUpzc3Nzd0hRaFVtZjNfcUNnSGhqZUl6Y01sSldsTFBCZ09SYWdjTmpyYnBuVTZKUWg5VGlWdU4wd08yWVlnMElrakNrUVkwbTJ0Qjd1OTVYQVpvUTVXSTZ2S2R6ZU9GNmtVQkcwNTVQSmc?oc=5"
+          "description": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n#Anime #Manga #film #ghost #end\nhttps://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5"
         }
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\nExtrait RSS : Hitsujibungaku release ‘Sugar’ from upcoming Madhouse anime film ghost – end of night Electric Bloom Webzine\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Animotaku, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\nExtrait RSS : ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Animotaku, Crunchyroll\nNe pas publier avant contrôle des faits et de la traduction."
     }
   ],
   "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Brief éditorial trop court ou incomplet; Error: Brief éditorial trop court ou incomplet"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour instagram; The read operation timed out"
 }
