@@ -153,6 +153,12 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertIn("Threads 40", worker_prompt)
         self.assertIn("Telegram 40", worker_prompt)
 
+    def test_radar_workflow_uses_configured_ai_endpoint_secret(self):
+        from pathlib import Path
+        workflow = (Path(__file__).resolve().parents[1] / ".github" / "workflows" / "radar-rss.yml").read_text(encoding="utf-8")
+        self.assertIn("AUTOTREND_AI_URL: ${{ secrets.AUTOTREND_AI_URL }}", workflow)
+        self.assertNotIn("autretrend-studios-ai-test.pages.dev", workflow)
+
     def test_generation_diagnostics_are_per_item_and_use_the_real_summary_threshold(self):
         from pathlib import Path
         source = (Path(__file__).resolve().parents[1] / "scripts" / "generate_editorial.py").read_text(encoding="utf-8")
