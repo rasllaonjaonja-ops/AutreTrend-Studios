@@ -605,10 +605,20 @@ function renderRadar(){
   const title=typeof value==="object"?String(value.title||""):"";
   const body=typeof value==="object"?String(value.description||""):String(value);
   const publisher={facebook:"AutreTrend Studios",instagram:"autotrend.studios",tiktok:"AutreTrend Studios",x:"@AutreTrend",threads:"AutreTrend Studios",youtube:"AutreTrend Studios",telegram:"AutreTrend · Actualités",pinterest:"AutreTrend Studios"}[platform]||"AutreTrend Studios";
-  const avatar=platform==="youtube"?"▶":platform==="tiktok"?"♪":platform==="instagram"?"◎":platform==="telegram"?"➤":"A";
+  const avatar=platform==="youtube"?"▶":platform==="tiktok"?"♪":platform==="instagram"?"◎":platform==="telegram"?"➤":platform==="pinterest"?"P":platform==="x"?"𝕏":"A";
+  const actions={
+   facebook:["♡ J’aime","◯ Commenter","↗ Partager"],
+   instagram:["♡ J’aime","◯ Commenter","➤ Envoyer"],
+   tiktok:["♡ J’aime","◯ Commenter","↗ Partager"],
+   x:["♡ J’aime","↩ Répondre","⟳ Republier"],
+   threads:["♡ J’aime","↩ Répondre","⟳ Republier"],
+   youtube:["♡ J’aime","◯ Commenter","▶ S’abonner"],
+   telegram:["♡ Réagir","↩ Répondre","➤ Transférer"],
+   pinterest:["⌑ Enregistrer","◯ Commenter","↗ Partager"]
+  }[platform]||["♡ Réagir","◯ Commenter","↗ Partager"];
   const sourceUrl=radarSafeUrl(pack.source_excerpt_url);
   const factList=Array.isArray(pack.trend_synthesis?.key_facts)?pack.trend_synthesis.key_facts:[];
-  return '<div class="network-preview-card platform-'+platform+'"><div class="network-preview-top"><span class="network-avatar">'+avatar+'</span><span><b>'+esc(publisher)+'</b><small>APERÇU SIMULÉ · '+esc(socialLabels[platform])+'</small></span><span class="preview-menu">•••</span></div>'+(title?'<h4 class="network-preview-title">'+esc(title)+'</h4>':"")+'<p class="network-preview-body">'+esc(body)+'</p>'+(sourceUrl?'<a class="preview-source" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>':"")+'<div class="network-preview-actions"><span>♡ J’aime</span><span>◯ Commenter</span><span>↗ Partager</span></div></div>'+(factList.length?'<p class="preview-context"><b>Base de la synthèse :</b> '+esc(factList.length)+' fait(s) retenu(s) · '+esc(pack.media_count||pack.media?.length||0)+' média(s) distinct(s)</p>':"");
+  return '<div class="network-preview-card platform-'+platform+'"><div class="network-preview-top"><span class="network-avatar">'+avatar+'</span><span><b>'+esc(publisher)+'</b><small>APERÇU SIMULÉ · '+esc(socialLabels[platform])+'</small></span><span class="preview-menu">•••</span></div>'+(title?'<h4 class="network-preview-title">'+esc(title)+'</h4>':"")+'<p class="network-preview-body">'+esc(body)+'</p>'+(sourceUrl?'<a class="preview-source" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>':"")+'<div class="network-preview-actions">'+actions.map(label=>'<span>'+esc(label)+'</span>').join("")+'</div></div>'+(factList.length?'<p class="preview-context"><b>Base de la synthèse :</b> '+esc(factList.length)+' fait(s) retenu(s) · '+esc(pack.media_count||pack.media?.length||0)+' média(s) distinct(s)</p>':"");
  };
  const socialCards=(pack)=>{
   if(!pack||!pack.social_posts)return "";
