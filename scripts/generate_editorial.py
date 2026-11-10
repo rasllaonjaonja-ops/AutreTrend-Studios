@@ -184,6 +184,9 @@ def main():
         for item in result.get("items", [])
         if isinstance(item, dict) and item.get("trend_id")
     }
+    generation_errors = result.get("errors", [])
+    if not isinstance(generation_errors, list):
+        generation_errors = []
     accepted = 0
     for item in items[:3]:
         draft = generated.get(item.get("trend_id"))
@@ -285,7 +288,22 @@ def main():
     queue["ai_generated_count"] = accepted
     queue["ai_generation_status"] = "generated" if accepted == len(items[:3]) else ("partial" if accepted else "rejected")
     queue["ai_model"] = result.get("model", "")
-    queue["ai_notice"] = "Rédaction assistée par IA, adaptations spécifiques à chaque réseau. Validation humaine obligatoire; aucune publication automatique."
+    if accepted == len(items[:3]):
+        queue["ai_notice"] = "Rédaction assistée par IA, adaptations spécifiques à chaque réseau. Validation humaine obligatoire; aucune publication automatique."
+    elif accepted:
+        queue["ai_notice"] = (
+            f"Rédaction IA partielle : {accepted}/{len(items[:3])} sujet(s) validé(s). "
+            "Les sujets en échec restent non publiables. Validation humaine obligatoire."
+        )
+    else:
+        details = "; ".join(
+            str(error.get("detail", "échec de génération"))[:140]
+            for error in generation_errors if isinstance(error, dict)
+        )
+        queue["ai_notice"] = (
+            "Aucune prépublication IA validée. Les brouillons restent non publiables."
+            + ((" Détails : " + details) if details else "")
+        )
     QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"IA éditoriale : {accepted}/{len(items[:3])} prépublication(s) françaises validées structurellement; contrôle humain toujours requis.")
     return 0
