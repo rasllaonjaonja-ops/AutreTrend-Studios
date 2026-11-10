@@ -68,10 +68,21 @@ def main():
         raise SystemExit("Structure verification.json invalide.")
     if not isinstance(sources.get("sources"), list) or not any(s.get("enabled", True) for s in sources["sources"]):
         raise SystemExit("Aucun flux RSS actif dans sources.json.")
+    enabled_sources = [s for s in sources["sources"] if s.get("enabled", True)]
+    site_sources = [s for s in enabled_sources if s.get("source_type") != "market_search"]
+    market_sources = [s for s in enabled_sources if s.get("source_type") == "market_search"]
+    if len(site_sources) != 20 or len(market_sources) != 7:
+        raise SystemExit("Le Radar doit conserver 20 sites éditoriaux et 7 flux de veille par pays.")
+    if not all(s.get("country") and s.get("region") and s.get("language") for s in enabled_sources):
+        raise SystemExit("Chaque flux doit préciser son pays, sa région et sa langue.")
 
     queue_items = queue.get("items", [])
     if queue.get("count") != len(queue_items):
         raise SystemExit("Le compteur de la file éditoriale ne correspond pas aux éléments.")
+    if len(queue_items) > 3:
+        raise SystemExit("La file éditoriale dépasse les trois prépublications quotidiennes.")
+    if queue.get("daily_goal") != 3 or queue.get("network_variant_count") != len(queue_items) * 8:
+        raise SystemExit("Les trois emplacements éditoriaux et leurs huit déclinaisons sociales sont incohérents.")
     if not isinstance(queue.get("rejected_count", 0), int):
         raise SystemExit("Le compteur des sujets écartés doit être un entier.")
 
