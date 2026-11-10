@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:28:41.032520+00:00",
+  "generated_at": "2026-11-10T15:05:58.581682+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -41,6 +41,18 @@
       ]
     },
     {
+      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -63,6 +75,16 @@
     },
     {
       "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Release the Villains: Ains Ooal Gown, a Lonely Gamer Playing the Role of a Lifetime",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -102,6 +124,23 @@
       ]
     },
     {
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
       "title": "Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai (anime)",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -129,37 +168,6 @@
       ]
     },
     {
-      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Laid-Back Camp Season 4 Anime Announces April 2027 Premiere in New Trailer",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -167,7 +175,7 @@
       ]
     },
     {
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -190,16 +198,6 @@
       ]
     },
     {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -210,7 +208,14 @@
       ]
     },
     {
-      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -227,7 +232,14 @@
       ]
     },
     {
-      "title": "[第634話]ONE PIECE",
+      "title": "L’anime Yuru Camp Saison 4, en Trailer",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -241,20 +253,6 @@
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "First Teaser for Slice of Life Anime 'Hirayasumi' Very Calm & Peaceful - FirstShowing.net",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
@@ -688,37 +686,37 @@
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "response_received": true,
-      "response_valid": true,
+      "response_valid": false,
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook"
+        "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
       ]
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
       "response_received": true,
-      "response_valid": true,
+      "response_valid": false,
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
+        "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
       ]
     }
   ],
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Contenu trop court pour facebook"
+      "detail": "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
+      "detail": "HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
     }
   ],
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
-  "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots; Error: Contenu trop court pour facebook; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
+  "ai_model": "",
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : HTTP 503 — {\"error\":\"AI binding or secret not configured\"}; HTTP 503 — {\"error\":\"AI binding or secret not configured\"}; HTTP 503 — {\"error\":\"AI binding or secret not configured\"}; HTTP 503 — {\"error\":\"AI binding or secret not configured\"}"
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T14:28:41.032520+00:00",
+  "checked_at": "2026-11-10T15:05:58.581682+00:00",
   "checked_articles": 40,
   "sample_strategy": "articles récents d'abord, score éditorial ensuite; un article non contrôlé reste distinct d'une page contrôlée sans lien officiel",
   "official_link_found": 2,
@@ -90,6 +90,24 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Interview with KAF of KAMITSUBAKI CITY UNDER CONSTRUCTION"
+    },
+    {
+      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/devils-crest-anime-two-consecutive-cours",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-10T14:41:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
+      "article_url": "https://crunchyroll.com/news/announcements/2026/11/10/suikoden-the-anime-crunchyroll-stream",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-10T14:30:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
       "title": "First Teaser for Slice of Life Anime 'Hirayasumi' Very Calm & Peaceful - FirstShowing.net",
@@ -360,24 +378,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "A Silent Voice Anime's Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals - Animehunch"
-    },
-    {
-      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - Anime News Network",
-      "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOXZTSjZUUWg5UUVEVFU1TnBOY0dXX3RlSG94d25RaEJYdEt4SjRkbHlfdnZYQTR1clZSX05UTXNGc2w1cE9YajVjcmQ5QWpaVDFNUEwzMkNIZGFoclFQZWgxU0pPQ0JmNUxoRGJzaEh2QnlHTXkzU1FWUWVrRXNLcmdMSENiSkVtTlJYSUtmbWNfc0dmbS1BenpjWkVVWmNETEd2ZVN3?oc=5",
-      "publisher": "Google News (agrégateur)",
-      "published_at": "2026-11-09T20:30:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Google News"
-    },
-    {
-      "title": "Assassin's Creed Shadows: Tales of Iga Manga Ends",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/assassin-creed-shadows-tales-of-iga-manga-ends/.243657",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-09T20:30:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - News - Anime News Network"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
