@@ -8,6 +8,8 @@ GENERIC = {
     "des", "les", "une", "un", "dans", "pour", "avec", "sur", "qui", "est",
     "season", "saison", "movie", "film", "theatrical", "cinema", "announced",
     "announcement", "reveals", "revealed", "confirms", "confirmed", "2027",
+    # Descripteurs de format : ils ne doivent jamais servir à identifier une franchise.
+    "live", "action", "adaptation", "hollywood", "rights", "pictures", "options",
 }
 
 FRENCH_MARKERS = {
