@@ -187,7 +187,10 @@ def build_trends(items, now):
 items, errors = [], []
 enabled_sources = [s for s in SOURCES if s.get("enabled", True)]
 source_stats = {
-    s["name"]: {"entries_found": 0, "accepted_items": 0, "unique_items": 0}
+    s["name"]: {
+        "entries_found": 0, "accepted_items": 0, "unique_items": 0,
+        "status": "pending", "last_success_at": None, "error": None
+    }
     for s in enabled_sources
 }
 for source in enabled_sources:
@@ -198,6 +201,8 @@ for source in enabled_sources:
         )
         with urllib.request.urlopen(request, timeout=20) as response:
             root = ET.fromstring(response.read())
+        source_stats[source["name"]]["status"] = "ok"
+        source_stats[source["name"]]["last_success_at"] = datetime.now(timezone.utc).isoformat()
         entries = [node for node in root.iter() if local_name(node.tag) in ("item", "entry")]
         source_stats[source["name"]]["entries_found"] = min(len(entries), 40)
         for entry in entries[:40]:
@@ -211,10 +216,13 @@ for source in enabled_sources:
                             break
             summary = clean_text(child_text(entry, {"description", "summary", "encoded", "content"}))
             date = child_text(entry, {"pubdate", "published", "updated", "date"})
+            published_at = parse_date(date)
             if title and link.startswith(("https://", "http://")):
                 items.append({
                     "id": link, "title": title, "title_language": detect_title_language(title), "translation_status": "à traduire si japonais",
-                    "url": link, "summary": summary[:500], "published_at": parse_date(date),
+                    "url": link, "summary": summary[:500], "published_at": published_at,
+                    "date_status": "known" if published_at else "unknown",
+                    "summary_status": "available" if summary else "missing",
                     "source": source["name"],
                     "publisher": publisher_name(source["name"]),
                     "category": source.get("category", "anime-manga"),
@@ -224,7 +232,10 @@ for source in enabled_sources:
                 })
                 source_stats[source["name"]]["accepted_items"] += 1
     except Exception as exc:
-        errors.append({"source": source.get("name", "unknown"), "error": str(exc)[:240]})
+        message = str(exc)[:240]
+        source_stats[source.get("name", "")]["status"] = "error"
+        source_stats[source.get("name", "")]["error"] = message
+        errors.append({"source": source.get("name", "unknown"), "error": message})
 
 def canonical_article_url(value):
     """Normalise les URL d'un même article sans supprimer ses identifiants utiles."""
@@ -280,6 +291,12 @@ payload = {
     "source_count": len(enabled_sources),
     "sources": [s["name"] for s in enabled_sources],
     "source_stats": source_stats,
+    "health": {
+        "sources_ok": sum(1 for stat in source_stats.values() if stat["status"] == "ok"),
+        "sources_error": sum(1 for stat in source_stats.values() if stat["status"] == "error"),
+        "items_without_date": sum(1 for item in result if item.get("date_status") == "unknown"),
+        "items_without_summary": sum(1 for item in result if item.get("summary_status") == "missing")
+    },
     "item_count": len(result),
     "items": result[:200],
     "trend_count": len(trends),
