@@ -91,6 +91,8 @@ def publisher_name(source_name):
         return "Crunchyroll"
     if "myanimelist" in name or "my anime list" in name:
         return "MyAnimeList"
+    if "oricon" in name or "japan anime news" in name:
+        return "ORICON / Japan Anime News"
     return source_name.strip()
 
 def title_tokens(title):
