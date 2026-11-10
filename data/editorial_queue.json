@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T06:58:36.985980+00:00",
-  "count": 3,
+  "generated_at": "2026-11-10T07:39:14.764703+00:00",
+  "count": 2,
   "daily_goal": 3,
   "selected_networks": [
     "facebook",
@@ -12,12 +12,24 @@
     "telegram",
     "pinterest"
   ],
-  "network_variant_count": 24,
+  "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 398,
+  "rejected_count": 399,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film - Anime News Network",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -54,26 +66,9 @@
       ]
     },
     {
-      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "There Was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her Anime Gets Season 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
@@ -88,7 +83,14 @@
       ]
     },
     {
-      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
+      "title": "Sou Releases So What's Wrong with Getting Reborn as a Goblin? Anime Opening Song Music Video",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -112,13 +114,20 @@
       ]
     },
     {
-      "title": "[第634話]ONE PIECE",
+      "title": "Kodama Tales Licenses A Mandala in Flames, Baki Hanma, Neo Cat Manga",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -175,17 +184,20 @@
       ]
     },
     {
+      "title": "[第634話]ONE PIECE",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
       "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027 - Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita Saison 2 (anime)",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
@@ -210,12 +222,9 @@
       ]
     },
     {
-      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+      "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita Saison 2 (anime)",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
@@ -230,7 +239,7 @@
       ]
     },
     {
-      "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
+      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -246,24 +255,6 @@
         "date de publication absente, invalide ou anormalement future",
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "Fate Rewinder Anime Reveals Four New Character Visuals",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
-      "title": "L’anime Boku no Suki na Hito ga Suki na Hito, en Teaser Vidéo & Date de sortie",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
@@ -305,10 +296,12 @@
       ],
       "market_countries": [
         "France",
-        "United Kingdom"
+        "United Kingdom",
+        "United States"
       ],
       "market_regions": [
-        "Europe"
+        "Europe",
+        "North America"
       ],
       "primary_sources": [],
       "primary_source_count": 0,
@@ -444,161 +437,6 @@
         }
       },
       "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Adala News, Anime Corner, Anime News Network, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
-      "trend_id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
-      "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
-      "score_indicatif": 70,
-      "media_count": 4,
-      "media": [
-        "Anime Corner",
-        "Anime News Network",
-        "Crunchyroll",
-        "ORICON / Japan Anime News"
-      ],
-      "source_countries": [
-        "Japan",
-        "Philippines",
-        "United States"
-      ],
-      "source_regions": [
-        "East Asia",
-        "North America",
-        "Southeast Asia"
-      ],
-      "market_countries": [
-        "Philippines",
-        "United States"
-      ],
-      "market_regions": [
-        "North America",
-        "Southeast Asia"
-      ],
-      "primary_sources": [],
-      "primary_source_count": 0,
-      "source_excerpt_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
-      "source_excerpt_checked": true,
-      "articles": [
-        {
-          "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
-          "source": "Google News – Philippines",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Philippines",
-          "feed_sources": [
-            "Google News – Philippines"
-          ]
-        },
-        {
-          "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        },
-        {
-          "title": "Japanese Horror Manga ‘Noah Of The Blood Sea’ Set For Feature Adaptation As Tyrus Pictures Options Rights - Deadline",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczdzQkRxcm9WZy11SHJIOGE2c2xGQjg4UjN4S0VHU1FqMFZWNWhDSFpZb2c5MWtHbm0yUEg1MWEzWjZpYlZFaTdHcmlpS1hpOG82bzdEbjhaZXNZRlZzZ1JRR044bEhRSl9EdDdLY0swVVJEM3RPdE4wNnZyY2ZRemlHY2Izbjg5WUNQVXlsNXdJVlU1WG9yb0p5UmYxT29v?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – India",
-            "Google News – Philippines",
-            "Google News – United Kingdom",
-            "Google News – United States"
-          ]
-        },
-        {
-          "title": "Paradox Live THE MOVIE Anime Film Slated for 2027, Reveals Super Teaser Visual",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/7/paradox-live-the-movie-anime-film-2027-super-teaser-visual",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        },
-        {
-          "title": "Mashle Live-Action Film Teaser Reveals Mackenyu Cast as Mash, Yuichi Fukuda Directs",
-          "title_language": "en",
-          "url": "https://animecorner.me/mashle-live-action-film-teaser-reveals-mackenyu-cast-as-mash-yuichi-fukuda-directs/",
-          "source": "Anime Corner",
-          "source_type": "editorial_site",
-          "source_country": "Philippines",
-          "market_country": null,
-          "feed_sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Live-Action Film Adaptation Announced",
-          "title_language": "en",
-          "url": "https://animecorner.me/mashle-magic-and-muscles-live-action-film-adaptation-announced/",
-          "source": "Anime Corner",
-          "source_type": "editorial_site",
-          "source_country": "Philippines",
-          "market_country": null,
-          "feed_sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Live-Action Movie Set for March 19, 2027; Teaser Visual Reveals Mash From Behind",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9474/",
-          "source": "Japan Anime News – ORICON RSS",
-          "source_type": "professional-media",
-          "source_country": "Japan",
-          "market_country": null,
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "verification_coverage": {
-        "checked_articles": 2,
-        "total_articles": 7,
-        "status": "checked"
-      },
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "und",
-      "summary_language": "und",
-      "source_excerpt": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere Anime Trending",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Paradox #Live #Film\nSources à consulter : Anime Corner, Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
-        "instagram": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Paradox #Live #Film\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
-        "tiktok": "ACCROCHE : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Paradox #Live #Film",
-        "x": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Paradox #Live #Film",
-        "threads": "On vient de repérer cette actualité : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime Corner, Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5\n\n#Anime #Manga #Paradox #Live #Film"
-        },
-        "telegram": "📰 Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime Corner, Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5",
-        "pinterest": {
-          "title": "Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Paradox #Live #Film\nhttps://news.google.com/rss/articles/CBMiowFBVV95cUxQUEY3NjNuNlotRHl3VnF1a3dsSUVRT1QtX1k1T2JYNWlPRmJxUzM5ODRLaVZFM3JPVzZjRnJ5RVVkNXFLdVdMT0twTWViZ3c3b3VKOVB2VThyLUpGbHJPZkZMYzdRREswa3ZLXy10LXJ0S2Y3Qm9nc1JQcTFaLVU1a0pGcGRGYl80UHlGYmJVTFg1Ml9UWkpjUldSczNsZURicDZR?oc=5"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere - Anime Trending\nExtrait RSS : Paradox Live Anime Film Reveals Teaser Visual & 2027 Premiere Anime Trending\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime Corner, Anime News Network, Crunchyroll, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     },
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662",
