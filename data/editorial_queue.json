@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T22:07:33.172978+00:00",
+  "generated_at": "2026-11-10T22:30:49.953908+00:00",
   "count": 0,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,16 +14,16 @@
   ],
   "network_variant_count": 0,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 410,
+  "rejected_count": 413,
   "rejected_sample": [
     {
-      "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
+      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "reasons": [
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
+      "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
       "reasons": [
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
@@ -41,12 +41,6 @@
       ]
     },
     {
-      "title": "Le manga Ore no Shibou Flag adapté en anime",
-      "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "Yu-Gi-Oh! Tag Force GX Game Previews Duels, Partners, Multiplayer, Exploration in New Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -54,6 +48,13 @@
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Le manga Ore no Shibou Flag adapté en anime",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -72,13 +73,6 @@
     },
     {
       "title": "L’anime My Death Flags Show No Sign of Ending annoncé pour 2027",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Crunchyroll Streams Suikoden Anime",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -112,20 +106,17 @@
       ]
     },
     {
-      "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
+      "title": "Crunchyroll Streams Suikoden Anime",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "Dragon Quest RPG Mobile Game's Trailer Reveals 2027 Launch, Closed Beta Test in December",
+      "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -163,13 +154,6 @@
       ]
     },
     {
-      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -182,6 +166,16 @@
       "reasons": [
         "score éditorial inférieur à 45/100",
         "actualité trop ancienne (plus de 7 jours)",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "Dragon Quest RPG Mobile Game's Trailer Reveals 2027 Launch, Closed Beta Test in December",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
@@ -213,6 +207,13 @@
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
+      "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
       ]
     },
     {
@@ -254,12 +255,10 @@
       ]
     },
     {
-      "title": "Devils' Crest Anime Confirms Half-Year Run",
+      "title": "A Silent Voice Anime’s Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
         "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     }
