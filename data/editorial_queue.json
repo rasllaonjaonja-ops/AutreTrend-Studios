@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:10:17.247660+00:00",
+  "generated_at": "2026-11-10T14:14:53.337671+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 410,
+  "rejected_count": 411,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -23,13 +23,13 @@
       ]
     },
     {
-      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
+      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
+      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
       "reasons": [
         "source unique sans lien officiel repéré"
       ]
@@ -504,14 +504,12 @@
       ],
       "market_countries": [
         "France",
-        "India",
         "United Kingdom",
         "United States"
       ],
       "market_regions": [
         "Europe",
-        "North America",
-        "South Asia"
+        "North America"
       ],
       "primary_sources": [],
       "primary_source_count": 0,
@@ -592,24 +590,6 @@
           "date_status": "known"
         },
         {
-          "title": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual - AnimeTV チェーン",
-          "title_language": "ja",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXhPNlEzZnp3YTgxVFFseXZZa2dEVWdZek92UlB6a3VUbHMwN1BLZzVlcVNyMWFEOThQYXR2Ry1lZXV0SzB3T3NnU0xXY0RRM0QyNGJRYkRUeEM0ejlreU9uMllPSmdMX3QtMUhpUFVYM3Byb3g5MHo4NGRxMTZrM0RjQ0hJLWdMTHlLQ09rQjk4Unp0UDBzS04yU1FzbXRvSEUzMA?oc=5",
-          "source": "Google News – India",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "India",
-          "feed_sources": [
-            "Google News – India"
-          ],
-          "summary": "ghost – end of night Original Anime Film Reveals Main Trailer and New Key Visual AnimeTV チェーン",
-          "publisher": "Google News (agrégateur)",
-          "published_at": "2026-11-10T00:26:37+00:00",
-          "language": "en",
-          "summary_status": "available",
-          "date_status": "known"
-        },
-        {
           "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual - Crunchyroll",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcURLUmY5Y3pVdjVIX2tuNDZWeTJ0ME91dkkzeDFlT1BhdHgxTEp2cUQ5WXA5MUxRVzJON3N0aExQMlJYVElYMVA0N3pxTnpfSmhoQVAxSWYxeDZWLWZxb2JmZGttWHJ0SzgxNlRIWWYtTzI4LW1CZWhzZjJvX1JiemR3bjBKU3RfZTBndjhBMEVOQkI5LWc2eVJuSzZIM3NfWlQxN1lJS3RpRW9KQnFQRy13ZUJ1NUxpbERhYw?oc=5",
@@ -669,8 +649,8 @@
       ],
       "official_evidence": [],
       "verification_coverage": {
-        "checked_articles": 7,
-        "total_articles": 8,
+        "checked_articles": 6,
+        "total_articles": 7,
         "status": "checked"
       },
       "editorial_status": "plusieurs médias — confirmation officielle requise",
@@ -705,15 +685,15 @@
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots"
+      "detail": "Error: Contenu trop court pour facebook"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Contenu trop court pour instagram"
+      "detail": "Error: Contenu trop court pour facebook"
     }
   ],
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots; Error: Contenu trop court pour instagram; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 60 mots; Error: Contenu trop court pour instagram"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook; Error: Contenu trop court pour facebook; Error: Contenu trop court pour facebook; Error: Contenu trop court pour facebook"
 }
