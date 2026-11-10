@@ -153,13 +153,15 @@ def build_trends(items, now):
 
     trends = []
     for group in groups.values():
-        publishers = sorted({publisher_name(x["source"]) for x in group})
+        editorial_group = [x for x in group if x.get("source_type") != "market_search"]
+        market_group = [x for x in group if x.get("source_type") == "market_search"]
+        publishers = sorted({publisher_name(x["source"]) for x in editorial_group})
         primary_sources = sorted({
             publisher_name(x["source"]) for x in group
             if x.get("source_role") == "first_party"
         })
-        source_countries = sorted({x.get("source_country", "International") for x in group if x.get("source_country")})
-        source_regions = sorted({x.get("source_region", "International") for x in group if x.get("source_region")})
+        source_countries = sorted({x.get("source_country", "International") for x in editorial_group if x.get("source_country")})
+        source_regions = sorted({x.get("source_region", "International") for x in editorial_group if x.get("source_region")})
         market_countries = sorted({x.get("market_country") for x in group if x.get("market_country")})
         market_regions = sorted({x.get("market_region") for x in group if x.get("market_region")})
         newest = max((parse_timestamp(x["published_at"]) for x in group), default=0)
@@ -167,7 +169,7 @@ def build_trends(items, now):
         freshness = max(0, 100 * (1 - min(age_hours, 72) / 72)) if newest else 0
         relevance = max((x["score"] for x in group), default=0)
         coverage = coverage_score(len(publishers), len(primary_sources))
-        volume = 100 if len(group) >= 4 else (70 if len(group) >= 2 else 35)
+        volume = 100 if len(editorial_group) >= 4 else (70 if len(editorial_group) >= 2 else 35)
         # Priorité éditoriale indicative : pertinence 35 %, fraîcheur 30 %,
         # diversité des éditeurs 25 %, volume d'articles 10 %.
         # Ce score ne mesure ni les vues, ni la viralité, ni la véracité.
@@ -190,7 +192,8 @@ def build_trends(items, now):
                 "independent_sources": len(publishers),
                 "article_volume": len(group)
             },
-            "article_count": len(group),
+            "article_count": len(editorial_group),
+            "market_signal_count": len(market_group),
             "source_count": len(publishers),
             "primary_source_count": len(primary_sources),
             "primary_sources": primary_sources,
@@ -203,7 +206,7 @@ def build_trends(items, now):
             "sources": publishers,
             "published_at": ordered[0]["published_at"],
             "status": status,
-            "articles": [{"title": x["title"], "title_language": x.get("title_language", detect_title_language(x["title"])), "url": x["url"], "source": x["source"], "feed_sources": x.get("feed_sources", [x["source"]])} for x in ordered[:8]]
+            "articles": [{"title": x["title"], "title_language": x.get("title_language", detect_title_language(x["title"])), "url": x["url"], "source": x["source"], "source_type": x.get("source_type", "editorial_site"), "source_country": x.get("source_country"), "market_country": x.get("market_country"), "feed_sources": x.get("feed_sources", [x["source"]])} for x in ordered[:8]]
         })
     return sorted(trends, key=lambda x: (x["score"], x["source_count"], x["published_at"]), reverse=True)
 
@@ -255,8 +258,9 @@ for source in enabled_sources:
                     "source": source["name"],
                     "publisher": publisher_name(source["name"]),
                     "category": source.get("category", "anime-manga"),
-                    "source_country": source.get("country", "International"),
-                    "source_region": source.get("region", "International"),
+                    "source_type": source.get("source_type", "editorial_site"),
+                    "source_country": None if source.get("source_type") == "market_search" else source.get("country", "International"),
+                    "source_region": None if source.get("source_type") == "market_search" else source.get("region", "International"),
                     "market_country": source.get("market_country"),
                     "market_region": source.get("market_region"),
                     "source_role": "first_party" if "official" in source.get("category", "") else "professional_media",
