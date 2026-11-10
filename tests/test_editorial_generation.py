@@ -2,6 +2,7 @@
 import unittest
 from scripts.generate_editorial import valid_posts, valid_synthesis
 from scripts.radar_logic import detect_text_language
+from scripts.quality_check import valid_editorial_queue
 
 
 class EditorialGenerationTests(unittest.TestCase):
@@ -63,6 +64,74 @@ class EditorialGenerationTests(unittest.TestCase):
         english_summary = dict(synthesis)
         english_summary["coverage_summary"] = "Several outlets are reporting the same announcement without independent confirmation."
         self.assertFalse(valid_synthesis(english_summary))
+
+
+    def test_accepts_safe_fallback_queue_when_ai_is_not_configured(self):
+        queue = {
+            "ai_generation_status": "blocked_configuration",
+            "ai_generated_count": 0,
+            "items": [{
+                "title": "Sujet de secours",
+                "human_review_required": True,
+                "publication_allowed": False,
+            }],
+        }
+        self.assertTrue(valid_editorial_queue(queue))
+
+    def test_rejects_fallback_queue_that_claims_publication_allowed(self):
+        queue = {
+            "ai_generation_status": "blocked_configuration",
+            "ai_generated_count": 0,
+            "items": [{
+                "title": "Sujet non sécurisé",
+                "human_review_required": True,
+                "publication_allowed": True,
+            }],
+        }
+        self.assertFalse(valid_editorial_queue(queue))
+
+    def test_generated_queue_requires_eight_social_variants(self):
+        queue = {
+            "ai_generation_status": "generated",
+            "ai_generated_count": 1,
+            "items": [{
+                "title": "Sujet rédigé",
+                "human_review_required": True,
+                "publication_allowed": False,
+                "social_posts": {
+                    "facebook": "Texte",
+                    "instagram": "Texte",
+                    "tiktok": "Texte",
+                    "x": "Texte",
+                    "threads": "Texte",
+                    "youtube": {"title": "Titre", "description": "Texte"},
+                    "telegram": "Texte",
+                    "pinterest": {"title": "Titre", "description": "Texte"},
+                },
+            }],
+        }
+        self.assertTrue(valid_editorial_queue(queue))
+        queue["items"][0]["social_posts"].pop("tiktok")
+        self.assertFalse(valid_editorial_queue(queue))
+
+    def test_partial_generation_allows_only_unwritten_fallback_items(self):
+        complete = {
+            "facebook": "Texte", "instagram": "Texte", "tiktok": "Texte",
+            "x": "Texte", "threads": "Texte", "telegram": "Texte",
+            "youtube": {"title": "Titre", "description": "Texte"},
+            "pinterest": {"title": "Titre", "description": "Texte"},
+        }
+        queue = {
+            "ai_generation_status": "partial",
+            "ai_generated_count": 1,
+            "items": [
+                {"human_review_required": True, "publication_allowed": False, "social_posts": complete},
+                {"human_review_required": True, "publication_allowed": False},
+            ],
+        }
+        self.assertTrue(valid_editorial_queue(queue))
+        queue["ai_generated_count"] = 2
+        self.assertFalse(valid_editorial_queue(queue))
 
     def test_french_headline_and_summary_detection(self):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
