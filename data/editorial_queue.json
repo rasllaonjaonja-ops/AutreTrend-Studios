@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:46:47.295960+00:00",
+  "generated_at": "2026-11-10T07:52:27.761731+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -14,7 +14,7 @@
   ],
   "network_variant_count": 16,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 400,
+  "rejected_count": 401,
   "rejected_sample": [
     {
       "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
@@ -148,16 +148,6 @@
       ]
     },
     {
-      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
-        "page source non contrôlée : aucun statut de lien officiel disponible"
-      ]
-    },
-    {
       "title": "Puella Magi Madoka Magica: The Movie Trilogy Now Streaming on Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -202,6 +192,16 @@
       ]
     },
     {
+      "title": "Kodansha Announces Winners of Mangaka Discovery Global Manga Award",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS",
+        "page source non contrôlée : aucun statut de lien officiel disponible"
+      ]
+    },
+    {
       "title": "TOHO Eyes Historic 20 Billion Yen Milestone For Chiikawa Movie As It Continues Successful Box Office Run",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -240,17 +240,15 @@
       ]
     },
     {
-      "title": "Crunchyroll News Puzzles Vol. 80: City Limit Testing and Legendary Leader",
+      "title": "My Crush’s Crush Anime Reveals Teaser Visual, Trailer, Staff, Cast, April 2027 Premiere",
       "reasons": [
         "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
         "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS",
         "page source non contrôlée : aucun statut de lien officiel disponible"
       ]
     },
     {
-      "title": "My Crush’s Crush Anime Reveals Teaser Visual, Trailer, Staff, Cast, April 2027 Premiere",
+      "title": "My Crush's Crush Anime Premieres in April 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré",
