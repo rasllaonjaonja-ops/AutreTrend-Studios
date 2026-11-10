@@ -139,6 +139,18 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
         self.assertEqual(detect_text_language("The fourth season of this series is confirmed"), "en")
 
+    def test_worker_and_python_share_editorial_minimums(self):
+        from scripts import generate_editorial
+        worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
+        worker_prompt = worker_path.read_text(encoding="utf-8")
+        self.assertEqual(generate_editorial.MIN_SUMMARY_WORDS, 45)
+        self.assertIn("summary_fr : 45 à 90 mots", worker_prompt)
+        self.assertIn("Facebook 70 mots", worker_prompt)
+        self.assertIn("Instagram 45", worker_prompt)
+        self.assertIn("TikTok 35", worker_prompt)
+        self.assertIn("Threads 40", worker_prompt)
+        self.assertIn("Telegram 40", worker_prompt)
+
     def test_worker_prompt_protects_proper_names_and_source_fidelity(self):
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
         worker_prompt = worker_path.read_text(encoding="utf-8")
