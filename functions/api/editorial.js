@@ -166,6 +166,17 @@ async function generateOne(item, env) {
   };
 }
 
+export async function onRequestGet({ env }) {
+  return json({
+    service: "AutreTrend Studios editorial API",
+    status: env.AI && env.AUTOTREND_AI_TOKEN ? "ready" : "configuration_required",
+    ai_binding: Boolean(env.AI),
+    token_configured: Boolean(env.AUTOTREND_AI_TOKEN),
+    model: MODEL,
+    publication_enabled: false
+  });
+}
+
 export async function onRequestPost({ request, env }) {
   const token = env.AUTOTREND_AI_TOKEN;
   if (!token || !env.AI) return json({ error: "AI binding or secret not configured" }, 503);
