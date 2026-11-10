@@ -10,9 +10,9 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 try:
-    from radar_logic import detect_text_language
+    from radar_logic import detect_text_language, diversify_queue
 except ModuleNotFoundError:  # Import également possible depuis les tests à la racine du dépôt.
-    from scripts.radar_logic import detect_text_language
+    from scripts.radar_logic import detect_text_language, diversify_queue
 from urllib.parse import urlparse, urljoin
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -345,7 +345,9 @@ def main():
         x["media_count"],
         x["score_indicatif"]
     ), reverse=True)
-    queue = queue[:15]
+    candidate_count = len(queue)
+    queue = diversify_queue(queue, limit=15, max_per_franchise=2)
+    diversity_excluded_count = candidate_count - len(queue)
 
     payload = {
         "checked_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
@@ -364,6 +366,8 @@ def main():
         "rejected_count": len(rejected),
         "rejected_sample": rejected[:30],
         "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
+        "diversity_policy": "Maximum 2 brouillons par franchise dans la sélection, afin de favoriser la variété sans supprimer les sujets du même univers de la veille.",
+        "diversity_excluded_count": diversity_excluded_count,
         "items": queue,
         "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
