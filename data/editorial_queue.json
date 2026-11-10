@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:38:35.742727+00:00",
+  "generated_at": "2026-11-10T12:41:27.400241+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -666,5 +666,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "unavailable",
   "ai_model": "",
-  "ai_notice": "Service IA indisponible : HTTP 503 — {\"error\":\"AI binding or secret not configured\"}. Les brouillons restent non publiables."
+  "ai_notice": "Service IA indisponible : HTTP 502 — {\"error\":\"Editorial generation failed\",\"detail\":\"Error: Structure éditoriale absente\"}. Les brouillons restent non publiables."
 }
