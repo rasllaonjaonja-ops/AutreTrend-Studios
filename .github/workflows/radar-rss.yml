@@ -37,11 +37,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/autotrend-radar-output
+          cp data/radar.json data/verification.json data/editorial_queue.json /tmp/autotrend-radar-output/
+          git fetch origin "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+          cp /tmp/autotrend-radar-output/radar.json data/radar.json
+          cp /tmp/autotrend-radar-output/verification.json data/verification.json
+          cp /tmp/autotrend-radar-output/editorial_queue.json data/editorial_queue.json
           git add data/radar.json data/verification.json data/editorial_queue.json
           if git diff --cached --quiet; then
             echo "Aucun changement dans le radar."
           else
             git commit -m "data: actualiser le radar RSS"
-            git pull --rebase origin "$GITHUB_REF_NAME"
             git push origin "HEAD:$GITHUB_REF_NAME"
           fi
