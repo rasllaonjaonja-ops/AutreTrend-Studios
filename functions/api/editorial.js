@@ -13,7 +13,8 @@ function validItem(item) {
     && typeof item.trend_id === "string" && item.trend_id.length <= 500
     && typeof item.title === "string" && item.title.length > 0 && item.title.length <= 300
     && typeof item.source_excerpt === "string" && item.source_excerpt.length <= 1200
-    && Array.isArray(item.sources) && item.sources.length <= 8;
+    && Array.isArray(item.sources) && item.sources.length <= 8
+    && (!item.source_url || (typeof item.source_url === "string" && item.source_url.startsWith("https://") && item.source_url.length <= 1000));
 }
 
 function extractJson(value) {
@@ -49,6 +50,7 @@ async function generateOne(item, env) {
   const input = {
     title: item.title,
     source_excerpt: item.source_excerpt,
+    source_url: item.source_url || "",
     source_publishers: item.sources,
     source_countries: item.source_countries || [],
     market_countries: item.market_countries || [],
