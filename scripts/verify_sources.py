@@ -30,7 +30,8 @@ OFFICIAL_DOMAINS = {
     "disneyplus.com", "primevideo.com",
     "toho.co.jp", "tohoanimation.com", "kadokawa.co.jp",
     "hakusensha.co.jp", "square-enix.com", "magazine.jp",
-    "tv-tokyo.co.jp", "ntv.co.jp"
+    "tv-tokyo.co.jp", "ntv.co.jp",
+    "kadokawa-animation.jp", "kadokawa-anime.com"
 }
 NEWS_DOMAINS = {
     "animenewsnetwork.com", "crunchyroll.com", "myanimelist.net",
@@ -176,7 +177,7 @@ def main():
         "official_link_found": sum(bool(x["official_evidence"]) for x in checks),
         "errors": errors,
         "checks": checks,
-        "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
+        "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
