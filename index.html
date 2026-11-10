@@ -592,7 +592,7 @@ function renderRadar(){
    const body=typeof value==="string"?value:(String(value.title||"")+"\n\n"+String(value.description||""));
    return '<div class="social-output"><div><b>'+label+'</b><button type="button" class="social-copy" data-copy-social="'+key+'" data-copy-id="'+esc(pack.trend_id)+'">Copier</button></div><p>'+esc(body)+'</p></div>';
   }).join("");
-  const warning=posts.translation_required?'<p class="social-warning">⚠ Traduction française et contrôle des faits requis : ce brouillon n’est pas publiable tel quel.</p>':'<p class="social-ready">Brouillons préformatés depuis les extraits RSS · pas encore de résumé IA · relecture humaine obligatoire.</p>';
+  const warning=posts.translation_required?'<p class="social-warning">⚠ Traduction française et contrôle des faits requis : ce brouillon n’est pas publiable tel quel.</p>':(pack.ai_generation?'<p class="social-ready">Rédaction assistée par IA · traduction proposée · relecture humaine et vérification des faits obligatoires.</p>':'<p class="social-ready">Brouillons préformatés depuis les extraits RSS · pas encore de résumé IA · relecture humaine obligatoire.</p>');
   return '<details class="social-pack"><summary>Préparer les réseaux sociaux · 8 formats</summary>'+warning+'<div class="social-grid">'+cards+'</div></details>';
  };
 
@@ -605,7 +605,12 @@ function renderRadar(){
   }).join(""):'<li class="muted">Aucun lien officiel repéré automatiquement. Cela ne prouve pas qu’aucune annonce officielle n’existe.</li>';
   const excerpt=String(pack.source_excerpt||"").trim();
   const media=(pack.media||[]).map(x=>esc(x)).join(" · ");
-  return '<details class="editorial-check"><summary>Fiche de vérification éditoriale</summary><p><b>Statut :</b> '+esc(pack.editorial_status||"À vérifier")+'</p><p><b>Médias :</b> '+(media||"Non précisés")+'</p><p><b>Extrait source :</b> '+esc(excerpt||"Aucun extrait RSS disponible.")+'</p><p><b>Liens officiels repérés :</b></p><ul>'+evidenceHtml+'</ul><p class="muted">Scores et liens indicatifs : vérifier les faits avant publication.</p></details>';
+  const frenchTitle=String(pack.title_fr||"").trim();
+  const frenchSummary=String(pack.summary_fr||"").trim();
+  const angle=String(pack.editorial_angle||"").trim();
+  const claims=Array.isArray(pack.claims_to_verify)?pack.claims_to_verify:[];
+  const aiNote=pack.ai_generation?'<p><b>Rédaction IA :</b> '+esc(pack.ai_generation.model||"modèle non précisé")+' · à relire</p>':"";
+  return '<details class="editorial-check"><summary>Fiche de vérification éditoriale</summary>'+aiNote+(frenchTitle?'<p><b>Titre français proposé :</b> '+esc(frenchTitle)+'</p>':"")+(frenchSummary?'<p><b>Résumé français proposé :</b> '+esc(frenchSummary)+'</p>':"")+(angle?'<p><b>Angle éditorial :</b> '+esc(angle)+'</p>':"")+(claims.length?'<p><b>Points à vérifier :</b> '+claims.map(x=>esc(x)).join(" · ")+'</p>':"")+'<p><b>Statut :</b> '+esc(pack.editorial_status||"À vérifier")+'</p><p><b>Médias :</b> '+(media||"Non précisés")+'</p><p><b>Extrait source :</b> '+esc(excerpt||"Aucun extrait RSS disponible.")+'</p><p><b>Liens officiels repérés :</b></p><ul>'+evidenceHtml+'</ul><p class="muted">Scores et liens indicatifs : vérifier les faits avant publication.</p></details>';
  };
  const trendHtml=trends.slice(0,40).map(t=>{
   const links=(t.articles||[]).map(a=>{const u=radarSafeUrl(a.url);return u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">'+esc(a.source||"Source")+' ↗</a>':""}).filter(Boolean).join("");
