@@ -71,7 +71,15 @@ function wordCount(value) {
 
 function fitXPost(value) {
   const text = String(value || "").replace(/\s+/g, " ").trim();
-  if (text.length <= 260) return text;
+  const lastPunctuation = Math.max(
+    text.lastIndexOf("."), text.lastIndexOf("!"),
+    text.lastIndexOf("?"), text.lastIndexOf("…")
+  );
+  if (lastPunctuation >= 0) {
+    const complete = text.slice(0, lastPunctuation + 1).trim();
+    if (complete.length <= 260 && wordCount(complete) >= 8) return complete;
+  }
+  if (text.length <= 260 && /[.!?…]$/.test(text)) return text;
   const prefix = text.slice(0, 259);
   const boundary = prefix.lastIndexOf(" ");
   if (boundary < 1) throw new Error("Message X impossible à raccourcir proprement");
@@ -230,18 +238,23 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   // Aucun fait nouveau n'est créé : les ajouts sont repris mot pour mot et sans doublon.
   const groundedAdditions = [
     ...parsed.trend_synthesis.key_facts,
-    parsed.summary_fr,
-    parsed.trend_synthesis.coverage_summary
+    ...parsed.trend_synthesis.reported_but_unconfirmed.map(value => "À confirmer : " + value),
+    parsed.editorial_angle
   ].filter(value => typeof value === "string"
     && detectTextLanguage(value) === "fr"
     && wordCount(value) >= 5);
   const appendGrounded = (value, minimum, target = minimum) => {
     let output = String(value || "").trim();
+    const tokens = source => new Set(
+      (String(source || "").toLowerCase().match(/[\\p{L}\\p{N}]{3,}/gu) || [])
+    );
     for (const addition of groundedAdditions) {
       if (wordCount(output) >= target) break;
-      const normalized = addition.toLowerCase().replace(/\s+/g, " ").trim();
-      const current = output.toLowerCase().replace(/\s+/g, " ").trim();
-      if (!normalized || current.includes(normalized)) continue;
+      const candidateTokens = tokens(addition);
+      const currentTokens = tokens(output);
+      if (!candidateTokens.size) continue;
+      const overlap = [...candidateTokens].filter(token => currentTokens.has(token)).length / candidateTokens.size;
+      if (overlap >= 0.6) continue;
       const candidate = (output ? output.replace(/[.!?…]*$/, ".") + " " : "") + addition.trim();
       if (wordCount(candidate) <= 115) output = candidate;
     }
@@ -250,11 +263,13 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
 
   const minimumWords = { facebook: 70, instagram: 45, tiktok: 35, x: 8, threads: 40, telegram: 40 };
   for (const platform of ["facebook", "instagram", "tiktok", "x", "threads", "telegram"]) {
-    parsed.posts[platform] = appendGrounded(
-      parsed.posts[platform],
-      minimumWords[platform],
-      platform === "facebook" ? 85 : minimumWords[platform]
-    );
+    if (correctivePass) {
+      parsed.posts[platform] = appendGrounded(
+        parsed.posts[platform],
+        minimumWords[platform],
+        platform === "facebook" ? 85 : minimumWords[platform]
+      );
+    }
     if (wordCount(parsed.posts[platform]) < minimumWords[platform]) {
       throw new Error("Contenu trop court pour " + platform + " (" + wordCount(parsed.posts[platform]) + "/" + minimumWords[platform] + " mots)");
     }
@@ -264,9 +279,11 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   }
   for (const platform of ["youtube", "pinterest"]) {
     const minimumDescriptionWords = platform === "youtube" ? 50 : 35;
-    parsed.posts[platform].description = appendGrounded(
-      parsed.posts[platform].description, minimumDescriptionWords, minimumDescriptionWords
-    );
+    if (correctivePass) {
+      parsed.posts[platform].description = appendGrounded(
+        parsed.posts[platform].description, minimumDescriptionWords, minimumDescriptionWords
+      );
+    }
     if (wordCount(parsed.posts[platform].description) < minimumDescriptionWords
         || parsed.posts[platform].title.trim().length < 45) {
       throw new Error("Titre ou description trop court pour " + platform);
