@@ -145,6 +145,8 @@ class EditorialGenerationTests(unittest.TestCase):
         worker_prompt = worker_path.read_text(encoding="utf-8")
         self.assertEqual(generate_editorial.MIN_SUMMARY_WORDS, 45)
         self.assertIn("summary_fr : 45 à 90 mots", worker_prompt)
+        self.assertIn("summary_fr doit contenir au moins ${MIN_SUMMARY_WORDS} mots", worker_prompt)
+        self.assertNotIn("atteindre 60 mots", worker_prompt)
         self.assertIn("Facebook 70 mots", worker_prompt)
         self.assertIn("Instagram 45", worker_prompt)
         self.assertIn("TikTok 35", worker_prompt)
