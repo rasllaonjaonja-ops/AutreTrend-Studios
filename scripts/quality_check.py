@@ -34,6 +34,54 @@ def load_json(path):
         raise SystemExit(f"JSON invalide : {path.relative_to(ROOT)} — {exc}")
 
 
+
+def valid_editorial_queue(queue):
+    """Valide les brouillons IA et le mode de secours sans configuration IA."""
+    if not isinstance(queue, dict):
+        return False
+    items = queue.get("items", [])
+    if not isinstance(items, list):
+        return False
+
+    status = queue.get("ai_generation_status", "")
+    generated_count = queue.get("ai_generated_count", 0)
+    fallback_statuses = {
+        "blocked_configuration", "blocked_insecure_endpoint",
+        "unavailable", "invalid_response", "rejected",
+    }
+    if not isinstance(generated_count, int) or generated_count < 0:
+        return False
+
+    platforms = {
+        "facebook", "instagram", "tiktok", "x",
+        "threads", "youtube", "telegram", "pinterest",
+    }
+    complete_count = 0
+    for item in items:
+        if not isinstance(item, dict):
+            return False
+        if item.get("human_review_required") is not True or item.get("publication_allowed") is not False:
+            return False
+        posts = item.get("social_posts") or {}
+        if not isinstance(posts, dict):
+            return False
+        if posts:
+            if not platforms.issubset(set(posts.keys())):
+                return False
+            complete_count += 1
+
+    if complete_count != generated_count:
+        return False
+    if status in fallback_statuses:
+        return generated_count == 0
+    if status == "generated":
+        return generated_count == len(items)
+    if status == "partial":
+        return 0 < generated_count < len(items)
+    if not items and status in ("", "not_requested"):
+        return generated_count == 0
+    return False
+
 def main():
     html_path = ROOT / "index.html"
     html = html_path.read_text(encoding="utf-8")
@@ -86,12 +134,11 @@ def main():
     if not isinstance(queue.get("rejected_count", 0), int):
         raise SystemExit("Le compteur des sujets écartés doit être un entier.")
 
-    platforms = {"facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest"}
-    for item in queue_items:
-        if item.get("human_review_required") is not True or item.get("publication_allowed") is not False:
-            raise SystemExit("Un brouillon ne respecte pas la règle de validation humaine.")
-        if not platforms.issubset(set((item.get("social_posts") or {}).keys())):
-            raise SystemExit(f"Formats sociaux incomplets pour : {item.get('title', 'sujet sans titre')}")
+    if not valid_editorial_queue(queue):
+        raise SystemExit(
+            "File éditoriale incohérente : vérifier le statut IA, les déclinaisons sociales "
+            "et la validation humaine."
+        )
 
     scripts = re.findall(r"<script\b[^>]*>(.*?)</script\s*>", html, flags=re.I | re.S)
     if not scripts:
