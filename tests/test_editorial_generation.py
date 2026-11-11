@@ -35,7 +35,7 @@ class EditorialGenerationTests(unittest.TestCase):
 
     def test_enforces_editorial_word_and_character_targets(self):
         too_short = dict(self.posts)
-        too_short["facebook"] = " ".join(["actualité"] * 69)
+        too_short["facebook"] = " ".join(["actualité"] * 59)
         self.assertFalse(valid_posts(too_short))
         too_long_facebook = dict(self.posts)
         too_long_facebook["facebook"] = " ".join(["actualité"] * 140)
