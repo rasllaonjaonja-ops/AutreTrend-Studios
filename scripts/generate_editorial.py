@@ -332,6 +332,8 @@ def main():
         item_errors = []
         title_fr = str(draft.get("title_fr", "")).strip()
         summary_fr = str(draft.get("summary_fr", "")).strip()
+        editorial_angle = str(draft.get("editorial_angle", "")).strip()
+        discussion_question = str(draft.get("discussion_question", "")).strip()
 
         # Vérifier le brief avant les déclinaisons : les diagnostics doivent
         # expliquer le vrai défaut éditorial, pas seulement le premier réseau court.
@@ -360,8 +362,6 @@ def main():
             if any(has_unverified_confirmation_claim(value) for value in generated_texts):
                 item_errors.append("affirmation de confirmation ou d'officialité sans preuve officielle directe")
 
-        editorial_angle = str(draft.get("editorial_angle", "")).strip()
-        discussion_question = str(draft.get("discussion_question", "")).strip()
         if (word_count(editorial_angle) < 8
                 or detect_text_language(editorial_angle) != "fr"):
             item_errors.append("editorial_angle : minimum 8 mots français")
