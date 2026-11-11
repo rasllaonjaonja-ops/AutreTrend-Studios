@@ -66,7 +66,20 @@ function extractJson(value) {
 }
 
 function wordCount(value) {
-  return String(value || "").trim().split(/\s+/).filter(Boolean).length;
+  return String(value || "").trim().split(/\\s+/).filter(Boolean).length;
+}
+
+function editorialTextErrors(value, platform) {
+  const text = String(value || "").trim();
+  const folded = text.normalize("NFKD").toLowerCase().replace(/\\p{M}/gu, "");
+  const forbidden = ["resume en francais a produire", "apres traduction et controle", "texte a completer", "contenu a generer", "[resume"];
+  const errors = [];
+  if (forbidden.some(marker => folded.includes(marker))) errors.push(platform + " contient une consigne ou un texte de remplacement");
+  const sentences = (text.match(/[^.!?…]+(?:[.!?…]+|$)/g) || [])
+    .map(sentence => sentence.toLowerCase().normalize("NFKD").replace(/\\p{M}/gu, "")
+      .replace(/[^\\p{L}\\p{N}]+/gu, " ").trim()).filter(Boolean);
+  if (new Set(sentences).size !== sentences.length) errors.push(platform + " contient une phrase répétée");
+  return errors;
 }
 
 function tidyEditorialText(value, deduplicate = false) {
@@ -247,52 +260,25 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   if (briefErrors.length) throw new Error("Brief éditorial incomplet : " + briefErrors.join("; "));
   // Renforcer les formats trop courts avec des faits déjà validés dans la synthèse.
   // Aucun fait nouveau n'est créé : les ajouts sont repris mot pour mot et sans doublon.
-  const groundedAdditions = [
-    ...parsed.trend_synthesis.key_facts,
-    ...parsed.trend_synthesis.reported_but_unconfirmed.map(value => "À confirmer : " + value),
-    parsed.trend_synthesis.coverage_summary,
-    parsed.editorial_angle
-  ].filter(value => typeof value === "string"
-    && detectTextLanguage(value) === "fr"
-    && wordCount(value) >= 5);
-  const appendGrounded = (value, minimum, target = minimum) => {
-    let output = String(value || "").trim();
-    const tokens = source => new Set(
-      (String(source || "").toLowerCase().match(/[\p{L}\p{N}]{3,}/gu) || [])
-    );
-    for (const addition of groundedAdditions) {
-      if (wordCount(output) >= target) break;
-      const candidateTokens = tokens(addition);
-      const currentTokens = tokens(output);
-      if (!candidateTokens.size) continue;
-      const overlap = [...candidateTokens].filter(token => currentTokens.has(token)).length / candidateTokens.size;
-      if (overlap >= 0.6) continue;
-      const candidate = (output ? output.replace(/[.!?…]*$/, ".") + " " : "") + addition.trim();
-      if (wordCount(candidate) <= 115) output = candidate;
-    }
-    return wordCount(output) >= minimum ? output : String(value || "").trim();
-  };
+
 
   const minimumWords = { facebook: 85, tiktok: 35 };
-  for (const platform of ["facebook", "tiktok"]) {
-    if (correctivePass) {
-      parsed.posts[platform] = appendGrounded(
-        parsed.posts[platform],
-        minimumWords[platform],
-        platform === "facebook" ? 85 : minimumWords[platform]
-      );
-    }
-    if (wordCount(parsed.posts[platform]) < minimumWords[platform]) {
-      throw new Error("Contenu trop court pour " + platform + " (" + wordCount(parsed.posts[platform]) + "/" + minimumWords[platform] + " mots)");
-    }
-    if (detectTextLanguage(parsed.posts[platform]) !== "fr") {
-      throw new Error("Contenu " + platform + " non français");
-    }
+  for (const platform of PLATFORMS) {
+    const content = parsed.posts[platform];
+    const words = wordCount(content);
+    if (words < minimumWords[platform]) throw new Error("Contenu trop court pour " + platform + " (" + words + "/" + minimumWords[platform] + " mots)");
+    if (platform === "facebook" && words > 135) throw new Error("Facebook dépasse 135 mots");
+    if (platform === "tiktok" && words > 75) throw new Error("TikTok dépasse 75 mots");
+    if (detectTextLanguage(content) !== "fr") throw new Error("Contenu " + platform + " non français");
+    const qualityErrors = editorialTextErrors(content, platform);
+    if (qualityErrors.length) throw new Error(qualityErrors.join("; "));
   }
+  const facebookTokens = new Set((parsed.posts.facebook.toLowerCase().match(/[\\p{L}]{4,}/gu) || []));
+  const tiktokTokens = new Set((parsed.posts.tiktok.toLowerCase().match(/[\\p{L}]{4,}/gu) || []));
+  const smaller = Math.min(facebookTokens.size, tiktokTokens.size);
+  const shared = [...facebookTokens].filter(token => tiktokTokens.has(token)).length;
+  if (smaller && shared / smaller > 0.9) throw new Error("Facebook et TikTok sont trop similaires : réécriture différenciée obligatoire");
 
-  // Ajustement mécanique sans ajout de faits : X est ramené à la limite du réseau
-  // en coupant uniquement à une frontière de mot; si 8 mots ne subsistent pas,
-  // la génération est rejetée et relancée avec le diagnostic exact.
   return {
     trend_id: item.trend_id,
     trend_synthesis: {
