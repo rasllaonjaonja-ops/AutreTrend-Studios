@@ -1,20 +1,14 @@
 {
-  "generated_at": "2026-11-10T23:29:04.246403+00:00",
+  "generated_at": "2026-11-11T00:16:07.033887+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
     "facebook",
-    "instagram",
-    "tiktok",
-    "x",
-    "threads",
-    "youtube",
-    "telegram",
-    "pinterest"
+    "tiktok"
   ],
-  "network_variant_count": 16,
-  "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 397,
+  "network_variant_count": 4,
+  "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour Facebook et TikTok. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
+  "rejected_count": 404,
   "rejected_sample": [
     {
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
@@ -35,6 +29,13 @@
       ]
     },
     {
+      "title": "Le manga Ore no Shibou Flag adapté en anime",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Yu-Gi-Oh! Tag Force GX Game Previews Duels, Partners, Multiplayer, Exploration in New Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -44,7 +45,7 @@
       ]
     },
     {
-      "title": "Le manga Ore no Shibou Flag adapté en anime",
+      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -58,24 +59,19 @@
       ]
     },
     {
-      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "L’anime My Death Flags Show No Sign of Ending annoncé pour 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Tekken 8 Game Streams Roger Jr. Starter Guide",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
       ]
     },
     {
@@ -95,6 +91,13 @@
       ]
     },
     {
+      "title": "Devils’ Crest Anime to Air for Two Consecutive Cours",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -104,37 +107,7 @@
       ]
     },
     {
-      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS"
-      ]
-    },
-    {
       "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -157,7 +130,7 @@
       ]
     },
     {
-      "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
+      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -175,6 +148,20 @@
       ]
     },
     {
+      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -182,7 +169,23 @@
       ]
     },
     {
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
+      ]
+    },
+    {
+      "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -209,15 +212,6 @@
       ]
     },
     {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS"
-      ]
-    },
-    {
       "title": "Kodama Tales Licenses Baki Hanma, A Mandala in Flames & More Manga for Summer 2027 Release - Anime Trending",
       "reasons": [
         "aucun éditeur indépendant : agrégateur seul, sujet non admissible",
@@ -232,7 +226,7 @@
       ]
     },
     {
-      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -286,10 +280,11 @@
       ],
       "market_countries": [
         "France",
-        "United Kingdom"
+        "United States"
       ],
       "market_regions": [
-        "Europe"
+        "Europe",
+        "North America"
       ],
       "primary_sources": [],
       "primary_source_count": 0,
@@ -455,53 +450,51 @@
       "summary_language": "fr",
       "source_excerpt": "Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .",
       "social_posts": {
-        "facebook": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée, les détails précis sur la date de sortie et l'équipe de production restent à confirmer. Qu'attendez-vous de la suite des aventures de la famille Forger?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-        "instagram": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée, les détails précis sur la date de sortie et l'équipe de production restent à confirmer. Qu'attendez-vous de la suite des aventures de la famille Forger? 🇫🇷 #SpyxFamily #Anime #Saison4\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
-        "tiktok": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée, les détails précis sur la date de sortie et l'équipe de production restent à confirmer. Qu'attendez-vous de la suite des aventures de la famille Forger?\nSource à consulter : Adala News, Anime Corner, Animehunch",
-        "x": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que…",
-        "threads": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée, les détails précis sur la date de sortie et l'équipe de production restent à confirmer. Qu'attendez-vous de la suite des aventures de la famille Forger?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "facebook": "L'anime SPY×FAMILY va revenir en force en 2027 avec deux nouveaux projets majeurs confirmés par TOHO animation. L'événement SPY×FAMILY ANIME EXTRA MISSION II a révélé la production de la saison 4 et d'un nouveau film. Le réalisateur Akamatsu Yasuhiro est confirmé pour la saison 4, tandis que Takaha Aya assurera la composition de la série. La date exacte de sortie reste à préciser. Qu'attendez-vous de ces nouveaux projets. À confirmer : La date exacte de sortie de la saison 4 n'est pas encore précisée. À confirmer : Le scénario du nouveau film n'a pas été détaillé dans les rapports.\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "instagram": "L'anime SPY×FAMILY revient en 2027 avec une saison 4 et un nouveau film! TOHO animation a confirmé les détails lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Akamatsu Yasuhiro est confirmé comme réalisateur et Takaha Aya pour la composition. La date exacte reste à confirmer. #SpyxFamily #Anime2027\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "tiktok": "SPY×FAMILY revient en 2027! TOHO animation a confirmé la saison 4 et un nouveau film lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Akamatsu Yasuhiro est confirmé comme réalisateur. La date exacte reste à préciser. Qu'en pensez-vous?\nSource à consulter : Adala News, Anime Corner, Animehunch",
+        "x": "SPY×FAMILY: Saison 4 et film pour 2027 confirmés par TOHO animation. Akamatsu Yasuhiro est confirmé comme réalisateur. La date exacte reste à préciser. https://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "threads": "SPY×FAMILY revient en 2027 avec une saison 4 et un nouveau film confirmés. Akamatsu Yasuhiro est confirmé comme réalisateur. La date exacte reste à préciser. L'événement SPY×FAMILY ANIME EXTRA MISSION II a révélé ces projets. La composition de la série sera assurée par Takaha Aya.\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
         "youtube": {
-          "title": "SPY×FAMILY: Saison 4 et nouveau film annoncés pour 2027",
-          "description": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée, les détails précis sur la date de sortie et l'équipe de production restent à confirmer. Qu'attendez-vous de la suite des aventures de la famille Forger?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
+          "title": "SPY×FAMILY: Saison 4 et film pour 2027 — Actualité anime et manga",
+          "description": "TOHO animation a confirmé la production de la saison 4 et d'un nouveau film pour l'anime SPY×FAMILY. L'événement SPY×FAMILY ANIME EXTRA MISSION II a révélé ces projets. Le réalisateur Akamatsu Yasuhiro est confirmé pour la saison 4, tandis que Takaha Aya assurera la composition de la série. La date exacte de sortie reste à préciser.\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
         },
-        "telegram": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée, les détails précis sur la date de sortie et l'équipe de production restent à confirmer. Qu'attendez-vous de la suite des aventures de la famille Forger?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
+        "telegram": "TOHO animation a confirmé la saison 4 et un nouveau film pour SPY×FAMILY en 2027. Akamatsu Yasuhiro est confirmé comme réalisateur. La date exacte reste à préciser. L'événement SPY×FAMILY ANIME EXTRA MISSION II a révélé ces projets. La composition de la série sera assurée par Takaha Aya.\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/",
         "pinterest": {
-          "title": "SPY×FAMILY: Saison 4 et nouveau film annoncés pour 2027",
-          "description": "L'univers SPY×FAMILY s'agrandit! 🎬 TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027. Cette annonce majeure a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Bien que les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée, les détails précis sur la date de sortie et l'équipe de production restent à confirmer. Qu'attendez-vous de la suite des aventures de la famille Forger?\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
+          "title": "SPY×FAMILY: Saison 4 et film pour 2027 — À découvrir en manga et anime",
+          "description": "TOHO animation a confirmé la production de la saison 4 et d'un nouveau film pour l'anime SPY×FAMILY. Akamatsu Yasuhiro est confirmé comme réalisateur. La date exacte reste à préciser. L'événement SPY×FAMILY ANIME EXTRA MISSION II a révélé ces projets.\nSource à consulter : Adala News, Anime Corner, Animehunch\nhttps://animotaku.fr/actualite/anime-spy-x-family-saison-4-nouveau-film-2027/"
         },
         "language_ready": true,
         "translation_required": false,
         "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
       },
-      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY×FAMILY: Saison 4 et nouveau film annoncés pour 2027\n\nTOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027 lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Cette annonce marque le cinquième anniversaire de l'adaptation télévisée, bien que les détails précis sur la date de sortie et l'équipe restent à confirmer.\n\nAngle éditorial : La confirmation de deux nouveaux projets pour 2027 rassure les fans sur l'avenir de la franchise et ouvre une nouvelle période d'attente intense avant la suite des aventures de la famille Forger.\nSynthèse des tendances : Sept médias internationaux rapportent l'annonce de TOHO animation concernant la quatrième saison et un nouveau film prévus pour 2027. Les détails sur l'équipe de production et l'événement sont partagés par plusieurs sources, mais aucune preuve officielle n'est fournie.\nFaits clés : TOHO animation a annoncé deux nouveaux projets pour 2027 lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II.; Les projets annoncés sont la quatrième saison de l'anime et un nouveau film d'animation.; L'événement a révélé le nouveau réalisateur et la nouvelle équipe de composition de la série.; Les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée.\nÉléments rapportés à confirmer : Les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée.; Les médias rapportent que la sortie est prévue pour 2027.; Les médias rapportent que l'événement s'est tenu à Belle Salle.\nQuestion : Quelle est votre anticipation pour la quatrième saison et le nouveau film de SPY×FAMILY?\n\nPoints à vérifier : La date de sortie exacte pour 2027 n'a pas encore été confirmée par une source officielle.; Les détails concernant l'équipe de production et le réalisateur doivent être vérifiés auprès de TOHO animation.; La localisation et la diffusion de ces nouveaux projets en France restent à confirmer.\n\nSources : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
+      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY×FAMILY: Saison 4 et film pour 2027\n\nTOHO animation a officiellement confirmé la production de la saison 4 et d'un nouveau film pour l'anime SPY×FAMILY. Ces deux projets ont été révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur Akamatsu Yasuhiro est confirmé pour la saison 4, tandis que Takaha Aya assurera la composition de la série. La date exacte de sortie reste à préciser.\n\nAngle éditorial : Les fans peuvent désormais planifier leur agenda pour 2027 avec ces deux nouveaux projets.\nSynthèse des tendances : Sept médias internationaux rapportent l'annonce de deux projets pour 2027.\nFaits clés : TOHO animation a confirmé une saison 4 et un nouveau film pour 2027.; L'événement SPY×FAMILY ANIME EXTRA MISSION II a révélé ces projets.; Le réalisateur Akamatsu Yasuhiro est confirmé pour la saison 4.; La composition de la série sera assurée par Takaha Aya.\nÉléments rapportés à confirmer : La date exacte de sortie de la saison 4 n'est pas encore précisée.; Le scénario du nouveau film n'a pas été détaillé dans les rapports.\nQuestion : Quelle est votre attente pour la saison 4 et le nouveau film?\n\nPoints à vérifier : La date exacte de sortie de la saison 4 n'est pas encore précisée.; Le scénario du nouveau film n'a pas été détaillé dans les rapports.\n\nSources : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
       "trend_synthesis": {
         "key_facts": [
-          "TOHO animation a annoncé deux nouveaux projets pour 2027 lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II.",
-          "Les projets annoncés sont la quatrième saison de l'anime et un nouveau film d'animation.",
-          "L'événement a révélé le nouveau réalisateur et la nouvelle équipe de composition de la série.",
-          "Les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée."
+          "TOHO animation a confirmé une saison 4 et un nouveau film pour 2027.",
+          "L'événement SPY×FAMILY ANIME EXTRA MISSION II a révélé ces projets.",
+          "Le réalisateur Akamatsu Yasuhiro est confirmé pour la saison 4.",
+          "La composition de la série sera assurée par Takaha Aya."
         ],
         "reported_but_unconfirmed": [
-          "Les médias rapportent que ces projets marquent le cinquième anniversaire de l'adaptation télévisée.",
-          "Les médias rapportent que la sortie est prévue pour 2027.",
-          "Les médias rapportent que l'événement s'est tenu à Belle Salle."
+          "La date exacte de sortie de la saison 4 n'est pas encore précisée.",
+          "Le scénario du nouveau film n'a pas été détaillé dans les rapports."
         ],
-        "coverage_summary": "Sept médias internationaux rapportent l'annonce de TOHO animation concernant la quatrième saison et un nouveau film prévus pour 2027. Les détails sur l'équipe de production et l'événement sont partagés par plusieurs sources, mais aucune preuve officielle n'est fournie.",
-        "editorial_context": "L'annonce de nouvelles suites pour SPY×FAMILY suscite un intérêt majeur dans la communauté francophone et internationale, marquant une étape importante pour la franchise après la fin récente de la troisième saison."
+        "coverage_summary": "Sept médias internationaux rapportent l'annonce de deux projets pour 2027.",
+        "editorial_context": "Cette annonce est importante pour les fans de la franchise."
       },
-      "title_fr": "SPY×FAMILY: Saison 4 et nouveau film annoncés pour 2027",
-      "summary_fr": "TOHO animation a officiellement confirmé la production d'une quatrième saison et d'un nouveau film d'animation pour 2027 lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Cette annonce marque le cinquième anniversaire de l'adaptation télévisée, bien que les détails précis sur la date de sortie et l'équipe restent à confirmer.",
-      "editorial_angle": "La confirmation de deux nouveaux projets pour 2027 rassure les fans sur l'avenir de la franchise et ouvre une nouvelle période d'attente intense avant la suite des aventures de la famille Forger.",
-      "discussion_question": "Quelle est votre anticipation pour la quatrième saison et le nouveau film de SPY×FAMILY?",
+      "title_fr": "SPY×FAMILY: Saison 4 et film pour 2027",
+      "summary_fr": "TOHO animation a officiellement confirmé la production de la saison 4 et d'un nouveau film pour l'anime SPY×FAMILY. Ces deux projets ont été révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur Akamatsu Yasuhiro est confirmé pour la saison 4, tandis que Takaha Aya assurera la composition de la série. La date exacte de sortie reste à préciser.",
+      "editorial_angle": "Les fans peuvent désormais planifier leur agenda pour 2027 avec ces deux nouveaux projets.",
+      "discussion_question": "Quelle est votre attente pour la saison 4 et le nouveau film?",
       "claims_to_verify": [
-        "La date de sortie exacte pour 2027 n'a pas encore été confirmée par une source officielle.",
-        "Les détails concernant l'équipe de production et le réalisateur doivent être vérifiés auprès de TOHO animation.",
-        "La localisation et la diffusion de ces nouveaux projets en France restent à confirmer."
+        "La date exacte de sortie de la saison 4 n'est pas encore précisée.",
+        "Le scénario du nouveau film n'a pas été détaillé dans les rapports."
       ],
       "ai_generation": {
         "provider": "Cloudflare Workers AI",
         "model": "@cf/zai-org/glm-4.7-flash",
-        "generated_at": "2026-11-10T23:30:42.822Z",
+        "generated_at": "2026-11-11T00:17:43.312Z",
         "human_review_required": true
       }
     },
@@ -598,60 +591,23 @@
         "status": "pending"
       },
       "verification_pending": true,
-      "editorial_status": "contrôle de provenance en attente — revue humaine obligatoire · rédaction IA à relire",
+      "editorial_status": "contrôle de provenance en attente — revue humaine obligatoire",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "fr",
       "summary_language": "und",
       "source_excerpt": "Shingo Natsume's feature film releases in Japan on February 11, 2027",
       "social_posts": {
-        "facebook": "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume annonce une sortie japonaise prévue pour le 11 février 2027. La chanson thème est interprétée par le groupe Hitsujibungaku. Cette nouvelle intéresse les fans de l'univers de Natsume et des films d'animation. Qu'attendez-vous de ce nouveau film de Shingo Natsume. Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-        "instagram": "Le trailer principal de Ghost – End of Night est dévoilé! 🎬 Sortie japonaise prévue le 11 février 2027. La chanson thème est signée Hitsujibungaku. #GhostEndOfNight #AnimeMovie. Le film d'animation Ghost – End of Night révèle son trailer principal. Le réalisateur est Shingo Natsume. Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-        "tiktok": "Le trailer principal de Ghost – End of Night est dévoilé! Sortie japonaise prévue le 11 février 2027. La chanson thème est signée Hitsujibungaku. Qu'attendez-vous de ce film. Le réalisateur est Shingo Natsume. Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll",
-        "x": "Ghost – End of Night révèle son trailer principal. Sortie japonaise le 11 février 2027. Hitsujibungaku interprète la chanson thème. https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-        "threads": "Le trailer principal de Ghost – End of Night est dévoilé. Sortie japonaise prévue le 11 février 2027. La chanson thème est signée Hitsujibungaku. Qu'attendez-vous de ce film. Le réalisateur est Shingo Natsume. Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-        "youtube": {
-          "title": "Ghost – End of Night: Trailer principal dévoilé",
-          "description": "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume annonce une sortie japonaise prévue pour le 11 février 2027. Le groupe Hitsujibungaku interprète la chanson thème. Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast"
-        },
-        "telegram": "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume annonce une sortie japonaise prévue pour le 11 février 2027. Le groupe Hitsujibungaku interprète la chanson thème. Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-        "pinterest": {
-          "title": "Ghost – End of Night: Trailer principal dévoilé",
-          "description": "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume annonce une sortie japonaise prévue pour le 11 février 2027. Le groupe Hitsujibungaku interprète la chanson thème.\nSource à consulter : Anime News Network, Animotaku, Crunchyroll\nhttps://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast"
-        },
-        "language_ready": true,
-        "translation_required": false,
-        "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
+        "language_ready": false,
+        "translation_required": true,
+        "translation_note": "Rédaction française IA en attente : aucun texte provisoire ne doit être publié.",
+        "facebook": "",
+        "tiktok": ""
       },
-      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : Ghost – End of Night: le trailer principal est dévoilé\n\nLe film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume annonce une sortie japonaise prévue pour le 11 février 2027. La chanson thème est interprétée par le groupe Hitsujibungaku. Le film d'animation Ghost – End of Night révèle son trailer principal.\n\nAngle éditorial : Une nouvelle importante pour les fans de l'univers de Natsume et des films d'animation.\nSynthèse des tendances : Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.\nFaits clés : Le film d'animation Ghost – End of Night révèle son trailer principal.; Le film sortira au Japon le 11 février 2027.; Le groupe Hitsujibungaku interprète la chanson thème.; Le réalisateur est Shingo Natsume.\nÉléments rapportés à confirmer : \nQuestion : Qu'attendez-vous de ce nouveau film de Shingo Natsume?\n\nPoints à vérifier : La date de sortie française reste à confirmer.; Le casting complet n'a pas encore été révélé.\n\nSources : Anime News Network, Animotaku, Crunchyroll\nNe pas publier sans relecture humaine.",
-      "trend_synthesis": {
-        "key_facts": [
-          "Le film d'animation Ghost – End of Night révèle son trailer principal.",
-          "Le film sortira au Japon le 11 février 2027.",
-          "Le groupe Hitsujibungaku interprète la chanson thème.",
-          "Le réalisateur est Shingo Natsume."
-        ],
-        "reported_but_unconfirmed": [],
-        "coverage_summary": "Trois médias rapportent l'annonce du trailer principal et de la date de sortie japonaise.",
-        "editorial_context": "Cette nouvelle intéresse les fans de l'univers de Natsume et des films d'animation."
-      },
-      "title_fr": "Ghost – End of Night: le trailer principal est dévoilé",
-      "summary_fr": "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume annonce une sortie japonaise prévue pour le 11 février 2027. La chanson thème est interprétée par le groupe Hitsujibungaku. Le film d'animation Ghost – End of Night révèle son trailer principal.",
-      "editorial_angle": "Une nouvelle importante pour les fans de l'univers de Natsume et des films d'animation.",
-      "discussion_question": "Qu'attendez-vous de ce nouveau film de Shingo Natsume?",
-      "claims_to_verify": [
-        "La date de sortie française reste à confirmer.",
-        "Le casting complet n'a pas encore été révélé."
-      ],
-      "ai_generation": {
-        "provider": "Cloudflare Workers AI",
-        "model": "@cf/zai-org/glm-4.7-flash",
-        "generated_at": "2026-11-10T23:30:42.822Z",
-        "human_review_required": true
-      }
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\nExtrait RSS : Shingo Natsume's feature film releases in Japan on February 11, 2027\n\nÉtat : contrôle de provenance en attente — revue humaine obligatoire\nSources médias : Anime News Network, Animotaku, Crunchyroll\nRédaction française IA en attente : aucun texte provisoire ne doit être publié.\nNe pas publier avant contrôle des faits et de la traduction."
     }
   ],
-  "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
+  "notice": "Trois sujets éditoriaux au maximum, chacun adapté uniquement à Facebook et TikTok. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
   "ai_generation_diagnostics": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
@@ -667,14 +623,21 @@
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
       "response_received": true,
       "response_valid": true,
-      "draft_returned": true,
-      "accepted": true,
-      "validation_errors": []
+      "draft_returned": false,
+      "accepted": false,
+      "validation_errors": [
+        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+      ]
     }
   ],
-  "ai_validation_errors": [],
-  "ai_generated_count": 2,
-  "ai_generation_status": "generated",
+  "ai_validation_errors": [
+    {
+      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
+      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+    }
+  ],
+  "ai_generated_count": 1,
+  "ai_generation_status": "partial",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Rédaction assistée par IA, adaptations spécifiques à chaque réseau. Validation humaine obligatoire; aucune publication automatique."
+  "ai_notice": "Rédaction IA partielle : 1/2 sujet(s) validé(s). Les sujets en échec restent non publiables. Validation humaine obligatoire."
 }
