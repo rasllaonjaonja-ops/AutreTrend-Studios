@@ -112,6 +112,14 @@ class EditorialGenerationTests(unittest.TestCase):
         queue["ai_generated_count"] = 2
         self.assertFalse(valid_editorial_queue(queue))
 
+    def test_facebook_has_a_real_minimum_without_mechanical_padding(self):
+        shorter = dict(self.posts)
+        shorter["facebook"] = " ".join(self.posts["facebook"].split()[:80])
+        self.assertTrue(valid_posts(shorter))
+        too_short = dict(self.posts)
+        too_short["facebook"] = " ".join(self.posts["facebook"].split()[:69])
+        self.assertFalse(valid_posts(too_short))
+
     def test_rejects_placeholder_repetition_and_identical_platform_copy(self):
         placeholder = dict(self.posts)
         placeholder["facebook"] = "RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE"
