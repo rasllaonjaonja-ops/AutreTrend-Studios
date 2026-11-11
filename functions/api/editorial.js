@@ -323,10 +323,10 @@ export async function onRequestPost({ request, env }) {
     try {
       let draft = null;
       let lastError = "";
-      // Une tentative corrective après la première génération. Toute erreur de
+      // Deux tentatives correctives après la première génération. Toute erreur de
       // validation ou de format relance le modèle avec le motif exact; les erreurs
       // d'un sujet ne bloquent jamais les autres prépublications.
-      for (let attempt = 0; attempt <= 1; attempt++) {
+      for (let attempt = 0; attempt <= 2; attempt++) {
         try {
           draft = await generateOne(item, env, attempt > 0, lastError);
           break;
