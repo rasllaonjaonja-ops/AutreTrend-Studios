@@ -180,6 +180,14 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertIn("AUTOTREND_GROQ_API_KEY", worker)
         self.assertIn('provider: "groq"', worker)
         self.assertIn("draft.get(\"model\") or result.get(\"model\", \"unknown\")", source)
+    def test_worker_skips_second_cloudflare_model_when_account_quota_is_exhausted(self):
+        from pathlib import Path
+        worker = (Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js").read_text(encoding="utf-8")
+        self.assertIn("function isCloudflareQuotaExhaustion(error)", worker)
+        self.assertIn("if (cloudflareQuotaExhausted && plan.provider === \"cloudflare\") continue", worker)
+        self.assertIn("Quota Cloudflare épuisé; secours indépendant inactif", worker)
+        self.assertIn("independent_fallback_configured: Boolean(env.AUTOTREND_GROQ_API_KEY)", worker)
+
     def test_worker_and_python_share_editorial_minimums(self):
         from scripts import generate_editorial
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
