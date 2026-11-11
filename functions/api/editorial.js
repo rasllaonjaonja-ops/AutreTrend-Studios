@@ -84,14 +84,22 @@ function editorialTextErrors(value, platform) {
 }
 
 function hasUnverifiedConfirmationClaim(value) {
-  const text = String(value || "").normalize("NFKD").toLowerCase()
+  let text = String(value || "").normalize("NFKD").toLowerCase()
     .replace(/\p{M}/gu, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
-  if (/\b(?:aucune|pas de|sans)\b.{0,35}\b(?:confirmation|preuve|officiel(?:le|s|les)?)\b/.test(text)) return false;
-  return [
-    /\b(?:est|sont|a ete|ont ete|vient d etre|viennent d etre)\s+(?:officiellement\s+)?confirme(?:e|s|es)\b/,
-    /\bc est officiel(?:le|s|les)?\b/,
-    /\b(?:annonce|confirmation)\s+officielle(?:ment)?\b/
-  ].some(pattern => pattern.test(text));
+  const negativePatterns = [
+    /\b(?:aucune|pas de|sans)\b.{0,35}\b(?:confirmation|confirme(?:e|s|es)?|officiel(?:le|s|les)?)\b/g,
+    /\bn est pas\b.{0,35}\b(?:confirme(?:e|s|es)?|officiel(?:le|s|les)?)\b/g,
+    /\b(?:reste|restent|doit|doivent)\s+a\s+confirmer\b/g,
+    /\ba\s+confirmer\b/g
+  ];
+  for (const pattern of negativePatterns) text = text.replace(pattern, " ");
+  return /\b(?:confirmation|confirme(?:e|s|es)?|officiel(?:le|s|les)?|officiellement)\b/.test(text);
+}
+
+function hasForgeronNameMutation(sourceTitle, values) {
+  const source = String(sourceTitle || "").toLowerCase();
+  if (!/spy\s*[x×]\s*family/.test(source)) return false;
+  return values.some(value => /\bforgeron\b/i.test(String(value || "")));
 }
 
 function tidyEditorialText(value, deduplicate = false) {
@@ -282,15 +290,16 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     throw new Error("Facebook et TikTok sont identiques : réécriture différenciée obligatoire");
   }
 
-  if (!(input.official_evidence || []).length) {
-    const generatedTexts = [parsed.title_fr, parsed.summary_fr, parsed.editorial_angle, parsed.discussion_question,
-      parsed.posts.facebook, parsed.posts.tiktok,
-      ...(parsed.trend_synthesis.key_facts || []),
-      ...(parsed.trend_synthesis.reported_but_unconfirmed || []),
-      parsed.trend_synthesis.coverage_summary, parsed.trend_synthesis.editorial_context];
-    if (generatedTexts.some(hasUnverifiedConfirmationClaim)) {
-      throw new Error("Affirmation de confirmation ou d'officialité sans preuve officielle directe");
-    }
+  const generatedTexts = [parsed.title_fr, parsed.summary_fr, parsed.editorial_angle, parsed.discussion_question,
+    parsed.posts.facebook, parsed.posts.tiktok,
+    ...(parsed.trend_synthesis.key_facts || []),
+    ...(parsed.trend_synthesis.reported_but_unconfirmed || []),
+    parsed.trend_synthesis.coverage_summary, parsed.trend_synthesis.editorial_context];
+  if (!(input.official_evidence || []).length && generatedTexts.some(hasUnverifiedConfirmationClaim)) {
+    throw new Error("Affirmation de confirmation ou d'officialité sans preuve officielle directe");
+  }
+  if (hasForgeronNameMutation(item.title, generatedTexts)) {
+    throw new Error("Nom propre altéré : Forger doit rester Forger");
   }
 
   return {

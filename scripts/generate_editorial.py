@@ -112,17 +112,26 @@ def post_validation_errors(posts):
     return errors
 
 def has_unverified_confirmation_claim(value):
-    """Repère une affirmation positive de confirmation sans preuve de première partie."""
+    """Repère les affirmations de confirmation non étayées par une source officielle."""
     import re
     text = _normalise_sentence(value)
-    if re.search(r"\b(?:aucune|pas de|sans)\b.{0,35}\b(?:confirmation|preuve|officiel(?:le|s|les)?)\b", text):
-        return False
-    patterns = (
-        r"\b(?:est|sont|a ete|ont ete|vient d etre|viennent d etre)\s+(?:officiellement\s+)?confirme(?:e|s|es)\b",
-        r"\bc est officiel(?:le|s|les)?\b",
-        r"\b(?:annonce|confirmation)\s+officielle(?:ment)?\b",
+    negative_patterns = (
+        r"\b(?:aucune|pas de|sans)\b.{0,35}\b(?:confirmation|confirme(?:e|s|es)?|officiel(?:le|s|les)?)\b",
+        r"\bn est pas\b.{0,35}\b(?:confirme(?:e|s|es)?|officiel(?:le|s|les)?)\b",
+        r"\b(?:reste|restent|doit|doivent)\s+a\s+confirmer\b",
+        r"\ba\s+confirmer\b",
     )
-    return any(re.search(pattern, text) for pattern in patterns)
+    for pattern in negative_patterns:
+        text = re.sub(pattern, " ", text)
+    return bool(re.search(r"\b(?:confirmation|confirme(?:e|s|es)?|officiel(?:le|s|les)?|officiellement)\b", text))
+
+
+def has_forgeron_name_mutation(source_title, values):
+    """Détecte la francisation erronée de Forger en Forgeron pour SPY x FAMILY."""
+    source = _normalise_sentence(source_title)
+    if "spy" not in source or "family" not in source:
+        return False
+    return any("forgeron" in _normalise_sentence(value) for value in values)
 
 
 def valid_posts(posts):
@@ -361,6 +370,8 @@ def main():
                 generated_texts.extend((synthesis_check.get("coverage_summary", ""), synthesis_check.get("editorial_context", "")))
             if any(has_unverified_confirmation_claim(value) for value in generated_texts):
                 item_errors.append("affirmation de confirmation ou d'officialité sans preuve officielle directe")
+            if has_forgeron_name_mutation(item.get("title", ""), generated_texts):
+                item_errors.append("nom propre altéré : Forger doit rester Forger")
 
         if (word_count(editorial_angle) < 8
                 or detect_text_language(editorial_angle) != "fr"):

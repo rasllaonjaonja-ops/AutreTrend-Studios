@@ -144,6 +144,19 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
         self.assertEqual(detect_text_language("The fourth season of this series is confirmed"), "en")
 
+    def test_confirmation_claim_guard_distinguishes_reports_from_proof(self):
+        from scripts.generate_editorial import has_unverified_confirmation_claim
+        self.assertTrue(has_unverified_confirmation_claim("Plusieurs médias rapportent la confirmation de deux projets."))
+        self.assertTrue(has_unverified_confirmation_claim("Deux projets sont confirmés pour 2027."))
+        self.assertFalse(has_unverified_confirmation_claim("Pas de confirmation officielle fournie."))
+        self.assertFalse(has_unverified_confirmation_claim("La date reste à confirmer."))
+        self.assertFalse(has_unverified_confirmation_claim("Plusieurs médias rapportent cette annonce."))
+
+    def test_spy_family_proper_name_is_not_frenchified(self):
+        from scripts.generate_editorial import has_forgeron_name_mutation
+        self.assertTrue(has_forgeron_name_mutation("Spy x Family Season 4", ["La famille Forgeron revient."]))
+        self.assertFalse(has_forgeron_name_mutation("Spy x Family Season 4", ["La famille Forger revient."]))
+
     def test_unverified_official_claims_are_rejected_without_first_party_evidence(self):
         from scripts.generate_editorial import has_unverified_confirmation_claim
         self.assertTrue(has_unverified_confirmation_claim("Deux projets sont confirmés pour 2027."))
