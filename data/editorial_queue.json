@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:58:06.000621+00:00",
+  "generated_at": "2026-11-11T02:00:04.378082+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -8,7 +8,7 @@
   ],
   "network_variant_count": 4,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour Facebook et TikTok. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 405,
+  "rejected_count": 406,
   "rejected_sample": [
     {
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
@@ -438,51 +438,20 @@
         "status": "checked"
       },
       "verification_pending": false,
-      "editorial_status": "plusieurs médias — confirmation officielle requise · rédaction IA à relire",
+      "editorial_status": "plusieurs médias — confirmation officielle requise",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "en",
       "summary_language": "fr",
       "source_excerpt": "Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…",
       "social_posts": {
-        "facebook": "L'univers SPY x FAMILY s'agrandit encore avec une annonce majeure. Le site officiel a révélé la production de la Saison 4 et d'une suite cinématographique. Ces projets sont prévus pour 2027 et ont été dévoilés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé. La composition de la série est assurée par Aya Takaha. La date de sortie précise en 2027 n'est pas confirmée par une source officielle. Qu'attendez-vous de cette nouvelle aventure?",
-        "tiktok": "Attention SPY x FAMILY fans! La Saison 4 et un nouveau film sont annoncés pour 2027. L'équipe de production change avec Yasuhiro Akamatsu à la réalisation. La date de sortie précise reste à confirmer. Êtes-vous prêts pour la suite?",
-        "language_ready": true,
-        "translation_required": false,
-        "translation_note": "Rédaction française IA contrôlée : relecture humaine obligatoire avant toute publication."
+        "language_ready": false,
+        "translation_required": true,
+        "translation_note": "Rédaction française IA en attente : aucun texte provisoire ne doit être publié.",
+        "facebook": "",
+        "tiktok": ""
       },
-      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY x FAMILY: Saison 4 et suite cinématographique annoncées pour 2027\n\nLe site officiel a annoncé la production de l'anime SPY x FAMILY Saison 4 et d'une suite cinématographique. Ces annonces ont été faites lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé. La composition de la série est assurée par Aya Takaha. La date de sortie précise en 2027 n'est pas confirmée par une source officielle.\n\nAngle éditorial : Pour les fans francophones, cette annonce marque le début de l'attente pour la suite de l'histoire de la famille Forger, avec des changements notables à l'équipe de production.\nSynthèse des tendances : Plusieurs médias rapportent l'annonce de deux nouveaux projets pour 2027, mais aucune preuve officielle n'est fournie dans les données.\nFaits clés : Le site officiel a annoncé la production de l'anime SPY x FAMILY Saison 4.; Une suite cinématographique est également prévue pour 2027.; Ces annonces ont été faites lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II.; Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé.; La composition de la série est assurée par Aya Takaha.\nÉléments rapportés à confirmer : La date de sortie précise en 2027 n'est pas confirmée par une source officielle.; Le titre exact du film n'a pas été communiqué par les rapports.; Les détails sur le casting et les personnages ne sont pas encore disponibles.\nQuestion : Quelle est votre réaction face aux nouveaux visages de l'équipe de production pour la saison 4?\n\nPoints à vérifier : La date de sortie précise en 2027 n'est pas confirmée par une source officielle.; Le titre exact du film n'a pas été communiqué par les rapports.; Les détails sur le casting et les personnages ne sont pas encore disponibles.\n\nSources : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
-      "trend_synthesis": {
-        "key_facts": [
-          "Le site officiel a annoncé la production de l'anime SPY x FAMILY Saison 4.",
-          "Une suite cinématographique est également prévue pour 2027.",
-          "Ces annonces ont été faites lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II.",
-          "Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé.",
-          "La composition de la série est assurée par Aya Takaha."
-        ],
-        "reported_but_unconfirmed": [
-          "La date de sortie précise en 2027 n'est pas confirmée par une source officielle.",
-          "Le titre exact du film n'a pas été communiqué par les rapports.",
-          "Les détails sur le casting et les personnages ne sont pas encore disponibles."
-        ],
-        "coverage_summary": "Plusieurs médias rapportent l'annonce de deux nouveaux projets pour 2027, mais aucune preuve officielle n'est fournie dans les données.",
-        "editorial_context": "L'actualité SPY x FAMILY suscite un intérêt constant, particulièrement en France et au Royaume-Uni, où la franchise est très populaire."
-      },
-      "title_fr": "SPY x FAMILY: Saison 4 et suite cinématographique annoncées pour 2027",
-      "summary_fr": "Le site officiel a annoncé la production de l'anime SPY x FAMILY Saison 4 et d'une suite cinématographique. Ces annonces ont été faites lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le réalisateur de la saison 3, Yasuhiro Akamatsu, est confirmé. La composition de la série est assurée par Aya Takaha. La date de sortie précise en 2027 n'est pas confirmée par une source officielle.",
-      "editorial_angle": "Pour les fans francophones, cette annonce marque le début de l'attente pour la suite de l'histoire de la famille Forger, avec des changements notables à l'équipe de production.",
-      "discussion_question": "Quelle est votre réaction face aux nouveaux visages de l'équipe de production pour la saison 4?",
-      "claims_to_verify": [
-        "La date de sortie précise en 2027 n'est pas confirmée par une source officielle.",
-        "Le titre exact du film n'a pas été communiqué par les rapports.",
-        "Les détails sur le casting et les personnages ne sont pas encore disponibles."
-      ],
-      "ai_generation": {
-        "provider": "Cloudflare Workers AI",
-        "model": "@cf/zai-org/glm-4.7-flash",
-        "generated_at": "2026-11-11T01:58:40.758Z",
-        "human_review_required": true
-      }
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nRédaction française IA en attente : aucun texte provisoire ne doit être publié.\nNe pas publier avant contrôle des faits et de la traduction."
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -600,9 +569,11 @@
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "response_received": true,
       "response_valid": true,
-      "draft_returned": true,
-      "accepted": true,
-      "validation_errors": []
+      "draft_returned": false,
+      "accepted": false,
+      "validation_errors": [
+        "AiError: 3043: Internal server error"
+      ]
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -612,18 +583,22 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+        "AiError: 8004: Internal server error"
       ]
     }
   ],
   "ai_validation_errors": [
     {
+      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
+      "detail": "AiError: 3043: Internal server error"
+    },
+    {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+      "detail": "AiError: 8004: Internal server error"
     }
   ],
-  "ai_generated_count": 1,
-  "ai_generation_status": "partial",
+  "ai_generated_count": 0,
+  "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Rédaction IA partielle : 1/2 sujet(s) validé(s). Les sujets en échec restent non publiables. Validation humaine obligatoire."
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : AiError: 3043: Internal server error; AiError: 8004: Internal server error; AiError: 3043: Internal server error; AiError: 8004: Internal server error"
 }
