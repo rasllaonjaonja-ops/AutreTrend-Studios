@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-11T02:09:31.786885+00:00",
+  "checked_at": "2026-11-11T02:13:40.552978+00:00",
   "checked_articles": 40,
   "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
-  "official_link_found": 0,
+  "official_link_found": 1,
   "errors": [],
   "checks": [
     {
@@ -139,6 +139,22 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-10T03:34:51+00:00",
+      "official_evidence": [
+        {
+          "url": "https://www.viz.com/manga-books/manga/jojo-s-bizarre-adventure-part-7-steel-ball-run-volume-1/product/8330",
+          "domain": "www.viz.com",
+          "link_text": "released",
+          "evidence_type": "lien externe vers un domaine de première partie répertorié"
+        }
+      ],
+      "status": "lien de première partie repéré — contenu à contrôler",
+      "page_title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - News - Anime News Network"
     },
     {
       "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
@@ -355,15 +371,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere - MyAnimeList.net"
-    },
-    {
-      "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-08T14:47:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."

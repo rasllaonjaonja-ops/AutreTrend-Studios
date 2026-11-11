@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:09:31.786885+00:00",
+  "generated_at": "2026-11-11T02:13:40.552978+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -8,7 +8,7 @@
   ],
   "network_variant_count": 4,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour Facebook et TikTok. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 403,
+  "rejected_count": 371,
   "rejected_sample": [
     {
       "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
@@ -48,22 +48,6 @@
       ]
     },
     {
-      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Tekken 8 Game Streams Roger Jr. Starter Guide",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS"
-      ]
-    },
-    {
       "title": "Yu-Gi-Oh! Tag Force GX Game Previews Duels, Partners, Multiplayer, Exploration in New Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -80,10 +64,34 @@
       ]
     },
     {
+      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "L’anime My Death Flags Show No Sign of Ending annoncé pour 2027",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer - Crunchyroll",
+      "reasons": [
+        "aucun éditeur indépendant : agrégateur seul, sujet non admissible",
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Tekken 8 Game Streams Roger Jr. Starter Guide",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
       ]
     },
     {
@@ -227,15 +235,6 @@
         "source unique sans lien officiel repéré",
         "aucun résumé exploitable dans le flux RSS"
       ]
-    },
-    {
-      "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS"
-      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -273,7 +272,6 @@
         "Southeast Asia"
       ],
       "market_countries": [
-        "France",
         "United Kingdom"
       ],
       "market_regions": [
@@ -436,52 +434,20 @@
         "status": "checked"
       },
       "verification_pending": false,
-      "editorial_status": "plusieurs médias — confirmation officielle requise · rédaction IA à relire",
+      "editorial_status": "plusieurs médias — confirmation officielle requise",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "en",
       "summary_language": "fr",
       "source_excerpt": "Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .",
       "social_posts": {
-        "facebook": "L'univers SPY x FAMILY s'agrandit encore. Plusieurs médias rapportent aujourd'hui la confirmation d'une quatrième saison et d'un nouveau film d'animation pour 2027. Ces annonces auraient été faites lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'équipe de production a été partiellement révélée, mais aucune date précise ni synopsis n'est disponible. Qu'attendez-vous de la suite de l'histoire de la famille Forgeron?",
-        "tiktok": "La famille Forgeron revient en 2027! SPY x FAMILY annonce une quatrième saison et un nouveau film. L'équipe de production est dévoilée, mais pas encore le synopsis. Ça promet d'être une grosse année pour l'anime.",
-        "language_ready": true,
-        "translation_required": false,
-        "translation_note": "Rédaction française IA contrôlée : relecture humaine obligatoire avant toute publication."
+        "language_ready": false,
+        "translation_required": true,
+        "translation_note": "Rédaction française IA en attente : aucun texte provisoire ne doit être publié.",
+        "facebook": "",
+        "tiktok": ""
       },
-      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY x FAMILY: Saison 4 et nouveau film annoncés pour 2027\n\nPlusieurs médias confirment l'arrivée d'une quatrième saison et d'un second film d'animation SPY x FAMILY pour 2027. Ces projets seraient annoncés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'équipe de production a été partiellement révélée, mais aucune date précise ni synopsis n'est disponible.\n\nAngle éditorial : L'annonce de deux nouveaux projets majeurs pour 2027 ravive l'intérêt des fans pour la famille Forgeron et prépare le cinquième anniversaire de l'adaptation télévisée.\nSynthèse des tendances : Sept médias ont relayé l'information, mais aucun ne fournit de lien direct vers une déclaration officielle ou un communiqué de presse. Les détails techniques comme l'équipe de production proviennent de rapports de presse secondaires.\nFaits clés : Les médias rapportent la confirmation de la Saison 4 et d'un nouveau film SPY x FAMILY pour 2027.; Les annonces proviendraient de l'événement SPY×FAMILY ANIME EXTRA MISSION II.; Des détails sur l'équipe de production ont été partagés par MyAnimeList.; L'éditeur TOHO animation est cité comme organisateur de l'événement.\nÉléments rapportés à confirmer : La date exacte de sortie 2027 n'est pas confirmée par une source officielle.; Les noms des studios d'animation et de production ne sont pas cités dans les rapports.; La durée de la saison et la durée du film ne sont pas précisés.; Le synopsis de l'histoire n'est pas fourni dans les résumés disponibles.\nQuestion : Quelle est votre attente pour la suite de l'histoire de la famille Forgeron?\n\nPoints à vérifier : La date exacte de sortie 2027 n'est pas confirmée par une source officielle.; Les noms des studios d'animation et de production ne sont pas cités dans les rapports.; La durée de la saison et la durée du film ne sont pas précisés.; Le synopsis de l'histoire n'est pas fourni dans les résumés disponibles.\n\nSources : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
-      "trend_synthesis": {
-        "key_facts": [
-          "Les médias rapportent la confirmation de la Saison 4 et d'un nouveau film SPY x FAMILY pour 2027.",
-          "Les annonces proviendraient de l'événement SPY×FAMILY ANIME EXTRA MISSION II.",
-          "Des détails sur l'équipe de production ont été partagés par MyAnimeList.",
-          "L'éditeur TOHO animation est cité comme organisateur de l'événement."
-        ],
-        "reported_but_unconfirmed": [
-          "La date exacte de sortie 2027 n'est pas confirmée par une source officielle.",
-          "Les noms des studios d'animation et de production ne sont pas cités dans les rapports.",
-          "La durée de la saison et la durée du film ne sont pas précisés.",
-          "Le synopsis de l'histoire n'est pas fourni dans les résumés disponibles."
-        ],
-        "coverage_summary": "Sept médias ont relayé l'information, mais aucun ne fournit de lien direct vers une déclaration officielle ou un communiqué de presse. Les détails techniques comme l'équipe de production proviennent de rapports de presse secondaires.",
-        "editorial_context": "L'actualité SPY x FAMILY suscite un fort intérêt en France et au Royaume-Uni, marquant une année charnière pour la franchise avec l'approche de son cinquième anniversaire."
-      },
-      "title_fr": "SPY x FAMILY: Saison 4 et nouveau film annoncés pour 2027",
-      "summary_fr": "Plusieurs médias confirment l'arrivée d'une quatrième saison et d'un second film d'animation SPY x FAMILY pour 2027. Ces projets seraient annoncés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. L'équipe de production a été partiellement révélée, mais aucune date précise ni synopsis n'est disponible.",
-      "editorial_angle": "L'annonce de deux nouveaux projets majeurs pour 2027 ravive l'intérêt des fans pour la famille Forgeron et prépare le cinquième anniversaire de l'adaptation télévisée.",
-      "discussion_question": "Quelle est votre attente pour la suite de l'histoire de la famille Forgeron?",
-      "claims_to_verify": [
-        "La date exacte de sortie 2027 n'est pas confirmée par une source officielle.",
-        "Les noms des studios d'animation et de production ne sont pas cités dans les rapports.",
-        "La durée de la saison et la durée du film ne sont pas précisés.",
-        "Le synopsis de l'histoire n'est pas fourni dans les résumés disponibles."
-      ],
-      "ai_generation": {
-        "provider": "Cloudflare Workers AI",
-        "model": "@cf/zai-org/glm-4.7-flash",
-        "generated_at": "2026-11-11T02:11:41.392Z",
-        "human_review_required": true
-      }
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Une saison 4 et un nouveau film d'animation ont été confirmés pour l'anime SPY x FAMILY ! Découvre les premières informations sur la suite de la série. L’article SPY x FAMILY : une Saison 4 et un Nouveau Film annoncés pour 2027 est apparu en premier sur AnimOtaku .\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nRédaction française IA en attente : aucun texte provisoire ne doit être publié.\nNe pas publier avant contrôle des faits et de la traduction."
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -502,11 +468,9 @@
         "North America"
       ],
       "market_countries": [
-        "France",
         "United States"
       ],
       "market_regions": [
-        "Europe",
         "North America"
       ],
       "primary_sources": [],
@@ -599,9 +563,11 @@
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "response_received": true,
       "response_valid": true,
-      "draft_returned": true,
-      "accepted": true,
-      "validation_errors": []
+      "draft_returned": false,
+      "accepted": false,
+      "validation_errors": [
+        "Error: Contenu trop court pour facebook (53/60 mots)"
+      ]
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -611,18 +577,22 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook (53/60 mots)"
+        "Error: Contenu trop court pour facebook (46/60 mots)"
       ]
     }
   ],
   "ai_validation_errors": [
     {
-      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
+      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
       "detail": "Error: Contenu trop court pour facebook (53/60 mots)"
+    },
+    {
+      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
+      "detail": "Error: Contenu trop court pour facebook (46/60 mots)"
     }
   ],
-  "ai_generated_count": 1,
-  "ai_generation_status": "partial",
+  "ai_generated_count": 0,
+  "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash / @cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "ai_notice": "Rédaction IA partielle : 1/2 sujet(s) validé(s). Les sujets en échec restent non publiables. Validation humaine obligatoire."
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook (53/60 mots); Error: Contenu trop court pour facebook (46/60 mots); Error: Contenu trop court pour facebook (53/60 mots); Error: Contenu trop court pour facebook (46/60 mots)"
 }
