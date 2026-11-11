@@ -1,6 +1,6 @@
 """Tests du contrat de génération éditoriale assistée."""
 import unittest
-from scripts.generate_editorial import valid_posts, valid_synthesis
+from scripts.generate_editorial import valid_posts, valid_synthesis, post_validation_errors
 from scripts.radar_logic import detect_text_language
 from scripts.quality_check import valid_editorial_queue
 
@@ -112,6 +112,16 @@ class EditorialGenerationTests(unittest.TestCase):
         queue["ai_generated_count"] = 2
         self.assertFalse(valid_editorial_queue(queue))
 
+    def test_rejects_placeholder_repetition_and_identical_platform_copy(self):
+        placeholder = dict(self.posts)
+        placeholder["facebook"] = "RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE"
+        self.assertTrue(any("consigne" in error for error in post_validation_errors(placeholder)))
+        repeated = dict(self.posts)
+        repeated["tiktok"] = "Cette annonce est importante. Cette annonce est importante. Le studio confirme un projet avec des informations utiles et une date à préciser pour les fans."
+        self.assertTrue(any("répétée" in error for error in post_validation_errors(repeated)))
+        identical = {"facebook": self.posts["facebook"], "tiktok": self.posts["facebook"]}
+        self.assertTrue(any("identiques" in error for error in post_validation_errors(identical)))
+
     def test_french_headline_and_summary_detection(self):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
         self.assertEqual(detect_text_language("The fourth season of this series is confirmed"), "en")
@@ -121,14 +131,12 @@ class EditorialGenerationTests(unittest.TestCase):
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
         worker_prompt = worker_path.read_text(encoding="utf-8")
         self.assertEqual(generate_editorial.MIN_SUMMARY_WORDS, 45)
-        self.assertIn("summary_fr : 45 à 90 mots", worker_prompt)
+        self.assertIn("summary_fr : 50 à 85 mots", worker_prompt)
         self.assertIn("summary_fr doit contenir au moins ${MIN_SUMMARY_WORDS} mots", worker_prompt)
         self.assertNotIn("atteindre 60 mots", worker_prompt)
-        self.assertIn("Facebook 70 mots", worker_prompt)
-        self.assertIn("Instagram 45", worker_prompt)
-        self.assertIn("TikTok 35", worker_prompt)
-        self.assertIn("Threads 40", worker_prompt)
-        self.assertIn("Telegram 40", worker_prompt)
+        self.assertIn('const PLATFORMS = ["facebook", "tiktok"]', worker_prompt)
+        self.assertNotIn("Instagram :", worker_prompt)
+        self.assertNotIn("Pinterest :", worker_prompt)
 
     def test_radar_workflow_uses_configured_ai_endpoint_secret(self):
         from pathlib import Path
