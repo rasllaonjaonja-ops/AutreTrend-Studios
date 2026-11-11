@@ -264,11 +264,11 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     const qualityErrors = editorialTextErrors(content, platform);
     if (qualityErrors.length) throw new Error(qualityErrors.join("; "));
   }
-  const facebookTokens = new Set((parsed.posts.facebook.toLowerCase().match(/[\p{L}]{4,}/gu) || []));
-  const tiktokTokens = new Set((parsed.posts.tiktok.toLowerCase().match(/[\p{L}]{4,}/gu) || []));
-  const smaller = Math.min(facebookTokens.size, tiktokTokens.size);
-  const shared = [...facebookTokens].filter(token => tiktokTokens.has(token)).length;
-  if (smaller && shared / smaller > 0.9) throw new Error("Facebook et TikTok sont trop similaires : réécriture différenciée obligatoire");
+  const normalizePlatformText = value => String(value || "").toLowerCase().normalize("NFKD")
+    .replace(/\p{M}/gu, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  if (normalizePlatformText(parsed.posts.facebook) === normalizePlatformText(parsed.posts.tiktok)) {
+    throw new Error("Facebook et TikTok sont identiques : réécriture différenciée obligatoire");
+  }
 
   return {
     trend_id: item.trend_id,
