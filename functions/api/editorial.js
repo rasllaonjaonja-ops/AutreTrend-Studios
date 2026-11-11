@@ -1,5 +1,5 @@
 const MODEL = "@cf/zai-org/glm-4.7-flash";
-const PLATFORMS = ["facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest"];
+const PLATFORMS = ["facebook", "tiktok"];
 const MIN_SUMMARY_WORDS = 45;
 
 const FRENCH_MARKERS = new Set([
@@ -123,7 +123,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "Évite les accroches creuses, le sensationnalisme, les répétitions, les emojis excessifs et les phrases passe-partout.",
     "Produis un vrai mini-article : accroche informative, faits essentiels, contexte uniquement s'il est fourni, puis ouverture pertinente. Ne transforme pas un simple titre en récit détaillé.",
     "title_fr : titre français clair, fidèle et attractif sans exagération.",
-    "summary_fr : 45 à 90 mots (cible 55 à 70, minimum absolu 45), en 3 à 4 phrases naturelles. Présente les faits disponibles et leurs limites sans inventer de contexte.",
+    "summary_fr : 50 à 85 mots, en 3 à 4 phrases naturelles et distinctes. Présente les faits communs aux sources, les précisions réellement nouvelles et les incertitudes sans inventer de contexte.",
     "editorial_angle : 1 à 2 phrases expliquant l'intérêt réel du sujet pour les lecteurs.",
     "discussion_question : question spécifique, ouverte et naturelle, qui invite à une vraie discussion.",
     "claims_to_verify : liste des éléments concrets qui nécessitent encore une vérification; liste vide si aucun élément ne reste incertain.",
@@ -134,18 +134,12 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "Chaque fait important doit pouvoir être rattaché aux rapports transmis. N'invente aucune donnée absente des rapports.",
     "Tous les champs éditoriaux et tous les textes sociaux doivent être rédigés en français naturel. Dans claims_to_verify, chaque élément non vide doit contenir au moins 4 mots français. Dans trend_synthesis.reported_but_unconfirmed, chaque élément non vide doit contenir au moins 4 mots français. Dans trend_synthesis.key_facts, chaque fait doit contenir au moins 5 mots français. coverage_summary et editorial_context doivent chacun contenir au moins 8 mots français.",
     "Chaque réseau reçoit une version réécrite pour son usage, avec une structure et un rythme différents. Ne copie-colle pas le même texte partout.",
-    "Facebook : mini-article accessible de 90 à 110 mots (cible obligatoire), en 5 à 7 phrases naturelles : accroche factuelle, détails vérifiables fournis, contexte uniquement s’il est sourcé, puis question communautaire. Ne compte pas le titre ni les hashtags dans ces mots.",
-    "Instagram : légende vivante de 45 à 80 mots, phrases aérées et 3 à 6 hashtags pertinents.",
-    "TikTok : script oral de 35 à 60 mots, accroche parlée, explication simple, chute et question; pas de consignes de caméra.",
-    "X : message autonome, informatif et naturel. Vise 200 à 230 caractères et ne dépasse jamais 260 caractères, espaces compris; au moins 8 mots; sans lien ni hashtags superflus.",
-    "Threads : commentaire éditorial conversationnel de 40 à 75 mots, ton proche mais informé, question spécifique.",
-    "YouTube : titre précis de 45 à 90 caractères et description de 50 à 90 mots.",
-    "Telegram : brève journalistique de 40 à 70 mots, directe et utile, sans formule artificielle.",
-    "Pinterest : titre descriptif de 45 à 90 caractères et description de 35 à 60 mots.",
+    "Facebook : publication originale de 90 à 110 mots, en 5 à 7 phrases naturelles : accroche factuelle, synthèse croisée, détails vérifiables, contexte sourcé et question communautaire. Elle doit être autonome et ne pas recopier le résumé brut.",
+    "TikTok : script oral original de 40 à 60 mots, avec une accroche parlée différente de Facebook, explication claire, chute et question; pas de consignes de caméra.",
     "N'ajoute aucune source ou URL non fournie. Une relecture humaine reste obligatoire. Ne prétends jamais être un humain ni avoir vérifié une source que tu n'as pas consultée.",
     "Respecte strictement les longueurs minimales du validateur : Facebook 70 mots, Instagram 45, TikTok 35, X 8 mots et 260 caractères maximum, Threads 40 et Telegram 40 mots, hors sources et hashtags. Vise le milieu de chaque fourchette plutôt que la limite minimale. Ne remplace jamais le corps par une phrase courte.",
     "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir trend_synthesis (key_facts, reported_but_unconfirmed, coverage_summary, editorial_context), title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
-    "posts doit contenir facebook, instagram, tiktok, x, threads, youtube, telegram et pinterest. youtube et pinterest sont des objets avec title et description; les autres plateformes sont des chaînes."
+    "posts doit contenir exactement deux chaînes : facebook et tiktok. N’ajoute aucune autre plateforme."
   ].join("\n");
 
   const input = {
@@ -176,7 +170,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   const result = await env.AI.run(MODEL, {
     messages: [
       { role: "system", content: system },
-      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr vise 55 à 70 mots et ne doit jamais descendre sous 45; compose-le à partir des faits distincts réellement présents dans source_reports : annonce, éléments de la bande-annonce, visuel, casting, musique, date, studio ou réalisation uniquement s'ils sont explicitement indiqués; chaque phrase doit apporter un fait vérifiable; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les huit textes sociaux doivent être en français naturel. Posts : Facebook vise 90 à 110 mots (minimum absolu 70), Instagram 45, TikTok 35, X 8 mots minimum et 260 caractères maximum, Threads 40, Telegram 40, YouTube titre 45 caractères minimum et description 50 mots minimum, Pinterest titre 45 caractères minimum et description 35 mots minimum. Pour Facebook, compte les mots séparés par des espaces avant de répondre; si le texte est trop court, développe avec des faits distincts déjà présents dans les sources, jamais avec du remplissage. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 45 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
+      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr vise 55 à 70 mots et ne doit jamais descendre sous 45; compose-le à partir des faits distincts réellement présents dans source_reports : annonce, éléments de la bande-annonce, visuel, casting, musique, date, studio ou réalisation uniquement s'ils sont explicitement indiqués; chaque phrase doit apporter un fait vérifiable; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les huit textes sociaux doivent être en français naturel. Posts : produire uniquement Facebook (90 à 110 mots) et TikTok (40 à 60 mots), deux textes originaux et de structures différentes. Pour Facebook, compte les mots séparés par des espaces avant de répondre; si le texte est trop court, développe avec des faits distincts déjà présents dans les sources, jamais avec du remplissage. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 45 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
     ],
     response_format: { type: "json_object" },
     chat_template_kwargs: { enable_thinking: false },
@@ -196,7 +190,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   const parsed = extractJson(content);
   if (!parsed || typeof parsed !== "object" || !parsed.posts) throw new Error("Structure éditoriale absente");
   parsed.title_fr = tidyEditorialText(parsed.title_fr);
-  parsed.summary_fr = tidyEditorialText(parsed.summary_fr, true);
+  parsed.summary_fr = tidyEditorialText(parsed.summary_fr);
   parsed.editorial_angle = tidyEditorialText(parsed.editorial_angle);
   parsed.discussion_question = tidyEditorialText(parsed.discussion_question);
   if (Array.isArray(parsed.claims_to_verify)) {
@@ -205,7 +199,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   for (const platform of PLATFORMS) {
     const value = parsed.posts[platform];
     if (typeof value === "string") {
-      parsed.posts[platform] = tidyEditorialText(value, true);
+      parsed.posts[platform] = tidyEditorialText(value);
     } else if (value && typeof value === "object") {
       if (typeof value.title === "string") value.title = tidyEditorialText(value.title);
       if (typeof value.description === "string") value.description = tidyEditorialText(value.description, true);
@@ -234,26 +228,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
       || detectTextLanguage(parsed.trend_synthesis.editorial_context) !== "fr") {
     throw new Error("Synthèse croisée des tendances absente, trop faible ou non française");
   }
-  // Réparation factuelle du résumé : certains retours GLM sont trop courts malgré
-  // les consignes et les deux passes correctives. Compléter uniquement avec les
-  // faits déjà produits dans la synthèse croisée validée, sans ajouter d'information.
-  if (wordCount(parsed.summary_fr) < MIN_SUMMARY_WORDS && parsed.trend_synthesis
-      && Array.isArray(parsed.trend_synthesis.key_facts)) {
-    let repairedSummary = String(parsed.summary_fr || "").trim();
-    const factualSentences = [
-      ...parsed.trend_synthesis.key_facts,
-      parsed.trend_synthesis.coverage_summary,
-      parsed.trend_synthesis.editorial_context
-    ].filter(value => typeof value === "string"
-      && detectTextLanguage(value) === "fr"
-      && wordCount(value) >= 5);
-    for (const fact of factualSentences) {
-      if (wordCount(repairedSummary) >= MIN_SUMMARY_WORDS) break;
-      const candidate = (repairedSummary ? repairedSummary.replace(/[.!?…]*$/, ".") + " " : "") + fact.trim();
-      if (wordCount(candidate) <= 90) repairedSummary = candidate;
-    }
-    if (wordCount(repairedSummary) >= MIN_SUMMARY_WORDS) parsed.summary_fr = repairedSummary;
-  }
+  // Aucun assemblage mécanique : un résumé trop court est rejeté et doit être réécrit par l'IA.
 
   const briefErrors = [];
   if (typeof parsed.title_fr !== "string" || wordCount(parsed.title_fr) < 4) briefErrors.push("title_fr doit contenir au moins 4 mots");
@@ -298,8 +273,8 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     return wordCount(output) >= minimum ? output : String(value || "").trim();
   };
 
-  const minimumWords = { facebook: 70, instagram: 45, tiktok: 35, x: 8, threads: 40, telegram: 40 };
-  for (const platform of ["facebook", "instagram", "tiktok", "x", "threads", "telegram"]) {
+  const minimumWords = { facebook: 85, tiktok: 35 };
+  for (const platform of ["facebook", "tiktok"]) {
     if (correctivePass) {
       parsed.posts[platform] = appendGrounded(
         parsed.posts[platform],
@@ -314,37 +289,10 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
       throw new Error("Contenu " + platform + " non français");
     }
   }
-  for (const platform of ["youtube", "pinterest"]) {
-    const minimumDescriptionWords = platform === "youtube" ? 50 : 35;
-    const currentTitle = String(parsed.posts[platform].title || "").trim();
-    if (detectTextLanguage(currentTitle) !== "fr" || currentTitle.length < 45) {
-      const suffix = platform === "youtube"
-        ? " — Actualité anime et manga"
-        : " — À découvrir en manga et anime";
-      parsed.posts[platform].title = (parsed.title_fr.trim() + suffix).slice(0, 110).trim();
-    }
-    if (correctivePass && (
-      detectTextLanguage(parsed.posts[platform].description) !== "fr"
-      || wordCount(parsed.posts[platform].description) < minimumDescriptionWords
-    )) {
-      const frenchBase = detectTextLanguage(parsed.posts[platform].description) === "fr"
-        ? parsed.posts[platform].description
-        : parsed.summary_fr;
-      parsed.posts[platform].description = appendGrounded(
-        frenchBase, minimumDescriptionWords, minimumDescriptionWords
-      );
-    }
-    if (wordCount(parsed.posts[platform].description) < minimumDescriptionWords) {
-      throw new Error("Description trop courte pour " + platform);
-    }
-    if (detectTextLanguage(parsed.posts[platform].description) !== "fr") {
-      throw new Error("Description " + platform + " non française");
-    }
-  }
+
   // Ajustement mécanique sans ajout de faits : X est ramené à la limite du réseau
   // en coupant uniquement à une frontière de mot; si 8 mots ne subsistent pas,
   // la génération est rejetée et relancée avec le diagnostic exact.
-  parsed.posts.x = fitXPost(parsed.posts.x);
   return {
     trend_id: item.trend_id,
     trend_synthesis: {
