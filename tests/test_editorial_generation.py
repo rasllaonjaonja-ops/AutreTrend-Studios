@@ -35,8 +35,11 @@ class EditorialGenerationTests(unittest.TestCase):
 
     def test_enforces_editorial_word_and_character_targets(self):
         too_short = dict(self.posts)
-        too_short["facebook"] = " ".join(["actualité"] * 59)
+        too_short["facebook"] = " ".join(["actualité"] * 49)
         self.assertFalse(valid_posts(too_short))
+        at_minimum = dict(self.posts)
+        at_minimum["facebook"] = " ".join(["actualité"] * 50) + ". " + "Une seconde phrase complète apporte un fait vérifiable. " + "Une troisième phrase complète donne le contexte utile. " + "Une dernière phrase complète invite les lecteurs à réagir."
+        self.assertTrue(valid_posts(at_minimum))
         too_long_facebook = dict(self.posts)
         too_long_facebook["facebook"] = " ".join(["actualité"] * 140)
         self.assertFalse(valid_posts(too_long_facebook))
@@ -117,7 +120,7 @@ class EditorialGenerationTests(unittest.TestCase):
         shorter["facebook"] = " ".join(self.posts["facebook"].split()[:80])
         self.assertTrue(valid_posts(shorter))
         too_short = dict(self.posts)
-        too_short["facebook"] = " ".join(self.posts["facebook"].split()[:59])
+        too_short["facebook"] = " ".join(self.posts["facebook"].split()[:49])
         self.assertFalse(valid_posts(too_short))
 
     def test_rejects_placeholder_repetition_and_identical_platform_copy(self):
@@ -177,6 +180,10 @@ class EditorialGenerationTests(unittest.TestCase):
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
         worker_prompt = worker_path.read_text(encoding="utf-8")
         self.assertEqual(generate_editorial.MIN_SUMMARY_WORDS, 35)
+        self.assertEqual(generate_editorial.MIN_FACEBOOK_WORDS, 50)
+        self.assertEqual(generate_editorial.MIN_TIKTOK_WORDS, 35)
+        self.assertIn("const MIN_FACEBOOK_WORDS = 50", worker_prompt)
+        self.assertIn("Facebook : publication originale de 60 à 85 mots", worker_prompt)
         self.assertIn("summary_fr : 40 à 70 mots", worker_prompt)
         self.assertIn("summary_fr doit contenir au moins ${MIN_SUMMARY_WORDS} mots", worker_prompt)
         self.assertNotIn("atteindre 60 mots", worker_prompt)
