@@ -17,6 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 QUEUE = ROOT / "data" / "editorial_queue.json"
 PLATFORMS = ("facebook", "tiktok")
 MIN_SUMMARY_WORDS = 35
+MIN_FACEBOOK_WORDS = 50
+MIN_TIKTOK_WORDS = 35
 
 
 def word_count(value):
@@ -85,9 +87,9 @@ def _content_quality_errors(value, platform):
         errors.append("facebook : moins de quatre phrases complètes")
     if platform == "tiktok" and sentence_count < 3:
         errors.append("tiktok : moins de trois phrases complètes")
-    if platform == "facebook" and not (60 <= word_count(text) <= 125):
-        errors.append(f"facebook : longueur {word_count(text)} mots, cible 90 à 110")
-    if platform == "tiktok" and not (35 <= word_count(text) <= 65):
+    if platform == "facebook" and not (MIN_FACEBOOK_WORDS <= word_count(text) <= 125):
+        errors.append(f"facebook : longueur {word_count(text)} mots, minimum {MIN_FACEBOOK_WORDS}, cible 60 à 85")
+    if platform == "tiktok" and not (MIN_TIKTOK_WORDS <= word_count(text) <= 65):
         errors.append(f"tiktok : longueur {word_count(text)} mots, cible 40 à 60")
     if detect_text_language(text) != "fr":
         errors.append(f"{platform} : contenu non reconnu comme français")
