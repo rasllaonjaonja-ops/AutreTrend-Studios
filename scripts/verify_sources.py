@@ -79,6 +79,7 @@ def host_is(domain, base):
     return domain == base or domain.endswith("." + base)
 
 def is_official(url, article_host):
+    """Indique seulement qu'un lien mène vers un domaine de première partie répertorié."""
     try:
         host = (urlparse(url).hostname or "").lower().removeprefix("www.")
         if not host or host == article_host:
@@ -86,6 +87,18 @@ def is_official(url, article_host):
         return any(host_is(host, d) for d in OFFICIAL_DOMAINS)
     except Exception:
         return False
+
+
+def is_official_candidate(url, article_host):
+    """Écarte les liens commerciaux/catalogues : ils ne documentent pas une annonce."""
+    if not is_official(url, article_host):
+        return False
+    path = (urlparse(url).path or "").lower()
+    excluded_paths = (
+        "/product/", "/products/", "/shop/", "/store/", "/catalog/",
+        "/item/", "/manga-books/", "/books/"
+    )
+    return not any(segment in path for segment in excluded_paths)
 
 def fetch_links(url):
     req = urllib.request.Request(url, headers={
@@ -195,22 +208,23 @@ def main():
             "publisher": item.get("publisher") or item.get("source", ""),
             "published_at": item.get("published_at", ""),
             "official_evidence": [],
+            "official_link_candidates": [],
             "status": "aucune preuve officielle repérée — vérification humaine requise"
         }
         try:
             links, page_title = fetch_links(url)
             for link in links:
                 link_url = link["url"]
-                if is_official(link_url, host):
+                if is_official_candidate(link_url, host):
                     domain = (urlparse(link_url).hostname or "").lower()
-                    result["official_evidence"].append({
+                    result["official_link_candidates"].append({
                         "url": link_url,
                         "domain": domain,
                         "link_text": link["label"],
-                        "evidence_type": "lien externe vers un domaine de première partie répertorié"
+                        "candidate_type": "lien vers un domaine de première partie; pertinence factuelle non vérifiée"
                     })
-            if result["official_evidence"]:
-                result["status"] = "lien de première partie repéré — contenu à contrôler"
+            if result["official_link_candidates"]:
+                result["status"] = "lien officiel candidat repéré — aucune preuve factuelle validée"
             result["page_title"] = page_title
         except Exception as exc:
             errors.append({"url": url, "error": str(exc)[:180]})
@@ -272,7 +286,8 @@ def main():
         title = str(trend.get("title", "")).strip()
         low_title = title.lower()
         trend_articles = trend.get("articles", [])
-        evidence, summary_candidates, article_urls, checked_urls = [], [], [], []
+        evidence, official_link_candidates = [], []
+        summary_candidates, article_urls, checked_urls = [], [], []
         source_reports = enrich_source_reports(trend_articles, radar_items)
         for article in trend_articles:
             url = article.get("url", "")
@@ -280,7 +295,8 @@ def main():
             check = by_url.get(url)
             if check:
                 checked_urls.append(url)
-                evidence.extend(check["official_evidence"])
+                evidence.extend(check.get("official_evidence", []))
+                official_link_candidates.extend(check.get("official_link_candidates", []))
             original = radar_items.get(url, {})
             snippet = original.get("summary", "").strip()
             if snippet and all(existing[0] != snippet for existing in summary_candidates):
@@ -291,6 +307,9 @@ def main():
                     bool(check)
                 ))
         evidence = list({x["url"]: x for x in evidence}.values())
+        official_link_candidates = list({
+            x["url"]: x for x in official_link_candidates
+        }.values())
         sources = trend.get("sources", [])
         publisher_count = int(trend.get("source_count", 0) or 0)
         primary_source_count = int(trend.get("primary_source_count", 0) or 0)
@@ -379,6 +398,7 @@ def main():
             "source_excerpt_checked": summary_page_checked,
             "articles": source_reports,
             "official_evidence": evidence,
+            "official_link_candidates": official_link_candidates,
             "verification_coverage": {
                 "checked_articles": verification_coverage,
                 "total_articles": len(article_urls),
@@ -409,10 +429,12 @@ def main():
         "checked_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
         "checked_articles": len(checks),
         "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
-        "official_link_found": sum(bool(x["official_evidence"]) for x in checks),
+        "official_link_found": sum(bool(x.get("official_link_candidates")) for x in checks),
+        "official_link_candidates_found": sum(len(x.get("official_link_candidates", [])) for x in checks),
+        "confirmed_official_evidence": sum(bool(x.get("official_evidence")) for x in checks),
         "errors": errors,
         "checks": checks,
-        "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
+        "policy": "Le détecteur repère des liens candidats vers des domaines de première partie; il exclut les pages de produits, boutiques et catalogues. Un lien candidat n'est jamais une preuve officielle et reste séparé de official_evidence, qui demeure vide tant qu'une validation factuelle explicite n'a pas été effectuée. ORICON / Japan Anime News reste un média professionnel, pas une source primaire. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Vérifier séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
