@@ -97,13 +97,10 @@ class RadarLogicTests(unittest.TestCase):
         selected = diversify_queue(items, limit=4, max_per_franchise=2)
         self.assertEqual([item["score"] for item in selected], [95, 90, 80])
 
-    def test_daily_output_is_three_editorial_posts_for_eight_networks(self):
+    def test_daily_output_is_three_editorial_posts_for_two_networks(self):
         self.assertEqual(MAX_PREPUBLICATIONS, 3)
-        self.assertEqual(len(SOCIAL_NETWORKS), 8)
-        self.assertEqual(set(SOCIAL_NETWORKS), {
-            "facebook", "instagram", "tiktok", "x",
-            "threads", "youtube", "telegram", "pinterest",
-        })
+        self.assertEqual(len(SOCIAL_NETWORKS), 2)
+        self.assertEqual(set(SOCIAL_NETWORKS), {"facebook", "tiktok"})
 
     def test_official_link_labels_normalize_whitespace(self):
         parser = Links()
