@@ -21,7 +21,7 @@ OUT = ROOT / "data" / "verification.json"
 QUEUE = ROOT / "data" / "editorial_queue.json"
 MAX_ARTICLES = 40
 MAX_PREPUBLICATIONS = 3
-SOCIAL_NETWORKS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
+SOCIAL_NETWORKS = ("facebook", "tiktok")
 TIMEOUT = 4
 
 # Liste volontairement conservatrice : les médias généralistes ne sont pas traités comme preuves officielles.
@@ -233,26 +233,14 @@ def main():
         return " ".join(["#Anime", "#Manga"] + tags[:3])
 
     def make_social_posts(title, summary, language, sources, source_url, verified):
-        excerpt = re.sub(r"\s+", " ", summary or "").strip()[:420].rstrip()
-        french_ready = language == "fr" and bool(excerpt)
-        tags = hashtags(title)
-        core = excerpt if french_ready else "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]"
-        hook = title
-        source_line = "Sources à consulter : " + ", ".join(sources[:3])
-        source_line += " · lien officiel repéré, détails à comparer" if verified else " · recoupement officiel non établi"
-        url_line = source_url or ""
+        # Les champs sociaux restent vides jusqu'à la rédaction et à la validation IA.
+        # Aucun texte de remplacement ou consigne ne doit apparaître dans l'interface.
         return {
-            "language_ready": french_ready,
-            "translation_required": not french_ready,
-            "translation_note": "" if french_ready else "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-            "facebook": hook + "\n\n" + core + "\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n" + tags + "\n" + source_line + ("\n" + url_line if url_line else ""),
-            "instagram": hook + "\n\n" + core + "\n\nEnregistrez ce post et partagez votre avis !\n\n" + tags + ("\n" + url_line if url_line else ""),
-            "tiktok": "ACCROCHE : " + hook + "\n\nSCRIPT À LIRE : " + core + "\n\nQUESTION : Vous en pensez quoi ?\n" + tags,
-            "x": (hook + " — " + core + " " + tags)[:275],
-            "threads": "On vient de repérer cette actualité : " + hook + "\n\n" + core + "\n\nVous suivez cette série ?",
-            "youtube": {"title": hook[:95], "description": core + "\n\n" + source_line + ("\n" + url_line if url_line else "") + "\n\n" + tags},
-            "telegram": "📰 " + hook + "\n\n" + core + "\n\n" + source_line + ("\n" + url_line if url_line else ""),
-            "pinterest": {"title": hook[:100], "description": core + "\n" + tags + ("\n" + url_line if url_line else "")}
+            "language_ready": False,
+            "translation_required": True,
+            "translation_note": "Rédaction française IA en attente : aucun texte provisoire ne doit être publié.",
+            "facebook": "",
+            "tiktok": ""
         }
 
     queue = []
@@ -411,14 +399,14 @@ def main():
         "daily_goal": MAX_PREPUBLICATIONS,
         "selected_networks": list(SOCIAL_NETWORKS),
         "network_variant_count": len(queue) * len(SOCIAL_NETWORKS),
-        "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour les huit réseaux. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
+        "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour Facebook et TikTok. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
         "rejected_count": len(rejected),
         "rejected_sample": rejected[:30],
         "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
         "diversity_policy": "Maximum 1 prépublication par franchise dans les trois sujets du jour, pour privilégier trois actualités réellement distinctes.",
         "diversity_excluded_count": diversity_excluded_count,
         "items": queue,
-        "notice": "Trois sujets éditoriaux au maximum, chacun adapté à Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique."
+        "notice": "Trois sujets éditoriaux au maximum, chacun adapté uniquement à Facebook et TikTok. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique."
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Vérification : {len(checks)} pages contrôlées; {payload['official_link_found']} avec lien officiel repéré; {len(errors)} erreur(s).")
     print(f"File éditoriale : {len(queue)} briefs non publiables générés.")
