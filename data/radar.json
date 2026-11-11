@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:29:00.465133+00:00",
+  "updated_at": "2026-11-11T00:31:12.011605+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:44.016957+00:00",
+      "last_success_at": "2026-11-11T00:30:55.791768+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:44.745981+00:00",
+      "last_success_at": "2026-11-11T00:30:56.744802+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:45.219483+00:00",
+      "last_success_at": "2026-11-11T00:30:57.214031+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:45.439786+00:00",
+      "last_success_at": "2026-11-11T00:30:57.457908+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 36,
       "unique_items": 36,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:45.621803+00:00",
+      "last_success_at": "2026-11-11T00:30:57.839941+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:46.282528+00:00",
+      "last_success_at": "2026-11-11T00:30:58.412232+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:46.630726+00:00",
+      "last_success_at": "2026-11-11T00:30:58.725445+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:47.373704+00:00",
+      "last_success_at": "2026-11-11T00:30:59.480831+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:48.785078+00:00",
+      "last_success_at": "2026-11-11T00:31:00.074471+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:49.557984+00:00",
+      "last_success_at": "2026-11-11T00:31:00.910782+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:49.685493+00:00",
+      "last_success_at": "2026-11-11T00:31:01.028099+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:50.831316+00:00",
+      "last_success_at": "2026-11-11T00:31:02.415198+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:51.331323+00:00",
+      "last_success_at": "2026-11-11T00:31:02.955511+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:52.191422+00:00",
+      "last_success_at": "2026-11-11T00:31:03.836520+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:53.120246+00:00",
+      "last_success_at": "2026-11-11T00:31:04.816006+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:53.915605+00:00",
+      "last_success_at": "2026-11-11T00:31:05.535930+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:54.469829+00:00",
+      "last_success_at": "2026-11-11T00:31:06.128532+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:54.997248+00:00",
+      "last_success_at": "2026-11-11T00:31:06.980906+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:56.024640+00:00",
+      "last_success_at": "2026-11-11T00:31:08.096011+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:56.612293+00:00",
+      "last_success_at": "2026-11-11T00:31:08.695340+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:57.127191+00:00",
+      "last_success_at": "2026-11-11T00:31:09.198410+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:57.627208+00:00",
+      "last_success_at": "2026-11-11T00:31:09.677531+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:58.140166+00:00",
+      "last_success_at": "2026-11-11T00:31:10.184429+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:58.900076+00:00",
+      "last_success_at": "2026-11-11T00:31:10.668239+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:59.438023+00:00",
+      "last_success_at": "2026-11-11T00:31:11.082806+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:28:59.987432+00:00",
+      "last_success_at": "2026-11-11T00:31:11.578596+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,7 +411,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:29:00.453665+00:00",
+      "last_success_at": "2026-11-11T00:31:12.000150+00:00",
       "error": null
     }
   },
@@ -2421,6 +2421,33 @@
       "canonical_url": "https://myanimelist.net/news/74922872",
       "feed_sources": [
         "MyAnimeList News – RSS"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTUZ1UE9rOGR1cndsN1RNS0pOVUdCQjVXZkFYWE1aWTRub2kzYzN5M01lMmZpRmNWcEJCX1Z0ZmxUZ0FmNmZ5S2hVNjNJY29IaEZvdk9KVEZETDRVR3Z2ZnB5VUw4UFQzeWQyR3FYVjljVktLbWxNMFd5WE1rcDVGNU90bG90TmFsc2haZTRqZG1PNWJqMTAxMmxub21zOVktdFkzcVNQTjBBMDlBYWRr?oc=5",
+      "title": "Rascal Does Not Dream of a Dear Friend Anime Film Shares New Clip Featuring Kaede - Crunchyroll",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTUZ1UE9rOGR1cndsN1RNS0pOVUdCQjVXZkFYWE1aWTRub2kzYzN5M01lMmZpRmNWcEJCX1Z0ZmxUZ0FmNmZ5S2hVNjNJY29IaEZvdk9KVEZETDRVR3Z2ZnB5VUw4UFQzeWQyR3FYVjljVktLbWxNMFd5WE1rcDVGNU90bG90TmFsc2haZTRqZG1PNWJqMTAxMmxub21zOVktdFkzcVNQTjBBMDlBYWRr?oc=5",
+      "summary": "Rascal Does Not Dream of a Dear Friend Anime Film Shares New Clip Featuring Kaede Crunchyroll",
+      "published_at": "2026-11-07T16:08:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google News – India",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "India",
+      "market_region": "South Asia",
+      "source_role": "professional_media",
+      "language": "en",
+      "score": 19,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTUZ1UE9rOGR1cndsN1RNS0pOVUdCQjVXZkFYWE1aWTRub2kzYzN5M01lMmZpRmNWcEJCX1Z0ZmxUZ0FmNmZ5S2hVNjNJY29IaEZvdk9KVEZETDRVR3Z2ZnB5VUw4UFQzeWQyR3FYVjljVktLbWxNMFd5WE1rcDVGNU90bG90TmFsc2haZTRqZG1PNWJqMTAxMmxub21zOVktdFkzcVNQTjBBMDlBYWRr?oc=5",
+      "feed_sources": [
+        "Google News – India"
       ]
     },
     {
@@ -5124,33 +5151,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-      "title_language": "ja",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "summary": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV AnimeTV チェーン",
-      "published_at": "2026-11-10T10:54:13+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – India",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "India",
-      "market_region": "South Asia",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 12,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "feed_sources": [
-        "Google News – India"
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/one-piece-elbaph-arc-anime-opening-song-collab-music-video-aina-the-end",
       "title": "AiNA THE END Shares ONE PIECE Elbaph Arc Anime Opening Song Collab Music Video",
       "title_language": "en",
@@ -5886,7 +5886,7 @@
       ]
     }
   ],
-  "trend_count": 407,
+  "trend_count": 406,
   "trends": [
     {
       "id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -6224,7 +6224,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 38,
-        "freshness": 72,
+        "freshness": 71,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6318,7 +6318,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 9,
-        "freshness": 97,
+        "freshness": 96,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6546,53 +6546,6 @@
       ]
     },
     {
-      "id": "https://animecorner.me/exclusive-made-in-abyss-awakening-mystery-heads-to-hidive-in-2027-north-american-premiere-set-for-december-5/",
-      "title": "Exclusive: Made in Abyss: Awakening Mystery Heads to HIDIVE in 2027, North American Premiere Set for December 5",
-      "title_language": "en",
-      "score": 42,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 92,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "Philippines"
-      ],
-      "source_regions": [
-        "Southeast Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime Corner"
-      ],
-      "published_at": "2026-11-10T18:59:53+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Exclusive: Made in Abyss: Awakening Mystery Heads to HIDIVE in 2027, North American Premiere Set for December 5",
-          "title_language": "en",
-          "url": "https://animecorner.me/exclusive-made-in-abyss-awakening-mystery-heads-to-hidive-in-2027-north-american-premiere-set-for-december-5/",
-          "source": "Anime Corner",
-          "source_type": "editorial_site",
-          "source_country": "Philippines",
-          "market_country": null,
-          "feed_sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-10/crunchyroll-streams-suikoden-anime/.243688",
       "title": "Crunchyroll Streams Suikoden Anime",
       "title_language": "en",
@@ -6682,6 +6635,53 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://animecorner.me/exclusive-made-in-abyss-awakening-mystery-heads-to-hidive-in-2027-north-american-premiere-set-for-december-5/",
+      "title": "Exclusive: Made in Abyss: Awakening Mystery Heads to HIDIVE in 2027, North American Premiere Set for December 5",
+      "title_language": "en",
+      "score": 41,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 92,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "Philippines"
+      ],
+      "source_regions": [
+        "Southeast Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime Corner"
+      ],
+      "published_at": "2026-11-10T18:59:53+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Exclusive: Made in Abyss: Awakening Mystery Heads to HIDIVE in 2027, North American Premiere Set for December 5",
+          "title_language": "en",
+          "url": "https://animecorner.me/exclusive-made-in-abyss-awakening-mystery-heads-to-hidive-in-2027-north-american-premiere-set-for-december-5/",
+          "source": "Anime Corner",
+          "source_type": "editorial_site",
+          "source_country": "Philippines",
+          "market_country": null,
+          "feed_sources": [
+            "Anime Corner"
           ]
         }
       ]
@@ -7245,7 +7245,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 89,
+        "freshness": 88,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7602,7 +7602,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 80,
+        "freshness": 79,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7931,7 +7931,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 100,
+        "freshness": 99,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8021,7 +8021,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8237,7 +8237,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 99,
+        "freshness": 98,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8328,7 +8328,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 98,
+        "freshness": 97,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8376,7 +8376,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 98,
+        "freshness": 97,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8565,7 +8565,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8707,7 +8707,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 91,
+        "freshness": 90,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9724,7 +9724,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9769,7 +9769,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 63,
+        "freshness": 62,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -10588,51 +10588,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1d5VndJNzJLXzBLTWpWdTR2UUM1c3VNNlZEaXpTVnRTRkdBZ2VjRmI4c3ZPZnYxSndqeFNoLXFvY3VEMVBlUFNtbElLZGNRZENtQ1NoVmRCN0s1YjFSSHh6eWV1dUtpSzk3WUVNTUZ0NDNPa3JlZUU1UzBhaU9fYlN5ZjU2QklGQXJNTTN0TVk5Q1hDQmVVcjF2ZFFhb2tnaWpvandsSndMN0k?oc=5",
-      "title": "Frédéric Boilet, pionnier du manga d'auteur en France, est mort - ActuaLitté.com",
-      "title_language": "fr",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 87,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T15:22:48+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Frédéric Boilet, pionnier du manga d'auteur en France, est mort - ActuaLitté.com",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1d5VndJNzJLXzBLTWpWdTR2UUM1c3VNNlZEaXpTVnRTRkdBZ2VjRmI4c3ZPZnYxSndqeFNoLXFvY3VEMVBlUFNtbElLZGNRZENtQ1NoVmRCN0s1YjFSSHh6eWV1dUtpSzk3WUVNTUZ0NDNPa3JlZUU1UzBhaU9fYlN5ZjU2QklGQXJNTTN0TVk5Q1hDQmVVcjF2ZFFhb2tnaWpvandsSndMN0k?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
       "title": "Suikoden: The Anime Now Streaming on Crunchyroll - Crunchyroll",
       "title_language": "en",
@@ -11012,6 +10967,51 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1d5VndJNzJLXzBLTWpWdTR2UUM1c3VNNlZEaXpTVnRTRkdBZ2VjRmI4c3ZPZnYxSndqeFNoLXFvY3VEMVBlUFNtbElLZGNRZENtQ1NoVmRCN0s1YjFSSHh6eWV1dUtpSzk3WUVNTUZ0NDNPa3JlZUU1UzBhaU9fYlN5ZjU2QklGQXJNTTN0TVk5Q1hDQmVVcjF2ZFFhb2tnaWpvandsSndMN0k?oc=5",
+      "title": "Frédéric Boilet, pionnier du manga d'auteur en France, est mort - ActuaLitté.com",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 87,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T15:22:48+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Frédéric Boilet, pionnier du manga d'auteur en France, est mort - ActuaLitté.com",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1d5VndJNzJLXzBLTWpWdTR2UUM1c3VNNlZEaXpTVnRTRkdBZ2VjRmI4c3ZPZnYxSndqeFNoLXFvY3VEMVBlUFNtbElLZGNRZENtQ1NoVmRCN0s1YjFSSHh6eWV1dUtpSzk3WUVNTUZ0NDNPa3JlZUU1UzBhaU9fYlN5ZjU2QklGQXJNTTN0TVk5Q1hDQmVVcjF2ZFFhb2tnaWpvandsSndMN0k?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -11430,7 +11430,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 85,
+        "freshness": 84,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11508,141 +11508,6 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHp1NGhTUWlubjYwc0xRd01tUGNHUGhoekZzNk94aHNhY3QxazJNRDk3LTh3TmYzYjhwNzZ4d2JzUEFoYkhuYUtaVTV4cTJXNTJkV0VEMEk1VkJudDNReFBQWk52dGh0OEp6WTZFV2dlVjJjR2FDNEhjMGludXJTT0E0Qm9lX244RWhnVU9R?oc=5",
-      "title": "Classroom for Heroes se termine !, 10 Novembre 2026 - Manga news",
-      "title_language": "en",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 84,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T13:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Classroom for Heroes se termine !, 10 Novembre 2026 - Manga news",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHp1NGhTUWlubjYwc0xRd01tUGNHUGhoekZzNk94aHNhY3QxazJNRDk3LTh3TmYzYjhwNzZ4d2JzUEFoYkhuYUtaVTV4cTJXNTJkV0VEMEk1VkJudDNReFBQWk52dGh0OEp6WTZFV2dlVjJjR2FDNEhjMGludXJTT0E0Qm9lX244RWhnVU9R?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnFHNmEzUUpuemdfZERCQS1zVFVKWk9wbmdYdjhsM2h5eGY4ekxlRGVHOVo1V2FIOTNLLTZjZkNEajhCN00tRVd6TFdRYzhKX3pZZUMwc1l6cG92dWxIajhnWU02NVJTWGhvUklxdnlZblRvZ01pN0FXZ0JyUU9MNWtwMWlYSDBiTTBWb2ZvMHI1cjE4M2lTNGJOUFRXSnV1cmo3ZXlTY2ZKQnNDZ0U5N2lB?oc=5",
-      "title": "L'anime dépasse les 24 000 milliards d'euros et est déjà un pilier de l'audiovisuel - Foro3D",
-      "title_language": "fr",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 84,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T12:58:14+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "L'anime dépasse les 24 000 milliards d'euros et est déjà un pilier de l'audiovisuel - Foro3D",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnFHNmEzUUpuemdfZERCQS1zVFVKWk9wbmdYdjhsM2h5eGY4ekxlRGVHOVo1V2FIOTNLLTZjZkNEajhCN00tRVd6TFdRYzhKX3pZZUMwc1l6cG92dWxIajhnWU02NVJTWGhvUklxdnlZblRvZ01pN0FXZ0JyUU9MNWtwMWlYSDBiTTBWb2ZvMHI1cjE4M2lTNGJOUFRXSnV1cmo3ZXlTY2ZKQnNDZ0U5N2lB?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-      "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-      "title_language": "ja",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 81,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "India"
-      ],
-      "market_regions": [
-        "South Asia"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T10:54:13+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo’s Bizarre Adventure Anime Releases Special \"-HERE COME THE STANDS-\" PV - AnimeTV チェーン",
-          "title_language": "ja",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVmVxTG5SdldVTUpGR19pOXIwRFU1bW1QaDdLV0JabkM2c2g1MEttcDdkalV5eDF2dzBoM3pTbHB0TzZBRi1yU2FOZThObnJoSG40cEhUXy1pRUNaOTFYaVVsTFVXbWdxcFU1VGUySUhxZ09Ga1pHX1pEMjlyRnZDd052VDl3OFE5eDl2RGtUcHc0TUtTVTA0T21wX3lpUGE5OERNMzdDVlV0MWdyLUE?oc=5",
-          "source": "Google News – India",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "India",
-          "feed_sources": [
-            "Google News – India"
           ]
         }
       ]
@@ -11796,7 +11661,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 28,
-        "freshness": 34,
+        "freshness": 33,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -11878,6 +11743,96 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHp1NGhTUWlubjYwc0xRd01tUGNHUGhoekZzNk94aHNhY3QxazJNRDk3LTh3TmYzYjhwNzZ4d2JzUEFoYkhuYUtaVTV4cTJXNTJkV0VEMEk1VkJudDNReFBQWk52dGh0OEp6WTZFV2dlVjJjR2FDNEhjMGludXJTT0E0Qm9lX244RWhnVU9R?oc=5",
+      "title": "Classroom for Heroes se termine !, 10 Novembre 2026 - Manga news",
+      "title_language": "en",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 84,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Classroom for Heroes se termine !, 10 Novembre 2026 - Manga news",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHp1NGhTUWlubjYwc0xRd01tUGNHUGhoekZzNk94aHNhY3QxazJNRDk3LTh3TmYzYjhwNzZ4d2JzUEFoYkhuYUtaVTV4cTJXNTJkV0VEMEk1VkJudDNReFBQWk52dGh0OEp6WTZFV2dlVjJjR2FDNEhjMGludXJTT0E0Qm9lX244RWhnVU9R?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnFHNmEzUUpuemdfZERCQS1zVFVKWk9wbmdYdjhsM2h5eGY4ekxlRGVHOVo1V2FIOTNLLTZjZkNEajhCN00tRVd6TFdRYzhKX3pZZUMwc1l6cG92dWxIajhnWU02NVJTWGhvUklxdnlZblRvZ01pN0FXZ0JyUU9MNWtwMWlYSDBiTTBWb2ZvMHI1cjE4M2lTNGJOUFRXSnV1cmo3ZXlTY2ZKQnNDZ0U5N2lB?oc=5",
+      "title": "L'anime dépasse les 24 000 milliards d'euros et est déjà un pilier de l'audiovisuel - Foro3D",
+      "title_language": "fr",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 84,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T12:58:14+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "L'anime dépasse les 24 000 milliards d'euros et est déjà un pilier de l'audiovisuel - Foro3D",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnFHNmEzUUpuemdfZERCQS1zVFVKWk9wbmdYdjhsM2h5eGY4ekxlRGVHOVo1V2FIOTNLLTZjZkNEajhCN00tRVd6TFdRYzhKX3pZZUMwc1l6cG92dWxIajhnWU02NVJTWGhvUklxdnlZblRvZ01pN0FXZ0JyUU9MNWtwMWlYSDBiTTBWb2ZvMHI1cjE4M2lTNGJOUFRXSnV1cmo3ZXlTY2ZKQnNDZ0U5N2lB?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -12483,7 +12438,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 80,
+        "freshness": 79,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12947,7 +12902,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 75,
+        "freshness": 74,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13520,7 +13475,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 63,
+        "freshness": 62,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13710,7 +13665,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 40,
+        "freshness": 39,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -14860,7 +14815,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 22,
+        "freshness": 21,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -16176,7 +16131,7 @@
         "article_volume": 1
       },
       "article_count": 1,
-      "market_signal_count": 0,
+      "market_signal_count": 1,
       "source_count": 1,
       "primary_source_count": 0,
       "primary_sources": [],
@@ -16186,8 +16141,12 @@
       "source_regions": [
         "North America"
       ],
-      "market_countries": [],
-      "market_regions": [],
+      "market_countries": [
+        "India"
+      ],
+      "market_regions": [
+        "South Asia"
+      ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
       "sources": [
