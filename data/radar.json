@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:18:16.103947+00:00",
+  "updated_at": "2026-11-11T00:20:46.532156+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:17:51.856732+00:00",
+      "last_success_at": "2026-11-11T00:20:24.879884+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:17:52.727732+00:00",
+      "last_success_at": "2026-11-11T00:20:25.559289+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:17:53.103996+00:00",
+      "last_success_at": "2026-11-11T00:20:25.936358+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:17:53.344827+00:00",
+      "last_success_at": "2026-11-11T00:20:26.195223+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 36,
       "unique_items": 36,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:17:53.724327+00:00",
+      "last_success_at": "2026-11-11T00:20:26.332670+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:01.261019+00:00",
+      "last_success_at": "2026-11-11T00:20:30.262518+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:01.763948+00:00",
+      "last_success_at": "2026-11-11T00:20:30.660142+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:02.405488+00:00",
+      "last_success_at": "2026-11-11T00:20:31.593702+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:02.927551+00:00",
+      "last_success_at": "2026-11-11T00:20:32.217120+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:03.593193+00:00",
+      "last_success_at": "2026-11-11T00:20:34.666687+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:03.701384+00:00",
+      "last_success_at": "2026-11-11T00:20:34.844046+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:04.997582+00:00",
+      "last_success_at": "2026-11-11T00:20:36.197426+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:05.810087+00:00",
+      "last_success_at": "2026-11-11T00:20:36.650632+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:06.743245+00:00",
+      "last_success_at": "2026-11-11T00:20:38.434568+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:07.981954+00:00",
+      "last_success_at": "2026-11-11T00:20:39.591690+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:08.846454+00:00",
+      "last_success_at": "2026-11-11T00:20:40.411430+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:09.439297+00:00",
+      "last_success_at": "2026-11-11T00:20:40.813842+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:10.110286+00:00",
+      "last_success_at": "2026-11-11T00:20:41.764141+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:11.021777+00:00",
+      "last_success_at": "2026-11-11T00:20:42.780762+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:11.784956+00:00",
+      "last_success_at": "2026-11-11T00:20:43.454748+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:12.372207+00:00",
+      "last_success_at": "2026-11-11T00:20:43.851400+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:13.048187+00:00",
+      "last_success_at": "2026-11-11T00:20:44.226004+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:13.735943+00:00",
+      "last_success_at": "2026-11-11T00:20:44.751662+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:14.278374+00:00",
+      "last_success_at": "2026-11-11T00:20:45.138333+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:14.814640+00:00",
+      "last_success_at": "2026-11-11T00:20:45.556340+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:15.623905+00:00",
+      "last_success_at": "2026-11-11T00:20:45.977639+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,7 +411,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T00:18:16.095486+00:00",
+      "last_success_at": "2026-11-11T00:20:46.520705+00:00",
       "error": null
     }
   },
@@ -8237,7 +8237,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 14,
-        "freshness": 69,
+        "freshness": 68,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8504,51 +8504,6 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0VVRklfeF9ULTdSVGJuQXJqMTJUR0xlcGFLWGZWZUZiYzJpWHlUTjkwcWhRZWMyT0pycWdTeEpKNGU2RHF0UEJndXBDUXFPS0dBbDVNRzRkbWJsdUhXQzdJM2dqVTJ3UTRkazJXZkhQNnBWSFdQckZEZVJqNk1qaFd0VW54c0xkenU2Tkp4Xy1Jcmk3S3V5VVc2VXpySmJvMVB6WVFyN3o2Rll6Mm5seUd6WHJ2NmNNQTlHNVg2QQ?oc=5",
-      "title": "TEZUKA! GOD OF MANGA Roundtable with Dave Baker, Jason Andrew Cohn, Samuel Sattin, and Nicole Goux - www.comicsbeat.com",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 97,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T22:25:04+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "TEZUKA! GOD OF MANGA Roundtable with Dave Baker, Jason Andrew Cohn, Samuel Sattin, and Nicole Goux - www.comicsbeat.com",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0VVRklfeF9ULTdSVGJuQXJqMTJUR0xlcGFLWGZWZUZiYzJpWHlUTjkwcWhRZWMyT0pycWdTeEpKNGU2RHF0UEJndXBDUXFPS0dBbDVNRzRkbWJsdUhXQzdJM2dqVTJ3UTRkazJXZkhQNnBWSFdQckZEZVJqNk1qaFd0VW54c0xkenU2Tkp4Xy1Jcmk3S3V5VVc2VXpySmJvMVB6WVFyN3o2Rll6Mm5seUd6WHJ2NmNNQTlHNVg2QQ?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United States"
           ]
         }
       ]
@@ -8923,6 +8878,51 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0VVRklfeF9ULTdSVGJuQXJqMTJUR0xlcGFLWGZWZUZiYzJpWHlUTjkwcWhRZWMyT0pycWdTeEpKNGU2RHF0UEJndXBDUXFPS0dBbDVNRzRkbWJsdUhXQzdJM2dqVTJ3UTRkazJXZkhQNnBWSFdQckZEZVJqNk1qaFd0VW54c0xkenU2Tkp4Xy1Jcmk3S3V5VVc2VXpySmJvMVB6WVFyN3o2Rll6Mm5seUd6WHJ2NmNNQTlHNVg2QQ?oc=5",
+      "title": "TEZUKA! GOD OF MANGA Roundtable with Dave Baker, Jason Andrew Cohn, Samuel Sattin, and Nicole Goux - www.comicsbeat.com",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 97,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T22:25:04+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "TEZUKA! GOD OF MANGA Roundtable with Dave Baker, Jason Andrew Cohn, Samuel Sattin, and Nicole Goux - www.comicsbeat.com",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0VVRklfeF9ULTdSVGJuQXJqMTJUR0xlcGFLWGZWZUZiYzJpWHlUTjkwcWhRZWMyT0pycWdTeEpKNGU2RHF0UEJndXBDUXFPS0dBbDVNRzRkbWJsdUhXQzdJM2dqVTJ3UTRkazJXZkhQNnBWSFdQckZEZVJqNk1qaFd0VW54c0xkenU2Tkp4Xy1Jcmk3S3V5VVc2VXpySmJvMVB6WVFyN3o2Rll6Mm5seUd6WHJ2NmNNQTlHNVg2QQ?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – United States"
           ]
         }
       ]
@@ -10275,7 +10275,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 90,
+        "freshness": 89,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11249,7 +11249,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11474,7 +11474,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 85,
+        "freshness": 84,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12069,7 +12069,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 82,
+        "freshness": 81,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13337,7 +13337,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 39,
+        "freshness": 38,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -22848,51 +22848,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUlwU1FjRExHR3hLUmtZZGV2d1NHQUpXMFE4MlFVNmlfRVFIV2Q3emRVU3hfbFdvRTVyVXptOWE3dEwyTEpJdnV1NHRZdDR1RHkzMFpPV2pod2o2Nm9sdlR5STg5NFVYT0xDSFRLTWZkMzRjOFBUTnFhN05qVlBnRTh3eGx5R1ctSDZYeHZodGdtVWRkT2d6R2lLM1ZWRFZJb1FSQ0tJZHY?oc=5",
-      "title": "'Twisted-Wonderland': anime da Disney volta com 'O Episódio de Savanaclaw' em dezembro - einerd.com",
-      "title_language": "en",
-      "score": 14,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 25,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-08T18:00:11+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Twisted-Wonderland': anime da Disney volta com 'O Episódio de Savanaclaw' em dezembro - einerd.com",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUlwU1FjRExHR3hLUmtZZGV2d1NHQUpXMFE4MlFVNmlfRVFIV2Q3emRVU3hfbFdvRTVyVXptOWE3dEwyTEpJdnV1NHRZdDR1RHkzMFpPV2pod2o2Nm9sdlR5STg5NFVYT0xDSFRLTWZkMzRjOFBUTnFhN05qVlBnRTh3eGx5R1ctSDZYeHZodGdtVWRkT2d6R2lLM1ZWRFZJb1FSQ0tJZHY?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUVplV0RtbFBVMXhzeDhDdzlId3A4R3FzdTB6dG1md0RlM1NrTGJmTDAyQUtCSzBwZ2ZLdEJkSGpweWNlWmNBNDd3WF81N1RhTGM4NTZsMGtIRTJKeWJKbnNQdWlVWG9iQk9DREltaVN4RlN1VU45WmtvNUQzWFpnOTFPS1FkajBRWUN6LTQxLTdMRzZRcUZvRGUtdEdTNV9lQ0FhYmt6WkR5eXMzQWZ3MnJaZ1gxUHJ0M1hzbU40SUtLLUxpNDVrX2kweU9mN1ZoME02V3hyaE1xTFRRbERIeG1hQ0Z0WFM1RmwzNjM1M0dSRW83OWpXMA?oc=5",
       "title": "La plateforme d’animes Crunchyroll poursuit sa course de croissance avec la vigueur de ses 20 ans - Le Monde.fr",
       "title_language": "fr",
@@ -24240,6 +24195,51 @@
           "title": "One Piece | Capítulo 1198 dobra a aposta com guerra que mais parece “o fim do mundo” - Omelete",
           "title_language": "en",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ka3Y4RDdYTE11T1dhUmRHZkxORVpZMGFxVURfZ1JHVE1KMk5vWFowMmFZR0Q4MTFQNXF0RUZZNzVZcmZmS0FnTXQzSGNNUVhkN21GenNuSzdsaDVyVEZ6MWNnek1UeWRQejlrYUV5UGVFd0FDTXRZ?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPclo4anp4NElVQ1UyQTZKX1dLUGYwRlQzLTBvU2dlVjNmVjFORV9raFF5b09wYlZfNndhV2hXWTVGQW5kVGppWkV4dHpmaGozck51c1ZRQ0pVM2tuNHNrTGU3MXExeFFMcGZaN19EUGRtZ2ZScFFDVHM2anZybXhacWtyTW90bl9XUVVzaVpma2RrYnRETWx6YVEwN1BoX25XMGREMg?oc=5",
+      "title": "SPY x FAMILY tem 4ª temporada e novo filme anunciados para 2027 - Crunchyroll",
+      "title_language": "en",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 5,
+        "freshness": 22,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-08T16:07:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "SPY x FAMILY tem 4ª temporada e novo filme anunciados para 2027 - Crunchyroll",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPclo4anp4NElVQ1UyQTZKX1dLUGYwRlQzLTBvU2dlVjNmVjFORV9raFF5b09wYlZfNndhV2hXWTVGQW5kVGppWkV4dHpmaGozck51c1ZRQ0pVM2tuNHNrTGU3MXExeFFMcGZaN19EUGRtZ2ZScFFDVHM2anZybXhacWtyTW90bl9XUVVzaVpma2RrYnRETWx6YVEwN1BoX25XMGREMg?oc=5",
           "source": "Google Actualités – Brésil",
           "source_type": "market_search",
           "source_country": null,
