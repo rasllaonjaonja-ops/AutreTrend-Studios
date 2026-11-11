@@ -81,7 +81,7 @@ class EditorialGenerationTests(unittest.TestCase):
         }
         self.assertFalse(valid_editorial_queue(queue))
 
-    def test_generated_queue_requires_eight_social_variants(self):
+    def test_generated_queue_requires_two_social_variants(self):
         queue = {
             "ai_generation_status": "generated",
             "ai_generated_count": 1,
@@ -90,16 +90,7 @@ class EditorialGenerationTests(unittest.TestCase):
                 "human_review_required": True,
                 "publication_allowed": False,
                 "ai_generation": {"provider": "Cloudflare Workers AI", "human_review_required": True},
-                "social_posts": {
-                    "facebook": "Texte",
-                    "instagram": "Texte",
-                    "tiktok": "Texte",
-                    "x": "Texte",
-                    "threads": "Texte",
-                    "youtube": {"title": "Titre", "description": "Texte"},
-                    "telegram": "Texte",
-                    "pinterest": {"title": "Titre", "description": "Texte"},
-                },
+                "social_posts": {"facebook": "Texte", "tiktok": "Texte"},
             }],
         }
         self.assertTrue(valid_editorial_queue(queue))
@@ -107,12 +98,7 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertFalse(valid_editorial_queue(queue))
 
     def test_partial_generation_allows_only_unwritten_fallback_items(self):
-        complete = {
-            "facebook": "Texte", "instagram": "Texte", "tiktok": "Texte",
-            "x": "Texte", "threads": "Texte", "telegram": "Texte",
-            "youtube": {"title": "Titre", "description": "Texte"},
-            "pinterest": {"title": "Titre", "description": "Texte"},
-        }
+        complete = {"facebook": "Texte", "tiktok": "Texte"}
         queue = {
             "ai_generation_status": "partial",
             "ai_generated_count": 1,
