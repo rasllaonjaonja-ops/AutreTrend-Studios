@@ -180,6 +180,10 @@ async function runEditorialModel(model, payload, env, provider) {
   throw new Error("Fournisseur IA non pris en charge");
 }
 
+function isCloudflareQuotaExhaustion(error) {
+  return /(?:4006|daily free allocation|quota.{0,30}(?:exhausted|used up|limit)|used up.{0,30}quota)/i.test(String(error || ""));
+}
+
 async function generateOne(item, env, correctivePass = false, previousError = "", model = MODEL, provider = "cloudflare") {
   const system = [
     "Tu es journaliste-rédacteur francophone spécialisé manga, anime et culture pop, au sein d'un média indépendant.",
@@ -408,23 +412,30 @@ export async function onRequestPost({ request, env }) {
           attempts: 2
         }] : [])
       ];
-      // Deux modèles Cloudflare sont essayés en premier. Si les deux échouent,
-      // un fournisseur indépendant est utilisé uniquement si sa clé est configurée.
-      // Chaque sujet reste isolé; aucun brouillon rejeté n'est publié.
+      let cloudflareQuotaExhausted = false;
+      // Une limite de quota s'applique au compte Cloudflare, pas à un modèle isolé :
+      // ne pas gaspiller d'essais sur le second modèle et passer directement au secours indépendant.
       for (const plan of modelPlan) {
+        if (cloudflareQuotaExhausted && plan.provider === "cloudflare") continue;
         for (let attempt = 0; attempt < plan.attempts; attempt++) {
           try {
-            // Dès qu'un essai échoue, chaque moteur suivant reçoit le motif précis
-            // et doit corriger la réponse, y compris lors du premier essai du modèle de secours.
+            // Chaque moteur suivant reçoit le motif précis et doit corriger la réponse.
             draft = await generateOne(item, env, Boolean(lastError), lastError, plan.model, plan.provider);
             draft.model = plan.model;
             draft.provider = plan.provider === "groq" ? "Groq API (fournisseur indépendant)" : "Cloudflare Workers AI";
             break;
           } catch (error) {
             lastError = String(error);
+            if (plan.provider === "cloudflare" && isCloudflareQuotaExhaustion(lastError)) {
+              cloudflareQuotaExhausted = true;
+              break;
+            }
           }
         }
         if (draft) break;
+      }
+      if (!draft && cloudflareQuotaExhausted && !env.AUTOTREND_GROQ_API_KEY) {
+        lastError = "Quota Cloudflare épuisé; secours indépendant inactif : AUTOTREND_GROQ_API_KEY n'est pas configurée.";
       }
       if (draft) output.push(draft);
       else errors.push({ trend_id: item.trend_id, detail: lastError.slice(0, 240) });
@@ -438,6 +449,7 @@ export async function onRequestPost({ request, env }) {
   return json({
     model: output.length ? [...new Set(output.map(item => item.model || MODEL))].join(" + ") : MODEL + " / " + FALLBACK_MODEL,
     fallback_model: FALLBACK_MODEL,
+    independent_fallback_configured: Boolean(env.AUTOTREND_GROQ_API_KEY),
     generated_at: new Date().toISOString(),
     items: output,
     errors
