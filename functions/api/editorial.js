@@ -83,6 +83,17 @@ function editorialTextErrors(value, platform) {
   return errors;
 }
 
+function hasUnverifiedConfirmationClaim(value) {
+  const text = String(value || "").normalize("NFKD").toLowerCase()
+    .replace(/\p{M}/gu, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  if (/\b(?:aucune|pas de|sans)\b.{0,35}\b(?:confirmation|preuve|officiel(?:le|s|les)?)\b/.test(text)) return false;
+  return [
+    /\b(?:est|sont|a ete|ont ete|vient d etre|viennent d etre)\s+(?:officiellement\s+)?confirme(?:e|s|es)\b/,
+    /\bc est officiel(?:le|s|les)?\b/,
+    /\b(?:annonce|confirmation)\s+officielle(?:ment)?\b/
+  ].some(pattern => pattern.test(text));
+}
+
 function tidyEditorialText(value, deduplicate = false) {
   const text = String(value || "")
     .replace(/[ \t]+([,;:.!?])/g, "$1")
@@ -269,6 +280,17 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     .replace(/\p{M}/gu, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
   if (normalizePlatformText(parsed.posts.facebook) === normalizePlatformText(parsed.posts.tiktok)) {
     throw new Error("Facebook et TikTok sont identiques : réécriture différenciée obligatoire");
+  }
+
+  if (!(input.official_evidence || []).length) {
+    const generatedTexts = [parsed.title_fr, parsed.summary_fr, parsed.editorial_angle, parsed.discussion_question,
+      parsed.posts.facebook, parsed.posts.tiktok,
+      ...(parsed.trend_synthesis.key_facts || []),
+      ...(parsed.trend_synthesis.reported_but_unconfirmed || []),
+      parsed.trend_synthesis.coverage_summary, parsed.trend_synthesis.editorial_context];
+    if (generatedTexts.some(hasUnverifiedConfirmationClaim)) {
+      throw new Error("Affirmation de confirmation ou d'officialité sans preuve officielle directe");
+    }
   }
 
   return {

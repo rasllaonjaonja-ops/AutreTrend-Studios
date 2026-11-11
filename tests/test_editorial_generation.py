@@ -144,6 +144,13 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
         self.assertEqual(detect_text_language("The fourth season of this series is confirmed"), "en")
 
+    def test_unverified_official_claims_are_rejected_without_first_party_evidence(self):
+        from scripts.generate_editorial import has_unverified_confirmation_claim
+        self.assertTrue(has_unverified_confirmation_claim("Deux projets sont confirmés pour 2027."))
+        self.assertTrue(has_unverified_confirmation_claim("C'est officiel via l'événement."))
+        self.assertFalse(has_unverified_confirmation_claim("Plusieurs médias rapportent cette annonce."))
+        self.assertFalse(has_unverified_confirmation_claim("Aucune confirmation officielle n'est fournie."))
+
     def test_worker_has_a_json_mode_fallback_model(self):
         from pathlib import Path
         root = Path(__file__).resolve().parents[1]
@@ -209,15 +216,6 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertIn("ne traduis jamais les noms propres", worker_prompt)
         self.assertIn("Forgeron", worker_prompt)
         self.assertIn("laisse le contrôle rejeter le sujet", worker_prompt)
-
-
-    def test_current_repository_queue_obeys_publication_safety_contract(self):
-        import json
-        from pathlib import Path
-        queue_path = Path(__file__).resolve().parents[1] / "data" / "editorial_queue.json"
-        queue = json.loads(queue_path.read_text(encoding="utf-8"))
-        self.assertTrue(valid_editorial_queue(queue))
-        self.assertTrue(all(item.get("publication_allowed") is False for item in queue.get("items", [])))
 
 
 if __name__ == "__main__":

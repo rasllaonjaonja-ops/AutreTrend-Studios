@@ -111,6 +111,20 @@ def post_validation_errors(posts):
             errors.append("Facebook et TikTok : adaptations identiques")
     return errors
 
+def has_unverified_confirmation_claim(value):
+    """Repère une affirmation positive de confirmation sans preuve de première partie."""
+    import re
+    text = _normalise_sentence(value)
+    if re.search(r"\b(?:aucune|pas de|sans)\b.{0,35}\b(?:confirmation|preuve|officiel(?:le|s|les)?)\b", text):
+        return False
+    patterns = (
+        r"\b(?:est|sont|a ete|ont ete|vient d etre|viennent d etre)\s+(?:officiellement\s+)?confirme(?:e|s|es)\b",
+        r"\bc est officiel(?:le|s|les)?\b",
+        r"\b(?:annonce|confirmation)\s+officielle(?:ment)?\b",
+    )
+    return any(re.search(pattern, text) for pattern in patterns)
+
+
 def valid_posts(posts):
     """Compatibilité avec les tests et les autres modules du projet."""
     return not post_validation_errors(posts)
@@ -334,6 +348,17 @@ def main():
 
         post_errors = post_validation_errors(draft_posts)
         item_errors.extend(post_errors)
+        if not item.get("official_evidence"):
+            generated_texts = [title_fr, summary_fr, editorial_angle, discussion_question]
+            if isinstance(draft_posts, dict):
+                generated_texts.extend(draft_posts.get(key, "") for key in ("facebook", "tiktok"))
+            synthesis_check = draft.get("trend_synthesis", {})
+            if isinstance(synthesis_check, dict):
+                generated_texts.extend(synthesis_check.get("key_facts", []))
+                generated_texts.extend(synthesis_check.get("reported_but_unconfirmed", []))
+                generated_texts.extend((synthesis_check.get("coverage_summary", ""), synthesis_check.get("editorial_context", "")))
+            if any(has_unverified_confirmation_claim(value) for value in generated_texts):
+                item_errors.append("affirmation de confirmation ou d'officialité sans preuve officielle directe")
 
         editorial_angle = str(draft.get("editorial_angle", "")).strip()
         discussion_question = str(draft.get("discussion_question", "")).strip()
