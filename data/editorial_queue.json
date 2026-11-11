@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:25:07.434536+00:00",
+  "generated_at": "2026-11-11T00:27:10.567936+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -8,7 +8,7 @@
   ],
   "network_variant_count": 4,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour Facebook et TikTok. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 405,
+  "rejected_count": 404,
   "rejected_sample": [
     {
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
@@ -280,10 +280,11 @@
       ],
       "market_countries": [
         "France",
-        "United Kingdom"
+        "United States"
       ],
       "market_regions": [
-        "Europe"
+        "Europe",
+        "North America"
       ],
       "primary_sources": [],
       "primary_source_count": 0,
@@ -576,7 +577,7 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook (69/75 mots)"
+        "Error: Facebook et TikTok sont trop similaires : réécriture différenciée obligatoire"
       ]
     },
     {
@@ -594,7 +595,7 @@
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Contenu trop court pour facebook (69/75 mots)"
+      "detail": "Error: Facebook et TikTok sont trop similaires : réécriture différenciée obligatoire"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -604,5 +605,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook (69/75 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Contenu trop court pour facebook (69/75 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Facebook et TikTok sont trop similaires : réécriture différenciée obligatoire; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Facebook et TikTok sont trop similaires : réécriture différenciée obligatoire; Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
 }
