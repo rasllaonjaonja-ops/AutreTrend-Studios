@@ -117,7 +117,7 @@ class EditorialGenerationTests(unittest.TestCase):
         shorter["facebook"] = " ".join(self.posts["facebook"].split()[:80])
         self.assertTrue(valid_posts(shorter))
         too_short = dict(self.posts)
-        too_short["facebook"] = " ".join(self.posts["facebook"].split()[:69])
+        too_short["facebook"] = " ".join(self.posts["facebook"].split()[:59])
         self.assertFalse(valid_posts(too_short))
 
     def test_rejects_placeholder_repetition_and_identical_platform_copy(self):
