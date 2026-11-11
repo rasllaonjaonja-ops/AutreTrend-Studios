@@ -439,7 +439,7 @@ def main():
             "translation_note": "Rédaction française IA contrôlée : relecture humaine obligatoire avant toute publication."
         }
         item["ai_generation"] = {
-            "provider": "Cloudflare Workers AI",
+            "provider": draft.get("provider") or "Cloudflare Workers AI",
             "model": draft.get("model") or result.get("model", "unknown"),
             "generated_at": result.get("generated_at", ""),
             "human_review_required": True
