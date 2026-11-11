@@ -75,7 +75,7 @@ def _content_quality_errors(value, platform):
         errors.append(f"{platform} : consigne ou texte de remplacement interdit")
     sentences = [
         _normalise_sentence(part)
-        for part in re.split(r"(?<=[.!?…])\\s+", text)
+        for part in re.split(r"(?<=[.!?…])\s+", text)
         if _normalise_sentence(part)
     ]
     if len(sentences) != len(set(sentences)):
@@ -387,12 +387,7 @@ def main():
         item["discussion_question"] = discussion_question
         item["claims_to_verify"] = claims[:12]
         posts = dict(draft["posts"])
-        source_url = str(item.get("source_excerpt_url", "")).strip()
-        if source_url.startswith("https://"):
-            publishers = ", ".join(item.get("media", [])[:3])
-            source_note = "\nSource à consulter : " + publishers + "\n" + source_url
-            posts["facebook"] = str(posts["facebook"]).rstrip() + source_note
-            posts["tiktok"] = str(posts["tiktok"]).rstrip() + "\\nSources : " + publishers
+        # Les liens et noms des médias restent dans la fiche de sources, pas dans le corps rédactionnel.
         item["social_posts"] = {
             **posts,
             "language_ready": True,
