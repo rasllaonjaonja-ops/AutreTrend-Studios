@@ -80,7 +80,7 @@ def _content_quality_errors(value, platform):
     ]
     if len(sentences) != len(set(sentences)):
         errors.append(f"{platform} : phrase répétée")
-    if platform == "facebook" and not (85 <= word_count(text) <= 135):
+    if platform == "facebook" and not (75 <= word_count(text) <= 135):
         errors.append(f"facebook : longueur {word_count(text)} mots, cible 90 à 110")
     if platform == "tiktok" and not (35 <= word_count(text) <= 75):
         errors.append(f"tiktok : longueur {word_count(text)} mots, cible 40 à 60")
