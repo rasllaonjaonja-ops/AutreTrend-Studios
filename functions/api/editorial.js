@@ -150,7 +150,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "Facebook : publication originale de 90 à 110 mots, en 5 à 7 phrases naturelles : accroche factuelle, synthèse croisée, détails vérifiables, contexte sourcé et question communautaire. Elle doit être autonome et ne pas recopier le résumé brut.",
     "TikTok : script oral original de 40 à 60 mots, avec une accroche parlée différente de Facebook, explication claire, chute et question; pas de consignes de caméra.",
     "N'ajoute aucune source ou URL non fournie. Une relecture humaine reste obligatoire. Ne prétends jamais être un humain ni avoir vérifié une source que tu n'as pas consultée.",
-    "Respecte strictement les longueurs minimales du validateur : Facebook 70 mots, Instagram 45, TikTok 35, X 8 mots et 260 caractères maximum, Threads 40 et Telegram 40 mots, hors sources et hashtags. Vise le milieu de chaque fourchette plutôt que la limite minimale. Ne remplace jamais le corps par une phrase courte.",
+    "Respecte strictement les longueurs : Facebook 90 à 110 mots et TikTok 40 à 60 mots. Les deux textes doivent être distincts, structurés, naturels et sans remplissage.",
     "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir trend_synthesis (key_facts, reported_but_unconfirmed, coverage_summary, editorial_context), title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
     "posts doit contenir exactement deux chaînes : facebook et tiktok. N’ajoute aucune autre plateforme."
   ].join("\n");
@@ -212,22 +212,8 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   }
   for (const platform of PLATFORMS) {
     const value = parsed.posts[platform];
-    if (typeof value === "string") {
-      parsed.posts[platform] = tidyEditorialText(value);
-    } else if (value && typeof value === "object") {
-      if (typeof value.title === "string") value.title = tidyEditorialText(value.title);
-      if (typeof value.description === "string") value.description = tidyEditorialText(value.description, true);
-    }
-  }
-  for (const platform of PLATFORMS) {
-    const value = parsed.posts[platform];
-    if (platform === "youtube" || platform === "pinterest") {
-      if (!value || typeof value.title !== "string" || typeof value.description !== "string") {
-        throw new Error("Format incomplet : " + platform);
-      }
-    } else if (typeof value !== "string" || !value.trim()) {
-      throw new Error("Format incomplet : " + platform);
-    }
+    if (typeof value !== "string" || !value.trim()) throw new Error("Format incomplet : " + platform);
+    parsed.posts[platform] = tidyEditorialText(value);
   }
   if (!parsed.trend_synthesis || !Array.isArray(parsed.trend_synthesis.key_facts)
       || parsed.trend_synthesis.key_facts.length < 1
