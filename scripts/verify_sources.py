@@ -166,12 +166,15 @@ def is_aggregator_article(item):
     )
 
 
-def select_verification_sample(items, limit=MAX_ARTICLES):
-    """Échantillonne d'abord les articles directs, puis complète avec les agrégateurs."""
+def select_verification_sample(items, limit=MAX_ARTICLES, now=None):
+    """Échantillonne d'abord les articles directs, puis complète avec les agrégateurs.
+
+    ``now`` permet de rendre le classement temporel déterministe dans les tests.
+    """
     direct = [item for item in items if not is_aggregator_article(item)]
     aggregated = [item for item in items if is_aggregator_article(item)]
-    direct.sort(key=verification_rank)
-    aggregated.sort(key=verification_rank)
+    direct.sort(key=lambda item: verification_rank(item, now=now))
+    aggregated.sort(key=lambda item: verification_rank(item, now=now))
     return (direct + aggregated)[:limit]
 
 

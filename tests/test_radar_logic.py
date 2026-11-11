@@ -156,7 +156,7 @@ class RadarLogicTests(unittest.TestCase):
             {"source": "Google Actualités – France", "source_type": "market_search",
              "published_at": "2026-11-11T10:00:00+00:00", "score": 99},
         ]
-        selected = select_verification_sample(aggregators + direct, limit=3)
+        selected = select_verification_sample(aggregators + direct, limit=3, now=now)
         self.assertEqual([item["source"] for item in selected],
                          ["Anime News Network", "Crunchyroll News", "Google News – United States"])
 
