@@ -66,18 +66,18 @@ function extractJson(value) {
 }
 
 function wordCount(value) {
-  return String(value || "").trim().split(/\\s+/).filter(Boolean).length;
+  return String(value || "").trim().split(/\s+/).filter(Boolean).length;
 }
 
 function editorialTextErrors(value, platform) {
   const text = String(value || "").trim();
-  const folded = text.normalize("NFKD").toLowerCase().replace(/\\p{M}/gu, "");
+  const folded = text.normalize("NFKD").toLowerCase().replace(/\p{M}/gu, "");
   const forbidden = ["resume en francais a produire", "apres traduction et controle", "texte a completer", "contenu a generer", "[resume"];
   const errors = [];
   if (forbidden.some(marker => folded.includes(marker))) errors.push(platform + " contient une consigne ou un texte de remplacement");
   const sentences = (text.match(/[^.!?…]+(?:[.!?…]+|$)/g) || [])
-    .map(sentence => sentence.toLowerCase().normalize("NFKD").replace(/\\p{M}/gu, "")
-      .replace(/[^\\p{L}\\p{N}]+/gu, " ").trim()).filter(Boolean);
+    .map(sentence => sentence.toLowerCase().normalize("NFKD").replace(/\p{M}/gu, "")
+      .replace(/[^\p{L}\p{N}]+/gu, " ").trim()).filter(Boolean);
   if (new Set(sentences).size !== sentences.length) errors.push(platform + " contient une phrase répétée");
   return errors;
 }
@@ -273,8 +273,8 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     const qualityErrors = editorialTextErrors(content, platform);
     if (qualityErrors.length) throw new Error(qualityErrors.join("; "));
   }
-  const facebookTokens = new Set((parsed.posts.facebook.toLowerCase().match(/[\\p{L}]{4,}/gu) || []));
-  const tiktokTokens = new Set((parsed.posts.tiktok.toLowerCase().match(/[\\p{L}]{4,}/gu) || []));
+  const facebookTokens = new Set((parsed.posts.facebook.toLowerCase().match(/[\p{L}]{4,}/gu) || []));
+  const tiktokTokens = new Set((parsed.posts.tiktok.toLowerCase().match(/[\p{L}]{4,}/gu) || []));
   const smaller = Math.min(facebookTokens.size, tiktokTokens.size);
   const shared = [...facebookTokens].filter(token => tiktokTokens.has(token)).length;
   if (smaller && shared / smaller > 0.9) throw new Error("Facebook et TikTok sont trop similaires : réécriture différenciée obligatoire");
