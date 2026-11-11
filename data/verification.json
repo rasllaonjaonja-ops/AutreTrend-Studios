@@ -1,10 +1,19 @@
 {
-  "checked_at": "2026-11-11T02:02:19.584516+00:00",
+  "checked_at": "2026-11-11T02:09:31.786885+00:00",
   "checked_articles": 40,
   "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
   "official_link_found": 0,
   "errors": [],
   "checks": [
+    {
+      "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-11T02:07:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
     {
       "title": "Sumika Releases The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life Anime Opening Song Music Video",
       "article_url": "https://crunchyroll.com/news/latest/2026/11/11/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life-anime-opening-song-music-video-sumika",
@@ -355,15 +364,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "L’anime SPY x FAMILY Saison 4, annoncé pour 2027",
-      "article_url": "https://adala-news.fr/2026/11/lanime-spy-x-family-saison-4-annonce-pour-2027/",
-      "publisher": "Adala News",
-      "published_at": "2026-11-08T11:25:24+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "L'anime SPY x FAMILY Saison 4, annoncé pour 2027 - Adala News"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
