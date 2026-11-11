@@ -625,7 +625,7 @@ function renderRadar(){
   return true;
  }).slice(0,20);
  $("#radar-kpis").innerHTML='<div class="radar-kpi"><small>ARTICLES COLLECTÉS</small><b>'+esc(radar.item_count||allItems.length)+'</b></div><div class="radar-kpi"><small>SITES ÉDITORIAUX</small><b>'+esc(radar.site_count||20)+'</b></div><div class="radar-kpi"><small>MARCHÉS PAYS</small><b>'+esc(radar.market_country_count||7)+'</b></div><div class="radar-kpi"><small>SUJETS REGROUPÉS</small><b>'+esc(radar.trend_count||trends.length)+'</b></div><div class="radar-kpi"><small>PRÉPUBLICATIONS</small><b>'+esc(queue?.count||0)+' / 3</b></div><div class="radar-kpi"><small>LIENS OFFICIELS REPÉRÉS</small><b>'+esc(verification?.official_link_found||0)+'</b></div>';
- const socialLabels={facebook:"Facebook",instagram:"Instagram",tiktok:"TikTok",x:"X",threads:"Threads",youtube:"YouTube",telegram:"Telegram",pinterest:"Pinterest"};
+ const socialLabels={facebook:"Facebook",tiktok:"TikTok"};
  const renderNetworkPreview=(pack,platform)=>{
   const posts=pack?.social_posts||{};
   const value=posts[platform];
@@ -658,7 +658,7 @@ function renderRadar(){
    return '<div class="social-output"><div><b>'+label+'</b><button type="button" class="social-copy" data-copy-social="'+key+'" data-copy-id="'+esc(pack.trend_id)+'">Copier</button></div><p>'+esc(body)+'</p></div>';
   }).join("");
   const warning=posts.translation_required?'<p class="social-warning">⚠ Traduction française et contrôle des faits requis : ce brouillon n’est pas publiable tel quel.</p>':(pack.ai_generation?'<p class="social-ready">Rédaction assistée par IA · adaptations spécifiques · relecture humaine obligatoire.</p>':'<p class="social-ready">Textes provisoires : la rédaction IA et la validation des faits restent nécessaires.</p>');
-  return '<section class="social-pack"><div class="smart-preview-head"><div><b>Aperçu intelligent</b><small>Simulation du rendu · aucun envoi vers le réseau</small></div><select class="preview-network-select" data-preview-select="'+esc(pack.trend_id)+'">'+options+'</select></div>'+warning+'<div data-preview-content="'+esc(pack.trend_id)+'">'+renderNetworkPreview(pack,"facebook")+'</div><details class="social-variants"><summary>Consulter les 8 versions et copier un texte</summary><div class="social-grid">'+cards+'</div></details></section>';
+  return '<section class="social-pack"><div class="smart-preview-head"><div><b>Aperçu intelligent</b><small>Simulation du rendu · aucun envoi vers le réseau</small></div><select class="preview-network-select" data-preview-select="'+esc(pack.trend_id)+'">'+options+'</select></div>'+warning+'<div data-preview-content="'+esc(pack.trend_id)+'">'+renderNetworkPreview(pack,"facebook")+'</div><details class="social-variants"><summary>Consulter les 2 versions et copier un texte</summary><div class="social-grid">'+cards+'</div></details></section>';
  };
 
  const editorialDetails=(pack)=>{
