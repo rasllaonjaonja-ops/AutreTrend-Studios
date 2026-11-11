@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:00:04.378082+00:00",
+  "generated_at": "2026-11-11T02:02:19.584516+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -8,7 +8,7 @@
   ],
   "network_variant_count": 4,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour Facebook et TikTok. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 406,
+  "rejected_count": 405,
   "rejected_sample": [
     {
       "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
@@ -150,14 +150,6 @@
       ]
     },
     {
-      "title": "Netflix Confirms New One Piece Anime Season on November 15 - Comic Book Resources",
-      "reasons": [
-        "aucun éditeur indépendant : agrégateur seul, sujet non admissible",
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "The Iceblade Sorcerer Shall Rule the World Author Nana Mikoshiba's Original Novel Gets Manga Adaptation on November 17 - Anime News Network",
       "reasons": [
         "aucun éditeur indépendant : agrégateur seul, sujet non admissible",
@@ -232,6 +224,15 @@
     },
     {
       "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
+      ]
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -438,20 +439,46 @@
         "status": "checked"
       },
       "verification_pending": false,
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
+      "editorial_status": "plusieurs médias — confirmation officielle requise · rédaction IA à relire",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "en",
       "summary_language": "fr",
       "source_excerpt": "Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…",
       "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Rédaction française IA en attente : aucun texte provisoire ne doit être publié.",
-        "facebook": "",
-        "tiktok": ""
+        "facebook": "L'univers SPY x FAMILY s'agrandit encore avec une excellente nouvelle pour 2027. Deux nouveaux projets sont confirmés: la quatrième saison de l'anime et un second film. L'annonce a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le staff de réalisation a également été dévoilé à cette occasion. Cela promet d'être une année riche pour la famille Forger. Qu'attendez-vous le plus de cette suite?",
+        "tiktok": "La famille Forger revient en 2027! On annonce la saison 4 et un nouveau film SPY x FAMILY. C'est officiel via l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le staff est déjà révélé. Vous êtes prêts pour la suite?",
+        "language_ready": true,
+        "translation_required": false,
+        "translation_note": "Rédaction française IA contrôlée : relecture humaine obligatoire avant toute publication."
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spy x Family Season 4 & New Film Confirmed For 2027 Release\nExtrait RSS : Le site officiel a annoncé la production de l’anime SPY x FAMILY Saison 4 (SPYxFAMILY Season 4)…\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nRédaction française IA en attente : aucun texte provisoire ne doit être publié.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : SPY x FAMILY: Saison 4 et film pour 2027\n\nL'anime SPY x FAMILY reviendra en 2027 avec sa quatrième saison et un nouveau film. L'annonce a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le staff de réalisation a également été dévoilé à cette occasion.\n\nAngle éditorial : Une excellente nouvelle pour les fans qui attendent la suite des aventures de la famille Forger.\nSynthèse des tendances : Plusieurs médias internationaux rapportent l'annonce de deux nouveaux projets pour 2027.\nFaits clés : La production de la saison 4 et d'un nouveau film SPY x FAMILY est annoncée pour 2027.; Les détails sur le staff de réalisation sont révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II.\nÉléments rapportés à confirmer : La date exacte de sortie pour 2027 n'est pas encore précisée.; Les détails sur le scénario du film SPY x FAMILY THE MOVIE 2 restent inconnus.\nQuestion : Quelle est votre attente pour la saison 4 de SPY x FAMILY?\n\nPoints à vérifier : La date exacte de sortie en 2027 n'est pas encore confirmée.; Les détails sur le scénario du film SPY x FAMILY THE MOVIE 2 restent à confirmer.\n\nSources : Adala News, Anime Corner, Animehunch, Animotaku, Crunchyroll, MyAnimeList, ORICON / Japan Anime News\nNe pas publier sans relecture humaine.",
+      "trend_synthesis": {
+        "key_facts": [
+          "La production de la saison 4 et d'un nouveau film SPY x FAMILY est annoncée pour 2027.",
+          "Les détails sur le staff de réalisation sont révélés lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II."
+        ],
+        "reported_but_unconfirmed": [
+          "La date exacte de sortie pour 2027 n'est pas encore précisée.",
+          "Les détails sur le scénario du film SPY x FAMILY THE MOVIE 2 restent inconnus."
+        ],
+        "coverage_summary": "Plusieurs médias internationaux rapportent l'annonce de deux nouveaux projets pour 2027.",
+        "editorial_context": "Cette annonce est attendue par les fans de la franchise depuis plusieurs années."
+      },
+      "title_fr": "SPY x FAMILY: Saison 4 et film pour 2027",
+      "summary_fr": "L'anime SPY x FAMILY reviendra en 2027 avec sa quatrième saison et un nouveau film. L'annonce a été faite lors de l'événement SPY×FAMILY ANIME EXTRA MISSION II. Le staff de réalisation a également été dévoilé à cette occasion.",
+      "editorial_angle": "Une excellente nouvelle pour les fans qui attendent la suite des aventures de la famille Forger.",
+      "discussion_question": "Quelle est votre attente pour la saison 4 de SPY x FAMILY?",
+      "claims_to_verify": [
+        "La date exacte de sortie en 2027 n'est pas encore confirmée.",
+        "Les détails sur le scénario du film SPY x FAMILY THE MOVIE 2 restent à confirmer."
+      ],
+      "ai_generation": {
+        "provider": "Cloudflare Workers AI",
+        "model": "@cf/zai-org/glm-4.7-flash",
+        "generated_at": "2026-11-11T02:03:39.343Z",
+        "human_review_required": true
+      }
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -569,11 +596,9 @@
       "title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release",
       "response_received": true,
       "response_valid": true,
-      "draft_returned": false,
-      "accepted": false,
-      "validation_errors": [
-        "AiError: 3043: Internal server error"
-      ]
+      "draft_returned": true,
+      "accepted": true,
+      "validation_errors": []
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -583,22 +608,18 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "AiError: 8004: Internal server error"
+        "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 35 mots"
       ]
     }
   ],
   "ai_validation_errors": [
     {
-      "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "AiError: 3043: Internal server error"
-    },
-    {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "AiError: 8004: Internal server error"
+      "detail": "Error: Brief éditorial incomplet : summary_fr doit contenir au moins 35 mots"
     }
   ],
-  "ai_generated_count": 0,
-  "ai_generation_status": "rejected",
-  "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : AiError: 3043: Internal server error; AiError: 8004: Internal server error; AiError: 3043: Internal server error; AiError: 8004: Internal server error"
+  "ai_generated_count": 1,
+  "ai_generation_status": "partial",
+  "ai_model": "@cf/zai-org/glm-4.7-flash / @cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "ai_notice": "Rédaction IA partielle : 1/2 sujet(s) validé(s). Les sujets en échec restent non publiables. Validation humaine obligatoire."
 }
