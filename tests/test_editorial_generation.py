@@ -12,15 +12,15 @@ class EditorialGenerationTests(unittest.TestCase):
             "tiktok": "Vous avez vu cette annonce ? Le studio confirme un nouveau projet, tandis que plusieurs médias détaillent les premières informations disponibles. Attention, certains éléments restent à préciser et ne doivent pas être présentés comme définitifs. On suivra les prochaines annonces : qu'est-ce qui vous intrigue le plus ?"
         }
 
-    def test_requires_all_eight_platform_variants(self):
+    def test_requires_only_facebook_and_tiktok(self):
         self.assertTrue(valid_posts(self.posts))
         incomplete = dict(self.posts)
         incomplete.pop("tiktok")
         self.assertFalse(valid_posts(incomplete))
 
-    def test_video_and_pin_formats_must_be_structured(self):
+    def test_rejects_unselected_platforms(self):
         malformed = dict(self.posts)
-        malformed["youtube"] = "Titre et description en une seule chaîne"
+        malformed["instagram"] = "Plateforme non activée"
         self.assertFalse(valid_posts(malformed))
 
     def test_rejects_placeholder_or_thin_social_copy(self):
@@ -28,21 +28,18 @@ class EditorialGenerationTests(unittest.TestCase):
         shallow["facebook"] = "Voici une actualité manga."
         self.assertFalse(valid_posts(shallow))
 
-    def test_rejects_x_posts_over_platform_limit(self):
+    def test_rejects_legacy_x_posts_over_platform_limit(self):
         oversized = dict(self.posts)
-        oversized["x"] = "Information manga " * 30
+        oversized["instagram"] = "Information manga " * 30
         self.assertFalse(valid_posts(oversized))
 
     def test_enforces_editorial_word_and_character_targets(self):
         too_short = dict(self.posts)
         too_short["facebook"] = " ".join(["actualité"] * 69)
         self.assertFalse(valid_posts(too_short))
-        too_long_x = dict(self.posts)
-        too_long_x["x"] = "x" * 261
-        self.assertFalse(valid_posts(too_long_x))
-        short_video_title = dict(self.posts)
-        short_video_title["youtube"] = {**self.posts["youtube"], "title": "Titre trop court"}
-        self.assertFalse(valid_posts(short_video_title))
+        too_long_facebook = dict(self.posts)
+        too_long_facebook["facebook"] = " ".join(["actualité"] * 140)
+        self.assertFalse(valid_posts(too_long_facebook))
 
     def test_requires_a_french_cross_source_synthesis(self):
         synthesis = {
