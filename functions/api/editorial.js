@@ -250,7 +250,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   // Aucun fait nouveau n'est créé : les ajouts sont repris mot pour mot et sans doublon.
 
 
-  const minimumWords = { facebook: 85, tiktok: 35 };
+  const minimumWords = { facebook: 75, tiktok: 35 };
   for (const platform of PLATFORMS) {
     const content = parsed.posts[platform];
     const words = wordCount(content);
