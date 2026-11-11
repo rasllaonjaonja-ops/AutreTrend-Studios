@@ -174,6 +174,8 @@ class EditorialGenerationTests(unittest.TestCase):
         source = (root / "scripts" / "generate_editorial.py").read_text(encoding="utf-8")
         self.assertIn("@cf/meta/llama-3.3-70b-instruct-fp8-fast", worker)
         self.assertIn("model: FALLBACK_MODEL", worker)
+        self.assertIn("Boolean(lastError), lastError, plan.model, plan.provider", worker)
+        self.assertIn("y compris lors du premier essai du modèle de secours", worker)
         self.assertIn("https://api.groq.com/openai/v1/chat/completions", worker)
         self.assertIn("AUTOTREND_GROQ_API_KEY", worker)
         self.assertIn('provider: "groq"', worker)
