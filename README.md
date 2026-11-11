@@ -57,7 +57,9 @@ Pour activer cette fonction :
 2. Dans Cloudflare Pages > Settings > Variables and Secrets, créer le secret `AUTOTREND_AI_TOKEN`.
 3. Dans GitHub > Settings > Secrets and variables > Actions, créer `AUTOTREND_AI_URL` avec l'URL HTTPS de la fonction `/api/editorial`, puis `AUTOTREND_AI_TOKEN` avec exactement le même secret.
 4. Pour ajouter un moteur indépendant de secours, créer dans Cloudflare Pages > Settings > Variables and Secrets le secret `AUTOTREND_GROQ_API_KEY` avec une clé Groq. Le modèle peut être défini par la variable `AUTOTREND_GROQ_MODEL`; à défaut, le système utilise `openai/gpt-oss-20b`.
-5. Relancer le workflow Radar. Si Groq n'est pas configuré, les deux modèles Cloudflare restent utilisés; si aucun moteur ne répond ou si le texte échoue aux contrôles, le brief reste non publiable et la collecte RSS continue.
+5. Relancer le workflow Radar. Si Cloudflare renvoie l'erreur de quota `4006`, le Worker saute immédiatement le second modèle Cloudflare et passe au fournisseur indépendant si sa clé est présente. Si cette clé manque, la génération est explicitement rejetée, les brouillons restent non publiables et la collecte RSS continue.
+
+**État de secours :** le code du fournisseur indépendant est prêt, mais il n'est réellement actif que lorsque `AUTOTREND_GROQ_API_KEY` est configurée dans Cloudflare Pages. Le contrôle `GET /api/editorial` expose `groq_fallback_configured` pour vérifier ce point sans révéler la clé.
 
 Groq est un service externe distinct de Cloudflare et peut appliquer des limites ou une tarification selon le compte et le modèle. Vérifier les quotas et les prix affichés dans son compte avant d'ajouter la clé. Ne jamais transmettre la clé dans GitHub, le code source ou le navigateur : elle doit rester un secret Cloudflare.
 
