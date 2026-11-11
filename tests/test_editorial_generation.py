@@ -148,8 +148,8 @@ class EditorialGenerationTests(unittest.TestCase):
         from scripts import generate_editorial
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"
         worker_prompt = worker_path.read_text(encoding="utf-8")
-        self.assertEqual(generate_editorial.MIN_SUMMARY_WORDS, 45)
-        self.assertIn("summary_fr : 50 à 85 mots", worker_prompt)
+        self.assertEqual(generate_editorial.MIN_SUMMARY_WORDS, 35)
+        self.assertIn("summary_fr : 40 à 70 mots", worker_prompt)
         self.assertIn("summary_fr doit contenir au moins ${MIN_SUMMARY_WORDS} mots", worker_prompt)
         self.assertNotIn("atteindre 60 mots", worker_prompt)
         self.assertIn('const PLATFORMS = ["facebook", "tiktok"]', worker_prompt)
