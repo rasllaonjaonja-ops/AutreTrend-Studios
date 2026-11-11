@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:19:36.754573+00:00",
+  "generated_at": "2026-11-11T02:21:59.557772+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -545,20 +545,44 @@
         "status": "checked"
       },
       "verification_pending": false,
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
+      "editorial_status": "plusieurs médias — confirmation officielle requise · rédaction IA à relire",
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "fr",
       "summary_language": "und",
       "source_excerpt": "Shingo Natsume's feature film releases in Japan on February 11, 2027",
       "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Rédaction française IA en attente : aucun texte provisoire ne doit être publié.",
-        "facebook": "",
-        "tiktok": ""
+        "facebook": "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume signe ce long-métrage prévu pour février 2027 au Japon. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\". Cette nouvelle est importante pour les fans de l'univers Ghost et du réalisateur Shingo Natsume. Qu'attendez-vous de ce nouveau projet de Shingo Natsume?",
+        "tiktok": "Le film Ghost – End of Night dévoile son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume signe ce long-métrage prévu pour février 2027 au Japon. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\". Qu'attendez-vous de ce nouveau projet de Shingo Natsume?",
+        "language_ready": true,
+        "translation_required": false,
+        "translation_note": "Rédaction française IA contrôlée : relecture humaine obligatoire avant toute publication."
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel\nExtrait RSS : Shingo Natsume's feature film releases in Japan on February 11, 2027\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Animotaku, Crunchyroll\nRédaction française IA en attente : aucun texte provisoire ne doit être publié.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "PRÉPUBLICATION FRANÇAISE — GÉNÉRÉE PAR IA, À VALIDER\n\nTitre : Ghost – End of Night: le trailer principal et le nouveau visuel\n\nLe film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume signe ce long-métrage prévu pour février 2027 au Japon. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\".\n\nAngle éditorial : L'arrivée d'un nouveau film de Shingo Natsume suscite l'enthousiasme des fans d'animation.\nSynthèse des tendances : Trois médias rapportent l'annonce du trailer principal et des détails sur la sortie.\nFaits clés : Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel.; Le réalisateur Shingo Natsume signe ce long-métrage prévu pour février 2027 au Japon.; Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\".\nÉléments rapportés à confirmer : \nQuestion : Qu'attendez-vous de ce nouveau projet de Shingo Natsume?\n\nPoints à vérifier : La date de sortie en France reste à confirmer.; Le casting complet n'a pas encore été annoncé officiellement.\n\nSources : Anime News Network, Animotaku, Crunchyroll\nNe pas publier sans relecture humaine.",
+      "trend_synthesis": {
+        "key_facts": [
+          "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel.",
+          "Le réalisateur Shingo Natsume signe ce long-métrage prévu pour février 2027 au Japon.",
+          "Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\"."
+        ],
+        "reported_but_unconfirmed": [],
+        "coverage_summary": "Trois médias rapportent l'annonce du trailer principal et des détails sur la sortie.",
+        "editorial_context": "Cette nouvelle est importante pour les fans de l'univers Ghost et du réalisateur Shingo Natsume."
+      },
+      "title_fr": "Ghost – End of Night: le trailer principal et le nouveau visuel",
+      "summary_fr": "Le film d'animation Ghost – End of Night révèle son trailer principal et un nouveau visuel. Le réalisateur Shingo Natsume signe ce long-métrage prévu pour février 2027 au Japon. Le groupe musical Hitsujibungaku interprète le thème musical intitulé \"life\".",
+      "editorial_angle": "L'arrivée d'un nouveau film de Shingo Natsume suscite l'enthousiasme des fans d'animation.",
+      "discussion_question": "Qu'attendez-vous de ce nouveau projet de Shingo Natsume?",
+      "claims_to_verify": [
+        "La date de sortie en France reste à confirmer.",
+        "Le casting complet n'a pas encore été annoncé officiellement."
+      ],
+      "ai_generation": {
+        "provider": "Cloudflare Workers AI",
+        "model": "@cf/zai-org/glm-4.7-flash",
+        "generated_at": "2026-11-11T02:23:23.801Z",
+        "human_review_required": true
+      }
     }
   ],
   "notice": "Trois sujets éditoriaux au maximum, chacun adapté uniquement à Facebook et TikTok. Les adaptations restent des brouillons à relire. Toute traduction non validée et toute information non confirmée bloquent la publication. Aucune publication automatique.",
@@ -571,31 +595,27 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook (50/60 mots)"
+        "Error: Contenu trop court pour facebook (29/50 mots)"
       ]
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
       "response_received": true,
-      "accepted": false,
-      "validation_errors": [
-        "facebook : longueur 55 mots, cible 90 à 110"
-      ]
+      "response_valid": true,
+      "draft_returned": true,
+      "accepted": true,
+      "validation_errors": []
     }
   ],
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Contenu trop court pour facebook (50/60 mots)"
-    },
-    {
-      "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "facebook : longueur 55 mots, cible 90 à 110"
+      "detail": "Error: Contenu trop court pour facebook (29/50 mots)"
     }
   ],
-  "ai_generated_count": 0,
-  "ai_generation_status": "rejected",
+  "ai_generated_count": 1,
+  "ai_generation_status": "partial",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook (50/60 mots); Error: Contenu trop court pour facebook (50/60 mots); facebook : longueur 55 mots, cible 90 à 110"
+  "ai_notice": "Rédaction IA partielle : 1/2 sujet(s) validé(s). Les sujets en échec restent non publiables. Validation humaine obligatoire."
 }
