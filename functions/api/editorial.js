@@ -414,7 +414,9 @@ export async function onRequestPost({ request, env }) {
       for (const plan of modelPlan) {
         for (let attempt = 0; attempt < plan.attempts; attempt++) {
           try {
-            draft = await generateOne(item, env, attempt > 0, lastError, plan.model, plan.provider);
+            // Dès qu'un essai échoue, chaque moteur suivant reçoit le motif précis
+            // et doit corriger la réponse, y compris lors du premier essai du modèle de secours.
+            draft = await generateOne(item, env, Boolean(lastError), lastError, plan.model, plan.provider);
             draft.model = plan.model;
             draft.provider = plan.provider === "groq" ? "Groq API (fournisseur indépendant)" : "Cloudflare Workers AI";
             break;
