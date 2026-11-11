@@ -2,6 +2,8 @@ const MODEL = "@cf/zai-org/glm-4.7-flash";
 const FALLBACK_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 const PLATFORMS = ["facebook", "tiktok"];
 const MIN_SUMMARY_WORDS = 35;
+const MIN_FACEBOOK_WORDS = 50;
+const MIN_TIKTOK_WORDS = 35;
 
 const FRENCH_MARKERS = new Set([
   "le", "la", "les", "des", "une", "un", "pour", "avec", "dans", "est",
@@ -167,10 +169,10 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     "Chaque fait important doit pouvoir être rattaché aux rapports transmis. N'invente aucune donnée absente des rapports.",
     "Tous les champs éditoriaux et tous les textes sociaux doivent être rédigés en français naturel. Dans claims_to_verify, chaque élément non vide doit contenir au moins 4 mots français. Dans trend_synthesis.reported_but_unconfirmed, chaque élément non vide doit contenir au moins 4 mots français. Dans trend_synthesis.key_facts, chaque fait doit contenir au moins 5 mots français. coverage_summary et editorial_context doivent chacun contenir au moins 8 mots français.",
     "Chaque réseau reçoit une version réécrite pour son usage, avec une structure et un rythme différents. Ne copie-colle pas le même texte partout.",
-    "Facebook : publication originale de 90 à 110 mots, en 5 à 7 phrases naturelles : accroche factuelle, synthèse croisée, détails vérifiables, contexte sourcé et question communautaire. Elle doit être autonome et ne pas recopier le résumé brut.",
+    "Facebook : publication originale de 60 à 85 mots, en 4 à 6 phrases naturelles : accroche factuelle, synthèse croisée, détails vérifiables, contexte sourcé et question communautaire. Plancher absolu : 50 mots uniquement si toutes les phrases restent factuelles et complètes; ne jamais ajouter de remplissage.",
     "TikTok : script oral original de 40 à 60 mots, avec une accroche parlée différente de Facebook, explication claire, chute et question; pas de consignes de caméra.",
     "N'ajoute aucune source ou URL non fournie. Une relecture humaine reste obligatoire. Ne prétends jamais être un humain ni avoir vérifié une source que tu n'as pas consultée.",
-    "Respecte strictement les longueurs : Facebook 90 à 110 mots et TikTok 40 à 60 mots. Les deux textes doivent être distincts, structurés, naturels et sans remplissage.",
+    "Respecte les longueurs : Facebook vise 60 à 85 mots (minimum absolu 50) et TikTok 40 à 60 mots. Les deux textes doivent être distincts, structurés, naturels et sans remplissage.",
     "Retourne uniquement un objet JSON valide, sans Markdown ni commentaire. Il doit contenir trend_synthesis (key_facts, reported_but_unconfirmed, coverage_summary, editorial_context), title_fr, summary_fr, editorial_angle, discussion_question, claims_to_verify et posts.",
     "posts doit contenir exactement deux chaînes : facebook et tiktok. N’ajoute aucune autre plateforme."
   ].join("\n");
@@ -203,7 +205,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   const result = await env.AI.run(model, {
     messages: [
       { role: "system", content: system },
-      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr vise 40 à 70 mots et ne doit jamais descendre sous 35; compose-le à partir des faits distincts réellement présents dans source_reports : annonce, éléments de la bande-annonce, visuel, casting, musique, date, studio ou réalisation uniquement s'ils sont explicitement indiqués; chaque phrase doit apporter un fait vérifiable; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les deux textes sociaux doivent être en français naturel. Posts : produire uniquement Facebook (90 à 110 mots) et TikTok (40 à 60 mots), deux textes originaux et de structures différentes. Pour Facebook, compte les mots séparés par des espaces avant de répondre; si le texte est trop court, développe avec des faits distincts déjà présents dans les sources, jamais avec du remplissage. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 35 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
+      { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr vise 40 à 70 mots et ne doit jamais descendre sous 35; compose-le à partir des faits distincts réellement présents dans source_reports : annonce, éléments de la bande-annonce, visuel, casting, musique, date, studio ou réalisation uniquement s'ils sont explicitement indiqués; chaque phrase doit apporter un fait vérifiable; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les deux textes sociaux doivent être en français naturel. Posts : produire uniquement Facebook (60 à 85 mots, jamais moins de 50) et TikTok (40 à 60 mots), deux textes originaux et de structures différentes. Pour Facebook, compte les mots séparés par des espaces avant de répondre; si le texte est trop court, développe avec des faits distincts déjà présents dans les sources, jamais avec du remplissage. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 35 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
     ],
     response_format: { type: "json_object" },
     chat_template_kwargs: { enable_thinking: false },
@@ -270,7 +272,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   // Aucun fait nouveau n'est créé : les ajouts sont repris mot pour mot et sans doublon.
 
 
-  const minimumWords = { facebook: 60, tiktok: 35 };
+  const minimumWords = { facebook: MIN_FACEBOOK_WORDS, tiktok: MIN_TIKTOK_WORDS };
   for (const platform of PLATFORMS) {
     const content = parsed.posts[platform];
     const words = wordCount(content);
