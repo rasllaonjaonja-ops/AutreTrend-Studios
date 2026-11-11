@@ -52,10 +52,7 @@ def valid_editorial_queue(queue):
     if not isinstance(generated_count, int) or generated_count < 0:
         return False
 
-    platforms = {
-        "facebook", "instagram", "tiktok", "x",
-        "threads", "youtube", "telegram", "pinterest",
-    }
+    platforms = {"facebook", "tiktok"}
     ai_complete_count = 0
     for item in items:
         if not isinstance(item, dict):
@@ -132,8 +129,10 @@ def main():
         raise SystemExit("Le compteur de la file éditoriale ne correspond pas aux éléments.")
     if len(queue_items) > 3:
         raise SystemExit("La file éditoriale dépasse les trois prépublications quotidiennes.")
-    if queue.get("daily_goal") != 3 or queue.get("network_variant_count") != len(queue_items) * 8:
-        raise SystemExit("Les trois emplacements éditoriaux et leurs huit déclinaisons sociales sont incohérents.")
+    if queue.get("daily_goal") != 3 or queue.get("network_variant_count") != len(queue_items) * 2:
+        raise SystemExit("Les trois emplacements éditoriaux et leurs deux déclinaisons sociales sont incohérents.")
+    if queue.get("selected_networks") != ["facebook", "tiktok"]:
+        raise SystemExit("Seuls Facebook et TikTok doivent être activés.")
     if not isinstance(queue.get("rejected_count", 0), int):
         raise SystemExit("Le compteur des sujets écartés doit être un entier.")
 
