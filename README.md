@@ -12,21 +12,21 @@ AutreTrend Studios rassemble une veille RSS, un radar de sujets, un contrôle de
 - Vérification des liens visibles vers une liste de domaines officiels connus.
 - Filtrage éditorial strict : score, fraîcheur, format, présence d'extrait et recoupement.
 - Filtres du radar : recherche, source, nombre de médias, score minimum, période, langue et tri.
-- Préparation de brouillons pour Facebook, Instagram, TikTok, X, Threads, YouTube, Telegram et Pinterest.
+- Préparation de prépublications françaises distinctes pour Facebook et TikTok uniquement.
 - Copie des brouillons, bibliothèque et sauvegarde locale des textes saisis.
 - Contrôle humain obligatoire : aucune publication automatique.
 
 ## Limites importantes avant la connexion IA
 
-Les textes sociaux actuels sont **des préformats construits à partir des titres et extraits RSS**. Ils ne sont pas encore des résumés générés par une IA. Les articles non francophones nécessitent une traduction et une relecture. Le détecteur de liens officiels repère des indices, mais ne certifie jamais une information. Un score élevé ne signifie ni viralité ni véracité.
+Les prépublications IA sont générées uniquement si le service sécurisé est configuré et si les textes passent les contrôles automatiques. En cas d'échec, le Radar conserve des briefs non publiables et signale le statut de génération. Les articles non francophones doivent être traduits puis relus. Le détecteur sépare les liens officiels candidats des preuves factuelles : un lien vers un domaine connu ne certifie jamais une annonce. Un score élevé ne signifie ni viralité ni véracité.
 
-L'assistant IA est volontairement désactivé tant que le moteur sécurisé n'est pas connecté. Aucune clé API ne doit être placée dans le navigateur. L'intégration Cloudflare Worker/API est une étape distincte, après stabilisation de cette version.
+Aucune clé API n'est placée dans le navigateur. Les secrets sont conservés côté Cloudflare ou GitHub Actions. Facebook et TikTok sont les seules plateformes activées; aucune publication automatique n'est autorisée.
 
 ## Collecte et actualisation
 
 - GitHub Actions collecte automatiquement les flux environ toutes les 6 heures.
 - Le bouton « Recharger les données » relit les derniers fichiers publiés ; il ne déclenche pas lui-même une nouvelle collecte.
-- La file éditoriale est plafonnée à 15 sujets retenus par exécution.
+- La file éditoriale est plafonnée à 3 sujets distincts par exécution.
 - Les seuils sont définis dans `scripts/verify_sources.py` et peuvent être ajustés après observation des résultats.
 
 ## Lancer et déployer
@@ -49,15 +49,16 @@ Les contenus sont des brouillons. Vérifier chaque date, nom, studio, casting, a
 
 ## Rédaction IA sécurisée — activation facultative
 
-Le Radar prépare trois sujets maximum et huit formats sociaux par sujet. Une fonction Cloudflare Pages facultative peut rédiger et traduire les textes avec Workers AI, sans droit de publication. Le modèle configuré est `@cf/zai-org/glm-4.7-flash`.
+Le Radar prépare au maximum trois sujets distincts, chacun décliné en deux textes français : Facebook et TikTok. La fonction Cloudflare Pages utilise d'abord Workers AI (`@cf/zai-org/glm-4.7-flash`), puis son modèle Cloudflare de secours (`@cf/meta/llama-3.3-70b-instruct-fp8-fast`). Si ces deux moteurs échouent, elle peut utiliser Groq comme fournisseur indépendant, uniquement si sa clé est configurée. Aucun texte rejeté n'est accepté et aucune publication automatique n'est possible.
 
 Pour activer cette fonction :
 
 1. Dans Cloudflare Pages > AutreTrend Studios > Settings > Functions > Bindings, ajouter un binding **Workers AI** nommé `AI`.
 2. Dans Cloudflare Pages > Settings > Variables and Secrets, créer le secret `AUTOTREND_AI_TOKEN`.
 3. Dans GitHub > Settings > Secrets and variables > Actions, créer `AUTOTREND_AI_URL` avec l'URL HTTPS de la fonction `/api/editorial`, puis `AUTOTREND_AI_TOKEN` avec exactement le même secret.
-4. Relancer le workflow Radar. Si les secrets ou le binding manquent, le pipeline conserve ses brouillons de secours et n'interrompt pas la collecte.
+4. Pour ajouter un moteur indépendant de secours, créer dans Cloudflare Pages > Settings > Variables and Secrets le secret `AUTOTREND_GROQ_API_KEY` avec une clé Groq. Le modèle peut être défini par la variable `AUTOTREND_GROQ_MODEL`; à défaut, le système utilise `openai/gpt-oss-20b`.
+5. Relancer le workflow Radar. Si Groq n'est pas configuré, les deux modèles Cloudflare restent utilisés; si aucun moteur ne répond ou si le texte échoue aux contrôles, le brief reste non publiable et la collecte RSS continue.
 
-Workers AI dispose d'une allocation gratuite de 10 000 Neurons par jour sur le plan Workers Free. Au-delà, le plan gratuit refuse les requêtes supplémentaires; aucun dépassement payant n'est activé automatiquement. Vérifier le compteur d'utilisation Cloudflare avant toute évolution de volume.
+Groq est un service externe distinct de Cloudflare et peut appliquer des limites ou une tarification selon le compte et le modèle. Vérifier les quotas et les prix affichés dans son compte avant d'ajouter la clé. Ne jamais transmettre la clé dans GitHub, le code source ou le navigateur : elle doit rester un secret Cloudflare.
 
 L'IA ne publie rien. Chaque texte généré reste marqué comme brouillon, avec relecture humaine obligatoire. Les informations, traductions, dates et noms propres doivent être vérifiés avant publication.
