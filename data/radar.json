@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:21:41.200353+00:00",
+  "updated_at": "2026-11-11T02:28:15.301248+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:25.035692+00:00",
+      "last_success_at": "2026-11-11T02:27:54.097331+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:25.854956+00:00",
+      "last_success_at": "2026-11-11T02:27:54.923953+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:26.300489+00:00",
+      "last_success_at": "2026-11-11T02:27:55.601954+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:26.482616+00:00",
+      "last_success_at": "2026-11-11T02:27:55.976001+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 35,
       "unique_items": 35,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:26.801927+00:00",
+      "last_success_at": "2026-11-11T02:27:56.088980+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:27.260724+00:00",
+      "last_success_at": "2026-11-11T02:28:01.357586+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:27.705553+00:00",
+      "last_success_at": "2026-11-11T02:28:01.805547+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:28.355750+00:00",
+      "last_success_at": "2026-11-11T02:28:02.560851+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:28.939814+00:00",
+      "last_success_at": "2026-11-11T02:28:03.061425+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:29.760145+00:00",
+      "last_success_at": "2026-11-11T02:28:03.716323+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:29.874784+00:00",
+      "last_success_at": "2026-11-11T02:28:03.885551+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:31.352486+00:00",
+      "last_success_at": "2026-11-11T02:28:05.334079+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:32.147403+00:00",
+      "last_success_at": "2026-11-11T02:28:06.070735+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:33.242821+00:00",
+      "last_success_at": "2026-11-11T02:28:06.808662+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:34.449430+00:00",
+      "last_success_at": "2026-11-11T02:28:07.954710+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:35.290686+00:00",
+      "last_success_at": "2026-11-11T02:28:08.813148+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:35.948900+00:00",
+      "last_success_at": "2026-11-11T02:28:09.410965+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:36.815028+00:00",
+      "last_success_at": "2026-11-11T02:28:10.320119+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:37.814130+00:00",
+      "last_success_at": "2026-11-11T02:28:11.217044+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:38.670430+00:00",
+      "last_success_at": "2026-11-11T02:28:12.455513+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -327,7 +327,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:39.056303+00:00",
+      "last_success_at": "2026-11-11T02:28:12.803837+00:00",
       "error": null
     },
     "Google News – United States": {
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:39.395378+00:00",
+      "last_success_at": "2026-11-11T02:28:13.140188+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:39.762099+00:00",
+      "last_success_at": "2026-11-11T02:28:13.555836+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:40.100930+00:00",
+      "last_success_at": "2026-11-11T02:28:14.079092+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:40.483721+00:00",
+      "last_success_at": "2026-11-11T02:28:14.427200+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:40.858778+00:00",
+      "last_success_at": "2026-11-11T02:28:14.874334+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,7 +411,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:21:41.191354+00:00",
+      "last_success_at": "2026-11-11T02:28:15.289556+00:00",
       "error": null
     }
   },
@@ -5896,7 +5896,7 @@
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 28,
-        "freshness": 79,
+        "freshness": 78,
         "independent_sources": 3,
         "article_volume": 3
       },
@@ -6458,7 +6458,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 83,
+        "freshness": 82,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6741,7 +6741,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6959,7 +6959,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 84,
+        "freshness": 83,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6994,104 +6994,6 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74924616?_location=rss",
-      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 81,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "International"
-      ],
-      "source_regions": [
-        "International"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-10T12:45:55+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74924616?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "International",
-          "market_country": null,
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-10/kyugo-monster-in-sheep-clothing-bl-manga-gets-live-action-film/.243671",
-      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 19,
-        "freshness": 73,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 1,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [
-        "Philippines"
-      ],
-      "market_regions": [
-        "Southeast Asia"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-10T06:48:44+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-10/kyugo-monster-in-sheep-clothing-bl-manga-gets-live-action-film/.243671",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
           ]
         }
       ]
@@ -7190,53 +7092,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
-      "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
-      "title_language": "en",
-      "score": 39,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 5,
-        "freshness": 86,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T16:14:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
-          "source": "Crunchyroll News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.journaldujapon.com/2026/11/10/japan-expo-2026-dans-les-coulisses-du-manga-francais-avec-les-mangakas-elsa-brants-zac-et-tanji/",
       "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
       "title_language": "fr",
@@ -7244,7 +7099,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7331,6 +7186,104 @@
       ]
     },
     {
+      "id": "https://myanimelist.net/news/74924616?_location=rss",
+      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
+      "title_language": "en",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 81,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "International"
+      ],
+      "source_regions": [
+        "International"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-10T12:45:55+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74924616?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "International",
+          "market_country": null,
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-10/kyugo-monster-in-sheep-clothing-bl-manga-gets-live-action-film/.243671",
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
+      "title_language": "en",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 19,
+        "freshness": 73,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 1,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [
+        "Philippines"
+      ],
+      "market_regions": [
+        "Southeast Asia"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-10T06:48:44+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-10/kyugo-monster-in-sheep-clothing-bl-manga-gets-live-action-film/.243671",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/10/my-death-flags-show-no-sign-of-ending-anime-adaptation-announced-for-2027",
       "title": "My Death Flags Show No Sign of Ending Anime Adaptation Announced for 2027",
       "title_language": "en",
@@ -7338,7 +7291,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 70,
+        "freshness": 69,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7385,7 +7338,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 68,
+        "freshness": 67,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7549,6 +7502,53 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
+      "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
+      "title_language": "en",
+      "score": 38,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 5,
+        "freshness": 86,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-10T16:14:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
+          "source": "Crunchyroll News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/features/2026/11/10/anime-villains-ains-ooal-gown",
       "title": "Release the Villains: Ains Ooal Gown, a Lonely Gamer Playing the Role of a Lifetime",
       "title_language": "en",
@@ -7603,7 +7603,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 82,
+        "freshness": 81,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7638,53 +7638,6 @@
           "market_country": null,
           "feed_sources": [
             "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://us.oricon-group.com/news/9489/",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
-      "title_language": "en",
-      "score": 38,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 6,
-        "freshness": 81,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "Japan"
-      ],
-      "source_regions": [
-        "East Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-10T13:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9489/",
-          "source": "Japan Anime News – ORICON RSS",
-          "source_type": "professional-media",
-          "source_country": "Japan",
-          "market_country": null,
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
           ]
         }
       ]
@@ -7777,6 +7730,53 @@
           "market_country": "Philippines",
           "feed_sources": [
             "Google News – Philippines"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://us.oricon-group.com/news/9489/",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
+      "title_language": "en",
+      "score": 37,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 81,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "Japan"
+      ],
+      "source_regions": [
+        "East Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9489/",
+          "source": "Japan Anime News – ORICON RSS",
+          "source_type": "professional-media",
+          "source_country": "Japan",
+          "market_country": null,
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
           ]
         }
       ]
@@ -7977,7 +7977,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 19,
-        "freshness": 64,
+        "freshness": 63,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8429,7 +8429,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 100,
+        "freshness": 99,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9171,7 +9171,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 95,
+        "freshness": 94,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9209,51 +9209,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3VOQmlqeVNQSml1elVUN0dpQ0Y4Y1ZsZ3BfZ3F1NFdzWnF2Vy1NYjZWT2VOQ2NPTjIwMHd2MFhBZGdMODZiUmgyNWVSUnJmTm4zeTZ4OXFaRW1wSTYyLTBKX1NBRmdFVVBJWWFaa2Myal81VENCUVlqT3VaVm5tYy1aN1VEMk9QVjU4MzF4ZFFlemp1T0ZhbkdkdTFobEYtQVQ5cEhMN2NrTHgy?oc=5",
-      "title": "Anime Devils’ Crest do criador de Sword Art Online vai ter duração de meio ano - OtakuPT",
-      "title_language": "fr",
-      "score": 35,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 94,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T22:07:27+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Anime Devils’ Crest do criador de Sword Art Online vai ter duração de meio ano - OtakuPT",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3VOQmlqeVNQSml1elVUN0dpQ0Y4Y1ZsZ3BfZ3F1NFdzWnF2Vy1NYjZWT2VOQ2NPTjIwMHd2MFhBZGdMODZiUmgyNWVSUnJmTm4zeTZ4OXFaRW1wSTYyLTBKX1NBRmdFVVBJWWFaa2Myal81VENCUVlqT3VaVm5tYy1aN1VEMk9QVjU4MzF4ZFFlemp1T0ZhbkdkdTFobEYtQVQ5cEhMN2NrTHgy?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
       "title": "7 Anime Series With the Most Perfect First Seasons, Ranked - Comic Book Resources",
       "title_language": "en",
@@ -9261,7 +9216,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 93,
+        "freshness": 92,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9485,6 +9440,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3VOQmlqeVNQSml1elVUN0dpQ0Y4Y1ZsZ3BfZ3F1NFdzWnF2Vy1NYjZWT2VOQ2NPTjIwMHd2MFhBZGdMODZiUmgyNWVSUnJmTm4zeTZ4OXFaRW1wSTYyLTBKX1NBRmdFVVBJWWFaa2Myal81VENCUVlqT3VaVm5tYy1aN1VEMk9QVjU4MzF4ZFFlemp1T0ZhbkdkdTFobEYtQVQ5cEhMN2NrTHgy?oc=5",
+      "title": "Anime Devils’ Crest do criador de Sword Art Online vai ter duração de meio ano - OtakuPT",
+      "title_language": "fr",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 94,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T22:07:27+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Anime Devils’ Crest do criador de Sword Art Online vai ter duração de meio ano - OtakuPT",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS3VOQmlqeVNQSml1elVUN0dpQ0Y4Y1ZsZ3BfZ3F1NFdzWnF2Vy1NYjZWT2VOQ2NPTjIwMHd2MFhBZGdMODZiUmgyNWVSUnJmTm4zeTZ4OXFaRW1wSTYyLTBKX1NBRmdFVVBJWWFaa2Myal81VENCUVlqT3VaVm5tYy1aN1VEMk9QVjU4MzF4ZFFlemp1T0ZhbkdkdTFobEYtQVQ5cEhMN2NrTHgy?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSTB4cWxxOHR0NWhZZnZLLXluRlk3cUx2VjQxSjB4ZmozM0YxU08zZlk1ZllCYXAwenVCd0lmTjVWVjVUOS1qcElwVmZ2YTdWcEtlclFOX1lIZkIxY1hHMkQ4dllCMnptVl9GQS1rejJUdnA3WUJWT1R1SkJoLW9zSVhUb2EwNkdHUzZVOXJsYjA3M0x2a09SM3lsRUZxR1c4NW54Vks0SDBWRVFqLVhXTWFKU2UzOUZFSUNzRGNIQTdsYk8w?oc=5",
       "title": "Sony Bets on Homegrown Anime to Fuel Decades of Future Growth - Bloomberg.com",
       "title_language": "en",
@@ -9492,7 +9492,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 93,
+        "freshness": 92,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9540,7 +9540,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 93,
+        "freshness": 92,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9903,51 +9903,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUzhqRzY2dDJOaW1UUmxvYmM3eFY1N3BZcWNxa0VUTlJ3RExNRVMxUDdjQzl1S1NXS05ONk5aNlpqdTY2ekFMTVZXOTE3RXpQVWRXanMwZEY0dlBfVDBuUWZtdktfdHhtWFYzVy1EQTBKdGx5S1lUc1VxZnNUcjJJTVo2SnlxNnJhcmdodXRLZFlRSi1sM3B1aVFaWTlJU3pvT3hTNE82TVRfZ01FemdXV0FLdVB6bFlCZHZKY2dsM3NKd19Gd0FtS2xycENXd0pmeV9jaFdvV1BEXzZoYkNnNHFrOVduclZKeWgzMExYMENmNEVQLTZ5dUJVbGd2Q1ZGRjFIT2RrLXFpMUphbVlKRXp2WGJjOVMyU2pXZA?oc=5",
-      "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - A Embrapa",
-      "title_language": "fr",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 87,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T17:20:39+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - A Embrapa",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUzhqRzY2dDJOaW1UUmxvYmM3eFY1N3BZcWNxa0VUTlJ3RExNRVMxUDdjQzl1S1NXS05ONk5aNlpqdTY2ekFMTVZXOTE3RXpQVWRXanMwZEY0dlBfVDBuUWZtdktfdHhtWFYzVy1EQTBKdGx5S1lUc1VxZnNUcjJJTVo2SnlxNnJhcmdodXRLZFlRSi1sM3B1aVFaWTlJU3pvT3hTNE82TVRfZ01FemdXV0FLdVB6bFlCZHZKY2dsM3NKd19Gd0FtS2xycENXd0pmeV9jaFdvV1BEXzZoYkNnNHFrOVduclZKeWgzMExYMENmNEVQLTZ5dUJVbGd2Q1ZGRjFIT2RrLXFpMUphbVlKRXp2WGJjOVMyU2pXZA?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
       "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime - Crunchyroll",
       "title_language": "en",
@@ -10003,7 +9958,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10294,7 +10249,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 59,
+        "freshness": 58,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -10388,7 +10343,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 92,
+        "freshness": 91,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10421,6 +10376,51 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUzhqRzY2dDJOaW1UUmxvYmM3eFY1N3BZcWNxa0VUTlJ3RExNRVMxUDdjQzl1S1NXS05ONk5aNlpqdTY2ekFMTVZXOTE3RXpQVWRXanMwZEY0dlBfVDBuUWZtdktfdHhtWFYzVy1EQTBKdGx5S1lUc1VxZnNUcjJJTVo2SnlxNnJhcmdodXRLZFlRSi1sM3B1aVFaWTlJU3pvT3hTNE82TVRfZ01FemdXV0FLdVB6bFlCZHZKY2dsM3NKd19Gd0FtS2xycENXd0pmeV9jaFdvV1BEXzZoYkNnNHFrOVduclZKeWgzMExYMENmNEVQLTZ5dUJVbGd2Q1ZGRjFIT2RrLXFpMUphbVlKRXp2WGJjOVMyU2pXZA?oc=5",
+      "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - A Embrapa",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 87,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T17:20:39+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Produção irrigada de maracujá e manga transforma vida de pequenos produtores e gera desenvolvimento no Nordeste goiano - A Embrapa",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUzhqRzY2dDJOaW1UUmxvYmM3eFY1N3BZcWNxa0VUTlJ3RExNRVMxUDdjQzl1S1NXS05ONk5aNlpqdTY2ekFMTVZXOTE3RXpQVWRXanMwZEY0dlBfVDBuUWZtdktfdHhtWFYzVy1EQTBKdGx5S1lUc1VxZnNUcjJJTVo2SnlxNnJhcmdodXRLZFlRSi1sM3B1aVFaWTlJU3pvT3hTNE82TVRfZ01FemdXV0FLdVB6bFlCZHZKY2dsM3NKd19Gd0FtS2xycENXd0pmeV9jaFdvV1BEXzZoYkNnNHFrOVduclZKeWgzMExYMENmNEVQLTZ5dUJVbGd2Q1ZGRjFIT2RrLXFpMUphbVlKRXp2WGJjOVMyU2pXZA?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
           ]
         }
       ]
@@ -10615,7 +10615,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10661,7 +10661,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10706,7 +10706,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10751,7 +10751,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10972,52 +10972,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTk1ObldiVUJCSldJSUdKaTN3SDBTbHh5VUIxQ3NKU3MxdXJfZVFKZ2JKNENTTG1kLUVNb1VXNVhkbVlnT1FZaUoxeXV3THRZYVVRUTZfQ1pRNGI4U0xETjh2ejNqYzZhRDV1Y2MxT3I3UWJiS1NYdzUyRXF5ZmxCUFFzeW81OVdocFRQVG55NkQ4dVU?oc=5",
-      "title": "NEW MANGA LICENSES FROM KODAMA TALES, PUSHKIN VERTIGO - ICv2",
-      "title_language": "en",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 84,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T14:55:43+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "NEW MANGA LICENSES FROM KODAMA TALES, PUSHKIN VERTIGO - ICv2",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTk1ObldiVUJCSldJSUdKaTN3SDBTbHh5VUIxQ3NKU3MxdXJfZVFKZ2JKNENTTG1kLUVNb1VXNVhkbVlnT1FZaUoxeXV3THRZYVVRUTZfQ1pRNGI4U0xETjh2ejNqYzZhRDV1Y2MxT3I3UWJiS1NYdzUyRXF5ZmxCUFFzeW81OVdocFRQVG55NkQ4dVU?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – United Kingdom",
-            "Google News – United States"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
       "title": "Suikoden: The Anime Now Streaming on Crunchyroll - Crunchyroll",
       "title_language": "en",
@@ -11025,7 +10979,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 84,
+        "freshness": 83,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11073,7 +11027,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 84,
+        "freshness": 83,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11208,7 +11162,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 70,
+        "freshness": 69,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11343,48 +11297,47 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
-      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTk1ObldiVUJCSldJSUdKaTN3SDBTbHh5VUIxQ3NKU3MxdXJfZVFKZ2JKNENTTG1kLUVNb1VXNVhkbVlnT1FZaUoxeXV3THRZYVVRUTZfQ1pRNGI4U0xETjh2ejNqYzZhRDV1Y2MxT3I3UWJiS1NYdzUyRXF5ZmxCUFFzeW81OVdocFRQVG55NkQ4dVU?oc=5",
+      "title": "NEW MANGA LICENSES FROM KODAMA TALES, PUSHKIN VERTIGO - ICv2",
       "title_language": "en",
       "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 56,
-        "independent_sources": 1,
-        "article_volume": 1
+        "freshness": 84,
+        "independent_sources": 0,
+        "article_volume": 0
       },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
       "primary_source_count": 0,
       "primary_sources": [],
-      "source_countries": [
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
         "United States"
       ],
-      "source_regions": [
+      "market_regions": [
         "North America"
       ],
-      "market_countries": [],
-      "market_regions": [],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T18:30:00+00:00",
+      "sources": [],
+      "published_at": "2026-11-10T14:55:43+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+          "title": "NEW MANGA LICENSES FROM KODAMA TALES, PUSHKIN VERTIGO - ICv2",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTk1ObldiVUJCSldJSUdKaTN3SDBTbHh5VUIxQ3NKU3MxdXJfZVFKZ2JKNENTTG1kLUVNb1VXNVhkbVlnT1FZaUoxeXV3THRZYVVRUTZfQ1pRNGI4U0xETjh2ejNqYzZhRDV1Y2MxT3I3UWJiS1NYdzUyRXF5ZmxCUFFzeW81OVdocFRQVG55NkQ4dVU?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
           "feed_sources": [
-            "Anime News Network – News"
+            "Google News – United Kingdom",
+            "Google News – United States"
           ]
         }
       ]
@@ -11577,7 +11530,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 83,
+        "freshness": 82,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11802,7 +11755,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 82,
+        "freshness": 81,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11975,51 +11928,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FOWZKM0ZTa1NIYlEwWllFbk1ZTnRlbXpGOUNNZEtRanlhbl9DWEhpTjgzZkVNdEkyVXJqczJxSldCTC1PZzk4TzFkenpKa2hJYUhVSm5xTmN5QWhmcWp0SU5zWWwzZTVGLVZTY19sSUg5YWtidmJB?oc=5",
-      "title": "Phantom of the Idol Volume 9 Review - Anime UK News",
-      "title_language": "en",
-      "score": 31,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 77,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United Kingdom"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T10:00:51+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Phantom of the Idol Volume 9 Review - Anime UK News",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FOWZKM0ZTa1NIYlEwWllFbk1ZTnRlbXpGOUNNZEtRanlhbl9DWEhpTjgzZkVNdEkyVXJqczJxSldCTC1PZzk4TzFkenpKa2hJYUhVSm5xTmN5QWhmcWp0SU5zWWwzZTVGLVZTY19sSUg5YWtidmJB?oc=5",
-          "source": "Google News – United Kingdom",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United Kingdom",
-          "feed_sources": [
-            "Google News – United Kingdom"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://animecorner.me/photo-gallery-miciaglo-as-talia-from-cyberpunk-edgerunners-season-2-at-lucca-comics-games/",
       "title": "Photo Gallery: Miciaglo as Talia from Cyberpunk Edgerunners Season 2 at Lucca Comics & Games",
       "title_language": "en",
@@ -12062,6 +11970,53 @@
           "market_country": null,
           "feed_sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
+      "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+      "title_language": "en",
+      "score": 30,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 56,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T18:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "K Manga Adds nyalra's Strayboy Overkill Manga",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/k-manga-adds-nyalra-strayboy-overkill-manga/.243653",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
           ]
         }
       ]
@@ -12309,7 +12264,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 80,
+        "freshness": 79,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12477,6 +12432,51 @@
           "market_country": "France",
           "feed_sources": [
             "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FOWZKM0ZTa1NIYlEwWllFbk1ZTnRlbXpGOUNNZEtRanlhbl9DWEhpTjgzZkVNdEkyVXJqczJxSldCTC1PZzk4TzFkenpKa2hJYUhVSm5xTmN5QWhmcWp0SU5zWWwzZTVGLVZTY19sSUg5YWtidmJB?oc=5",
+      "title": "Phantom of the Idol Volume 9 Review - Anime UK News",
+      "title_language": "en",
+      "score": 30,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 77,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United Kingdom"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T10:00:51+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Phantom of the Idol Volume 9 Review - Anime UK News",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FOWZKM0ZTa1NIYlEwWllFbk1ZTnRlbXpGOUNNZEtRanlhbl9DWEhpTjgzZkVNdEkyVXJqczJxSldCTC1PZzk4TzFkenpKa2hJYUhVSm5xTmN5QWhmcWp0SU5zWWwzZTVGLVZTY19sSUg5YWtidmJB?oc=5",
+          "source": "Google News – United Kingdom",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United Kingdom",
+          "feed_sources": [
+            "Google News – United Kingdom"
           ]
         }
       ]
@@ -12962,53 +12962,6 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9488/",
-      "title": "Magic Knight Rayearth Episode 6 Story & Preview Stills Released: The Rune God Awaits",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 6,
-        "freshness": 48,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "Japan"
-      ],
-      "source_regions": [
-        "East Asia"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-09T13:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Magic Knight Rayearth Episode 6 Story & Preview Stills Released: The Rune God Awaits",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9488/",
-          "source": "Japan Anime News – ORICON RSS",
-          "source_type": "professional-media",
-          "source_country": "Japan",
-          "market_country": null,
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://animeuknews.net/2026/11/celebrate-diverse-award-winning-anime-with-chao-only-in-cinemas-friday-4-december/",
       "title": "Celebrate Diverse Award-Winning Anime with ChaO – Only in Cinemas Friday 4 December",
       "title_language": "en",
@@ -13336,6 +13289,53 @@
       ]
     },
     {
+      "id": "https://us.oricon-group.com/news/9488/",
+      "title": "Magic Knight Rayearth Episode 6 Story & Preview Stills Released: The Rune God Awaits",
+      "title_language": "en",
+      "score": 27,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 48,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "Japan"
+      ],
+      "source_regions": [
+        "East Asia"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Magic Knight Rayearth Episode 6 Story & Preview Stills Released: The Rune God Awaits",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9488/",
+          "source": "Japan Anime News – ORICON RSS",
+          "source_type": "professional-media",
+          "source_country": "Japan",
+          "market_country": null,
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/dragon-quest-teases-new-rpg-for-ios-android/.243644",
       "title": "Dragon Quest Teases New RPG for iOS, Android",
       "title_language": "en",
@@ -13437,7 +13437,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 43,
+        "freshness": 42,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -13576,7 +13576,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 69,
+        "freshness": 68,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13666,7 +13666,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 68,
+        "freshness": 67,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -15051,7 +15051,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 50,
+        "freshness": 49,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -15096,7 +15096,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 49,
+        "freshness": 48,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -15231,7 +15231,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 27,
+        "freshness": 26,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -15407,53 +15407,6 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74916427?_location=rss",
-      "title": "'Minami-ke Korekara' Reveals New Staff, Teaser Promo, Spring 2027 Premiere",
-      "title_language": "en",
-      "score": 21,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 22,
-        "freshness": 6,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "International"
-      ],
-      "source_regions": [
-        "International"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-08T06:43:49+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Minami-ke Korekara' Reveals New Staff, Teaser Promo, Spring 2027 Premiere",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74916427?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "source_type": "editorial_site",
-          "source_country": "International",
-          "market_country": null,
-          "feed_sources": [
-            "MyAnimeList News – RSS"
           ]
         }
       ]
@@ -15781,6 +15734,53 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74916427?_location=rss",
+      "title": "'Minami-ke Korekara' Reveals New Staff, Teaser Promo, Spring 2027 Premiere",
+      "title_language": "en",
+      "score": 20,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 22,
+        "freshness": 6,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "International"
+      ],
+      "source_regions": [
+        "International"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-08T06:43:49+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'Minami-ke Korekara' Reveals New Staff, Teaser Promo, Spring 2027 Premiere",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74916427?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "source_type": "editorial_site",
+          "source_country": "International",
+          "market_country": null,
+          "feed_sources": [
+            "MyAnimeList News – RSS"
           ]
         }
       ]
@@ -16590,7 +16590,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 42,
+        "freshness": 41,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -17719,51 +17719,6 @@
           "market_country": null,
           "feed_sources": [
             "AnimeNation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
-      "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
-      "title_language": "fr",
-      "score": 17,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 7,
-        "freshness": 35,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "France"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T03:45:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
-          "source": "Google Actualités – France",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "France",
-          "feed_sources": [
-            "Google Actualités – France"
           ]
         }
       ]
@@ -19172,6 +19127,51 @@
           "market_country": null,
           "feed_sources": [
             "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
+      "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
+      "title_language": "fr",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 35,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T03:45:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -24438,7 +24438,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 11,
+        "freshness": 10,
         "independent_sources": 0,
         "article_volume": 0
       },
