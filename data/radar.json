@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:13:22.679578+00:00",
+  "updated_at": "2026-11-11T02:19:14.896213+00:00",
   "source_count": 27,
   "site_count": 20,
   "market_feed_count": 7,
@@ -47,7 +47,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:52.719294+00:00",
+      "last_success_at": "2026-11-11T02:18:59.776486+00:00",
       "error": null
     },
     "Shonen Jump+ – Atom": {
@@ -61,7 +61,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:53.304737+00:00",
+      "last_success_at": "2026-11-11T02:19:00.493720+00:00",
       "error": null
     },
     "Crunchyroll News – RSS": {
@@ -75,7 +75,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:53.768181+00:00",
+      "last_success_at": "2026-11-11T02:19:00.917686+00:00",
       "error": null
     },
     "MyAnimeList News – RSS": {
@@ -89,7 +89,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:53.976428+00:00",
+      "last_success_at": "2026-11-11T02:19:01.401884+00:00",
       "error": null
     },
     "Japan Anime News – ORICON RSS": {
@@ -103,7 +103,7 @@
       "accepted_items": 35,
       "unique_items": 35,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:54.045863+00:00",
+      "last_success_at": "2026-11-11T02:19:01.692231+00:00",
       "error": null
     },
     "AnimeNation": {
@@ -117,7 +117,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:57.972339+00:00",
+      "last_success_at": "2026-11-11T02:19:02.098527+00:00",
       "error": null
     },
     "Anime UK News": {
@@ -131,7 +131,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:58.226690+00:00",
+      "last_success_at": "2026-11-11T02:19:02.490698+00:00",
       "error": null
     },
     "World of Geek – Manga": {
@@ -145,7 +145,7 @@
       "accepted_items": 30,
       "unique_items": 30,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:58.796182+00:00",
+      "last_success_at": "2026-11-11T02:19:03.252690+00:00",
       "error": null
     },
     "Animehunch": {
@@ -159,7 +159,7 @@
       "accepted_items": 15,
       "unique_items": 15,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:59.338944+00:00",
+      "last_success_at": "2026-11-11T02:19:03.745718+00:00",
       "error": null
     },
     "Anime News India": {
@@ -173,7 +173,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:59.864125+00:00",
+      "last_success_at": "2026-11-11T02:19:04.422625+00:00",
       "error": null
     },
     "Anime Corner": {
@@ -187,7 +187,7 @@
       "accepted_items": 25,
       "unique_items": 25,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:12:59.902684+00:00",
+      "last_success_at": "2026-11-11T02:19:04.623223+00:00",
       "error": null
     },
     "Anime Feminist": {
@@ -201,7 +201,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:00.787014+00:00",
+      "last_success_at": "2026-11-11T02:19:05.701360+00:00",
       "error": null
     },
     "Otaku USA Magazine": {
@@ -215,7 +215,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:01.263575+00:00",
+      "last_success_at": "2026-11-11T02:19:06.178023+00:00",
       "error": null
     },
     "Anime Herald": {
@@ -229,7 +229,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:02.316732+00:00",
+      "last_success_at": "2026-11-11T02:19:07.494194+00:00",
       "error": null
     },
     "BDzoom – Manga": {
@@ -243,7 +243,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:03.246981+00:00",
+      "last_success_at": "2026-11-11T02:19:08.345939+00:00",
       "error": null
     },
     "Animotaku": {
@@ -257,7 +257,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:03.784629+00:00",
+      "last_success_at": "2026-11-11T02:19:08.973673+00:00",
       "error": null
     },
     "Adala News": {
@@ -271,7 +271,7 @@
       "accepted_items": 20,
       "unique_items": 20,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:04.284283+00:00",
+      "last_success_at": "2026-11-11T02:19:09.477022+00:00",
       "error": null
     },
     "Japan FM – Manga": {
@@ -285,7 +285,7 @@
       "accepted_items": 10,
       "unique_items": 10,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:05.022270+00:00",
+      "last_success_at": "2026-11-11T02:19:10.168024+00:00",
       "error": null
     },
     "AnimeAnime.jp": {
@@ -299,7 +299,7 @@
       "accepted_items": 38,
       "unique_items": 38,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:06.273866+00:00",
+      "last_success_at": "2026-11-11T02:19:11.283603+00:00",
       "error": null
     },
     "Journal du Japon": {
@@ -313,7 +313,7 @@
       "accepted_items": 6,
       "unique_items": 6,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:07.252783+00:00",
+      "last_success_at": "2026-11-11T02:19:11.772487+00:00",
       "error": null
     },
     "Google Actualités – France": {
@@ -323,12 +323,12 @@
       "market_region": "Europe",
       "source_type": "market_search",
       "language": "fr",
-      "entries_found": 0,
-      "accepted_items": 0,
-      "unique_items": 0,
-      "status": "error",
-      "last_success_at": null,
-      "error": "The read operation timed out"
+      "entries_found": 40,
+      "accepted_items": 40,
+      "unique_items": 40,
+      "status": "ok",
+      "last_success_at": "2026-11-11T02:19:12.228025+00:00",
+      "error": null
     },
     "Google News – United States": {
       "country": "Google News",
@@ -341,7 +341,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:16.400508+00:00",
+      "last_success_at": "2026-11-11T02:19:12.852803+00:00",
       "error": null
     },
     "Google News – United Kingdom": {
@@ -355,7 +355,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:17.683143+00:00",
+      "last_success_at": "2026-11-11T02:19:13.234410+00:00",
       "error": null
     },
     "Google News – India": {
@@ -369,7 +369,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:18.977020+00:00",
+      "last_success_at": "2026-11-11T02:19:13.636528+00:00",
       "error": null
     },
     "Google News – Japan": {
@@ -383,7 +383,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:20.280280+00:00",
+      "last_success_at": "2026-11-11T02:19:14.061284+00:00",
       "error": null
     },
     "Google News – Philippines": {
@@ -397,7 +397,7 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:21.394459+00:00",
+      "last_success_at": "2026-11-11T02:19:14.512510+00:00",
       "error": null
     },
     "Google Actualités – Brésil": {
@@ -411,12 +411,12 @@
       "accepted_items": 40,
       "unique_items": 40,
       "status": "ok",
-      "last_success_at": "2026-11-11T02:13:22.663461+00:00",
+      "last_success_at": "2026-11-11T02:19:14.879267+00:00",
       "error": null
     }
   },
   "health": {
-    "sources_ok": 26,
+    "sources_ok": 27,
     "source_countries_ok": [
       "France",
       "India",
@@ -428,17 +428,18 @@
     ],
     "market_countries_ok": [
       "Brazil",
+      "France",
       "India",
       "Japan",
       "Philippines",
       "United Kingdom",
       "United States"
     ],
-    "sources_error": 1,
+    "sources_error": 0,
     "items_without_date": 0,
     "items_without_summary": 0
   },
-  "item_count": 595,
+  "item_count": 635,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -2564,6 +2565,33 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
+      "title": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime - Crunchyroll",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
+      "summary": "ghost – end of night : Nouveaux Trailer et Visuel pour le film anime Crunchyroll",
+      "published_at": "2026-11-10T05:30:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 18,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmFmb1VTeURlLUc5VmVFQmNDSVA2YW9YZUFxZGlpNWJmTkh0RTFUQWNSOWx2MDhncHc2UW5VSkFMWXU2UWNyQW1xTDh4WWdHTlpMQzFUa1g2T1FOSDJRR0tKWHRRNW9mdkoySTFieGxpV0pnS0tHc0hHUDFpN3JvTHZ6V1EyVm9EQXZBbE5Qa0UtaWRiWVhzZ3Zib2lxclI4emc?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
       "title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation",
       "title_language": "en",
@@ -2588,6 +2616,33 @@
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/deadline-noah-of-the-blood-sea-manga-gets-hollywood-live-action-film-adaptation/.243654",
       "feed_sources": [
         "Anime News Network – News"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMFRIWlZZc1NqMjFtcTY2Qi0zQlRFTU1xbDBMbEhWYmx5QVhZNDVaSG0xNU0zY2lrOWJHSS1iUUdva2V1Vk5PU1Zta2szOTZtQlVFa2d1TzV4WGxYRzd4d18ya2FfNG0wVUZYTWtTYjRMODB2SWZ0VmVxcWtmbV9zV2RzRXRXckxQdzF5eTZ5XzIyX3hQZkpmLWRPNVMxaGhlTWt3X05MRVNnamxDSkJNTkh6VU9sTXNCbHhyMkk1TERiVUdkMEl6WU5DdG1ia0VXdV90YnB1eFliaThMalE1TUNVanp6QlBqSVN1Rjg2VVdrMDlfXy1kdXVRZzY?oc=5",
+      "title": "Anime - Full Clearing Another World Under a Goddess with Zero Believers - Episode #5 - Makoto Takatsuki explore un donjon, 09 Novembre 2026 - Manga news",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMFRIWlZZc1NqMjFtcTY2Qi0zQlRFTU1xbDBMbEhWYmx5QVhZNDVaSG0xNU0zY2lrOWJHSS1iUUdva2V1Vk5PU1Zta2szOTZtQlVFa2d1TzV4WGxYRzd4d18ya2FfNG0wVUZYTWtTYjRMODB2SWZ0VmVxcWtmbV9zV2RzRXRXckxQdzF5eTZ5XzIyX3hQZkpmLWRPNVMxaGhlTWt3X05MRVNnamxDSkJNTkh6VU9sTXNCbHhyMkk1TERiVUdkMEl6WU5DdG1ia0VXdV90YnB1eFliaThMalE1TUNVanp6QlBqSVN1Rjg2VVdrMDlfXy1kdXVRZzY?oc=5",
+      "summary": "Anime - Full Clearing Another World Under a Goddess with Zero Believers - Episode #5 - Makoto Takatsuki explore un donjon, 09 Novembre 2026 Manga news",
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 18,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMFRIWlZZc1NqMjFtcTY2Qi0zQlRFTU1xbDBMbEhWYmx5QVhZNDVaSG0xNU0zY2lrOWJHSS1iUUdva2V1Vk5PU1Zta2szOTZtQlVFa2d1TzV4WGxYRzd4d18ya2FfNG0wVUZYTWtTYjRMODB2SWZ0VmVxcWtmbV9zV2RzRXRXckxQdzF5eTZ5XzIyX3hQZkpmLWRPNVMxaGhlTWt3X05MRVNnamxDSkJNTkh6VU9sTXNCbHhyMkk1TERiVUdkMEl6WU5DdG1ia0VXdV90YnB1eFliaThMalE1TUNVanp6QlBqSVN1Rjg2VVdrMDlfXy1kdXVRZzY?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
       ]
     },
     {
@@ -2830,7 +2885,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GTE05Y1N3dFloOTZmbDFtMExOX3o2NzM2RVljeThwei1HeHVyV2dlYmtleFNwVDJLMlp2SGVtM2VULVBsOU1ZTEJaMW9YMzNOUEVIR1E4U1BqUQ?oc=5",
       "feed_sources": [
-        "Google News – India",
         "Google News – Philippines",
         "Google News – United States"
       ]
@@ -2995,6 +3049,60 @@
       "canonical_url": "https://adala-news.fr/2026/11/le-manga-ore-no-shibou-flag-adapte-en-anime",
       "feed_sources": [
         "Adala News"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DU2dNZVg2akFBVWV0WHRJaFI4ZWl3anZjNkJHLXhkSTdjZTJ6YUhSNWJXQkc0MFV4S2dGZGpvQnlqNXE5bm1aV010c2pPdXhycXYyQXE3RUVPZEtBUUNDWDRCbzlTQzNGRzFHOXZ6Wk1nNTlfTldiMlZVNDRyY2c?oc=5",
+      "title": "Le manga Ore no Shibou Flag adapté en anime - Adala News",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DU2dNZVg2akFBVWV0WHRJaFI4ZWl3anZjNkJHLXhkSTdjZTJ6YUhSNWJXQkc0MFV4S2dGZGpvQnlqNXE5bm1aV010c2pPdXhycXYyQXE3RUVPZEtBUUNDWDRCbzlTQzNGRzFHOXZ6Wk1nNTlfTldiMlZVNDRyY2c?oc=5",
+      "summary": "Le manga Ore no Shibou Flag adapté en anime Adala News",
+      "published_at": "2026-11-10T17:20:01+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 16,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DU2dNZVg2akFBVWV0WHRJaFI4ZWl3anZjNkJHLXhkSTdjZTJ6YUhSNWJXQkc0MFV4S2dGZGpvQnlqNXE5bm1aV010c2pPdXhycXYyQXE3RUVPZEtBUUNDWDRCbzlTQzNGRzFHOXZ6Wk1nNTlfTldiMlZVNDRyY2c?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV0lGRzRiOW5zdlE3LXRlUXJjQUdLSlhmTFlyTkRMblMtaFA2dzBhWHpsay1wVVNFUUxvMU5xc3M3Y3VyTmZZdm1VS004MThGdGFUSmdJb3FYR3Jqd0RGQXkzZXJpdE9pZk1SSHVqMGJZVDk1eXpr?oc=5",
+      "title": "Idées cadeaux manga et anime : notre sélection Noël 2026 - FuransuJapon",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV0lGRzRiOW5zdlE3LXRlUXJjQUdLSlhmTFlyTkRMblMtaFA2dzBhWHpsay1wVVNFUUxvMU5xc3M3Y3VyTmZZdm1VS004MThGdGFUSmdJb3FYR3Jqd0RGQXkzZXJpdE9pZk1SSHVqMGJZVDk1eXpr?oc=5",
+      "summary": "Idées cadeaux manga et anime : notre sélection Noël 2026 FuransuJapon",
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 16,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV0lGRzRiOW5zdlE3LXRlUXJjQUdLSlhmTFlyTkRMblMtaFA2dzBhWHpsay1wVVNFUUxvMU5xc3M3Y3VyTmZZdm1VS004MThGdGFUSmdJb3FYR3Jqd0RGQXkzZXJpdE9pZk1SSHVqMGJZVDk1eXpr?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
       ]
     },
     {
@@ -3456,6 +3564,7 @@
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUG1KTmhMclN4SHZsUDFPb2lJbmg1M2oxcjZvXzJGTGJEUDVMaU4wWUJJNU1Ncmg5ejlyMnVCT0Fua21VNGR6ZDgyRmw0TlV3bi1uVWlXOEdwYkRwVXVoNlpKbDU2dl83U0xUd1NqTkdheENsSVR0R2RZQzNJR3IxLUEwQmFwMzA1STl6NkhjWi1ycFVaeEt0N0N6RGV2aUJkMlFRMExiR2hpWTdu?oc=5",
       "feed_sources": [
+        "Google News – India",
         "Google News – Philippines",
         "Google News – United Kingdom",
         "Google News – United States"
@@ -3975,6 +4084,7 @@
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRDNtMEl1OUJ1MjlEVjliVGZGdjJIRkhCQ2NPTl9QelZURzBDU010aVlucDkyeGNxMzdDMmVnWU5kMTVGS1FaOVo4RG5jYXROMmhRMllGNTBLYmMzSW8tUFFNcFFkN1BKeE1henc3ZHk2VVVDUXFIWmZQajRvN2lDTjVmQUlrQjh4M1N4MDNydnlQazktWElaMFZLRWdTYzRTNTJxWWxCaHZVM1hfLXNQeWFlYkczY1hocDFNSVU1MllLZ0twT09LRkxqQlI2TXk0ODlhdTMxWmR0YklRUk5wQjVDQzB1dw?oc=5",
       "feed_sources": [
+        "Google News – India",
         "Google News – Philippines",
         "Google News – United States"
       ]
@@ -4247,6 +4357,33 @@
       "canonical_url": "https://us.oricon-group.com/news/9486",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFZlQ3RiUWg4QTJNbThfV3pSRUplTWtmNWlPZ0pScFcyLTF0SzJKREJWNDBvN0MySDFvaVVEOHUtX2hlbTBmaEhyX0pJMHYwcVRESXUtLUVZLU1UMTdhU1ZMcVZXeGh3aFNCMThRZElEREZtbThnTUotemM1RndYeU1ZSVJxYUZjd1RYejhSTDFkWmtHOWI2Y2ZWOU9xTGox?oc=5",
+      "title": "SPY x FAMILY Saison 4 et nouveau film anime annoncés pour 2027 - Crunchyroll",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFZlQ3RiUWg4QTJNbThfV3pSRUplTWtmNWlPZ0pScFcyLTF0SzJKREJWNDBvN0MySDFvaVVEOHUtX2hlbTBmaEhyX0pJMHYwcVRESXUtLUVZLU1UMTdhU1ZMcVZXeGh3aFNCMThRZElEREZtbThnTUotemM1RndYeU1ZSVJxYUZjd1RYejhSTDFkWmtHOWI2Y2ZWOU9xTGox?oc=5",
+      "summary": "SPY x FAMILY Saison 4 et nouveau film anime annoncés pour 2027 Crunchyroll",
+      "published_at": "2026-11-09T00:15:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 13,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFZlQ3RiUWg4QTJNbThfV3pSRUplTWtmNWlPZ0pScFcyLTF0SzJKREJWNDBvN0MySDFvaVVEOHUtX2hlbTBmaEhyX0pJMHYwcVRESXUtLUVZLU1UMTdhU1ZMcVZXeGh3aFNCMThRZElEREZtbThnTUotemM1RndYeU1ZSVJxYUZjd1RYejhSTDFkWmtHOWI2Y2ZWOU9xTGox?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
       ]
     },
     {
@@ -4875,7 +5012,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
       "feed_sources": [
-        "Google News – India",
         "Google News – United Kingdom"
       ]
     },
@@ -5477,6 +5613,33 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
+      "title": "Le manga Mashle adapté en film live !, 09 Novembre 2026 - Manga news",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
+      "summary": "Le manga Mashle adapté en film live !, 09 Novembre 2026 Manga news",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 11,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
       "title": "Late Tetsuya Chiba's Autobiographical Manga to End in 8th Volume",
       "title_language": "en",
@@ -5501,6 +5664,33 @@
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/late-tetsuya-chiba-autobiographical-manga-to-end-in-8th-volume/.243624",
       "feed_sources": [
         "Anime News Network – News"
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
+      "title": "Dans 5 mois sortira un film adapté d'un manga culte, son acteur se prépare depuis 3 ans pour le rôle - Purebreak",
+      "title_language": "fr",
+      "translation_status": "à traduire si japonais",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
+      "summary": "Dans 5 mois sortira un film adapté d'un manga culte, son acteur se prépare depuis 3 ans pour le rôle Purebreak",
+      "published_at": "2026-11-09T08:30:00+00:00",
+      "date_status": "known",
+      "summary_status": "available",
+      "source": "Google Actualités – France",
+      "publisher": "Google News (agrégateur)",
+      "category": "anime-manga-market",
+      "source_type": "market_search",
+      "source_country": null,
+      "source_region": null,
+      "market_country": "France",
+      "market_region": "Europe",
+      "source_role": "professional_media",
+      "language": "fr",
+      "score": 11,
+      "verification": "à vérifier",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
+      "feed_sources": [
+        "Google Actualités – France"
       ]
     },
     {
@@ -5694,206 +5884,9 @@
         "Google News – United Kingdom",
         "Google News – United States"
       ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzNpVlhJY19zQkRpOXFGVUMyckU5NDZ5a3FVaDdZUkY0T1BTekoyam5EemF6eWxSdThDZHBLdFFYUlltVHlCSGVOREZ0RTJoU011UTM0dU5GSjZYc3BNOFBxRkY0d0xDcmZseWNSeFZyUjNHcmVRNEs3bnZnRnBpTEJUajk5TzRTbk5FRUNXcWozZEhpR2c?oc=5",
-      "title": "Crunchyroll Streams Suikoden Anime - Anime News Network",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzNpVlhJY19zQkRpOXFGVUMyckU5NDZ5a3FVaDdZUkY0T1BTekoyam5EemF6eWxSdThDZHBLdFFYUlltVHlCSGVOREZ0RTJoU011UTM0dU5GSjZYc3BNOFBxRkY0d0xDcmZseWNSeFZyUjNHcmVRNEs3bnZnRnBpTEJUajk5TzRTbk5FRUNXcWozZEhpR2c?oc=5",
-      "summary": "Crunchyroll Streams Suikoden Anime Anime News Network",
-      "published_at": "2026-11-10T16:00:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – Philippines",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "Philippines",
-      "market_region": "Southeast Asia",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzNpVlhJY19zQkRpOXFGVUMyckU5NDZ5a3FVaDdZUkY0T1BTekoyam5EemF6eWxSdThDZHBLdFFYUlltVHlCSGVOREZ0RTJoU011UTM0dU5GSjZYc3BNOFBxRkY0d0xDcmZseWNSeFZyUjNHcmVRNEs3bnZnRnBpTEJUajk5TzRTbk5FRUNXcWozZEhpR2c?oc=5",
-      "feed_sources": [
-        "Google News – Philippines"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
-      "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur - Crunchyroll",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
-      "summary": "Millennium Family Anime Casts Mutsumi Tamura as Arthur Crunchyroll",
-      "published_at": "2026-11-10T15:26:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
-      "feed_sources": [
-        "Google News – India",
-        "Google News – Philippines",
-        "Google News – United Kingdom",
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
-      "title": "Suikoden: The Anime Now Streaming on Crunchyroll - Crunchyroll",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
-      "summary": "Suikoden: The Anime Now Streaming on Crunchyroll Crunchyroll",
-      "published_at": "2026-11-10T14:30:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dCcGRhS3ZNamVnUnJmeEE3dm5OWGxXNXFfc3dmTTJ4ZTZHNk05OWhXaUtUWVdZTXFuTHZLUkdTdE5YZC1SVlZfQTN0bHdEZTI4c0lyZF8xUHQtTkZHcFk3cGZkTkxnaEFtQVlUY0xVMzI0UEVKUC1XaW1VNDJ3aFJHWXZ6UVA0NWtZY0EzcmJyOTRFSVpIQlFsTQ?oc=5",
-      "feed_sources": [
-        "Google News – India",
-        "Google News – Philippines",
-        "Google News – United Kingdom",
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRUJuZmN4dnFvS1FfOHllenJRSzA0Mkt5UEhQam1qckl3Z1hZVk1tclRoVF80YVhWcUJXTkhUQ0dfQllIazJfY3hGUXUzd2JJVTN6elVjM3dUR25MLTVSZ0ZQV2JYeGRGazR6aHYwaHZnLS1HU2RJT2RkcERKdGFxTkx4VjY3WjZrdm9aNUhla1lKMjI1VnY1NUtGN2p4cXYydVk0UQ?oc=5",
-      "title": "Suikoden: The Anime chega à Crunchyroll na próxima semana - Crunchyroll",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRUJuZmN4dnFvS1FfOHllenJRSzA0Mkt5UEhQam1qckl3Z1hZVk1tclRoVF80YVhWcUJXTkhUQ0dfQllIazJfY3hGUXUzd2JJVTN6elVjM3dUR25MLTVSZ0ZQV2JYeGRGazR6aHYwaHZnLS1HU2RJT2RkcERKdGFxTkx4VjY3WjZrdm9aNUhla1lKMjI1VnY1NUtGN2p4cXYydVk0UQ?oc=5",
-      "summary": "Suikoden: The Anime chega à Crunchyroll na próxima semana Crunchyroll",
-      "published_at": "2026-11-10T14:30:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google Actualités – Brésil",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "Brazil",
-      "market_region": "South America",
-      "source_role": "professional_media",
-      "language": "pt",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRUJuZmN4dnFvS1FfOHllenJRSzA0Mkt5UEhQam1qckl3Z1hZVk1tclRoVF80YVhWcUJXTkhUQ0dfQllIazJfY3hGUXUzd2JJVTN6elVjM3dUR25MLTVSZ0ZQV2JYeGRGazR6aHYwaHZnLS1HU2RJT2RkcERKdGFxTkx4VjY3WjZrdm9aNUhla1lKMjI1VnY1NUtGN2p4cXYydVk0UQ?oc=5",
-      "feed_sources": [
-        "Google Actualités – Brésil"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video - Crunchyroll",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
-      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure Anime Shares Stand Special Video Crunchyroll",
-      "published_at": "2026-11-10T04:15:00+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google News – United States",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "United States",
-      "market_region": "North America",
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpnSVpwYS11V0FkeDlrWWlpVV9IWjgzVWVwVWl4bU9DRXk1T3RsSUFQWmQyVmZ6OXlTeGdBUXhoVHY1VDFfNUlZeGh2NmZkdU5aTkh4YUJfMFpGZWhzaC1ucEdyQWx1VHZfbS1na1NOV0k0Mldkd2JlZ0tXS1ZhNnNjQnhyX3ZheHlMRHFUQzJIUTlHQzBPbUVRLWpodXFOWXlMb1ZvTUJDcU5jcVRXaGtwTHJRdw?oc=5",
-      "feed_sources": [
-        "Google News – Philippines",
-        "Google News – United Kingdom",
-        "Google News – United States"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "summary": "Weekly episodes now debuting as part of \"2nd & 3rd stages\" that started on September 25",
-      "published_at": "2026-11-10T03:34:51+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "source_type": "editorial_site",
-      "source_country": "United States",
-      "source_region": "North America",
-      "market_country": null,
-      "market_region": null,
-      "source_role": "professional_media",
-      "language": "en",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb0ZZaUJfdGEza0xvbUpuNV9zaHFtamVqbUZfVzRtOWtNamdSN3RaWU9lc25GVHJSaFF2Z19YMWxuOWVoaU52OUtLbEJhcmtDVmYwbUdHQndoVm8xMWx5bUtKamxGWU5waG83WEszMGN0a0hMQ3M3cW8xTmlHRG42aDFjMEhuWnZvT2paLUZfbV9jZVZTVUNkTm9Bb29jTzc4MVZDYXJOTi1kVjN5SnFfTHNxel9HcDZWRXB6czZvLXNrQ21LOF9McGhQTGU4bldyN0J4NUQ2dWlZaUhoM1c4?oc=5",
-      "title": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary e mais músicas de anime chegam à Crunchyroll - Crunchyroll",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb0ZZaUJfdGEza0xvbUpuNV9zaHFtamVqbUZfVzRtOWtNamdSN3RaWU9lc25GVHJSaFF2Z19YMWxuOWVoaU52OUtLbEJhcmtDVmYwbUdHQndoVm8xMWx5bUtKamxGWU5waG83WEszMGN0a0hMQ3M3cW8xTmlHRG42aDFjMEhuWnZvT2paLUZfbV9jZVZTVUNkTm9Bb29jTzc4MVZDYXJOTi1kVjN5SnFfTHNxel9HcDZWRXB6czZvLXNrQ21LOF9McGhQTGU4bldyN0J4NUQ2dWlZaUhoM1c4?oc=5",
-      "summary": "A Returner's Magic Should Be Special, Reborn as a Space Mercenary e mais músicas de anime chegam à Crunchyroll Crunchyroll",
-      "published_at": "2026-11-09T22:17:57+00:00",
-      "date_status": "known",
-      "summary_status": "available",
-      "source": "Google Actualités – Brésil",
-      "publisher": "Google News (agrégateur)",
-      "category": "anime-manga-market",
-      "source_type": "market_search",
-      "source_country": null,
-      "source_region": null,
-      "market_country": "Brazil",
-      "market_region": "South America",
-      "source_role": "professional_media",
-      "language": "pt",
-      "score": 10,
-      "verification": "à vérifier",
-      "canonical_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb0ZZaUJfdGEza0xvbUpuNV9zaHFtamVqbUZfVzRtOWtNamdSN3RaWU9lc25GVHJSaFF2Z19YMWxuOWVoaU52OUtLbEJhcmtDVmYwbUdHQndoVm8xMWx5bUtKamxGWU5waG83WEszMGN0a0hMQ3M3cW8xTmlHRG42aDFjMEhuWnZvT2paLUZfbV9jZVZTVUNkTm9Bb29jTzc4MVZDYXJOTi1kVjN5SnFfTHNxel9HcDZWRXB6czZvLXNrQ21LOF9McGhQTGU4bldyN0J4NUQ2dWlZaUhoM1c4?oc=5",
-      "feed_sources": [
-        "Google Actualités – Brésil"
-      ]
     }
   ],
-  "trend_count": 373,
+  "trend_count": 407,
   "trends": [
     {
       "id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -5908,7 +5901,7 @@
         "article_volume": 3
       },
       "article_count": 3,
-      "market_signal_count": 1,
+      "market_signal_count": 2,
       "source_count": 3,
       "primary_source_count": 0,
       "primary_sources": [],
@@ -5921,9 +5914,11 @@
         "North America"
       ],
       "market_countries": [
+        "France",
         "United States"
       ],
       "market_regions": [
+        "Europe",
         "North America"
       ],
       "evidence_level": "multi_media_reported",
@@ -5982,12 +5977,12 @@
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 32,
-        "freshness": 62,
+        "freshness": 61,
         "independent_sources": 7,
         "article_volume": 9
       },
       "article_count": 9,
-      "market_signal_count": 1,
+      "market_signal_count": 2,
       "source_count": 7,
       "primary_source_count": 0,
       "primary_sources": [],
@@ -6008,6 +6003,7 @@
         "Southeast Asia"
       ],
       "market_countries": [
+        "France",
         "United Kingdom"
       ],
       "market_regions": [
@@ -6274,7 +6270,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6509,7 +6505,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 82,
+        "freshness": 81,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6556,7 +6552,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 77,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6956,53 +6952,6 @@
       ]
     },
     {
-      "id": "https://www.journaldujapon.com/2026/11/10/japan-expo-2026-dans-les-coulisses-du-manga-francais-avec-les-mangakas-elsa-brants-zac-et-tanji/",
-      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
-      "title_language": "fr",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 86,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "France"
-      ],
-      "source_regions": [
-        "Europe"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Journal du Japon"
-      ],
-      "published_at": "2026-11-10T16:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
-          "title_language": "fr",
-          "url": "https://www.journaldujapon.com/2026/11/10/japan-expo-2026-dans-les-coulisses-du-manga-francais-avec-les-mangakas-elsa-brants-zac-et-tanji/",
-          "source": "Journal du Japon",
-          "source_type": "editorial_site",
-          "source_country": "France",
-          "market_country": null,
-          "feed_sources": [
-            "Journal du Japon"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/announcements/2026/11/10/suikoden-the-anime-crunchyroll-stream",
       "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
       "title_language": "en",
@@ -7155,7 +7104,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 23,
-        "freshness": 96,
+        "freshness": 95,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -7283,6 +7232,53 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.journaldujapon.com/2026/11/10/japan-expo-2026-dans-les-coulisses-du-manga-francais-avec-les-mangakas-elsa-brants-zac-et-tanji/",
+      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
+      "title_language": "fr",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 86,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "France"
+      ],
+      "source_regions": [
+        "Europe"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Journal du Japon"
+      ],
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
+          "title_language": "fr",
+          "url": "https://www.journaldujapon.com/2026/11/10/japan-expo-2026-dans-les-coulisses-du-manga-francais-avec-les-mangakas-elsa-brants-zac-et-tanji/",
+          "source": "Journal du Japon",
+          "source_type": "editorial_site",
+          "source_country": "France",
+          "market_country": null,
+          "feed_sources": [
+            "Journal du Japon"
           ]
         }
       ]
@@ -7654,7 +7650,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 82,
+        "freshness": 81,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7733,6 +7729,7 @@
           "source_country": null,
           "market_country": "United States",
           "feed_sources": [
+            "Google News – India",
             "Google News – Philippines",
             "Google News – United States"
           ]
@@ -8380,6 +8377,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTGMzbkVBQndlS2REWWtScVpPV3B5emZBTFhKMmdWa2F6cGg4OTA2bWgxdjhrTVRWTGZiM0Z5UTkyN2VzN0tmRFBsaElHN1BGendJVm9YdXRfQ2ZQYzZILWh3cE9IRldwY3N1TV9JX0E1NEQxaTNXTDZraWtYbFR2Y3pLQlVvNzZFVDdzM3AtaVhFQQ?oc=5",
+      "title": "Sony voit dans l’anime produit en interne un moteur de croissance pour les décennies à venir - Mezha.net",
+      "title_language": "fr",
+      "score": 36,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 100,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-11T02:15:13+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Sony voit dans l’anime produit en interne un moteur de croissance pour les décennies à venir - Mezha.net",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTGMzbkVBQndlS2REWWtScVpPV3B5emZBTFhKMmdWa2F6cGg4OTA2bWgxdjhrTVRWTGZiM0Z5UTkyN2VzN0tmRFBsaElHN1BGendJVm9YdXRfQ2ZQYzZILWh3cE9IRldwY3N1TV9JX0E1NEQxaTNXTDZraWtYbFR2Y3pLQlVvNzZFVDdzM3AtaVhFQQ?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX3hzdnk4b3FMYXYtdFNfM1FaM19kVWlzeHV6UGNNcW5SaWRhamNPWHJkalVrWG9hVlpXSFlaTVhHZDhGb2pkaV9aa3d2clJFVEdLa1h2ZDRva0x3UUVGbWFNeUM2MEJEUHZKaS1pNFg1bnJrbGtiM3BhQWxQTGdQdnJuNUowLTg?oc=5",
       "title": "Sony bets on homegrown anime to fuel decades of future growth - The Japan Times",
       "title_language": "en",
@@ -8435,7 +8477,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 100,
+        "freshness": 99,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8705,52 +8747,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
-      "title": "7 Anime Series With the Most Perfect First Seasons, Ranked - Comic Book Resources",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 93,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United Kingdom"
-      ],
-      "market_regions": [
-        "Europe"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T21:00:12+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "7 Anime Series With the Most Perfect First Seasons, Ranked - Comic Book Resources",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
-          "source": "Google News – United Kingdom",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United Kingdom",
-          "feed_sources": [
-            "Google News – India",
-            "Google News – United Kingdom"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3RRNkNuNzZXYWFiOWYxblJiRmlEWTc3QUwxN3g1QXRkczdmU202YjZjVkI3TUhEMFBpc2dPZWpBSHVYMmZVSkVqcEdiZXY5UDBKZG1fMEdwQlEzbk93d1NqT21HYVdGcW5FZE9ub2FtdFZOUGJfTm4xT2Rybm4xSmNMcnhrRHF3c2Y2OE1kQmZRVDJoak1wRWQzVGU0UQ?oc=5",
       "title": "Novo trailer do filme anime ghost – end of night revela tema musical - OtakuPT",
       "title_language": "en",
@@ -8850,7 +8846,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 69,
+        "freshness": 68,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -8897,7 +8893,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 98,
+        "freshness": 99,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -8917,7 +8913,7 @@
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
       "sources": [],
-      "published_at": "2026-11-11T00:50:46+00:00",
+      "published_at": "2026-11-11T01:56:06+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
@@ -9123,6 +9119,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1dvYUNhNV83Q0FUUy0zYXFRTElCSGJUQ0RzWDlSVnVJdl9qNjdlRGRqX21DMl9jQUNfZXdkMnFYanczLWZHZ3FqSFNuRldHa1dhSGNKdDBlWVh5NUFIbTFkMUpiOFZXTkZ2aWQ2R2szc0JSeHlBd1JrYWhENHRKMVg2VHlWOGpRSnZmemN2ckk1b0RiNkh6YUl4ZHNhVjlhcGJ0dl9nQy1RSzZ3c0ZoQQ?oc=5",
+      "title": "Mani Salguero fait passer Laios Touden de l'anime à la 3D avec un pipeline hybride - Foro3D",
+      "title_language": "fr",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 95,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T22:36:57+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Mani Salguero fait passer Laios Touden de l'anime à la 3D avec un pipeline hybride - Foro3D",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1dvYUNhNV83Q0FUUy0zYXFRTElCSGJUQ0RzWDlSVnVJdl9qNjdlRGRqX21DMl9jQUNfZXdkMnFYanczLWZHZ3FqSFNuRldHa1dhSGNKdDBlWVh5NUFIbTFkMUpiOFZXTkZ2aWQ2R2szc0JSeHlBd1JrYWhENHRKMVg2VHlWOGpRSnZmemN2ckk1b0RiNkh6YUl4ZHNhVjlhcGJ0dl9nQy1RSzZ3c0ZoQQ?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0VVRklfeF9ULTdSVGJuQXJqMTJUR0xlcGFLWGZWZUZiYzJpWHlUTjkwcWhRZWMyT0pycWdTeEpKNGU2RHF0UEJndXBDUXFPS0dBbDVNRzRkbWJsdUhXQzdJM2dqVTJ3UTRkazJXZkhQNnBWSFdQckZEZVJqNk1qaFd0VW54c0xkenU2Tkp4Xy1Jcmk3S3V5VVc2VXpySmJvMVB6WVFyN3o2Rll6Mm5seUd6WHJ2NmNNQTlHNVg2QQ?oc=5",
       "title": "TEZUKA! GOD OF MANGA Roundtable with Dave Baker, Jason Andrew Cohn, Samuel Sattin, and Nicole Goux - www.comicsbeat.com",
       "title_language": "en",
@@ -9208,6 +9249,96 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
+      "title": "7 Anime Series With the Most Perfect First Seasons, Ranked - Comic Book Resources",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 93,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United Kingdom"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T21:00:12+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "7 Anime Series With the Most Perfect First Seasons, Ranked - Comic Book Resources",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXOWZFSzNrV2tJVWtLWk14ZXJJLVE0MG5FRXU0UWhURHZUME5PMkdkc2pzcVRFZVRfYlFSbVpRMzd1aGE1cVBvTE1EMFI3T1UyQldBaTQ5MEsweXAzRlctdlQtMExyTDdIeXRsYW1CTkN4MFRhYnc?oc=5",
+          "source": "Google News – United Kingdom",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United Kingdom",
+          "feed_sources": [
+            "Google News – United Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DU2dNZVg2akFBVWV0WHRJaFI4ZWl3anZjNkJHLXhkSTdjZTJ6YUhSNWJXQkc0MFV4S2dGZGpvQnlqNXE5bm1aV010c2pPdXhycXYyQXE3RUVPZEtBUUNDWDRCbzlTQzNGRzFHOXZ6Wk1nNTlfTldiMlZVNDRyY2c?oc=5",
+      "title": "Le manga Ore no Shibou Flag adapté en anime - Adala News",
+      "title_language": "fr",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 16,
+        "freshness": 88,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T17:20:01+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Le manga Ore no Shibou Flag adapté en anime - Adala News",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DU2dNZVg2akFBVWV0WHRJaFI4ZWl3anZjNkJHLXhkSTdjZTJ6YUhSNWJXQkc0MFV4S2dGZGpvQnlqNXE5bm1aV010c2pPdXhycXYyQXE3RUVPZEtBUUNDWDRCbzlTQzNGRzFHOXZ6Wk1nNTlfTldiMlZVNDRyY2c?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -9314,7 +9445,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 55,
+        "freshness": 54,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -9402,6 +9533,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWDllTVUxSHNpMXVuUUd5MkRPVEFleGt2RFlmdzMwV2NYRGtTbVA4RnlJQ3k3Mlg5MEZyYTl2dE9MVjNLWHVjNjlXVlJwWU5fWFZCVWRiUmZ4aVdVRTU2aC1ZZV92WkdvVHdqLXlKWTVsaUpfTXFrbGVRQ1l1eWFyU01iSmEzeWdEOWhqVl9zLVdJTFpqejBoaDl0cFhmWDJ6b3FITmNFYnFJOFhOWHZva1ROS3ZOOUNkaHlaellDNlBMS2pxWUR5aW5rekVKN3dnOEFGRkdLZld1V3JBYlJB?oc=5",
+      "title": "Dan Da Dan vous manque ? Pourquoi Fire Ball! est-il le manga à ne pas louper ? Quand sera-t-il disponible en France ? - Serieously",
+      "title_language": "fr",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 93,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T21:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Dan Da Dan vous manque ? Pourquoi Fire Ball! est-il le manga à ne pas louper ? Quand sera-t-il disponible en France ? - Serieously",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWDllTVUxSHNpMXVuUUd5MkRPVEFleGt2RFlmdzMwV2NYRGtTbVA4RnlJQ3k3Mlg5MEZyYTl2dE9MVjNLWHVjNjlXVlJwWU5fWFZCVWRiUmZ4aVdVRTU2aC1ZZV92WkdvVHdqLXlKWTVsaUpfTXFrbGVRQ1l1eWFyU01iSmEzeWdEOWhqVl9zLVdJTFpqejBoaDl0cFhmWDJ6b3FITmNFYnFJOFhOWHZva1ROS3ZOOUNkaHlaellDNlBMS2pxWUR5aW5rekVKN3dnOEFGRkdLZld1V3JBYlJB?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNDY5RVVibkprOV9EQklpci1sQXJOTlJhRVgwY2NoaXJtVGxYVlN2eDRfRkpmakowTkpjNF9MZjJyUFdWV3B1QlNlLUhoMUZ5amwwQ1VNbGJERktEdWJPaUJTMGktQ3duVnZaaWViUlJTdXFwWUhDRVYtSXBqRTViYjAwcw?oc=5",
       "title": "VIZ Media Greenlights 'Otaku Vampire's Love Bite' Anime - Animation World Network",
       "title_language": "en",
@@ -9409,7 +9585,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 93,
+        "freshness": 92,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9772,51 +9948,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcnZsUHp1S1RuNHp5SzBDUDFTQ3k1WDRFVDV4ajhDMk5DemdvN2E3SDRJbmZ5Z1lPbzd4U0c1dkFHRGdGdTJOZGoyakN0ZzVlMm8yeHFzVE1vano2d0tycXlCS0VqWktzQmx0YkdyMjY5dEw2RDAzYURwZVFGdGk2elhoQ1dZTW9jVjV3VEVOTXd5Q1E?oc=5",
-      "title": "Geekê BH 2026 reúne fãs de anime, games e cosplay - SouBH",
-      "title_language": "fr",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 87,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T17:07:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Geekê BH 2026 reúne fãs de anime, games e cosplay - SouBH",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcnZsUHp1S1RuNHp5SzBDUDFTQ3k1WDRFVDV4ajhDMk5DemdvN2E3SDRJbmZ5Z1lPbzd4U0c1dkFHRGdGdTJOZGoyakN0ZzVlMm8yeHFzVE1vano2d0tycXlCS0VqWktzQmx0YkdyMjY5dEw2RDAzYURwZVFGdGk2elhoQ1dZTW9jVjV3VEVOTXd5Q1E?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVE0Vl96RGVNRW1UX2U3UjZsaVotRFgzYklzYzFyQVhLM182cnowRWRvMEMyS0NNV1pqSHNGVzg3aXR4cWxrMTI1SEZISV9YVVdzcG4zRzhDSmIzM1ZMZjM5TV9zV1VFZHFfVXJmRHpSLVBkN0s1aFBVbHRXQVRHM2pzbG5RQ0lfZWZNOE5R?oc=5",
       "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime - Crunchyroll",
       "title_language": "en",
@@ -9917,7 +10048,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -9950,54 +10081,6 @@
           "market_country": "United Kingdom",
           "feed_sources": [
             "Google News – United Kingdom"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
-      "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur - Crunchyroll",
-      "title_language": "en",
-      "score": 33,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 85,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "United States"
-      ],
-      "market_regions": [
-        "North America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-10T15:26:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur - Crunchyroll",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
-          "source": "Google News – United States",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "United States",
-          "feed_sources": [
-            "Google News – India",
-            "Google News – Philippines",
-            "Google News – United Kingdom",
-            "Google News – United States"
           ]
         }
       ]
@@ -10343,6 +10426,96 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcnZsUHp1S1RuNHp5SzBDUDFTQ3k1WDRFVDV4ajhDMk5DemdvN2E3SDRJbmZ5Z1lPbzd4U0c1dkFHRGdGdTJOZGoyakN0ZzVlMm8yeHFzVE1vano2d0tycXlCS0VqWktzQmx0YkdyMjY5dEw2RDAzYURwZVFGdGk2elhoQ1dZTW9jVjV3VEVOTXd5Q1E?oc=5",
+      "title": "Geekê BH 2026 reúne fãs de anime, games e cosplay - SouBH",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 87,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T17:07:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Geekê BH 2026 reúne fãs de anime, games e cosplay - SouBH",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcnZsUHp1S1RuNHp5SzBDUDFTQ3k1WDRFVDV4ajhDMk5DemdvN2E3SDRJbmZ5Z1lPbzd4U0c1dkFHRGdGdTJOZGoyakN0ZzVlMm8yeHFzVE1vano2d0tycXlCS0VqWktzQmx0YkdyMjY5dEw2RDAzYURwZVFGdGk2elhoQ1dZTW9jVjV3VEVOTXd5Q1E?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa1pSRVJ4akdTd2prREtGelRQNDFhYVU3azA5RXFob29neUE4T2pWMjBxRFpsTldaSG9EZzlZUlhOdUoxSVJzTlZwcFJZT1hoMlZSY2hXRzJUNHNzT3RHTkFRY2c1X3E5dWRCcG1IQ3MzM1lKZ24xRjhzTnlZUDVTM202UnpCejJXbTJKVC0yMUZtbUtNQ2ItTThOVHE1enJJa1JONkVaUXRpR0JYTjlYaEtrbHh2YUdxNVBVSm92MDg1ZHZ2RXBHc0h0NDJDRVNwTHRjd3JmeXVHdW9jY1NVWUlwMUh2V1NGYnJFMXFRbXZoZw?oc=5",
+      "title": "Mort du dessinateur de BD Frédéric Boilet, passeur essentiel du manga d’auteur en France - Libération",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 87,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T17:02:43+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Mort du dessinateur de BD Frédéric Boilet, passeur essentiel du manga d’auteur en France - Libération",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa1pSRVJ4akdTd2prREtGelRQNDFhYVU3azA5RXFob29neUE4T2pWMjBxRFpsTldaSG9EZzlZUlhOdUoxSVJzTlZwcFJZT1hoMlZSY2hXRzJUNHNzT3RHTkFRY2c1X3E5dWRCcG1IQ3MzM1lKZ24xRjhzTnlZUDVTM202UnpCejJXbTJKVC0yMUZtbUtNQ2ItTThOVHE1enJJa1JONkVaUXRpR0JYTjlYaEtrbHh2YUdxNVBVSm92MDg1ZHZ2RXBHc0h0NDJDRVNwTHRjd3JmeXVHdW9jY1NVWUlwMUh2V1NGYnJFMXFRbXZoZw?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xdW9VNE40XzVZUVc5c1B3blpsNHlFVHlMMDRQWFNGcXlXams3V1hseVlDVXg3UV9CMUpMQWlZNy16YjNNdFJsM1VGeFBUem1oQ0tEWW5yY2FQQU5MRUNLQndHTGNNc0pvMGRCVXVoRkcxUzJraXc?oc=5",
       "title": "5 Years Later, One of Anime’s Biggest Mysteries Has Officially Been Solved - Polygon.com",
       "title_language": "en",
@@ -10390,6 +10563,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOLXNwRGVzRU8tcnNHMk9UN0NHbkItaG5wbWtEbnFpZ0tBWnNoNWFIV0dDRWs4aTdReXNMdVFUVkRQbnNXanBxbjhYUDZqMDZHZ29iNm5DZ1VIZW9YN2lIRjNsLXV4MS0yX0hJLVpGOXlHLUZFRXhyREVTT1hQS01RQXR4SEVMc2FKUjlhYmp4QV9wcmRVYUZlOHE2R0duaFljYWpBaENXTFNBTkI2UE1MUHZtZkhsN01PYUt3dlBlM2pKRE1rYUQyT0hkRjBnTmdoSjhvRERqbGVCWjlfbGpfVFJOclQ2VmRUM2JxeEM3Q1hHQ3NNZFh0OHljaFFzMnpKanc?oc=5",
+      "title": "Il \"pète le feu\" quand il dort cinq heures : s’inspirant de son insomnie, il imagine un concert manga à voir bientôt à Niort - lanouvellerepublique.fr",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 87,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T16:46:02+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Il \"pète le feu\" quand il dort cinq heures : s’inspirant de son insomnie, il imagine un concert manga à voir bientôt à Niort - lanouvellerepublique.fr",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOLXNwRGVzRU8tcnNHMk9UN0NHbkItaG5wbWtEbnFpZ0tBWnNoNWFIV0dDRWs4aTdReXNMdVFUVkRQbnNXanBxbjhYUDZqMDZHZ29iNm5DZ1VIZW9YN2lIRjNsLXV4MS0yX0hJLVpGOXlHLUZFRXhyREVTT1hQS01RQXR4SEVMc2FKUjlhYmp4QV9wcmRVYUZlOHE2R0duaFljYWpBaENXTFNBTkI2UE1MUHZtZkhsN01PYUt3dlBlM2pKRE1rYUQyT0hkRjBnTmdoSjhvRERqbGVCWjlfbGpfVFJOclQ2VmRUM2JxeEM3Q1hHQ3NNZFh0OHljaFFzMnpKanc?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOamltSVkteV85Z0p3RmJ5eTZHNFdvblAwNEgycll6TS1aSmp2RFVaNU9LZzFuNWl5SVV4X0JCNFI1dGhtQnRpZXV0cEU0VllvSVEtMzV4QWVOQjQzajVPRzVTNzZMb0pVa3VmMWhaU2Y4dFh4cE5wdTFoWldQQUdaZzZkV3RJSEpPNkVLcHhwV0QwQ1hQMXUtMVVINGVWaHlm?oc=5",
       "title": "Ayra Starr Makes a ‘Bold Yet Simple Statement’ With New ‘Starrgirl’ Limited-Edition Anime-Inspired Vinyl - Billboard",
       "title_language": "en",
@@ -10431,6 +10649,96 @@
           "feed_sources": [
             "Google News – United Kingdom",
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOFpKMzMzNGNvcmlrUm1ZakREZ2dnVDBDbDZMd0hFZzZEckRHdEw0cWc2VGFzU3NTNzkwUmx1dTZ1UzdHTTQyX2dhRFJlTVllUE14N3dPbmRpQllZT3pLMWhVZnBWQjI1VWZzV2tvTE9QeThnaFA4R1NSODNOSnFhdlJUWWY3TW5NNExmenVaVjd1MDlGaDJGbjh6TGhwTXhIc1JmR0psU0FfVTY4WGVfMUFuNTdRVUNsMDJIbm5RNDAwdE04VFlpT2cyTlFUMEtveHJWTw?oc=5",
+      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji ! - Journal du Japon",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 86,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji ! - Journal du Japon",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOFpKMzMzNGNvcmlrUm1ZakREZ2dnVDBDbDZMd0hFZzZEckRHdEw0cWc2VGFzU3NTNzkwUmx1dTZ1UzdHTTQyX2dhRFJlTVllUE14N3dPbmRpQllZT3pLMWhVZnBWQjI1VWZzV2tvTE9QeThnaFA4R1NSODNOSnFhdlJUWWY3TW5NNExmenVaVjd1MDlGaDJGbjh6TGhwTXhIc1JmR0psU0FfVTY4WGVfMUFuNTdRVUNsMDJIbm5RNDAwdE04VFlpT2cyTlFUMEtveHJWTw?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNaa1lIeHdGa3U1dGNSQ2ltd2tOalVPZC0yanJMU0lZY0FQUGkzR3pNWUJnd3doSDJlaGduQXgtVmRMTU83TFBpUXBQM1VoWWxIbGlObHpHYjFXX1h3M0t4UVdXdkVZLUtORUdCSTUtTmxVcHJpWjUwSjJPV00xSzlENFVQVkZfRkR5dTNDbUwzYnFhUEdJMkRQV3RHamdFN2JSa0JpZF9oMS1vdlhLRk1uNDVYRXo0Z3lJLXhJaDRHYUHSAcIBQVVfeXFMUE5acDk4V01MLWZKaHlxbDdxMkR1TjMwUy0xVGZLU19ETUxjR3dfTDRSenRmSVFqLWFlVzVPQWwteU90Vm5zSkVsVndLdWRPdERGMGROX3AzYjZCbFRIWDgwWmh3Ykp5QUczVWpGMTBzQWk3cl9GZ2lsYTlpdEFWTGwyWDc2R0hIcWNvMHE0OXI4M2pSVkhWZ2hwMnhiOEwzQW5zM25UWU4wUFFKWkVKd1d4RkpKYlRzTkJvM0dkWmppQ2c?oc=5",
+      "title": "Interview de Hisae Iwaoka sur son manga La Forêt magique de Hoshigahara - Manga news",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 86,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Interview de Hisae Iwaoka sur son manga La Forêt magique de Hoshigahara - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNaa1lIeHdGa3U1dGNSQ2ltd2tOalVPZC0yanJMU0lZY0FQUGkzR3pNWUJnd3doSDJlaGduQXgtVmRMTU83TFBpUXBQM1VoWWxIbGlObHpHYjFXX1h3M0t4UVdXdkVZLUtORUdCSTUtTmxVcHJpWjUwSjJPV00xSzlENFVQVkZfRkR5dTNDbUwzYnFhUEdJMkRQV3RHamdFN2JSa0JpZF9oMS1vdlhLRk1uNDVYRXo0Z3lJLXhJaDRHYUHSAcIBQVVfeXFMUE5acDk4V01MLWZKaHlxbDdxMkR1TjMwUy0xVGZLU19ETUxjR3dfTDRSenRmSVFqLWFlVzVPQWwteU90Vm5zSkVsVndLdWRPdERGMGROX3AzYjZCbFRIWDgwWmh3Ykp5QUczVWpGMTBzQWk3cl9GZ2lsYTlpdEFWTGwyWDc2R0hIcWNvMHE0OXI4M2pSVkhWZ2hwMnhiOEwzQW5zM25UWU4wUFFKWkVKd1d4RkpKYlRzTkJvM0dkWmppQ2c?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -10488,7 +10796,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 86,
+        "freshness": 85,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10521,6 +10829,144 @@
           "market_country": "Brazil",
           "feed_sources": [
             "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
+      "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur - Crunchyroll",
+      "title_language": "en",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 85,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "United States"
+      ],
+      "market_regions": [
+        "North America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T15:26:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Millennium Family Anime Casts Mutsumi Tamura as Arthur - Crunchyroll",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb01YUDlXbkMyTDRmRURxTHRUUHlQNzJOazF3bU5GeW5lYmc0dmJxWTk5X0dJUnpwc2xLQ2F6Y3VMY2tvOVU5dmlZSTlWQ0ZKemRNXzYtcEZmX2FPZWtqMnRYOGFGaFRWVWM5UDhsRmo5MHpQYkQzRUxjQy1wNUx6d1VabEthZGd0UXhUUTFSVHJ3M01aRWhxS1E4Y2FFcFVrSjAyOTV6WGI?oc=5",
+          "source": "Google News – United States",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "United States",
+          "feed_sources": [
+            "Google News – India",
+            "Google News – Philippines",
+            "Google News – United Kingdom",
+            "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1d5VndJNzJLXzBLTWpWdTR2UUM1c3VNNlZEaXpTVnRTRkdBZ2VjRmI4c3ZPZnYxSndqeFNoLXFvY3VEMVBlUFNtbElLZGNRZENtQ1NoVmRCN0s1YjFSSHh6eWV1dUtpSzk3WUVNTUZ0NDNPa3JlZUU1UzBhaU9fYlN5ZjU2QklGQXJNTTN0TVk5Q1hDQmVVcjF2ZFFhb2tnaWpvandsSndMN0k?oc=5",
+      "title": "Frédéric Boilet, pionnier du manga d'auteur en France, est mort - ActuaLitté.com",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 85,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T15:22:48+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Frédéric Boilet, pionnier du manga d'auteur en France, est mort - ActuaLitté.com",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1d5VndJNzJLXzBLTWpWdTR2UUM1c3VNNlZEaXpTVnRTRkdBZ2VjRmI4c3ZPZnYxSndqeFNoLXFvY3VEMVBlUFNtbElLZGNRZENtQ1NoVmRCN0s1YjFSSHh6eWV1dUtpSzk3WUVNTUZ0NDNPa3JlZUU1UzBhaU9fYlN5ZjU2QklGQXJNTTN0TVk5Q1hDQmVVcjF2ZFFhb2tnaWpvandsSndMN0k?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2h5aGNzVkVGNDFfcFVubTNiM3RJUzNPdGphdWhGVHc0YkR3YWlDVjlVQjluRms1dl9aMl9sODZUMUdMZlNVSmZSbTZJazNlbVBUN1BKXzRBVUdDOWJVT2VHcjZoWVRPekhZbE1fUDMwRlYyOEdZWXRxQWxRY1ByZ1ZSbTV1bzE0ZXk5dWx6d2E2NjFBczZZSEo0cld3N01LRFFNMzBoRjdBbFdpN3lUSVFQZC1DcVFVbE1JX2lPdHZRQ185b2p5TUotMks1UdIBzAFBVV95cUxPb1N1QXg3d19FUXlaemxGSDJjal9TNXNPSDV2ZVhib3pfNmp4d25CelhLQ05oNWg0bjVFTEVMRGU5anExMzZiSFJpM2x2REJ5VWFEVDVDb3kySVFNYk9zZGNDcGRiYmNKMzFEX2JPdlJrbWVLbFU0NUNnbUpkRzJVNnNsM1RFTzB0T2hKZTlpSjR5RUZLQndhdlZGUWhET0ZWRnJlNE1PZ3ZLd2pMWWtRSGV6bVNlMGFQRGFUSzFzQXY2dUNaZVJreGdUNGI?oc=5",
+      "title": "The Man in the White Coat, une nouvelle romance érotique aux éditions Teen's Love - Manga news",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 84,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T15:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Man in the White Coat, une nouvelle romance érotique aux éditions Teen's Love - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2h5aGNzVkVGNDFfcFVubTNiM3RJUzNPdGphdWhGVHc0YkR3YWlDVjlVQjluRms1dl9aMl9sODZUMUdMZlNVSmZSbTZJazNlbVBUN1BKXzRBVUdDOWJVT2VHcjZoWVRPekhZbE1fUDMwRlYyOEdZWXRxQWxRY1ByZ1ZSbTV1bzE0ZXk5dWx6d2E2NjFBczZZSEo0cld3N01LRFFNMzBoRjdBbFdpN3lUSVFQZC1DcVFVbE1JX2lPdHZRQ185b2p5TUotMks1UdIBzAFBVV95cUxPb1N1QXg3d19FUXlaemxGSDJjal9TNXNPSDV2ZVhib3pfNmp4d25CelhLQ05oNWg0bjVFTEVMRGU5anExMzZiSFJpM2x2REJ5VWFEVDVDb3kySVFNYk9zZGNDcGRiYmNKMzFEX2JPdlJrbWVLbFU0NUNnbUpkRzJVNnNsM1RFTzB0T2hKZTlpSjR5RUZLQndhdlZGUWhET0ZWRnJlNE1PZ3ZLd2pMWWtRSGV6bVNlMGFQRGFUSzFzQXY2dUNaZVJreGdUNGI?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -10672,7 +11118,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 83,
+        "freshness": 82,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -10705,6 +11151,51 @@
           "market_country": "India",
           "feed_sources": [
             "Google News – India"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV0lGRzRiOW5zdlE3LXRlUXJjQUdLSlhmTFlyTkRMblMtaFA2dzBhWHpsay1wVVNFUUxvMU5xc3M3Y3VyTmZZdm1VS004MThGdGFUSmdJb3FYR3Jqd0RGQXkzZXJpdE9pZk1SSHVqMGJZVDk1eXpr?oc=5",
+      "title": "Idées cadeaux manga et anime : notre sélection Noël 2026 - FuransuJapon",
+      "title_language": "fr",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 16,
+        "freshness": 76,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Idées cadeaux manga et anime : notre sélection Noël 2026 - FuransuJapon",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV0lGRzRiOW5zdlE3LXRlUXJjQUdLSlhmTFlyTkRMblMtaFA2dzBhWHpsay1wVVNFUUxvMU5xc3M3Y3VyTmZZdm1VS004MThGdGFUSmdJb3FYR3Jqd0RGQXkzZXJpdE9pZk1SSHVqMGJZVDk1eXpr?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -10899,6 +11390,186 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kVDUwMWpVa21aWk53TG1vOF9LMkdUakNJdmhiLW5fRUdOYWlHeFVkWXoyeVVoS3JjNE1pUTZWcXpSWWtzdDFERHhOWmRUM3dNTEVmTll6RUMzeEI0RHNtV3pOTEZ0WWU2TmFtaTZTc3Q3NFdO?oc=5",
+      "title": "Meteoria Vol.2 : Critiques - Manga news",
+      "title_language": "en",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 83,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T14:11:58+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Meteoria Vol.2 : Critiques - Manga news",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kVDUwMWpVa21aWk53TG1vOF9LMkdUakNJdmhiLW5fRUdOYWlHeFVkWXoyeVVoS3JjNE1pUTZWcXpSWWtzdDFERHhOWmRUM3dNTEVmTll6RUMzeEI0RHNtV3pOTEZ0WWU2TmFtaTZTc3Q3NFdO?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUFteEJZQkVRMWZLYnkydUw0ZmFVTzJxNmVBcUlPQzUyRTBFcXVpbVBFczRYVlZmNUJ2Ym1GeHJOSWkycm00WlBkaS1fc0R3YlFrUzJVRWlIX0phYWdzU2Y0S1Nub1ZpZjQyY1JUOTZCakJZWTZNcGUzd1FVSHE5ZElzSkNhWWRRVW5ZeHNiWW0?oc=5",
+      "title": "Archange de la décapitation (l') Vol.1 : Critiques - Manga news",
+      "title_language": "fr",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 83,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T14:08:11+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Archange de la décapitation (l') Vol.1 : Critiques - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUFteEJZQkVRMWZLYnkydUw0ZmFVTzJxNmVBcUlPQzUyRTBFcXVpbVBFczRYVlZmNUJ2Ym1GeHJOSWkycm00WlBkaS1fc0R3YlFrUzJVRWlIX0phYWdzU2Y0S1Nub1ZpZjQyY1JUOTZCakJZWTZNcGUzd1FVSHE5ZElzSkNhWWRRVW5ZeHNiWW0?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQXzFOQkhGcWd6OEFEZ3JNUmJYOFY1Vy1kc01rcnlyczUwNVN2ejF0ejlWTW1udW1YSmVMdFdCc0dDX25tLUJRdXEtTTdwT25TWmZrZ0dwMWZLOWhtbTB5QkFGN3VGRkdHNEpuV2VGbEJRd3hGUHdjS0htRHJlM2tXVDRITXVoM1lHd00tZDduR01Vb0tR0gGTAUFVX3lxTE9USlFVSmNadFRtUWdIaTlKYzBCV2lpWjhGekIzenJSb0VhY04tZEI5cDY1QzFIZ0d6NlgxTlRDN1JPbHhwNzBKN1JmcVNsOVpUQ3dtUDhoZTRXZ2M2MTN2UFpyaXNXazJaMkpSQjllNDU5T20xQ1h5WFd0djRqbTFEOUhQSDJXOFJnbWFGaU9iTmZOYw?oc=5",
+      "title": "Tournoi Boy's Love 2025 - Deuxième tour - Manga news",
+      "title_language": "fr",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 83,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T14:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Tournoi Boy's Love 2025 - Deuxième tour - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQXzFOQkhGcWd6OEFEZ3JNUmJYOFY1Vy1kc01rcnlyczUwNVN2ejF0ejlWTW1udW1YSmVMdFdCc0dDX25tLUJRdXEtTTdwT25TWmZrZ0dwMWZLOWhtbTB5QkFGN3VGRkdHNEpuV2VGbEJRd3hGUHdjS0htRHJlM2tXVDRITXVoM1lHd00tZDduR01Vb0tR0gGTAUFVX3lxTE9USlFVSmNadFRtUWdIaTlKYzBCV2lpWjhGekIzenJSb0VhY04tZEI5cDY1QzFIZ0d6NlgxTlRDN1JPbHhwNzBKN1JmcVNsOVpUQ3dtUDhoZTRXZ2M2MTN2UFpyaXNXazJaMkpSQjllNDU5T20xQ1h5WFd0djRqbTFEOUhQSDJXOFJnbWFGaU9iTmZOYw?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcF9qeVVWMTlmVTE1NnRxMEl4QmlXcGQ0b3ZTbnFoN2NFT25Ba3VCTFdNQ0w3UXdqdUtSRER3akNpc2xKN0ZrVElFcDNjVFQwRGJ3RDZXSENYMDZ0OENBdE4yQmJiM2FoOE5RX2FDTFFTdXB0aUhxdzVMUC0zR3lsaWw2VHVWLW5ra0pETXo5amFNVVE3RVpVVEFxNUZfem5Mc2ZjWTdLTHkwMmk5d2d4N0NkTS1WM2dFclp5bEZUT2xWUQ?oc=5",
+      "title": "Bricquebec. Angèle Chalony anime des ateliers gymnastique \"équilibre et mémoire\" - lamanchelibre.fr",
+      "title_language": "fr",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 83,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T13:53:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Bricquebec. Angèle Chalony anime des ateliers gymnastique \"équilibre et mémoire\" - lamanchelibre.fr",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcF9qeVVWMTlmVTE1NnRxMEl4QmlXcGQ0b3ZTbnFoN2NFT25Ba3VCTFdNQ0w3UXdqdUtSRER3akNpc2xKN0ZrVElFcDNjVFQwRGJ3RDZXSENYMDZ0OENBdE4yQmJiM2FoOE5RX2FDTFFTdXB0aUhxdzVMUC0zR3lsaWw2VHVWLW5ra0pETXo5amFNVVE3RVpVVEFxNUZfem5Mc2ZjWTdLTHkwMmk5d2d4N0NkTS1WM2dFclp5bEZUT2xWUQ?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MSUJEUk5vc1hjN3NtelFrS0YzQ1d2WmVCTmlKS3hPTUJVU2E3MVA0VzI2YmQ3eVdWT2RYS0V5N0V0dzY1ZHdDeUZZMUplTWd1V05oZjBxd3IzX001anhJSWpJQ2c1eVEyQmJCVEc1OHdfX2JUcmdCeTl30gF_QVVfeXFMTjc5S2JCYURoWm9FTjVDUS1RZzRkUlBVZVFNYkEtSE1lbElXcGdEQVRzWEgtTFZHc0VjaWtXZ2FEMXl0ZkMxMUJQM1dKaVpIQkFNR1oxUVI0N0QtMjNfd0lWUmVad3JqOC1ZUFNZb2hRZUFqWm5iNTczb3N2X2RuTQ?oc=5",
       "title": "MANGA Plus possui 4 milhões de usuários mensais - O Vício",
       "title_language": "en",
@@ -10996,7 +11667,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 83,
+        "freshness": 82,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -11029,6 +11700,51 @@
           "market_country": "Philippines",
           "feed_sources": [
             "Google News – Philippines"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVjhQZmI3Y0JqTlUybGt6RWp3LXJ4clBpUmlkMG1sZFo2b0hHcUFGaVlfMXh2U2FpYXdYNVFqaDdXMUdiOTFYNm9iazR3Z3ZIR1cwWVFycFd1R29VSzJhdXRTRzVTVXFsaHFrR3R6VHRIODJnUkp1Vm9fNTBCUmNXYWlMMGdpQms0dHNwM01VVk9mVjRGRlMxTHhva1d6RVFwYURfVkNDYTc5dlFYdDJGT1lkN01Oa1VuQzJGVmg2b1FjVUItcE0tUnRUdnQ4T0djM2JQY0JWTQ?oc=5",
+      "title": "Cet orchestre anime les manifs à Caen dans une « démarche pacifique et festive » : qui sont-ils ? - Actu.fr",
+      "title_language": "fr",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 82,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T13:21:04+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Cet orchestre anime les manifs à Caen dans une « démarche pacifique et festive » : qui sont-ils ? - Actu.fr",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVjhQZmI3Y0JqTlUybGt6RWp3LXJ4clBpUmlkMG1sZFo2b0hHcUFGaVlfMXh2U2FpYXdYNVFqaDdXMUdiOTFYNm9iazR3Z3ZIR1cwWVFycFd1R29VSzJhdXRTRzVTVXFsaHFrR3R6VHRIODJnUkp1Vm9fNTBCUmNXYWlMMGdpQms0dHNwM01VVk9mVjRGRlMxTHhva1d6RVFwYURfVkNDYTc5dlFYdDJGT1lkN01Oa1VuQzJGVmg2b1FjVUItcE0tUnRUdnQ4T0djM2JQY0JWTQ?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -11119,6 +11835,96 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHp1NGhTUWlubjYwc0xRd01tUGNHUGhoekZzNk94aHNhY3QxazJNRDk3LTh3TmYzYjhwNzZ4d2JzUEFoYkhuYUtaVTV4cTJXNTJkV0VEMEk1VkJudDNReFBQWk52dGh0OEp6WTZFV2dlVjJjR2FDNEhjMGludXJTT0E0Qm9lX244RWhnVU9R?oc=5",
+      "title": "Classroom for Heroes se termine !, 10 Novembre 2026 - Manga news",
+      "title_language": "en",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 81,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Classroom for Heroes se termine !, 10 Novembre 2026 - Manga news",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHp1NGhTUWlubjYwc0xRd01tUGNHUGhoekZzNk94aHNhY3QxazJNRDk3LTh3TmYzYjhwNzZ4d2JzUEFoYkhuYUtaVTV4cTJXNTJkV0VEMEk1VkJudDNReFBQWk52dGh0OEp6WTZFV2dlVjJjR2FDNEhjMGludXJTT0E0Qm9lX244RWhnVU9R?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnFHNmEzUUpuemdfZERCQS1zVFVKWk9wbmdYdjhsM2h5eGY4ekxlRGVHOVo1V2FIOTNLLTZjZkNEajhCN00tRVd6TFdRYzhKX3pZZUMwc1l6cG92dWxIajhnWU02NVJTWGhvUklxdnlZblRvZ01pN0FXZ0JyUU9MNWtwMWlYSDBiTTBWb2ZvMHI1cjE4M2lTNGJOUFRXSnV1cmo3ZXlTY2ZKQnNDZ0U5N2lB?oc=5",
+      "title": "L'anime dépasse les 24 000 milliards d'euros et est déjà un pilier de l'audiovisuel - Foro3D",
+      "title_language": "fr",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 81,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T12:58:14+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "L'anime dépasse les 24 000 milliards d'euros et est déjà un pilier de l'audiovisuel - Foro3D",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnFHNmEzUUpuemdfZERCQS1zVFVKWk9wbmdYdjhsM2h5eGY4ekxlRGVHOVo1V2FIOTNLLTZjZkNEajhCN00tRVd6TFdRYzhKX3pZZUMwc1l6cG92dWxIajhnWU02NVJTWGhvUklxdnlZblRvZ01pN0FXZ0JyUU9MNWtwMWlYSDBiTTBWb2ZvMHI1cjE4M2lTNGJOUFRXSnV1cmo3ZXlTY2ZKQnNDZ0U5N2lB?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -11256,53 +12062,6 @@
           "market_country": null,
           "feed_sources": [
             "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
-      "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
-      "title_language": "en",
-      "score": 30,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 52,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "market_signal_count": 0,
-      "source_count": 1,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [
-        "United States"
-      ],
-      "source_regions": [
-        "North America"
-      ],
-      "market_countries": [],
-      "market_regions": [],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-09T16:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
-          "source": "Anime News Network – News",
-          "source_type": "editorial_site",
-          "source_country": "United States",
-          "market_country": null,
-          "feed_sources": [
-            "Anime News Network – News"
           ]
         }
       ]
@@ -11588,6 +12347,141 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4aVZZNmx1MzlEdm9qd1FuM2E2SlJMbHRqSkpRTWhacVcyZFV6dVZhQWVrd0RNa3JmR1l6UFZaNlZiNzhrcTRYSG0ycHRmeUZPTnBIam1TUnVqVmlfR2FFYkxyRXk5V0E?oc=5",
+      "title": "Devils' Crest : 2 cours, épisodes et où regarder l'anime - FuransuJapon",
+      "title_language": "fr",
+      "score": 30,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 79,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T11:32:56+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Devils' Crest : 2 cours, épisodes et où regarder l'anime - FuransuJapon",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4aVZZNmx1MzlEdm9qd1FuM2E2SlJMbHRqSkpRTWhacVcyZFV6dVZhQWVrd0RNa3JmR1l6UFZaNlZiNzhrcTRYSG0ycHRmeUZPTnBIam1TUnVqVmlfR2FFYkxyRXk5V0E?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVmE4OWJqdGtzY0xFTV9CNzZQbnNWTEhmRXdhZjhfQ1FkZnlhMXZPYThGa3F2YWRuMUJfVzhPU2s3R3M1R1FTbW5ZblF5UUplcGdORHRSVG5QMHg4SlhFdTNrT0dlSjNuYW8tNHNtQUtKT1BIWVlrLUd1YzRiMEhYYkQ3bGMzSXhjS2pPZXhpRHBXZUtCSVJMYkNjRGtRb0dwa08wMHFJYVJORTjSAaoBQVVfeXFMTVFxYk9ZRWl3QlFOSTMwNHBQeGxzQlQzMERUTFlMM29xS3Q2UHBFckQ4ODdvTXhLTzlnaUoyMWxsVVdOWXdRdV9mTlgyZTVpNlRDcTUwRjlqUms2TDJmNWt1blFhRzlDUW9LOUVlWDQwYjVhQ1hkU2tfcHczNDlidEFmMmVpUGJwV19VbVNoWVFmcVRaMFpFRk41TXNlZmszd2gxTUVzS1k0M3c?oc=5",
+      "title": "Nicke revient aux éditions Ki-oon avec le manga Kirin - Manga news",
+      "title_language": "fr",
+      "score": 30,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 79,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T11:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Nicke revient aux éditions Ki-oon avec le manga Kirin - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVmE4OWJqdGtzY0xFTV9CNzZQbnNWTEhmRXdhZjhfQ1FkZnlhMXZPYThGa3F2YWRuMUJfVzhPU2s3R3M1R1FTbW5ZblF5UUplcGdORHRSVG5QMHg4SlhFdTNrT0dlSjNuYW8tNHNtQUtKT1BIWVlrLUd1YzRiMEhYYkQ3bGMzSXhjS2pPZXhpRHBXZUtCSVJMYkNjRGtRb0dwa08wMHFJYVJORTjSAaoBQVVfeXFMTVFxYk9ZRWl3QlFOSTMwNHBQeGxzQlQzMERUTFlMM29xS3Q2UHBFckQ4ODdvTXhLTzlnaUoyMWxsVVdOWXdRdV9mTlgyZTVpNlRDcTUwRjlqUms2TDJmNWt1blFhRzlDUW9LOUVlWDQwYjVhQ1hkU2tfcHczNDlidEFmMmVpUGJwV19VbVNoWVFmcVRaMFpFRk41TXNlZmszd2gxTUVzS1k0M3c?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUs5cE5IcHJyWDh2RlUtZ1ZEZkNQY3ZMaFU1bFhJZHYyejlTbzRkZWxUeWgwOFo2WHVwVDN4WlJBZE1GeVAwV21ZY3hsbVg1ZmpaR19pS2Q3R3RBWloxYWdDWGt1VXhjQ2RsLVFKTGMtTW9oUnRxdUdiS2hrZzdGRTNabk4tX2xBbW1XT2JKLUxMdVE1QmFlNGdxbmhmbVFOY3hXZnk1ZUVmMjRBakt5eG1LQmZzVkdJRDJscENFeDQ3SUQwU3YyREJHaGNadw?oc=5",
+      "title": "“Bass X Machina”, sur Netflix : un anime explosif et politique, la pépite de l’année - Télérama",
+      "title_language": "fr",
+      "score": 30,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 78,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T10:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "“Bass X Machina”, sur Netflix : un anime explosif et politique, la pépite de l’année - Télérama",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWUs5cE5IcHJyWDh2RlUtZ1ZEZkNQY3ZMaFU1bFhJZHYyejlTbzRkZWxUeWgwOFo2WHVwVDN4WlJBZE1GeVAwV21ZY3hsbVg1ZmpaR19pS2Q3R3RBWloxYWdDWGt1VXhjQ2RsLVFKTGMtTW9oUnRxdUdiS2hrZzdGRTNabk4tX2xBbW1XT2JKLUxMdVE1QmFlNGdxbmhmbVFOY3hXZnk1ZUVmMjRBakt5eG1LQmZzVkdJRDJscENFeDQ3SUQwU3YyREJHaGNadw?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/9/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer",
       "title": "Atelier Karia: The Night Kingdom & the Guide of Memories Story Trailer Debuts",
       "title_language": "en",
@@ -11630,6 +12524,53 @@
           "market_country": null,
           "feed_sources": [
             "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
+      "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
+      "title_language": "en",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 52,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "market_signal_count": 0,
+      "source_count": 1,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [
+        "United States"
+      ],
+      "source_regions": [
+        "North America"
+      ],
+      "market_countries": [],
+      "market_regions": [],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Manga Up! Global Adds Love Unseen Beneath the Clear Night Sky, Underdog Idol, 3 More Manga",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-09/manga-up-global-adds-love-unseen-beneath-the-clear-night-sky-underdog-idol-3-more-manga/.243529",
+          "source": "Anime News Network – News",
+          "source_type": "editorial_site",
+          "source_country": "United States",
+          "market_country": null,
+          "feed_sources": [
+            "Anime News Network – News"
           ]
         }
       ]
@@ -11682,6 +12623,96 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZm9yNG9fWWpMU1dwckdhNjhOTDNHbXBMZTBhWkEySzlOOVFwaW5YRVAyRW96M1dvTDlnV1AzZVU3ZE5qdXAwalMwYmpDUGhub19pNDJ0WVdFcV9TZGVHdzNTak15eVBuVGs2QUVpRXctbEhwNG5zNnVPRTBYMHJ4WlF1d3JWdUVBd2VjR1ZCVEo4Rk5MZDFvM0VuMktiVTZtQ2Q3dnJiX0FtV1NxX1JwdFVRWGUzU0Zp?oc=5",
+      "title": "One Piece : Luffy a-t-il vraiment coupé le bras de Shanks ? La folle théorie des fans - Serieously",
+      "title_language": "fr",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 81,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "One Piece : Luffy a-t-il vraiment coupé le bras de Shanks ? La folle théorie des fans - Serieously",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZm9yNG9fWWpMU1dwckdhNjhOTDNHbXBMZTBhWkEySzlOOVFwaW5YRVAyRW96M1dvTDlnV1AzZVU3ZE5qdXAwalMwYmpDUGhub19pNDJ0WVdFcV9TZGVHdzNTak15eVBuVGs2QUVpRXctbEhwNG5zNnVPRTBYMHJ4WlF1d3JWdUVBd2VjR1ZCVEo4Rk5MZDFvM0VuMktiVTZtQ2Q3dnJiX0FtV1NxX1JwdFVRWGUzU0Zp?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYXZtb3haSElPR0pHQ2xUYlNNYmR4WTdtVi1RUzlKQlFGTzlVVUd2RmZuX1BrajdJRERkclVqM1M0bk1JazhkUTQwb2F0cUxkdHFNdkhLX1NHd0E4Vk9WSG94YWNrSDZvS3VBWk5Kd0NvY1BHa0gzZGRXZmxRVmtORWQ0MXE0cTBxTFJEZ2xRbw?oc=5",
+      "title": "Une suite pour Chocolate Vampire !, 10 Novembre 2026 - Manga news",
+      "title_language": "fr",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 77,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T10:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Une suite pour Chocolate Vampire !, 10 Novembre 2026 - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYXZtb3haSElPR0pHQ2xUYlNNYmR4WTdtVi1RUzlKQlFGTzlVVUd2RmZuX1BrajdJRERkclVqM1M0bk1JazhkUTQwb2F0cUxkdHFNdkhLX1NHd0E4Vk9WSG94YWNrSDZvS3VBWk5Kd0NvY1BHa0gzZGRXZmxRVmtORWQ0MXE0cTBxTFJEZ2xRbw?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc1JqUGE2S2NVYWUtbVprVTN0WHAzOXI0cVV2d2NFZzd3U05yQTRmdlhadG50X0pGM01Ba0pMc1JVLUZrc0NfaHVKQTdjd0VVeThWRVJTV1NvOWNTMVBjd045M1kxeFI2SjNoankzTXBkaFZ3WWt4Q09IYWRIcXd5NWN4UW8tRzhRSWdrQloxMUs5WkRlVnpZRVNQblprYWM?oc=5",
       "title": "Devils' Crest Anime Confirms Half-Year Run - Anime News Network",
       "title_language": "en",
@@ -11723,6 +12754,96 @@
           "feed_sources": [
             "Google News – Philippines",
             "Google News – United Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSExZQV9Sdi0wQURoX05aWjNaVmhmVEdWUGJjTi14NHcyanB0MTNIQnJRaG5jXzN2ajlXS0daYVd1WVE3akdxZG1NdmNUZ2FTdXN2SUpxcjF0MlMyZktfM0x3UkhwblF3cHdUWlBNT2k3MkpYQ1NiMWFYWmdnMG1tT0RhVGtIcnl2cV9oc213dDgxcE4wcElnV1BBcDVBMGFQczctV1NfQ09kbXZY0gGrAUFVX3lxTFBlbEc1LVpCNDRjZTJKTGNQeTVnVFVvdjVhTDJVTWVhbUx2QUtEaEppdHJSSi1SbkpaWXZMcHk1dVhmTE1xR0UtOW5xRllkbXNDQWhIeHFPcGVtbVNyZ2lvN2pyUnRCYXlGMkJac2QzOUp4U1RuRVg4TzY0TXZXMzEwbnlwNGFXU3VFbk1VaW84VG0xNkh0aXpnb29SV0Rpa1RqQ2hRYmJhX1BMMA?oc=5",
+      "title": "Des promotions numériques chez Glénat Manga ce mois-ci - Manga news",
+      "title_language": "fr",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 76,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Des promotions numériques chez Glénat Manga ce mois-ci - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSExZQV9Sdi0wQURoX05aWjNaVmhmVEdWUGJjTi14NHcyanB0MTNIQnJRaG5jXzN2ajlXS0daYVd1WVE3akdxZG1NdmNUZ2FTdXN2SUpxcjF0MlMyZktfM0x3UkhwblF3cHdUWlBNT2k3MkpYQ1NiMWFYWmdnMG1tT0RhVGtIcnl2cV9oc213dDgxcE4wcElnV1BBcDVBMGFQczctV1NfQ09kbXZY0gGrAUFVX3lxTFBlbEc1LVpCNDRjZTJKTGNQeTVnVFVvdjVhTDJVTWVhbUx2QUtEaEppdHJSSi1SbkpaWXZMcHk1dVhmTE1xR0UtOW5xRllkbXNDQWhIeHFPcGVtbVNyZ2lvN2pyUnRCYXlGMkJac2QzOUp4U1RuRVg4TzY0TXZXMzEwbnlwNGFXU3VFbk1VaW84VG0xNkh0aXpnb29SV0Rpa1RqQ2hRYmJhX1BMMA?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNEFTZDA5YkdjYThNTlRJZnZvQXhnVHFDNUtSVmVxcWNvNHVBOFptOGNjU0lBZ0x4dlpFSFRTdjJ2NjZ0NFc3Wmg5aE1xcWVCZ2Uyc3ZrT21wSDkybTlLY2tyRlJHMjZvY05fZ2VuZ0ZNQ09aV3ItRjhEdVc3eXhfRU9VUW1MN01RV2VCamFnU3EtM2RMTWhPNmkybFVWZU5WOWsta09oVjRPUHlkUnAzdVdHQjl6QQ?oc=5",
+      "title": "My Death Flags Show No Sign of Ending sera adapté en anime en 2027 - Crunchyroll",
+      "title_language": "fr",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 72,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T06:05:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "My Death Flags Show No Sign of Ending sera adapté en anime en 2027 - Crunchyroll",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNEFTZDA5YkdjYThNTlRJZnZvQXhnVHFDNUtSVmVxcWNvNHVBOFptOGNjU0lBZ0x4dlpFSFRTdjJ2NjZ0NFc3Wmg5aE1xcWVCZ2Uyc3ZrT21wSDkybTlLY2tyRlJHMjZvY05fZ2VuZ0ZNQ09aV3ItRjhEdVc3eXhfRU9VUW1MN01RV2VCamFnU3EtM2RMTWhPNmkybFVWZU5WOWsta09oVjRPUHlkUnAzdVdHQjl6QQ?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -12403,6 +13524,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT1d4WkUzNDR6WDVPRXRrbmdPdWJTQy1fZm1UVkUyWlhXMlFfb2VFQURPU19QbVpSdHRuQVNVem5venFJeXpfeGtaZXZ4RS1aZzJfQXU3MkhwSTZvY0xTMzhlUFJfYUo4QTBRQjY3M3NGYVcwSWJISHBWbEpQWkYtUnhKQkRBYVVxWlZlRmlEQ1pfLWs?oc=5",
+      "title": "Bon-Encontre. La médiathèque anime le mois de novembre - ladepeche.fr",
+      "title_language": "fr",
+      "score": 27,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 69,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-10T04:14:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Bon-Encontre. La médiathèque anime le mois de novembre - ladepeche.fr",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT1d4WkUzNDR6WDVPRXRrbmdPdWJTQy1fZm1UVkUyWlhXMlFfb2VFQURPU19QbVpSdHRuQVNVem5venFJeXpfeGtaZXZ4RS1aZzJfQXU3MkhwSTZvY0xTMzhlUFJfYUo4QTBRQjY3M3NGYVcwSWJISHBWbEpQWkYtUnhKQkRBYVVxWlZlRmlEQ1pfLWs?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVXBPcGUxR0UyVV9TVm9aZ1d4SG53ZVVQWTkzdlRYX25NNG1iQWdZUVBXX19RWG5lS2F0aUw3ZDV3cmNTVkcyR09LbENFcDZsT195Tjc5b0QxSWFjczVDZjBSTzBCMU1sT1U2UTN0bmQwQUhXYzlBanNuYXlSNmVfWXY2cnJxX3RPWkhUOUNVQ3IyT29OcUFyTEV4eXhVdTl0NGkzQ0Rjdw?oc=5",
       "title": "After Magic Knight Rayearth, This Clamp Anime Deserves a Reboot Next - ComicBook.com",
       "title_language": "en",
@@ -12455,7 +13621,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 69,
+        "freshness": 68,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -12679,51 +13845,6 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUc2Q21zOEVmTmFORm80MnZYVGxMWEpYazkwTGNBR1J0Y01RTjF4Mld6UGQ2aGRtR1JxQkEyelRNMGJ1X2ZXX3lwbWpneTBPUXQtRWM1aUVqcmJ1T1UtblJqdnpIbTl3a0VYanp2MVZieFFGWmV3cUxWZm5CNGw5RUxPc3EyZHhiN0JfbVFaZThPMWoyS2hkeTcxYjRKLWRjZ29fbXctNXJTRlVoN3dnQW13?oc=5",
-      "title": "Anime Minami-ke: Korekara ganha trailer, arte e previsão de estreia para abril de 2027 - Crunchyroll",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 15,
-        "freshness": 56,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T18:28:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Anime Minami-ke: Korekara ganha trailer, arte e previsão de estreia para abril de 2027 - Crunchyroll",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUc2Q21zOEVmTmFORm80MnZYVGxMWEpYazkwTGNBR1J0Y01RTjF4Mld6UGQ2aGRtR1JxQkEyelRNMGJ1X2ZXX3lwbWpneTBPUXQtRWM1aUVqcmJ1T1UtblJqdnpIbTl3a0VYanp2MVZieFFGWmV3cUxWZm5CNGw5RUxPc3EyZHhiN0JfbVFaZThPMWoyS2hkeTcxYjRKLWRjZ29fbXctNXJTRlVoN3dnQW13?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9486/",
       "title": "BLESS Anime Premieres January 8, First PV and Key Visual Revealed",
       "title_language": "en",
@@ -12872,7 +13993,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 64,
+        "freshness": 63,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -13001,6 +14122,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUc2Q21zOEVmTmFORm80MnZYVGxMWEpYazkwTGNBR1J0Y01RTjF4Mld6UGQ2aGRtR1JxQkEyelRNMGJ1X2ZXX3lwbWpneTBPUXQtRWM1aUVqcmJ1T1UtblJqdnpIbTl3a0VYanp2MVZieFFGWmV3cUxWZm5CNGw5RUxPc3EyZHhiN0JfbVFaZThPMWoyS2hkeTcxYjRKLWRjZ29fbXctNXJTRlVoN3dnQW13?oc=5",
+      "title": "Anime Minami-ke: Korekara ganha trailer, arte e previsão de estreia para abril de 2027 - Crunchyroll",
+      "title_language": "en",
+      "score": 25,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 56,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T18:28:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Anime Minami-ke: Korekara ganha trailer, arte e previsão de estreia para abril de 2027 - Crunchyroll",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUc2Q21zOEVmTmFORm80MnZYVGxMWEpYazkwTGNBR1J0Y01RTjF4Mld6UGQ2aGRtR1JxQkEyelRNMGJ1X2ZXX3lwbWpneTBPUXQtRWM1aUVqcmJ1T1UtblJqdnpIbTl3a0VYanp2MVZieFFGWmV3cUxWZm5CNGw5RUxPc3EyZHhiN0JfbVFaZThPMWoyS2hkeTcxYjRKLWRjZ29fbXctNXJTRlVoN3dnQW13?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1NfMEI0YkhJWHpjVDlSaGdvc0NaajZGSUxSR2xTSWR0dFJLOGprUnhQVUJpTUZQQU42U1ZmcnhyX1lrUTRmeVk0UmszWTl5YXhtQTNWLXNtZjczZEdid0tBRUIyRW1tU0ZUSl85RXV6RF9kNzZyOEdIWDdlNHNEMjNIOUVvOTlzWU5jcVZiSEhnOXFST2NfM1pqQVRUQVdLMVgxb3pJLU9lcU5u?oc=5",
       "title": "‘Hirayasumi’ Anime Sets International Streaming Premiere on Netflix - Animation Magazine",
       "title_language": "en",
@@ -13041,6 +14207,51 @@
           "market_country": "United States",
           "feed_sources": [
             "Google News – United States"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMFRIWlZZc1NqMjFtcTY2Qi0zQlRFTU1xbDBMbEhWYmx5QVhZNDVaSG0xNU0zY2lrOWJHSS1iUUdva2V1Vk5PU1Zta2szOTZtQlVFa2d1TzV4WGxYRzd4d18ya2FfNG0wVUZYTWtTYjRMODB2SWZ0VmVxcWtmbV9zV2RzRXRXckxQdzF5eTZ5XzIyX3hQZkpmLWRPNVMxaGhlTWt3X05MRVNnamxDSkJNTkh6VU9sTXNCbHhyMkk1TERiVUdkMEl6WU5DdG1ia0VXdV90YnB1eFliaThMalE1TUNVanp6QlBqSVN1Rjg2VVdrMDlfXy1kdXVRZzY?oc=5",
+      "title": "Anime - Full Clearing Another World Under a Goddess with Zero Believers - Episode #5 - Makoto Takatsuki explore un donjon, 09 Novembre 2026 - Manga news",
+      "title_language": "fr",
+      "score": 25,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 18,
+        "freshness": 52,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Anime - Full Clearing Another World Under a Goddess with Zero Believers - Episode #5 - Makoto Takatsuki explore un donjon, 09 Novembre 2026 - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMFRIWlZZc1NqMjFtcTY2Qi0zQlRFTU1xbDBMbEhWYmx5QVhZNDVaSG0xNU0zY2lrOWJHSS1iUUdva2V1Vk5PU1Zta2szOTZtQlVFa2d1TzV4WGxYRzd4d18ya2FfNG0wVUZYTWtTYjRMODB2SWZ0VmVxcWtmbV9zV2RzRXRXckxQdzF5eTZ5XzIyX3hQZkpmLWRPNVMxaGhlTWt3X05MRVNnamxDSkJNTkh6VU9sTXNCbHhyMkk1TERiVUdkMEl6WU5DdG1ia0VXdV90YnB1eFliaThMalE1TUNVanp6QlBqSVN1Rjg2VVdrMDlfXy1kdXVRZzY?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -13182,51 +14393,6 @@
           "market_country": null,
           "feed_sources": [
             "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2FYVmw0ZmZYb0diUXJfQmloX1pPQVpSMkxPSGoxWVRzQ2VIWHVBRHl1Vm56MnIxRlRTcnJzMWg3N1pCeUdQRTQzYjZQM0lUY3h1c0pvR24tcTlRNHJuNHR6NUJnLUEyUksxWWR3RmlGLXlQSlJ1TnppS0szTnFleFJaSzZXU1M4QWVLU09nYmxZY3pRT3ZWQjJrdC1EejFNTEJKZA?oc=5",
-      "title": "Anime Ásia Fest reúne gastronomia, K-POP, animes e cosplays em Mongaguá - Boqnews",
-      "title_language": "en",
-      "score": 24,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 57,
-        "independent_sources": 0,
-        "article_volume": 0
-      },
-      "article_count": 0,
-      "market_signal_count": 1,
-      "source_count": 0,
-      "primary_source_count": 0,
-      "primary_sources": [],
-      "source_countries": [],
-      "source_regions": [],
-      "market_countries": [
-        "Brazil"
-      ],
-      "market_regions": [
-        "South America"
-      ],
-      "evidence_level": "single_publisher_signal",
-      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
-      "sources": [],
-      "published_at": "2026-11-09T19:34:25+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Anime Ásia Fest reúne gastronomia, K-POP, animes e cosplays em Mongaguá - Boqnews",
-          "title_language": "en",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2FYVmw0ZmZYb0diUXJfQmloX1pPQVpSMkxPSGoxWVRzQ2VIWHVBRHl1Vm56MnIxRlRTcnJzMWg3N1pCeUdQRTQzYjZQM0lUY3h1c0pvR24tcTlRNHJuNHR6NUJnLUEyUksxWWR3RmlGLXlQSlJ1TnppS0szTnFleFJaSzZXU1M4QWVLU09nYmxZY3pRT3ZWQjJrdC1EejFNTEJKZA?oc=5",
-          "source": "Google Actualités – Brésil",
-          "source_type": "market_search",
-          "source_country": null,
-          "market_country": "Brazil",
-          "feed_sources": [
-            "Google Actualités – Brésil"
           ]
         }
       ]
@@ -13512,6 +14678,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2FYVmw0ZmZYb0diUXJfQmloX1pPQVpSMkxPSGoxWVRzQ2VIWHVBRHl1Vm56MnIxRlRTcnJzMWg3N1pCeUdQRTQzYjZQM0lUY3h1c0pvR24tcTlRNHJuNHR6NUJnLUEyUksxWWR3RmlGLXlQSlJ1TnppS0szTnFleFJaSzZXU1M4QWVLU09nYmxZY3pRT3ZWQjJrdC1EejFNTEJKZA?oc=5",
+      "title": "Anime Ásia Fest reúne gastronomia, K-POP, animes e cosplays em Mongaguá - Boqnews",
+      "title_language": "en",
+      "score": 23,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 57,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "Brazil"
+      ],
+      "market_regions": [
+        "South America"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T19:34:25+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Anime Ásia Fest reúne gastronomia, K-POP, animes e cosplays em Mongaguá - Boqnews",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2FYVmw0ZmZYb0diUXJfQmloX1pPQVpSMkxPSGoxWVRzQ2VIWHVBRHl1Vm56MnIxRlRTcnJzMWg3N1pCeUdQRTQzYjZQM0lUY3h1c0pvR24tcTlRNHJuNHR6NUJnLUEyUksxWWR3RmlGLXlQSlJ1TnppS0szTnFleFJaSzZXU1M4QWVLU09nYmxZY3pRT3ZWQjJrdC1EejFNTEJKZA?oc=5",
+          "source": "Google Actualités – Brésil",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "Brazil",
+          "feed_sources": [
+            "Google Actualités – Brésil"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yaW5YOGN5V2VxeWlPQVFNUFJaTmpRVTdCeUlxOExnZDRMQkZTVUszeTZ5WVZRa2pfeDdfeVBUQ1hmVElYVjI2QV9jQmhsSkw2dmxlZWZ0dklpcFRUb21FWjREaUlicTBGLWliMGxrcHgtaEtYMDVV?oc=5",
       "title": "One Piece Chapter 1198 Sets Up Luffy's Final Form | Review - Comic Book Resources",
       "title_language": "en",
@@ -13698,6 +14909,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa3p6LXpTQTVINnZocWlldEMwbjlTZXJueGRuVjVBQmd1eWx3OTRoWjZqUmFCSWZLLVpEZWZZZG13X3p1NGQtQzhBRHJ6R2UyZWdtVnRUMWlVaTREbE9GSTVlYlRoekVpMGZqdFpveUtWUDA5MWdHbktGNDVMZ2VYSmk0WUFoVmY4VWtVZWYwVElfRFV2Q3Jkc2lHRHE3SFAwN25WdHh6NXBGRzdfY0tKMWdyNGtZSkEzcVFteWNTWm3SAb8BQVVfeXFMTzQxTkN6SV9kWHZOT0VvTnRZSm1ldVRSOFViNklOZHJRUDFTa2ZwWHBjMG1EOFo3c082RVNrNTU1aWVlS081MGR4bkNVbjNWM2ZyM0dIUnVLVkNEY0FQWGJFT014ZUY5ZDRGX29lN251cDJ1b3piazk3dmR3cFRUYVRWb3BzVWRMb1U4NXRkd21jaEpSaTZ3SVNKQTZ0R1pDTzYtdTNyb3A3RkZ3b2liOEExOHoyU2wySHcyWExyM1U?oc=5",
+      "title": "L'auteur de DanDaDan revient aux éditions Kazé avec le manga Fire Ball ! - Manga news",
+      "title_language": "fr",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 52,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "L'auteur de DanDaDan revient aux éditions Kazé avec le manga Fire Ball ! - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa3p6LXpTQTVINnZocWlldEMwbjlTZXJueGRuVjVBQmd1eWx3OTRoWjZqUmFCSWZLLVpEZWZZZG13X3p1NGQtQzhBRHJ6R2UyZWdtVnRUMWlVaTREbE9GSTVlYlRoekVpMGZqdFpveUtWUDA5MWdHbktGNDVMZ2VYSmk0WUFoVmY4VWtVZWYwVElfRFV2Q3Jkc2lHRHE3SFAwN25WdHh6NXBGRzdfY0tKMWdyNGtZSkEzcVFteWNTWm3SAb8BQVVfeXFMTzQxTkN6SV9kWHZOT0VvTnRZSm1ldVRSOFViNklOZHJRUDFTa2ZwWHBjMG1EOFo3c082RVNrNTU1aWVlS081MGR4bkNVbjNWM2ZyM0dIUnVLVkNEY0FQWGJFT014ZUY5ZDRGX29lN251cDJ1b3piazk3dmR3cFRUYVRWb3BzVWRMb1U4NXRkd21jaEpSaTZ3SVNKQTZ0R1pDTzYtdTNyb3A3RkZ3b2liOEExOHoyU2wySHcyWExyM1U?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOFRrajQ0cDdOSl9ZZ3FHWnhOcDR5eThNbGlYTmZsWDZKLUgwMmNNY1VpakhmNmlfMlUzcGxWY2UxSU54Mk50NGVUb191VGdaTGJnNU9hU2RGOGNpQ1djbkc2Z2NULTFWMFJ1TFB4bmh4ZjFxY0MydnZpUlRMOE5vaGducU1vSEZ5akxJOEFOc1g?oc=5",
       "title": "Fate Rewinder Anime Reveals Four New Character Visuals - Crunchyroll",
       "title_language": "en",
@@ -13878,6 +15134,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
+      "title": "Le manga Mashle adapté en film live !, 09 Novembre 2026 - Manga news",
+      "title_language": "fr",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 48,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Le manga Mashle adapté en film live !, 09 Novembre 2026 - Manga news",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkQxYXBtOTBoVlFIbzBGSDk0b2FoeElpWmJldk5RX0pwVGdmR3VYbmcwZXhLX2tIVjRmY3MyamVqRlMwLWdfT0lzWlJjeXJ3T3VCR3BENmYwdUd1T1l6bkI3ZUNibDBvd1dNZTQ3ZU9TYl9uYkVFZkhEX1d4UzYxbjVsaV9qWkVsRElteER3aDJVTjA?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RRDFNQTM1eTR2UnhiS3BxU1p2UGhFWW5OQVo5N3FvQ2Rxd0xQVkFsajZoN3dfc3RIQ1NJendxak9jcDZoRVI2Y3JCYTRMVGtkd3RScllOT3FCMlZ0MVI3TTl0anlLVDFuVmpLV0JQZnEzdmUzVnk3anFEVV8?oc=5",
       "title": "Anime de My Crush’s Crush ganha primeiro teaser e estreia em abril de 2027 - Combo Infinito",
       "title_language": "en",
@@ -13885,7 +15186,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 48,
+        "freshness": 47,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -14024,7 +15325,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 12,
+        "freshness": 11,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -14071,7 +15372,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 7,
+        "freshness": 6,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -14814,6 +16115,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
+      "title": "Dans 5 mois sortira un film adapté d'un manga culte, son acteur se prépare depuis 3 ans pour le rôle - Purebreak",
+      "title_language": "fr",
+      "score": 20,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 42,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T08:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Dans 5 mois sortira un film adapté d'un manga culte, son acteur se prépare depuis 3 ans pour le rôle - Purebreak",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkY3OEdlcHRaY3hURnhRU3NEZWVVUmxjZVZpRjRzUEtqVnMtTDRlU19LYlRfWDdhXzlzdlhzOWJsMjBnM2g4YlVBRFk1UmU1QlBrRFhVZWhjYXlHakdfZlNLTmFiMlJWTUgtTlZRTjVDcXhxdGRFODlINTJfUUNzYUk0T1FQTnZXUTh5RjFRUU1CVXNQMEdzY1ppU0RNOGlRQXdxVkZnTHZ3b1h5VnFpVzVHV3hsYndHNUxJM0NIcVp4R2l1dDNjNW9YbmJfaGhyU2c?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://adala-news.fr/2026/11/lanime-minami-ke-korekara-en-teaser-video-et-date-de-sortie/",
       "title": "L’anime Minami-ke Korekara, en Teaser Vidéo et Date de sortie",
       "title_language": "fr",
@@ -14821,7 +16167,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 13,
+        "freshness": 12,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -16373,6 +17719,96 @@
           "market_country": null,
           "feed_sources": [
             "AnimeNation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
+      "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
+      "title_language": "fr",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 35,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T03:45:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "BLESS : Le Trailer dévoile l'ending et la date de diffusion - Crunchyroll",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd2VNNjc3YkozRHJTeEtEWWd6U2g3NnFtMG1ZTXROYzVtWGZEUHVIZ2J0cWw3VHVENHZzRkJPNU1VX0UwY2k4bXpNRXRPc2hQalRYSnU4R19iaUo2S1hwYVVXR2cwTkJoczlKd2MxQ19JOXNLb0ZrUVcwR0Z5QkhMdFZXRzJGby0tTENaMmlFR2VUY0pTR0pLNTRkNA?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMmp5d0JUSmdMLTlucENKa2dfOF8yZWdKN1BjS1RNUDQ3dS1fd3M1SHZRVFJPWVluOFQwWUVFWExhb0NHTEFEcTl6V19BVlB0OTNTMmdZcFJlNWtNeHRsaDBZTXFCdmF6OXF6bjMtUWRHdUFOT0lhQVdTVWhrQk9jZHBCM3FjNHlpeXZnb0N1RjNQTW9HM0N2WThNS3RVclVBNFQxUGlfVThPN1ox?oc=5",
+      "title": "My Crush's Crush : L'anime commencera en avril 2027 - Crunchyroll",
+      "title_language": "en",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 34,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-09T02:45:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "My Crush's Crush : L'anime commencera en avril 2027 - Crunchyroll",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMmp5d0JUSmdMLTlucENKa2dfOF8yZWdKN1BjS1RNUDQ3dS1fd3M1SHZRVFJPWVluOFQwWUVFWExhb0NHTEFEcTl6V19BVlB0OTNTMmdZcFJlNWtNeHRsaDBZTXFCdmF6OXF6bjMtUWRHdUFOT0lhQVdTVWhrQk9jZHBCM3FjNHlpeXZnb0N1RjNQTW9HM0N2WThNS3RVclVBNFQxUGlfVThPN1ox?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -18203,6 +19639,7 @@
           "source_country": null,
           "market_country": "United States",
           "feed_sources": [
+            "Google News – India",
             "Google News – Philippines",
             "Google News – United Kingdom",
             "Google News – United States"
@@ -22626,6 +24063,51 @@
       ]
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa3lDUEw3aGZNN19KdjNLQzE0ZXRwclNXV3Eyb3RqZThXRkx1QzNhTjlFenVKTVdYR21LY3JITGI1aUctVU5EMzFYbXhoYmVIS1JRcV81YXljQ1hkUXpWUDVJVXdnN0F0WUxrNHdLc1NONXBwSUVQRW9BS0FENldac1VOeWpJM0dsV3FBZ3JKSy1vQ1RCbDJqeEJ1bTIyRVZrNUg0Rk52WjVNV1BrS1ZkNkF6aTBPZWQ5dzJXeV9GX2ZMX3FqSmdtZ3hNUXdHUUducjVlWjNLdU5SbUpmeHRrNzBWN3FGZThaVlUyVGoyUXM?oc=5",
+      "title": "« Nous avons été biberonnés à l’anime » : Crunchyroll, l’animation japonaise qui essaime auprès de la Gen Z française - Challenges",
+      "title_language": "fr",
+      "score": 12,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 17,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-08T14:55:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "« Nous avons été biberonnés à l’anime » : Crunchyroll, l’animation japonaise qui essaime auprès de la Gen Z française - Challenges",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa3lDUEw3aGZNN19KdjNLQzE0ZXRwclNXV3Eyb3RqZThXRkx1QzNhTjlFenVKTVdYR21LY3JITGI1aUctVU5EMzFYbXhoYmVIS1JRcV81YXljQ1hkUXpWUDVJVXdnN0F0WUxrNHdLc1NONXBwSUVQRW9BS0FENldac1VOeWpJM0dsV3FBZ3JKSy1vQ1RCbDJqeEJ1bTIyRVZrNUg0Rk52WjVNV1BrS1ZkNkF6aTBPZWQ5dzJXeV9GX2ZMX3FqSmdtZ3hNUXdHUUducjVlWjNLdU5SbUpmeHRrNzBWN3FGZThaVlUyVGoyUXM?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc0JIMTJTOW4wdFljT3JTS3hyc2d1dmFMSTFkekxCTmZxM3JVU0NadUxETlhqYnUxNHpvd25YMzNvVTN1eUF0SW5nRk1pdXQ1OEQ5VXd6aEl0XzJHTGN5ell4YkNyOUk5RkJIV0ljWkVOS1J0RlFwbHRqYTVwNU5OQ0ZpRUNOekFtN0dZcU8wTU5vVDBXSFJNV1hoaHpTTmQzTHhhemY0NTBrSnN6RDcwYWhqbw?oc=5",
       "title": "Bride of the Barrier Master Anime Shares New Character Trailers - Crunchyroll",
       "title_language": "en",
@@ -22633,7 +24115,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 12,
+        "freshness": 11,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -22681,7 +24163,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 20,
+        "freshness": 19,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -23003,7 +24485,7 @@
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 11,
+        "freshness": 10,
         "independent_sources": 0,
         "article_volume": 0
       },
@@ -23493,13 +24975,13 @@
       ]
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWlIzTHpUYVhGcXhPbC00dHZQTkNyd1duS28tcUhBa3JsZG91MlhKaldUOGFZcERWaXhqSGJFQlpGQV9SX3dUdE9NOXNHSk1COWFPMGE3MlUwY0NZbzVVaUxDalhQaVh4TTlSdUVWWWlHeXg2SDZWdHVRR2ZwOUM5Y0hiRDFMTjM5T0tzVGJYTGVMUFBYZ25CMG1pdm9qWVlOaU9zaldkVktBYjJvd1JDeA?oc=5",
-      "title": "4ª temporada de Laid-Back Camp confirma mês de lançamento em novo trailer - Crunchyroll",
-      "title_language": "fr",
+      "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEh5SVJPWTlHTU5aY196c3JyQjFuV05OZGVSSlZXT2xjemFZejNJV0RLdWZSYUpWSFZYak4zZzBuRWxiMENJOW5tUFlBaHZTcHhYbDJNVExFM29Oa3ozazBwajZsLVVsZUdQRHJWcDNDQTJrOHoxRzJZaXZxZ1BiVy1CTWQwUnA1aGtv?oc=5",
+      "title": "Saint Seiya - Final Edition Vol.4 : Critiques - Manga news",
+      "title_language": "en",
       "score": 6,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 7,
+        "relevance": 8,
         "freshness": 0,
         "independent_sources": 0,
         "article_volume": 0
@@ -23512,27 +24994,72 @@
       "source_countries": [],
       "source_regions": [],
       "market_countries": [
-        "Brazil"
+        "France"
       ],
       "market_regions": [
-        "South America"
+        "Europe"
       ],
       "evidence_level": "single_publisher_signal",
       "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
       "sources": [],
-      "published_at": "2026-11-06T13:47:00+00:00",
+      "published_at": "2026-11-06T14:00:16+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "4ª temporada de Laid-Back Camp confirma mês de lançamento em novo trailer - Crunchyroll",
-          "title_language": "fr",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWlIzTHpUYVhGcXhPbC00dHZQTkNyd1duS28tcUhBa3JsZG91MlhKaldUOGFZcERWaXhqSGJFQlpGQV9SX3dUdE9NOXNHSk1COWFPMGE3MlUwY0NZbzVVaUxDalhQaVh4TTlSdUVWWWlHeXg2SDZWdHVRR2ZwOUM5Y0hiRDFMTjM5T0tzVGJYTGVMUFBYZ25CMG1pdm9qWVlOaU9zaldkVktBYjJvd1JDeA?oc=5",
-          "source": "Google Actualités – Brésil",
+          "title": "Saint Seiya - Final Edition Vol.4 : Critiques - Manga news",
+          "title_language": "en",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEh5SVJPWTlHTU5aY196c3JyQjFuV05OZGVSSlZXT2xjemFZejNJV0RLdWZSYUpWSFZYak4zZzBuRWxiMENJOW5tUFlBaHZTcHhYbDJNVExFM29Oa3ozazBwajZsLVVsZUdQRHJWcDNDQTJrOHoxRzJZaXZxZ1BiVy1CTWQwUnA1aGtv?oc=5",
+          "source": "Google Actualités – France",
           "source_type": "market_search",
           "source_country": null,
-          "market_country": "Brazil",
+          "market_country": "France",
           "feed_sources": [
-            "Google Actualités – Brésil"
+            "Google Actualités – France"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRGotMV95cm5NbV91R0JLOUFIX2hXUXVIenhVdlVmNkltTkxadWoydlNaXzIySFhYbUFwU2c4aTRzaDF0N09nYjZBZ3ZISERiZUVkMDRaWnJJUjB6UGc4Ry1YOHpwVktyTnRtajA0Y25pRjE1X2k1Sk5pRjdWS2RUUDJrdk1mYkJyb0Nrc0FMeVc2a1ZOd0pTMmpjUV9uX2NwdDN0ekQ0UWJyZEVEaFBTdU8tM0VRck1QVDMtVl9BRTRWY0c1YUQ3ZXlla0RVa2o1Q2ZWd2RieEtJV2NJZHRNdHZtSkxLa1hFZUd5MTM1TzRGcTEtODdvUURqUy1fMks4QW9F?oc=5",
+      "title": "Un des pilleurs de la librairie Momie Manga à Grenoble condamné à 18 mois de prison dont 6 mois avec sursis - ici.fr",
+      "title_language": "fr",
+      "score": 6,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 0,
+        "article_volume": 0
+      },
+      "article_count": 0,
+      "market_signal_count": 1,
+      "source_count": 0,
+      "primary_source_count": 0,
+      "primary_sources": [],
+      "source_countries": [],
+      "source_regions": [],
+      "market_countries": [
+        "France"
+      ],
+      "market_regions": [
+        "Europe"
+      ],
+      "evidence_level": "single_publisher_signal",
+      "evidence_note": "Couverture médiatique indicative ; ne constitue pas une confirmation officielle ni une validation des faits.",
+      "sources": [],
+      "published_at": "2026-11-04T18:34:06+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Un des pilleurs de la librairie Momie Manga à Grenoble condamné à 18 mois de prison dont 6 mois avec sursis - ici.fr",
+          "title_language": "fr",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRGotMV95cm5NbV91R0JLOUFIX2hXUXVIenhVdlVmNkltTkxadWoydlNaXzIySFhYbUFwU2c4aTRzaDF0N09nYjZBZ3ZISERiZUVkMDRaWnJJUjB6UGc4Ry1YOHpwVktyTnRtajA0Y25pRjE1X2k1Sk5pRjdWS2RUUDJrdk1mYkJyb0Nrc0FMeVc2a1ZOd0pTMmpjUV9uX2NwdDN0ekQ0UWJyZEVEaFBTdU8tM0VRck1QVDMtVl9BRTRWY0c1YUQ3ZXlla0RVa2o1Q2ZWd2RieEtJV2NJZHRNdHZtSkxLa1hFZUd5MTM1TzRGcTEtODdvUURqUy1fMks4QW9F?oc=5",
+          "source": "Google Actualités – France",
+          "source_type": "market_search",
+          "source_country": null,
+          "market_country": "France",
+          "feed_sources": [
+            "Google Actualités – France"
           ]
         }
       ]
@@ -23583,11 +25110,6 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "source": "Google Actualités – France",
-      "error": "The read operation timed out"
-    }
-  ],
+  "errors": [],
   "notice": "Radar international manga/anime : 20 sites éditoriaux et des flux Google Actualités localisés. Les pays des sites indiquent leur implantation; les marchés Google indiquent la zone ciblée, sans mesurer la popularité native sur les réseaux sociaux. Priorité indicative : pertinence (35 %), fraîcheur (30 %), diversité des éditeurs (25 %) et volume (10 %). Toute information reste à vérifier."
 }

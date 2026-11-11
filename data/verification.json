@@ -1,8 +1,10 @@
 {
-  "checked_at": "2026-11-11T02:13:40.552978+00:00",
+  "checked_at": "2026-11-11T02:19:36.754573+00:00",
   "checked_articles": 40,
   "sample_strategy": "échantillon global des articles récents; les sujets admissibles non inclus dans cet échantillon restent en attente de contrôle humain et ne sont pas rejetés pour cette seule raison",
-  "official_link_found": 1,
+  "official_link_found": 0,
+  "official_link_candidates_found": 0,
+  "confirmed_official_evidence": 0,
   "errors": [],
   "checks": [
     {
@@ -11,6 +13,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-11T02:07:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -20,6 +23,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-11T01:02:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -29,6 +33,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-10T23:00:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "The Iceblade Sorcerer Shall Rule the World Author Nana Mikoshiba's Original Novel Gets Manga Adaptation on November 17 - News - Anime News Network"
     },
@@ -38,6 +43,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-10T20:00:35+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5 - News - Anime News Network"
     },
@@ -47,6 +53,7 @@
       "publisher": "Adala News",
       "published_at": "2026-11-10T17:20:01+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Le manga Ore no Shibou Flag adapté en anime - Adala News"
     },
@@ -56,6 +63,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-10T16:00:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Crunchyroll Streams Suikoden Anime - News - Anime News Network"
     },
@@ -65,6 +73,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-10T14:41:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -74,6 +83,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-10T14:30:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -83,6 +93,7 @@
       "publisher": "Anime Corner",
       "published_at": "2026-11-10T13:48:43+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced - Anime Corner"
     },
@@ -92,6 +103,7 @@
       "publisher": "ORICON / Japan Anime News",
       "published_at": "2026-11-10T13:00:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027 | Japan Anime News powered by ORICON NEWS"
     },
@@ -101,6 +113,7 @@
       "publisher": "MyAnimeList",
       "published_at": "2026-11-10T12:45:55+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume - MyAnimeList.net"
     },
@@ -110,6 +123,7 @@
       "publisher": "Animotaku",
       "published_at": "2026-11-10T09:21:36+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "L'anime My Death Flags Show No Sign of Ending sortira en 2027"
     },
@@ -119,6 +133,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-10T06:48:44+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film - News - Anime News Network"
     },
@@ -128,6 +143,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-10T04:25:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -137,24 +153,9 @@
       "publisher": "MyAnimeList",
       "published_at": "2026-11-10T03:58:55+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
-    },
-    {
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-10T03:34:51+00:00",
-      "official_evidence": [
-        {
-          "url": "https://www.viz.com/manga-books/manga/jojo-s-bizarre-adventure-part-7-steel-ball-run-volume-1/product/8330",
-          "domain": "www.viz.com",
-          "link_text": "released",
-          "evidence_type": "lien externe vers un domaine de première partie répertorié"
-        }
-      ],
-      "status": "lien de première partie repéré — contenu à contrôler",
-      "page_title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands - News - Anime News Network"
     },
     {
       "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
@@ -162,6 +163,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-10T03:00:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027 - News - Anime News Network"
     },
@@ -171,6 +173,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-10T02:31:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Izumi Miyazono's 'Kekkon Shimashō, Koi Suru Mae ni' Manga Gets Live-Action 'Short' Drama - News - Anime News Network"
     },
@@ -180,6 +183,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-10T01:39:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -189,6 +193,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-10T00:49:27+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song - News - Anime News Network"
     },
@@ -198,6 +203,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-10T00:39:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -207,6 +213,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-10T00:17:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -216,6 +223,7 @@
       "publisher": "MyAnimeList",
       "published_at": "2026-11-10T00:05:31+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "'Ghost: Yoru no Hate' Unveils Additional Cast, Staff, Theme Song, Main Trailer - MyAnimeList.net"
     },
@@ -225,6 +233,7 @@
       "publisher": "Animehunch",
       "published_at": "2026-11-09T22:33:42+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Spy x Family Season 4 & New Film Confirmed For 2027 Release - Animehunch"
     },
@@ -234,6 +243,7 @@
       "publisher": "Animehunch",
       "published_at": "2026-11-09T20:48:16+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "A Silent Voice Anime's Staff Poured Their Youth Into Making the Movie, KyoAni Director Reveals - Animehunch"
     },
@@ -243,6 +253,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-09T20:30:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Assassin's Creed Shadows: Tales of Iga Manga Ends - News - Anime News Network"
     },
@@ -252,6 +263,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-09T17:30:52+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Deadline: Noah Of The Blood Sea Manga Gets Hollywood Live-Action Film Adaptation - News - Anime News Network"
     },
@@ -261,6 +273,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-09T14:16:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -270,6 +283,7 @@
       "publisher": "Adala News",
       "published_at": "2026-11-09T12:10:19+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "L'anime Boku no Suki na Hito ga Suki na Hito, en Teaser Vidéo & Date de sortie - Adala News"
     },
@@ -279,6 +293,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-09T09:17:48+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Late Tetsuya Chiba's Autobiographical Manga to End in 8th Volume - News - Anime News Network"
     },
@@ -288,6 +303,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-09T04:22:41+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Fool Night Manga Crosses 1 Million Copies Worldwide - News - Anime News Network"
     },
@@ -297,6 +313,7 @@
       "publisher": "Anime News Network",
       "published_at": "2026-11-09T04:02:35+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Ingoku Danchi: Deviant's Apartment Complex Anime's English Dub Streams on November 11 - News - Anime News Network"
     },
@@ -306,6 +323,7 @@
       "publisher": "ORICON / Japan Anime News",
       "published_at": "2026-11-09T02:00:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Minami-ke: Korekara Season 5 Premieres April 2027, Returning After 14 Years | Japan Anime News powered by ORICON NEWS"
     },
@@ -315,6 +333,7 @@
       "publisher": "ORICON / Japan Anime News",
       "published_at": "2026-11-09T02:00:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "BLESS Anime Premieres January 8, First PV and Key Visual Revealed | Japan Anime News powered by ORICON NEWS"
     },
@@ -324,6 +343,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-09T01:25:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -333,6 +353,7 @@
       "publisher": "Anime Corner",
       "published_at": "2026-11-09T00:38:07+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "My Crush’s Crush Anime Reveals Teaser Visual, Trailer, Staff, Cast, April 2027 Premiere - Anime Corner"
     },
@@ -342,6 +363,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-09T00:18:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -351,6 +373,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-08T16:23:00+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
@@ -360,6 +383,7 @@
       "publisher": "Animotaku",
       "published_at": "2026-11-08T15:59:36+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "My Crush's Crush : Diffusion en avril 2027, Premier Teaser"
     },
@@ -369,9 +393,20 @@
       "publisher": "MyAnimeList",
       "published_at": "2026-11-08T15:20:52+00:00",
       "official_evidence": [],
+      "official_link_candidates": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere - MyAnimeList.net"
+    },
+    {
+      "title": "Harajuku Himegoto House Anime and Media Mix Project Announced",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/8/harajuku-himegoto-house-anime-media-mix-project-announced",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-08T14:47:00+00:00",
+      "official_evidence": [],
+      "official_link_candidates": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     }
   ],
-  "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
+  "policy": "Le détecteur repère des liens candidats vers des domaines de première partie; il exclut les pages de produits, boutiques et catalogues. Un lien candidat n'est jamais une preuve officielle et reste séparé de official_evidence, qui demeure vide tant qu'une validation factuelle explicite n'a pas été effectuée. ORICON / Japan Anime News reste un média professionnel, pas une source primaire. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Vérifier séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:13:40.552978+00:00",
+  "generated_at": "2026-11-11T02:19:36.754573+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -8,7 +8,7 @@
   ],
   "network_variant_count": 4,
   "selection_note": "Trois sujets éditoriaux maximum, distincts par franchise, chacun décliné pour Facebook et TikTok. Si moins de trois sujets satisfont les critères, la file reste plus courte plutôt que d'inventer ou d'abaisser les exigences.",
-  "rejected_count": 371,
+  "rejected_count": 405,
   "rejected_sample": [
     {
       "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
@@ -134,15 +134,6 @@
       ]
     },
     {
-      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS"
-      ]
-    },
-    {
       "title": "Suikoden: The Anime Now Streaming on Crunchyroll",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -182,6 +173,15 @@
     },
     {
       "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
+      ]
+    },
+    {
+      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji !",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "date de publication absente, invalide ou anormalement future",
@@ -272,6 +272,7 @@
         "Southeast Asia"
       ],
       "market_countries": [
+        "France",
         "United Kingdom"
       ],
       "market_regions": [
@@ -428,6 +429,7 @@
         }
       ],
       "official_evidence": [],
+      "official_link_candidates": [],
       "verification_coverage": {
         "checked_articles": 1,
         "total_articles": 8,
@@ -468,9 +470,11 @@
         "North America"
       ],
       "market_countries": [
+        "France",
         "United States"
       ],
       "market_regions": [
+        "Europe",
         "North America"
       ],
       "primary_sources": [],
@@ -534,6 +538,7 @@
         }
       ],
       "official_evidence": [],
+      "official_link_candidates": [],
       "verification_coverage": {
         "checked_articles": 2,
         "total_articles": 3,
@@ -566,33 +571,31 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook (53/60 mots)"
+        "Error: Contenu trop court pour facebook (50/60 mots)"
       ]
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
       "title": "Le film ghost – end of night dévoile son Trailer Principal et un Nouveau Visuel",
       "response_received": true,
-      "response_valid": true,
-      "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook (46/60 mots)"
+        "facebook : longueur 55 mots, cible 90 à 110"
       ]
     }
   ],
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Contenu trop court pour facebook (53/60 mots)"
+      "detail": "Error: Contenu trop court pour facebook (50/60 mots)"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
-      "detail": "Error: Contenu trop court pour facebook (46/60 mots)"
+      "detail": "facebook : longueur 55 mots, cible 90 à 110"
     }
   ],
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
-  "ai_model": "@cf/zai-org/glm-4.7-flash / @cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook (53/60 mots); Error: Contenu trop court pour facebook (46/60 mots); Error: Contenu trop court pour facebook (53/60 mots); Error: Contenu trop court pour facebook (46/60 mots)"
+  "ai_model": "@cf/zai-org/glm-4.7-flash",
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook (50/60 mots); Error: Contenu trop court pour facebook (50/60 mots); facebook : longueur 55 mots, cible 90 à 110"
 }
