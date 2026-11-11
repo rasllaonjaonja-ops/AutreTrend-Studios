@@ -15,7 +15,7 @@ except ModuleNotFoundError:
 
 ROOT = Path(__file__).resolve().parents[1]
 QUEUE = ROOT / "data" / "editorial_queue.json"
-PLATFORMS = ("facebook", "instagram", "tiktok", "x", "threads", "youtube", "telegram", "pinterest")
+PLATFORMS = ("facebook", "tiktok")
 MIN_SUMMARY_WORDS = 45
 
 
@@ -52,42 +52,59 @@ def add_x_source_link(post, source_url, max_chars=260):
     return text
 
 
+def _normalise_sentence(value):
+    import re
+    import unicodedata
+    value = unicodedata.normalize("NFKD", str(value or "").lower())
+    value = "".join(char for char in value if not unicodedata.combining(char))
+    return re.sub(r"[^a-z0-9]+", " ", value).strip()
+
+
+def _content_quality_errors(value, platform):
+    import re
+    errors = []
+    text = str(value or "").strip()
+    folded = text.casefold()
+    forbidden = (
+        "résumé en français à produire", "a produire apres traduction",
+        "après traduction et contrôle", "apres traduction et controle",
+        "texte à compléter", "texte a completer", "contenu à générer",
+        "contenu a generer", "[résumé", "[resume"
+    )
+    if any(marker in folded for marker in forbidden):
+        errors.append(f"{platform} : consigne ou texte de remplacement interdit")
+    sentences = [
+        _normalise_sentence(part)
+        for part in re.split(r"(?<=[.!?…])\\s+", text)
+        if _normalise_sentence(part)
+    ]
+    if len(sentences) != len(set(sentences)):
+        errors.append(f"{platform} : phrase répétée")
+    if platform == "facebook" and not (85 <= word_count(text) <= 135):
+        errors.append(f"facebook : longueur {word_count(text)} mots, cible 90 à 110")
+    if platform == "tiktok" and not (35 <= word_count(text) <= 75):
+        errors.append(f"tiktok : longueur {word_count(text)} mots, cible 40 à 60")
+    if detect_text_language(text) != "fr":
+        errors.append(f"{platform} : contenu non reconnu comme français")
+    return errors
+
+
 def post_validation_errors(posts):
-    """Retourne les contrôles précis qui empêchent l'acceptation des textes sociaux."""
+    """Valide uniquement les deux formats réellement demandés."""
     if not isinstance(posts, dict):
         return ["posts absent ou non structuré"]
     errors = [f"plateforme absente : {key}" for key in PLATFORMS if key not in posts]
-    minimum_words = {
-        "facebook": 70, "instagram": 45, "tiktok": 35,
-        "x": 8, "threads": 40, "telegram": 40,
-    }
+    errors.extend(f"plateforme non activée : {key}" for key in posts if key not in PLATFORMS)
     for key in PLATFORMS:
-        if key not in posts:
-            continue
-        value = posts[key]
-        if key in ("youtube", "pinterest"):
-            if not isinstance(value, dict):
-                errors.append(f"{key} : titre/description doivent être un objet")
-                continue
-            title = value.get("title")
-            description = value.get("description")
-            if not isinstance(title, str) or len(title.strip()) < 45:
-                errors.append(f"{key} : titre inférieur à 45 caractères")
-            minimum = 50 if key == "youtube" else 35
-            if not isinstance(description, str) or word_count(description) < minimum:
-                actual = word_count(description) if isinstance(description, str) else 0
-                errors.append(f"{key} : description {actual}/{minimum} mots")
-        else:
-            if not isinstance(value, str):
+        if key in posts:
+            if not isinstance(posts[key], str) or not posts[key].strip():
                 errors.append(f"{key} : texte absent ou invalide")
-                continue
-            actual = word_count(value)
-            if actual < minimum_words[key]:
-                errors.append(f"{key} : texte {actual}/{minimum_words[key]} mots")
-            if key == "x" and len(value) > 260:
-                errors.append(f"x : {len(value)}/260 caractères")
+            else:
+                errors.extend(_content_quality_errors(posts[key], key))
+    if isinstance(posts.get("facebook"), str) and isinstance(posts.get("tiktok"), str):
+        if _normalise_sentence(posts["facebook"]) == _normalise_sentence(posts["tiktok"]):
+            errors.append("Facebook et TikTok : adaptations identiques")
     return errors
-
 
 def valid_posts(posts):
     """Compatibilité avec les tests et les autres modules du projet."""
@@ -329,7 +346,7 @@ def main():
             item_errors.append("claims_to_verify : élément trop court ou non français")
 
         if isinstance(draft_posts, dict):
-            french_platforms = ("facebook", "instagram", "tiktok", "x", "threads", "telegram")
+            french_platforms = ("facebook", "tiktok")
             for key in french_platforms:
                 value = draft_posts.get(key)
                 if isinstance(value, str) and detect_text_language(value) != "fr":
@@ -374,23 +391,13 @@ def main():
         if source_url.startswith("https://"):
             publishers = ", ".join(item.get("media", [])[:3])
             source_note = "\nSource à consulter : " + publishers + "\n" + source_url
-            for key in ("facebook", "instagram", "threads", "telegram"):
-                posts[key] = str(posts[key]).rstrip() + source_note
-            posts["youtube"] = {
-                **posts["youtube"],
-                "description": str(posts["youtube"]["description"]).rstrip() + source_note
-            }
-            posts["pinterest"] = {
-                **posts["pinterest"],
-                "description": str(posts["pinterest"]["description"]).rstrip() + source_note
-            }
-            posts["tiktok"] = str(posts["tiktok"]).rstrip() + "\nSource à consulter : " + publishers
-            posts["x"] = add_x_source_link(posts["x"], source_url, max_chars=260)
+            posts["facebook"] = str(posts["facebook"]).rstrip() + source_note
+            posts["tiktok"] = str(posts["tiktok"]).rstrip() + "\\nSources : " + publishers
         item["social_posts"] = {
             **posts,
             "language_ready": True,
             "translation_required": False,
-            "translation_note": "Traduction IA proposée : relecture humaine obligatoire avant toute publication."
+            "translation_note": "Rédaction française IA contrôlée : relecture humaine obligatoire avant toute publication."
         }
         item["ai_generation"] = {
             "provider": "Cloudflare Workers AI",
