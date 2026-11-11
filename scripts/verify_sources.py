@@ -155,14 +155,34 @@ def verification_rank(item, now=None):
     return (age is None, age if age is not None else float("inf"), -score)
 
 
+def is_aggregator_article(item):
+    """Identifie les reprises Google News, qui ne sont pas des pages éditoriales directes."""
+    source = " ".join(str(item.get(key, "")) for key in ("source", "publisher")).lower()
+    source = source.replace("actualités", "actualites")
+    return (
+        item.get("source_type") == "market_search"
+        or "google news" in source
+        or "google actualites" in source
+    )
+
+
+def select_verification_sample(items, limit=MAX_ARTICLES):
+    """Échantillonne d'abord les articles directs, puis complète avec les agrégateurs."""
+    direct = [item for item in items if not is_aggregator_article(item)]
+    aggregated = [item for item in items if is_aggregator_article(item)]
+    direct.sort(key=verification_rank)
+    aggregated.sort(key=verification_rank)
+    return (direct + aggregated)[:limit]
+
+
 def main():
     radar = json.loads(RADAR.read_text(encoding="utf-8"))
     items = radar.get("items", [])
     checks = []
     errors = []
-    # Échantillon de vérification : dates valides les plus récentes d'abord,
-    # puis score décroissant. Les dates absentes/anciennes restent en fin d'échantillon.
-    selected_items = sorted(items, key=verification_rank)[:MAX_ARTICLES]
+    # Les articles directs passent avant les reprises Google News :
+    # sinon les agrégateurs, souvent horodatés plus récemment, monopolisent les 40 contrôles.
+    selected_items = select_verification_sample(items, MAX_ARTICLES)
     for item in selected_items:
         url = item.get("url", "")
         host = (urlparse(url).hostname or "").lower().removeprefix("www.")
