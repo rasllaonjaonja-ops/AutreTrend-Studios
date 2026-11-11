@@ -4,7 +4,7 @@ import unittest
 from scripts.generate_editorial import fit_x_post, add_x_source_link
 from scripts.verify_sources import (
     Links, MAX_PREPUBLICATIONS, SOCIAL_NETWORKS, enrich_source_reports,
-    age_hours_for_sampling, verification_rank,
+    age_hours_for_sampling, verification_rank, select_verification_sample,
 )
 from scripts.radar_logic import (
     detect_text_language, event_parts, same_event, same_franchise,
@@ -140,6 +140,25 @@ class RadarLogicTests(unittest.TestCase):
         self.assertEqual(ordered, [fresh, older, unknown, stale])
         self.assertEqual(age_hours_for_sampling(fresh["published_at"], now), 4)
         self.assertIsNone(age_hours_for_sampling(stale["published_at"], now))
+
+    def test_verification_sample_prioritizes_direct_publishers_over_google_aggregators(self):
+        from datetime import datetime, timezone
+        now = datetime(2026, 11, 11, 12, 0, tzinfo=timezone.utc)
+        direct = [
+            {"source": "Anime News Network", "source_type": "editorial_site",
+             "published_at": "2026-11-11T07:00:00+00:00", "score": 45},
+            {"source": "Crunchyroll News", "source_type": "editorial_site",
+             "published_at": "2026-11-11T06:00:00+00:00", "score": 50},
+        ]
+        aggregators = [
+            {"source": "Google News – United States", "source_type": "market_search",
+             "published_at": "2026-11-11T11:00:00+00:00", "score": 99},
+            {"source": "Google Actualités – France", "source_type": "market_search",
+             "published_at": "2026-11-11T10:00:00+00:00", "score": 99},
+        ]
+        selected = select_verification_sample(aggregators + direct, limit=3)
+        self.assertEqual([item["source"] for item in selected],
+                         ["Anime News Network", "Crunchyroll News", "Google News – United States"])
 
     def test_media_coverage_is_not_truth_confirmation(self):
         self.assertEqual(evidence_level(1), "single_publisher_signal")
