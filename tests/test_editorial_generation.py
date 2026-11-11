@@ -144,6 +144,14 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertEqual(detect_text_language("La saison 4 de cette série est confirmée"), "fr")
         self.assertEqual(detect_text_language("The fourth season of this series is confirmed"), "en")
 
+    def test_worker_has_a_json_mode_fallback_model(self):
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1]
+        worker = (root / "functions" / "api" / "editorial.js").read_text(encoding="utf-8")
+        source = (root / "scripts" / "generate_editorial.py").read_text(encoding="utf-8")
+        self.assertIn("@cf/meta/llama-3.3-70b-instruct-fp8-fast", worker)
+        self.assertIn("model: FALLBACK_MODEL", worker)
+        self.assertIn("draft.get(\"model\") or result.get(\"model\", \"unknown\")", source)
     def test_worker_and_python_share_editorial_minimums(self):
         from scripts import generate_editorial
         worker_path = __import__("pathlib").Path(__file__).resolve().parents[1] / "functions" / "api" / "editorial.js"

@@ -402,7 +402,7 @@ def main():
         }
         item["ai_generation"] = {
             "provider": "Cloudflare Workers AI",
-            "model": result.get("model", "unknown"),
+            "model": draft.get("model") or result.get("model", "unknown"),
             "generated_at": result.get("generated_at", ""),
             "human_review_required": True
         }

@@ -1,4 +1,5 @@
 const MODEL = "@cf/zai-org/glm-4.7-flash";
+const FALLBACK_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 const PLATFORMS = ["facebook", "tiktok"];
 const MIN_SUMMARY_WORDS = 35;
 
@@ -123,7 +124,7 @@ function fitXPost(value) {
   return shortened;
 }
 
-async function generateOne(item, env, correctivePass = false, previousError = "") {
+async function generateOne(item, env, correctivePass = false, previousError = "", model = MODEL) {
   const system = [
     "Tu es journaliste-rédacteur francophone spécialisé manga, anime et culture pop, au sein d'un média indépendant.",
     "Écris comme une personne qui maîtrise son sujet : naturel, précis, fluide, chaleureux et crédible. Le texte doit pouvoir être lu à voix haute sans sonner comme un communiqué automatique.",
@@ -180,7 +181,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     coverage: item.coverage || {}
   };
 
-  const result = await env.AI.run(MODEL, {
+  const result = await env.AI.run(model, {
     messages: [
       { role: "system", content: system },
       { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr vise 40 à 70 mots et ne doit jamais descendre sous 35; compose-le à partir des faits distincts réellement présents dans source_reports : annonce, éléments de la bande-annonce, visuel, casting, musique, date, studio ou réalisation uniquement s'ils sont explicitement indiqués; chaque phrase doit apporter un fait vérifiable; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les deux textes sociaux doivent être en français naturel. Posts : produire uniquement Facebook (90 à 110 mots) et TikTok (40 à 60 mots), deux textes originaux et de structures différentes. Pour Facebook, compte les mots séparés par des espaces avant de répondre; si le texte est trop court, développe avec des faits distincts déjà présents dans les sources, jamais avec du remplissage. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 35 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
@@ -323,19 +324,27 @@ export async function onRequestPost({ request, env }) {
     try {
       let draft = null;
       let lastError = "";
-      // Deux tentatives correctives après la première génération. Toute erreur de
-      // validation ou de format relance le modèle avec le motif exact; les erreurs
-      // d'un sujet ne bloquent jamais les autres prépublications.
-      for (let attempt = 0; attempt <= 2; attempt++) {
-        try {
-          draft = await generateOne(item, env, attempt > 0, lastError);
-          break;
-        } catch (error) {
-          lastError = String(error);
-          if (attempt === 1) throw error;
+      const modelPlan = [
+        { model: MODEL, attempts: 2 },
+        { model: FALLBACK_MODEL, attempts: 2 }
+      ];
+      // Deux essais avec le modèle principal, puis bascule vers un modèle Cloudflare
+      // compatible JSON Mode si l'inférence ou la validation échoue. Chaque sujet
+      // reste isolé : un incident IA ne bloque pas les autres prépublications.
+      for (const plan of modelPlan) {
+        for (let attempt = 0; attempt < plan.attempts; attempt++) {
+          try {
+            draft = await generateOne(item, env, attempt > 0, lastError, plan.model);
+            draft.model = plan.model;
+            break;
+          } catch (error) {
+            lastError = String(error);
+          }
         }
+        if (draft) break;
       }
       if (draft) output.push(draft);
+      else errors.push({ trend_id: item.trend_id, detail: lastError.slice(0, 240) });
     } catch (error) {
       errors.push({
         trend_id: item.trend_id,
@@ -344,7 +353,8 @@ export async function onRequestPost({ request, env }) {
     }
   }
   return json({
-    model: MODEL,
+    model: output.length ? [...new Set(output.map(item => item.model || MODEL))].join(" + ") : MODEL + " / " + FALLBACK_MODEL,
+    fallback_model: FALLBACK_MODEL,
     generated_at: new Date().toISOString(),
     items: output,
     errors
