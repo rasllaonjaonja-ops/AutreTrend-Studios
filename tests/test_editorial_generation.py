@@ -211,5 +211,14 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertIn("laisse le contrôle rejeter le sujet", worker_prompt)
 
 
+    def test_current_repository_queue_obeys_publication_safety_contract(self):
+        import json
+        from pathlib import Path
+        queue_path = Path(__file__).resolve().parents[1] / "data" / "editorial_queue.json"
+        queue = json.loads(queue_path.read_text(encoding="utf-8"))
+        self.assertTrue(valid_editorial_queue(queue))
+        self.assertTrue(all(item.get("publication_allowed") is False for item in queue.get("items", [])))
+
+
 if __name__ == "__main__":
     unittest.main()
