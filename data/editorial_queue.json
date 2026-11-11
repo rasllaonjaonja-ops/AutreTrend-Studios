@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:21:02.720897+00:00",
+  "generated_at": "2026-11-11T00:23:12.797955+00:00",
   "count": 2,
   "daily_goal": 3,
   "selected_networks": [
@@ -194,15 +194,6 @@
       ]
     },
     {
-      "title": "Release the Villains: Ains Ooal Gown, a Lonely Gamer Playing the Role of a Lifetime",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "date de publication absente, invalide ou anormalement future",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS"
-      ]
-    },
-    {
       "title": "Kodansha's Comic Tint Digital Magazine to End After 9 Years",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -223,6 +214,15 @@
       "title": "L’anime Yuru Camp Saison 4, en Trailer",
       "reasons": [
         "score éditorial inférieur à 45/100"
+      ]
+    },
+    {
+      "title": "Release the Villains: Ains Ooal Gown, a Lonely Gamer Playing the Role of a Lifetime",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "date de publication absente, invalide ou anormalement future",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
       ]
     },
     {
@@ -577,7 +577,7 @@
       "draft_returned": false,
       "accepted": false,
       "validation_errors": [
-        "Error: Contenu trop court pour facebook (81/85 mots)"
+        "Error: Contenu trop court pour facebook (80/85 mots)"
       ]
     },
     {
@@ -595,7 +595,7 @@
   "ai_validation_errors": [
     {
       "trend_id": "https://animehunch.com/spy-x-family-season-4-new-film-confirmed-for-2027-release/",
-      "detail": "Error: Contenu trop court pour facebook (81/85 mots)"
+      "detail": "Error: Contenu trop court pour facebook (80/85 mots)"
     },
     {
       "trend_id": "https://animotaku.fr/actualite/film-ghost-end-of-night-premier-trailer/",
@@ -605,5 +605,5 @@
   "ai_generated_count": 0,
   "ai_generation_status": "rejected",
   "ai_model": "@cf/zai-org/glm-4.7-flash",
-  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook (81/85 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Contenu trop court pour facebook (81/85 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
+  "ai_notice": "Aucune prépublication IA validée. Les brouillons restent non publiables. Détails : Error: Contenu trop court pour facebook (80/85 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots; Error: Contenu trop court pour facebook (80/85 mots); Error: Brief éditorial incomplet : summary_fr doit contenir au moins 45 mots"
 }
