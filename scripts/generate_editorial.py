@@ -16,7 +16,7 @@ except ModuleNotFoundError:
 ROOT = Path(__file__).resolve().parents[1]
 QUEUE = ROOT / "data" / "editorial_queue.json"
 PLATFORMS = ("facebook", "tiktok")
-MIN_SUMMARY_WORDS = 45
+MIN_SUMMARY_WORDS = 35
 
 
 def word_count(value):
