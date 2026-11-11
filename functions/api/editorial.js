@@ -250,13 +250,16 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
   // Aucun fait nouveau n'est créé : les ajouts sont repris mot pour mot et sans doublon.
 
 
-  const minimumWords = { facebook: 75, tiktok: 35 };
+  const minimumWords = { facebook: 60, tiktok: 35 };
   for (const platform of PLATFORMS) {
     const content = parsed.posts[platform];
     const words = wordCount(content);
     if (words < minimumWords[platform]) throw new Error("Contenu trop court pour " + platform + " (" + words + "/" + minimumWords[platform] + " mots)");
-    if (platform === "facebook" && words > 135) throw new Error("Facebook dépasse 135 mots");
-    if (platform === "tiktok" && words > 75) throw new Error("TikTok dépasse 75 mots");
+    if (platform === "facebook" && words > 125) throw new Error("Facebook dépasse 125 mots");
+    if (platform === "tiktok" && words > 65) throw new Error("TikTok dépasse 65 mots");
+    const sentenceCount = (content.match(/[^.!?…]+[.!?…]+/g) || []).length;
+    if (platform === "facebook" && sentenceCount < 4) throw new Error("Facebook doit contenir au moins quatre phrases complètes");
+    if (platform === "tiktok" && sentenceCount < 3) throw new Error("TikTok doit contenir au moins trois phrases complètes");
     if (detectTextLanguage(content) !== "fr") throw new Error("Contenu " + platform + " non français");
     const qualityErrors = editorialTextErrors(content, platform);
     if (qualityErrors.length) throw new Error(qualityErrors.join("; "));
