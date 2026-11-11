@@ -102,8 +102,12 @@ def post_validation_errors(posts):
             else:
                 errors.extend(_content_quality_errors(posts[key], key))
     if isinstance(posts.get("facebook"), str) and isinstance(posts.get("tiktok"), str):
-        if _normalise_sentence(posts["facebook"]) == _normalise_sentence(posts["tiktok"]):
-            errors.append("Facebook et TikTok : adaptations identiques")
+        facebook_tokens = set(__import__("re").findall(r"[a-zà-ÿ]{4,}", posts["facebook"].lower()))
+        tiktok_tokens = set(__import__("re").findall(r"[a-zà-ÿ]{4,}", posts["tiktok"].lower()))
+        smaller = min(len(facebook_tokens), len(tiktok_tokens))
+        shared = len(facebook_tokens & tiktok_tokens)
+        if _normalise_sentence(posts["facebook"]) == _normalise_sentence(posts["tiktok"]) or (smaller and shared / smaller > 0.9):
+            errors.append("Facebook et TikTok : adaptations identiques ou trop similaires")
     return errors
 
 def valid_posts(posts):
@@ -320,6 +324,7 @@ def main():
             item_errors.append("title_fr : langue française non détectée")
         if detect_text_language(summary_fr) != "fr":
             item_errors.append("summary_fr : langue française non détectée")
+        item_errors.extend(_content_quality_errors(summary_fr, "summary_fr"))
         summary_words = word_count(summary_fr)
         if summary_words < MIN_SUMMARY_WORDS:
             item_errors.append(
