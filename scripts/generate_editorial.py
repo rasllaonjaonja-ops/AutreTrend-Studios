@@ -80,9 +80,14 @@ def _content_quality_errors(value, platform):
     ]
     if len(sentences) != len(set(sentences)):
         errors.append(f"{platform} : phrase répétée")
-    if platform == "facebook" and not (75 <= word_count(text) <= 135):
+    sentence_count = len([part for part in re.split(r"(?<=[.!?…])\s+", text) if part.strip()])
+    if platform == "facebook" and sentence_count < 4:
+        errors.append("facebook : moins de quatre phrases complètes")
+    if platform == "tiktok" and sentence_count < 3:
+        errors.append("tiktok : moins de trois phrases complètes")
+    if platform == "facebook" and not (60 <= word_count(text) <= 125):
         errors.append(f"facebook : longueur {word_count(text)} mots, cible 90 à 110")
-    if platform == "tiktok" and not (35 <= word_count(text) <= 75):
+    if platform == "tiktok" and not (35 <= word_count(text) <= 65):
         errors.append(f"tiktok : longueur {word_count(text)} mots, cible 40 à 60")
     if detect_text_language(text) != "fr":
         errors.append(f"{platform} : contenu non reconnu comme français")
