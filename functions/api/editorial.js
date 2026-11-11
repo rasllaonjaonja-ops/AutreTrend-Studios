@@ -145,7 +145,42 @@ function fitXPost(value) {
   return shortened;
 }
 
-async function generateOne(item, env, correctivePass = false, previousError = "", model = MODEL) {
+async function runEditorialModel(model, payload, env, provider) {
+  if (provider === "cloudflare") {
+    if (!env.AI) throw new Error("Binding Workers AI indisponible");
+    return env.AI.run(model, payload);
+  }
+  if (provider === "groq") {
+    const apiKey = env.AUTOTREND_GROQ_API_KEY;
+    if (!apiKey) throw new Error("Clé du fournisseur IA indépendant absente");
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": "Bearer " + apiKey,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model,
+        messages: payload.messages,
+        response_format: payload.response_format,
+        max_tokens: payload.max_tokens,
+        temperature: payload.temperature
+      })
+    });
+    const responseText = await response.text();
+    if (!response.ok) {
+      throw new Error("Groq HTTP " + response.status + ": " + responseText.slice(0, 180));
+    }
+    try {
+      return JSON.parse(responseText);
+    } catch {
+      throw new Error("Réponse JSON invalide du fournisseur IA indépendant");
+    }
+  }
+  throw new Error("Fournisseur IA non pris en charge");
+}
+
+async function generateOne(item, env, correctivePass = false, previousError = "", model = MODEL, provider = "cloudflare") {
   const system = [
     "Tu es journaliste-rédacteur francophone spécialisé manga, anime et culture pop, au sein d'un média indépendant.",
     "Écris comme une personne qui maîtrise son sujet : naturel, précis, fluide, chaleureux et crédible. Le texte doit pouvoir être lu à voix haute sans sonner comme un communiqué automatique.",
@@ -202,7 +237,7 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     coverage: item.coverage || {}
   };
 
-  const result = await env.AI.run(model, {
+  const result = await runEditorialModel(model, {
     messages: [
       { role: "system", content: system },
       { role: "user", content: (correctivePass ? "CORRECTION OBLIGATOIRE : la réponse précédente a été rejetée. Motif exact du contrôle : " + previousError + ". Recommence intégralement. Vérifie AVANT de répondre tous les critères : title_fr au moins 4 mots; summary_fr vise 40 à 70 mots et ne doit jamais descendre sous 35; compose-le à partir des faits distincts réellement présents dans source_reports : annonce, éléments de la bande-annonce, visuel, casting, musique, date, studio ou réalisation uniquement s'ils sont explicitement indiqués; chaque phrase doit apporter un fait vérifiable; editorial_angle au moins 8 mots; discussion_question au moins 6 mots français et se terminant par ?; claims_to_verify un tableau de chaînes françaises, chaque élément non vide contenant au moins 4 mots. trend_synthesis doit contenir key_facts (au moins un fait sourcé en français de 5 mots ou plus), reported_but_unconfirmed (tableau, éventuellement vide; chaque élément non vide en français et 4 mots minimum), coverage_summary (au moins 8 mots français) et editorial_context (au moins 8 mots français). Tous les champs et les deux textes sociaux doivent être en français naturel. Posts : produire uniquement Facebook (60 à 85 mots, jamais moins de 50) et TikTok (40 à 60 mots), deux textes originaux et de structures différentes. Pour Facebook, compte les mots séparés par des espaces avant de répondre; si le texte est trop court, développe avec des faits distincts déjà présents dans les sources, jamais avec du remplissage. Les textes doivent rester fidèles aux sources. Ne traduis aucun nom propre ni nom de famille (Forger reste Forger, jamais Forgeron); conserve les titres officiels et leur graphie. Relis tous les champs pour éviter les noms déformés. Ne remplis jamais artificiellement un résumé avec des généralités pour atteindre 35 mots : si les sources sont insuffisantes, n’invente rien et laisse le contrôle rejeter le sujet. Ne transforme jamais une absence d’information en fait. Retourne uniquement le JSON complet valide.\\n" : "Prépare une prépublication complète pour ce sujet. ") + "Données source :\\n" + JSON.stringify(input) }
@@ -211,9 +246,9 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
     chat_template_kwargs: { enable_thinking: false },
     max_tokens: 5000,
     temperature: 0.25
-  });
+  }, env, provider);
 
-  // GLM-4.7-Flash renvoie une réponse au format chat-completions :
+  // Les fournisseurs compatibles renvoient un format chat-completions :
   // choices[0].message.content. Garder aussi les formats Workers AI historiques.
   const choice = result?.choices?.[0] ?? result?.result?.choices?.[0];
   const messageContent = choice?.message?.content;
@@ -324,17 +359,22 @@ async function generateOne(item, env, correctivePass = false, previousError = ""
 export async function onRequestGet({ env }) {
   return json({
     service: "AutreTrend Studios editorial API",
-    status: env.AI && env.AUTOTREND_AI_TOKEN ? "ready" : "configuration_required",
+    status: env.AUTOTREND_AI_TOKEN && (env.AI || env.AUTOTREND_GROQ_API_KEY) ? "ready" : "configuration_required",
     ai_binding: Boolean(env.AI),
+    groq_fallback_configured: Boolean(env.AUTOTREND_GROQ_API_KEY),
     token_configured: Boolean(env.AUTOTREND_AI_TOKEN),
     model: MODEL,
+    fallback_model: FALLBACK_MODEL,
+    independent_fallback_model: env.AUTOTREND_GROQ_MODEL || "openai/gpt-oss-20b",
     publication_enabled: false
   });
 }
 
 export async function onRequestPost({ request, env }) {
   const token = env.AUTOTREND_AI_TOKEN;
-  if (!token || !env.AI) return json({ error: "AI binding or secret not configured" }, 503);
+  if (!token || (!env.AI && !env.AUTOTREND_GROQ_API_KEY)) {
+    return json({ error: "Aucun moteur IA configuré : Workers AI ou fournisseur indépendant requis" }, 503);
+  }
   if (request.headers.get("authorization") !== "Bearer " + token) return json({ error: "Unauthorized" }, 401);
   if (!(request.headers.get("content-type") || "").toLowerCase().includes("application/json")) {
     return json({ error: "JSON required" }, 415);
@@ -358,17 +398,25 @@ export async function onRequestPost({ request, env }) {
       let draft = null;
       let lastError = "";
       const modelPlan = [
-        { model: MODEL, attempts: 2 },
-        { model: FALLBACK_MODEL, attempts: 2 }
+        ...(env.AI ? [
+          { provider: "cloudflare", model: MODEL, attempts: 2 },
+          { provider: "cloudflare", model: FALLBACK_MODEL, attempts: 2 }
+        ] : []),
+        ...(env.AUTOTREND_GROQ_API_KEY ? [{
+          provider: "groq",
+          model: env.AUTOTREND_GROQ_MODEL || "openai/gpt-oss-20b",
+          attempts: 2
+        }] : [])
       ];
-      // Deux essais avec le modèle principal, puis bascule vers un modèle Cloudflare
-      // compatible JSON Mode si l'inférence ou la validation échoue. Chaque sujet
-      // reste isolé : un incident IA ne bloque pas les autres prépublications.
+      // Deux modèles Cloudflare sont essayés en premier. Si les deux échouent,
+      // un fournisseur indépendant est utilisé uniquement si sa clé est configurée.
+      // Chaque sujet reste isolé; aucun brouillon rejeté n'est publié.
       for (const plan of modelPlan) {
         for (let attempt = 0; attempt < plan.attempts; attempt++) {
           try {
-            draft = await generateOne(item, env, attempt > 0, lastError, plan.model);
+            draft = await generateOne(item, env, attempt > 0, lastError, plan.model, plan.provider);
             draft.model = plan.model;
+            draft.provider = plan.provider === "groq" ? "Groq API (fournisseur indépendant)" : "Cloudflare Workers AI";
             break;
           } catch (error) {
             lastError = String(error);
