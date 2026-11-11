@@ -1,6 +1,6 @@
 """Tests du contrat de génération éditoriale assistée."""
 import unittest
-from scripts.generate_editorial import valid_posts, valid_synthesis, post_validation_errors
+from scripts.generate_editorial import valid_posts, valid_synthesis, post_validation_errors, post_validation_errors
 from scripts.radar_logic import detect_text_language
 from scripts.quality_check import valid_editorial_queue
 
@@ -8,7 +8,7 @@ from scripts.quality_check import valid_editorial_queue
 class EditorialGenerationTests(unittest.TestCase):
     def setUp(self):
         self.posts = {
-            "facebook": "Une annonce importante vient d'être confirmée par le studio officiel. Les médias spécialisés rapportent également plusieurs précisions sur le calendrier et les éléments présentés lors de l'événement. Notre comparaison distingue les faits communs des détails encore incertains, sans reprendre mécaniquement les mêmes formulations. Cette nouvelle étape donne aux fans une raison de suivre les prochaines communications. Quel aspect de cette annonce attendez-vous le plus ?",
+            "facebook": "Une annonce importante vient d'être confirmée par le studio officiel. Les médias spécialisés rapportent également plusieurs précisions sur le calendrier et les éléments présentés lors de l'événement. Notre comparaison distingue les faits communs des détails encore incertains, sans reprendre mécaniquement les mêmes formulations. Cette nouvelle étape donne aux fans une raison de suivre les prochaines communications. Les premiers articles évoquent le même événement, mais certaines précisions doivent encore être rapprochées avant d'être considérées comme définitives. Nous retenons uniquement les informations qui apparaissent clairement dans les comptes rendus disponibles, et nous signalons les zones d'ombre plutôt que de les combler. Quel aspect de cette annonce attendez-vous le plus ?",
             "tiktok": "Vous avez vu cette annonce ? Le studio confirme un nouveau projet, tandis que plusieurs médias détaillent les premières informations disponibles. Attention, certains éléments restent à préciser et ne doivent pas être présentés comme définitifs. On suivra les prochaines annonces : qu'est-ce qui vous intrigue le plus ?"
         }
 
@@ -111,6 +111,16 @@ class EditorialGenerationTests(unittest.TestCase):
         self.assertTrue(valid_editorial_queue(queue))
         queue["ai_generated_count"] = 2
         self.assertFalse(valid_editorial_queue(queue))
+
+    def test_rejects_placeholder_repetition_and_identical_platform_copy(self):
+        placeholder = dict(self.posts)
+        placeholder["facebook"] = "RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE"
+        self.assertTrue(any("consigne" in error for error in post_validation_errors(placeholder)))
+        repeated = dict(self.posts)
+        repeated["tiktok"] = "Cette annonce est importante. Cette annonce est importante. Le studio confirme un projet avec des informations utiles et une date à préciser pour les fans."
+        self.assertTrue(any("répétée" in error for error in post_validation_errors(repeated)))
+        identical = {"facebook": self.posts["facebook"], "tiktok": self.posts["facebook"]}
+        self.assertTrue(any("identiques" in error for error in post_validation_errors(identical)))
 
     def test_rejects_placeholder_repetition_and_identical_platform_copy(self):
         placeholder = dict(self.posts)
