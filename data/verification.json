@@ -1,8 +1,13 @@
 {
-  "checked_at": "2026-11-13T06:51:08.012884+00:00",
+  "checked_at": "2026-11-13T19:47:40.690946+00:00",
   "checked_articles": 25,
   "official_link_found": 0,
-  "errors": [],
+  "errors": [
+    {
+      "url": "https://crunchyroll.com/news/latest/2026/11/12/charisma-anime-amahiko-tendo-character-trailer",
+      "error": "The read operation timed out"
+    }
+  ],
   "checks": [
     {
       "title": "'Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.' Second Season in Production",
@@ -122,24 +127,6 @@
       "page_title": "SAKAMOTO DAYS Character List | Names, Voice Actors, Weapons, Abilities & Affiliations | Japan Anime News powered by ORICON NEWS"
     },
     {
-      "title": "'Kizuguchi to Houtai' Reveals Additional Cast, Staff, Opening Theme, First Promo",
-      "article_url": "https://myanimelist.net/news/74909626?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-06T07:38:34+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Kizuguchi to Houtai' Reveals Additional Cast, Staff, Opening Theme, First Promo - MyAnimeList.net"
-    },
-    {
-      "title": "Manga 'Hagure Idol: Jigoku-hen' Gets TV Anime in Winter 2027",
-      "article_url": "https://myanimelist.net/news/74909290?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-06T05:11:20+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Manga 'Hagure Idol: Jigoku-hen' Gets TV Anime in Winter 2027 - MyAnimeList.net"
-    },
-    {
       "title": "Hiragi-san's House of Vampires Gets TV Anime Adaptation, Super Teaser Visual Revealed",
       "article_url": "https://us.oricon-group.com/news/9471/",
       "publisher": "ORICON / Japan Anime News",
@@ -167,15 +154,6 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Ghost – End of Night Anime Film Releases Main Trailer, Key Visual",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/10/ghost-end-of-night-anime-film-main-trailer-key-visual-additional-cast",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-10T00:17:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
       "title": "Light Novel 'Isekai Douraku ni Akitara' Gets TV Anime in Winter 2027",
       "article_url": "https://myanimelist.net/news/74934042?_location=rss",
       "publisher": "MyAnimeList",
@@ -190,8 +168,7 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-12T17:19:00+00:00",
       "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+      "status": "page source inaccessible — vérification humaine requise"
     },
     {
       "title": "Additional Cast for 'Gacha wo Mawashite Nakama wo Fuyasu' Announced",
@@ -228,6 +205,33 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Spirit Circle TV Anime Set for December, Becomes Tatsuo Sato's Final Directorial Work | Japan Anime News powered by ORICON NEWS"
+    },
+    {
+      "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-12T14:40:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-11T02:07:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "A Certain Dark Item Anime Publishes VS ITEM Trailer",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/13/a-certain-dark-item-anime-vs-item-trailer",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-13T17:24:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
