@@ -1,8 +1,14 @@
 {
-  "generated_at": "2026-11-14T18:10:33.627560+00:00",
+  "generated_at": "2026-11-14T22:29:39.032699+00:00",
   "count": 4,
-  "rejected_count": 102,
+  "rejected_count": 101,
   "rejected_sample": [
+    {
+      "title": "Even the Student Council Has Its Holes! Anime Casts Yoko Hikasa, Shares New Opening Video",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
     {
       "title": "'Re:Zero kara Hajimeru Isekai Seikatsu' Gets 5th Season",
       "reasons": [
@@ -30,6 +36,7 @@
     {
       "title": "Detective Conan: The Clash of the Red and Black Anime Series Review",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
@@ -97,6 +104,19 @@
       ]
     },
     {
+      "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100"
+      ]
+    },
+    {
+      "title": "The Fall 2026 Anime Preview Guide - One-Room TA",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Expelled From Paradise: Resonance Anime Film Review",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -118,7 +138,7 @@
       ]
     },
     {
-      "title": "The Fall 2026 Anime Preview Guide - One-Room TA",
+      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation (Updated)",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -132,20 +152,14 @@
       ]
     },
     {
-      "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-      "reasons": [
-        "score éditorial inférieur à 45/100"
-      ]
-    },
-    {
-      "title": "Giant Ojosama TV Anime Reveals More Cast",
+      "title": "The Ramparts of Ice Season 2 ‒ Episode 21",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation (Updated)",
+      "title": "Giant Ojosama TV Anime Reveals More Cast",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -180,13 +194,6 @@
       ]
     },
     {
-      "title": "The Ramparts of Ice Season 2 ‒ Episode 21",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "The Apothecary Diaries Season 3 ‒ Episode 55",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -199,13 +206,6 @@
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
-    },
-    {
-      "title": "Multi-Mind Mayhem Anime Reveals Premiere Date, Theme Songs in New Trailer",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -213,7 +213,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/14/re-zero-starting-life-in-another-world-season-5-anime-announced-ultra-teaser-visual",
       "title": "Re:ZERO -Starting Life in Another World- Season 5 Anime Announced",
-      "score_indicatif": 60,
+      "score_indicatif": 58,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -270,7 +270,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/14/gushing-over-magical-girls-season-2-anime-2027-release-date-ultra-teaser-visual",
       "title": "Gushing Over Magical Girls Season 2 Anime Confirms 2027 Broadcast in New Visual",
-      "score_indicatif": 55,
+      "score_indicatif": 53,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -327,7 +327,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-13/living-it-up-in-another-world-until-i-get-bored-novels-get-tv-anime/.243798",
       "title": "Living It Up in Another World Until I Get Bored Novels Get TV Anime",
-      "score_indicatif": 51,
+      "score_indicatif": 49,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -384,7 +384,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9",
-      "score_indicatif": 48,
+      "score_indicatif": 46,
       "media_count": 2,
       "media": [
         "Anime News Network",
