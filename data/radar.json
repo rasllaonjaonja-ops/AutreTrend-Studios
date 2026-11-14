@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:47:23.826750+00:00",
+  "updated_at": "2026-11-14T06:31:57.921856+00:00",
   "source_count": 6,
   "sources": [
     "Anime News Network – News",
@@ -41,7 +41,7 @@
       "unique_items": 32
     }
   },
-  "item_count": 188,
+  "item_count": 190,
   "items": [
     {
       "id": "https://myanimelist.net/news/74913297?_location=rss",
@@ -462,6 +462,26 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/north-american-anime-manga-releases-november-8-14/.243661",
+      "title": "North American Anime, Manga Releases, November 8-14",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-13/north-american-anime-manga-releases-november-8-14/.243661",
+      "summary": "The Apothecary Diaries Season 2, Call of the Night Season 2 anime; Albus Changes the World, Pokémon Adventures: Red and Blue Deluxe Edition manga ship",
+      "published_at": "2026-11-13T22:00:00+00:00",
+      "source": "Anime News Network – News",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 24,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-13/north-american-anime-manga-releases-november-8-14/.243661",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
       "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
       "title_language": "en",
@@ -476,25 +496,6 @@
       "score": 23,
       "verification": "à vérifier",
       "canonical_url": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
-      "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
-      "summary": "Tasuku Kaito and Kazuki Ura play the two main characters",
-      "published_at": "2026-11-11T02:07:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 23,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
       "feed_sources": [
         "Crunchyroll News – RSS"
       ]
@@ -763,6 +764,25 @@
       "canonical_url": "https://myanimelist.net/news/74922872",
       "feed_sources": [
         "MyAnimeList News – RSS"
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/14/the-iceblade-sorcerer-shall-rule-the-world-season-2-anime-opening-song-music-video-sizuk",
+      "title": "Sizuk Releases The Iceblade Sorcerer Shall Rule the World II Anime Opening Song Music Video",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/14/the-iceblade-sorcerer-shall-rule-the-world-season-2-anime-opening-song-music-video-sizuk",
+      "summary": "The new season is now available on Crunchyroll",
+      "published_at": "2026-11-14T01:52:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 18,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/14/the-iceblade-sorcerer-shall-rule-the-world-season-2-anime-opening-song-music-video-sizuk",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
       ]
     },
     {
@@ -1035,25 +1055,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life-anime-opening-song-music-video-sumika",
-      "title": "Sumika Releases The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life Anime Opening Song Music Video",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/11/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life-anime-opening-song-music-video-sumika",
-      "summary": "Crunchyroll is streaming the P.A. Works-animated series",
-      "published_at": "2026-11-11T01:02:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 14,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/11/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life-anime-opening-song-music-video-sumika",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9476/",
       "title": "DEATH STRANDING ISOLATIONS Teaser Trailer Revealed Ahead of 2027 Disney+ Release",
       "title_language": "en",
@@ -1070,6 +1071,25 @@
       "canonical_url": "https://us.oricon-group.com/news/9476",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/preview-guide/2026/fall/one-room-ta/.243805",
+      "title": "The Fall 2026 Anime Preview Guide - One-Room TA",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/preview-guide/2026/fall/one-room-ta/.243805",
+      "summary": "Streaming service OceanVeil's new boys-love series premiered today! We checked out One-Room TA to see what the fuss is about.",
+      "published_at": "2026-11-13T19:49:19+00:00",
+      "source": "Anime News Network – All Articles",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 13,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/preview-guide/2026/fall/one-room-ta/.243805",
+      "feed_sources": [
+        "Anime News Network – All Articles"
       ]
     },
     {
@@ -1127,6 +1147,45 @@
       "canonical_url": "https://us.oricon-group.com/news/9486",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/j-novel-club-licenses-putting-a-price-on-world-peace-novels-im-dating-a-dark-summoner-manga-more-/.243781",
+      "title": "J-Novel Club Licenses Putting a Price on World Peace Novels, I'm Dating a Dark Summoner Manga, More Titles",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-13/j-novel-club-licenses-putting-a-price-on-world-peace-novels-im-dating-a-dark-summoner-manga-more-/.243781",
+      "summary": "Company to also release Rebuild World novels, A Royal Rebound manga in print next year",
+      "published_at": "2026-11-13T20:00:00+00:00",
+      "source": "Anime News Network – News",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-13/j-novel-club-licenses-putting-a-price-on-world-peace-novels-im-dating-a-dark-summoner-manga-more-/.243781",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/13/j-novel-club-announces-13-new-digital-releases-and-two-new-print-releases",
+      "title": "J-Novel Club Announces 13 New Digital Releases and Two New Print Releases",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/13/j-novel-club-announces-13-new-digital-releases-and-two-new-print-releases",
+      "summary": "Releases of seven light novels and six manga are now available on the website",
+      "published_at": "2026-11-13T20:00:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 12,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/13/j-novel-club-announces-13-new-digital-releases-and-two-new-print-releases",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
       ]
     },
     {
@@ -1227,7 +1286,7 @@
     },
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-13/titan-holds-distribution-of-five-star-stories-manga-1st-english-volume-to-review-translation-/.243800",
-      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation",
+      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation (Updated)",
       "title_language": "en",
       "translation_status": "à traduire si japonais",
       "url": "https://www.animenewsnetwork.com/news/2026-11-13/titan-holds-distribution-of-five-star-stories-manga-1st-english-volume-to-review-translation-/.243800",
@@ -1260,6 +1319,25 @@
       "score": 11,
       "verification": "à vérifier",
       "canonical_url": "https://crunchyroll.com/news/announcements/2026/11/11/medaka-kuroiwa-is-impervious-to-my-charms-season-2-anime-stream-crunchyroll",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/14/please-excuse-my-younger-brothers-cour-2-anime-opening-song-collab-music-video-neguse",
+      "title": "Neguse. Shares Please Excuse My Younger Brothers Cour 2 Anime Opening Song Collab Music Video",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/14/please-excuse-my-younger-brothers-cour-2-anime-opening-song-collab-music-video-neguse",
+      "summary": "The rom-com series is available on Crunchyroll",
+      "published_at": "2026-11-14T04:55:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/14/please-excuse-my-younger-brothers-cour-2-anime-opening-song-collab-music-video-neguse",
       "feed_sources": [
         "Crunchyroll News – RSS"
       ]
@@ -1509,6 +1587,25 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-12/romancing-saga-3-destinies-united-game-announces-new-earlier-february-4-release-date/.243758",
       "feed_sources": [
+        "Anime News Network – News"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/giant-ojosama-tv-anime-reveals-more-cast/.243804",
+      "title": "Giant Ojosama TV Anime Reveals More Cast",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-13/giant-ojosama-tv-anime-reveals-more-cast/.243804",
+      "summary": "Series casts Rina Kawaguchi as Stella, Risa Imayanagi as Madoka Ito",
+      "published_at": "2026-11-13T20:00:05+00:00",
+      "source": "Anime News Network – News",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 8,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-13/giant-ojosama-tv-anime-reveals-more-cast/.243804",
+      "feed_sources": [
         "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
@@ -1690,25 +1787,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713",
-      "title": "This Week in Anime - Roll the Dice",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713",
-      "summary": "Lucas and Chris tackle the next great vice in anime: gambling!",
-      "published_at": "2026-11-12T15:00:00+00:00",
-      "source": "Anime News Network – All Articles",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713",
-      "feed_sources": [
-        "Anime News Network – All Articles"
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753",
       "title": "Nabe ni Tama wo Ukenagara TV Anime Reveals Main Cast, Staff, January Debut",
       "title_language": "en",
@@ -1724,7 +1802,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
     },
@@ -1744,7 +1821,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-12/chained-soldier-manga-resumes-on-december-12/.243752",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
     },
@@ -1822,25 +1898,6 @@
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
       "feed_sources": [
         "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/interviews/2026/11/10/ayra-starr-starrgirl-interview",
-      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/interviews/2026/11/10/ayra-starr-starrgirl-interview",
-      "summary": "She also reveals which anime character could pull off the Starrgirl vibe",
-      "published_at": "2026-11-10T17:00:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/interviews/2026/11/10/ayra-starr-starrgirl-interview",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
       ]
     },
     {
@@ -1940,6 +1997,25 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/review/the-ramparts-of-ice-season-2/episode-21/.243802",
+      "title": "The Ramparts of Ice Season 2 ‒ Episode 21",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/review/the-ramparts-of-ice-season-2/episode-21/.243802",
+      "summary": "I really can't feel bad for Momoka, even if I can agree with some of the things that she is saying.",
+      "published_at": "2026-11-13T20:30:00+00:00",
+      "source": "Anime News Network – All Articles",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 6,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/review/the-ramparts-of-ice-season-2/episode-21/.243802",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-55/.243799",
       "title": "The Apothecary Diaries Season 3 ‒ Episode 55",
       "title_language": "en",
@@ -1975,25 +2051,6 @@
       "canonical_url": "https://us.oricon-group.com/news/9498",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
-      "title": "Reincarnated as a Sword Season 2 ‒ Episode 7",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
-      "summary": "Hopefully this black-clad wielder of a massive sword isn't stuck on the ship for as long as Guts was in Berserk .",
-      "published_at": "2026-11-12T12:30:00+00:00",
-      "source": "Anime News Network – All Articles",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 6,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
-      "feed_sources": [
-        "Anime News Network – All Articles"
       ]
     },
     {
@@ -2112,20 +2169,39 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
-      "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
+      "id": "https://crunchyroll.com/news/latest/2026/11/14/voice-actor-yuki-tanaka-10th-debut-anniversary-photobook-december-2026",
+      "title": "Voice Actor Yuki Tanaka to Release 10th Debut Anniversary Photobook This December",
       "title_language": "en",
       "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
-      "summary": "Closed beta sign-ups live ahead of 2027 launch",
-      "published_at": "2026-11-10T16:14:00+00:00",
+      "url": "https://crunchyroll.com/news/latest/2026/11/14/voice-actor-yuki-tanaka-10th-debut-anniversary-photobook-december-2026",
+      "summary": "The limited edition comes with a making-of DVD",
+      "published_at": "2026-11-14T05:37:00+00:00",
       "source": "Crunchyroll News – RSS",
       "publisher": "Crunchyroll",
       "category": "anime-manga",
       "language": "en",
-      "score": 5,
+      "score": 4,
       "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/14/voice-actor-yuki-tanaka-10th-debut-anniversary-photobook-december-2026",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/interviews/2026/11/13/naruto-original-voice-actors-after-20-years-interview",
+      "title": "Naruto's Original Voice Actors on Why Returning to Team 7 Feels Different After 20 Years",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/interviews/2026/11/13/naruto-original-voice-actors-after-20-years-interview",
+      "summary": "Read our interview with the Naruto voice actors at New York Comic Con!",
+      "published_at": "2026-11-13T22:00:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 4,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/interviews/2026/11/13/naruto-original-voice-actors-after-20-years-interview",
       "feed_sources": [
         "Crunchyroll News – RSS"
       ]
@@ -2226,25 +2302,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
-      "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
-      "summary": "A new way to enjoy the Dragon Ball franchise’s iconic fights",
-      "published_at": "2026-11-10T16:30:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 4,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-12/blue-rights-company-unveils-pilot-film-for-orochi-seventh-echoes-original-animated-feature/.243748",
       "title": "Blue Rights Company Unveils Pilot Film for Orochi -Seventh Echoes- Original Animated Feature",
       "title_language": "en",
@@ -2319,8 +2376,26 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-12/live-action-wandance-film-new-video-previews-insert-song-by-mabanua/.243751",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/review/magic-knight-rayearth/episode-6/.243803",
+      "title": "Magic Knight Rayearth ‒ Episode 6",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/review/magic-knight-rayearth/episode-6/.243803",
+      "summary": "This week was the first time I felt this quicker pacing working more to this series’ disadvantage.",
+      "published_at": "2026-11-13T21:30:00+00:00",
+      "source": "Anime News Network – All Articles",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 2,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/review/magic-knight-rayearth/episode-6/.243803",
+      "feed_sources": [
+        "Anime News Network – All Articles"
       ]
     },
     {
@@ -2343,25 +2418,6 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/cyberagent-announces-business-alliance-with-animation-studio-mappa/.243717",
-      "title": "CyberAgent Announces Business Alliance With Animation Studio MAPPA",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/cyberagent-announces-business-alliance-with-animation-studio-mappa/.243717",
-      "summary": "CyberAgent has acquired stake in MAPPA's parent company MHD Co.",
-      "published_at": "2026-11-11T15:00:00+00:00",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 2,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-11/cyberagent-announces-business-alliance-with-animation-studio-mappa/.243717",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
       "id": "https://shonenjumpplus.com/episode/9253191257737707929",
       "title": "[Episode：6]終劇のシエル",
       "title_language": "ja",
@@ -2378,6 +2434,44 @@
       "canonical_url": "https://shonenjumpplus.com/episode/9253191257737707929",
       "feed_sources": [
         "Shonen Jump+ – Atom"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/interest/2026-11-13/uma-musume-revs-its-engines-with-f1-japanese-grand-prix/.243789",
+      "title": "Uma Musume Revs its Engines with F1 Japanese Grand Prix",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-13/uma-musume-revs-its-engines-with-f1-japanese-grand-prix/.243789",
+      "summary": "Horse-girl racing meets Formula 1 racing",
+      "published_at": "2026-11-14T04:59:00+00:00",
+      "source": "Anime News Network – All Articles",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 0,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/interest/2026-11-13/uma-musume-revs-its-engines-with-f1-japanese-grand-prix/.243789",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/14/77th-kohaku-uta-gassen-performers-ado-yoasobi-tm-network-tm-revolution",
+      "title": "77th Kohaku Uta Gassen Announces Performers Including Ado, YOASOBI, TM NETWORK, T.M.Revolution and More",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/14/77th-kohaku-uta-gassen-performers-ado-yoasobi-tm-network-tm-revolution",
+      "summary": "Japan's most prestigious TV music show airs on December 31",
+      "published_at": "2026-11-14T00:50:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 0,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/14/77th-kohaku-uta-gassen-performers-ado-yoasobi-tm-network-tm-revolution",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
       ]
     },
     {
@@ -2989,7 +3083,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-12/kakao-piccoma-launches-new-lulumiru-bl-webtoon-platform/.243759",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
     },
@@ -3046,44 +3139,6 @@
       "score": 0,
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/playstation-5-reaches-over-100-million-shipments/.243724",
-      "title": "PlayStation 5 Reaches Over 100 Million Shipments",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/playstation-5-reaches-over-100-million-shipments/.243724",
-      "summary": "PS5 had shipped over 97.9 million units as of September 30",
-      "published_at": "2026-11-11T16:00:00+00:00",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 0,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-11/playstation-5-reaches-over-100-million-shipments/.243724",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/the-legend-of-zelda-ocarina-of-time-remake-sells-over-5.2-million-units-to-become-nintendo-fastest-/.243722",
-      "title": "The Legend of Zelda: Ocarina of Time Remake Sells Over 5.2 Million Units to Become Nintendo's Fastest-Selling Switch 2 Game",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-legend-of-zelda-ocarina-of-time-remake-sells-over-5.2-million-units-to-become-nintendo-fastest-/.243722",
-      "summary": "Remake surpasses previously reported lifetime sales of 2nd bestselling Switch 2 title Donkey Kong Bananza",
-      "published_at": "2026-11-11T15:33:40+00:00",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 0,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-11/the-legend-of-zelda-ocarina-of-time-remake-sells-over-5.2-million-units-to-become-nintendo-fastest-/.243722",
       "feed_sources": [
         "Anime News Network – News"
       ]
@@ -3564,25 +3619,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/colorful-runway-precure-stage-play-main-theme-song-music-video",
-      "title": "Colorful Runway! Precure Stage Play Shares Main Theme Song Music Video",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/11/colorful-runway-precure-stage-play-main-theme-song-music-video",
-      "summary": "The second male Precure show will open on December 5",
-      "published_at": "2026-11-11T02:39:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 0,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/11/colorful-runway-precure-stage-play-main-theme-song-music-video",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9491/",
       "title": "Umamusume 7th EVENT London Shows Set for January 19-20, 2027 Lineup Revealed",
       "title_language": "en",
@@ -3640,17 +3676,17 @@
       ]
     }
   ],
-  "trend_count": 103,
+  "trend_count": 107,
   "trends": [
     {
       "id": "https://www.animenewsnetwork.com/news/2026-11-13/living-it-up-in-another-world-until-i-get-bored-novels-get-tv-anime/.243798",
       "title": "Living It Up in Another World Until I Get Bored Novels Get TV Anime",
       "title_language": "en",
-      "score": 60,
+      "score": 56,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 96,
+        "freshness": 81,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3688,11 +3724,11 @@
       "id": "https://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9",
       "title_language": "en",
-      "score": 57,
+      "score": 53,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 98,
+        "freshness": 83,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3726,14 +3762,108 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/14/the-iceblade-sorcerer-shall-rule-the-world-season-2-anime-opening-song-music-video-sizuk",
+      "title": "Sizuk Releases The Iceblade Sorcerer Shall Rule the World II Anime Opening Song Music Video",
+      "title_language": "en",
+      "score": 47,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 18,
+        "freshness": 94,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-14T01:52:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Sizuk Releases The Iceblade Sorcerer Shall Rule the World II Anime Opening Song Music Video",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/14/the-iceblade-sorcerer-shall-rule-the-world-season-2-anime-opening-song-music-video-sizuk",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/north-american-anime-manga-releases-november-8-14/.243661",
+      "title": "North American Anime, Manga Releases, November 8-14",
+      "title_language": "en",
+      "score": 47,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 24,
+        "freshness": 88,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T22:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "North American Anime, Manga Releases, November 8-14",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-13/north-american-anime-manga-releases-november-8-14/.243661",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/14/please-excuse-my-younger-brothers-cour-2-anime-opening-song-collab-music-video-neguse",
+      "title": "Neguse. Shares Please Excuse My Younger Brothers Cour 2 Anime Opening Song Collab Music Video",
+      "title_language": "en",
+      "score": 45,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 98,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-14T04:55:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Neguse. Shares Please Excuse My Younger Brothers Cour 2 Anime Opening Song Collab Music Video",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/14/please-excuse-my-younger-brothers-cour-2-anime-opening-song-collab-music-video-neguse",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/13/a-certain-dark-item-anime-vs-item-trailer",
       "title": "A Certain Dark Item Anime Publishes VS ITEM Trailer",
       "title_language": "en",
-      "score": 49,
+      "score": 44,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 97,
+        "freshness": 82,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3757,14 +3887,76 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/14/voice-actor-yuki-tanaka-10th-debut-anniversary-photobook-december-2026",
+      "title": "Voice Actor Yuki Tanaka to Release 10th Debut Anniversary Photobook This December",
+      "title_language": "en",
+      "score": 43,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 99,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-14T05:37:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Voice Actor Yuki Tanaka to Release 10th Debut Anniversary Photobook This December",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/14/voice-actor-yuki-tanaka-10th-debut-anniversary-photobook-december-2026",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/review/expelled-from-paradise/resonance-anime-film/.243778",
+      "title": "Expelled From Paradise: Resonance Anime Film Review",
+      "title_language": "en",
+      "score": 43,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 17,
+        "freshness": 81,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T17:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Expelled From Paradise: Resonance Anime Film Review",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/review/expelled-from-paradise/resonance-anime-film/.243778",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9494/",
       "title": "Nanatsu-ya: Shinobu and Her Jewelry Box Anime to Air in 2027, Teaser PV and Visual Revealed",
       "title_language": "en",
-      "score": 47,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 28,
-        "freshness": 42,
+        "freshness": 27,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3798,14 +3990,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/expelled-from-paradise/resonance-anime-film/.243778",
-      "title": "Expelled From Paradise: Resonance Anime Film Review",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/j-novel-club-licenses-putting-a-price-on-world-peace-novels-im-dating-a-dark-summoner-manga-more-/.243781",
+      "title": "J-Novel Club Licenses Putting a Price on World Peace Novels, I'm Dating a Dark Summoner Manga, More Titles",
       "title_language": "en",
-      "score": 47,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 17,
-        "freshness": 96,
+        "relevance": 12,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3814,44 +4006,13 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-13T17:00:00+00:00",
+      "published_at": "2026-11-13T20:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Expelled From Paradise: Resonance Anime Film Review",
+          "title": "J-Novel Club Licenses Putting a Price on World Peace Novels, I'm Dating a Dark Summoner Manga, More Titles",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/expelled-from-paradise/resonance-anime-film/.243778",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-13/titan-holds-distribution-of-five-star-stories-manga-1st-english-volume-to-review-translation-/.243800",
-      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation",
-      "title_language": "en",
-      "score": 46,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 99,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-13T19:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-13/titan-holds-distribution-of-five-star-stories-manga-1st-english-volume-to-review-translation-/.243800",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-13/j-novel-club-licenses-putting-a-price-on-world-peace-novels-im-dating-a-dark-summoner-manga-more-/.243781",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – All Articles",
@@ -3861,14 +4022,76 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/13/j-novel-club-announces-13-new-digital-releases-and-two-new-print-releases",
+      "title": "J-Novel Club Announces 13 New Digital Releases and Two New Print Releases",
+      "title_language": "en",
+      "score": 42,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 85,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-13T20:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "J-Novel Club Announces 13 New Digital Releases and Two New Print Releases",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/13/j-novel-club-announces-13-new-digital-releases-and-two-new-print-releases",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/preview-guide/2026/fall/one-room-ta/.243805",
+      "title": "The Fall 2026 Anime Preview Guide - One-Room TA",
+      "title_language": "en",
+      "score": 42,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 13,
+        "freshness": 85,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T19:49:19+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Fall 2026 Anime Preview Guide - One-Room TA",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/preview-guide/2026/fall/one-room-ta/.243805",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://myanimelist.net/news/74931133?_location=rss",
       "title": "'Nabe ni Tama wo Ukenagara' Reveals Main Cast, Staff, Teaser Promo, Winter 2027 Premiere",
       "title_language": "en",
-      "score": 46,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 33,
-        "freshness": 52,
+        "freshness": 38,
         "independent_sources": 1,
         "article_volume": 4
       },
@@ -3919,14 +4142,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-13/purge-list-webtoon-live-action-film-adaptation-begins-production-for-2027-release/.243551",
-      "title": "Purge List Webtoon's Live-Action Film Adaptation Begins Production for 2027 Release",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/giant-ojosama-tv-anime-reveals-more-cast/.243804",
+      "title": "Giant Ojosama TV Anime Reveals More Cast",
       "title_language": "en",
-      "score": 45,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 14,
-        "freshness": 92,
+        "relevance": 8,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3935,13 +4158,45 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-13T14:15:00+00:00",
+      "published_at": "2026-11-13T20:00:05+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Purge List Webtoon's Live-Action Film Adaptation Begins Production for 2027 Release",
+          "title": "Giant Ojosama TV Anime Reveals More Cast",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-13/purge-list-webtoon-live-action-film-adaptation-begins-production-for-2027-release/.243551",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-13/giant-ojosama-tv-anime-reveals-more-cast/.243804",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/titan-holds-distribution-of-five-star-stories-manga-1st-english-volume-to-review-translation-/.243800",
+      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation (Updated)",
+      "title_language": "en",
+      "score": 41,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 84,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T19:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation (Updated)",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-13/titan-holds-distribution-of-five-star-stories-manga-1st-english-volume-to-review-translation-/.243800",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – All Articles",
@@ -3954,11 +4209,11 @@
       "id": "https://us.oricon-group.com/news/9498/",
       "title": "Firefly Wedding Episode 6 Story & Preview Stills Released: Honest Feelings",
       "title_language": "en",
-      "score": 45,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 91,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -3994,11 +4249,11 @@
       "id": "https://myanimelist.net/news/74934867?_location=rss",
       "title": "'Isekai Tensei Soudouki' Reveals Additional Cast, Staff, Theme Songs, Second Promo",
       "title_language": "en",
-      "score": 45,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 20,
-        "freshness": 87,
+        "freshness": 72,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4022,14 +4277,76 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-55/.243799",
-      "title": "The Apothecary Diaries Season 3 ‒ Episode 55",
+      "id": "https://crunchyroll.com/news/interviews/2026/11/13/naruto-original-voice-actors-after-20-years-interview",
+      "title": "Naruto's Original Voice Actors on Why Returning to Team 7 Feels Different After 20 Years",
       "title_language": "en",
-      "score": 44,
+      "score": 40,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 88,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-13T22:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Naruto's Original Voice Actors on Why Returning to Team 7 Feels Different After 20 Years",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/interviews/2026/11/13/naruto-original-voice-actors-after-20-years-interview",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/review/the-ramparts-of-ice-season-2/episode-21/.243802",
+      "title": "The Ramparts of Ice Season 2 ‒ Episode 21",
+      "title_language": "en",
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 100,
+        "freshness": 86,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T20:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Ramparts of Ice Season 2 ‒ Episode 21",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/review/the-ramparts-of-ice-season-2/episode-21/.243802",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/review/the-apothecary-diaries-season-3/episode-55/.243799",
+      "title": "The Apothecary Diaries Season 3 ‒ Episode 55",
+      "title_language": "en",
+      "score": 40,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 85,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4056,11 +4373,11 @@
       "id": "https://crunchyroll.com/news/features/2026/11/13/anime-villains-rize-kamishiro",
       "title": "Release the Villains: Rize Kamishiro Never Misses a Meal",
       "title_language": "en",
-      "score": 44,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 93,
+        "freshness": 78,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4084,14 +4401,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-13/stage-musical-adaptation-of-webtoon-the-siren-becoming-the-villain-family-to-premiere-in-seoul-on-/.243641",
-      "title": "Stage Musical Adaptation of Webtoon The Siren: Becoming the Villain's Family to Premiere in Seoul on March 24, 2027",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/purge-list-webtoon-live-action-film-adaptation-begins-production-for-2027-release/.243551",
+      "title": "Purge List Webtoon's Live-Action Film Adaptation Begins Production for 2027 Release",
       "title_language": "en",
-      "score": 44,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 12,
-        "freshness": 91,
+        "relevance": 14,
+        "freshness": 77,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4100,13 +4417,13 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-13T13:15:00+00:00",
+      "published_at": "2026-11-13T14:15:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Stage Musical Adaptation of Webtoon The Siren: Becoming the Villain's Family to Premiere in Seoul on March 24, 2027",
+          "title": "Purge List Webtoon's Live-Action Film Adaptation Begins Production for 2027 Release",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-13/stage-musical-adaptation-of-webtoon-the-siren-becoming-the-villain-family-to-premiere-in-seoul-on-/.243641",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-13/purge-list-webtoon-live-action-film-adaptation-begins-production-for-2027-release/.243551",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – All Articles",
@@ -4119,11 +4436,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/13/multi-mind-mayhem-anime-january-6-2027-release-date-trailer-key-visual-additional-cast-theme-songs",
       "title": "Multi-Mind Mayhem Anime Reveals Premiere Date, Theme Songs in New Trailer",
       "title_language": "en",
-      "score": 44,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 86,
+        "freshness": 71,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4150,11 +4467,11 @@
       "id": "https://myanimelist.net/news/74934042?_location=rss",
       "title": "Light Novel 'Isekai Douraku ni Akitara' Gets TV Anime in Winter 2027",
       "title_language": "en",
-      "score": 44,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 25,
-        "freshness": 77,
+        "freshness": 62,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4181,11 +4498,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
       "title": "Tsugumi Project Anime Reveals January 2027 Premiere",
       "title_language": "en",
-      "score": 43,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 44,
+        "freshness": 29,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -4222,11 +4539,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-13/gifted-baseball-webtoon-gets-live-action-tv-series-adaptation-premiering-on-december-5/.243783",
       "title": "Gifted Baseball Webtoon Gets Live-Action TV Series Adaptation Premiering on December 5",
       "title_language": "en",
-      "score": 43,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 7,
-        "freshness": 95,
+        "freshness": 80,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4251,45 +4568,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/13/chainsaw-man-the-movie-reze-arc-valentines-event-visual-cinema-live-2027",
-      "title": "Chainsaw Man – The Movie: Reze Arc Gets New Visual for Valentine’s Day Event",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/stage-musical-adaptation-of-webtoon-the-siren-becoming-the-villain-family-to-premiere-in-seoul-on-/.243641",
+      "title": "Stage Musical Adaptation of Webtoon The Siren: Becoming the Villain's Family to Premiere in Seoul on March 24, 2027",
       "title_language": "en",
-      "score": 43,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 7,
-        "freshness": 93,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-13T14:51:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Chainsaw Man – The Movie: Reze Arc Gets New Visual for Valentine’s Day Event",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/13/chainsaw-man-the-movie-reze-arc-valentines-event-visual-cinema-live-2027",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240233",
-      "title": "Fall 2026 Manga Guide After Dark (18+)",
-      "title_language": "en",
-      "score": 43,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 92,
+        "relevance": 12,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4298,78 +4584,17 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-13T14:00:00+00:00",
+      "published_at": "2026-11-13T13:15:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Fall 2026 Manga Guide After Dark (18+)",
+          "title": "Stage Musical Adaptation of Webtoon The Siren: Becoming the Villain's Family to Premiere in Seoul on March 24, 2027",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240233",
-          "source": "Anime News Network – All Articles",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-13/stage-musical-adaptation-of-webtoon-the-siren-becoming-the-villain-family-to-premiere-in-seoul-on-/.243641",
+          "source": "Anime News Network – News",
           "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/feature/2026-11-13/manga-backbone-is-breaking/.242228",
-      "title": "Manga's Backbone Is Breaking",
-      "title_language": "en",
-      "score": 43,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 92,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-13T14:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Manga's Backbone Is Breaking",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/feature/2026-11-13/manga-backbone-is-breaking/.242228",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/review/suikoden-the-anime/episode-6/.243777",
-      "title": "Suikoden: The Anime ‒ Episode 6",
-      "title_language": "en",
-      "score": 43,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 90,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-13T12:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Suikoden: The Anime ‒ Episode 6",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/suikoden-the-anime/episode-6/.243777",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
           ]
         }
       ]
@@ -4378,11 +4603,11 @@
       "id": "https://us.oricon-group.com/news/9499/",
       "title": "MHA ULTRA EXPO Reveals New Visual and Food Truck Plans for April 2027 Event",
       "title_language": "en",
-      "score": 43,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 89,
+        "freshness": 74,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4409,11 +4634,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/13/naruto-to-boruto-shinobi-striker-kabuto-yakushi-sage-mode-dlc",
       "title": "Naruto to Boruto: Shinobi Striker Welcomes Kabuto Yakushi (Sage Mode) as 50th DLC",
       "title_language": "en",
-      "score": 42,
+      "score": 38,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 96,
+        "freshness": 81,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4437,14 +4662,138 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-13/atashinchi-next-net-anime-additional-episodes-debut-on-january-1/.243794",
-      "title": "ATASHIn'CHI Next Net Anime's Additional Episodes Debut on January 1",
+      "id": "https://crunchyroll.com/news/latest/2026/11/13/chainsaw-man-the-movie-reze-arc-valentines-event-visual-cinema-live-2027",
+      "title": "Chainsaw Man – The Movie: Reze Arc Gets New Visual for Valentine’s Day Event",
       "title_language": "en",
-      "score": 42,
+      "score": 38,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 78,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-13T14:51:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Chainsaw Man – The Movie: Reze Arc Gets New Visual for Valentine’s Day Event",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/13/chainsaw-man-the-movie-reze-arc-valentines-event-visual-cinema-live-2027",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240233",
+      "title": "Fall 2026 Manga Guide After Dark (18+)",
+      "title_language": "en",
+      "score": 38,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 77,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T14:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fall 2026 Manga Guide After Dark (18+)",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/seasonal/2026/fall/.240233",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/feature/2026-11-13/manga-backbone-is-breaking/.242228",
+      "title": "Manga's Backbone Is Breaking",
+      "title_language": "en",
+      "score": 38,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 77,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T14:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Manga's Backbone Is Breaking",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/feature/2026-11-13/manga-backbone-is-breaking/.242228",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/review/suikoden-the-anime/episode-6/.243777",
+      "title": "Suikoden: The Anime ‒ Episode 6",
+      "title_language": "en",
+      "score": 38,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 89,
+        "freshness": 75,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-13T12:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Suikoden: The Anime ‒ Episode 6",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/review/suikoden-the-anime/episode-6/.243777",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/atashinchi-next-net-anime-additional-episodes-debut-on-january-1/.243794",
+      "title": "ATASHIn'CHI Next Net Anime's Additional Episodes Debut on January 1",
+      "title_language": "en",
+      "score": 38,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 74,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4469,46 +4818,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-13/draw-this-then-die-manga-takes-2-month-break-to-prepare-for-final-arc/.243776",
-      "title": "'Draw This, Then Die!' Manga Takes 2-Month Break to Prepare for Final Arc",
-      "title_language": "en",
-      "score": 42,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 15,
-        "freshness": 80,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-13T05:25:15+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Draw This, Then Die!' Manga Takes 2-Month Break to Prepare for Final Arc",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-13/draw-this-then-die-manga-takes-2-month-break-to-prepare-for-final-arc/.243776",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-13/stars-shinnosuke-tokudome-shuichiro-umeda-perform-ending-theme-for-ore-to-yu-nii-anime/.243793",
       "title": "Stars Shinnosuke Tokudome, Shūichirō Umeda Perform Ending Theme for Ore to Yu Nii! Anime",
       "title_language": "en",
-      "score": 41,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 88,
+        "freshness": 73,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4536,11 +4853,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-13/multi-mind-mayhem-isekai-tensei-soudouki-anime-reveals-january-6-debut-more-cast-in-2nd-promo-video/.243790",
       "title": "Multi-Mind Mayhem: Isekai Tensei Soudouki Anime Reveals January 6 Debut, More Cast in 2nd Promo Video",
       "title_language": "en",
-      "score": 41,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 88,
+        "freshness": 73,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4565,14 +4882,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-12/yuri-is-my-job-manga-gets-short-drama-adaptation-next-spring/.243775",
-      "title": "Yuri Is My Job! Manga Gets Short Drama Adaptation Next Spring",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-13/draw-this-then-die-manga-takes-2-month-break-to-prepare-for-final-arc/.243776",
+      "title": "'Draw This, Then Die!' Manga Takes 2-Month Break to Prepare for Final Arc",
       "title_language": "en",
-      "score": 41,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 15,
-        "freshness": 78,
+        "freshness": 65,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4581,13 +4898,13 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-13T04:03:18+00:00",
+      "published_at": "2026-11-13T05:25:15+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Yuri Is My Job! Manga Gets Short Drama Adaptation Next Spring",
+          "title": "'Draw This, Then Die!' Manga Takes 2-Month Break to Prepare for Final Arc",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-12/yuri-is-my-job-manga-gets-short-drama-adaptation-next-spring/.243775",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-13/draw-this-then-die-manga-takes-2-month-break-to-prepare-for-final-arc/.243776",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – All Articles",
@@ -4597,45 +4914,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/13/orochi-seventh-echoes-original-anime-movie-pilot-film",
-      "title": "OROCHI -Seventh Echoes- Original Anime Movie Releases Pilot Film",
-      "title_language": "en",
-      "score": 41,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 18,
-        "freshness": 74,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-13T01:10:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "OROCHI -Seventh Echoes- Original Anime Movie Releases Pilot Film",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/13/orochi-seventh-echoes-original-anime-movie-pilot-film",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/12/hotel-inhumans-season-2-anime-reveals-two-new-cast-members",
       "title": "HOTEL INHUMANS Season 2 Anime Reveals Two New Cast Members",
       "title_language": "en",
-      "score": 41,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 29,
-        "freshness": 63,
+        "freshness": 48,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4662,11 +4948,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730",
       "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime",
       "title_language": "en",
-      "score": 40,
+      "score": 36,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 19,
-        "freshness": 30,
+        "freshness": 15,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -4692,192 +4978,6 @@
           "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms Season 2",
           "title_language": "en",
           "url": "https://crunchyroll.com/news/announcements/2026/11/11/medaka-kuroiwa-is-impervious-to-my-charms-season-2-anime-stream-crunchyroll",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/13/inherit-the-winds-anime-key-visual",
-      "title": "Inherit the Winds Anime Takes It Easy in New Key Visual",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 85,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-13T08:52:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Inherit the Winds Anime Takes It Easy in New Key Visual",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/13/inherit-the-winds-anime-key-visual",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74934668?_location=rss",
-      "title": "CyberAgent Expands Production Network With Latent One Launch and MAPPA Partnership",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 7,
-        "freshness": 85,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-13T08:50:56+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "CyberAgent Expands Production Network With Latent One Launch and MAPPA Partnership",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74934668?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/12/charisma-anime-amahiko-tendo-character-trailer",
-      "title": "Charisma Anime Introduces Amahiko Tendo in New Character Trailer",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 25,
-        "freshness": 63,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-12T17:19:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Charisma Anime Introduces Amahiko Tendo in New Character Trailer",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/12/charisma-anime-amahiko-tendo-character-trailer",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74931275?_location=rss",
-      "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 33,
-        "freshness": 54,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-12T10:32:45+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74931275?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://us.oricon-group.com/news/9495/",
-      "title": "SPY x FAMILY Vol. 18 Leads Japan Weekly Manga Ranking",
-      "title_language": "en",
-      "score": 38,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 76,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-13T02:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "SPY x FAMILY Vol. 18 Leads Japan Weekly Manga Ranking",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9495/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
-      "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
-      "title_language": "en",
-      "score": 38,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 23,
-        "freshness": 60,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-12T14:40:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -4927,14 +5027,76 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-12/fatal-fury-city-of-the-wolves-game-adds-fatal-fury-the-motion-picture-laocorn-on-november-19/.243765",
-      "title": "Fatal Fury City of the Wolves Game Adds Fatal Fury: The Motion Picture's Laocorn on November 19",
+      "id": "https://crunchyroll.com/news/latest/2026/11/13/inherit-the-winds-anime-key-visual",
+      "title": "Inherit the Winds Anime Takes It Easy in New Key Visual",
       "title_language": "en",
-      "score": 34,
+      "score": 36,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 62,
+        "freshness": 70,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-13T08:52:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Inherit the Winds Anime Takes It Easy in New Key Visual",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/13/inherit-the-winds-anime-key-visual",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74934668?_location=rss",
+      "title": "CyberAgent Expands Production Network With Latent One Launch and MAPPA Partnership",
+      "title_language": "en",
+      "score": 36,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 70,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-13T08:50:56+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "CyberAgent Expands Production Network With Latent One Launch and MAPPA Partnership",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74934668?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-12/yuri-is-my-job-manga-gets-short-drama-adaptation-next-spring/.243775",
+      "title": "Yuri Is My Job! Manga Gets Short Drama Adaptation Next Spring",
+      "title_language": "en",
+      "score": 36,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 63,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4943,13 +5105,13 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-12T16:31:15+00:00",
+      "published_at": "2026-11-13T04:03:18+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Fatal Fury City of the Wolves Game Adds Fatal Fury: The Motion Picture's Laocorn on November 19",
+          "title": "Yuri Is My Job! Manga Gets Short Drama Adaptation Next Spring",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-12/fatal-fury-city-of-the-wolves-game-adds-fatal-fury-the-motion-picture-laocorn-on-november-19/.243765",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-12/yuri-is-my-job-manga-gets-short-drama-adaptation-next-spring/.243775",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – All Articles",
@@ -4959,32 +5121,156 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173",
-      "title": "Dana Terrace Shares Anime's Influence on Knights of Guinevere",
+      "id": "https://crunchyroll.com/news/latest/2026/11/13/orochi-seventh-echoes-original-anime-movie-pilot-film",
+      "title": "OROCHI -Seventh Echoes- Original Anime Movie Releases Pilot Film",
       "title_language": "en",
-      "score": 34,
+      "score": 36,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 10,
-        "freshness": 60,
+        "relevance": 18,
+        "freshness": 59,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "Anime News Network"
+        "Crunchyroll"
       ],
-      "published_at": "2026-11-12T15:00:00+00:00",
+      "published_at": "2026-11-13T01:10:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Dana Terrace Shares Anime's Influence on Knights of Guinevere",
+          "title": "OROCHI -Seventh Echoes- Original Anime Movie Releases Pilot Film",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173",
-          "source": "Anime News Network – All Articles",
+          "url": "https://crunchyroll.com/news/latest/2026/11/13/orochi-seventh-echoes-original-anime-movie-pilot-film",
+          "source": "Crunchyroll News – RSS",
           "feed_sources": [
-            "Anime News Network – All Articles"
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/12/charisma-anime-amahiko-tendo-character-trailer",
+      "title": "Charisma Anime Introduces Amahiko Tendo in New Character Trailer",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 25,
+        "freshness": 48,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-12T17:19:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Charisma Anime Introduces Amahiko Tendo in New Character Trailer",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/12/charisma-anime-amahiko-tendo-character-trailer",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74931275?_location=rss",
+      "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
+      "title_language": "en",
+      "score": 35,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 33,
+        "freshness": 39,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-12T10:32:45+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74931275?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
+      "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
+      "title_language": "en",
+      "score": 34,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 23,
+        "freshness": 45,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-12T14:40:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://us.oricon-group.com/news/9495/",
+      "title": "SPY x FAMILY Vol. 18 Leads Japan Weekly Manga Ranking",
+      "title_language": "en",
+      "score": 33,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 61,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-13T02:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "SPY x FAMILY Vol. 18 Leads Japan Weekly Manga Ranking",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9495/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
           ]
         }
       ]
@@ -4993,11 +5279,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-12/disney-to-premiere-lilas-dreams-and-memories-documentary-about-yoasobi-lilas-ikuta-on-december-30/.243764",
       "title": "Disney to Premiere Lilas Dreams & Memories Documentary About YOASOBI's Lilas Ikuta on December 30",
       "title_language": "en",
-      "score": 33,
+      "score": 29,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 64,
+        "freshness": 49,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5022,14 +5308,46 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-12/shin-oishinbo-tv-anime-casts-kenji-yamauchi-ken-uo/.243762",
-      "title": "Shin Oishinbo TV Anime Casts Kenji Yamauchi, Ken Uo",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-12/fatal-fury-city-of-the-wolves-game-adds-fatal-fury-the-motion-picture-laocorn-on-november-19/.243765",
+      "title": "Fatal Fury City of the Wolves Game Adds Fatal Fury: The Motion Picture's Laocorn on November 19",
       "title_language": "en",
-      "score": 33,
+      "score": 29,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 61,
+        "freshness": 47,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-12T16:31:15+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Fatal Fury City of the Wolves Game Adds Fatal Fury: The Motion Picture's Laocorn on November 19",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-12/fatal-fury-city-of-the-wolves-game-adds-fatal-fury-the-motion-picture-laocorn-on-november-19/.243765",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-12/shin-oishinbo-tv-anime-casts-kenji-yamauchi-ken-uo/.243762",
+      "title": "Shin Oishinbo TV Anime Casts Kenji Yamauchi, Ken Uo",
+      "title_language": "en",
+      "score": 29,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 46,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5054,14 +5372,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713",
-      "title": "This Week in Anime - Roll the Dice",
+      "id": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173",
+      "title": "Dana Terrace Shares Anime's Influence on Knights of Guinevere",
       "title_language": "en",
-      "score": 33,
+      "score": 29,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 8,
-        "freshness": 60,
+        "relevance": 10,
+        "freshness": 45,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5074,9 +5392,9 @@
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "This Week in Anime - Roll the Dice",
+          "title": "Dana Terrace Shares Anime's Influence on Knights of Guinevere",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713",
+          "url": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173",
           "source": "Anime News Network – All Articles",
           "feed_sources": [
             "Anime News Network – All Articles"
@@ -5088,11 +5406,11 @@
       "id": "https://us.oricon-group.com/news/9497/",
       "title": "Blue Box Season 2 Episode 31 Story & Preview Stills Released: Christmas Eve",
       "title_language": "en",
-      "score": 33,
+      "score": 28,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 57,
+        "freshness": 42,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5116,14 +5434,45 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-12/romancing-saga-3-destinies-united-game-announces-new-earlier-february-4-release-date/.243758",
+      "title": "Romancing SaGa 3: Destinies United Game Announces New, Earlier February 4 Release Date",
+      "title_language": "en",
+      "score": 28,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 9,
+        "freshness": 41,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-12T12:15:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Romancing SaGa 3: Destinies United Game Announces New, Earlier February 4 Release Date",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-12/romancing-saga-3-destinies-united-game-announces-new-earlier-february-4-release-date/.243758",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/features/2026/11/12/anime-villains-tomura-shigaraki",
       "title": "Release the Villains: Tomura Shigaraki Is a Hero for the Villains",
       "title_language": "en",
-      "score": 32,
+      "score": 27,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 4,
-        "freshness": 60,
+        "freshness": 45,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5147,77 +5496,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-12/romancing-saga-3-destinies-united-game-announces-new-earlier-february-4-release-date/.243758",
-      "title": "Romancing SaGa 3: Destinies United Game Announces New, Earlier February 4 Release Date",
-      "title_language": "en",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 9,
-        "freshness": 56,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T12:15:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Romancing SaGa 3: Destinies United Game Announces New, Earlier February 4 Release Date",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-12/romancing-saga-3-destinies-united-game-announces-new-earlier-february-4-release-date/.243758",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
-      "title": "Reincarnated as a Sword Season 2 ‒ Episode 7",
-      "title_language": "en",
-      "score": 31,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 6,
-        "freshness": 57,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T12:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Reincarnated as a Sword Season 2 ‒ Episode 7",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753",
       "title": "Nabe ni Tama wo Ukenagara TV Anime Reveals Main Cast, Staff, January Debut",
       "title_language": "en",
-      "score": 31,
+      "score": 27,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 53,
+        "freshness": 39,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5235,546 +5521,7 @@
           "url": "https://www.animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753",
           "source": "Anime News Network – News",
           "feed_sources": [
-            "Anime News Network – All Articles",
             "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-12/chained-soldier-manga-resumes-on-december-12/.243752",
-      "title": "Chained Soldier Manga Resumes on December 12",
-      "title_language": "en",
-      "score": 31,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 52,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T09:10:50+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Chained Soldier Manga Resumes on December 12",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-12/chained-soldier-manga-resumes-on-december-12/.243752",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-12/viz-media-licenses-kyousuke-motomi-registry-of-the-divine-manga/.243741",
-      "title": "Viz Media Licenses Kyousuke Motomi's Registry of the Divine Manga",
-      "title_language": "en",
-      "score": 30,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 51,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T08:19:35+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Viz Media Licenses Kyousuke Motomi's Registry of the Divine Manga",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-12/viz-media-licenses-kyousuke-motomi-registry-of-the-divine-manga/.243741",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714",
-      "title": "Gundam Seed Freedom Zero Prequel Anime Film Gets Novel",
-      "title_language": "en",
-      "score": 30,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 21,
-        "freshness": 35,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-11T21:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Gundam Seed Freedom Zero Prequel Anime Film Gets Novel",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://us.oricon-group.com/news/9492/",
-      "title": "DRAGON QUEST RPG The Cursed Tree and the Chosen Isle Launches Globally in 2027",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 5,
-        "freshness": 10,
-        "independent_sources": 2,
-        "article_volume": 2
-      },
-      "article_count": 2,
-      "source_count": 2,
-      "sources": [
-        "Crunchyroll",
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-11T03:00:00+00:00",
-      "status": "multi-source à confirmer",
-      "articles": [
-        {
-          "title": "DRAGON QUEST RPG The Cursed Tree and the Chosen Isle Launches Globally in 2027",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9492/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        },
-        {
-          "title": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle Announced for Mobile",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/10/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-mobile",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/12/hiroko-moriguchi-city-hunter-tv-anime-ending-song-get-wild-cover-music-video",
-      "title": "Hiroko Moriguchi Shares City Hunter TV Anime Ending Song \"Get Wild\" Cover Music Video",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 46,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-12T04:39:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Hiroko Moriguchi Shares City Hunter TV Anime Ending Song \"Get Wild\" Cover Music Video",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/12/hiroko-moriguchi-city-hunter-tv-anime-ending-song-get-wild-cover-music-video",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
-      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 44,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T03:34:25+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-      "title": "Welsh & Shedar Anime Launches Webtoon",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 44,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T03:10:20+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Welsh & Shedar Anime Launches Webtoon",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/12/star-detective-precure-anime-1st-ending-video-10-million-views",
-      "title": "Star Detective Precure! Anime 1st Ending Video Reaches 10 Million Views",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 43,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-12T02:35:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Star Detective Precure! Anime 1st Ending Video Reaches 10 Million Views",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/12/star-detective-precure-anime-1st-ending-video-10-million-views",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/12/tetsuryo-meet-with-tetsudou-musume-anime-opening-song-music-video-asaka",
-      "title": "Asaka Releases Tetsuryo! meet with Tetsudou Musume Anime Opening Song Music Video",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 41,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-12T01:28:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Asaka Releases Tetsuryo! meet with Tetsudou Musume Anime Opening Song Music Video",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/12/tetsuryo-meet-with-tetsudou-musume-anime-opening-song-music-video-asaka",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685",
-      "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 17,
-        "freshness": 36,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-11T22:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74927894?_location=rss",
-      "title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027",
-      "title_language": "en",
-      "score": 29,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 33,
-        "freshness": 19,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-11T09:24:46+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74927894?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738",
-      "title": "Rei Mikamoto Ends Blood Friend Manga in December",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 45,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T03:52:30+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Rei Mikamoto Ends Blood Friend Manga in December",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
-      "title": "Duel Masters GT Manga's Part 3 Ends",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 44,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-12T03:43:38+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Duel Masters GT Manga's Part 3 Ends",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/12/the-vermilion-mask-anime-yuya-tegoshi-guest-voice-role-details",
-      "title": "The Vermilion Mask Anime Shares More Details on Yuya Tegoshi's Guest Voice Role",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 41,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-12T01:18:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "The Vermilion Mask Anime Shares More Details on Yuya Tegoshi's Guest Voice Role",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/12/the-vermilion-mask-anime-yuya-tegoshi-guest-voice-role-details",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
-      "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 15,
-        "freshness": 36,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-11T21:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/red-riding-hood-a-detective-story-anime-character-art-trailers",
-      "title": "Red Riding Hood: A Detective Story Anime Reveals Character Art & Trailers",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 22,
-        "freshness": 24,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-11T13:18:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Red Riding Hood: A Detective Story Anime Reveals Character Art & Trailers",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/11/red-riding-hood-a-detective-story-anime-character-art-trailers",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/berserk-of-gluttony-season-2-anime-april-2027-premiere",
-      "title": "Berserk of Gluttony Season 2 Anime Confirms April 2027 Premiere",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 26,
-        "freshness": 18,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-11T09:02:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Berserk of Gluttony Season 2 Anime Confirms April 2027 Premiere",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/11/berserk-of-gluttony-season-2-anime-april-2027-premiere",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -5811,134 +5558,94 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/announcements/2026/11/11/anime-frontier-2026-crunchyroll-programming-schedule",
-      "title": "Crunchyroll Heads to Anime Frontier 2026 with New Anime Premiere Screenings",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-12/chained-soldier-manga-resumes-on-december-12/.243752",
+      "title": "Chained Soldier Manga Resumes on December 12",
       "title_language": "en",
       "score": 26,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 15,
-        "freshness": 29,
+        "relevance": 8,
+        "freshness": 37,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "Crunchyroll"
+        "Anime News Network"
       ],
-      "published_at": "2026-11-11T17:00:00+00:00",
+      "published_at": "2026-11-12T09:10:50+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Crunchyroll Heads to Anime Frontier 2026 with New Anime Premiere Screenings",
+          "title": "Chained Soldier Manga Resumes on December 12",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/announcements/2026/11/11/anime-frontier-2026-crunchyroll-programming-schedule",
-          "source": "Crunchyroll News – RSS",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-12/chained-soldier-manga-resumes-on-december-12/.243752",
+          "source": "Anime News Network – News",
           "feed_sources": [
-            "Crunchyroll News – RSS"
+            "Anime News Network – News"
           ]
         }
       ]
     },
     {
-      "id": "https://myanimelist.net/news/74928431?_location=rss",
-      "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-12/viz-media-licenses-kyousuke-motomi-registry-of-the-divine-manga/.243741",
+      "title": "Viz Media Licenses Kyousuke Motomi's Registry of the Divine Manga",
       "title_language": "en",
       "score": 26,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 17,
-        "freshness": 26,
+        "relevance": 8,
+        "freshness": 36,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "MyAnimeList"
+        "Anime News Network"
       ],
-      "published_at": "2026-11-11T14:46:50+00:00",
+      "published_at": "2026-11-12T08:19:35+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "title": "Viz Media Licenses Kyousuke Motomi's Registry of the Divine Manga",
           "title_language": "en",
-          "url": "https://myanimelist.net/news/74928431?_location=rss",
-          "source": "MyAnimeList News – RSS",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-12/viz-media-licenses-kyousuke-motomi-registry-of-the-divine-manga/.243741",
+          "source": "Anime News Network – News",
           "feed_sources": [
-            "MyAnimeList News – RSS"
+            "Anime News Network – News"
           ]
         }
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/mashle-magic-and-muscles-season-3-anime-release-date-trailer-key-visual-cast",
-      "title": "MASHLE: MAGIC AND MUSCLES Season 3 Anime Shares Trailer, Key Visual, Cast Additions",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714",
+      "title": "Gundam Seed Freedom Zero Prequel Anime Film Gets Novel",
       "title_language": "en",
       "score": 26,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 19,
-        "freshness": 25,
+        "relevance": 21,
+        "freshness": 20,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "Crunchyroll"
+        "Anime News Network"
       ],
-      "published_at": "2026-11-11T13:34:00+00:00",
+      "published_at": "2026-11-11T21:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "MASHLE: MAGIC AND MUSCLES Season 3 Anime Shares Trailer, Key Visual, Cast Additions",
+          "title": "Gundam Seed Freedom Zero Prequel Anime Film Gets Novel",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/11/mashle-magic-and-muscles-season-3-anime-release-date-trailer-key-visual-cast",
-          "source": "Crunchyroll News – RSS",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714",
+          "source": "Anime News Network – News",
           "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://us.oricon-group.com/news/9493/",
-      "title": "The Ramparts of Ice Season 2 Episode 21 Story & Preview Stills Released: Lack of Understanding",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 24,
-        "independent_sources": 1,
-        "article_volume": 2
-      },
-      "article_count": 2,
-      "source_count": 1,
-      "sources": [
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-11T13:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "The Ramparts of Ice Season 2 Episode 21 Story & Preview Stills Released: Lack of Understanding",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9493/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        },
-        {
-          "title": "The Ramparts of Ice Season 2 Episode 20 Story & Preview Stills Released: The School Festival",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9473/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
+            "Anime News Network – News"
           ]
         }
       ]
@@ -5975,14 +5682,107 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/gacha-girls-corps-anime-casts-momo-sakurai-as-mofutto",
-      "title": "Gacha Girls Corps Anime Casts Momo Sakurai as Mofutto",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
+      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
+      "title_language": "en",
+      "score": 25,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 29,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-12T03:34:25+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685",
+      "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
+      "title_language": "en",
+      "score": 25,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 17,
+        "freshness": 21,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-11T22:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74927894?_location=rss",
+      "title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027",
+      "title_language": "en",
+      "score": 25,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 33,
+        "freshness": 4,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-11T09:24:46+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74927894?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/12/hiroko-moriguchi-city-hunter-tv-anime-ending-song-get-wild-cover-music-video",
+      "title": "Hiroko Moriguchi Shares City Hunter TV Anime Ending Song \"Get Wild\" Cover Music Video",
       "title_language": "en",
       "score": 24,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 13,
-        "freshness": 25,
+        "relevance": 8,
+        "freshness": 31,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5991,13 +5791,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-11T13:26:00+00:00",
+      "published_at": "2026-11-12T04:39:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Gacha Girls Corps Anime Casts Momo Sakurai as Mofutto",
+          "title": "Hiroko Moriguchi Shares City Hunter TV Anime Ending Song \"Get Wild\" Cover Music Video",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/11/gacha-girls-corps-anime-casts-momo-sakurai-as-mofutto",
+          "url": "https://crunchyroll.com/news/latest/2026/11/12/hiroko-moriguchi-city-hunter-tv-anime-ending-song-get-wild-cover-music-video",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6006,13 +5806,13 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738",
+      "title": "Rei Mikamoto Ends Blood Friend Manga in December",
       "title_language": "en",
-      "score": 23,
+      "score": 24,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 4,
+        "relevance": 8,
         "freshness": 30,
         "independent_sources": 1,
         "article_volume": 1
@@ -6022,13 +5822,13 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-11T17:06:22+00:00",
+      "published_at": "2026-11-12T03:52:30+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
+          "title": "Rei Mikamoto Ends Blood Friend Manga in December",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738",
           "source": "Anime News Network – News",
           "feed_sources": [
             "Anime News Network – News"
@@ -6037,14 +5837,76 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/sss-class-revival-hunter-anime-ending-theme-song-trailer",
-      "title": "SSS-Class Revival Hunter Anime Previews Ending Theme Song in New Trailer",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
+      "title": "Duel Masters GT Manga's Part 3 Ends",
       "title_language": "en",
-      "score": 23,
+      "score": 24,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 15,
-        "freshness": 19,
+        "relevance": 8,
+        "freshness": 29,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-12T03:43:38+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Duel Masters GT Manga's Part 3 Ends",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+      "title": "Welsh & Shedar Anime Launches Webtoon",
+      "title_language": "en",
+      "score": 24,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 29,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-12T03:10:20+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Welsh & Shedar Anime Launches Webtoon",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/12/star-detective-precure-anime-1st-ending-video-10-million-views",
+      "title": "Star Detective Precure! Anime 1st Ending Video Reaches 10 Million Views",
+      "title_language": "en",
+      "score": 24,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 28,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6053,13 +5915,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-11T09:45:00+00:00",
+      "published_at": "2026-11-12T02:35:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "SSS-Class Revival Hunter Anime Previews Ending Theme Song in New Trailer",
+          "title": "Star Detective Precure! Anime 1st Ending Video Reaches 10 Million Views",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/11/sss-class-revival-hunter-anime-ending-theme-song-trailer",
+          "url": "https://crunchyroll.com/news/latest/2026/11/12/star-detective-precure-anime-1st-ending-video-10-million-views",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6068,13 +5930,106 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
-      "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
+      "id": "https://crunchyroll.com/news/latest/2026/11/12/tetsuryo-meet-with-tetsudou-musume-anime-opening-song-music-video-asaka",
+      "title": "Asaka Releases Tetsuryo! meet with Tetsudou Musume Anime Opening Song Music Video",
+      "title_language": "en",
+      "score": 24,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 26,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-12T01:28:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Asaka Releases Tetsuryo! meet with Tetsudou Musume Anime Opening Song Music Video",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/12/tetsuryo-meet-with-tetsudou-musume-anime-opening-song-music-video-asaka",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/12/the-vermilion-mask-anime-yuya-tegoshi-guest-voice-role-details",
+      "title": "The Vermilion Mask Anime Shares More Details on Yuya Tegoshi's Guest Voice Role",
+      "title_language": "en",
+      "score": 24,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 26,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-12T01:18:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Vermilion Mask Anime Shares More Details on Yuya Tegoshi's Guest Voice Role",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/12/the-vermilion-mask-anime-yuya-tegoshi-guest-voice-role-details",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+      "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+      "title_language": "en",
+      "score": 24,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 21,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-11T21:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/11/red-riding-hood-a-detective-story-anime-character-art-trailers",
+      "title": "Red Riding Hood: A Detective Story Anime Reveals Character Art & Trailers",
       "title_language": "en",
       "score": 23,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 23,
+        "relevance": 22,
         "freshness": 9,
         "independent_sources": 1,
         "article_volume": 1
@@ -6084,13 +6039,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-11T02:07:00+00:00",
+      "published_at": "2026-11-11T13:18:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
+          "title": "Red Riding Hood: A Detective Story Anime Reveals Character Art & Trailers",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
+          "url": "https://crunchyroll.com/news/latest/2026/11/11/red-riding-hood-a-detective-story-anime-character-art-trailers",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6130,14 +6085,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/features/2026/11/11/anime-villains-askeladd",
-      "title": "Release the Villains: Askeladd and Setting a Path of Vengeance",
+      "id": "https://crunchyroll.com/news/announcements/2026/11/11/anime-frontier-2026-crunchyroll-programming-schedule",
+      "title": "Crunchyroll Heads to Anime Frontier 2026 with New Anime Premiere Screenings",
       "title_language": "en",
       "score": 22,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 4,
-        "freshness": 27,
+        "relevance": 15,
+        "freshness": 15,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6146,13 +6101,146 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-11T15:00:00+00:00",
+      "published_at": "2026-11-11T17:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Release the Villains: Askeladd and Setting a Path of Vengeance",
+          "title": "Crunchyroll Heads to Anime Frontier 2026 with New Anime Premiere Screenings",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/features/2026/11/11/anime-villains-askeladd",
+          "url": "https://crunchyroll.com/news/announcements/2026/11/11/anime-frontier-2026-crunchyroll-programming-schedule",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74928431?_location=rss",
+      "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 17,
+        "freshness": 11,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-11T14:46:50+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/11/mashle-magic-and-muscles-season-3-anime-release-date-trailer-key-visual-cast",
+      "title": "MASHLE: MAGIC AND MUSCLES Season 3 Anime Shares Trailer, Key Visual, Cast Additions",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 19,
+        "freshness": 10,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-11T13:34:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "MASHLE: MAGIC AND MUSCLES Season 3 Anime Shares Trailer, Key Visual, Cast Additions",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/11/mashle-magic-and-muscles-season-3-anime-release-date-trailer-key-visual-cast",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://us.oricon-group.com/news/9493/",
+      "title": "The Ramparts of Ice Season 2 Episode 21 Story & Preview Stills Released: Lack of Understanding",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 9,
+        "independent_sources": 1,
+        "article_volume": 2
+      },
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-11T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Ramparts of Ice Season 2 Episode 21 Story & Preview Stills Released: Lack of Understanding",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9493/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        },
+        {
+          "title": "The Ramparts of Ice Season 2 Episode 20 Story & Preview Stills Released: The School Festival",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9473/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/11/berserk-of-gluttony-season-2-anime-april-2027-premiere",
+      "title": "Berserk of Gluttony Season 2 Anime Confirms April 2027 Premiere",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 26,
+        "freshness": 3,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-11T09:02:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Berserk of Gluttony Season 2 Anime Confirms April 2027 Premiere",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/11/berserk-of-gluttony-season-2-anime-april-2027-premiere",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6378,6 +6466,37 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/11/gacha-girls-corps-anime-casts-momo-sakurai-as-mofutto",
+      "title": "Gacha Girls Corps Anime Casts Momo Sakurai as Mofutto",
+      "title_language": "en",
+      "score": 20,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 13,
+        "freshness": 10,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-11T13:26:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Gacha Girls Corps Anime Casts Momo Sakurai as Mofutto",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/11/gacha-girls-corps-anime-casts-momo-sakurai-as-mofutto",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9487/",
       "title": "Minami-ke: Korekara Season 5 Premieres April 2027, Returning After 14 Years",
       "title_language": "en",
@@ -6502,14 +6621,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/11/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life-anime-opening-song-music-video-sumika",
-      "title": "Sumika Releases The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life Anime Opening Song Music Video",
+      "id": "https://crunchyroll.com/news/latest/2026/11/11/sss-class-revival-hunter-anime-ending-theme-song-trailer",
+      "title": "SSS-Class Revival Hunter Anime Previews Ending Theme Song in New Trailer",
       "title_language": "en",
       "score": 19,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 14,
-        "freshness": 7,
+        "relevance": 15,
+        "freshness": 4,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6518,13 +6637,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-11T01:02:00+00:00",
+      "published_at": "2026-11-11T09:45:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Sumika Releases The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life Anime Opening Song Music Video",
+          "title": "SSS-Class Revival Hunter Anime Previews Ending Theme Song in New Trailer",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/11/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life-anime-opening-song-music-video-sumika",
+          "url": "https://crunchyroll.com/news/latest/2026/11/11/sss-class-revival-hunter-anime-ending-theme-song-trailer",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6621,6 +6740,68 @@
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
             "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
+      "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
+      "title_language": "en",
+      "score": 18,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 15,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-11T17:06:22+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/features/2026/11/11/anime-villains-askeladd",
+      "title": "Release the Villains: Askeladd and Setting a Path of Vengeance",
+      "title_language": "en",
+      "score": 17,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 12,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-11T15:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Release the Villains: Askeladd and Setting a Path of Vengeance",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/features/2026/11/11/anime-villains-askeladd",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -6750,37 +6931,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/interviews/2026/11/10/ayra-starr-starrgirl-interview",
-      "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime",
-      "title_language": "en",
-      "score": 15,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-10T17:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Singer-Songwriter Ayra Starr on Creating Starrgirl, Trusting Her Instincts and Her Love of Anime",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/interviews/2026/11/10/ayra-starr-starrgirl-interview",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9478/",
       "title": "BLUE GIANT MOMENTUM Vol. 9 Tops Japan Weekly Manga Ranking",
       "title_language": "en",
@@ -6843,8 +6993,8 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
-      "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
+      "id": "https://us.oricon-group.com/news/9492/",
+      "title": "DRAGON QUEST RPG The Cursed Tree and the Chosen Isle Launches Globally in 2027",
       "title_language": "en",
       "score": 14,
       "priority": "veille",
@@ -6857,18 +7007,18 @@
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "Crunchyroll"
+        "ORICON / Japan Anime News"
       ],
-      "published_at": "2026-11-10T16:30:00+00:00",
+      "published_at": "2026-11-11T03:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "How Dragon Ball Super: Beerus Restructures Its Battles",
+          "title": "DRAGON QUEST RPG The Cursed Tree and the Chosen Isle Launches Globally in 2027",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/features/2026/11/10/dragon-ball-super-beerus-battles",
-          "source": "Crunchyroll News – RSS",
+          "url": "https://us.oricon-group.com/news/9492/",
+          "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
-            "Crunchyroll News – RSS"
+            "Japan Anime News – ORICON RSS"
           ]
         }
       ]

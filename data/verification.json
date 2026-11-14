@@ -1,13 +1,8 @@
 {
-  "checked_at": "2026-11-13T19:47:40.690946+00:00",
+  "checked_at": "2026-11-14T06:32:07.275732+00:00",
   "checked_articles": 25,
   "official_link_found": 0,
-  "errors": [
-    {
-      "url": "https://crunchyroll.com/news/latest/2026/11/12/charisma-anime-amahiko-tendo-character-trailer",
-      "error": "The read operation timed out"
-    }
-  ],
+  "errors": [],
   "checks": [
     {
       "title": "'Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.' Second Season in Production",
@@ -168,7 +163,8 @@
       "publisher": "Crunchyroll",
       "published_at": "2026-11-12T17:19:00+00:00",
       "official_evidence": [],
-      "status": "page source inaccessible — vérification humaine requise"
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
       "title": "Additional Cast for 'Gacha wo Mawashite Nakama wo Fuyasu' Announced",
@@ -207,19 +203,19 @@
       "page_title": "Spirit Circle TV Anime Set for December, Becomes Tatsuo Sato's Final Directorial Work | Japan Anime News powered by ORICON NEWS"
     },
     {
+      "title": "North American Anime, Manga Releases, November 8-14",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-13/north-american-anime-manga-releases-november-8-14/.243661",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-13T22:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "North American Anime, Manga Releases, November 8-14 - News [2026-11-13] - Anime News Network"
+    },
+    {
       "title": "Nabe ni Tama o Ukenagara Food Travel Anime Sets January 2027 Premiere",
       "article_url": "https://crunchyroll.com/news/latest/2026/11/12/nabe-ni-tama-o-ukenagara-food-travel-anime-january-2027-premiere-teaser-trailer",
       "publisher": "Crunchyroll",
       "published_at": "2026-11-12T14:40:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
-      "title": "Aoharu Once More Light Anime Announces January 2027 Premiere, Main Voice Cast in Teaser Trailer",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/11/aoharu-once-more-light-anime-january-2027-premiere-main-voice-cast-teaser-trailer",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-11T02:07:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
