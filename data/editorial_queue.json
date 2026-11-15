@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-11-14T22:29:39.032699+00:00",
+  "generated_at": "2026-11-15T06:40:37.246205+00:00",
   "count": 4,
   "rejected_count": 101,
   "rejected_sample": [
-    {
-      "title": "Even the Student Council Has Its Holes! Anime Casts Yoko Hikasa, Shares New Opening Video",
-      "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
     {
       "title": "'Re:Zero kara Hajimeru Isekai Seikatsu' Gets 5th Season",
       "reasons": [
@@ -16,20 +10,29 @@
       ]
     },
     {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9",
+      "reasons": [
+        "score éditorial inférieur à 45/100"
+      ]
+    },
+    {
       "title": "Giant Ojo-sama Anime Casts Rina Kawaguchi as Stella",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Love Live! Hasunosora Jyogakuin School Idol Club Trailer Shows Off New TV Anime Footage",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "'Toaru Anbu no Item' Reveals Additional Cast, Promo",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
@@ -76,6 +79,12 @@
       ]
     },
     {
+      "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100"
+      ]
+    },
+    {
       "title": "Japanese Animation TV Ranking, November 2-8",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -104,19 +113,6 @@
       ]
     },
     {
-      "title": "'Spy x Family' Gets Season 4, Second Anime Movie in 2027",
-      "reasons": [
-        "score éditorial inférieur à 45/100"
-      ]
-    },
-    {
-      "title": "The Fall 2026 Anime Preview Guide - One-Room TA",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "Expelled From Paradise: Resonance Anime Film Review",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -138,21 +134,7 @@
       ]
     },
     {
-      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation (Updated)",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "'Nabe ni Tama wo Ukenagara' Reveals Main Cast, Staff, Teaser Promo, Winter 2027 Premiere",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "The Ramparts of Ice Season 2 ‒ Episode 21",
+      "title": "The Fall 2026 Anime Preview Guide - One-Room TA",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -166,14 +148,7 @@
       ]
     },
     {
-      "title": "Purge List Webtoon's Live-Action Film Adaptation Begins Production for 2027 Release",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Firefly Wedding Episode 6 Story & Preview Stills Released: Honest Feelings",
+      "title": "Titan Holds Distribution of Five Star Stories Manga's 1st English Volume to Review Translation Situation (Updated)",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -187,7 +162,21 @@
       ]
     },
     {
+      "title": "'Nabe ni Tama wo Ukenagara' Reveals Main Cast, Staff, Teaser Promo, Winter 2027 Premiere",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Naruto's Original Voice Actors on Why Returning to Team 7 Feels Different After 20 Years",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "The Ramparts of Ice Season 2 ‒ Episode 21",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -206,14 +195,85 @@
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
+    },
+    {
+      "title": "Purge List Webtoon's Live-Action Film Adaptation Begins Production for 2027 Release",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Firefly Wedding Episode 6 Story & Preview Stills Released: Honest Feelings",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
   "items": [
     {
+      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815",
+      "title": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa",
+      "score_indicatif": 60,
+      "media_count": 2,
+      "media": [
+        "Anime News Network",
+        "Crunchyroll"
+      ],
+      "articles": [
+        {
+          "title": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        },
+        {
+          "title": "Even the Student Council Has Its Holes! Anime Casts Yoko Hikasa, Shares New Opening Video",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/14/even-the-student-council-has-its-holes-anime-new-opening-video-yoko-hikasa-cast",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "plusieurs médias — confirmation officielle requise",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "title_language": "en",
+      "source_excerpt": "Hikasa plays council president Hisako's mother in episode 7 this weekend",
+      "social_posts": {
+        "language_ready": false,
+        "translation_required": true,
+        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
+        "facebook": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Even #Student #Council\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815",
+        "instagram": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Even #Student #Council\nhttps://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815",
+        "tiktok": "ACCROCHE : Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Even #Student #Council",
+        "x": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Even #Student #Council",
+        "threads": "On vient de repérer cette actualité : Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "youtube": {
+          "title": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815\n\n#Anime #Manga #Even #Student #Council"
+        },
+        "telegram": "📰 Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815",
+        "pinterest": {
+          "title": "Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Even #Student #Council\nhttps://www.animenewsnetwork.com/news/2026-11-14/even-the-student-council-has-its-holes-anime-casts-yoko-hikasa/.243815"
+        }
+      },
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Even the Student Council Has It's Holes! Anime Casts Yōko Hikasa\nExtrait RSS : Hikasa plays council president Hisako's mother in episode 7 this weekend\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+    },
+    {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/14/re-zero-starting-life-in-another-world-season-5-anime-announced-ultra-teaser-visual",
       "title": "Re:ZERO -Starting Life in Another World- Season 5 Anime Announced",
-      "score_indicatif": 58,
+      "score_indicatif": 54,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -270,7 +330,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/14/gushing-over-magical-girls-season-2-anime-2027-release-date-ultra-teaser-visual",
       "title": "Gushing Over Magical Girls Season 2 Anime Confirms 2027 Broadcast in New Visual",
-      "score_indicatif": 53,
+      "score_indicatif": 50,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -327,7 +387,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-13/living-it-up-in-another-world-until-i-get-bored-novels-get-tv-anime/.243798",
       "title": "Living It Up in Another World Until I Get Bored Novels Get TV Anime",
-      "score_indicatif": 49,
+      "score_indicatif": 46,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -380,62 +440,6 @@
         }
       },
       "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Living It Up in Another World Until I Get Bored Novels Get TV Anime\nExtrait RSS : Anime based on Fudaya Sanmongarasu, Tomozo's novels debuts in January 2027\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
-      "trend_id": "https://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9",
-      "score_indicatif": 46,
-      "media_count": 2,
-      "media": [
-        "Anime News Network",
-        "ORICON / Japan Anime News"
-      ],
-      "articles": [
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        },
-        {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 8 Story & Preview Stills Released: Tusk, Part 2",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9489/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "This episode captures every part of what I love about the original manga and somehow, almost miraculously, manages to improve upon one of the most celebrated works in all of illustrative fiction.",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #STEEL #BALL #RUN\nSources à consulter : Anime News Network, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801",
-        "instagram": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #STEEL #BALL #RUN\nhttps://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801",
-        "tiktok": "ACCROCHE : STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #STEEL #BALL #RUN",
-        "x": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9 — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #STEEL #BALL #RUN",
-        "threads": "On vient de repérer cette actualité : STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801\n\n#Anime #Manga #STEEL #BALL #RUN"
-        },
-        "telegram": "📰 STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801",
-        "pinterest": {
-          "title": "STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #STEEL #BALL #RUN\nhttps://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-9/.243801"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : STEEL BALL RUN JoJo's Bizarre Adventure ‒ Episode 9\nExtrait RSS : This episode captures every part of what I love about the original manga and somehow, almost miraculously, manages to improve upon one of the most celebrated works in all of illustrative fiction.\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     }
   ],
   "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
