@@ -1,8 +1,26 @@
 {
-  "generated_at": "2026-11-16T22:11:09.096328+00:00",
+  "generated_at": "2026-11-17T07:59:33.784999+00:00",
   "count": 1,
-  "rejected_count": 105,
+  "rejected_count": 107,
   "rejected_sample": [
+    {
+      "title": "Onee-chan no Midori-kun Live-Action Film Releases New Clip Featuring Timelesz Theme Song",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Skip and Loafer Season 2 Reveals First PV, Key Visual and New Cast for April 2027",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Manga 'Diamond no Kouzai' Gets TV Anime",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
     {
       "title": "The Days of Diamond TV Anime Announced, First Visual and Original Creator Illustration Revealed, Produced by Lapin Track",
       "reasons": [
@@ -16,32 +34,51 @@
       ]
     },
     {
-      "title": "Manga 'Diamond no Kouzai' Gets TV Anime",
+      "title": "LiSA Earns Grammy Nomination for The Irregular at Magic High School THE MOVIE -Yotsuba Succession Arc- Anime Theme Song",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Skip and Loafer Season 2 Anime Releases New Trailer, Key Visual",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Gundam Seed Freedom Zero & Fool Night Stand Back-to-Back in Crossover Art",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Tetsuya Tsutsui Launches New Ortrans Manga",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "The Days of Diamond Manga Gets TV Anime",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "The Apothecary Diaries Season 3 Episode 55 Story & Preview Stills Released: The Bet",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "'Wanpaku! Touken Ranbu' Reveals Main Staff, Winter 2027 Premiere",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
@@ -60,7 +97,7 @@
       ]
     },
     {
-      "title": "Anime News Network's Shojosei Anime Wishlist",
+      "title": "Anime News Network's Classic Shojosei Anime Wishlist",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -169,41 +206,6 @@
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
-    },
-    {
-      "title": "Inherit the Winds Anime Shares New Key Visual Ahead of January 2027 Premiere",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Wanpaku! Touken Ranbu TV Anime Debuts on January 6",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Love Live! Hasunosora Anime Unveils Special PV Featuring New Students Maika and Aoi",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Black Witch Mirror Manga to End in 4th Volume",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Re:ZERO Season 5 Production Announced With New Teaser Visual and Creator's Comments",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -211,7 +213,7 @@
     {
       "trend_id": "https://myanimelist.net/news/74945973?_location=rss",
       "title": "'Skip to Loafer 2nd Season' Reveals Additional Cast Pair, First Promo",
-      "score_indicatif": 58,
+      "score_indicatif": 54,
       "media_count": 2,
       "media": [
         "Anime News Network",
