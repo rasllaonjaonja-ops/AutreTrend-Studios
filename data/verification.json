@@ -1,18 +1,9 @@
 {
-  "checked_at": "2026-11-17T20:59:25.053052+00:00",
+  "checked_at": "2026-11-18T07:35:50.609303+00:00",
   "checked_articles": 25,
   "official_link_found": 0,
   "errors": [],
   "checks": [
-    {
-      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
-      "article_url": "https://myanimelist.net/news/74923434?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-10T03:58:55+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027 - MyAnimeList.net"
-    },
     {
       "title": "'Kanan-sama wa Akumade Choroi 2nd Season' Reveals Additional Cast, New Staff, First Promo, 2027 Debut",
       "article_url": "https://myanimelist.net/news/74949337?_location=rss",
@@ -68,15 +59,6 @@
       "page_title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027 - MyAnimeList.net"
     },
     {
-      "title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere",
-      "article_url": "https://myanimelist.net/news/74917765?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-08T15:20:52+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Boku no Suki na Hito ga Suki na Hito' Reveals Main Cast, Staff, Teaser Promo, Spring 2027 Premiere - MyAnimeList.net"
-    },
-    {
       "title": "Manga 'Diamond no Kouzai' Gets TV Anime",
       "article_url": "https://myanimelist.net/news/74946798?_location=rss",
       "publisher": "MyAnimeList",
@@ -93,6 +75,33 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "'Re:Zero kara Hajimeru Isekai Seikatsu' Gets 5th Season - MyAnimeList.net"
+    },
+    {
+      "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
+      "article_url": "https://myanimelist.net/news/74951901?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-18T02:00:06+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo - MyAnimeList.net"
+    },
+    {
+      "title": "'Soara to Mamono no Ie' Announces Additional Cast Pair",
+      "article_url": "https://myanimelist.net/news/74951722?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-18T01:17:36+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "'Soara to Mamono no Ie' Announces Additional Cast Pair - MyAnimeList.net"
+    },
+    {
+      "title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo",
+      "article_url": "https://myanimelist.net/news/74952442?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-18T04:58:59+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo - MyAnimeList.net"
     },
     {
       "title": "Main Cast for 'Odoru Sennen Kazoku' Announced",
@@ -143,7 +152,7 @@
       "title": "SAKAMOTO DAYS Character List | Names, Voice Actors, Weapons, Abilities & Affiliations",
       "article_url": "https://us.oricon-group.com/news/9484/",
       "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-06T09:05:51+00:00",
+      "published_at": "2026-11-06T09:00:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "SAKAMOTO DAYS Character List | Names, Voice Actors, Weapons, Abilities & Affiliations | Japan Anime News powered by ORICON NEWS"
@@ -156,15 +165,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "'Wanpaku! Touken Ranbu' Reveals Main Staff, Winter 2027 Premiere - MyAnimeList.net"
-    },
-    {
-      "title": "Mashle: Magic and Muscles Live-Action Movie Set for March 19, 2027; Teaser Visual Reveals Mash From Behind",
-      "article_url": "https://us.oricon-group.com/news/9474/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-04T00:41:15+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Mashle Live-Action Movie Set for March 19, 2027 | Japan Anime News powered by ORICON NEWS"
     },
     {
       "title": "Little Shark's Day Out Anime Announces 2nd Theatrical Film",
@@ -221,10 +221,10 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Onee-chan no Midori-kun Live-Action Film Releases New Clip Featuring Timelesz Theme Song",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/17/onee-chan-no-midori-kun-live-action-film-new-clip-timelesz-theme-song",
+      "title": "Sakamoto Days Season 2 Anime Trailer Reveals Premiere Date, Creepy Nuts Opening Theme Song",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/18/sakamoto-days-season-2-anime-creepy-nuts-opening-theme-song-trailer",
       "publisher": "Crunchyroll",
-      "published_at": "2026-11-17T04:44:00+00:00",
+      "published_at": "2026-11-18T02:03:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
