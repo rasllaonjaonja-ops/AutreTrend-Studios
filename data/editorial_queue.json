@@ -1,65 +1,157 @@
 {
-  "generated_at": "2026-11-18T20:37:28.520894+00:00",
-  "count": 3,
-  "rejected_count": 111,
+  "generated_at": "2026-11-19T07:32:02.541652+00:00",
+  "count": 4,
+  "rejected_count": 108,
   "rejected_sample": [
+    {
+      "title": "Spice and Wolf Season 2 Premieres in January 2027 With New Key Visual and Character Designs",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 9 Story & Preview Stills Released: Frightening Monsters, Part 1",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Orb: On the Movements of the Earth Creator Uoto Pens 1st Nonfiction Book",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
     {
       "title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Peropero Sparkles Anime Premieres on January 10",
       "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "KUKU-LOOP: The 100th Time’s the Charm TV Anime Debuts in 2027",
-      "reasons": [
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Armored Trooper VOTOMS: Die Graue Hexe Anime Film Shares 9 Minutes of Footage",
-      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "'99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei' Reveals Main Cast, Staff, 2027 Premiere",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
-      "title": "Get Ready for Satoshi Mizukami’s Stunning Spirit Circle!",
+      "title": "Blood Addict Manga Ends",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "K Manga Adds Godmother Manga",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Even the Student Council Has Its Holes! ‒ Episode 7",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'You're So Sloppy, Hotta-Sensei' Manga Ends in 2 Chapters",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "KUKU-LOOP: The 100th Time’s the Charm TV Anime Debuts in 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Armored Trooper VOTOMS: Die Graue Hexe Anime Film Shares 9 Minutes of Footage",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "The Ramparts of Ice Season 2 Episode 22 Story & Preview Stills Released: A Turning Point",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "THE iDOLM@STER CINDERELLA GIRLS Releases 15th Anniversary Song Music Video",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Hiromasa Okujima Announces 1st Original Boys-Love Manga",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Duel Masters GT Manga Gets 4th Part",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Get Ready for Satoshi Mizukami’s Stunning Spirit Circle!",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Inklore to Release Tomoko Yamashita's Ikoku Nikki Manga on June 8",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Pero Pero★Sparkles Anime's Promo Video Reveals January 10 Premiere",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kingdom Manga Surpasses 130 Million Copies in Circulation as Volume 81 Arrives",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'Soara to Mamono no Ie' Announces Additional Cast Pair",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
@@ -78,28 +170,7 @@
       ]
     },
     {
-      "title": "Kingdom Manga Surpasses 130 Million Copies in Circulation as Volume 81 Arrives",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "'Soara to Mamono no Ie' Announces Additional Cast Pair",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
       "title": "New Votoms Anime Films Stream 1st 9 Minutes",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP! Anime Trailer Reveals Premiere Date, Theme Songs",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -127,78 +198,14 @@
       ]
     },
     {
+      "title": "Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP! Anime Trailer Reveals Premiere Date, Theme Songs",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "'Kanan-sama wa Akumade Choroi 2nd Season' Reveals Additional Cast, New Staff, First Promo, 2027 Debut",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Identity V Game's Oha Suta Daigo Gakuen Short Anime Unveils More Cast, Staff, November 24 Debut",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Dragon Ball Super: Beerus Teases Frieza's Return, Sparks Fan Reactions",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Main Cast for 'Odoru Sennen Kazoku' Announced",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "SAKAMOTO DAYS Season 2 Premieres January 18, 2027; Creepy Nuts Opening and New PV Revealed",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Otherworldly Munchkin Anime's New Video Reveals More Cast, Staff, Theme Songs, January 7 Debut",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Sakamoto Days Season 2's Trailer Unveils More Cast, Opening Song, January 18 Debut",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "HIDIVE Streams Giant Ojosama TV Anime This Winter; Screens N. American Premiere at Anime Frontier on December 4",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "The Fable Season 2 Anime Prepares for the Holidays with New Visual",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Super Psychic Policeman Chojo Anime Shares \"Chinjuku Sentai Chinranger\" Lyric Video",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré",
-        "aucun résumé exploitable dans le flux RSS"
-      ]
-    },
-    {
-      "title": "Soara and the House of Monsters Anime Casts Reiji Kawashima, Kenta Miyake",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -208,9 +215,65 @@
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
   "items": [
     {
-      "trend_id": "https://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941",
-      "title": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January",
-      "score_indicatif": 54,
+      "trend_id": "https://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation",
+      "title": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation",
+      "score_indicatif": 65,
+      "media_count": 2,
+      "media": [
+        "Crunchyroll",
+        "MyAnimeList"
+      ],
+      "articles": [
+        {
+          "title": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        },
+        {
+          "title": "Webtoon 'Not-Sew-Wicked Stepmom' Gets TV Anime",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74956781?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ],
+      "official_evidence": [],
+      "editorial_status": "plusieurs médias — confirmation officielle requise",
+      "human_review_required": true,
+      "publication_allowed": false,
+      "title_language": "en",
+      "source_excerpt": "Volume 10 was released today in Japan",
+      "social_posts": {
+        "language_ready": false,
+        "translation_required": true,
+        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
+        "facebook": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Not #Sew #Wicked\nSources à consulter : Crunchyroll, MyAnimeList · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation",
+        "instagram": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Not #Sew #Wicked\nhttps://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation",
+        "tiktok": "ACCROCHE : Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Not #Sew #Wicked",
+        "x": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Not #Sew #Wicked",
+        "threads": "On vient de repérer cette actualité : Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "youtube": {
+          "title": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Crunchyroll, MyAnimeList · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation\n\n#Anime #Manga #Not #Sew #Wicked"
+        },
+        "telegram": "📰 Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Crunchyroll, MyAnimeList · recoupement officiel non établi\nhttps://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation",
+        "pinterest": {
+          "title": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Not #Sew #Wicked\nhttps://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation"
+        }
+      },
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation\nExtrait RSS : Volume 10 was released today in Japan\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Crunchyroll, MyAnimeList\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+    },
+    {
+      "trend_id": "https://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
+      "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
+      "score_indicatif": 56,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -218,7 +281,16 @@
       ],
       "articles": [
         {
-          "title": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January",
+          "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        },
+        {
+          "title": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January (Updated)",
           "title_language": "en",
           "url": "https://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941",
           "source": "Anime News Network – News",
@@ -242,32 +314,32 @@
       "human_review_required": true,
       "publication_allowed": false,
       "title_language": "en",
-      "source_excerpt": "Season 2's key visual, character visuals also revealed",
+      "source_excerpt": "The new season will premiere in January 2027",
       "social_posts": {
         "language_ready": false,
         "translation_required": true,
         "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spice #Wolf #merchant\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941",
-        "instagram": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spice #Wolf #merchant\nhttps://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941",
-        "tiktok": "ACCROCHE : Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spice #Wolf #merchant",
-        "x": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spice #Wolf #merchant",
-        "threads": "On vient de repérer cette actualité : Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
+        "facebook": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #Spice #Wolf #MERCHANT\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
+        "instagram": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #Spice #Wolf #MERCHANT\nhttps://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
+        "tiktok": "ACCROCHE : Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #Spice #Wolf #MERCHANT",
+        "x": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #Spice #Wolf #MERCHANT",
+        "threads": "On vient de repérer cette actualité : Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
         "youtube": {
-          "title": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941\n\n#Anime #Manga #Spice #Wolf #merchant"
+          "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll\n\n#Anime #Manga #Spice #Wolf #MERCHANT"
         },
-        "telegram": "📰 Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941",
+        "telegram": "📰 Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Anime News Network, Crunchyroll · recoupement officiel non établi\nhttps://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
         "pinterest": {
-          "title": "Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spice #Wolf #merchant\nhttps://www.animenewsnetwork.com/news/2026-11-18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-to-debut-in-january/.243941"
+          "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
+          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #Spice #Wolf #MERCHANT\nhttps://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll"
         }
       },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spice & Wolf: merchant meets the wise wolf Season 2 to Debut in January\nExtrait RSS : Season 2's key visual, character visuals also revealed\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
+      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll\nExtrait RSS : The new season will premiere in January 2027\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     },
     {
       "trend_id": "https://us.oricon-group.com/news/9512/",
       "title": "Soara and the House of Monsters Anime Reveals New Cast and Teaser Visual for 2027",
-      "score_indicatif": 54,
+      "score_indicatif": 50,
       "media_count": 2,
       "media": [
         "Crunchyroll",
@@ -323,7 +395,7 @@
     {
       "trend_id": "https://crunchyroll.com/news/latest/2026/11/18/yaiba-samurai-legend-season-2-anime-chico-with-honeyworks-opening-theme-song",
       "title": "YAIBA: Samurai Legend Season 2 Anime Reveals Opening Theme Song, Gekko Cast",
-      "score_indicatif": 52,
+      "score_indicatif": 47,
       "media_count": 2,
       "media": [
         "Anime News Network",
