@@ -1,9 +1,25 @@
 {
-  "checked_at": "2026-11-20T07:22:56.590365+00:00",
+  "checked_at": "2026-11-20T20:27:22.512207+00:00",
   "checked_articles": 25,
-  "official_link_found": 0,
+  "official_link_found": 1,
   "errors": [],
   "checks": [
+    {
+      "title": "Manga 'Haite Kudasai, Takamine-san' Ends Serialization",
+      "article_url": "https://myanimelist.net/news/74961851?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-20T16:56:46+00:00",
+      "official_evidence": [
+        {
+          "url": "https://magazine.jp.square-enix.com/joker/series/takamine/",
+          "domain": "magazine.jp.square-enix.com",
+          "link_text": "https://magazine.jp.square-enix.com/joker/series/takamine/",
+          "evidence_type": "lien externe vers un domaine de première partie répertorié"
+        }
+      ],
+      "status": "lien de première partie repéré — contenu à contrôler",
+      "page_title": "Manga 'Haite Kudasai, Takamine-san' Ends Serialization - MyAnimeList.net"
+    },
     {
       "title": "'Kanan-sama wa Akumade Choroi 2nd Season' Reveals Additional Cast, New Staff, First Promo, 2027 Debut",
       "article_url": "https://myanimelist.net/news/74949337?_location=rss",
@@ -14,13 +30,13 @@
       "page_title": "'Kanan-sama wa Akumade Choroi 2nd Season' Reveals Additional Cast, New Staff, First Promo, 2027 Debut - MyAnimeList.net"
     },
     {
-      "title": "Manga 'Witch Watch' Concludes Serialization",
-      "article_url": "https://myanimelist.net/news/74943102?_location=rss",
+      "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027",
+      "article_url": "https://myanimelist.net/news/74960793?_location=rss",
       "publisher": "MyAnimeList",
-      "published_at": "2026-11-15T15:23:38+00:00",
+      "published_at": "2026-11-20T09:42:04+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Manga 'Witch Watch' Concludes Serialization - MyAnimeList.net"
+      "page_title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 - MyAnimeList.net"
     },
     {
       "title": "Webtoon 'Not-Sew-Wicked Stepmom' Gets TV Anime",
@@ -30,24 +46,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Webtoon 'Not-Sew-Wicked Stepmom' Gets TV Anime - MyAnimeList.net"
-    },
-    {
-      "title": "Manga 'Diamond no Kouzai' Gets TV Anime",
-      "article_url": "https://myanimelist.net/news/74946798?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-16T15:18:10+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Manga 'Diamond no Kouzai' Gets TV Anime - MyAnimeList.net"
-    },
-    {
-      "title": "'Re:Zero kara Hajimeru Isekai Seikatsu' Gets 5th Season",
-      "article_url": "https://myanimelist.net/news/74938716?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-14T12:16:16+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Re:Zero kara Hajimeru Isekai Seikatsu' Gets 5th Season - MyAnimeList.net"
     },
     {
       "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
@@ -131,13 +129,49 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "'Wanpaku! Touken Ranbu' Reveals Main Staff, Winter 2027 Premiere",
-      "article_url": "https://myanimelist.net/news/74945506?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-16T05:26:52+00:00",
+      "title": "Crunchyroll Streams My Hero Academia The Movie: World Heroes' Mission Anime",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-20/crunchyroll-streams-my-hero-academia-the-movie-world-heroes-mission-anime/.244023",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-20T14:50:53+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Wanpaku! Touken Ranbu' Reveals Main Staff, Winter 2027 Premiere - MyAnimeList.net"
+      "page_title": "Crunchyroll Streams My Hero Academia The Movie: World Heroes' Mission Anime - News - Anime News Network"
+    },
+    {
+      "title": "'BanG Dream! Yume∞Mita' New Anime in Production",
+      "article_url": "https://myanimelist.net/news/74961509?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-20T14:41:52+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "'BanG Dream! Yume∞Mita' New Anime in Production - MyAnimeList.net"
+    },
+    {
+      "title": "'Tougen Anki: Nikko Kegon no Taki-hen' Unveils Additional Cast",
+      "article_url": "https://myanimelist.net/news/74961958?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-20T17:44:20+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "'Tougen Anki: Nikko Kegon no Taki-hen' Unveils Additional Cast - MyAnimeList.net"
+    },
+    {
+      "title": "Supporting Cast for 'Kaketa Tsuki no Mercedes' Announced",
+      "article_url": "https://myanimelist.net/news/74961677?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-20T15:58:05+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Supporting Cast for 'Kaketa Tsuki no Mercedes' Announced - MyAnimeList.net"
+    },
+    {
+      "title": "A Pen, Handcuffs, and a Common-Law Marriage Anime Premieres on January 9",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/20/a-pen-handcuffs-and-a-common-law-marriage-anime-premiere-date-trailer-visual-cast",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-20T14:03:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
       "title": "Charisma Anime Welcomes Terra in Latest Character Trailer",
@@ -158,15 +192,6 @@
       "page_title": "'99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei' Reveals Main Cast, Staff, 2027 Premiere - MyAnimeList.net"
     },
     {
-      "title": "'Skip to Loafer 2nd Season' Reveals Additional Cast Pair, First Promo",
-      "article_url": "https://myanimelist.net/news/74945973?_location=rss",
-      "publisher": "MyAnimeList",
-      "published_at": "2026-11-16T09:46:46+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "'Skip to Loafer 2nd Season' Reveals Additional Cast Pair, First Promo - MyAnimeList.net"
-    },
-    {
       "title": "WITCH WATCH Manga Concludes After Nearly Six Years as Anime Season 2 Is Confirmed for 2027",
       "article_url": "https://us.oricon-group.com/news/9505/",
       "publisher": "ORICON / Japan Anime News",
@@ -185,49 +210,31 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/19/not-sew-wicked-stepmom-webtoon-tv-anime-adaptation",
+      "title": "Armored Trooper VOTOMS: Die Graue Hexe Second Anime Film Confirms 2027 Premiere in New Visual",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/20/armored-trooper-votoms-die-graue-hexe-second-film-2027-premiere-visual",
       "publisher": "Crunchyroll",
-      "published_at": "2026-11-19T04:50:00+00:00",
+      "published_at": "2026-11-20T15:32:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Spice and Wolf Season 2 Premieres in January 2027 With New Key Visual and Character Designs",
-      "article_url": "https://us.oricon-group.com/news/9519/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-19T02:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Spice and Wolf Season 2 Premieres in January 2027 With New Key Visual and Character Designs | Japan Anime News powered by ORICON NEWS"
-    },
-    {
-      "title": "Sakamoto Days Season 2 Anime Trailer Reveals Premiere Date, Creepy Nuts Opening Theme Song",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/18/sakamoto-days-season-2-anime-creepy-nuts-opening-theme-song-trailer",
+      "title": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyoto Shitara, Betsu no Tatakai ga Hajimatta Anime Announced for 2027",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/20/jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyoto-shitara-betsu-no-tatakai-ga-hajimatta-anime-announced-for-2027",
       "publisher": "Crunchyroll",
-      "published_at": "2026-11-18T02:03:00+00:00",
+      "published_at": "2026-11-20T10:06:00+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Soara and the House of Monsters Anime Reveals New Cast and Teaser Visual for 2027",
-      "article_url": "https://us.oricon-group.com/news/9512/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-18T02:00:00+00:00",
+      "title": "2nd New Armored Trooper Votoms Anime Film to Open in 2027",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-20/2nd-new-armored-trooper-votoms-anime-film-to-open-in-2027/.244018",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-20T08:34:46+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Soara and the House of Monsters Anime Reveals New Cast and Teaser Visual for 2027 | Japan Anime News powered by ORICON NEWS"
-    },
-    {
-      "title": "Onee-chan no Midori-kun Live-Action Film Releases New Clip Featuring Timelesz Theme Song",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/17/onee-chan-no-midori-kun-live-action-film-new-clip-timelesz-theme-song",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-17T04:44:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+      "page_title": "2nd New Armored Trooper Votoms Anime Film to Open in 2027 - News - Anime News Network"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
