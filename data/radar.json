@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:27:13.244805+00:00",
+  "updated_at": "2026-11-21T07:16:04.588064+00:00",
   "source_count": 6,
   "sources": [
     "Anime News Network – News",
@@ -41,7 +41,7 @@
       "unique_items": 40
     }
   },
-  "item_count": 192,
+  "item_count": 194,
   "items": [
     {
       "id": "https://myanimelist.net/news/74961851?_location=rss",
@@ -83,7 +83,7 @@
     },
     {
       "id": "https://myanimelist.net/news/74960793?_location=rss",
-      "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027",
+      "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 [Update 11/21]",
       "title_language": "en",
       "translation_status": "à traduire si japonais",
       "url": "https://myanimelist.net/news/74960793?_location=rss",
@@ -269,6 +269,26 @@
       "canonical_url": "https://us.oricon-group.com/news/9494",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879",
+      "title": "North American Anime, Manga Releases, November 15-21",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879",
+      "summary": "Jujutsu Kaisen: Hidden Inventory / Premature Death – The Movie anime; BECK, Heroes, Love is Money manga ship",
+      "published_at": "2026-11-20T22:00:00+00:00",
+      "source": "Anime News Network – News",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 27,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879",
+      "feed_sources": [
+        "Anime News Network – All Articles",
+        "Anime News Network – News"
       ]
     },
     {
@@ -597,12 +617,31 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/21/doraemon-nobitas-steam-powered-time-machine-anime-film-new-voice-cast",
+      "title": "Doraemon: Nobita's Steam-Powered Time Machine Anime Film Announces 5 New Voice Cast Members",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/21/doraemon-nobitas-steam-powered-time-machine-anime-film-new-voice-cast",
+      "summary": "The 46th Doraemon film releases in Japan on March 5, 2027",
+      "published_at": "2026-11-21T00:40:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 21,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/21/doraemon-nobitas-steam-powered-time-machine-anime-film-new-voice-cast",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
+    },
+    {
       "id": "https://myanimelist.net/news/74960710?_location=rss",
       "title": "'Pen to Wappa to Jijitsukon' Unveils Additional Cast, Staff, Theme Songs, First Promo",
       "title_language": "en",
       "translation_status": "à traduire si japonais",
       "url": "https://myanimelist.net/news/74960710?_location=rss",
-      "summary": "The official website of the Pen to Wappa to Jijitsukon (A Pen, Handcuffs, and a Common-Law Marriage) television anime unveiled additional cast, staff, the theme songs, a key visual (pictured), and first promotional video on Friday. The anime series adapting Shinichi Sawaragi and Tank Gasuyama's comedy mystery manga will premiere on January 10 at 1:00 a.m. on Tokyo MX, followed by BS11. Cast Wataru Kashima: Yuusuke Kobayashi (Re:Zero kara Hajimeru Isekai Seikatsu) Hina Haruyama: Sumire Moroh...",
+      "summary": "The official website of the Pen to Wappa to Jijitsukon (A Pen, Handcuffs, and a Common-Law Marriage) television anime unveiled additional cast, staff, the theme songs, a key visual (pictured), and first promotional video on Friday. The anime series adapting Shinichi Sawaragi and Tank Gasuyama's comedy mystery manga will premiere on January 10 at 1:00 a.m. on Tokyo MX, followed by BS11. Cast Wataru Kashikojima: Yuusuke Kobayashi (Re:Zero kara Hajimeru Isekai Seikatsu) Hinade Haruyama: Sumire...",
       "published_at": "2026-11-20T09:05:24+00:00",
       "source": "MyAnimeList News – RSS",
       "publisher": "MyAnimeList",
@@ -746,44 +785,6 @@
       "canonical_url": "https://crunchyroll.com/news/latest/2026/11/18/otherworldly-munchkin-lets-speedrun-the-dungeon-with-only-1-hp-anime-january-7-2027-release-date-trailer-key-visual-theme-songs",
       "feed_sources": [
         "Crunchyroll News – RSS"
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/17/the-fable-season-2-anime-christmas-visual",
-      "title": "The Fable Season 2 Anime Prepares for the Holidays with New Visual",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/17/the-fable-season-2-anime-christmas-visual",
-      "summary": "Second season adapting Katsuhisa Minami’s manga kicks off January 9",
-      "published_at": "2026-11-17T16:30:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 20,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/17/the-fable-season-2-anime-christmas-visual",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
-      "id": "https://us.oricon-group.com/news/9490/",
-      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://us.oricon-group.com/news/9490/",
-      "summary": "My Death Flags Show No Sign of Ending will receive a TV anime adaptation in 2027. The series follows Kazuki Hirasawa, who finds himself inhabiting the body of Harold Stokes, a villain character from a",
-      "published_at": "2026-11-10T13:00:00+00:00",
-      "source": "Japan Anime News – ORICON RSS",
-      "publisher": "ORICON / Japan Anime News",
-      "category": "japan-anime-manga-media",
-      "language": "en",
-      "score": 20,
-      "verification": "à vérifier",
-      "canonical_url": "https://us.oricon-group.com/news/9490",
-      "feed_sources": [
-        "Japan Anime News – ORICON RSS"
       ]
     },
     {
@@ -941,25 +942,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/17/josemaru-short-anime-premiere-date-trailer-cast",
-      "title": "Josemaru Short Anime Debuts on January 10",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/17/josemaru-short-anime-premiere-date-trailer-cast",
-      "summary": "New teaser art, trailer and cast members revealed for upcoming series",
-      "published_at": "2026-11-17T13:18:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 18,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/17/josemaru-short-anime-premiere-date-trailer-cast",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/review/witch-on-the-holy-night-anime-film/.244009",
       "title": "Witch on the Holy Night Anime Film Review",
       "title_language": "en",
@@ -1053,25 +1035,6 @@
       "canonical_url": "https://us.oricon-group.com/news/9515",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/17/suikoden-the-anime-ending-theme-song-music-video",
-      "title": "Suikoden: The Anime Shares Ending Theme Song Music Video",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/17/suikoden-the-anime-ending-theme-song-music-video",
-      "summary": "Crunchyroll streams adaptation based on classic JRPG series",
-      "published_at": "2026-11-17T13:03:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 17,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/17/suikoden-the-anime-ending-theme-song-music-video",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
       ]
     },
     {
@@ -1264,6 +1227,44 @@
       "canonical_url": "https://us.oricon-group.com/news/9503",
       "feed_sources": [
         "Japan Anime News – ORICON RSS"
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/21/bang-dream-yume-mita-new-anime-announced",
+      "title": "New BanG Dream! Yume∞Mita Anime Announced",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/21/bang-dream-yume-mita-new-anime-announced",
+      "summary": "Mugendai Mewtype plans a tour in Japan starting in January 2027",
+      "published_at": "2026-11-21T01:26:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 13,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/21/bang-dream-yume-mita-new-anime-announced",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/21/duel-masters-lost-shitsuraku-no-duel-anime-announced",
+      "title": "Duel Masters LOST ~Shitsuraku no Duel~ Anime Announced",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/21/duel-masters-lost-shitsuraku-no-duel-anime-announced",
+      "summary": "The series' fifth part is now in production",
+      "published_at": "2026-11-21T01:20:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 13,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/21/duel-masters-lost-shitsuraku-no-duel-anime-announced",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
       ]
     },
     {
@@ -1591,6 +1592,25 @@
       "canonical_url": "https://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
       "feed_sources": [
         "Crunchyroll News – RSS"
+      ]
+    },
+    {
+      "id": "https://us.oricon-group.com/news/9524/",
+      "title": "Ranma 1/2 Season 3 Episode 32 Story & Preview Stills Released: Charge! Tsubasa Kurenai",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://us.oricon-group.com/news/9524/",
+      "summary": "One day, Ranma receives a challenge letter reading, \"I shall come for your life soon.\" He has no idea who the sender, Tsubasa Kurenai, could be. Then, a mysterious mailbox suddenly appears and attacks",
+      "published_at": "2026-11-20T23:30:00+00:00",
+      "source": "Japan Anime News – ORICON RSS",
+      "publisher": "ORICON / Japan Anime News",
+      "category": "japan-anime-manga-media",
+      "language": "en",
+      "score": 10,
+      "verification": "à vérifier",
+      "canonical_url": "https://us.oricon-group.com/news/9524",
+      "feed_sources": [
+        "Japan Anime News – ORICON RSS"
       ]
     },
     {
@@ -2053,7 +2073,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-19/i-lost-my-adventurer-license-anime-main-promo-video-reveals-more-staff-opening-song-artist-january-/.243986",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
     },
@@ -2073,7 +2092,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-19/magic-knight-rayearth-anime-casts-hikaru-midorikawa-koji-yusa/.243984",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
     },
@@ -2149,25 +2167,6 @@
       "score": 8,
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-18/hiromasa-okujima-announces-1st-original-boys-love-manga/.243958",
-      "feed_sources": [
-        "Anime News Network – News"
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-18/duel-masters-gt-manga-gets-4th-part/.243957",
-      "title": "Duel Masters GT Manga Gets 4th Part",
-      "title_language": "en",
-      "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-18/duel-masters-gt-manga-gets-4th-part/.243957",
-      "summary": "3rd part ended on Wednesday",
-      "published_at": "2026-11-18T22:00:00+00:00",
-      "source": "Anime News Network – News",
-      "publisher": "Anime News Network",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 8,
-      "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/news/2026-11-18/duel-masters-gt-manga-gets-4th-part/.243957",
       "feed_sources": [
         "Anime News Network – News"
       ]
@@ -2499,6 +2498,25 @@
       ]
     },
     {
+      "id": "https://crunchyroll.com/news/latest/2026/11/21/godzilla-minus-zero-film-hideaki-anno-cameo-appearance",
+      "title": "Godzilla Minus Zero Film Confirms Hideaki Anno's Cameo Appearance",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://crunchyroll.com/news/latest/2026/11/21/godzilla-minus-zero-film-hideaki-anno-cameo-appearance",
+      "summary": "The 31st Japanese Godzilla film has earned over 15 billion yen worldwide",
+      "published_at": "2026-11-21T02:13:00+00:00",
+      "source": "Crunchyroll News – RSS",
+      "publisher": "Crunchyroll",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 3,
+      "verification": "à vérifier",
+      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/21/godzilla-minus-zero-film-hideaki-anno-cameo-appearance",
+      "feed_sources": [
+        "Crunchyroll News – RSS"
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/review/overgeared/volumes-4-6/.243215",
       "title": "Overgeared Volumes 4-6 K-Comic Review",
       "title_language": "en",
@@ -2612,7 +2630,6 @@
       "verification": "à vérifier",
       "canonical_url": "https://animenewsnetwork.com/news/2026-11-19/rakuen-tsuiho-expelled-from-paradise-kokoro-no-resonance-film-opens-at-no.5-in-japan/.243961",
       "feed_sources": [
-        "Anime News Network – All Articles",
         "Anime News Network – News"
       ]
     },
@@ -2674,6 +2691,44 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/interest/2026-11-20/what-sailor-moon-fans-can-buy-at-universal-studios-japan/.244008",
+      "title": "What Sailor Moon Fans Can Buy (& Eat) at Universal Studios Japan",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-20/what-sailor-moon-fans-can-buy-at-universal-studios-japan/.244008",
+      "summary": "Grab your Universal Heart Compact and “Moon Cosmic, Make-up!”",
+      "published_at": "2026-11-21T04:59:00+00:00",
+      "source": "Anime News Network – All Articles",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 2,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/interest/2026-11-20/what-sailor-moon-fans-can-buy-at-universal-studios-japan/.244008",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/interest/2026-11-20/uniqlo-unfurls-new-studio-ghibli-t-shirts/.244028",
+      "title": "Uniqlo Unfurls New Studio Ghibli T-Shirts",
+      "title_language": "en",
+      "translation_status": "à traduire si japonais",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-20/uniqlo-unfurls-new-studio-ghibli-t-shirts/.244028",
+      "summary": "Show off your Ghibli love with the new collection",
+      "published_at": "2026-11-21T04:00:00+00:00",
+      "source": "Anime News Network – All Articles",
+      "publisher": "Anime News Network",
+      "category": "anime-manga",
+      "language": "en",
+      "score": 2,
+      "verification": "à vérifier",
+      "canonical_url": "https://animenewsnetwork.com/interest/2026-11-20/uniqlo-unfurls-new-studio-ghibli-t-shirts/.244028",
+      "feed_sources": [
+        "Anime News Network – All Articles"
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/review/fx-fighter-kurumi-chan/episode-8/.244010",
       "title": "FX Fighter Kurumi-chan ‒ Episode 8",
       "title_language": "en",
@@ -2712,20 +2767,20 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-7/.243922",
-      "title": "Nia Liston: The Merciless Maiden ‒ Episode 7",
+      "id": "https://www.animenewsnetwork.com/this-week-in-games/2026-11-20/cleaning-bots-ocarina-thoughts-and-sonic-35th-anniversary/.243880",
+      "title": "This Week in Games - Cleaning Bots, Ocarina Thoughts, and Sonic's 35th Anniversary",
       "title_language": "en",
       "translation_status": "à traduire si japonais",
-      "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-7/.243922",
-      "summary": "After this episode, I believe more strongly than ever that if you are the emotional or logistical support pillar of your family or social circle, you need to be watching Nia Liston .",
-      "published_at": "2026-11-19T12:30:00+00:00",
+      "url": "https://www.animenewsnetwork.com/this-week-in-games/2026-11-20/cleaning-bots-ocarina-thoughts-and-sonic-35th-anniversary/.243880",
+      "summary": "Jean-Karlo shares his impressions of the Game of the Year contender and takes a trip through Green Hill to celebrate Sonic's anniversary.",
+      "published_at": "2026-11-20T20:58:32+00:00",
       "source": "Anime News Network – All Articles",
       "publisher": "Anime News Network",
       "category": "anime-manga",
       "language": "en",
-      "score": 2,
+      "score": 0,
       "verification": "à vérifier",
-      "canonical_url": "https://animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-7/.243922",
+      "canonical_url": "https://animenewsnetwork.com/this-week-in-games/2026-11-20/cleaning-bots-ocarina-thoughts-and-sonic-35th-anniversary/.243880",
       "feed_sources": [
         "Anime News Network – All Articles"
       ]
@@ -3663,25 +3718,6 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/17/pokemon-boss-coffee-alien-tommy-lee-jones-collab",
-      "title": "Pokémon and BOSS Welcome Back Alien Jones for Ongoing Collab",
-      "title_language": "fr",
-      "translation_status": "à traduire si japonais",
-      "url": "https://crunchyroll.com/news/latest/2026/11/17/pokemon-boss-coffee-alien-tommy-lee-jones-collab",
-      "summary": "The collaboration celebrates the 30th anniversary of Pokémon",
-      "published_at": "2026-11-17T16:19:00+00:00",
-      "source": "Crunchyroll News – RSS",
-      "publisher": "Crunchyroll",
-      "category": "anime-manga",
-      "language": "en",
-      "score": 0,
-      "verification": "à vérifier",
-      "canonical_url": "https://crunchyroll.com/news/latest/2026/11/17/pokemon-boss-coffee-alien-tommy-lee-jones-collab",
-      "feed_sources": [
-        "Crunchyroll News – RSS"
-      ]
-    },
-    {
       "id": "https://us.oricon-group.com/news/9496/",
       "title": "Classroom of the Elite: Year 3 Vol. 5 Tops Japan’s Weekly Light Novel Ranking",
       "title_language": "en",
@@ -3720,29 +3756,39 @@
       ]
     }
   ],
-  "trend_count": 114,
+  "trend_count": 113,
   "trends": [
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-20/bang-dream-yume-mita-series-confirms-new-anime-in-production/.244026",
-      "title": "BanG Dream! Yume∞Mita Series Confirms New Anime in Production",
+      "id": "https://crunchyroll.com/news/latest/2026/11/21/bang-dream-yume-mita-new-anime-announced",
+      "title": "New BanG Dream! Yume∞Mita Anime Announced",
       "title_language": "en",
-      "score": 62,
+      "score": 69,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 26,
-        "freshness": 94,
-        "independent_sources": 2,
-        "article_volume": 2
+        "freshness": 92,
+        "independent_sources": 3,
+        "article_volume": 3
       },
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "sources": [
         "Anime News Network",
+        "Crunchyroll",
         "MyAnimeList"
       ],
-      "published_at": "2026-11-20T15:59:17+00:00",
+      "published_at": "2026-11-21T01:26:00+00:00",
       "status": "multi-source à confirmer",
       "articles": [
+        {
+          "title": "New BanG Dream! Yume∞Mita Anime Announced",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/21/bang-dream-yume-mita-new-anime-announced",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        },
         {
           "title": "BanG Dream! Yume∞Mita Series Confirms New Anime in Production",
           "title_language": "en",
@@ -3765,55 +3811,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/20/jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyoto-shitara-betsu-no-tatakai-ga-hajimatta-anime-announced-for-2027",
-      "title": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyoto Shitara, Betsu no Tatakai ga Hajimatta Anime Announced for 2027",
-      "title_language": "en",
-      "score": 62,
-      "priority": "à examiner",
-      "score_breakdown": {
-        "relevance": 33,
-        "freshness": 86,
-        "independent_sources": 2,
-        "article_volume": 2
-      },
-      "article_count": 2,
-      "source_count": 2,
-      "sources": [
-        "Crunchyroll",
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-20T10:06:00+00:00",
-      "status": "multi-source à confirmer",
-      "articles": [
-        {
-          "title": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyoto Shitara, Betsu no Tatakai ga Hajimatta Anime Announced for 2027",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/20/jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyoto-shitara-betsu-no-tatakai-ga-hajimatta-anime-announced-for-2027",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        },
-        {
-          "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74960793?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-20/crunchyroll-streams-my-hero-academia-the-movie-world-heroes-mission-anime/.244023",
       "title": "Crunchyroll Streams My Hero Academia The Movie: World Heroes' Mission Anime",
       "title_language": "en",
-      "score": 61,
+      "score": 57,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 26,
-        "freshness": 92,
+        "freshness": 77,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3848,14 +3853,55 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-19/not-sew-wicked-stepmom-webtoon-gets-tv-anime-adaptation/.243979",
-      "title": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation",
+      "id": "https://crunchyroll.com/news/latest/2026/11/20/jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyoto-shitara-betsu-no-tatakai-ga-hajimatta-anime-announced-for-2027",
+      "title": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyoto Shitara, Betsu no Tatakai ga Hajimatta Anime Announced for 2027",
       "title_language": "en",
-      "score": 59,
+      "score": 57,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 33,
-        "freshness": 50,
+        "freshness": 71,
+        "independent_sources": 2,
+        "article_volume": 2
+      },
+      "article_count": 2,
+      "source_count": 2,
+      "sources": [
+        "Crunchyroll",
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-20T10:06:00+00:00",
+      "status": "multi-source à confirmer",
+      "articles": [
+        {
+          "title": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyoto Shitara, Betsu no Tatakai ga Hajimatta Anime Announced for 2027",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/20/jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyoto-shitara-betsu-no-tatakai-ga-hajimatta-anime-announced-for-2027",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        },
+        {
+          "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 [Update 11/21]",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74960793?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-19/not-sew-wicked-stepmom-webtoon-gets-tv-anime-adaptation/.243979",
+      "title": "Not-Sew-Wicked Stepmom Webtoon Gets TV Anime Adaptation",
+      "title_language": "en",
+      "score": 54,
+      "priority": "à examiner",
+      "score_breakdown": {
+        "relevance": 33,
+        "freshness": 35,
         "independent_sources": 3,
         "article_volume": 3
       },
@@ -3902,11 +3948,11 @@
       "id": "https://us.oricon-group.com/news/9529/",
       "title": "In a World Full of Zombies I'm the Only One Who Doesn't Get Attacked Announces January Premiere, Seven New Cast Members",
       "title_language": "en",
-      "score": 54,
+      "score": 50,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 78,
+        "freshness": 63,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -3943,11 +3989,11 @@
       "id": "https://myanimelist.net/news/74961851?_location=rss",
       "title": "Manga 'Haite Kudasai, Takamine-san' Ends Serialization",
       "title_language": "en",
-      "score": 54,
+      "score": 50,
       "priority": "à examiner",
       "score_breakdown": {
         "relevance": 38,
-        "freshness": 95,
+        "freshness": 80,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -3971,14 +4017,77 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879",
+      "title": "North American Anime, Manga Releases, November 15-21",
+      "title_language": "en",
+      "score": 48,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 27,
+        "freshness": 87,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-20T22:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "North American Anime, Manga Releases, November 15-21",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/21/doraemon-nobitas-steam-powered-time-machine-anime-film-new-voice-cast",
+      "title": "Doraemon: Nobita's Steam-Powered Time Machine Anime Film Announces 5 New Voice Cast Members",
+      "title_language": "en",
+      "score": 47,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 21,
+        "freshness": 91,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-21T00:40:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Doraemon: Nobita's Steam-Powered Time Machine Anime Film Announces 5 New Voice Cast Members",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/21/doraemon-nobitas-steam-powered-time-machine-anime-film-new-voice-cast",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://crunchyroll.com/news/latest/2026/11/19/majutsu-wo-kiwamete-tabi-ni-deta-tensei-elf-moteamashita-jumyo-de-ikeru-densetsu-to-naru-anime-december-30-release-date-main-trailer-key-visual-theme-songs",
       "title": "Majutsu wo Kiwamete Tabi ni Deta Tensei Elf, Moteamashita Jumyo de Ikeru Densetsu to Naru Anime Reveals Premiere Date, Theme Songs in New Trailer",
       "title_language": "en",
-      "score": 50,
-      "priority": "à examiner",
+      "score": 46,
+      "priority": "veille",
       "score_breakdown": {
         "relevance": 28,
-        "freshness": 52,
+        "freshness": 37,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -4015,11 +4124,11 @@
       "id": "https://myanimelist.net/news/74961958?_location=rss",
       "title": "'Tougen Anki: Nikko Kegon no Taki-hen' Unveils Additional Cast",
       "title_language": "en",
-      "score": 50,
-      "priority": "à examiner",
+      "score": 45,
+      "priority": "veille",
       "score_breakdown": {
         "relevance": 25,
-        "freshness": 96,
+        "freshness": 81,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4046,11 +4155,11 @@
       "id": "https://myanimelist.net/news/74961677?_location=rss",
       "title": "Supporting Cast for 'Kaketa Tsuki no Mercedes' Announced",
       "title_language": "en",
-      "score": 49,
+      "score": 45,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 25,
-        "freshness": 94,
+        "freshness": 79,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4074,14 +4183,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/20/armored-trooper-votoms-die-graue-hexe-second-film-2027-premiere-visual",
-      "title": "Armored Trooper VOTOMS: Die Graue Hexe Second Anime Film Confirms 2027 Premiere in New Visual",
+      "id": "https://crunchyroll.com/news/latest/2026/11/21/duel-masters-lost-shitsuraku-no-duel-anime-announced",
+      "title": "Duel Masters LOST ~Shitsuraku no Duel~ Anime Announced",
       "title_language": "en",
-      "score": 48,
+      "score": 44,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 22,
-        "freshness": 93,
+        "relevance": 13,
+        "freshness": 92,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4090,13 +4199,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-20T15:32:00+00:00",
+      "published_at": "2026-11-21T01:20:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Armored Trooper VOTOMS: Die Graue Hexe Second Anime Film Confirms 2027 Premiere in New Visual",
+          "title": "Duel Masters LOST ~Shitsuraku no Duel~ Anime Announced",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/20/armored-trooper-votoms-die-graue-hexe-second-film-2027-premiere-visual",
+          "url": "https://crunchyroll.com/news/latest/2026/11/21/duel-masters-lost-shitsuraku-no-duel-anime-announced",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -4108,11 +4217,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/20/a-pen-handcuffs-and-a-common-law-marriage-anime-premiere-date-trailer-visual-cast",
       "title": "A Pen, Handcuffs, and a Common-Law Marriage Anime Premieres on January 9",
       "title_language": "en",
-      "score": 48,
+      "score": 44,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 25,
-        "freshness": 91,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4136,14 +4245,45 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/20/mercedes-and-the-waning-moon-anime-premiere-date-visual-cast",
-      "title": "Mercedes and the Waning Moon Anime Premiere Date, Visual, More Cast Revealed",
+      "id": "https://us.oricon-group.com/news/9524/",
+      "title": "Ranma 1/2 Season 3 Episode 32 Story & Preview Stills Released: Charge! Tsubasa Kurenai",
       "title_language": "en",
-      "score": 47,
+      "score": 43,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 20,
-        "freshness": 92,
+        "relevance": 10,
+        "freshness": 89,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-20T23:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Ranma 1/2 Season 3 Episode 32 Story & Preview Stills Released: Charge! Tsubasa Kurenai",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9524/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/20/armored-trooper-votoms-die-graue-hexe-second-film-2027-premiere-visual",
+      "title": "Armored Trooper VOTOMS: Die Graue Hexe Second Anime Film Confirms 2027 Premiere in New Visual",
+      "title_language": "en",
+      "score": 43,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 22,
+        "freshness": 78,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4152,13 +4292,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-20T14:43:00+00:00",
+      "published_at": "2026-11-20T15:32:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Mercedes and the Waning Moon Anime Premiere Date, Visual, More Cast Revealed",
+          "title": "Armored Trooper VOTOMS: Die Graue Hexe Second Anime Film Confirms 2027 Premiere in New Visual",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/20/mercedes-and-the-waning-moon-anime-premiere-date-visual-cast",
+          "url": "https://crunchyroll.com/news/latest/2026/11/20/armored-trooper-votoms-die-graue-hexe-second-film-2027-premiere-visual",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -4170,11 +4310,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-20/duel-masters-lost-anime-gets-5th-part/.244025",
       "title": "Duel Masters LOST Anime Gets 5th Part",
       "title_language": "en",
-      "score": 46,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 95,
+        "freshness": 80,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4199,32 +4339,32 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/witch-on-the-holy-night-anime-film/.244009",
-      "title": "Witch on the Holy Night Anime Film Review",
+      "id": "https://crunchyroll.com/news/latest/2026/11/20/mercedes-and-the-waning-moon-anime-premiere-date-visual-cast",
+      "title": "Mercedes and the Waning Moon Anime Premiere Date, Visual, More Cast Revealed",
       "title_language": "en",
-      "score": 46,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 17,
-        "freshness": 91,
+        "relevance": 20,
+        "freshness": 77,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "Anime News Network"
+        "Crunchyroll"
       ],
-      "published_at": "2026-11-20T14:00:00+00:00",
+      "published_at": "2026-11-20T14:43:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Witch on the Holy Night Anime Film Review",
+          "title": "Mercedes and the Waning Moon Anime Premiere Date, Visual, More Cast Revealed",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/witch-on-the-holy-night-anime-film/.244009",
-          "source": "Anime News Network – All Articles",
+          "url": "https://crunchyroll.com/news/latest/2026/11/20/mercedes-and-the-waning-moon-anime-premiere-date-visual-cast",
+          "source": "Crunchyroll News – RSS",
           "feed_sources": [
-            "Anime News Network – All Articles"
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -4233,11 +4373,11 @@
       "id": "https://us.oricon-group.com/news/9528/",
       "title": "The Apothecary Diaries Season 3 Episode 56 Story & Preview Stills Released: Hemp and Folk Beliefs",
       "title_language": "en",
-      "score": 46,
+      "score": 42,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 90,
+        "freshness": 75,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -4270,14 +4410,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-20/yen-press-licenses-oshi-no-ko-etude-for-two-bungo-stray-dogs-the-untold-origins-of-the-detective-/.244035",
-      "title": "Yen Press Licenses [Oshi No Ko] Étude for Two, Bungo Stray Dogs: The Untold Origins of the Detective Agency, More Manga/Novels",
-      "title_language": "fr",
-      "score": 45,
+      "id": "https://www.animenewsnetwork.com/review/witch-on-the-holy-night-anime-film/.244009",
+      "title": "Witch on the Holy Night Anime Film Review",
+      "title_language": "en",
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 8,
-        "freshness": 99,
+        "relevance": 17,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4286,17 +4426,16 @@
       "sources": [
         "Anime News Network"
       ],
-      "published_at": "2026-11-20T19:57:31+00:00",
+      "published_at": "2026-11-20T14:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Yen Press Licenses [Oshi No Ko] Étude for Two, Bungo Stray Dogs: The Untold Origins of the Detective Agency, More Manga/Novels",
-          "title_language": "fr",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-20/yen-press-licenses-oshi-no-ko-etude-for-two-bungo-stray-dogs-the-untold-origins-of-the-detective-/.244035",
-          "source": "Anime News Network – News",
+          "title": "Witch on the Holy Night Anime Film Review",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/review/witch-on-the-holy-night-anime-film/.244009",
+          "source": "Anime News Network – All Articles",
           "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
+            "Anime News Network – All Articles"
           ]
         }
       ]
@@ -4305,11 +4444,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-20/life-with-an-ordinary-guy-who-reincarnated-into-a-total-fantasy-knockout-manga-ends-with-20th-volume/.244002",
       "title": "Life with an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout Manga Ends With 20th Volume",
       "title_language": "en",
-      "score": 45,
+      "score": 41,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 19,
-        "freshness": 89,
+        "freshness": 74,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4334,14 +4473,78 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-20/yen-press-licenses-oshi-no-ko-etude-for-two-bungo-stray-dogs-the-untold-origins-of-the-detective-/.244035",
+      "title": "Yen Press Licenses [Oshi No Ko] Étude for Two, Bungo Stray Dogs: The Untold Origins of the Detective Agency, More Manga/Novels",
+      "title_language": "fr",
+      "score": 40,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 84,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-20T19:57:31+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Yen Press Licenses [Oshi No Ko] Étude for Two, Bungo Stray Dogs: The Untold Origins of the Detective Agency, More Manga/Novels",
+          "title_language": "fr",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-20/yen-press-licenses-oshi-no-ko-etude-for-two-bungo-stray-dogs-the-untold-origins-of-the-detective-/.244035",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-20/chiruran-manga-gets-new-stage-play-by-all-female-troupe-oclock-kumamoto-revue/.244024",
+      "title": "Chiruran Manga Gets New Stage Play by All-Female Troupe O'Clock Kumamoto Revue",
+      "title_language": "en",
+      "score": 40,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 82,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-20T18:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Chiruran Manga Gets New Stage Play by All-Female Troupe O'Clock Kumamoto Revue",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-20/chiruran-manga-gets-new-stage-play-by-all-female-troupe-oclock-kumamoto-revue/.244024",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://myanimelist.net/news/74960710?_location=rss",
       "title": "'Pen to Wappa to Jijitsukon' Unveils Additional Cast, Staff, Theme Songs, First Promo",
       "title_language": "en",
-      "score": 45,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 21,
-        "freshness": 84,
+        "freshness": 69,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4368,11 +4571,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-20/2nd-new-armored-trooper-votoms-anime-film-to-open-in-2027/.244018",
       "title": "2nd New Armored Trooper Votoms Anime Film to Open in 2027",
       "title_language": "en",
-      "score": 45,
+      "score": 40,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 84,
+        "freshness": 68,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4397,33 +4600,32 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-20/chiruran-manga-gets-new-stage-play-by-all-female-troupe-oclock-kumamoto-revue/.244024",
-      "title": "Chiruran Manga Gets New Stage Play by All-Female Troupe O'Clock Kumamoto Revue",
+      "id": "https://crunchyroll.com/news/features/2026/11/20/cozy-anime-corner-uncles-obsession-with-cute-things",
+      "title": "Cozy Anime Corner: Find Your People in Uncle's Obsession with Cute Things",
       "title_language": "en",
-      "score": 44,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 97,
+        "freshness": 79,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "Anime News Network"
+        "Crunchyroll"
       ],
-      "published_at": "2026-11-20T18:00:00+00:00",
+      "published_at": "2026-11-20T16:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Chiruran Manga Gets New Stage Play by All-Female Troupe O'Clock Kumamoto Revue",
+          "title": "Cozy Anime Corner: Find Your People in Uncle's Obsession with Cute Things",
           "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-20/chiruran-manga-gets-new-stage-play-by-all-female-troupe-oclock-kumamoto-revue/.244024",
-          "source": "Anime News Network – News",
+          "url": "https://crunchyroll.com/news/features/2026/11/20/cozy-anime-corner-uncles-obsession-with-cute-things",
+          "source": "Crunchyroll News – RSS",
           "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -4432,11 +4634,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-20/maison-and-the-man-eating-apartment-manga-ends-in-next-chapter/.244004",
       "title": "Maison and the Man-Eating Apartment Manga Ends in Next Chapter",
       "title_language": "en",
-      "score": 44,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 11,
-        "freshness": 91,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4461,14 +4663,46 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-20/mitei-hattori-smile-manga-gets-epilogue-chapter/.244005",
+      "title": "Mitei Hattori's Smile! Manga Gets Epilogue Chapter",
+      "title_language": "en",
+      "score": 39,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 75,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-20T13:15:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Mitei Hattori's Smile! Manga Gets Epilogue Chapter",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-20/mitei-hattori-smile-manga-gets-epilogue-chapter/.244005",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-20/kengo-matsumoto-jimoto-no-ijimekko-tachi-ni-shikaeshi-shiyo-to-shitara-manga-gets-tv-anime/.244020",
       "title": "Kengo Matsumoto's Jimoto no Ijimekko-tachi ni Shikaeshi Shiyō to Shitara Manga Gets TV Anime",
       "title_language": "en",
-      "score": 44,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 16,
-        "freshness": 86,
+        "freshness": 71,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4496,11 +4730,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/20/wandance-live-action-movie-manga-collab-trailer",
       "title": "Wandance Live-Action Movie Releases Manga Collaboration Trailer",
       "title_language": "en",
-      "score": 44,
+      "score": 39,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 27,
-        "freshness": 73,
+        "freshness": 58,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4524,77 +4758,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/features/2026/11/20/cozy-anime-corner-uncles-obsession-with-cute-things",
-      "title": "Cozy Anime Corner: Find Your People in Uncle's Obsession with Cute Things",
-      "title_language": "en",
-      "score": 43,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 94,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-20T16:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Cozy Anime Corner: Find Your People in Uncle's Obsession with Cute Things",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/features/2026/11/20/cozy-anime-corner-uncles-obsession-with-cute-things",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-20/mitei-hattori-smile-manga-gets-epilogue-chapter/.244005",
-      "title": "Mitei Hattori's Smile! Manga Gets Epilogue Chapter",
-      "title_language": "en",
-      "score": 43,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 90,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-20T13:15:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Mitei Hattori's Smile! Manga Gets Epilogue Chapter",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-20/mitei-hattori-smile-manga-gets-epilogue-chapter/.244005",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/20/though-i-am-an-inept-villainess-mothra-year-collab-visual",
       "title": "Though I Am an Inept Villainess Shares New Collab Art Celebrating Mothra Year",
       "title_language": "en",
-      "score": 42,
+      "score": 38,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 94,
+        "freshness": 79,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4618,45 +4789,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-8/.243973",
-      "title": "Reincarnated as a Sword Season 2 ‒ Episode 8",
-      "title_language": "en",
-      "score": 42,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 6,
-        "freshness": 92,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-20T14:30:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Reincarnated as a Sword Season 2 ‒ Episode 8",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-8/.243973",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://www.animenewsnetwork.com/feature/2026-11-20/combining-titillation-and-tiles-a-brief-history-of-strip-mahjong/.243845",
       "title": "Combining Titillation and Tiles, a Brief History of Strip Mahjong",
       "title_language": "en",
-      "score": 42,
+      "score": 38,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 91,
+        "freshness": 76,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4680,13 +4820,13 @@
       ]
     },
     {
-      "id": "https://myanimelist.net/news/74960147?_location=rss",
-      "title": "Additional Cast for 'Zombie no Afureta Sekai de Ore dake ga Osowarenai' Announced",
+      "id": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-8/.243973",
+      "title": "Reincarnated as a Sword Season 2 ‒ Episode 8",
       "title_language": "en",
-      "score": 42,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 18,
+        "relevance": 6,
         "freshness": 77,
         "independent_sources": 1,
         "article_volume": 1
@@ -4694,18 +4834,18 @@
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "MyAnimeList"
+        "Anime News Network"
       ],
-      "published_at": "2026-11-20T03:38:17+00:00",
+      "published_at": "2026-11-20T14:30:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Additional Cast for 'Zombie no Afureta Sekai de Ore dake ga Osowarenai' Announced",
+          "title": "Reincarnated as a Sword Season 2 ‒ Episode 8",
           "title_language": "en",
-          "url": "https://myanimelist.net/news/74960147?_location=rss",
-          "source": "MyAnimeList News – RSS",
+          "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-8/.243973",
+          "source": "Anime News Network – All Articles",
           "feed_sources": [
-            "MyAnimeList News – RSS"
+            "Anime News Network – All Articles"
           ]
         }
       ]
@@ -4714,11 +4854,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-20/a-pen-handcuffs-and-a-common-law-marriage-tv-anime-reveals-theme-song-artists-more-cast-january-9-/.244022",
       "title": "'A Pen, Handcuffs, and a Common-Law Marriage' TV Anime Reveals Theme Song Artists, More Cast, January 9 Debut in Video",
       "title_language": "en",
-      "score": 41,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 87,
+        "freshness": 72,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4743,14 +4883,45 @@
       ]
     },
     {
+      "id": "https://myanimelist.net/news/74960147?_location=rss",
+      "title": "Additional Cast for 'Zombie no Afureta Sekai de Ore dake ga Osowarenai' Announced",
+      "title_language": "en",
+      "score": 37,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 18,
+        "freshness": 62,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-20T03:38:17+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Additional Cast for 'Zombie no Afureta Sekai de Ore dake ga Osowarenai' Announced",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74960147?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9520/",
       "title": "SPY x FAMILY Vol. 18 Holds No. 1 | Japan Weekly Manga Ranking",
       "title_language": "en",
-      "score": 41,
+      "score": 37,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 75,
+        "freshness": 60,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -4783,14 +4954,78 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-20/rock-paper-landmine-novel-gets-stage-play-in-january/.244017",
+      "title": "Rock Paper Landmine Novel Gets Stage Play in January",
+      "title_language": "en",
+      "score": 36,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 7,
+        "freshness": 69,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-20T09:16:57+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Rock Paper Landmine Novel Gets Stage Play in January",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-20/rock-paper-landmine-novel-gets-stage-play-in-january/.244017",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-20/mercedes-and-the-waning-moon-tv-anime-reveals-more-cast-january-10-debut/.244014",
+      "title": "Mercedes and the Waning Moon TV Anime Reveals More Cast, January 10 Debut",
+      "title_language": "en",
+      "score": 36,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 69,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-20T09:03:14+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Mercedes and the Waning Moon TV Anime Reveals More Cast, January 10 Debut",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-20/mercedes-and-the-waning-moon-tv-anime-reveals-more-cast-january-10-debut/.244014",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9526/",
       "title": "Shin Oishinbo Anime Announces January 2027 Premiere, New Trailer and Four Cast Members",
       "title_language": "en",
-      "score": 41,
+      "score": 36,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 74,
+        "freshness": 59,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4817,11 +5052,11 @@
       "id": "https://us.oricon-group.com/news/9523/",
       "title": "Blue Box Season 2 Episode 32 Story & Preview Stills Released: There's Something I Want to Tell You",
       "title_language": "en",
-      "score": 41,
+      "score": 36,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 10,
-        "freshness": 71,
+        "freshness": 56,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -4854,109 +5089,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-20/rock-paper-landmine-novel-gets-stage-play-in-january/.244017",
-      "title": "Rock Paper Landmine Novel Gets Stage Play in January",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 7,
-        "freshness": 84,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-20T09:16:57+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Rock Paper Landmine Novel Gets Stage Play in January",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-20/rock-paper-landmine-novel-gets-stage-play-in-january/.244017",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-20/mercedes-and-the-waning-moon-tv-anime-reveals-more-cast-january-10-debut/.244014",
-      "title": "Mercedes and the Waning Moon TV Anime Reveals More Cast, January 10 Debut",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 84,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-20T09:03:14+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Mercedes and the Waning Moon TV Anime Reveals More Cast, January 10 Debut",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-20/mercedes-and-the-waning-moon-tv-anime-reveals-more-cast-january-10-debut/.244014",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/19/charisma-anime-terra-character-trailer",
-      "title": "Charisma Anime Welcomes Terra in Latest Character Trailer",
-      "title_language": "en",
-      "score": 40,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 25,
-        "freshness": 63,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-19T17:53:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Charisma Anime Welcomes Terra in Latest Character Trailer",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/19/charisma-anime-terra-character-trailer",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://crunchyroll.com/news/latest/2026/11/20/a-certain-dark-item-anime-ending-song-music-video-kisida-kyodan-the-akebosi-rockets",
       "title": "Kisida Kyodan & The Akebosi Rockets Releases A Certain Dark Item Anime Ending Song Music Video",
       "title_language": "en",
-      "score": 39,
+      "score": 35,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 14,
-        "freshness": 74,
+        "freshness": 59,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -4980,32 +5120,32 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9525/",
-      "title": "Reincarnated Elf Anime Sets January 6 Premiere, Adds Hiro Shimono and Megumi Ogata",
+      "id": "https://crunchyroll.com/news/latest/2026/11/19/charisma-anime-terra-character-trailer",
+      "title": "Charisma Anime Welcomes Terra in Latest Character Trailer",
       "title_language": "en",
-      "score": 39,
+      "score": 35,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 13,
-        "freshness": 74,
+        "relevance": 25,
+        "freshness": 48,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "ORICON / Japan Anime News"
+        "Crunchyroll"
       ],
-      "published_at": "2026-11-20T01:30:00+00:00",
+      "published_at": "2026-11-19T17:53:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Reincarnated Elf Anime Sets January 6 Premiere, Adds Hiro Shimono and Megumi Ogata",
+          "title": "Charisma Anime Welcomes Terra in Latest Character Trailer",
           "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9525/",
-          "source": "Japan Anime News – ORICON RSS",
+          "url": "https://crunchyroll.com/news/latest/2026/11/19/charisma-anime-terra-character-trailer",
+          "source": "Crunchyroll News – RSS",
           "feed_sources": [
-            "Japan Anime News – ORICON RSS"
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -5014,11 +5154,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/i-am-the-only-one-who-is-not-attacked-in-the-world-filled-with-zombies-anime-reveals-more-cast-/.244007",
       "title": "'I am the only one who is not attacked in the world filled with zombies' Anime Reveals More Cast, January 1 TV Debut",
       "title_language": "en",
-      "score": 38,
+      "score": 34,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 77,
+        "freshness": 62,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5043,14 +5183,14 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9527/",
-      "title": "My Neighbour Totoro Stage Play Surpasses 1 Million Theatregoers in London, a First for a Japanese Title",
+      "id": "https://us.oricon-group.com/news/9525/",
+      "title": "Reincarnated Elf Anime Sets January 6 Premiere, Adds Hiro Shimono and Megumi Ogata",
       "title_language": "en",
-      "score": 38,
+      "score": 34,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 9,
-        "freshness": 75,
+        "relevance": 13,
+        "freshness": 59,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5059,13 +5199,13 @@
       "sources": [
         "ORICON / Japan Anime News"
       ],
-      "published_at": "2026-11-20T02:30:00+00:00",
+      "published_at": "2026-11-20T01:30:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "My Neighbour Totoro Stage Play Surpasses 1 Million Theatregoers in London, a First for a Japanese Title",
+          "title": "Reincarnated Elf Anime Sets January 6 Premiere, Adds Hiro Shimono and Megumi Ogata",
           "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9527/",
+          "url": "https://us.oricon-group.com/news/9525/",
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
@@ -5077,11 +5217,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/grotesqqque-anime-film-screens-in-los-angeles-on-december-3-for-1-week-only/.243997",
       "title": "Grotesqqque Anime Film Screens in Los Angeles on December 3 for 1-Week Only",
       "title_language": "en",
-      "score": 38,
+      "score": 34,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 17,
-        "freshness": 68,
+        "freshness": 53,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5106,14 +5246,76 @@
       ]
     },
     {
+      "id": "https://us.oricon-group.com/news/9527/",
+      "title": "My Neighbour Totoro Stage Play Surpasses 1 Million Theatregoers in London, a First for a Japanese Title",
+      "title_language": "en",
+      "score": 33,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 9,
+        "freshness": 60,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-20T02:30:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "My Neighbour Totoro Stage Play Surpasses 1 Million Theatregoers in London, a First for a Japanese Title",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9527/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/19/grotesqqque-anime-anthology-film-gets-one-week-screening-in-la",
+      "title": "GROTESQQQUE Anime Anthology Film Gets One-Week Screening in LA",
+      "title_language": "fr",
+      "score": 33,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 11,
+        "freshness": 55,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-19T23:09:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "GROTESQQQUE Anime Anthology Film Gets One-Week Screening in LA",
+          "title_language": "fr",
+          "url": "https://crunchyroll.com/news/latest/2026/11/19/grotesqqque-anime-anthology-film-gets-one-week-screening-in-la",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/getbackers-manga-gets-comic-anime-from-ai-platform-manganow-studio/.243992",
       "title": "Getbackers Manga Gets Comic Anime From AI Platform MangaNow Studio",
       "title_language": "en",
-      "score": 38,
+      "score": 33,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 63,
+        "freshness": 48,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5138,170 +5340,14 @@
       ]
     },
     {
-      "id": "https://myanimelist.net/news/74957463?_location=rss",
-      "title": "'Shin Oishinbo' Reveals Additional Cast, Staff, Main Promo, Winter 2027 Premiere",
-      "title_language": "en",
-      "score": 38,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 28,
-        "freshness": 53,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-19T10:26:56+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Shin Oishinbo' Reveals Additional Cast, Staff, Main Promo, Winter 2027 Premiere",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74957463?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/19/grotesqqque-anime-anthology-film-gets-one-week-screening-in-la",
-      "title": "GROTESQQQUE Anime Anthology Film Gets One-Week Screening in LA",
-      "title_language": "fr",
-      "score": 37,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 70,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-19T23:09:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "GROTESQQQUE Anime Anthology Film Gets One-Week Screening in LA",
-          "title_language": "fr",
-          "url": "https://crunchyroll.com/news/latest/2026/11/19/grotesqqque-anime-anthology-film-gets-one-week-screening-in-la",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
-      "title": "Omoi Announces Digital Release of Shō Asahina's Tsuyo-Girl Manga in January",
-      "title_language": "en",
-      "score": 37,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 67,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-19T21:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Omoi Announces Digital Release of Shō Asahina's Tsuyo-Girl Manga in January",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/19/omoi-licenses-sho-asahina-tsuyo-girl-taking-charge-manga",
-      "title": "Omoi Licenses Sho Asahina’s Tsuyo-Girl: Taking Charge Manga",
-      "title_language": "en",
-      "score": 37,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 67,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-19T21:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Omoi Licenses Sho Asahina’s Tsuyo-Girl: Taking Charge Manga",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/19/omoi-licenses-sho-asahina-tsuyo-girl-taking-charge-manga",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-19/.243934",
-      "title": "This Week in Anime - Satoshi Mizukami's Anime Adaptations Come Full Spirit Circle",
-      "title_language": "en",
-      "score": 37,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 15,
-        "freshness": 65,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-19T19:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "This Week in Anime - Satoshi Mizukami's Anime Adaptations Come Full Spirit Circle",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-19/.243934",
-          "source": "Anime News Network – All Articles",
-          "feed_sources": [
-            "Anime News Network – All Articles"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://myanimelist.net/news/74958547?_location=rss",
       "title": "Manga 'Kaminaki Sekai no Kamisama Katsudou' Concludes with 14th Volume",
       "title_language": "en",
-      "score": 37,
+      "score": 33,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 62,
+        "freshness": 47,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5325,46 +5371,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-19/criterion-channel-adds-speed-racer-anime/.243995",
-      "title": "Criterion Channel Adds Speed Racer Anime",
+      "id": "https://myanimelist.net/news/74957463?_location=rss",
+      "title": "'Shin Oishinbo' Reveals Additional Cast, Staff, Main Promo, Winter 2027 Premiere",
       "title_language": "en",
-      "score": 36,
+      "score": 33,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 8,
-        "freshness": 69,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-19T22:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Criterion Channel Adds Speed Racer Anime",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-19/criterion-channel-adds-speed-racer-anime/.243995",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74958379?_location=rss",
-      "title": "'Gensou Suikoden' Reveals Additional Cast",
-      "title_language": "en",
-      "score": 36,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 17,
-        "freshness": 61,
+        "relevance": 28,
+        "freshness": 38,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5373,13 +5387,13 @@
       "sources": [
         "MyAnimeList"
       ],
-      "published_at": "2026-11-19T16:22:13+00:00",
+      "published_at": "2026-11-19T10:26:56+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "'Gensou Suikoden' Reveals Additional Cast",
+          "title": "'Shin Oishinbo' Reveals Additional Cast, Staff, Main Promo, Winter 2027 Premiere",
           "title_language": "en",
-          "url": "https://myanimelist.net/news/74958379?_location=rss",
+          "url": "https://myanimelist.net/news/74957463?_location=rss",
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
             "MyAnimeList News – RSS"
@@ -5391,11 +5405,11 @@
       "id": "https://us.oricon-group.com/news/9512/",
       "title": "Soara and the House of Monsters Anime Reveals New Cast and Teaser Visual for 2027",
       "title_language": "en",
-      "score": 35,
+      "score": 32,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 8,
+        "freshness": 0,
         "independent_sources": 2,
         "article_volume": 2
       },
@@ -5429,14 +5443,171 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-19/this-world-is-worth-fighting-for-manga-gets-live-action-series/.243996",
-      "title": "This World is Worth Fighting For Manga Gets Live-Action Series",
+      "id": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
+      "title": "Omoi Announces Digital Release of Shō Asahina's Tsuyo-Girl Manga in January",
       "title_language": "en",
-      "score": 35,
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 52,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-19T21:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Omoi Announces Digital Release of Shō Asahina's Tsuyo-Girl Manga in January",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-19/omoi-announces-digital-release-of-sho-asahina-tsuyo-girl-manga-in-january/.243981",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/19/omoi-licenses-sho-asahina-tsuyo-girl-taking-charge-manga",
+      "title": "Omoi Licenses Sho Asahina’s Tsuyo-Girl: Taking Charge Manga",
+      "title_language": "en",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 52,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-19T21:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Omoi Licenses Sho Asahina’s Tsuyo-Girl: Taking Charge Manga",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/19/omoi-licenses-sho-asahina-tsuyo-girl-taking-charge-manga",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-19/.243934",
+      "title": "This Week in Anime - Satoshi Mizukami's Anime Adaptations Come Full Spirit Circle",
+      "title_language": "en",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 15,
+        "freshness": 50,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-19T19:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "This Week in Anime - Satoshi Mizukami's Anime Adaptations Come Full Spirit Circle",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-19/.243934",
+          "source": "Anime News Network – All Articles",
+          "feed_sources": [
+            "Anime News Network – All Articles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74958379?_location=rss",
+      "title": "'Gensou Suikoden' Reveals Additional Cast",
+      "title_language": "en",
+      "score": 32,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 17,
+        "freshness": 46,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-19T16:22:13+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'Gensou Suikoden' Reveals Additional Cast",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74958379?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-19/criterion-channel-adds-speed-racer-anime/.243995",
+      "title": "Criterion Channel Adds Speed Racer Anime",
+      "title_language": "en",
+      "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 67,
+        "freshness": 54,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-19T22:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Criterion Channel Adds Speed Racer Anime",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-19/criterion-channel-adds-speed-racer-anime/.243995",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-19/this-world-is-worth-fighting-for-manga-gets-live-action-series/.243996",
+      "title": "This World is Worth Fighting For Manga Gets Live-Action Series",
+      "title_language": "en",
+      "score": 31,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 52,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5464,11 +5635,11 @@
       "id": "https://www.animenewsnetwork.com/review/gachiakuta-dumpster-season-1/manga-box-set/.243533",
       "title": "Gachiakuta Dumpster Season 1 (Vol 1-10) Manga Box Set Review",
       "title_language": "en",
-      "score": 35,
+      "score": 31,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 12,
-        "freshness": 62,
+        "freshness": 47,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5495,11 +5666,11 @@
       "id": "https://us.oricon-group.com/news/9522/",
       "title": "Firefly Wedding Episode 7 Story & Preview Stills Released: The Demon and the Heart",
       "title_language": "en",
-      "score": 35,
+      "score": 30,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 56,
+        "freshness": 41,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -5535,11 +5706,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/19/i-lost-my-adventurers-license-but-its-fine-because-i-have-an-adorable-daughter-now-anime-january-7-release-date-main-trailer-visual",
       "title": "I Lost My Adventurer's License, but It's Fine Because I Have an Adorable Daughter Now Anime Reveals Premiere Date, Opening Theme Song in New Trailer",
       "title_language": "en",
-      "score": 35,
+      "score": 30,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 18,
-        "freshness": 54,
+        "freshness": 39,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5566,11 +5737,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/19/new-oishinbo-tv-anime-january-4-2027-release-date-main-trailer-key-visual",
       "title": "New Oishinbo TV Anime Releases New Trailer, Key Visual",
       "title_language": "en",
-      "score": 34,
+      "score": 29,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 17,
-        "freshness": 52,
+        "freshness": 37,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5597,11 +5768,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/shin-oishinbo-anime-reveals-more-cast-staff-january-4-debut-in-main-trailer/.243985",
       "title": "Shin Oishinbo Anime Reveals More Cast, Staff, January 4 Debut in Main Trailer",
       "title_language": "en",
-      "score": 33,
+      "score": 28,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 53,
+        "freshness": 38,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5625,46 +5796,14 @@
       ]
     },
     {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-19/wixoss-tcg-to-end-new-production-in-february-2027/.243990",
-      "title": "WIXOSS TCG to End New Production in February 2027",
-      "title_language": "en",
-      "score": 32,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 4,
-        "freshness": 60,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-19T16:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "WIXOSS TCG to End New Production in February 2027",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-19/wixoss-tcg-to-end-new-production-in-february-2027/.243990",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://myanimelist.net/news/74957381?_location=rss",
       "title": "'Boukensha License wo Hakudatsu sareta Ossan dakedo' Unveils Additional Staff, Opening Theme, First Promo",
       "title_language": "en",
-      "score": 32,
+      "score": 28,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 13,
-        "freshness": 52,
+        "freshness": 37,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5691,11 +5830,11 @@
       "id": "https://us.oricon-group.com/news/9519/",
       "title": "Spice and Wolf Season 2 Premieres in January 2027 With New Key Visual and Character Designs",
       "title_language": "en",
-      "score": 32,
+      "score": 28,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 22,
-        "freshness": 41,
+        "freshness": 26,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5719,14 +5858,46 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-19/wixoss-tcg-to-end-new-production-in-february-2027/.243990",
+      "title": "WIXOSS TCG to End New Production in February 2027",
+      "title_language": "en",
+      "score": 27,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 4,
+        "freshness": 45,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-19T16:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "WIXOSS TCG to End New Production in February 2027",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-19/wixoss-tcg-to-end-new-production-in-february-2027/.243990",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – All Articles",
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/fatal-fury-city-of-the-wolves-game-new-animated-trailer-by-masami-obari-features-laocorn/.243989",
       "title": "Fatal Fury City of the Wolves Game's New Animated Trailer by Masami Ōbari Features Laocorn",
       "title_language": "en",
-      "score": 31,
+      "score": 27,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 58,
+        "freshness": 43,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5754,11 +5925,11 @@
       "id": "https://crunchyroll.com/news/latest/2026/11/19/predator-witches-audiobook-seven-seas",
       "title": "Predator Witches Audiobook and More Coming from Seven Seas",
       "title_language": "en",
-      "score": 31,
+      "score": 27,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 5,
-        "freshness": 57,
+        "freshness": 42,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5785,11 +5956,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/i-lost-my-adventurer-license-anime-main-promo-video-reveals-more-staff-opening-song-artist-january-/.243986",
       "title": "I Lost My Adventurer's License Anime's Main Promo Video Reveals More Staff, Opening Song Artist, January 7 Debut",
       "title_language": "en",
-      "score": 31,
+      "score": 27,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 54,
+        "freshness": 39,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5807,7 +5978,6 @@
           "url": "https://www.animenewsnetwork.com/news/2026-11-19/i-lost-my-adventurer-license-anime-main-promo-video-reveals-more-staff-opening-song-artist-january-/.243986",
           "source": "Anime News Network – News",
           "feed_sources": [
-            "Anime News Network – All Articles",
             "Anime News Network – News"
           ]
         }
@@ -5817,11 +5987,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/magic-knight-rayearth-anime-casts-hikaru-midorikawa-koji-yusa/.243984",
       "title": "Magic Knight Rayearth Anime Casts Hikaru Midorikawa, Kōji Yusa",
       "title_language": "en",
-      "score": 31,
+      "score": 26,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 53,
+        "freshness": 38,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5839,38 +6009,6 @@
           "url": "https://www.animenewsnetwork.com/news/2026-11-19/magic-knight-rayearth-anime-casts-hikaru-midorikawa-koji-yusa/.243984",
           "source": "Anime News Network – News",
           "feed_sources": [
-            "Anime News Network – All Articles",
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/daily-briefs/2026-11-19/monthly-corocoro-comic-magazine-to-release-digital-version-1-week-after-print-version/.243969",
-      "title": "Monthly CoroCoro Comic Magazine to Release Digital Version 1 Week After Print Version",
-      "title_language": "en",
-      "score": 31,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 9,
-        "freshness": 51,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-19T08:55:48+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Monthly CoroCoro Comic Magazine to Release Digital Version 1 Week After Print Version",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/daily-briefs/2026-11-19/monthly-corocoro-comic-magazine-to-release-digital-version-1-week-after-print-version/.243969",
-          "source": "Anime News Network – News",
-          "feed_sources": [
             "Anime News Network – News"
           ]
         }
@@ -5880,11 +6018,11 @@
       "id": "https://www.animenewsnetwork.com/news/2026-11-19/the-reincarnated-elf-left-on-a-journey-to-master-his-magic-anime-new-video-reveals-more-cast-staff-/.243936",
       "title": "The Reincarnated Elf Left on a Journey to Master His Magic Anime's New Video Reveals More Cast/Staff, Theme Songs, December 30 Streaming Debut",
       "title_language": "en",
-      "score": 30,
+      "score": 26,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 8,
-        "freshness": 51,
+        "freshness": 36,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -5908,14 +6046,45 @@
       ]
     },
     {
+      "id": "https://www.animenewsnetwork.com/daily-briefs/2026-11-19/monthly-corocoro-comic-magazine-to-release-digital-version-1-week-after-print-version/.243969",
+      "title": "Monthly CoroCoro Comic Magazine to Release Digital Version 1 Week After Print Version",
+      "title_language": "en",
+      "score": 26,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 9,
+        "freshness": 36,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-19T08:55:48+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Monthly CoroCoro Comic Magazine to Release Digital Version 1 Week After Print Version",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/daily-briefs/2026-11-19/monthly-corocoro-comic-magazine-to-release-digital-version-1-week-after-print-version/.243969",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://us.oricon-group.com/news/9513/",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 9 Story & Preview Stills Released: Frightening Monsters, Part 1",
       "title_language": "en",
-      "score": 29,
+      "score": 25,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 6,
-        "freshness": 38,
+        "freshness": 23,
         "independent_sources": 1,
         "article_volume": 2
       },
@@ -5943,449 +6112,6 @@
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
-      "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 11,
-        "freshness": 40,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-19T01:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/peropero-sparkles-anime-premiere-date",
-      "title": "Peropero Sparkles Anime Premieres on January 10",
-      "title_language": "en",
-      "score": 28,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 23,
-        "freshness": 25,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-18T14:44:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Peropero Sparkles Anime Premieres on January 10",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/peropero-sparkles-anime-premiere-date",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-18/blood-addict-manga-ends/.243919",
-      "title": "Blood Addict Manga Ends",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 40,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-19T01:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Blood Addict Manga Ends",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-18/blood-addict-manga-ends/.243919",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-18/k-manga-adds-godmother-manga/.243918",
-      "title": "K Manga Adds Godmother Manga",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 38,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-19T00:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "K Manga Adds Godmother Manga",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-18/k-manga-adds-godmother-manga/.243918",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/kuku-loop-the-100th-times-the-charm-anime-2027-premiere-main-staff-cast-visual",
-      "title": "KUKU-LOOP: The 100th Time’s the Charm TV Anime Debuts in 2027",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 20,
-        "freshness": 25,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-18T14:35:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "KUKU-LOOP: The 100th Time’s the Charm TV Anime Debuts in 2027",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/kuku-loop-the-100th-times-the-charm-anime-2027-premiere-main-staff-cast-visual",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/armored-trooper-votoms-die-graue-hexe-anime-film-shares-9-minutes-of-footage",
-      "title": "Armored Trooper VOTOMS: Die Graue Hexe Anime Film Shares 9 Minutes of Footage",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 20,
-        "freshness": 25,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-18T14:17:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Armored Trooper VOTOMS: Die Graue Hexe Anime Film Shares 9 Minutes of Footage",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/armored-trooper-votoms-die-graue-hexe-anime-film-shares-9-minutes-of-footage",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74953973?_location=rss",
-      "title": "'99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei' Reveals Main Cast, Staff, 2027 Premiere",
-      "title_language": "en",
-      "score": 27,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 25,
-        "freshness": 21,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-18T11:26:53+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei' Reveals Main Cast, Staff, 2027 Premiere",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74953973?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/19/the-idolmaster-cinderella-girls-15th-anniversary-song-music-video",
-      "title": "THE iDOLM@STER CINDERELLA GIRLS Releases 15th Anniversary Song Music Video",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 4,
-        "freshness": 40,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-19T01:24:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "THE iDOLM@STER CINDERELLA GIRLS Releases 15th Anniversary Song Music Video",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/19/the-idolmaster-cinderella-girls-15th-anniversary-song-music-video",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-18/hiromasa-okujima-announces-1st-original-boys-love-manga/.243958",
-      "title": "Hiromasa Okujima Announces 1st Original Boys-Love Manga",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 37,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-18T23:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Hiromasa Okujima Announces 1st Original Boys-Love Manga",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-18/hiromasa-okujima-announces-1st-original-boys-love-manga/.243958",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.animenewsnetwork.com/news/2026-11-18/duel-masters-gt-manga-gets-4th-part/.243957",
-      "title": "Duel Masters GT Manga Gets 4th Part",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 8,
-        "freshness": 35,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "published_at": "2026-11-18T22:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Duel Masters GT Manga Gets 4th Part",
-          "title_language": "en",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-18/duel-masters-gt-manga-gets-4th-part/.243957",
-          "source": "Anime News Network – News",
-          "feed_sources": [
-            "Anime News Network – News"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/features/2026/11/18/spirit-circle-anime-adaptation-excitement",
-      "title": "Get Ready for Satoshi Mizukami’s Stunning Spirit Circle!",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 15,
-        "freshness": 27,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-18T16:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Get Ready for Satoshi Mizukami’s Stunning Spirit Circle!",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/features/2026/11/18/spirit-circle-anime-adaptation-excitement",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://us.oricon-group.com/news/9514/",
-      "title": "The Ramparts of Ice Season 2 Episode 22 Story & Preview Stills Released: A Turning Point",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 10,
-        "freshness": 23,
-        "independent_sources": 1,
-        "article_volume": 2
-      },
-      "article_count": 2,
-      "source_count": 1,
-      "sources": [
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-18T13:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "The Ramparts of Ice Season 2 Episode 22 Story & Preview Stills Released: A Turning Point",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9514/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        },
-        {
-          "title": "The Ramparts of Ice Season 2 Episode 21 Story & Preview Stills Released: Lack of Understanding",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9493/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74952442?_location=rss",
-      "title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo",
-      "title_language": "en",
-      "score": 26,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 28,
-        "freshness": 12,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-18T04:58:59+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74952442?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://myanimelist.net/news/74951901?_location=rss",
-      "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
-      "title_language": "en",
-      "score": 25,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 29,
-        "freshness": 8,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MyAnimeList"
-      ],
-      "published_at": "2026-11-18T02:00:06+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
-          "title_language": "en",
-          "url": "https://myanimelist.net/news/74951901?_location=rss",
-          "source": "MyAnimeList News – RSS",
-          "feed_sources": [
-            "MyAnimeList News – RSS"
           ]
         }
       ]
@@ -6422,14 +6148,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/inu-x-boku-secret-service-anime-15th-anniversary-visual",
-      "title": "Inu x Boku Secret Service Anime Celebrates 15th Anniversary with New Visual",
+      "id": "https://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
+      "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
       "title_language": "en",
-      "score": 24,
+      "score": 23,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 10,
-        "freshness": 26,
+        "relevance": 11,
+        "freshness": 25,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6438,13 +6164,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-18T15:19:00+00:00",
+      "published_at": "2026-11-19T01:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Inu x Boku Secret Service Anime Celebrates 15th Anniversary with New Visual",
+          "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 to Stream on Crunchyroll",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/inu-x-boku-secret-service-anime-15th-anniversary-visual",
+          "url": "https://crunchyroll.com/news/announcements/2026/11/19/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-stream-crunchyroll",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6453,29 +6179,255 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9518/",
-      "title": "Kingdom Manga Surpasses 130 Million Copies in Circulation as Volume 81 Arrives",
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/peropero-sparkles-anime-premiere-date",
+      "title": "Peropero Sparkles Anime Premieres on January 10",
       "title_language": "en",
-      "score": 24,
+      "score": 23,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 20,
-        "freshness": 17,
+        "relevance": 23,
+        "freshness": 10,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "ORICON / Japan Anime News"
+        "Crunchyroll"
       ],
-      "published_at": "2026-11-18T08:30:00+00:00",
+      "published_at": "2026-11-18T14:44:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Kingdom Manga Surpasses 130 Million Copies in Circulation as Volume 81 Arrives",
+          "title": "Peropero Sparkles Anime Premieres on January 10",
           "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9518/",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/peropero-sparkles-anime-premiere-date",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74953973?_location=rss",
+      "title": "'99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei' Reveals Main Cast, Staff, 2027 Premiere",
+      "title_language": "en",
+      "score": 23,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 25,
+        "freshness": 6,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-18T11:26:53+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'99-kai Danzai sareta Loop Reijou desu ga Konse wa \"Chouzetsu Aisare Mode\" desu tte!? Shin no Chikara ni Mezamete Hajimaru 100-kaime no Jinsei' Reveals Main Cast, Staff, 2027 Premiere",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74953973?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-18/blood-addict-manga-ends/.243919",
+      "title": "Blood Addict Manga Ends",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 25,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-19T01:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Blood Addict Manga Ends",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-18/blood-addict-manga-ends/.243919",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-18/k-manga-adds-godmother-manga/.243918",
+      "title": "K Manga Adds Godmother Manga",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 23,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "K Manga Adds Godmother Manga",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-18/k-manga-adds-godmother-manga/.243918",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.animenewsnetwork.com/news/2026-11-18/hiromasa-okujima-announces-1st-original-boys-love-manga/.243958",
+      "title": "Hiromasa Okujima Announces 1st Original Boys-Love Manga",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 22,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "published_at": "2026-11-18T23:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Hiromasa Okujima Announces 1st Original Boys-Love Manga",
+          "title_language": "en",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-18/hiromasa-okujima-announces-1st-original-boys-love-manga/.243958",
+          "source": "Anime News Network – News",
+          "feed_sources": [
+            "Anime News Network – News"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/kuku-loop-the-100th-times-the-charm-anime-2027-premiere-main-staff-cast-visual",
+      "title": "KUKU-LOOP: The 100th Time’s the Charm TV Anime Debuts in 2027",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 20,
+        "freshness": 10,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-18T14:35:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "KUKU-LOOP: The 100th Time’s the Charm TV Anime Debuts in 2027",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/kuku-loop-the-100th-times-the-charm-anime-2027-premiere-main-staff-cast-visual",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/armored-trooper-votoms-die-graue-hexe-anime-film-shares-9-minutes-of-footage",
+      "title": "Armored Trooper VOTOMS: Die Graue Hexe Anime Film Shares 9 Minutes of Footage",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 20,
+        "freshness": 10,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-18T14:17:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Armored Trooper VOTOMS: Die Graue Hexe Anime Film Shares 9 Minutes of Footage",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/armored-trooper-votoms-die-graue-hexe-anime-film-shares-9-minutes-of-footage",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://us.oricon-group.com/news/9514/",
+      "title": "The Ramparts of Ice Season 2 Episode 22 Story & Preview Stills Released: A Turning Point",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 8,
+        "independent_sources": 1,
+        "article_volume": 2
+      },
+      "article_count": 2,
+      "source_count": 1,
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-18T13:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "The Ramparts of Ice Season 2 Episode 22 Story & Preview Stills Released: A Turning Point",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9514/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        },
+        {
+          "title": "The Ramparts of Ice Season 2 Episode 21 Story & Preview Stills Released: Lack of Understanding",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9493/",
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
@@ -6484,14 +6436,76 @@
       ]
     },
     {
-      "id": "https://myanimelist.net/news/74951722?_location=rss",
-      "title": "'Soara to Mamono no Ie' Announces Additional Cast Pair",
+      "id": "https://myanimelist.net/news/74952442?_location=rss",
+      "title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo",
       "title_language": "en",
-      "score": 24,
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 28,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-18T04:58:59+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'Isekai Munchkin' Reveals New Staff, Theme Songs, Second Promo",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74952442?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74951901?_location=rss",
+      "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
+      "title_language": "en",
+      "score": 22,
       "priority": "veille",
       "score_breakdown": {
         "relevance": 29,
-        "freshness": 7,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "MyAnimeList"
+      ],
+      "published_at": "2026-11-18T02:00:06+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "'Sakamoto Days 2nd Season' Unveils Additional Cast, Opening Theme, First Promo",
+          "title_language": "en",
+          "url": "https://myanimelist.net/news/74951901?_location=rss",
+          "source": "MyAnimeList News – RSS",
+          "feed_sources": [
+            "MyAnimeList News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://myanimelist.net/news/74951722?_location=rss",
+      "title": "'Soara to Mamono no Ie' Announces Additional Cast Pair",
+      "title_language": "en",
+      "score": 22,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 29,
+        "freshness": 0,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6510,68 +6524,6 @@
           "source": "MyAnimeList News – RSS",
           "feed_sources": [
             "MyAnimeList News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/otherworldly-munchkin-lets-speedrun-the-dungeon-with-only-1-hp-anime-january-7-2027-release-date-trailer-key-visual-theme-songs",
-      "title": "Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP! Anime Trailer Reveals Premiere Date, Theme Songs",
-      "title_language": "en",
-      "score": 22,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 20,
-        "freshness": 9,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-18T03:01:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP! Anime Trailer Reveals Premiere Date, Theme Songs",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/otherworldly-munchkin-lets-speedrun-the-dungeon-with-only-1-hp-anime-january-7-2027-release-date-trailer-key-visual-theme-songs",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/sakamoto-days-season-2-anime-creepy-nuts-opening-theme-song-trailer",
-      "title": "Sakamoto Days Season 2 Anime Trailer Reveals Premiere Date, Creepy Nuts Opening Theme Song",
-      "title_language": "en",
-      "score": 22,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 22,
-        "freshness": 8,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-18T02:03:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Sakamoto Days Season 2 Anime Trailer Reveals Premiere Date, Creepy Nuts Opening Theme Song",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/sakamoto-days-season-2-anime-creepy-nuts-opening-theme-song-trailer",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -6670,14 +6622,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-january-2027-premiere-key-visual",
-      "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 Reveals January 2027 Premiere",
+      "id": "https://crunchyroll.com/news/latest/2026/11/19/the-idolmaster-cinderella-girls-15th-anniversary-song-music-video",
+      "title": "THE iDOLM@STER CINDERELLA GIRLS Releases 15th Anniversary Song Music Video",
       "title_language": "en",
       "score": 21,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 9,
-        "freshness": 19,
+        "relevance": 4,
+        "freshness": 25,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6686,13 +6638,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-18T10:11:00+00:00",
+      "published_at": "2026-11-19T01:24:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 Reveals January 2027 Premiere",
+          "title": "THE iDOLM@STER CINDERELLA GIRLS Releases 15th Anniversary Song Music Video",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-january-2027-premiere-key-visual",
+          "url": "https://crunchyroll.com/news/latest/2026/11/19/the-idolmaster-cinderella-girls-15th-anniversary-song-music-video",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6701,32 +6653,32 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9515/",
-      "title": "Otherworldly Munchkin Anime Premieres January 7, 2027; New PV and Theme Songs Revealed",
+      "id": "https://crunchyroll.com/news/features/2026/11/18/spirit-circle-anime-adaptation-excitement",
+      "title": "Get Ready for Satoshi Mizukami’s Stunning Spirit Circle!",
       "title_language": "en",
       "score": 21,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 17,
-        "freshness": 10,
+        "relevance": 15,
+        "freshness": 12,
         "independent_sources": 1,
         "article_volume": 1
       },
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "ORICON / Japan Anime News"
+        "Crunchyroll"
       ],
-      "published_at": "2026-11-18T03:30:00+00:00",
+      "published_at": "2026-11-18T16:00:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Otherworldly Munchkin Anime Premieres January 7, 2027; New PV and Theme Songs Revealed",
+          "title": "Get Ready for Satoshi Mizukami’s Stunning Spirit Circle!",
           "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9515/",
-          "source": "Japan Anime News – ORICON RSS",
+          "url": "https://crunchyroll.com/news/features/2026/11/18/spirit-circle-anime-adaptation-excitement",
+          "source": "Crunchyroll News – RSS",
           "feed_sources": [
-            "Japan Anime News – ORICON RSS"
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -6763,14 +6715,14 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9517/",
-      "title": "Dragon Ball Super: Beerus Teases Frieza's Return, Sparks Fan Reactions",
+      "id": "https://us.oricon-group.com/news/9518/",
+      "title": "Kingdom Manga Surpasses 130 Million Copies in Circulation as Volume 81 Arrives",
       "title_language": "en",
-      "score": 19,
+      "score": 20,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 6,
-        "freshness": 16,
+        "relevance": 20,
+        "freshness": 2,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6779,13 +6731,13 @@
       "sources": [
         "ORICON / Japan Anime News"
       ],
-      "published_at": "2026-11-18T08:00:00+00:00",
+      "published_at": "2026-11-18T08:30:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Dragon Ball Super: Beerus Teases Frieza's Return, Sparks Fan Reactions",
+          "title": "Kingdom Manga Surpasses 130 Million Copies in Circulation as Volume 81 Arrives",
           "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9517/",
+          "url": "https://us.oricon-group.com/news/9518/",
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
@@ -6794,45 +6746,14 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9516/",
-      "title": "SAKAMOTO DAYS Season 2 Premieres January 18, 2027; Creepy Nuts Opening and New PV Revealed",
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/sakamoto-days-season-2-anime-creepy-nuts-opening-theme-song-trailer",
+      "title": "Sakamoto Days Season 2 Anime Trailer Reveals Premiere Date, Creepy Nuts Opening Theme Song",
       "title_language": "en",
-      "score": 19,
+      "score": 20,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 9,
-        "freshness": 10,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-18T04:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "SAKAMOTO DAYS Season 2 Premieres January 18, 2027; Creepy Nuts Opening and New PV Revealed",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9516/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/yaiba-samurai-legend-season-2-anime-chico-with-honeyworks-opening-theme-song",
-      "title": "YAIBA: Samurai Legend Season 2 Anime Reveals Opening Theme Song, Gekko Cast",
-      "title_language": "en",
-      "score": 19,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 12,
-        "freshness": 10,
+        "relevance": 22,
+        "freshness": 0,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -6841,13 +6762,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-18T03:32:00+00:00",
+      "published_at": "2026-11-18T02:03:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "YAIBA: Samurai Legend Season 2 Anime Reveals Opening Theme Song, Gekko Cast",
+          "title": "Sakamoto Days Season 2 Anime Trailer Reveals Premiere Date, Creepy Nuts Opening Theme Song",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/yaiba-samurai-legend-season-2-anime-chico-with-honeyworks-opening-theme-song",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/sakamoto-days-season-2-anime-creepy-nuts-opening-theme-song-trailer",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6856,8 +6777,39 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/17/the-fable-season-2-anime-christmas-visual",
-      "title": "The Fable Season 2 Anime Prepares for the Holidays with New Visual",
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/inu-x-boku-secret-service-anime-15th-anniversary-visual",
+      "title": "Inu x Boku Secret Service Anime Celebrates 15th Anniversary with New Visual",
+      "title_language": "en",
+      "score": 19,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 10,
+        "freshness": 11,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-18T15:19:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Inu x Boku Secret Service Anime Celebrates 15th Anniversary with New Visual",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/inu-x-boku-secret-service-anime-15th-anniversary-visual",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/otherworldly-munchkin-lets-speedrun-the-dungeon-with-only-1-hp-anime-january-7-2027-release-date-trailer-key-visual-theme-songs",
+      "title": "Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP! Anime Trailer Reveals Premiere Date, Theme Songs",
       "title_language": "en",
       "score": 19,
       "priority": "veille",
@@ -6872,44 +6824,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-17T16:30:00+00:00",
+      "published_at": "2026-11-18T03:01:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "The Fable Season 2 Anime Prepares for the Holidays with New Visual",
+          "title": "Otherworldly Munchkin: Let's Speedrun the Dungeon with Only 1 HP! Anime Trailer Reveals Premiere Date, Theme Songs",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/17/the-fable-season-2-anime-christmas-visual",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/17/josemaru-short-anime-premiere-date-trailer-cast",
-      "title": "Josemaru Short Anime Debuts on January 10",
-      "title_language": "en",
-      "score": 19,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 18,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Crunchyroll"
-      ],
-      "published_at": "2026-11-17T13:18:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "Josemaru Short Anime Debuts on January 10",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/17/josemaru-short-anime-premiere-date-trailer-cast",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/otherworldly-munchkin-lets-speedrun-the-dungeon-with-only-1-hp-anime-january-7-2027-release-date-trailer-key-visual-theme-songs",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -6949,39 +6870,8 @@
       ]
     },
     {
-      "id": "https://us.oricon-group.com/news/9490/",
-      "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
-      "title_language": "en",
-      "score": 19,
-      "priority": "veille",
-      "score_breakdown": {
-        "relevance": 20,
-        "freshness": 0,
-        "independent_sources": 1,
-        "article_volume": 1
-      },
-      "article_count": 1,
-      "source_count": 1,
-      "sources": [
-        "ORICON / Japan Anime News"
-      ],
-      "published_at": "2026-11-10T13:00:00+00:00",
-      "status": "signal à surveiller",
-      "articles": [
-        {
-          "title": "My Death Flags Show No Sign of Ending TV Anime Announced for 2027",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9490/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://crunchyroll.com/news/latest/2026/11/17/suikoden-the-anime-ending-theme-song-music-video",
-      "title": "Suikoden: The Anime Shares Ending Theme Song Music Video",
+      "id": "https://us.oricon-group.com/news/9515/",
+      "title": "Otherworldly Munchkin Anime Premieres January 7, 2027; New PV and Theme Songs Revealed",
       "title_language": "en",
       "score": 18,
       "priority": "veille",
@@ -6994,18 +6884,18 @@
       "article_count": 1,
       "source_count": 1,
       "sources": [
-        "Crunchyroll"
+        "ORICON / Japan Anime News"
       ],
-      "published_at": "2026-11-17T13:03:00+00:00",
+      "published_at": "2026-11-18T03:30:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Suikoden: The Anime Shares Ending Theme Song Music Video",
+          "title": "Otherworldly Munchkin Anime Premieres January 7, 2027; New PV and Theme Songs Revealed",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/17/suikoden-the-anime-ending-theme-song-music-video",
-          "source": "Crunchyroll News – RSS",
+          "url": "https://us.oricon-group.com/news/9515/",
+          "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
-            "Crunchyroll News – RSS"
+            "Japan Anime News – ORICON RSS"
           ]
         }
       ]
@@ -7073,14 +6963,14 @@
       ]
     },
     {
-      "id": "https://crunchyroll.com/news/latest/2026/11/18/super-psychic-policeman-chojo-anime-chinjuku-sentai-chinranger-lyric-video",
-      "title": "Super Psychic Policeman Chojo Anime Shares \"Chinjuku Sentai Chinranger\" Lyric Video",
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-january-2027-premiere-key-visual",
+      "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 Reveals January 2027 Premiere",
       "title_language": "en",
       "score": 17,
       "priority": "veille",
       "score_breakdown": {
-        "relevance": 8,
-        "freshness": 7,
+        "relevance": 9,
+        "freshness": 4,
         "independent_sources": 1,
         "article_volume": 1
       },
@@ -7089,13 +6979,13 @@
       "sources": [
         "Crunchyroll"
       ],
-      "published_at": "2026-11-18T01:36:00+00:00",
+      "published_at": "2026-11-18T10:11:00+00:00",
       "status": "signal à surveiller",
       "articles": [
         {
-          "title": "Super Psychic Policeman Chojo Anime Shares \"Chinjuku Sentai Chinranger\" Lyric Video",
+          "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF Season 2 Reveals January 2027 Premiere",
           "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/18/super-psychic-policeman-chojo-anime-chinjuku-sentai-chinranger-lyric-video",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/spice-and-wolf-merchant-meets-the-wise-wolf-season-2-january-2027-premiere-key-visual",
           "source": "Crunchyroll News – RSS",
           "feed_sources": [
             "Crunchyroll News – RSS"
@@ -7161,6 +7051,37 @@
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/yaiba-samurai-legend-season-2-anime-chico-with-honeyworks-opening-theme-song",
+      "title": "YAIBA: Samurai Legend Season 2 Anime Reveals Opening Theme Song, Gekko Cast",
+      "title_language": "en",
+      "score": 16,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 12,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-18T03:32:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "YAIBA: Samurai Legend Season 2 Anime Reveals Opening Theme Song, Gekko Cast",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/yaiba-samurai-legend-season-2-anime-chico-with-honeyworks-opening-theme-song",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
           ]
         }
       ]
@@ -7285,6 +7206,99 @@
           "source": "Japan Anime News – ORICON RSS",
           "feed_sources": [
             "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://us.oricon-group.com/news/9517/",
+      "title": "Dragon Ball Super: Beerus Teases Frieza's Return, Sparks Fan Reactions",
+      "title_language": "en",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 6,
+        "freshness": 1,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Dragon Ball Super: Beerus Teases Frieza's Return, Sparks Fan Reactions",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9517/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://us.oricon-group.com/news/9516/",
+      "title": "SAKAMOTO DAYS Season 2 Premieres January 18, 2027; Creepy Nuts Opening and New PV Revealed",
+      "title_language": "en",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 9,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "ORICON / Japan Anime News"
+      ],
+      "published_at": "2026-11-18T04:00:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "SAKAMOTO DAYS Season 2 Premieres January 18, 2027; Creepy Nuts Opening and New PV Revealed",
+          "title_language": "en",
+          "url": "https://us.oricon-group.com/news/9516/",
+          "source": "Japan Anime News – ORICON RSS",
+          "feed_sources": [
+            "Japan Anime News – ORICON RSS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://crunchyroll.com/news/latest/2026/11/18/super-psychic-policeman-chojo-anime-chinjuku-sentai-chinranger-lyric-video",
+      "title": "Super Psychic Policeman Chojo Anime Shares \"Chinjuku Sentai Chinranger\" Lyric Video",
+      "title_language": "en",
+      "score": 15,
+      "priority": "veille",
+      "score_breakdown": {
+        "relevance": 8,
+        "freshness": 0,
+        "independent_sources": 1,
+        "article_volume": 1
+      },
+      "article_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Crunchyroll"
+      ],
+      "published_at": "2026-11-18T01:36:00+00:00",
+      "status": "signal à surveiller",
+      "articles": [
+        {
+          "title": "Super Psychic Policeman Chojo Anime Shares \"Chinjuku Sentai Chinranger\" Lyric Video",
+          "title_language": "en",
+          "url": "https://crunchyroll.com/news/latest/2026/11/18/super-psychic-policeman-chojo-anime-chinjuku-sentai-chinranger-lyric-video",
+          "source": "Crunchyroll News – RSS",
+          "feed_sources": [
+            "Crunchyroll News – RSS"
           ]
         }
       ]
