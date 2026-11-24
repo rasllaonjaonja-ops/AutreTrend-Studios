@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-23T23:57:47.575400+00:00",
+  "checked_at": "2026-11-24T09:59:02.923375+00:00",
   "checked_articles": 25,
-  "official_link_found": 1,
+  "official_link_found": 2,
   "errors": [],
   "checks": [
     {
@@ -39,13 +39,29 @@
       "page_title": "'Psyren' Announces Supporting Cast - MyAnimeList.net"
     },
     {
-      "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 [Update 11/23]",
+      "title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 [Update 11/24]",
       "article_url": "https://myanimelist.net/news/74960793?_location=rss",
       "publisher": "MyAnimeList",
       "published_at": "2026-11-20T09:42:04+00:00",
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 [Update 11/23] - MyAnimeList.net"
+      "page_title": "Manga 'Jimoto no Ijimekko-tachi ni Shikaeshi Shiyou to Shitara, Betsu no Tatakai ga Hajimatta.' Gets TV Anime in 2027 [Update 11/24] - MyAnimeList.net"
+    },
+    {
+      "title": "'Mahoutsukai no Yoru' Sequel Anime Announced",
+      "article_url": "https://myanimelist.net/news/74975780?_location=rss",
+      "publisher": "MyAnimeList",
+      "published_at": "2026-11-24T07:21:33+00:00",
+      "official_evidence": [
+        {
+          "url": "https://www.kadokawa.co.jp/product/322607000748/",
+          "domain": "www.kadokawa.co.jp",
+          "link_text": "Mahoutsukai no Yoru: Witch Records",
+          "evidence_type": "lien externe vers un domaine de première partie répertorié"
+        }
+      ],
+      "status": "lien de première partie repéré — contenu à contrôler",
+      "page_title": "'Mahoutsukai no Yoru' Sequel Anime Announced - MyAnimeList.net"
     },
     {
       "title": "'Zatsuyou Fuyo Jutsushi ga Jibun no Saikyou ni Kizuku made' Announces Additional Cast",
@@ -66,15 +82,6 @@
       "page_title": "The Days of Diamond TV Anime Announced | Japan Anime News powered by ORICON NEWS"
     },
     {
-      "title": "Nanatsu-ya: Shinobu and Her Jewelry Box Anime to Air in 2027, Teaser PV and Visual Revealed",
-      "article_url": "https://us.oricon-group.com/news/9494/",
-      "publisher": "ORICON / Japan Anime News",
-      "published_at": "2026-11-12T02:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Nanatsu-ya: Shinobu and Her Jewelry Box Anime to Air in 2027, Teaser PV and Visual Revealed | Japan Anime News powered by ORICON NEWS"
-    },
-    {
       "title": "Chainsaw Man Ranks #2 on Bookscan's October Adult Graphic Novel List in U.S.",
       "article_url": "https://www.animenewsnetwork.com/news/2026-11-22/chainsaw-man-ranks-no.2-on-bookscan-october-adult-graphic-novel-list-in-u.s/.244062",
       "publisher": "Anime News Network",
@@ -93,15 +100,6 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "North American Anime, Manga Releases, November 15-21",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-20/north-american-anime-manga-releases-november-15-21/.243879",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-20T22:00:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "North American Anime, Manga Releases, November 15-21 - News [2026-11-20] - Anime News Network"
-    },
-    {
       "title": "Wandance Live-Action Movie Releases Manga Collaboration Trailer",
       "article_url": "https://crunchyroll.com/news/latest/2026/11/20/wandance-live-action-movie-manga-collab-trailer",
       "publisher": "Crunchyroll",
@@ -118,15 +116,6 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Suu Morishita's A Sign of Affection Manga Ends in 3 Chapters - News - Anime News Network"
-    },
-    {
-      "title": "Crunchyroll Streams My Hero Academia The Movie: World Heroes' Mission Anime",
-      "article_url": "https://www.animenewsnetwork.com/news/2026-11-20/crunchyroll-streams-my-hero-academia-the-movie-world-heroes-mission-anime/.244023",
-      "publisher": "Anime News Network",
-      "published_at": "2026-11-20T14:50:53+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Crunchyroll Streams My Hero Academia The Movie: World Heroes' Mission Anime - News - Anime News Network"
     },
     {
       "title": "'BanG Dream! Yume∞Mita' New Anime in Production",
@@ -183,15 +172,6 @@
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
     },
     {
-      "title": "Charisma Anime Welcomes Terra in Latest Character Trailer",
-      "article_url": "https://crunchyroll.com/news/latest/2026/11/19/charisma-anime-terra-character-trailer",
-      "publisher": "Crunchyroll",
-      "published_at": "2026-11-19T17:53:00+00:00",
-      "official_evidence": [],
-      "status": "aucune preuve officielle repérée — vérification humaine requise",
-      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
-    },
-    {
       "title": "'Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season' Reveals Additional Cast, Fourth Promo for \"Assassin\" Arc",
       "article_url": "https://myanimelist.net/news/74968286?_location=rss",
       "publisher": "MyAnimeList",
@@ -235,6 +215,33 @@
       "official_evidence": [],
       "status": "aucune preuve officielle repérée — vérification humaine requise",
       "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "Jujutsu Kaisen Ranks #4 on Bookscan's September Adult Graphic Novel List in U.S.",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-22/jujutsu-kaisen-ranks-no.4-on-bookscan-september-adult-graphic-novel-list-in-u.s/.244055",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-22T16:15:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Jujutsu Kaisen Ranks #4 on Bookscan's September Adult Graphic Novel List in U.S. - News - Anime News Network"
+    },
+    {
+      "title": "The Detective Is Already Dead Season 2 Anime Releases New Arc Trailer, Visual",
+      "article_url": "https://crunchyroll.com/news/latest/2026/11/22/the-detective-is-already-dead-season-2-anime-new-arc-trailer-visual",
+      "publisher": "Crunchyroll",
+      "published_at": "2026-11-22T06:00:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "Anime News, Top Stories & In-Depth Anime Insights - Crunchyroll News"
+    },
+    {
+      "title": "'Please Put Them On, Takamine-san' Manga Ends in January",
+      "article_url": "https://www.animenewsnetwork.com/news/2026-11-21/please-put-them-on-takamine-san-manga-ends-in-january/.244048",
+      "publisher": "Anime News Network",
+      "published_at": "2026-11-21T09:05:00+00:00",
+      "official_evidence": [],
+      "status": "aucune preuve officielle repérée — vérification humaine requise",
+      "page_title": "'Please Put Them On, Takamine-san' Manga Ends in January - News - Anime News Network"
     }
   ],
   "policy": "Le détecteur examine les liens HTML visibles vers une liste conservatrice de domaines de première partie, dont les portails KADOKAWA Animation japonais et international. ORICON / Japan Anime News est traité comme média professionnel de veille, pas comme source primaire officielle d'une annonce. L'absence de résultat ne prouve pas l'absence d'annonce officielle. Un lien repéré n'est jamais une validation automatique du fait : comparer séparément chaque date, format, studio, casting, nombre d'épisodes et territoire. Vérification humaine obligatoire."
