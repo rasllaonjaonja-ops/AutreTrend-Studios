@@ -1,35 +1,146 @@
 {
-  "generated_at": "2026-11-25T08:42:32.444511+00:00",
-  "count": 4,
-  "rejected_count": 123,
+  "generated_at": "2026-11-25T21:45:39.176922+00:00",
+  "count": 3,
+  "rejected_count": 126,
   "rejected_sample": [
     {
-      "title": "'Historie' Unveils Production Staff, Additional Cast, Theme Songs, Second Promo",
+      "title": "Haru to Gen Anime Reveals Theme Song in New Teaser Trailer",
       "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'Kakunaru Ue wa' Unveils Additional Cast, Theme Songs, Second Promo",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Migratory Birds & Snail TV Anime Debuts Next Summer",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "The Ramparts of Ice Season 2 Episode 23 Story & Preview Stills Released: Crossed Wires",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kindergarten Wars Anime Reveals April 2027 Premiere in New Trailer",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "At 25:00 in Akasaka Anime Adaptation Announced for 2027",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Now That We Draw Anime Releases New Trailer, Key Visual",
+      "reasons": [
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "My Happy Marriage Special Anime Review",
+      "reasons": [
+        "format critique/recap écarté du flux prioritaire",
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'Himekishi-sama no Himo' Reveals Supporting Cast, Second Promo",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Fool Night Anime Blossoms in Creditless Opening Video",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'At 25:00, in Akasaka' Boys-Love Manga Gets TV Anime in 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Manga '25-ji, Akasaka de' Gets TV Anime in 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré",
+        "aucun résumé exploitable dans le flux RSS"
+      ]
+    },
+    {
+      "title": "'Youchien Wars' Unveils Additional Staff, Main Promo, Opening Theme",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "The Kept Man of the Princess Knight Anime Reveals January 3, 2027 Premiere in New Trailer",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump",
+      "reasons": [
+        "score éditorial inférieur à 45/100"
+      ]
+    },
+    {
+      "title": "Migratory Birds And Snail Anime Premieres in Summer 2027",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "'Now That We Draw' Anime's New Video Unveils More Cast, Ending Song Artist, January 8 Debut",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "Historie Anime Reveals Premiere Date, Theme Songs in New Trailer",
       "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
+      "title": "Kindergarten Wars Anime's Video Reveals More Staff, ado's Opening Song, April Debut",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "The Kept Man of the Princess Knight Anime's New Video Reveals More Cast, Ending Song, January 3 Debut",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
     {
       "title": "'Haru to Gen ~70-sai, Hajimete Kosodate~' Anime's Teaser Reveals More Cast, Ending Song",
       "reasons": [
+        "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
     },
@@ -42,13 +153,6 @@
     },
     {
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Episode 10 Story & Preview Stills Released: Frightening Monsters, Part 2",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Supporting Cast for 'Cheat Fuyo' Announced",
       "reasons": [
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
@@ -76,6 +180,13 @@
       ]
     },
     {
+      "title": "Supporting Cast for 'Cheat Fuyo' Announced",
+      "reasons": [
+        "score éditorial inférieur à 45/100",
+        "source unique sans lien officiel repéré"
+      ]
+    },
+    {
       "title": "Live-Action 10 Things I Want to Do Before I Turn 40 Film's Trailer Reveals Theme Song",
       "reasons": [
         "score éditorial inférieur à 45/100",
@@ -95,115 +206,6 @@
         "score éditorial inférieur à 45/100",
         "source unique sans lien officiel repéré"
       ]
-    },
-    {
-      "title": "Frieren: Beyond Journey's End Novel Stories to Get Limited Manga Adaptation as Betsutan (Another Tale)",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Black Clover Season 2 Episode 9 Story & Preview Stills Released: Yuno Grinberryall",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "'Mahoutsukai no Yoru' Sequel Anime Announced",
-      "reasons": [
-        "score éditorial inférieur à 45/100"
-      ]
-    },
-    {
-      "title": "HIDIVE to Premiere Murciélago Anime at Anime Frontier Event in Texas",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Duel Masters Pure PLAY'S Manga Ends on November 30",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Cold World on Their Special Connection With Japan, Hardcore, and Anime",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Dragon Ball Super: Beerus is The God of Destruction at His Most Terrifying",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "All You Need Is Kill, Kaguya!, Grotesqqque, More Anime Confirmed Eligible for Oscars",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Jimoto no Ijimekko-tachi ni Shikaeshi Shiyoto Shitara, Betsu no Tatakai ga Hajimatta Anime Reveals Voice Actor Leads in 1st Trailer",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "The One. Later On... Anime Announced for 2027, Kent Ito and Yui Ogura to Star",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Twisted-Wonderland: Episode of Savanaclaw Anime's New Video Unveils Ending Song",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "Shozen Anime Reveals Kana Hanazawa as New Cast Member, Trailer and Key Visual",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "SHIBOYUGI Anime Sequel Confirmed, New Yuki Teaser Visual Revealed",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "A Tale of the Secret Saint Series Surpasses 5 Million Copies in Print",
-      "reasons": [
-        "score éditorial inférieur à 45/100",
-        "source unique sans lien officiel repéré"
-      ]
-    },
-    {
-      "title": "New BanG Dream! Yume∞Mita Anime Announced",
-      "reasons": [
-        "score éditorial inférieur à 45/100"
-      ]
-    },
-    {
-      "title": "The Detective Is Already Dead Season 2 Anime Releases New Arc Trailer, Visual",
-      "reasons": [
-        "score éditorial inférieur à 45/100"
-      ]
     }
   ],
   "filter_policy": "Score minimum 45/100, actualité de moins de 7 jours, priorité aux sujets recoupés ou reliés à une source officielle. Les recaps/critiques et signaux isolés faibles sont écartés. Maximum 15 sujets.",
@@ -211,7 +213,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-23/psyren-tv-anime-adds-6-cast-members/.244142",
       "title": "Psyren TV Anime Adds 6 Cast Members",
-      "score_indicatif": 61,
+      "score_indicatif": 56,
       "media_count": 3,
       "media": [
         "Anime News Network",
@@ -278,7 +280,7 @@
     {
       "trend_id": "https://us.oricon-group.com/news/9538/",
       "title": "Disney Twisted-Wonderland: Episode of Savanaclaw Reveals New Trailer and Ending Theme “DIADEM”",
-      "score_indicatif": 58,
+      "score_indicatif": 52,
       "media_count": 2,
       "media": [
         "Crunchyroll",
@@ -334,7 +336,7 @@
     {
       "trend_id": "https://www.animenewsnetwork.com/news/2026-11-24/witch-on-the-holy-night-anime-film-sequel-confrmed/.244151",
       "title": "Witch on the Holy Night Anime Film's Sequel Confrmed",
-      "score_indicatif": 50,
+      "score_indicatif": 45,
       "media_count": 2,
       "media": [
         "Anime News Network",
@@ -387,62 +389,6 @@
         }
       },
       "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : Witch on the Holy Night Anime Film's Sequel Confrmed\nExtrait RSS : 1st film earned 516 million yen in 1st 4 days\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Anime News Network, Crunchyroll\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
-    },
-    {
-      "trend_id": "https://us.oricon-group.com/news/9530/",
-      "title": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump",
-      "score_indicatif": 47,
-      "media_count": 2,
-      "media": [
-        "Crunchyroll",
-        "ORICON / Japan Anime News"
-      ],
-      "articles": [
-        {
-          "title": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump",
-          "title_language": "en",
-          "url": "https://us.oricon-group.com/news/9530/",
-          "source": "Japan Anime News – ORICON RSS",
-          "feed_sources": [
-            "Japan Anime News – ORICON RSS"
-          ]
-        },
-        {
-          "title": "Sakamoto Days Manga Ends in Weekly Shonen Jump",
-          "title_language": "en",
-          "url": "https://crunchyroll.com/news/latest/2026/11/22/sakamoto-days-manga-ends",
-          "source": "Crunchyroll News – RSS",
-          "feed_sources": [
-            "Crunchyroll News – RSS"
-          ]
-        }
-      ],
-      "official_evidence": [],
-      "editorial_status": "plusieurs médias — confirmation officielle requise",
-      "human_review_required": true,
-      "publication_allowed": false,
-      "title_language": "en",
-      "source_excerpt": "The manga SAKAMOTO DAYS has officially concluded after six years of serialization, with its final chapter published in issue 52 of Weekly Shonen Jump, released in print in Japan on November 24, 2026.",
-      "social_posts": {
-        "language_ready": false,
-        "translation_required": true,
-        "translation_note": "Titre ou résumé non francophone : traduction humaine/IA requise avant publication.",
-        "facebook": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQu'en pensez-vous ? Donnez votre avis en commentaire !\n\n#Anime #Manga #SAKAMOTO #DAYS #Ends\nSources à consulter : Crunchyroll, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://us.oricon-group.com/news/9530/",
-        "instagram": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nEnregistrez ce post et partagez votre avis !\n\n#Anime #Manga #SAKAMOTO #DAYS #Ends\nhttps://us.oricon-group.com/news/9530/",
-        "tiktok": "ACCROCHE : SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump\n\nSCRIPT À LIRE : [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nQUESTION : Vous en pensez quoi ?\n#Anime #Manga #SAKAMOTO #DAYS #Ends",
-        "x": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump — [RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE] #Anime #Manga #SAKAMOTO #DAYS #Ends",
-        "threads": "On vient de repérer cette actualité : SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nVous suivez cette série ?",
-        "youtube": {
-          "title": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Crunchyroll, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://us.oricon-group.com/news/9530/\n\n#Anime #Manga #SAKAMOTO #DAYS #Ends"
-        },
-        "telegram": "📰 SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump\n\n[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n\nSources à consulter : Crunchyroll, ORICON / Japan Anime News · recoupement officiel non établi\nhttps://us.oricon-group.com/news/9530/",
-        "pinterest": {
-          "title": "SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump",
-          "description": "[RÉSUMÉ EN FRANÇAIS À PRODUIRE APRÈS TRADUCTION ET CONTRÔLE]\n#Anime #Manga #SAKAMOTO #DAYS #Ends\nhttps://us.oricon-group.com/news/9530/"
-        }
-      },
-      "draft_fr": "BRIEF ÉDITORIAL — BROUILLON À VALIDER\n\nSujet : SAKAMOTO DAYS Manga Ends After Six Years in Weekly Shonen Jump\nExtrait RSS : The manga SAKAMOTO DAYS has officially concluded after six years of serialization, with its final chapter published in issue 52 of Weekly Shonen Jump, released in print in Japan on November 24, 2026.\n\nÉtat : plusieurs médias — confirmation officielle requise\nSources médias : Crunchyroll, ORICON / Japan Anime News\nTitre ou résumé non francophone : traduction humaine/IA requise avant publication.\nNe pas publier avant contrôle des faits et de la traduction."
     }
   ],
   "notice": "Déclinaisons sociales automatiques à partir des titres et extraits RSS. Pour les contenus non francophones, traduction requise. Contrôle humain obligatoire avant publication."
